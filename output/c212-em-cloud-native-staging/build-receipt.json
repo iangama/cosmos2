@@ -1,0 +1,11 @@
+﻿{
+    "cpp_sha256":  "109ae40b3bf03404d4353057d3bff32c66317e06cd0273b8215a4c22a97e9b97",
+    "dll_sha256":  "55889a509f8901c55c6ff135a24837627a04aca4c3e2d22c4a1e5d8a36fb6e79",
+    "policy":  "MSVC x64 Release /O2 /fp:strict /arch:AVX2 /openmp; CPUID/OS support checked;4 independent SIMD lanes with fixed source order and compensated sums per particle;1..8 caller-selected threads; no approximate reciprocal, fast math or FMA. Experimental helper, no scientific/native acceptance.",
+    "abi":  1,
+    "compiler_sha256":  "fe251ef50a1545b1b0835ee17b1e785459712b38d79e45b5c1d3d28970a36619",
+    "builder_sha256":  "cff3e50506b26841a00d8ffdd709ef6679a933facb9f802a57b356e534191c77",
+    "cmake_sha256":  "00204ea5508f280802b3ed40a45d22c6d23892b77f2bf3874991041b1ce779c8",
+    "schema":  1,
+    "compiler":  "C:\\Users\\Ian\\cosmos2\\.tooling\\vs-buildtools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"
+}

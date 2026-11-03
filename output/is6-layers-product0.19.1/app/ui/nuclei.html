@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cosmos2 · Acervo nuclear</title>
+<link rel="stylesheet" href="forces.css">
+<link rel="stylesheet" href="nuclei.css">
+<body>
+<header><a href="/" class="brand">COSMOS<span>2</span></a><div><b>Acervo nuclear</b><small>Massas e energia de ligação · AME2020</small></div><a class="back" href="/forces.html">Bancada de forças ↗</a></header>
+<main>
+  <aside>
+    <p class="eyebrow">MATÉRIA EM ESCALA NUCLEAR</p>
+    <h1>O que mantém<br>um núcleo ligado?</h1>
+    <p class="muted">Explore os estados avaliados por número de prótons e nêutrons. Compare a ligação por núcleon e consulte a incerteza de cada propriedade.</p>
+    <section><h2>Instrumento</h2>
+      <label class="field">Vista <select id="nuclear-view"><option value="chart">Carta de nuclídeos · N × Z</option><option value="binding">Ligação por núcleon · B/A × A</option></select></label>
+      <label class="effect-control"><input id="include-estimates" type="checkbox" checked> Incluir estimativas de B/A (#)</label>
+      <p class="muted">O filtro usa a origem da ligação por núcleon. As demais propriedades mantêm suas próprias flags.</p>
+      <label class="effect-control"><input id="compare-nuclei" type="checkbox"> Comparar o próximo núcleo selecionado</label>
+      <div class="nuclear-actions"><button id="fit-nuclei">Ver acervo inteiro</button><button id="focus-nucleus">Ampliar seleção</button></div>
+    </section>
+    <section><h2>Selecionar por composição</h2>
+      <form id="select-nucleus"><div class="composition-inputs"><label>Nêutrons N<input id="nuclear-N" type="number" min="0" max="177" step="1" value="30" required></label><label>Prótons Z<input id="nuclear-Z" type="number" min="0" max="118" step="1" value="26" required></label></div><button class="primary">Consultar estado</button></form>
+      <div id="nuclear-presets" aria-label="Estados de referência"></div>
+    </section>
+    <section><h2>Explorar processos</h2><a class="process-link" href="/forces.html#strong">Fusão de deutério e trítio ↗</a><a class="process-link" href="/forces.html#weak">Decaimentos e captura eletrônica ↗</a><p class="muted">Cada experimento tem condições e controles próprios. Selecionar um estado aqui consulta os dados avaliados.</p></section>
+    <a id="nuclear-energy-link" class="process-link" href="/nuclear-energy.html">Energias Q, separação e limiares ↗</a>
+    <div class="actions"><button id="save-nuclei">Salvar seleção</button><button id="load-nuclei">Retomar</button><button id="export-nuclei">Exportar dados</button></div>
+  </aside>
+  <article>
+    <p id="nuclear-restoration" class="restoration-note" hidden role="status"></p>
+    <div class="scene-heading"><div><p class="eyebrow">ACERVO AVALIADO · SEM EVOLUÇÃO TEMPORAL</p><h2 id="nuclear-title">Carta de nuclídeos</h2></div><span id="nuclear-count" class="catalog-count">Carregando…</span></div>
+    <div class="nuclear-figure"><canvas id="nuclear-canvas" tabindex="0" aria-label="Carta interativa de nuclídeos. Use a consulta N e Z ou os estados de referência para seleção por teclado."></canvas></div>
+    <div class="nuclear-help"><span id="nuclear-view-help">Arraste para mover · roda para ampliar · clique para selecionar</span><output id="nuclear-hover" aria-live="off"></output></div>
+    <div id="nuclear-legend" class="nuclear-legend"><span>Ligação por núcleon / MeV</span><i></i><span>−3</span><span>9</span><span class="estimate-key">□ Estimativa (#)</span></div>
+    <p id="selection-filter-note" class="muted" hidden></p>
+    <section class="nuclear-selection"><div class="selection-heading"><h2>Propriedades dos estados selecionados</h2><button id="clear-comparison" hidden>Remover comparação</button></div><div class="property-table"><table id="nuclear-properties"></table></div><p id="binding-comparison" class="comparison-reading"></p><p class="muted">Incertezas padrão tabuladas; correlações da avaliação não são propagadas. “Não calculável” e “ausente” são distintos de zero. A anotação de origem é preservada na exportação.</p></section>
+    <details open><summary>Modelo e alcance científico</summary><p>A energia de ligação avaliada inclui contribuições nucleares e eletromagnéticas. Ela não mede isoladamente a força forte e não determina a meia-vida ou a estabilidade de um estado.</p><p class="muted">N e Z são contagens, não posições de partículas. AME2020 inclui estados não ligados; esta carta mantém esses registros. Os estados isoméricos e as propriedades de decaimento exigem dados adicionais.</p><div id="nuclear-sources"></div></details>
+    <p id="nuclear-status" class="status" role="status">Carregando a tabela local AME2020…</p>
+  </article>
+</main>
+<script src="nuclei.js"></script>
+</body>
+</html>

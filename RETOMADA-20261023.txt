@@ -1,0 +1,1547 @@
+COSMOS2 — PASSAGEM ATIVA23/10/2026, IS-3 E PRÉ-REQUISITO C2-12/J
+
+AUTORIZAÇÃO
+Construção local contínua até cota5h OU semanal esgotada, bloqueio real,
+plano completo ou parada do dono. Em≤8% SALVAR E CONTINUAR; não parar cedo.
+Não delegar. Preservar Cosmos/Revenant, instalado3.13 e sessões do dono.
+Cotas só por python3 ../cosmos/scripts/check-codex-quota.py; nunca inferir
+por tokens/contexto/tempo. Documentar leitura antiga/indisponível.
+
+LER AGORA
+AGENTS.md; C2-12-DIAGNOSTICO-J-20261022.md somente seção final ativa e esta
+passagem. IS-3-JRM33-RESULTADO-20261023.md para o avanço solar. Não reler
+roadmap inteiro nem repetir suítes/perfis inalterados já aceitos.
+
+ATIVO — CONFERIR ANTES DE ABRIR ALGO
+Jaberta por start-c212-em-viewport-candidate.ps1 -Benchmark1080 -InspectCEF,
+execsession49767. Runtime.runtime-topic-cleanup; produto
+output/c212-em-viewport-product, armazenamentoJ próprio.
+Driver ATIVO: scripts/run-em-j-diagnostic-profiles-v2.py,execsession71392.
+Recibo vivo evidence/em-j-diagnostic-profile-sequence-20261023b.json.
+Primeiro potencialD c212jpotd, logoutput/em-j-diagnostic-c212jpotd-capture.log;
+depois nuvemB c212jsrcb SOMENTE se captura+auditorD passarem. Para na primeira
+recusa/incompletude. Rota1D completou4499frames,p9517,0782ms,p9918,1682ms,
+0>100ms,taxa0,99859; ainda não é aceite do perfil inteiro. Rota2 em andamento.
+NÃO iniciar outro perfil/app, não fazer testes pesados durante as capturas.
+Não promover. Consultar driver/logs antes de retomar; fases rodam por minutos.
+
+Fechamento normal: engine-command.py openspace.toggleShutdown(); aguardar
+launcher. openspace.quit NÃO EXISTE. CEF8088 SOMENTE scripts/cef_page.py.
+
+O QUE MUDOU EMJ — PRODUTO/MOTOR INALTERADOS
+J128 c212j128a aceito e NÃO repetido. PotencialA recusado(API3,249s),
+potencialB incompleto(coletor genérico semsnapshot da recusa); nuvemA
+recusada por taxa/quadros/pausa. Não atribuir retrospectivamente uma causa.
+
+Coletores-diagnostic preservam todos os predicados, guardam snapshot e cada
+predicado no instante da recusa.39fixturesWindows passaram. Preflightreal
+jpdiag20261023a: potencial3rotas×3WDDM passou, recusa provocada guardou
+snapshot/somenteexpected_worker=false. Ageral ficouaccepted=false porque o
+HARNESS enviou campos extras aopausecloud. Corrigido só o harness; B
+--familycloud passou3rotas×3WDDM e recusa real exata, sem refazer potencial.
+Refs evidence/em-native-preflight-jpdiag20261023{a,b}.json.
+
+ForksV1 de runners/auditores só mudam nomes dos coletores; AST/texto iguais
+fora dessas substituições. TentativaformalC c212jpotc parou no primeiro
+pontoRAM: helper extraído emIS2 exigeproduct_memory(session), runner antigo
+chamava sem argumento. Cpermanececompleted=false. Fontes169arquivadas
+DEPOIS da falha, todasiguais aos hashes prévios; recibo
+native-em128-c212jpotc-source-recovered.json explicita esse momento.
+Nenhum resultado de perfil inventado/aceito. Captura restante do motor foi
+encerrada; driverV1terminou e não roda.
+
+V2: novos runners-diagnostic-v2.py passam a sessão explicitamente. Helper,
+originais eV1 preservados. AST/texto iguais aosoriginais ao reverter a
+substituição de nomes e esse argumento; todos os limites mantidos.
+evidence/em-diagnostic-profile-forks-v2-20261023.json. ChamadaWin32 real
+passou3vezes, incluindo4PIDsesperados e soma exata:
+evidence/em-diagnostic-memory-call-20261023.json. DriverV2só começou após
+esse teste e os preflights. Auditores-diagnostic têm os critérios originais.
+
+SOLARIS3 — FECHADA NORMALMENTE, NÃO PERDER
+output/is3-tides-product, armazenamento própriogravity-sessions.
+Últimaabertura solar: launcher15620 terminou normalmente. Antes deJ, UI
+estava noAtlas, época original e checkpoint saudável restaurados.
+Nenhuma promoção nem alteração emoutput/is12-solar-product/instalado3.13.
+
+Maré externa integrada:72Decimal,25guards,worker e jornada nativaB aceitos.
+IGRF14 ligado àTerra399evoluída/ET0+t/ITRF93→J2000→GALACTIC:58BGS+
+30pontos/épocas,worker25recusas,nativa100/150passaram. DomínioEOP2000–
+2027-01-18,últimodatum2026-10-22,trecho posterior rotulado previsão.
+Recibos is3-earth-field-check/is3-earth-worker/is3-native-earth-20261023a.
+Contrato IS-3-IGRF-CONTRATO.md e detalhes IS-3-RESULTADO-20261023.md.
+
+JRM33AGORA INTEGRADO À CENA
+Síntese própria:160casosPSH, grau1,polos,potencial,9recusas; dadosPDS
+JRM33.MOD maiúsculas,960internos/3externos separados,13padrão/18exploratório.
+Campoestático2019; semSV/correntesexternas. MapasPNG/PDF/SVG próprios
+emoutput/is3-jrm33-figures-20261023; não são observações nem incerteza.
+
+Orientação: LASPv12 associaS3RH aIAU_JUPITER; oito grupos completosPCK10/
+PCK11 idênticos,15ângulos/precessão incluídos. AquisiçãoB passou; Aparser
+incluía exemplos textuais e ficou incompleta. Wrapper usa centro599EVOLUÍDO,
+épocaET0+t, longitudeLESTE e raio geocêntrico1..20Rj(71.492.000m).
+Aplicação2000-01-01..2030-01-01 inclusive, sem alegar domínio observacional.
+72casos(rotaçãoindependente≤7,93e−12,posição66,3µm,norma2,17e−19T),worker
+29recusas e jornada nativa100/150passaram. Fontes/pool/Atlas/owner intactos.
+Refs evidence/is3-jupiter-field-check/is3-jupiter-worker/is3-native-jupiter-
+20261023a.json. Contrato IS-3-JRM33-ORIENTACAO-CONTRATO.md e relatório
+IS-3-JRM33-RESULTADO-20261023.md. Não repetir inalterados.
+
+API /api/solar/jupiter-field; UI raioRj/latplanetocêntrica/longitudeLESTE/grau.
+IGRF/JRMnãoaplicamforçaemcentrosneutros. Leituras/parâmetros locais não são
+checkpointpersistidos; recargaCEF limpa derivados. Geraçãois3-body-fields0.3
+incluihashesdedados/código/PCK/LSK/recibos; checkpointantigo abregeraçãoalterada.
+
+VISUAL CONTINUAPARCIAL: marcadores ciano ampliados, sem linhas/vetoresB
+nativos. CapturaJRM150originalsem marcador; diagnóstico4focos alternando
+100/150mostroucâmeraestável/Enabled/raio e marcadorvisível depois. Não
+atribuircausa ainda nem declarar aceitevisualfinal.
+
+PRÓXIMA FATIA PREPARADA, AINDA NÃO TESTADA/NÃO INTEGRADA
+IS-3-VETOR-NATIVO-CONTRATO.md e output/is3-body-vector-staging/
+body_field_geometry.py,body_field_scene.py. Uma setaB deamostrafixa,
+comprimentográficoconstante0,3R; gradeWGS84Earth/esferareferênciaJRM,
+semforça/linhadecampo inferida, sem arrastar após evolução. Esconder
+marcadorampliado apenas do corpo e restaurar política ao ocultar camada.
+Script scripts/verify-body-field-geometry-staging.py está escrito mas NÃO
+EXECUTADO. Executar após driverJ terminar, se não houver problemaJmaisurgente.
+Usa102leituras já validadas(30Earth+72Jupiter),analíticos,serialização e
+quantização. NÃO afirmar aceite antes do recibo. Ainda nenhuma mudança na
+candidataIS3 para essa geometria. Integração nativa condicionada à conclusãoJ.
+
+IS12PRESERVADA — NÃO REPETIR
+PropagaçãoB30dias/121amostras versusDOP853 auditada separadamente;
+runneroriginalincompleto não reescrito. Errocomponente0,682122mm,
+refinamento0,113687mm,invariância≤0,455mm. JornadaC/D,restartcompleto e
+perfilnativoBaceitos:3×60s,p95máx14,4681ms,p99máx15,0181ms,0>100ms,
+taxa≥1,00023,RAM1,0252GiB,GPU2,9758GiB. PerfilArecusado por pausas do
+transportedo própriorunner; BWS persistente. ComparaçãoJPLé errodemodelo,
+nãointegrador:Terra574,671km,Júpiter2212,741km30d;Lua–Terra3,473km.
+Detalhes IS-12-RESULTADO-20261023.md e recibos próprios, sem herdar paraEM.
+
+COTA ATUAL AO SALVAR
+{"status": "ok", "remaining_percent": 43.0, "window_minutes": 300, "observed_at": "2026-10-23T21:46:38.242Z", "resets_at": 1792809154.0, "weekly": {"status": "ok", "remaining_percent": 91.0, "window_minutes": 10080, "observed_at": "2026-10-23T21:46:38.242Z", "resets_at": 1793395954.0}, "summary_due": false, "exhausted": false}
+
+SESSÃO ATUAL AO SALVAR
+{"emCloudNativeCandidate": true, "cache": null, "runtimeSelectionReason": "explicit-unapproved-EM-viewport-and-scene-layout-candidate", "app": 10684, "emIntegrationCandidate": true, "emKernelVersion": "0.4.0", "emPotentialCandidate": true, "emCandidate": true, "emCloudEditorCandidate": true, "emCloudCandidate": true, "emFramingCandidate": true, "emTopicCleanupCandidate": true, "coldCache": false, "runtimeVariant": "topic-cleanup", "offline": false, "emViewportCandidate": true, "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\c212-em-viewport-product\\app\\server.py", "server": 33296, "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-topic-cleanup", "cloudCandidate": false, "emTimeCandidate": true, "started": "2026-10-23T21:34:09.4208533Z"}
+
+ATUALIZAÇÃO21:55UTC — SUBSTITUI O ESTADO ATIVO ACIMA
+Driver71392terminou:potencialD e nuvemB PASSARAM auditorias, sequência23/10b
+accepted/completed=true. Jfechou normalmente, launcher49767terminou.
+Refs native-em128-c212jpotd-review.json e native-emcloud-c212jsrcb-review.json.
+Não repetir nem herdar para campos planetários.
+
+GeometriaSTAGING PASSOU102leiturasIGRF/JRM,6vetoresanalíticos,6recusas,
+matrizEuler4,45e−16,quantização≤3,83e−7R: evidence/is3-body-field-geometry-
+check-20261023a.json. A candidata solar não foi alterada para essa geometria.
+Próximo: abrir/usarIS3 eexecutar scripts/verify-native-body-field-prototype.py
+--label20261023a. Esse harness cria camadas temporárias usando APIatual,
+confirma centro/ponto no motor,captura100/150 e limpa; nãoé UIpersistente.
+Código já escrito, AINDA NÃOEXECUTADO. RequerseqJaceita egeometriastagingaceita.
+Cota20%5h/87%semana,observed2026-10-23T21:55:38.163Z.
+
+CONTINUAÇÃO — TESTE NATIVO TEMPORÁRIO EM SOLAR
+Jconfirmadafechada, driver71392terminadoaceito. Solarabertacom
+start-is3-tides-candidate.ps1,execsession86810,app33696/server19608.
+Nenhuma capturaformal de desempenho emcurso.
+
+Geometria102casosstagingpassou. Protótipo nativoA20261023a recusado por
+assert1mmemsubtraçãodecoordenadasMUNDIAIS:LabRoot temoffset1e14m,ULP1,5625cm.
+Contrato esclarecido:1mmlocalcontinua;boundmundialporcomponente é
+ULP(pontoWorld)+ULP(frameWorld)+1mm, fixado antesdeB. Nenhuma mudançamodelo.
+Bpassoucentrolocal/pontolocal/boundmundial, mas HARNESS usou#samples_s noLua
+para contar tabela com chavesstring; deu0. Nãoéprova deausênciadequadros.
+Bpreservadoaccepted=false. Fixado para capture_samples explícito, como os
+runnersnativosanteriores. C20261023c seráexecutado agora.
+
+A/B limparam nós temporários/restauraram marcadores, porémficaram emmodo
+experimento. HarnessatualvoltaAtlasnopreparoinicial. Nãoalterou produtoIS3.
+Próximo: concluirC,REVERquatroPNGcapturados,registrar resultado; continuaraté
+cota0. UIpersistente vetornãoimplementada. Códigoestágio/protótipo sóbancada.
+{"status": "ok", "remaining_percent": 9.0, "window_minutes": 300, "observed_at": "2026-10-23T21:57:15.778Z", "resets_at": 1792809154.0, "weekly": {"status": "ok", "remaining_percent": 86.0, "window_minutes": 10080, "observed_at": "2026-10-23T21:57:15.778Z", "resets_at": 1793395954.0}, "summary_due": false, "exhausted": false}
+
+CHECKPOINT8%—passagemsalva,CONTINUARATÉ0.
+ProtótiponativoC: {"accepted": true, "completed": true, "failure": null, "runs": 2, "captures": ["evidence/cosmos2-is3-vector-20261023c-igrf14-100.png", "evidence/cosmos2-is3-vector-20261023c-igrf14-150.png", "evidence/cosmos2-is3-vector-20261023c-jrm33-100.png", "evidence/cosmos2-is3-vector-20261023c-jrm33-150.png"]}
+ImagensC ainda precisam revisão visual; não afirmar aceite visual sem vê-las.
+Execsession56652; consultar término. Solar86810ativa.
+{"status": "ok", "remaining_percent": 7.0, "window_minutes": 300, "observed_at": "2026-10-23T21:57:48.927Z", "resets_at": 1792809154.0, "weekly": {"status": "ok", "remaining_percent": 85.0, "window_minutes": 10080, "observed_at": "2026-10-23T21:57:48.927Z", "resets_at": 1793395954.0}, "summary_due": true, "exhausted": false}
+
+ATUALIZAÇÃO FINAL DA BANCADA — SUBSTITUI PRÓXIMOS PASSOS ANTIGOS
+Cterminouaccepted/completed=true na confirmaçãoMECÂNICA,exec56652terminou.
+QuatroPNG REVISTOS:100%grade+ponto+setavisíveis;150%Earthsome/Jupiterparcial
+semsetarótulo. ACEITEVISUAL RECUSADOem
+evidence/is3-native-body-vector-20261023c-visual-review.json. Ler
+IS-3-VETOR-NATIVO-RESULTADO-20261023.md. NÃOchamarfeatureintegrada.
+
+PRÓXIMOEXATO:diagnósticofocado100/150,mesmacena/câmera,gravar matrizes/
+posições/Enabled/opacityantes/depois ecompararCEFvisível/oculto. Código
+stagingcientífico não mudou; não repetir102casos/IGRF/JRM/worker/perfisJ.
+Solar86810ativa(app33696/server19608),UIAtlas,épocaoriginal,semcamadas
+temporárias. Nenhumbenchmarkformalrodando. PróximofeaturehookUIpende desse
+defeitovisual. JpotencialD e nuvemBaceitos,nãorepetir.
+{"status": "ok", "remaining_percent": 4.0, "window_minutes": 300, "observed_at": "2026-10-23T21:58:15.979Z", "resets_at": 1792809154.0, "weekly": {"status": "ok", "remaining_percent": 85.0, "window_minutes": 10080, "observed_at": "2026-10-23T21:58:15.979Z", "resets_at": 1793395954.0}, "summary_due": true, "exhausted": false}
+
+NOVA JANELA24/10UTC — continuação do dono, não encerrar em marcos.
+Telemetria renovou100%5h/84%semanal às02:36:59UTC; leituras1%antigasnãoatuais.
+Solar86810continuouaberta,app33696/server19608 confirmado.
+Diagnósticoescala evidence/is3-native-scale-diagnostic-20261024a.json passou
+confirmaçãomecânica. MesmaEarth/câmera/Enabled/opacity; todosCEF-onmostram
+geometriainclusive150; CEF-offsome. Escala nãoéfatormaisúnico.
+CapturainternaMotorversusPrintWindowtambémconfirmougeometriaparcial
+comCEF-off, portanto nãoéapenasartefatodoPrintWindow. Refs
+is3-native-capture-diagnostic-20261024a.json e PNGs-engine-0.
+Hipótesedeestadodeprofundidade/oclusão, AINDAsemcausafinal.
+ATIVO: diagnose-native-body-field-grid.py --label20261024a (exec17872)
+comparaLabGridEnabled×CEFVisible namesmacena, capturainternaejanela.
+Consultarrecibo is3-native-grid-diagnostic-20261024a.json antesdenovos
+testes. Nenhumproduto/runtime alterado; nãoexistemcamadaspermanentes.
+{"status": "ok", "remaining_percent": 83.0, "window_minutes": 300, "observed_at": "2026-10-24T02:39:58.853Z", "resets_at": 1792827420.0, "weekly": {"status": "ok", "remaining_percent": 82.0, "window_minutes": 10080, "observed_at": "2026-10-24T02:39:58.853Z", "resets_at": 1793395954.0}, "summary_due": false, "exhausted": false}
+
+CORREÇÃO24/10 — SUPERSEDE A RECUSA VISUAL POR DESAPARECIMENTO
+A leitura inicial das prévias reduzidas estava errada. Comparação exata da
+região central850×700 dá RGBAIDÊNTICO em100/150 tanto paraEarth quantoJupiter;
+diferençaRGBmáximaZERO. ROIda seta ampliada confirma aparência igual.
+Prova evidence/is3-visibility-pixel-comparison-20261024a.json e figura
+output/is3-visibility-forensic-20261024/comparison.png. Recibo de correção
+is3-native-body-vector-20261023c-visual-correction-20261024.json substitui a
+conclusão anterior; originais preservados. Não hábase para corrigir renderer.
+Voltar a integrar controles/lifecycle do vetor na candidata. A bancada
+temporária passou, masfeaturepersistente e desempenho próprio ainda pendem.
+BuildGLdiagnóstico opt-in em runtime separado foi preparado sem correção
+gráfica; não promover nem usar para justificar hipótese refutada. Assim que
+stager terminar, restaurar quatro fontes e remover apenas header novo a
+partir de output/render-state-diagnostic-staging/before epreparation.json,
+preservandoartefato diagnóstico e runtimes medidos.
+
+ATIVO24/10 02:57UTC — CONTROLES INTEGRADOS EM NOVA CANDIDATA
+Ler IS-3-VETOR-CONTROLES-RESULTADO-20261024.md. Suposto desaparecimentofoi
+erro de leitura de prévias; RGBA central850×700 idêntico100/150 emEarth/Jup.
+Prova e correção preservadas. Não mexer no renderizador por essa hipótese.
+DiagnósticoGLcompilou,stagingfalhouduasDLLs,nãorodou;FONTESRESTAURADAS,
+headerremovido. Closureemoutput/render-state-diagnostic-staging/closure.json.
+
+Ativaagora output/is3-body-vector-product,storageprópria,launcher
+scripts/start-is3-body-vector-candidate.ps1,execsession86383. BaseIS3intacta.
+JornadanativaAcriação/substituição100/150/recusaspassou;Ageralincompleta por
+innerTextdepainelcolapsado noHARNESS. Bcontinuousomentepartespendentes,
+passoureload/máscara/políticaatualdeR/evoluçãofixa/restore/Atlas. Semfixproduto
+entreA/B. Resumoaceito evidence/is3-body-vector-native-journey-summary-20261024.json.
+
+PERFILATIVO:benchmark-body-vector-native.py --label20261024b,exec47275.
+Recibo evidence/is3-vector-profile-20261024b.json. NÃOtestespesadosconcorrentes.
+Doiscasos IGRF/JRM,30swarm+60sjanela,3vistas20s,66WDDMcadacaso. Ritmo0.1
+CANÔNICO,suportadoproduto;taxamínimanormalizada0.9,frames/recursosinalterados.
+A20261024a foi recusada ANTESdecapturar por pedir0.001nãosuportado, preservada.
+Layeréamostrafixainicial;gravitaçãoevolui,semnovasconsultas/out-of-domain.
+PRÓXIMO:aguardarterminoB;secompletedtrue executar
+scripts/audit-body-vector-native-profile.py --label20261024b. Se falhar,
+inspecionarsemrepetircegamente. NãorepetirJ/IS12ou102geometriasaceitas.
+Apósperfil:revisarcapturascontrolesA comROIsRGB original,registrar resultado,
+checar migração de checkpointIS3antigo emcópiaisoladaseaindapendente.
+Prosseguiratécota0,bloqueioreal/plano completo/paradadodono.
+{"status": "ok", "remaining_percent": 13.0, "window_minutes": 300, "observed_at": "2026-10-24T02:58:24.931Z", "resets_at": 1792827420.0, "weekly": {"status": "ok", "remaining_percent": 71.0, "window_minutes": 10080, "observed_at": "2026-10-24T02:58:24.931Z", "resets_at": 1793395954.0}, "summary_due": false, "exhausted": false}
+
+RETOMADA24/10 11:36UTC — SUBSTITUI ESTADO ATIVO ANTERIOR
+Nenhum OpenSpace/Python ativo noWindows. Perfil20261024b terminou duas
+janelas; auditor próprio PASSOU sem repetir: p95máx14,597ms,p9915,023ms,
+0>100ms,RAM1,03108GiB,GPU2,96039GiB,ritmonormalizado>=1,00020.
+Refs evidence/is3-vector-profile-audit-20261024b.json. Revisão quatroPNG
+dos controles passou: RGBA950x720idêntico100/150,recortes ampliados vistos.
+Refs is3-body-vector-controls-visual-review-20261024.json. Migração antiga
+em cópia passou fase binária exata/leituras/passividade/preservação:
+is3-vector-migration-20261024.json. Nenhuma promoção ou produto alterado.
+Próximo: linhasB3D emstaging com contrato antes dos testes, mesmos modelos
+e domínios explícitos; completar capacidades lunar/solar e persistência depois.
+Telemetria93%5h/67%semana observada2026-10-24T11:36:25.975Z.
+
+CONTINUAÇÃO24/10 — LINHASB0.5INTEGRADAS
+Ler IS-3-LINHAS-RESULTADO-20261024.md e contrato correspondente.
+Ciência staging aceita:30curvasDOP853,analíticos,200geodéticos,45adaptador,
+17recusas. ErrorODEmáx1,66109e−8R. NativaA20261024aPASSOU lifecycle,
+controles,5meshes,recarga,guardas,fixonaevolução,restorelimpa,Atlas.
+QuatroPNGrevistos;RGBA950x720idêntico100/150,linhas/setaslegíveis.
+Nova candidata output/is3-body-lines-product/storageprópria ativa,
+launcherexec4405,app31836/server4240,basevetor0.4preservada.
+PERFILATIVO scripts/benchmark-body-lines-native.py --label20261024a,
+exec42233,recibo evidence/is3-lines-profile-20261024a.json. Não iniciar
+testes pesados concorrentes. Apóscompletedtrue rodar auditor próprio
+scripts/audit-body-lines-native-profile.py --label20261024a.
+Próximo depois do perfil: persistência visual/exportação e visibilidade
+independente; mapas/cortes e IS4 ainda pendentes. Nenhuma promoção.
+Telemetria74%5h/64%semana em2026-10-24T11:42:20.831Z.
+
+ATUALIZAÇÃO24/10 — PERFIL DE LINHAS ACEITO
+PerfilAincompleto:exec42233retornou143semfalhafinal;semrunner/coletor,
+appvivo. Captura parcial recuperada,causanãoestabelecida. NãoaceitarA.
+PerfilBmesmoproduto/limites completou eAUDITORPASSOU:
+is3-lines-profile-audit-20261024b.json;p95máx14,2618ms,p9914,6990ms,
+0>100ms,RAM1,02873GiB,GPU2,95844GiB. Não repetir baseaceita.
+Persistência staging PASSOU16roundtrips/31recusas; refs
+evidence/is3-view-check-20261024a.json,contrato
+IS-3-VISUAL-PERSISTENCIA-CONTRATO.md. AINDA semSession/worker/native.
+Próximo: nova candidata0.6 para integrar checkpoint atômico/ramos,
+visibilidadeindependente/exportação. Fechar0.5normalmenteantesdeabrir0.6.
+Telemetria56%5h/62%semana observada2026-10-24T11:48:02.197Z.
+
+ATIVO24/10 — PERSISTÊNCIA0.6E PERFIL LIGADO/DESLIGADO
+Ler IS-3-VISUAL-PERSISTENCIA-RESULTADO-20261024.md. Nova candidata
+output/is3-body-view-product,storageprópria. Bases0.4/0.5preservadas.
+Metadados16roundtrips/31recusasPASSOU. Session/worker16combinações,
+8recusas,migração0.5,ramo/workerrestartPASSOU por resumoB+C.
+CEF nativaA+B PASSOU checkboxindependente,save/loadoculto,ramo,exportação,
+JRMgrau18amostraantiga,formulários,Atlas. Restartmotor/servidorB PASSOU.
+Imagensrevistas;RGBA950x720max1/20pixels,semalteração geométrica.
+Sem promoção. Instalações,baseeownerpreservados.
+
+PERFILATIVO scripts/benchmark-body-view-native.py --label20261024a,
+driverWindowsseparado output/is3-view-profile-20261024a-driver.json,
+exec83145. App/servidor novos emoutput/session.json,launcherexec56526.
+4×(30swarm+60s),Terraon/off,Jupiteron/off,3vistas,66WDDMcada.
+NÃOtestespesadosconcorrentes/NÃOalterarfontes. Secompletedtrue rodar
+scripts/audit-body-view-native-profile.py --label20261024a.
+Após:verificarconfiguraçãosalva após removercorposelecionado+reloadCEF;
+apenaspreocupaçãoapontadaemcódigo,nãofalhamedidaainda. Mapas/cortes depois.
+Telemetria27%5h/57%semana observada2026-10-24T11:55:03.434Z.
+
+CHECKPOINT8%24/10 — PASSAGEM SALVA, CONTINUAR ATÉ0
+Perfil0.6A TERMINOU INCOMPLETO, sem runner/coletor: primeirajanelaEarthon
+completou; segundaEarthoffguardouSGCTbruto em pending_run.capture masWDDM
+recusou: NOVOPROCESSOFILHO durantecoleta. Fonte/limitesinalterados.
+Recibo evidence/is3-view-profile-20261024a.json e loggpu-collector-2.log.
+NÃOauditarcomoaceito/NÃOrepetircegamente. Coletor não guardou snapshotdo
+filho desconhecido; não é possívelatribuirPID/causaretroativamente.
+Próximo desempenho: forkdiagnóstico do coletor preservando TODOSpredicados,
+guardar inventárioinicial/final/filhonovo e amostrasmesmoemrecusa; preflight
+antesdeeventualperfil. App0.6continuaativo,phasepausadapelo finally.
+
+Mapas/cortesSTAGING PASSARAM evidence/is3-body-maps-check-20261024a.json:
+2modelos,casca19x37,corte65x65mascarado,mesmosprovedores,9recusas.
+FigurasPNG/PDF/SVG emoutput/is3-body-maps-check-20261024a.
+AINDAprecisamrevisãoPNGoriginal; nãointegradosàUI/nativa/persistência.
+ContratoIS-3-MAPAS-CONTRATO.md,códigooutput/is3-body-maps-staging.
+Preocupação comconfigsalvaapósremovercorpo aindaesperatestedirigido;
+nãoalterarbase0.6medidasemguardarfontes/isolarnovacandidata.
+Telemetria8%5h/54%semana2026-10-24T12:00:27.807Z. CONTINUAR.
+
+FECHAMENTO24/10 — SUBSTITUI TODOS ESTADOS ATIVOS ANTERIORES
+Última telemetria:0%5h/53%semanal, observed2026-10-24T12:02:07.635Z,
+STATUSSTALE/exhaustedfalse. Não afirmar cota vigente conhecida nem tratar
+esta leitura0como renovação. Verificar telemetria na próxima retomada.
+
+NOVO: diagnóstico isolado CONFIRMOU seleção de corpo removido retida em
+state.body_field_view na0.6. Recibo is3-view-topology-diagnostic-20261024a.json.
+Correção em NOVA candidata output/is3-body-view-topology-product0.6.1,
+base0.6preservada. Preparação is3-view-topology-candidate-prepared-20261024.
+Teste isolado PASSOU remoção selecionado/outro e save/load fase exata:
+is3-view-topology-check-20261024b.json. AINDA NÃO ABERTA/NÃO TESTADA NA CEF.
+Launcher scripts/start-is3-body-view-topology-candidate.ps1 preparado.
+
+Coletor diagnóstico scripts/collect-gpu-memory-diagnostic.ps1 preparado:
+corpo original verbatim dentro de try/catch, mesmos predicados; snapshot
+inventários/amostras/filhos no instante da falha. Original intacto.
+Recibo is3-gpu-diagnostic-fork-prepared-20261024.json; parserPowerShellPASSOU.
+PRELIGHTREAL/RECUSA PROVOCADA AINDA PENDENTES. Não rodar perfil cego.
+
+Mapas staging PASSARAM ciência; figurasB PNG REVISTAS em resoluçãooriginal,
+com altura1kmTerra/raio2Rj/grau18Júpiter, frame/época/mascara explícitos.
+output/is3-body-maps-figures-20261024b e recibo correspondente. DadosSI dos
+mapasA intactos. Ainda sem integraçãoUI/nativa/persistência/perfil dos mapas.
+
+SESSÃO:0.6 continua aberta,launcherexec56526,processos emoutput/session.json;
+pausada pelo finally do perfil INCOMPLETO0.6A. NÃO há benchmark ativo.
+0.6.1 não foi aberta. Próximo exato: fechar0.6normalmente e abrir0.6.1;
+verificar remoção do corpo selecionado+reloadCEF em cópia própria, sem
+alterar registros/candidatas medidos. Depois preflight do coletordiagnóstico
+com predicados originais e snapshot de recusa antes de novo perfil0.6.1.
+Não herdar perfil0.5;0.6A é incompleto e não aceito. Mapas integração depois.
+Nenhuma promoção. Cosmos/Revenant/instalado3.13/sessões do dono preservados.
+
+NOVA JANELA CONFIRMADA — 2026-10-24T16:39:01.437Z:99%5h/53%semanal,statusOK. Pedido Continue mantém trabalho contínuo. Leitura0stale anterior não é atual. Retomando teste nativo0.6.1 e diagnósticoGPU; sem delegação.
+
+CONTINUAÇÃO NOVA JANELA — ESTADO SUBSTITUI FECHAMENTO ANTERIOR
+0.6 fechou normalmente.0.6.1 aberta por start-is3-body-view-topology-candidate,
+exec99677; sessão corrente emoutput/session.json. Nativa topologia PASSOU
+remoção outro/selecionado, reloadCEF, seleção válida e save/load fase exata:
+evidence/is3-native-view-topology-20261024a.json. Base0.6preservada.
+Coletor diagnóstico preflight PASSOU3WDDM e recusa real por filho novo,
+guardando5amostras/inventários/novoPID. Worker descartável32corpos foi
+substituído intencionalmente, sem salvar ou alterar checkpoint/owner.
+Refs is3-gpu-process-preflight-20261024a.json; corpo original do coletor
+verbatim dentro de try/catch, TODOSpredicados preservados.
+
+Perfil0.6.1A incompleto: durante janela1 um comandoAtlas foi enfileirado
+73,6s após resume, origem/ator desconhecidos. Não concluir falha espontânea
+do renderer. Camada removida pelo lifecycle normal. Captura/trace preservados
+em is3-view-topology-profile-20261024a-interruption.json. Sem aceiteA.
+
+PERFIL ATIVO0.6.1B: scripts/benchmark-body-view-topology-guarded.py
+--label20261024b,exec25634,driverJSON/logs output/is3-view-topology-profile-
+20261024b-driver.*; recibo evidence/is3-view-topology-profile-20261024b.json.
+CEF body.inert somente warmup/janelas, interface segue renderizada; inputs
+restaurados antes de controles e nofinally. Física/limites/produto intactos.
+Quatro janelasEarthon/off,Jupiteron/off;2Earthcompletaram, restante pendente.
+NÃOtestes pesados/alterações concorrentes. Após completedtrue executar
+scripts/audit-body-view-topology-guarded-profile.py --label20261024b.
+
+PRÓXIMA FATIA0.7 PREPARADA EM ARQUIVOS, AINDA NÃO EXECUTADA
+Contrato IS-3-MAPAS-NATIVOS-CONTRATO.md; staging body_field_map_geometry.py
+e body_field_map_layer.py, ao lado da ciência de mapas já aceita. Verificador
+scripts/verify-body-map-geometry-staging.py escrito mas NÃO EXECUTADO;
+rodar após perfil. Preparer scripts/prepare-body-maps-candidate.py escrito
+mas NÃO EXECUTADO; exige geometria aceita e auditor0.6.1B aceito.
+Plano concreto: casca/corte por símbolosSI,8faixas|B| e legendaµT; sonda de
+célula usada na cor, índices/visibilidade persistidos, novos nós emrestore.
+Nenhuma alteração0.6.1 durante perfil, nenhuma promoção.
+Telemetria71%5h/48%semana em2026-10-24T16:49:57.382Z.
+
+ATUALIZAÇÃO17:07UTC — ESTADO ATUAL SUBSTITUI PERFIL ATIVO ANTIGO
+Perfil0.6.1B COMPLETO E AUDITADO ACEITO:4janelas on/off, p95máx14,8609ms,
+p99máx15,3030ms,0>100ms,RAM1,08404GiB,GPU2,96039GiB. GuardCEFtemporário.
+Refs is3-view-topology-profile-audit-20261024b.json. NÃO repetir inalterado.
+Mapas0.7 preparados: output/is3-body-maps-product, storageprópria; ciência,
+geometria4casos e checkpoints8combinações/10recusas PASSARAM.
+Refs is3-map-geometry-check-20261024a.json,is3-map-checkpoints-20261024a.json.
+Nativa0.7A INCOMPLETA:3casos passaram,8PNG capturados AINDASEMREVISÃO;
+engineCRASH ao limpar cortejoviano4. Recibo is3-native-body-maps-20261024a.
+Preservados logs/trace/dumpSHA emoutput/is3-native-maps-crash-20261024a.
+App/servidor encerrados; nenhum perfilativo. Não afirmar mapsintegradosaceitos.
+
+CAUSA EM INVESTIGAÇÃO COM EVIDÊNCIA FORTE DE LIFETIME
+Último corteUUID1c663122b9804ae4a35fe1cb3b687001:bin0 iniciouCPU, não terminou
+antes da remoção; depoisdelete engine iniciaGL comidentifier vazio, crashAMD.
+FonteSceneInitializer mantém ponteiro cru na fila; Lua_remove destruía sem
+cancelar nem esperar. ThreadPool.hasOutstandingTasks só vêfila, nãoexecução.
+NãoatribuirculpagenéricaaoGPU nem à ciência; bug de ciclo de vida identificado.
+
+CORREÇÃOCPP EM PREPARAÇÃO/BUILDSEPARADO
+scripts/prepare-node-lifecycle-runtime.py rodou completo;7fontes em
+.upstream/openspace modificadosINTENCIONALMENTE. Antes/hashes/patch em
+output/node-lifecycle-staging. cancelInitialization esperaCPU alvo e remove
+referênciaGLpendente; Lua remove simples/regex passam porScene.detachNode;
+deinitGL ignora nó semGLinicializado. NovaAPI cosmos2SceneInitialization
+informaCPU pendente (não basta sozinha paraGL). NÃO restaurar fontes no meio
+do build. Runtimescloud/topiccleanup/instalado/owner preservados porhash.
+Tentativa inicialpreparação parou emmatchduplicadoLua e buildparcial foi
+encerrado;7originaisrestaurados, arquivado node-lifecycle-preparation-incomplete-
+20261024a; segunda preparação completou. Build compilou/linkou, falhou só
+mt.exe c101008d manifesto; finalize-engine-manifest.py PASSOU. Build rerodando
+scripts/build-node-lifecycle-runtime.ps1, consultar seu log/recibo antesabrir.
+Stager scripts/stage-node-lifecycle-runtime.py clona em.runtime-node-lifecycle,
+recibo evidence/built-runtime-node-lifecycle.json AINDA conferiraexistência.
+Launcher scripts/start-is3-body-maps-node-lifecycle-candidate.ps1 preparado;
+NÃOABERTO. verify-node-lifecycle-native.py escrito mas NÃOEXECUTADO: prova
+remoção imediata folha/pai+filho usando bin0pesado e frames apósremoção.
+PRÓXIMO: terminarbuild/staging, rodarstresstest; repetir sórecorteproblemático
+Jupcut/lifecycle antes do restantenativa0.7. Semherdardesempenhodenovomotor.
+Mapa bin0gera milharesVAO/VBO porcruz (ConstellationLines porsegmento);
+inicialização ficou lenta. Avaliar batch RenderablePointCloud depois de
+provarcorreçãolifetime, sem mudarquantidadesSI/grade/máscara.
+Telemetria9%5h/39%semana17:07:36UTC. SALVAR E CONTINUAR ATÉ0.
+
+CONTINUAÇÃO21:41UTC — NOVA JANELA E V2
+Telemetria100%5h/37%semana21:41:02;85%/35%21:46:04. Não é esgotamento.
+M1 stagingCONCLUÍDO:evidence/built-runtime-node-lifecycle.json,aceitefalse.
+DuasDLL tiveramPermissionError no shutil; Copy-Item normal conseguiu cópia
+SHAidêntica. FallbackdeAPI adicionado no stager; arquivos antigos intactos.
+M1nãofoiaberto. V2acrescenta drenar toda subárvore antesdetach e destructor
+porownership real,filho-primeiro,incluindonóspendentes. Prep/patch/before em
+output/node-lifecycle-v2-staging,7fontesupstream ainda modificados.
+Stagerv2/launcher/buildPS preparados. BuildPSwrapper não iniciou filho/log
+por váriosminutos, nenhumMSBuild ativo; processos próprios19528/28732 e
+consultaWMI34256 encerrados. NãoéfalhaC++confirmada. Buildcmake direto
+iniciado na retomada; conferir processo/log/recibo antes repetir ou restaurar.
+Próximo: concluirbuild/stagingV2, verificar nativa remoçãofolha/pai+filho
+comdatasetpesado do crash E encerramentocomjobCPU pendente. Depois
+replayJupcut0.7. OitoimagensAsemrevisão. Nenhumaceitenativo/perfil0.7 ainda.
+
+V2BUILD/STAGING CONCLUÍDOS: cmake direto compilou/linkou; mt.exe teve
+c101008d, finalize-engine-manifest.py passou, buildcompleto repetidoexit0.
+Log output/build-node-lifecycle-v2-runtime-direct.log. Stager passou,
+evidence/built-runtime-node-lifecycle-v2.json builttrue/acceptedfalse.
+Fontes/patchM1+incrementalV2+antesSceneCPP noZIP do build. M1preservada.
+NovoPSlauncher também não iniciou filhos/session; PIDpróprio26040terminado
+após conferirnenhumfilho. LauncherWindowsPython equivalente criado:
+scripts/launch-node-lifecycle-v2-candidate.py; exec87888, consultar sessão
+PIDsatuais. MesmaruntimeV2/candidata0.7/storageprópria;fechar normal.
+V2stressnovo scripts/verify-node-lifecycle-v2-native.py, pendingCPUantes
+remoção confirmada;replaydirigido verify-native-body-maps-v2-replay.py;
+shutdown verify-node-lifecycle-v2-shutdown.py. NÃOEXECUTADOSaindaaqui.
+OitoPNG0.7A REVISTOS:recibo is3-body-maps-visual-review-20261024a,reprovado
+visual por labelsJupcut sobrepostos; capturaAsemCPUociosa não prova todos
+pontos. Documento IS-3-CICLO-VIDA-MOTOR-20261024.md detalhaescopo.
+
+V2NATIVA REMOÇÃO ACEITA:3casosfolha/pai+filho/regex,CPUantestrue e depois
+false,quadrosreaispósremoção. evidence/node-lifecycle-v2-native-20261024a.
+Bin0originalleva29,6–35,3sCPU; essesstallsnão são aceite de desempenho.
+Replay0.7V2A passouJupcutclear/loadoculto/CEF e célula exata (1caso),
+2capturasCPUociosa. Parou MAIS TARDE no branch-load: CEFtimeout15s e
+laboratoryWS handshake timeout5s durante restauração de geometria pesada;
+appvivo,semnovocrash observado. Recibo incompleto preservado. Nãoaceitarnativa
+inteira0.7nematribuirfalha a solver. Shutdowncompendingv2 emexecução.
+
+Batchstaging passou4casos: is3-body-points-check-20261024a; todosCSVemitidos
+contra célulasSI/cores/máscara/costura,≤8lotes. Preparada0.7.1própria
+output/is3-body-points-product,storagevazia,base0.7hashpreservada. Marcador+
+compacto e labelB vazio somente nosmapas;setaverde/painelpreservados.
+Contrato IS-3-MAPAS-LOTES-CONTRATO.md. Checkpointspróprios emexecução.
+LauncherPython launch-body-points-v2-candidate.py preparado,aindanãoaberto.
+Nativa verify-native-body-points.py, restart verify-native-body-points-restart.py
+preparados. Perfil8janelas scripts/benchmark-body-points-native.py +auditor
+próprio PREPARADOS,nãoexecutarantesnativaaceita e checks;contrato
+IS-3-MAPAS-LOTES-PERFIL-PREVIO.md,mesmoslimites30/60s/WDDM66/guardCEF.
+
+V2SHUTDOWN ACEITO:pendingCPUtrue ao pedirshutdown,exit0,servercleanup,
+39,17s,semnovodump,logspreservados;node-lifecycle-v2-shutdown-20261024a.
+App0.7fechou normal.0.7.1abriucomruntimeV2,exec53235,app35512/server7124;
+source/output/session.json. Checkpoints0.7.1 PASSARAM8combinações/10recusas,
+checkpoint0.6.1legível:evidence/is3-points-checkpoints-20261024a.json.
+Nativa0.7.1 agora EM ANDAMENTO: verify-native-body-points.py --label20261024a.
+Não executarbenchmarkconcorrente. Conferir reciboantesnovação. Depois
+revisão8PNG,restartnovoPID e perfil8janelas comcoeficientes/gradeintactos.
+Telemetria48%5h/29%semanal21:54:55.887Z.
+
+0.7.1NATIVA COMPLETA ACEITA: is3-native-body-points-20261024a,4casos,
+8PNG e ramo/export/Atlas/célula/visibilidade. Revisão8PNGaceita em
+is3-body-points-visual-review-20261024a;marcador+compacto,camadasprontas.
+Atenção:previewdaimagem novamente aparentou ocultargeometria150,mas pixels
+originaisROIshellTerra sãoIDÊNTICOS. Cortes diferem74/49pixels e Jupshell22,
+registre quantidades/maxRGBAno recibo; nãoinventarbuggráficoporpreview.
+NovoPIDengine35276/server28808,launcherexec10039:restart0.7.1 ACEITO
+is3-native-body-points-restart-20261024a,mesmafase/leitura/célula/formulários,
+CPUociosa+quadrosGL+posição≤1mm. VoltouAtlaspara perfil.
+
+PERFIL0.7.1 INICIADO: scripts/run-body-points-profile-background.py
+--label20261024a. DriverJSON/logs output/is3-points-profile-20261024a-driver.*;
+8janelas30/60s,Terra/Júpiter casca/corte visível/oculto. Recibo
+is3-points-profile-20261024a;auditorautomático ao final em
+is3-points-profile-audit-20261024a. NÃOalterarfontes/engine/CEFnemrodarteste
+pesadoduranteperfil. GuardCEFsomenteaquecimento/captura,restauranofinally.
+Próximo:monitorarquota/recibo, auditar secomplete. Semaceitedesempenhoainda.
+
+CONTINUIDADE DURANTE PERFIL —1/8completo,run2warmup,semfalha atéaqui.
+Run1p95=14,0445ms,p99=14,4543ms,0>100ms,ritmo1,00016. PRELIMINAR,nãoperfilaceito.
+DriverPID29960,app35276/server28808,perfilúnicoativo. Nãoiniciarsegundoperfil.
+ContratoIS4escrito apenas como próximaetapa: IS-4-PARTICULAS-CONTRATO-PREVIO.md.
+Lida somenteseçãoIS3/4,contratocomum e ordem dePLANO-INTEGRACAO-SISTEMA-SOLAR,
+PARTICULAS-TESTE.md e em_particles.pydaC212. Primeirasliceprevê snapshot
+corporalestático,eixoscongelados tratadosinerciais da bancada,gravidade4
+centrosprescritos,E=0explícito,BIGRF/JRM;Boris+g,domíniosegmentos,noreaction.
+Nãoévento/MHD/corotação; relógio departículaseparado. NadaimplementadoIS4.
+Apósperfilaceito, começar staging/ODEindependente seguindoessecontrato;
+seperfilrecusar,diagnosticarprimeiro sempuxaroutroperfilcego.
+
+PERFIL0.7.1 CONCLUÍDO/AUDITADO ACEITO —8janelas30/60s,raw+rotas+WDDM66
+válidasporjanela,0>100ms,p95máx14,04452ms,p99máx14,51312ms,RAM1,21130GiB,
+GPU2,96039GiB. Recibos is3-points-profile-20261024a e
+is3-points-profile-audit-20261024a. NÃOrepetirinalterado. GuardCEFrestaurado.
+RelatórioIS-3-MAPAS-LOTES-RESULTADO-20261024.md atualizado. Sem promoção.
+Motor0.7.1shutdownnormal solicitado; aguardarlauncherexec10039 antesabriroutra.
+Telemetria10%5h/23%semana22:11:58.188Z. Continuar até0. PróximaIS4staging.
+
+IS4STAGING INICIADO APÓSPERFIL ACEITO: output/is4-body-particle-staging/
+is4_particles.py +is4_values.py. Adaptou C212em_particles congelado:
+Borisdrift/rotate/drift sincronizado, kickcomg+q/mE, guardgravity separado,
+trabalhogravitacional e deltaK estável; domíniodesegmentodelegadoobrigatório.
+ValoresSIestritos/v≤0,01c/gyro≤0,1. COMPILOUSINTAXE; testeanalítico aindaa
+preparar/executar. SemadaptadorIGRF/JRM/cena/worker/UIainda; nãoaceitarIS4.
+Produto0.7.1intacto. Próximoexato:testeuniformeanalítico±q,convergência2ordem,
+g/E combinados e recusas semmutação; depoisadaptadorsnapshotcorporal.
+CHECKPOINT COTA8% —22:12:17.581Z,5h8%/semanal23%. Passagemsalva,continuar.
+App0.7.1fechounormal,launcherexec10039retornouexit0.Nenhumbenchmarkativo.
+IS4testeuniforme lançado:scripts/verify-is4-particles-uniform.py;recibo
+is4-particles-uniform-20261024a. Ainda consultarexecução/resultadoantesaceitar.
+Testa±q,refinamento2000/4000/8000em10períodos,E/gseparadosetrabalhocomB,
+8recusas e imutabilidade. Nãoincluiadaptadorcorporal/DOP853/domínioreal.
+IS4UNIFORMEA recusadoantesdocaso1: a nova guardaSIestrita rejeitou escalar
+numpyinterno ao publicarPhase. Corrigido convertendointernamentepara float
+PythonantesPhase,semrelaxarentradaexterna/tiposbool. A+ZIPpreservados.
+Verifieragorarecebe--label; rodadaB EMEXECUÇÃO: --label20261024b,consultar
+recibo is4-particles-uniform-20261024b. Cota6%5h/22%semana22:12:34UTC.
+IS4UNIFORMEB ACEITO:6casos,±q10períodos/refinamento2000/4000/8000,
+E/gseparados e combinadoscomB,8recusas transacionais;recibo
+is4-particles-uniform-20261024b. A falhatiposnumpy preservada noZIPA.
+Domíniogeométrico staging novo is4_domains.py: segmentoexterioraelipsoide
+(mínimoquadrático) +interiorbolaconvexa; conchajoviana porcomposição.
+Teste novo verify-is4-domain-segments.py iniciado/consultarrecibo
+is4-domain-segments-20261024a antesaceitar;11chord/tangent/outerfixtures
++limiteq=0comE/B/g. Próximoexato: adaptadorIGRF/JRMsnapshotestático e
+4centros,guardasidentidade/unidades/eixos/época; segmentosEarthcomaltura
+geodética0..1000km eJup1..20Rj,semcallfora; depoisODEDOP853/refinamento
+corporalconformecontratoprévio. NÃOrepetirperfil0.7.1/ciênciainalterados.
+
+CONTINUAÇÃO25/10 — NOVAJANELA CONFIRMADA100%5h/100%semana11:48:02.123UTC.
+Antiga2%24/10stale,nãoéatual. NenhumOpenSpaceativo.Is4domainsegmentsA
+PASSOU11fixtures+q0,uniformeBpassou. is4_body_snapshot.py escrito/sintaxeOK,
+NÃOtestado:Snapshotreproduzprovedoraceito,exigephasepaused/4centros/eixos/
+escalas/identidade/generationcoerentes,congelatudoemSI;Bcorporal eE0explícito,
+grav4monopolossem aorigemsubtraída;geometriasegmentosemcallBfora.
+Próximoexato:novaverificaçãoadaptergrid/grav/domínio/recusas/imutabilidade
+emstoragepróprio,construindophaseSessioncopiadat0 ereadingsnosmesmosysid;
+depoisODEindependente/ordem2 conformecontrato.Preservarproduto0.7.1.
+
+IS4 ADAPTADOR ACEITO25/10B: is4-body-snapshot-20261025b,4modelos/195pontos,
+Bigualprovedoraceito,erro gravmáx1,42109e−14m/s²,26recusas,semcallBfora,
+inputs/descritoresnãoalteramsnapshot,Session/ownerintactos. A recusoufixture
+semflagpaused (Sessiondireta nãoincluiestado docontrolador); Bdeclarapausa
+explícitadaSessionoffline; nenhumrelaxamentodaguardaproduto. Domíniosegmentos
+25/10Apassou11casos+q0 e finitoenormenãorepresentável apósajustepow→mult.
+Próximo: ODEindependente/refinamentoN2k/4k/8k/10giros com gravidade4fontes.
+Constantespartículasfixadas emstaging/constants.json, NISTCODATA2022texto
+primário consultado e númeroscoincidemSciPy1.18.1;semhashoriginalinventado.
+SitesCGINISTderamquerymalformada; tabelaASCIIprimáriaabriu. DOP853manual
+SciPyconsultado,versãolocal1.18.1/sourceRKsha54fb936503... gravarreciboteste.
+IS4 TRAJETÓRIAS EM EXECUÇÃO —25/10A
+scripts/verify-is4-body-trajectories.py --label20261025a, driverPID36960 em
+output/is4-trajectories-20261025a-driver.{json,log},stderrirmão.
+Recibo evidence/is4-body-trajectories-20261025a.json. Fonte/fixtures/receita
+arquivadas antes. DOP853RHS independente (mesmos provedores aceitos; g
+calculado em J2000 sem Snapshot.evaluate), deslocamento para atolref,
+40instantes e N2k/4k/8k.10casos físicos (4modelos com±massa próton+elétrons
+IGRF/JRM13)10giros;extra sintético500kmomega0,1/v100 por1giro comg~Lorentz.
+Limites novos especificados no fim do contrato ANTESexecutar. Não editar
+stage/app/contrato durante execução; após recibo conferir convergência e
+precisão sobretudoelétrons (coordenadaabsoluta grande pode perder incremento).
+Nenhumaplicativo/benchmarknativoativo; teste numérico apenas. SemaceiteIS4.
+TrajetóriasA recusadas antespasso1: Boris entregava ndarray ao adapterSI
+estrito(list/tuple), enquanto Uniform ignoravaformato. Corrigida conversão
+interna mid.tolist(), semrelaxarentradaexterna. A+ZIP/logpreservados.
+TrajetóriasB iniciadas, driverJSON/logs output/is4-trajectories-20261025b-
+driver.*, novoPIDlá. Mesmoverificador/limites; sóconversãonafronteirainterna.
+TrajetóriasB:10casosfísicos PASSARAM (incluielétrons),extra sintético falhou
+residualtrabalho1,49e−12>limite1e−12 e energiacomsubtraçãopotencialgrande
+próximapiso7ULPs. Nãoafrouxarlimites. CorrigidodiagnósticoapóscriarPhase:
+work usa soma cinemática dos doisdrifts dt/2(v+vnew), publica roundoff da
+subtraçãoabsoluta. Snapshot.potential_difference calculaDeltaPhi estável
+GM*(2d0·dx+dx²)/(r0*r1*(r0+r1)). Nenhumaforça/estadoalterado;prefixo
+integradoratéPhase deveconferirbyteigualZIPB. Patchstable-work emstaging.
+Uniforme25/10C PASSOU comdiagnósticonovo. TestepotencialDecimal60 lançado
+is4-potential-difference-20261025a. TrajetóriassintéticoD EMEXECUÇÃO e exige
+mesmos7float64porinstante versusB. Cparou sóharness comparandolistaJSON
+comtuplaPython;corrigidopara struct.pack7d,semalterarproduto. Tudo preservado.
+ApósDaceito:auditoragrega10B+1D,prova prefixodinâmicoinvariante/fontes,novos
+diagnósticosuniformes/DeltaPhi antesaceitar conjunto.Não repetir10Binalterados.
+DiagnósticosD corrigiramwork para~5e−16 e provaram120estados(7float64) idênticos
+B; porémenergiafina ainda ratio5,064>4,6 por acúmuloposiçãoabsolutaplanetária.
+NÃOagregarB/Dcomoaceitecompleto.Nova Phase armazena origem fixa+deslocamento,
+acumula driftsnocoordenadadeslocamento epublicaposição soma viafsum.
+Camposnovos position_origin_m/position_offset_mdevemsermantidosnocheckpoint.
+Dinâmicaagoramudou: rodadaE REPETE TODOS11casos,semherdar10B e semafrouxar
+limites. DriverPID32060,output/is4-trajectories-20261025e-driver.*,
+recibo is4-body-trajectories-20261025e. UniformeE emexec(ouconsultarrecibo),
+exec43553. NÃOeditarstage/app/contratoenquantotestesestãorodando.
+PotencialDecimal60A PASSOU8casos zero/µm/dezenasmetros/antissimetria/semcallB.
+Próximo:concluirE;seaceito,auditar/relatar e verificar PhaseJSONnovoprocesso
+mantendoorigem/deslocamento, depoisconstruir experimento/worker/cenapróprios.
+
+IS4 TRAJETÓRIASE ACEITAS:11casos comordem2/postolerância/veltol/trabalho;
+10físicos10giros e1sintético1giro,energia sintéticaconvergiu. UniformeE
+PASSOU6casos/8recusas. Recibos is4-body-trajectories-20261025e e
+is4-particles-uniform-20261025e. NÃOrepetirinalterado. Coreagoraprecisa
+salvarposition_origin_m/position_offset_mparacontinuaçãoexata.
+Semapp/workerIS4. Próximo:auditoriadefontes/energiasrawsepertinente e
+PhaseJSONnovoprocesso (posição/origem/offset/vel/tempo), depois experimento
+limitadoeprotocoloworker/cena. Snapshotarquivadodeveconservarfullphase+
+readingparareconstruir guardas/provedor; relógiodepartículanãomexeorbital.
+Cota64%5h/94%semanal12:08:51UTC,continuarautônomo.
+
+IS4 EXPERIMENTO/CHECKPOINT25/10A ACEITO: is4-experiment-checkpoints-20261025a,
+4checks/22recusas; JSONeprocessonovo34488continuaram123+777passosexatamente
+incluindoorigem/offset/workcompensado;controlesnãoalteramfase/campos,
+referênciareseta,arquivosWindowscomlockrealcurto/2spermanentetestados,
+boundaryguardaúltimafaseecarregastop. Produto0.7.1/ownerintactos.
+
+NOVO WORKER ESCRITO, NÃOEXECUTADO: staging/is4_worker.py,protocolo1,
+fila32,linha4MiB,quanta16/budget20msentrepassos,publicação20Hz,guardas
+worker/exp/token/rev/time/frame;pausaraceitatempoanterior. CamponativoNone.
+Contrato IS-4-WORKER-CONTRATO.md. CoreExperimento ganhoupreferênciade
+ritmopersistidonomesmomanifesto;novohashgeração (Aarquivado,semigraçãomuda).
+Reexecutar checkpoint comlabelB e verificar ritmonãopadrãono fluxoworker.
+Próximoexato: scripts/verify-is4-worker.py a escrever; usarCreate(snapshotB),
+pausa/advance/controls/rate/save/load/processonovo/futuroexato/guardas/stop/quit.
+SemScene/API/UIIS4ainda;motorfechado,nenhumbenchmark. Cota50%5h/92%semana
+12:20:40UTC;seguirautônomoaté0ouplanocompleto.
+WORKER25/10A ACEITO: evidence/is4-worker-20261025a,4checks/13recusas,
+pausa1,3722ms,quantumobservadomáx2,0522msno cenárioJRM13/1partícula/200
+passos_solicitados_por_segundoreal. Save/load/processonovo preservaram futuro
+exato e ritmonãopadrão. SourceClockorbitalpermaneceu0. Guardas,ctrls,
+paradadomínio e quitlimpo passaram.CheckpointB também passou4checks/22recusas
+apóspreferênciaritmopersistida. Nãoaceitarperfilnativo nemNativeUpload.
+
+PRÓXIMA FRENTE: vista3Dampliada/normalizada da trajetória. LabRootatual
+ficaem{1e14,0,0}; trajetóriamicroscópica nãopode ser exibidaemmesmossubmetros
+semtratardegradaçãofloat. Proposta escolhida: quadro no ponto de lançamento,
+unidadefísicafixa(L,raiodegiroinicial) mapeada a1e7m de desenho,comampliação
+explicitada. MantémdadosSIorigem+offset;normalizaapenasverticesdeexibição.
+OrientaçãoBody→J2000→Renderaceita;marcadorusaoffset/L e trilha129amostrasreais.
+Prova inicial será geometria+nativePAUSADA comquadrosposteriores,semfingir
+confirmaçãoGPUporframeao vivo. Produto/UIIS4completo e perfil ficam depois.
+Usar0.7.1/runtimenode-lifecycle-v2 como hostinalterado,storageworkerpróprio.
+Semappabertoaqui. Aindaescrevercontrato/código/verificaçõesdafatia3D.
+Cota35%5h/90%semana12:32:28UTC. Continuar até0,registrarcheckpoint≤8.
+GEOMETRIAAMPLIADASTAGING25/10A ACEITA: is4-particle-scene-20261025a,
+4casos/proton/electron/neutral/JRM18,129amostras,origem/offset/euler/escala,
+11recusas;semcalcularforçasnovista. is4_particle_scene.py e contrato
+IS-4-VISTA-AMPLIADA-CONTRATO.md. NormalizaL físico e usa1e7m desenho/L.
+
+HOSTNATIVO ABERTO: launch-is4-geometry-host.py,app32684/server8356/launcher14964
+(exec1887),runtimenode-lifecycle-v2;APP0.7.1INTACTA,storageNOVA
+output/is4-native-geometry-host/gravity-sessions,semalterarstorage0.7.1.
+TesteNativeA parouharness na basis:nestedLua table veio dict1..3,nãolista;
+worldmarkerEarth jápassaralimite,nenhumaceitenativoA. Finally limpouframe/
+câmera/flags;voltouAtlas explicitamente paraB. Scripts/verify-native-is4-
+particle-scene.py corrigido parsebasis ordenado+readbackJSONpreservado.
+NATIVAB EMEXECUÇÃO --label20261025b,recibo is4-native-particle-scene-20261025b.
+ProvaPAUSADA apenas:Earthproton/Jupelectron,coordsnorm/WordBasis/CpuIdle+
+frames,4PNG100/150. RevisãoPNG/limpeza/fechamentopendentes.Conferirrecibo
+antesreexecutar. LiveUIproduto/nativeGPUperframe/perfilaindapendentes.
+Telemetria11%5h/86%semana12:52:04UTC. Salvarcheckpoint≤8 econtinuaraté0.
+
+RETOMADA25/10 TARDE:telemetria100%5h/84%semana18:26:58Z (nova janela).
+NativeB concluído aceito coordenadas. RevisãoPNGoriginalB/C ACEITA:
+is4-paused-visual-review-20261025a. Suspeita inicial miniatura150semtrajetória
+foi refutada por leitura original, pixels e câmeranativa idêntica; 4PNGB/C
+têm hashes idênticos. Hostgeometria reabriu diagnósticoC e fechounormal
+engine_exit0(exec25338). Produto0.7.1 e storageowner preservados.
+NOVO runtime .runtime-is4-stream compilado/staged, recibo built-runtime-is4-
+stream, Acompilação recusou ternárioflagsGL, B corrigido/compilou. Modificados
+INTENCIONALMENTE MAIS2fontesupstream renderableconstellationlines.{h,cpp};
+before/patch/ZIP em output/is4-stream-runtime-staging; NÃO restaurar.
+Contrato IS-4-TRANSPORTE-NATIVO-CONTRATO.md, protocolo C2IS4T01normalizado
+txyz,buffer129,linha+marcadorMESMOVBO,confirma upload/submissãodesenho.
+WireB ACEITO25recusas; A sófixture500passos gerou126amostras, Busa512
+para129semalterarcore. Native próprio EMEXEC verify-native-is4-stream.py
+--label20261025a, exec44916; consultarreciboantesrepetir/editarstage. Host
+launch-is4-stream-host.py exec14495/app32388/server3692, storage próprio
+output/is4-native-stream-host, APP0.7.1inalterada. UIproduto/perfilaindapendem.
+Últimatelemetria67%5h/79%semana19:28:01Z;seguir,checkpoint≤8,nãoencerrar.
+
+NATIVE STREAM25/10B ACEITO: is4-native-stream-20261025b,Terra/próton e
+Júpiter/elétron;15leituras ao vivo/caso,sequênciasfinais103/102confirmaram
+upload+drawsubmitted;3recusasnativas/caso eguardarebind pósload;futuroexato.
+A falhouparseLua por\uUnicode; corrigidoliteralUTF8semalterarcore. Revisão
+is4-stream-visual-review-20261025a ACEITA. Hostfechounormalengine_exit0.
+Nova candidata NÃO PROMOVIDA output/is4-body-particle-product0.8.0/app
+copiada0.7.1+stage;CLIENT/ACTOR/API/UI próprios,mesmos5corecientíficos;
+camêraquadraextensãorecente,controls/sonda/save/load/restart/export/novoWorker.
+ContratoIS-4-PRODUTO-CONTROLES-CONTRATO.md. Checkpointvisual/ramos/perfil
+aindapendentes. HOSTPRODUTO launch-is4-particle-candidate.py exec53501,
+consultar output/session.json paraPIDs. Storagegravity+particle-sessions próprios.
+JornadaCEF A sóharness clicouseçãofechada,semcase; B EMEXECUÇÃO
+verify-native-is4-particle-product.py --label20261025b,consultarreciboantes
+editarapp. Últimatelemetria40%5h/75%semana20:02:01Z;seguir até0.
+
+PRODUTO0.8.0 CEF25/10B ACEITO: is4-native-product-20261025b,4casos
+Terra próton/neutra500km,Jupelétron13/próton18;pausas201..306ms≤500ms,
+controles/visibilidade/sonda/save/load/futuro64passosexato/novoWorker/restart/
+export/guardas/orbitalintacto.6PNGs100/150revisãoparcial;jáviTerra150legível.
+FONTES0.8.0agoraPRESERVADAS,ZIPno recibo. Próxima0.8.1isolada criadaem
+output/is4-body-particle-product0.8.1/app: StoreENVELOPEselado(phase+view),
+ramos32,UIescalaacimadoscontroles ependêncianativa2s→pausa. AINDANÃO
+TESTADA/INTEGRADAEMEXEC. PrecisatestesStoreOSlock/refusassemfuturoalterado,
+thenlaunch0.8.1/jornadaCEFcomramos/oculto/newworker. Currenthostainda0.8.0,
+exec53501,AtlasapósB; profileNÃOiniciado. Não confundiraceite4casos0.8.0
+com0.8.1. AuditarNativeEnabled+shouldUpdateIfDisabled (rendererupdatecondicional)
+antesconsideraruploadquandotrilhaoculta;2sdeadlinepodenãodevercontaroculto.
+Telemetria27%5h/73%semana20:02:47.769Z;salvar≤8continuaraté0.
+
+CHECKPOINT8% — 25/10/2026 20:17:28.946UTC. Telemetria real8%5h/70%semanal; CONTINUARaté0.
+0.8.0 preservada; launcher53501 encerrou normalengine_exit0. Nova0.8.1 hostativo
+launcherexec48599/app17724/server6920; output/session.json autoritativo.
+StoreA ACEITO evidence/is4-product-store-20261025a.json: envelopefase+view
+atômico, novo processo futuro77exato, ramospai/visibilidade, limite32,9recusas,
+bloqueiosWindowscurto/permanente. ZIP próprio preserva fontes executadas.
+0.8.1 DrawElements oculta sempararupdate; pending>2s geraerro/pausaauto;
+attachparcial limpável; fase+unidade+visibilidade selados em particle-checkpoints;
+ramosUI próprios. MotorIS4semalteração. native_nodes noestado são diagnósticos.
+Contrato IS-4-PRODUTO-081-CONTRATO.md e nova jornada
+scripts/verify-native-is4-particle-product-v081.py. EMEXECUÇÃO exec72597
+label20261025a; receipt is4-native-product081-20261025a.json parcial2/4casos
+(Terrapróton/neutro passaram, pausas213/240ms). Esperarresultado antesalterar.
+Testeavançaoculto+2,2ssemfalha,2ramosrestaurafuturo,savehidden+newworker,
+eao fim desabilita Enabled só nó próprio para provarprazo2s+recuperação.
+Preservar0.8.0/oldscript/oldcontract pois base-manifest081hashinclui todos.
+Próximo: concluir4casos+stall, revisar6PNG081originais; registrar visualreview.
+PerfilIS4 aindaNÃOiniciado/nãoaceito; prepararcontratoprévio4janelas
+TerraIGRFpróton500km/JúpiterJRMelétron13,visible/hidden,200passos/s,
+pitch90,30swarm+60smedição. CapturaSGCT,CEFreal,ramproduct_memory,
+GPUcollectorExpectedWorkerpaused (workerORBITAL!), partículaRUNNINGapartado.
+Limitesg0 mediana16,7/p9525/p9950ms/0>100,RAM8GiB/GPU5,5GiB/ritmo>=.9.
+SemaceiteIS4completo/promoção. CEF8088sócef_page.py; fecharcomtoggleShutdown.
+
+0.8.1 JORNADAA CONCLUÍDAACEITA evidence/is4-native-product081-20261025a.json:
+4casos, pausa199–240ms, hidden64+2,2s,8ramos, viewseal/newworkerfuturoexato,
+12guardrecusas, stallEnabled2s pausou+preservouconfirmada+recuperou.0Pageerrors.
+Revisõesvisuais0.8.0/0.8.1 registradas is4-product-0.8.{0,1}-visual-review-20261025a.
+6PNG081 sceneRGBcyan1664..1870 pixels; preview inline100Earthomitiulinha,
+original/countsconfirma. Curvacomviradanaprojeçãohelix, semsmoothing.
+Últimatelemetria6%5h/70%semanal20:25:05.969UTC. Host081Atlasativo.
+Contrato perfilagora IS-4-PERFIL-PREVIO.md; implementação do coletor a seguir.
+
+CONTINUE25/10 23:33UTC — janela nova confirmada99%5h/69%semanal.
+Perfil0.8.1 executado4janelas via benchmark-is4-particle-native.py label20261025a
+exec36922 CONCLUIU normal. Corrigido rate do COLETOR antesexec para200*dtSI.
+AuditoriaC ACEITA is4-particle-profile-audit-20261025c; A/B preservadas falhas
+apenas auditor(pathWindows/strings). p95máx14,02432ms;p99máx14,52840ms;
+0>100ms;RAM1,235855GiB/GPU2,964539GiB;ritmomín.999348;lagamostrado.205s.
+Fontes081+coletorZIPpreservadas. Não repetirinalterado. Relatório
+IS-4-PARTICULAS-RESULTADO-20261025.md. Host081Atlassemcargaatual;launcher48599.
+Próximo autorizado: cenário de vento solar identificado (linhaIS4 no
+PLANO-INTEGRACAO-SISTEMA-SOLAR.md), contrato próprio/referênciasprimárias
+antescódigo. Parkerprescrito+Econvectivo é candidato aavaliar; semMHD.
+
+VENTOSOLAR26/10UTC(em25/10local) staging output/is4-solar-wind-staging.
+Contrato IS-4-VENTO-SOLAR-CONTRATO-PREVIO.md antescódigo: ParkerSIestático
+polaridades±norte/sul,HCSband±5°excluída,r0.1..10AU;u400km/s,Br3nT@AU,
+Omega2pi/(25.38dias),parâmetrosdidáticos.SemMHD/observaçãolive.
+Dalla2013PDFautorbaixado viaWindows(WSLTLSfalhou),SHAresearch-sources.json.
+is4_wind_field.py analítico; is4_wind_snapshot.py congelafaseSolIAU_SUN+
+4monopolos.ExclusõesEarth100Re,Moon10Rm,Jup100Rj cortescomputacionais.
+CAMPOSC ACEITO144pontos/32recusas,divB<=7.15e-10/curlE<=2.03e-10norm;
+A/B preservadasfalhasnoPOLOfixture/seno(pi)ecomponentecanceladaEcross,
+C normavetorial mantémtolerâncias3e-14semalterarprovedor.
+is4_wind_diagnostics.py potenciaispareados(passodesubULPheliocêntrico);
+POTENCIALA ACEITO20casosvsDecimal80 incluindooffset1e-7m.
+TRAJETÓRIASB ACEITO11casos is4-wind-trajectories-20261025b.json,exec42003
+concluído:6físicos10giros+SINTÉTICOq/m3000C/kg1giro+4controles.
+DOP853esféricoindep,N2k/4k/8k,origem+offset,ratios~4 eenergiaSintética~4,
+residtrabalho~5.6e-16. A falhounofixtureNumPyfloatnãoaceitoporscalar;
+B corrigiuapenasfloatnativonaPhase.Ciênciaaindaexigeauditoriadosbrutos.
+NÃOEDITARos3provedores+diagnósticosqueforamexecutados;novosadaptersseparados.
+Próximo:auditoriaenergias/errosbrutosDecimal;adapterwindreading;criar
+0.9.0isoladacopiandoAPP081(semstorage),generalizarExperiment/worker/UI
+paraParkerprescrito mantendoE/B/gseparados,save/loadincluindotrabalhoE
+(nãopodeherdarassertE=0!);checkpoint/worker/novoProcesso/cena/CEF/perfil.
+Motor081encerrounormalengine_exit0(exec48599),nenhumappativoatualmente.
+
+0.9.0backend+CEF CONCLUÍDOS. output/is4-solar-wind-product0.9.0/app fork081
+base-manifest preserva081.Fontes.pyagoraACEITASPRESERVAR(semnovasedições).
+Windreading reconstróiSnapshot+leituraexata; Experiment schema2/geração0.2.0
+modeldispatchbody/wind, trabalhoEpermitidonovento, zeroquandoE/q/ginativos,
+sondaenergiaK+qPhiE+mPhiG potencialpareado. Framegenérico worker/scene.
+verify-is4-wind-experiment20261025b ACEITO5casos/14recusas:3espécieswind,
+save/load/newworkerfuturo77 exato e2replaysbodyTerra/Jupfase+trailbitexatos.
+A falhousótuple/list noassertgeometry,testecorrigidoemB.
+AuditorrawDecimal60 is4-wind-trajectories-audit-20261025b ACEITO11casos.
+NativeCEF is4-native-wind-product-20261025a ACEITO4casos+HCSrefusa+stall2s
+recupera,12guardrecusas,pausas199..292ms,branches/viewseal/export/restart.
+6PNG100/150revistos is4-wind-product-visual-review-20261025a ACEITOescopotopo.
+CamposE/B/u/potenciais sãonuméricosnasonda; nãoprometercamadasgráficasdo
+vento(traçadonativoatualétrajetória+marcador+eixosorigem).
+PERFILVENTO EM EXECUÇÃO exec60043 label20261025a,scriptbenchmark-is4-wind-native.py
+4janelasprotonN1AU/electronS5AUvisíveloculto30+60s,guardasGPUorbitalpaused.
+Auditorscripts/audit-is4-wind-profile.py pronto,nãoexecutado. Contrato
+IS-4-VENTO-SOLAR-PERFIL-PREVIO.md prévio.NãoeditarAPPduranteperfil.
+Apósperfil/auditoria,rodar capture-is4-wind-details.py --label20261025a para
+7closeupssetup/sondaenergia/modelo100/150,manualreview. Scriptnãoexecutado.
+Host0.9exec39675 app21804/server31932 runtimeIS4semalteração.Veroutputsession.
+Últimacota28%5h/57%semanal02:16:19.029UTC(25/10local).Continuaraté0.
+
+CHECKPOINT8%26/10 02:47:53.378UTC — 8%5h/54%semanal.COTA aindaNÃOesgotou,
+continuaraté0. Perfilvento0.9.0 COMPLETO/auditoria20261025a ACEITA4janelas:
+p95máx14,0466ms,p99máx14,5657ms,0>100ms,RAM1,196274GiB/GPU2,968933GiB,
+ritmomín.999147,lagamostrado.200s. is4-wind-profile-{audit-}20261025a.json.
+Coletor60043 terminounormal;APP_FONTES0.9agoraPRESERVARTODAS.
+capture-is4-wind-details20261025a terminou7PNGcloseups,zeroJS,fasefonte
+inalterada;RECIBOacceptedfalseporprojetoparaexigirmanuareview.Falta7imagens
+originaisreviewejsonseparado.SalvoemAtlasaposcleanup,host0.9exec39675ativo.
+Próximoimediato:revisarcloseups,relatórioIS4vento/LEIAatualizar,fecharnormal.
+Próxima fatiaIS5depósIS4: assinarzonaSolarpp/CNO àfaseSol; leitura dirigida
+C2-18-DECISAO.md,C2-19-DECISAO.md e app/stellar.py/app/cno.py.Foram lidos.
+Descoberta: cópiasprodutaisde stellar/cno/forces.py usamROOTparents[1],
+incorreto paraAPPemoutput; nãoalterar0.9aceita. IS5novastagingdeverootAGENTS.
+Redeslegadaspp-I/CNO-I10–30MK,rho1e4..3e5kg/m³,comT/rhoprescritas.
+Não somar duaszonas independentes comhidrogênioduplicado: próximo contrato
+proposto é redeacoplada10núcleos/9canais,mesmop/He4,e3fontesbeta+.
+ConservarA/catalisadores/Z+léptons,Qatomicinclui aniquilação,médiasνfixas
+pp.2668,N13.706,O15.996MeV(datafilesfonts).SemEOS/transporte/Lsuperficial
+infere-se.Bookkeeping energia disponíveleν,calor sóhipóteseexplicitada.
+Pynucastrodocs primários rate_types eAdelbergerSolarFusionIIarxiv1004.2318
+consultados; nãoalterartaxasfixadaspynucastro3.1.0 nem confundirdocversãoatual.
+IS5CONTRATO/CÓDIGOAINDA NÃOCRIADOSnestecheckpoint.
+
+Continuação26/10:closeups7PNGrevistos. NumericenergiaSIlegível;achadoUI
+0.9.0statusmodeloaguardaconfirmaçãoquandotrilhaoculta(bufferjáconfirmado).
+Review is4-wind-details-visual-review-20261025a acceptedFALSEporrótulo.
+0.9.1isoladacriada(APPcopy0.9.0semstorage),SOMENTEui/is4-particle.js muda:
+statusoculta+dadoatétempo;frameinterno viraorientaçãoIAU_SUN/ITRF93/SystemIII.
+base-manifest preserva0.9.0código/contratos. Launcher novo
+scripts/launch-is4-wind-091-candidate.py. FECHAR0.9normal antesabrir091.
+Telemetriaúltima5%5h/54%semanal02:53:29.101UTC.CONTINUARaté0.
+
+26/10 10:43:57.030UTC NOVAJANELA92%5h/99%semanal confirmados,nãoesgotada.
+0.9.1rótulooculto passouCEF is4-wind-hidden-label-20261025a ePNG150revista
+visual-review correspondente. TODOS.pyiguais0.9.0;somenteJS3rótulosalterados.
+Host091encerrouNORMALengine_exit0(exec27948);NENHUMAPPativo agora.
+Relatório IS-4-VENTO-SOLAR-RESULTADO-20261026.md.Bases081/090/091preservadas.
+PróximoIS5:contrato+stagingredepp-I/CNO-IACOPLADA,p compartilhadoparaevitar
+duplacontagem.DoisescalaresenergiaEdisp/Eν,nãopreverLsuperficialsemtransporte.
+
+IS5 CONTRATO criado IS-5-NUCLEO-SOLAR-CONTRATO-PREVIO.md antescódigo.
+Stagingoutput/is5-solar-core-staging criado comstellar.py/cno.pycopiados
+apenasROOTcorrigidoparaAGENTS;reference-manifestoriginaisSHApreservados.
+Próximo:is5_core.py10núcleos/9canaiscompartilhandoH/He4,RadauJacanalítico,
+leptões/Q/ν ebaselinespp/CNO, testesantesUI.NenhumaceiteIS5ainda.
+
+IS5SCIÊNCIA26/10: is5-core-20261026b ACEITO6casos(default/hot5Gyr/cold1s/
+C12/pp-only/cno-only),36taxasmax1.419e-14rel,4096gateslógicos,11recusas;
+BDFindepmáx5.912e-14porbárion,refinamentotol2.665e-15;A preservadafalha
+noTESTEabs(list)naassertalloff;Bcorrigiusótestesemalterarmodelo.
+Model output/is5-solar-core-staging/is5_core.py+refs.AgoraPRESERVARaceitos.
+is5_solar_source.py bindphaseSolpuro+SPICE/GM/epoca;is5-solar-source-20261026a
+ACEITO15recusas+SI/render/UTC-TDB/clockindep/immutabilidade.
+Próximo:artefatoJSONselado,workerisoladocompublicsummarypequeno/curvaspor
+requisição,config/gatescomputeatomicsemalterarúltimoaceito. Reloadrecomputar
+parâmetros+fontes/campos antespublicar;guardasworker/artifact/token/revision.
+Sondaindex0..240 calculado(semfingirrealtimeintegração),viewprefs+branches.
+FonteSolararquivadaéprópria,nãopodeconfundircomfaseLABatual: UI/cenanativa
+precisammostrarfontearquivadaouexigircompatibilidade;modeloNuclearsemEOS/L.
+Nenhumhostativo.Última58%5h/93%semana11:33:05.947UTC,seguircontinuidade.
+
+CONTINUAÇÃO26/10 16:57UTC: dono autorizou seguir após conferência. Recibo
+is5-worker-artifact-20261026a ACEITO/completo às11:52UTC(08:52local),
+12recusas,6grupos(worker real/recompute/reload/newprocess/32ramos/locksWindows),
+ZIPfontes emoutput/is5-worker-artifact-20261026a. Não repetirinalterado.
+Conferência atual:5recibos recentes aceitos,110hashes intactos,nenhumhost/worker
+Windows/WSL ativo,logs encerramento normal091. Cotas96%5h/84%semana16:57:03Z.
+Nova candidata isolada output/is5-solar-zone-product0.10.0/app(base091+IS5),
+base-manifest preserva originais; UI/ator/cena ainda em construção semaceite.
+
+IS5produto0.10.0CEF20261026c ACEITO4grupos/9recusas,save/load/ramos/newworker/
+fontearquivada vsLABavançado/órbitaintacta/limpeza/0JS. FontesZIP preservadas;
+A falhouexpectativaTESTEfracaoff⇒E0(capturaN14pgpermanece),B conflitohelpername;
+C corrige sótestes. ReviewvisualC acceptedFALSE:rótulonativoabaixomínimo
+MinMaxSize. LocalGhoul confirma culling. Nova0.10.1isolada mudaSOMENTE
+Size6→8norótuloSolar,semalterarciência/runtime;CEF/regressãovisual a seguir.
+Cota75%5h/80%semana17:12:58Z. Hostativoainda0.10.0launcher13924,fecharnormal
+antes101.0.10.0app/capturas/contrato/script originaisPRESERVADOS.
+
+0.10.1/0.10.2 CEFfuncional ACEITO mas reviewvisualFALSE(nãoperfilar):
+101labelvisível ocultamarker;102Overlaycorrigeinicial,masmarker desaparece
+apósreplacenodes/reload. Fontes/ZIP/capturas preservados. 103nova isolada
+retémnónativo inicializadonatrocaartifact+legenda curta;teste103contapixels
+markerem4PNG,alémguardas.103aindaNÃOEXECUTADA;host102 aencerrarnormal.
+Perfilpróprio IS-5-PERFIL-PREVIO.md ecollector/auditor prontos,nãoexecutados.
+
+IS5produto0.10.3 CEF20261026a ACEITO4grupos/9recusas/0JS;4PNG100/150
+originaisreviewACEITA is5-zone103-visual-review-20261026a. TODOSapp103
+PRESERVARaceitos. Núcleo/refs/artefato/worker iguaiscientificamente.
+ATENÇÃOpreviewinlinepodeOMITIRmarker/rótulo presentesnoPNG:4originais103
+contêm21018pixelsouro,centerRGB251,184,96,ROIhashidêntico. Nãoatribuir
+falhaaoenginebaseadosónaimageminline;verificarbrutosantes.103retémnóGL
+emload/newworker,legendaSol arquivado curta/Overlay;cleanupserverrobusto.
+Aindasemperfilaceito;coletor/auditor próprios prontos,iniciar4janelas.
+Host103 launcher(consultaroutput/session.json),exec15048. Nãoeditarapp.
+Próximodepoisperfil:relatórioIS5 eC2-20zonaEOS/reservatóriotérmico(roadmap
+sóseçãoC2-20lida). MESAeosoverview eTimmesEOS primáriosconsultados26/10
+paraformularcontratofuturo;nenhumsolver/taxafonteexterna atualizados.
+
+CORREÇÃOdiagnósticovisual:brutos101/102também21018pixelsouro nas8PNG.
+NÃOhouvedemonstraçãodefalhalifecycle/Sphere;previewinlineomitiucamada.
+Atribuiçãoanteriorretirada,evidence/is5-visual-preview-correction-20261026.json.
+101/102label longorealmenteatingiuchart;103curta resolveevalidapixels.
+PERFIL103 emexec69687 label20261026a,primeirajanelaconcluída/segundawarmup.
+Nãoeditarapp/coletor/auditor duranteperfil. Cota45%5h/76%semana17:24:57Z.
+
+Perfil103A encerrouCOMPLETEDfalse:GPUcollector3excedeu20s+cleanup20s,
+reciboGPU3ausente;2primeirasjanelasválidas(p95max13.85985/p99max14.27859ms,
+0>100),fontesintactas,semprocessoscollector/IS5sobrando. NãoeditarA.
+ResumeB scripts/benchmark-is5-zone-native-resume.py --label20261026b
+--resume-label20261026a reutiliza SOMENTE2brutoscompletos/hashoriginal e
+mesmoLABpausado0;mede3/4comwaitcollector60s. Auditorv2validaorigem.
+Contrato térmico IS-5-TERMICA-CONTRATO-PREVIO.md+is5-thermal-stagingEOS
+emconstruçãoindependente;semtesteCPUduranteperfil. Cota39/75%17:30:39Z.
+
+IS5PERFIL103B ACEITO independentemente is5-zone-profile-audit-20261026b:
+4janelas(2brutosAreutilizados/2novosB),p95max13.87063/p99max14.27859ms,
+0>100,RAM1.164726GiB/GPU2.977722GiB,ritmomín.964753. Campo/gráficos/source
+congelados/ownerintacto eUTCgpu66conferidos. Fontes103+coletor+auditorPRESERVAR.
+Relatório IS-5-ZONA-SOLAR-RESULTADO-20261026.md. Host103Atlasativo,fecharnormal.
+TERMICA:IS-5-TERMICA-CONTRATO-PREVIO.md;is5-thermal-staging/is5_eos.py
+ACEITO27FDvsmpmath50dps+27EOSgrade/Cv/derivadas/Maxwell+12recusas,recibo
+is5-thermal-eos-20261026a. PRESERVAREOS/core/refs/manifests.
+is5_thermal.py novo(emstaging)acoplaT/composição+reservatóriomisturaideal
+FDnão-rel/íonsclássicos/radiaçãoLTEconfinada,rho/Vfixos,νescapa,semtrabalho/
+Lsuperficial. AINDANÃOEXECUTADO. Próximo testeRADAUvsBDFenergiaUinvertida,
+conservação/refinamento/tipos/domínioconformecontrato;seToutsidedomínio
+recusaintegral,semclamp/encurtartempo. Últimacota29/73%17:36:31Z.
+
+TÉRMICACIÊNCIAA ACEITA is5-thermal-20261026a:8casos(misto10kyr,pp1kyr,
+CNO30yr,alloff1Myr,weakoff1Myr,EMoff10kyr,cold1s,hot1yr),5recusas;
+BDFenergiaU+inversãoEOSindepemmistura10kyr/refinamento passaram. Fonte
+output/is5-thermal-staging/is5_thermal.py agoraPRESERVAR,juntoEOS/core/refs.
+Host103encerrouNORMALengine_exit0exec15048;nenhumhost.
+Próximo:provarfeedbackmaior1MyrcontraBDFindep,entãoworker/artefatotérmico
+própriossemalteraraceitos. Cota23%5h/72%semana17:39:41UTC.
+
+FEEDBACKTÉRMICO1MyrACEITOis5-thermal-feedback-20261026a:15→18.503490MK,
+BDFenergiaUindep erroT2.063e-10rel,composição8.96e-14porbárion,
+refinamentoT1.22e-11rel,energia6.07e-14normalizada. Semestrelaobservada.
+THERMALWORKERACEITO is5-thermal-worker-artifact-20261026a,13recusas,
+T/Usonda/selado/recompute/newprocess/32ramos/Windowslocks/refusadomínio.
+PRESERVARoutput/is5-thermal-worker-staging/*.py eciênciatérmica.
+Candidataoutput/is5-thermal-zone-product0.11.0/appcriadaisoladade103,
+IS-5-TERMICA-PRODUTO-CONTRATO.md;T0inicial,T/P/U/Cvsonda+gráficoT.
+APP011aindaNÃOEXECUTADA;próximo launcherlaunch-is5-thermal-candidate.py
+everify-native-is5-thermal.py --label20261026a;guardas/ramos/PNG/perfil.
+
+CHECKPOINT7%26/10 17:49:27.869UTC:7%5h/70%semana,NÃOesgotada,continuaraté0.
+Passagemplaintext PASSAGEM-20261026-IS5-TERMICA.txt salva.011CEF ACEITO
+is5-native-thermal-20261026a4grupos/9recusas/0JS;falta2PNGrevieweperfil.
+Host011exec9279Atlas,app9596/server29684;app011PRESERVAR.
+Próximoexactoreview2PNG ebenchmark-is5-thermal-native.py20261026a,
+audit-is5-thermal-profile.py20261026a. Contrato/scripts prontos,nãoexecutados.
+
+011VISUALACEITO is5-thermal-visual-review-20261026a:4PNG100/150revistos,
+21018pixelsmarkerROIidêntico,sondaT/P/U/Cv ecurvasreferência legíveis.
+Próximoiniciarperfilbenchmark-is5-thermal-native.py20261026a;contrato/auditor
+prontos.Nãoherdarperfil103.7%aindanãoesgotada;continuaraté0.
+
+CONTINUEdono:perfil011A parouANTESmedição/assertpreflight porquecoletor
+herdouliteralguard0.10.3;corrigidosóguardpara0.11.0. FolderA vazio
+preservado;usarlabel20261026b,preflightCEF/visualcontinuam20261026a.
+Cotaúltima1%5h/69%semana17:51:10Z marcadaSTALE;atualindisponível,
+nãoafirmaresgotada/nãobypassar se vier0.
+
+PERFIL011B agoraEMEXEC exec43669,receiptis5-thermal-zone-profile-20261026b.
+Guardpreflightcorrigidode0.10.3para0.11.0;Aparouantesmedir,preservado.
+Visual011aACEITO4originais/pixels21018. AuditorapósB:
+python3 scripts/audit-is5-thermal-profile.py --label20261026b.
+Quota atualSTALE1/69%(observado17:51:10Z),semleituraatual;nãoinferir0
+oureset. Continue dodonoautoriza seguir. PASSAGEMatualizada.
+
+NOVA JANELA confirmada26/10 23:21:21.104UTC:100%5h/69%semana.
+LeituraatualOKsubstituiSTALE1%;continuarautorizado. Perfil011Bexec43669
+emcaptura1,deixarconcluirsemeditarfontes.
+
+011PERFILB ACEITOis5-thermal-zone-profile-audit-20261026b:4janelas,
+p95max13.97617/p99max14.41297ms,0>100,RAM1.202763/GPU2.995056GiB,
+ritmomín.964898. T/P/U/Cv/energia poríndiceartifact_hash conferidos.
+RelatórioIS-5-TERMICA-RESULTADO-20261026.md. PRESERVARapp011/códigos/receitas.
+Host011Atlasativoexec9279,encerrarnormalagora. PróximoIS5/C2-20 pp-II,
+IS-5-PP-II-CONTRATO-PREVIO.md criadoantescódigo. TaxaECBe7SFIIeq40
+APENAS10<T6<16;modelopróprio12espécies/12canais ebaseQAME2020explícita,
+semalterar01110–30MK. Pesquisa primária SFIIp26/Bahcall2001TableI+package
+pynucastro3.1.0jáinstalado;capturar novosdados emoutput/is5-pp2-staging.
+Última78%5h/65%semana23:29:03.104UTC.
+
+011encerrouNORMALengine_exit0exec9279,logspreservadoscandidate/execution-logs.
+Nenhumhostativo. PP-IIdados emacquisiçãoexec62285scriptprepare-is5-pp2-data.py;
+preserva9taxaslegadas,enovos2fits+BeECsolarSFII+QAME2020p/todos12canais.
+
+PP-II CIÊNCIAACEITA is5-pp2-20261026a:12espécies/12canais,44taxas/
+ECDecimal,32768gates,10casos(EC/Li7analíticos,mistoTprescrito+térmicoBDF
+indep/refinamento,legacy-limit,ppII-route,weak/EM/alloff,cold1s),6recusas.
+QAME2020 fechaexato pp-I/pp-II/CNO-I;contae−ECdistintodee+β;YeafetaEC/Jac.
+Data/PDFsfrozenprepare-is5-pp2-data.py;acceptedfordataonlyreceiptpróprio.
+PRESERVARoutput/is5-pp2-staging/is5_pp2.py epp2-data.json/raws/references.
+Próximo:stressfixturetérmicaECe−consumido;worker/artefatoppII próprios,
+depoisUI. SourceBeECstrict10<T6<16:Nãoextrapolar011.
+011encerrounormal,nenhumhost. Cota67%5h/63%semana23:36:42.055UTC.
+
+PP-IIworkerACEITO is5-pp2-worker-artifact-20261026a:13recusas,modo
+prescrito↔térmico/sondaEC/T/U/source/save/load/newprocess/32ramos/locks.
+PRESERVARoutput/is5-pp2-worker-staging. FixturetérmicaECe−BACEITA
+is5-pp2-thermal-ec-20261026b2casos;A falhousótiponp.floatdoTESTE,
+Bcastfloatfixturesemalterarmodelo. Candidate0.12.0isoladada011criada,
+IS-5-PP-II-PRODUTO-CONTRATO.md;12controles/sondae−/BeLi plot/domain10–16MK/
+QAME2020. AINDANÃOEXECUTADA. Próximo launch-is5-pp2-candidate.py e
+verify-native-is5-pp2.py --label20261026a. Model/worker/011intactos.
+
+012CEF ACEITO4grupos/10recusas/0JS,reviewvisualFALSEporfraçãoBe7
+−4e−41semqualificador e−0naEC. Dentroorçamentonumérico,ciêncianãomuda.
+0121isoladacriaformatterresíduo±10^-20/−0/nullindisponível,guardproduto
+modeisoexclusivo;PRESERVAR012/ciência/worker. Perfilaponta0121,nãoiniciado.
+Fechar012normal anteslaunch0121;testeverify-native-is5-pp2-v121.py20261026a.
+
+012encerrouNORMALengine_exit0exec1967,logspreservadoscandidate/execution-logs.
+Host0121emaberturaexec80764;teste121a eperfilpp-II aindaaexecutar.
+Science/model/worker aceitosintactos.40/59%cotas23:47:42.107UTC.
+
+0121CEF ACEITO is5-native-pp2-121-20261026a:4grupos/11recusas/0JS.
+Visual0121ACEITO4PNG100/150,21018pixelsmarker,Be7resíduoidentificado/EC0.
+Próximo perfilbenchmark-is5-pp2-native.py20261026a eauditorpróprio;
+app/ciência/worker/fontestestes ACEITOSpreservar.27/57%cota23:53:15Z.
+
+0121PERFIL A EMEXEC27494,4janelas. Auditorfrozen original conferescalars;
+novo audit-is5-pp2-profile-probes.py confere2976valores/24estados (todas
+12espécies/12canais,14scalars×2networks),rodarAPÓSauditorframes.
+Nãoeditarfontes arquivadas durantecaptura. PP-IIIcontrato+acquisitionrecipe
+scripts/prepare-is5-pp3-data.py escritoNÃOexecutado.Nenhumsolverpp-III.
+Últimacota15/55%23:54:56.178UTC;continuaraté0e salvarantes≤8%.
+
+0121PERFIL A ACEITO auditoresis5-pp2-zone-profile-audit-20261026a e
+is5-pp2-zone-profile-probes-20261026a:4janelas,p95max13.883410/p9914.277658ms,
+0>100,RAM1.214195/GPU2.982849GiB,ritmomín.964512;2976valores/24estados.
+ReportIS-5-PP-II-RESULTADO-20261026.md.PRESERVARfontes/receitas/recibos.
+PP-IIIdataacquisitionEMEXEC91014.Encerrar0121normalagora+logs.
+
+CHECKPOINT8%5h/54%semana27/10 00:00:56.988UTC:salvo,CONTINUARaté0.
+Perfil0121AACEITO4janelas pelos2auditores;reportIS-5-PP-II-RESULTADO-20261026.md.
+PP-IIIdadosadquiridosACEITOSPARADADOSsomenteis5-pp3-data-20261026a:
+13espécies/14canais,2fitsoriginais+B8NUBASE0.7719s;Qbe7p.136400064,
+Qb8beta2a18.07173726MeV. Nenhumsolverpp-IIIainda.
+Host0121encerrounormalengine_exit0exec80764,logsexecution-logs arquivados.
+Próximoimplementaroutput/is5-pp3-staging/is5_pp3.py conformecontrato,
+semalterarppIIaceito;depoistestesindependentesantesworkerUI.
+
+PP-IIImodeloescrito output/is5-pp3-staging/is5_pp3.py (13/14/NVAR27),
+NÃOACEITOscientificamente. FundaçãoEMEXEC42048 scripts/verify-is5-pp3-foundation.py:
+8taxas/4Qcycles/131072gates/B8isolado prescrito+térmico vs exp/energiaUinversa.
+Recibois5-pp3-foundation-20261026a apósconcluir;mesmoTrueéSÓFUNDACAO,
+nãofullscience. FaltaJac/competiçãoEC-p/BDFmisto/refine/ppIIlimit/recusas.
+Nãoeditarfonteexecutadasefundaçãoaceitaconfirmahash.5/54%cota00:02:05Z.
+
+PP-IIIFUNDAÇÃOACEITA is5-pp3-foundation-20261026a:8taxas/4Qcycles/
+131072gates/B8exponencial2modos,Terr8.48e-13rel;NÃOfullscience.
+PRESERVARmodelois5_pp3.py/inputs/fontesteste. NOVOSemexec:
+verify-is5-pp3-mixed.py exec80060 (prescritopassou,termicopendente),
+verify-is5-pp3-competition.py exec18312 (Jac13/BDF2extentsH+Ye/6recusas).
+Conferirrecibosis5-pp3-{mixed,competition}-20261026a apósconcluir,antes
+repetirqualquercoisa. Se3recibosaceitos ehashmodel/dadosidênticos,
+agregaraceitecientíficopp-III;worker/UI/perfilprópriosaindaaimplementar.
+Últimacota3%5h/54%semana00:02:42.337Z;continuaraté0.Nenhumhostativo.
+
+PP-IIICIÊNCIAAGREGADAACEITA is5-pp3-science-20261026a,3recibospassaram,
+hashesfontesidênticos+atuais. CompetiçãoBDFerro3.499e-13porbárion,
+ECfraction.99831194(desteFIXTURE,nãofraçãoUniversal),Jac1.259e-9rel,
+6recusas. MistoBDFthermalTerr1.475e-13,limiteppIITerr1.068e-14.
+PRESERVARoutput/is5-pp3-staging/model/data/refs e3tests aceitos.
+Próximo contrato/worker/artefato13/14 próprio;NENHUMworker/UIpp-IIIainda.
+
+CONTINUE27/10 13:44:01.225UTC NOVAJANELA100%5h/53%semana confirmada.
+Zerode00:03stalefoi substituído porleiturareal,nãoinferidopelotempo.
+Workerpp-IIIemoutput/is5-pp3-worker-staging jácriado antesesgotar;testeA
+falhouPREEXEC porreference-manifest.jsonfaltante,folderAvaziopreservado.
+Manifestadicionado,testereferenciaIS-5-PP-IIII corrigidaPP-III antesexecB;
+refusapp2checkpoints/runtypes+sonda13/14 explícitos. Bpróximo.
+
+PP-IIIWORKER B ACEITOis5-pp3-worker-artifact-20261027b:14recusas,
+modo/sonda13/14/e−e+/source/save/load/newprocess/32branches/locksWindows.
+PRESERVARworker/model/fontesteste. Apreexecfalhoumanifestfaltante,
+foldervaziopreservado. Candidata0.13.0isoladade0121 preparada conforme
+IS-5-PP-III-PRODUTO-CONTRATO.md:14controles,sondaB8/taxas,plotB8escala
+própria,scopeefetivo. Próximo launch-is5-pp3-candidate.py e
+verify-native-is5-pp3.py --label20261027a;visual6PNG/perfilpróprio depois.
+
+0130CEF ACEITOis5-native-pp3-20261027a:4grupos/11recusas/0JS,Be7p
+manipuladopeloformulário,B8nu/sonda/13species14canais. Visual6PNG100/150
+ACEITOis5-pp3-visual-review-20261027a,marker21018cada,plotB8escala própria.
+PRESERVARapp0130/ciência/worker/testesreceitas. Perfil próprioiniciaragora
+benchmark-is5-pp3-native.py20261027a,audit-is5-pp3-profile.py20261027a.
+Contratoperfilantesmedir;auditorúnicocom3264valores/24estados.
+Host0130exec4833 app38176/server6468. Nãoalterarfontesarquivadasemperfil.
+Ledgerauditpp3is5-pp3-ledger-audit-20261027a ACEITO9dataset,14Q,
+refinementT4.97e-15;semrepetirintegração.
+
+0130PERFIL A REPROVADO1quadro401.108712ms janela4offset41.722s;3outras
+passaram. Nãoocultar/descartar.Nenhumcausaestabelecida/logerro. Docreprodução
+IS-5-PP-III-PERFIL-REPRODUCAO-20261027.md antesB,mesmafonte/host/scripts,
+repetirtodas4,label20261027b (preflighta). A/ZIP/recibospreservados.
+CNO-IIdataACQUIRED16espécies18canais,F17NUBASE64.37s±.027s,4QAME,
+receiptis5-cno2-data-20261027a. AindaNÃOhámodeloCNO-II. Podeescreversolver/
+testesduranteperfilB,masnãoexecutartestesCPUheavy/imports atéconcluir.
+
+PERFIL0130 B EMEXEC99003,preflighta. AcontinuaREPROVADO401ms. Semmutar
+fontes0130/bench/auditorcontrato enquantoBmede. ApósB auditarb,relatório
+mantémAfalhouindependentedeB.CNO-IIdadosACEITOSparasóaquisição,modelo
+output/is5-cno2-staging/is5_cno2.py16espécies18canaisNSPEC16/NVAR34
+escritoNÃOEXECUTADO.Sementeo16;poolCNOF indices4..9+13..15,excluiBeLiB8.
+Recipesverify-is5-cno2-{foundation,mixed,competition}.py escritosNÃOEXECUTADOS.
+ApósperfilBconcluir rodar3scriptsWindowsPython;fundação128novosgates+
+18controleindependência,16fits/5Q/F17analíticothermal;miston14/o16em2modos
+BDFUinverso/refine/ppIIIlimit;competitionN15analyticfiniteH/Jac16/routeCNOII/
+7refusals. NenhumaceitecientíficoCNOII,worker/UIaindanãoexistem.
+
+0130PERFIL B ACEITOis5-pp3-zone-profile-audit-20261027b:4janelas próprias,
+p95max13.960800/p99max14.376200ms,0>100,RAM1.202858/GPU2.986755GiB,
+ritmomín.964747. A continuaREPROVADO401ms;código/host/scripts/limitesA=B
+verificadosiguais,nenhumwindowreaproveitado.ReportIS-5-PP-III-RESULTADO-
+20261027.md completo. PRESERVARfontesaceitos0130. Encerrarhost0130normal.
+CNO-IIfundaçãoEMEXEC73540;depois mixed/competitionprontos,rodarambos.
+
+0130encerrouNORMALengine_exit0exec4833,logsexecution-logs arquivados.
+Nenhumhostativo. CNO-IIFUNDAÇÃOACEITAis5-cno2-foundation-20261027a,
+16fits/128newgates+18controlindependência/5Qcycles/F17analítico2modos,
+Terror6.08e-14rel;modelos/fontespreservar. MistoEMEXEC20756,competitionEMEXEC3004.
+WorkerCNO-II preparado(output/is5-cno2-worker-staging)NÃOEXECUTADO,
+manifest/aceitecientíficoagregadoaindaaadicionarapós3testes. Teste
+verify-is5-cno2-worker-artifact.py20261027a preparado,contratoantescódigo.
+
+CNO-IICIÊNCIAACEITAis5-cno2-science-20261027a agrega3recibos/14datasets,
+18Q/νledgerrecontados,fontesidênticos. Fundação16fits128gates+independência,
+5Qcycles,F17exp+EOSinverso;4mistosN14/O16prescrito/térmicoBDF/limiteppIII,
+Terrmax3.66e-13;N15branchanalíticoerro1.46e-14,Jac8.16e-10,routeCNOII,
+7recusas. PRESERVARmodel/dados/3tests. WorkerCNO-IIACEITO
+is5-cno2-worker-artifact-20261027a14recusas,seedO16/restorenewprocess,
+32ramos/locksWindows. Candidata0.14.0isolada conformecontratoproduto;
+18canais/CNOlog10/O16seed/F17scope,verify-native-is5-cno2.py preparado.
+Próximo launch-is5-cno2-candidate.py eCEF20261027a,8PNG/visual/perfilpróprio.
+
+0140CEF ACEITOis5-native-cno2-20261027a4grupos/11recusas/0JS,
+seedO16viaform/18canais/N15pγoff/sondaCNO/hideallcomposition/CNOlog.
+Visual8PNG100/150ACEITOis5-cno2-visual-review-20261027a,21018markerpixels.
+PRESERVARapp0140/ciência/worker/testes. PerfilA iniciarbenchmark-is5-cno2-native.py
+--label20261027a;auditorindepaudit-is5-cno2-profile.py20261027a,3936valores.
+Host0140exec94074 app29064/server37872;encerrarnormal apósperfil eguardarlogs.
+
+0140PERFILACEITOis5-cno2-zone-profile-audit-20261027a:4janelas,
+p95max13.917380/p99max14.404980ms,0>100,RAM1.208447/GPU2.989685GiB,
+ritmomín.964918;3936sondas/24estados. ReportIS-5-CNO-II-RESULTADO-20261027.md.
+Host0140encerrouNORMALengine_exit0exec94074;logsexecution-logs arquivados.
+Nenhumhostativo. Todosaceitosfontescongeladas.PreservarCosmos/Revenant.
+NOVOREFERENCIASSOLARES:ZIPB23v1.2DOI10822316 emoutput/is5-solar-reference-staging,
+checksumMD5publicado/SHAconferidos,receiptis5-solar-reference-acquisition-
+20261027a somenteaquisição. ContratosREFERENCIAS-SOLARES-CONTRATO-PREVIO/
+IMPORTACAO antescódigo. Parser scripts/is5_solar_reference.py escrito,
+exploração6tabelaspassou;3linhascentraisflagsraio excluídascomparação,
+auxν/dmassinadospreservados;GS98elegíveis359,AGSS09354. Testeaceite/EOS
+comparativa/figuraainda NÃOEXECUTADOS. NãohámodelorealSolimportadoparazona.
+Últimacota25%5h/41%semana14:25:12.499UTC;continuaraté0,salvarpassagem≤8.
+
+REFERÊNCIASACEITAS:importA6tabelas2001×47/120Decimal/10recusas;
+auditorB6models/713EOSpointsA>=1(conservador),originalAupperA>=10condicional
+preservadonãoélimiteatual. neaudi12006ne/713Ye,max3.31e-16;figuraBPNG/SVG
+visualaceita. ReportIS-5-REFERENCIAS-SOLARES-RESULTADO-20261027.md.
+EOSidealmaisalta1.738..2.279%nonestorecorte,nãoerroestatístico,nãocausa
+Coulombprovada. Fontes/receitas/plots imutáveis. Nenhumhostativo.
+PróximoIS5/C2-20 EOSCoulomb/screening:pesquisa+contratoantesnovocódigo,
+energia livre/neutralidade/derivadas,semalterarideais/redes0140aceitos.
+
+CHECKPOINT5%5h/38%semana27/10 14:35:29.951UTC,salvoantesesgotar;
+passagemPASSAGEM-20261027-IS5-CNO2-REFERENCIAS.txtatual,continuaraté0.
+Nenhumhostativo/testependente;próximopesquisa/contratoCoulombEOS.
+
+ANÁLISE GERAL — 28/10/2026, concluída a pedido do dono.
+Tabela dos 27 marcos: reports/ANDAMENTO-GERAL-20261028.html.
+Relatório: reports/ANDAMENTO-GERAL-20261028.md; dados: andamento-20261028.json.
+V1: 7 aceitos localmente (C2-00/01/02/03/06/18/19), 10 parciais e 4 planejados.
+Mais 6 expansões propostas; não converter contagem em percentual de trabalho.
+Leitura de planos, decisões, relatórios e seis recibos recentes accepted=true;
+sem repetir ciência ou perfis. Select-Cosmos2Runtime confirmou base cloud 3.13
+por hashes aprovados de motor/app. Candidatas IS-3/4/5, incluindo 0.14.0,
+continuam separadas, sem promoção. Nenhuma fonte/modelo científico alterado.
+HTML offline com filtros, busca, modo compacto e tela cheia; captura 1920×1080
+revista. ABRIR-ANDAMENTO-COSMOS2.cmd permite abrir novamente. Janela Edge
+confirmada com título Cosmos2 - andamento geral; perfil isolado do relatório.
+Meta de 12/11 permanece: 15 dias nesta análise, sem garantia medida de fechar
+os 14 marcos abertos da v1. Próximo científico: contrato EOS Coulomb/screening.
+CHECKPOINT: 2% na janela de cinco horas e 69% semanal, telemetria real observada
+em 28/10/2026 às 16:36:21.937 UTC. Solicitação de análise e tabela concluída.
+
+RETOMADA CIÊNCIA28/10: cota atual renovada observada100%5h/68%semana,
+continuidade autorizada semdelegar. Fundação Coulomb+respostaFD ACEITA
+is5-coulomb-foundation-20261028b:9eta/12EOSHHe/12parespp/21recusas;
+206fontesaceitasintactas. χe/derivadas50dps,Maxwellcorreção separada,
+composiçãoneutra/composto. ReportIS-5-COULOMB-FUNDACAO-RESULTADO-20261028.md.
+PRESERVARoutput/is5-coulomb-staging/model/references+testeB+contratos.
+A falhouescaladerivadastendendo0;Bdefineescala prevista semmudarmodelo;
+ZIP/reciboApreservados. DHclássicorecusaSol(CNOΓ>1/degenerescência/difração),
+nãoaplicar0140,nemsubstituirneporχeechamarEOSgeral. Próximocontrato
+misturaalémDH/PC2009+adendo;pesquisapúblicaemoutput/is5-coulomb-research-20261028.
+IoffeEIPfalhoucertificadoTLSmesmofora sandbox,nãodesabilitarTLS.
+FontesprimáriasarXiv acessíveis. Nenhumhost;modeloideal/0140intactos.
+
+MISTURACOULOMB28/10ACEITA: is5-coulomb-mixture-20261028b (12estados,
+4componentes ii/ie/ee/mix,FortranCTFalinhado5.402e-7,mp50dps4.637e-14,
+Maxwell1.476e-9,13recusas) +composition-20261028a(96gradientes/6estados,
+erro1.379e-9,3traçosFe26positivosrecusados). PRESERVARmodelois5_jet/
+is5_coulomb_mixture +licenças/contrato/testes/referências/ZIPs.
+ComparaçãoA REPROVADA(Cv_ie1e-4);FortranoriginalCTF=.2513 vs expressão
+completaMESA/Python. Busa cópiareferênciacomSÓconstantealinhada;
+brutooriginalnos12casosmax1.272e-4aindafalha5e-5,nãoocultar.
+ReportIS-5-COULOMB-MISTURA-RESULTADO-20261028.md. TLSnãodesabilitado;
+eos22.fcompleto96740bytesHTTPpúblico/Fortranlocal,semprodutização.
+PRÓXIMO screening+evolução emoutput/is5-coulomb-network-staging,
+contratoIS-5-COULOMB-REDE-CONTRATO-PREVIO.md jácriadoantescódigo.
+Testar13pares/ECintacto/RadauvsBDFUinverso/conservação/gates/idealcontrol.
+Nenhumhost,candidatas/instalado eaceitosanterioresintactos.
+
+SCREENING28/10ACEITO is5-coulomb-screening-20261028a:52pares/4estados,
+errohmp8.951e-15/FD8.315e-11,ee cancela;ppcompostoZ2,EC/4beta fator1,
+6recusas. PRESERVARoutput/is5-coulomb-network-staging/is5_coulomb_network.py,
+contrato/testes/ZIP. ReportIS-5-COULOMB-SCREENING-RESULTADO-20261028.md.
+EVOLUÇÃOEMEXEC91814scriptverify-is5-coulomb-evolution.py --label20261028a,
+5casosRadau/BDFUinvertido/refine+controls+hotwhole-run. Caso0Radauprescrito
+passou2879RHS/42.108s;BDFsalvo,refinamentoemexec. Semaceitetérmicoainda.
+NÃOeditarfontesexecutadas;conferirrecibo/casos antesrepetir.
+WorkercontratoIS-5-COULOMB-WORKER-CONTRATO.md antescódigo,AINDASEMworker.
+Prazo35santigoinsuficiente;resolveratomicidade/limiteantesprodutizar.
+Últimacotareal25%5h/57%semana21:43:08Z,continuaraté0/salvar≤8.
+
+CHECKPOINT8%5h/54%semana28/10 21:49:18.880UTC.SalvaPASSAGEM-20261028-
+IS5-COULOMB.txt,CONTINUARaté0. EvoluçãoAexec91814casos0/1/2completos;
+N14térmicoTerrBDF5.340e-15/energia9.672e-16,O16prescritoYerr5.551e-16.
+Cases3/4pendentes. BUGTESTEAEMoff invariânciaerrada(ppforte+fracaativo).
+NÃOalterarmodelo/gates/testeativo;deixarAterminarepreservarreprovação.
+AuditorB escritoNÃOexecutado: audit-is5-coulomb-evolution-controls.py
+--label20261028b,contratoIS-5-COULOMB-EVOLUCAO-CONTROLE-B.md.
+Reusarsó5casosAcompletos/4controlesválidos+15JSONshaconferidos,exige
+falhaEMoffexata. BfazEMoffpppermitido+unscreenedCoulomb+tipos/hot.
+SemaceiteagregadotérmicoatéB. FigmisturaPNG2400×1500/SVGvisualACEITA
+is5-coulomb-mixture-visual-review-20261028a,linknoreport. Nenhumhost/worker.
+
+ATUALIZAÇÃO2%5h/53%semana28/10 21:52:06.365UTC,nãoesgotada.
+Passagematualizada;Aexec91814casos0/1/2 completos,3térmicoO16BDF/refine
+pendentes,4long+controlesdepois. AuditorBpreparadoaindanãoexecutado.
+
+RETOMADA29/10 01:59:50.426UTC(28/10local): NOVAcota100%5h/53%semana.
+Aexec91814encerroufalse,5casosPASSARAMRadau/BDF/refine;O16thermalTerr
+2.806e-14,100kyr15→15.154164MK/Terr6.534e-13,energiamax2.591e-15.
+FalhoudepoisnosTESTESweakoffmapaparcialrecusado,ANTESdeEMoff.
+Nãofalhamodelo. AuditorBcorrigidoaindaNÃOEXECUTADO para5casos+3controlesA,
+falhaValueErrorswitchesexata ehashesconferidos;weakoff/EMoffmapascompletos.
+PróximorodarB eaceiteagregadosósepassar. Nenhumhost,nadapromovido.
+
+EVOLUÇÃOCOULOMB BACEITAexec26943:3controlescomplementares/7recusas,
+reusou5casosA+3controlese15JSONfontesiguais. CIÊNCIAAGREGADAACEITA
+is5-coulomb-science-20261028a,91fontes/5recibos. ReportIS-5-COULOMB-REDE-
+RESULTADO-20261028.md. ApermanecefalseporpedidoTESTEweakoffmalformado.
+PróximoworkerpróprioIS-5-COULOMB-WORKER-CONTRATO.md,auxiliarcalculation
+comtimeoutantesackfalha/state/quitresponsivos;cliente35santigoinadequado.
+Últimacota98%5h/52%semana29/10 02:00:27.794UTC. Semhost/promoção.
+
+WORKERCOULOMBA20261029a REPROVADOtimeout240s/0grupos,fonteA/ZIPpreservados.
+Diagnósticoprocessovenvlauncher+Pythonreal,semvigilânciaPythontermina40–50s;
+nenhumamudançaciência. V2output/is5-coulomb-worker-v2-staging criadocom
+pythonbase-S+packagesfixados/JobObjectKILL_ON_JOB_CLOSE/PIDexato/auxstdinNUL.
+Guardagenrecusoubibliotecasbaseantesde-S,smokeready/quitposteriorPASSOU.
+Testeverify-is5-coulomb-worker-artifact-v2.py --label20261029b iniciado,
+conferirrecibo antesrepetir. NÃOeditarV2/testesduranteexec. Produto0.15.0
+AINDASEMcriação;IS-5-COULOMB-PRODUTO-CONTRATO.mdantescódigo.
+Nenhumhost,sem promoção;últimacota46%5h/44%semana02:18:32.750UTC.
+
+WORKERV2ACEITOis5-coulomb-worker-artifact-20261029b,exec19265encerrou0,
+8grupos/17recusas,state.112s/create44.259s/deadline.418s/quit.081s,
+32branchesstartup3.823s;locks/corrupção/newprocess/jobownerdeath passaram.
+PRESERVARV2/testes.ReportIS-5-COULOMB-WORKER-RESULTADO-20261029.md.
+0150candidataCRIADAde0140pela receita;Python/JSsyntaxpassou.Launcher12877
+emexecbootstrap;CEFverify-native-is5-coulomb.py --label20261029aPRÓXIMO,
+ainDA nãoexecutado.RoteirofechaHOSTtoggleShutdownnormal/launcherarquivalogs.
+SemaceiteCEF/visual/perfil/fontesappcongelarapósexec,nenhumapromoção.
+Últimacota13%5h/39%semana02:29:11.901UTC,continuaraté0.
+
+CHECKPOINT7%5h/38%semana29/10 02:31:00.943UTC.PASSAGEMsalva,CONTINUARaté0.
+CEF0150Aexec47602REPROVADOinicializaçãoJS,0checks/0PNG,recibo/ZIPpreservados.
+Shutdownnormalsolicitado,conferirlauncher12877/logs.Diagnosticarpage_errors
+antescandidataB;ciência/workerV2BseguemACEITOS,fontesintactas.
+
+RETOMADA29/10 08:24UTC: telemetria NOVA95%5h/36%semana (08:24:28.787Z).
+Cota antiga1% foi classificada stale, não esgotada. Correção candidata0150:
+index.html embutia painel0140; agora substituído pelo painel Coulomb próprio,
+receita atualizada. CEF A/ZIP continuam reprovados/preservados. Launcher vivo
+Windows18276/app29236/server30760, candidata própria. Teste CEF B EMEXEC18317:
+verify-native-is5-coulomb.py --label20261029b, recibo/ZIP já criados, zero
+page_errors na inicialização. NÃO editar app/receita/teste durante execução.
+Roteiro encerra host por toggleShutdown no finally. Ciência/worker intocados.
+Preparar contrato/perfil próprios enquanto CEF calcula; medir somente após
+aceites funcional+visual e sem outras cargasCPU concorrentes.
+
+CEF B29/10 08:29UTC REPROVADO por BUG DO ROTEIRO: command(name,**extra)
+conflitou com branch_create(name=...).2grupos/8PNG/6recusas passaram antes;
+semfalhaJS/appobservada. Recibo/ZIPB intactos. Shutdown normal/semcleanup_failure,
+logs em execution-logs/1793262234144496900. Corrigido SÓ parâmetro auxiliar
+name→action; novo percurso C completo necessário. Launcher EMEXEC4768.
+Perfil próprio contratoIS-5-COULOMB-PERFIL-PREVIO.md+benchmark/auditor criados,
+AST/helpPASSARAM,aindaNÃOmedido. Exige CEF/visualC aceitos,4848sondas previstas.
+
+CEF C EMEXEC81091,launcher4768/app17140/server37248; Bfechounormalmente.
+Oito PNGsC idênticosSHA aosB revistos; visual final aguarda9a e CEF completo.
+Contrato+scripts perfil próprios preparados,4848valores,nenhumperfilmedido.
+Próximoapós0150:IS-5-REFERENCIAS-SOLARES-PRODUTO-CONTRATO.md registrado,
+consulta B23somenteleitura candidata0160,sem implementaçãoainda.
+
+CEF/visual C ACEITOS4grupos/7recusas/9PNG/zeroJS,266fontes. Launcher4768
+engine_exit0/logs1793262843106323900. Reportproduto criado. PerfilAexec7441
+REPROVADO anteswarmup:HTTP400 set_rate,depoiscreate/set_view. Semquadros.
+Inferência código:CEFfaz get_resultPOSTconcorrente após actorativo. Roteiro
+agoraaguarda curvasCEFconcluídas ANTESset_view/rate e guardaerroHTTPcomcorpo.
+App/ciência/worker ACEITOSintactos. PerfilA/ZIP preservados;launcher48854
+engine_exit0/logs1793262986143475200. Próximo perfilB --label20261029b.
+Preparadosaindasemexec: pack/adapter/verifier B23 emstagepróprio,UIHTML/JS/CSS.
+NÃOempacotar/testar atéperfil0150Baceito;recipeexigegates. CPUmediçõessemoutrostestes.
+
+PerfilB REPROVADO terceira preparação:PermissionError leitura readinessGPU
+compartilhada;2janelas completas preservadas,picos>100ms=0,p99máx14.583ms
+DIAGNÓSTICO,nãoaceiteconjunto. App/ciência/worker/fontes nãoalterados.
+RoteiroC aguardaPermissionError/JSONparcial noMESMOdeadline20s ANTESquadros,
+sem mudar limites/aquecimento/janelas. Repetir4janelasC completas; nãoherdarB.
+LauncherC EMEXEC64097. Recibos/gates futuro0160 apontam perfil-audit20261029c.
+Novosstagesbrowsercore+3arquivosUI+pack/verifier/receita0160/launcher/testeCEF
+preparados,nenhumdelesexecutado,nenhuma0160criada. Backend0.15/app imutáveis.
+Cota52%5h/30%semana08:57:16.154UTC.
+
+PERFIL0150 C ACEITO exec90278/auditor20261029c:4janelas/4848sondas,
+p99max14.55728ms/zero>100ms/RAM1.230175GiB/GPU3.001648GiB/rateMin.964820.
+App0150/benchmark/auditor/testes/receipts atuais CONGELADOS.Sem promoção.
+Próximo pack/verifier B23 e candidata0160 isolada.Reportproduto atualizado.
+
+LoaderB23 ACEITO is5-solar-reference-browser-20261029a:12006linhas/
+713intervalos/23recusas. PRESERVARcore/manifest/references/pack/verifier/
+contratoprodutoB23.FontesUIHTML/JS/CSS ainda semaceitevisual. Perfil0150
+launcher64097 encerrouengine_exit0. Receita0160iniciada,conferirresultado.
+Últimacota34%5h/27%semana09:13:00.794UTC. Nenhumapromoção.
+
+CEF0160A passou3grupos/6recusas/9PNG/zeroJS,mas VISUAL A REPROVADO:
+últimoPNG mostra somentezona.CSSbase.zone-active navbutton bloquiaclíque
+emPerfisSolares;teste nãoexigia painelaberto. NativeAtrue/ZIP preservados,
+visualAfalse registra lacuna,SEMaceiteproduto. Host18282engine_exit0.
+CorreçãoSÓCSS0160:exceçãopointer-eventsauto no botão readonly comzona ativa,
+backgroundopacoparalegibilidade.CópiasCSS/manifestantes preservadasem
+output/is5-reference-navigation-revision-20261029b;receiptbuildatualizado
+por revise-is5-reference-navigation.py.NativeBpassa aexigir painelaberto
+ANTESconsultar/capturar.EtapaBpróxima launcher25647;perfil0160exige Baceito.
+Ciência/worker/0150/loaderB23aceitos intactos. Cota25%5h/25%semana09:18:21.661Z.
+
+CEF/visual0160B ACEITOS3grupos/6recusas/9PNG/zeroJS;consulta realmenteaberta
+comzonaativa preservouartifact/view/source/orbit. Host25647engine_exit0.
+ReportIS-5-REFERENCIAS-SOLARES-PRODUTO-RESULTADO-20261029.md.CONGELARAPP0160/
+manifest/receipt/receita/launcher/revisão/CEF.PERFIL0160Ainiciado apósbootstrap
+launcher78004. ConferirsessionID/recibo;roteirofechaHOSTnormalno finally.
+Cota13%5h/23%semana09:24:21.103UTC;salvarpassagem≤8 econtinuaraté0.
+
+PASSAGEMCOSMOS2 —29/10/2026,última cota real9%5h/23%semana09:26:25.449UTC.
+CONTINUARaté0;8%écheckpoint,nãoparada.Nenhumapromoção. Semsubagentes.
+
+ATIVO: perfil0.16A EMEXEC45650:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/benchmark-is5-reference-native.py --label20261029a
+Launcher78004/appWindows28580/server33656. Primeira janela completa,segunda
+emcaptura,semfalha.4janelas zonaausente/ativapausada×consultaaberta/fechada.
+Roteiroencerrahostpor toggleShutdown nofinally;aguardar engine_exit0/logs.
+NÃOeditar app0160/benchmark/auditor/fontes/contratos enquantoexecuta.
+SemoutrostestesCPU nasmedições. Ao completar,auditar:
+scripts/audit-is5-reference-profile.py --label20261029a
+Auditor aindaNÃOexecutado;conferirrecibos antesrepetir. Sequota0antes,fila
+localjáautorizadatermina+fecha hostautomaticamente;próxima retomadaconfere
+recibo/log/launcher antesreabrir. Não alegar aceiteperfilsem auditor.
+
+CEF/visual0160B ACEITOS3grupos/6recusas/9PNG/zeroJS. Últimacapturaconfirma
+consultaaberta sobrezonaativa,artifact/source/view/orbitidênticos.Preserve
+172appfiles+manifest emoutput/is5-reference-product0.16.0,receita/launcher/
+revisão/teste/recibos. NativeAtrue MAS visualAfalse:CSSbloquiava nav enquanto
+zonaativa;testenãoexigia painelaberto. A/ZIP eCSS/manifestantes preservados.
+BSÓCSS:botãoreadonlyexceção+painelopaco,eassert deabertura reforçado.
+ReportIS-5-REFERENCIAS-SOLARES-PRODUTO-RESULTADO-20261029.md,perfilpendente.
+LoaderB23ACEITO12006linhas/713intervalos/23recusas. Congelarcore/manifest/
+dados8arquivos/pack/verifier/contrato produto. SemnovoEOS,calibração ou
+inicializaçãoSolar;intervalosIDEAIS A≥1 não incluemCoulomb/ionizaçãodesconhecida.
+
+0150CoulombACEITA no recorteciência/worker/CEFvisualC/perfilC:
+4janelas4848sondas,p99max14.55728ms/zero>100ms/RAM1.230175GiB/
+GPU3.001648GiB/rateMin.964820. Nenhumapromoção. App/benchmark/auditor/testes/
+contratos/fontes/ZIPs/recibosaceitos imutáveis. A/Bperfilreprovados preservados.
+ReportIS-5-COULOMB-PRODUTO-RESULTADO-20261029.md,hosts fecharamnormalmente.
+Ciênciaagregada5recibos/91fontes eworkerV2B8grupos/17recusas intactos.
+
+PRÓXIMOCIÊNCIA apósperfil0160: IS-5-COMPRESSAO-CONTRATO-PREVIO.md criado,
+nenhumcódigoainda. PrimeirodP/dT,dU/dlnrho consistentesEOS,mp50/FD12estados;
+depoiscontratarODE devolume/densidadeprescritos+trabalho−P dV/energiaVU,
+sem hidrostática/gravidadedinâmica/transportecalculados. Referência primária
+MESA docs energia consultada; ainda semarquivoHTMLlocal.Mantémcomposição
+no balanço. NãoexecutartestesCPU enquanto perfil0160 estiver medindo.
+
+LerLEIA/AGENTS/fimRETOMADA apenas,nãoredescobrirhistórico.Cosmos/Revenant/
+instalado3.13/aceitosanteriores intactos.C2-20/IS5parciais. Quota:
+python3 ../cosmos/scripts/check-codex-quota.py;statusstalenãoprovaesgotamento.
+
+CHECKPOINT6%5h/22%semana,telemetriareal29/10/2026 09:29:44.554UTC.
+PASSAGEMsalva,CONTINUARaté0. Perfil0160Aexec45650:2janelascompletas,
+terceira aquecendo(zonaativa/consultaaberta),semfalha. Launcher78004,
+app28580/server33656. Nãoeditarfontes/nemtestarCPUenquantomede. Roteiro
+fechaHOSTnormal. Próximoauditar --label20261029a quando completedtrue,
+aguardarlauncherengine_exit0/logs e atualizarreport/perfil. Nãoalegaraceite
+antesaudit. Cota0nãoautoriza novasetapas;teste local jáagendado termina
+comcleanup automático,retomadaconfere resultados antesrepetir.
+NovoIS-5-COMPRESSAO-CONTRATO-PREVIO.md salvo,semimplementação/semaceite:
+próximoEOSdP/dT,dU/dlnrho,12estadosmp50/FD;depoisvolume/trabalhoexternos.
+
+RETOMADA29/10 16:22:58.973UTC: NOVAcota100%5h/21%semana. Anterior1%stale
+nãofoiusadacomoesgotamento. Perfil0160A completou4janelas MAS auditorAfalse:
+quadro124.367699ms na4,offset19.117415s,p99=14.453280ms. Fontes todasiguais;
+semcausaestabelecida/logevento/GPU2.989929GiB estável. A/ZIPpreservados.
+B23produtoaindasemaceiteperfil. Contratoreprodução registrado; UMArepetiçãoB
+4janelas mesmasfontes/limites,nãoreutilizarA,nãoremoverpico. SeBfalhar,
+investigar antesrepetir.NovoB inícionesta retomada,conferirsessão/recibo.
+
+ATIVO29/10apósrenovação: perfil0160B EMEXEC83912:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/benchmark-is5-reference-native.py --label20261029b
+Launcher88052/appWindows30740/server35852. Mesmosfontes/limites/hardware,
+contratoreprodução arquivadoantesexecução. NÃOeditar app/benchmark/auditor/
+fontes,semtestesCPUconcorrentes. Ao completar auditar --label20261029b e
+aguardarlauncherengine_exit0/logs. SeBfalhar,investigar antes de repetir.
+Afalsequadro124.367699msna4offset19.117415s;causanãoestabelecida.
+Novaquotareal100%5h/21%semana16:22:58.973UTC;sem esgotamentoatual.
+MESA docs primárias energia arquivadas emoutput/is5-compression-research-
+20261029,acquisition.json registraURL/UTC/SHA. Próximociclo dP/dT/dUdlrho
+apósresolverperfil0160;somentecontrato/derivação,nenhumcódigonovo.
+
+PERFIL0160 B ACEITO exec83912/auditor20261029b:4janelas/24estados,
+p99max14.734040ms/zero>100ms/RAM1.203022GiB/GPU3.036804GiB,
+ritmo.997544–1.005743. A continuafalse124.367699ms/causanãoestabelecida.
+Fonte/scripts/limitesiguais.ReproduçãoBresultado guardado/reportatualizado.
+0.16.0 aceita no recorte,sem promoção;C2-20/IS5parciais. Congelarprodutos/
+benchmarks/auditores/recibos/fontes. PróximociênciaEOSderivadas cruzadas.
+
+NOVACIÊNCIA: derivadascruzadas em output/is5-compression-staging/is5_eos_cross.py
+implementadasapósperfil0160B aceito. ParentCoulomb/ideais inalterados,licença
+LGPL/copias/THIRD-PARTY próprios. Contrato/nota/MESAHTMLdadosincluídosnogeneration.
+Verificação EMEXEC12547:verify-is5-eos-cross.py --label20261029a,12fixtures
+T12/14/15MK×rho1e5/1.5e5×N14/O16,mp50/FD3passos/Maxwell,8recusas.
+NÃOeditarcross/contrato/nota/teste/fontes enquantoexecuta. NovoEOSNÃOaceito
+atéreceipttrue. Perfis0160terminaram/host88052engine_exit0;semhostativo.
+Depoisderivadasaceitas:contratarODEnovouma zonaN_bfixo,volume/densidade
+prescritos,trabalho−PdV eE=VU,RadauT vsBDFEinvertido/refinamento. Semhydro.
+
+DERIVADAS EOS ACEITAS is5-eos-cross-20261029a:12estados/240mp50/720FD/
+8recusas/102fontes.MPmax6.460974e-14,FD1.390493e-7,Maxwell3.281771e-16.
+CONGELARcross/contratos/nota/teste/fonteslicenças/MESAmetadata+HTML.
+ReportIS-5-COMPRESSAO-DERIVADAS-RESULTADO-20261029.md. Novo contrato
+IS-5-COMPRESSAO-EVOLUCAO-CONTRATO.md antes solver:3casosRadauT/BDFE/refine,
+4controles/guardas,totalE=VU eWexterno. Solver ainda NÃOimplementado.
+Nenhumhost,produtos0150/0160aceitos sempromoção. Últimacota74%5h/17%semana
+16:42:00.074UTC. PróximoimplementarODE emarquivoNOVO,no mesmoestágio ou
+subestágio,preservandois5_eos_cross.py efontes aceitas.
+
+SOLVERimplementado(nãoexecutado/semaceite):output/is5-compression-staging/
+is5_compression.py,contratoIS-5-COMPRESSAO-EVOLUCAO-CONTRATO.md antescódigo.
+N_bfixo,densidadeconstant/exponential/cycle,RadauT+W/E0,energiaE=VU,
+flagsEOS/screening,gates18 herdadosemdadosaceitos. ASTpassou. Derivadas
+crossaceitas12/240/720/8permanecemimutáveis. Próximo criarverifier com
+3casosRadau/BDFE/refine+4controles/recusasconformecontrato,rodarlabela,
+semalteraçãomodelosaceitos. Perfisprodutos0150/0160Baceitos,semhostativo.
+
+VERIFICAÇÃOCOMPRESSÃO EMEXEC71300:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/verify-is5-compression.py --label20261029a
+Fontes/contrato/solver/teste+referencialcase1aceito arquivados antes rodar.
+Conferir recibois5-compression-20261029a e JSONscasos antes repetir.
+NÃOeditaris5_compression.py/teste/contrato/fontes durante execução.
+3casosRadau/BDFE/refine+4controles/13recusas. Reuso controlado do caso
+isocóricoN14antigo aceito,sem reintegrar referência; campoE/V eW explícitos.
+Semworker/produto de compressão ainda. DerivadascrossACEITAScongeladas.
+
+CompressãoAexec71300encerroufalse:case0Radaucompleto171.239s/4714RHS,
+Tfinal15.493594MK,masBDFadaptadorρ.numpyfloat64recusadoporAPIscalarPython.
+FontesODE/EOS nãoalteradas;A/ZIP/recibo/case0JSONpreservados. SÓteste
+reference.densityreturn agorafloatρ/rate/V. ContratoIS-5-COMPRESSAO-REFERENCIA-B.md.
+B repete conjunto completo,nãoreusaRadauA;próximoexecverify-is5-compression
+--label20261029b. O modelo ainda semaceite.Tolerânciasiguais/semweaken.
+
+EMEXEC11384:verify-is5-compression.py --label20261029b,repetição completa.
+Case0Radau172.587s/4714RHS,Tfinal15.493594MK igualA;BDFE/refinamento pendentes.
+NÃOeditarODE/contrato/teste/fontes enquanto roda. Afalseporρnpfloat do
+referencial:floatρ/rate/V corrigidos SÓno teste;A/ZIP/JSONpreservados.
+Preparados NÃOexecutados:plot-is5-compression.py(exigeacceptedtrue),
+prepare-is5-compression-worker.py(exigeSCIaceita,fontesiguais,V2baseaceito).
+ContratoIS-5-COMPRESSAO-WORKER-CONTRATO.md:600scalculo/660stransporte,
+JobObject/basePython-S,PIDsreais,guardarúltimoartifact,tipo/unidades novos.
+Nenhumworkercompressãocriado;nenhumhostativo. DerivadasCrossA eprodutos
+0150/0160Baceitosimutáveis. SCIcompressãosemaceiteaté3casos+4controles+13recusas.
+
+CHECKPOINT29/10 17:16UTC:15%5h/8%semana;passagem salva,continuar até0.
+CompressãoB exec11384 caso0completo,caso1Radau/BDFcompleto/refineemexec.
+Novo estágiofast/contrato+2verificadores ASTok,nãoexecutados/semaceite.
+LEIA-PRIMEIRO reescrito comestadoatual/próximospassos,semalterarfontesaceitas.
+
+CompressãoB ACEITA3casos/4controles/13recusas;figura+visualAaceitos.
+EOSfastAaceita12+21/7029/6,max7.179e−14. EvoluçãofastEMEXEC85185,
+label20261029a;conferirreceipt,nãoeditarfontes. Reportresultado criado.

@@ -1,0 +1,20 @@
+<details id="instrument-history">
+  <summary>Comparar sondas e acompanhar no tempo</summary>
+  <p class="field-help">Compare duas leituras do mesmo instante. O tensor prevê a diferença apenas para deslocamentos pequenos e com as mesmas fontes incluídas.</p>
+  <label class="field">Primeira sonda<select id="compare-probe-a"></select></label>
+  <label class="field">Segunda sonda<select id="compare-probe-b"></select></label>
+  <button id="compare-probes" class="wide" disabled>Comparar a leitura confirmada</button>
+  <p id="probe-comparison-reading" class="field-help"></p>
+  <label class="field">Cadência real de gravação<select id="history-cadence"><option value="0.25">0,25 segundo</option><option value="0.5">0,5 segundo</option><option value="1" selected>1 segundo</option><option value="2">2 segundos</option><option value="5">5 segundos</option></select></label>
+  <button id="history-toggle" class="wide" disabled>Ativar gravação</button>
+  <p id="history-status" class="field-help" role="status"></p>
+  <p class="field-help">Grava somente durante a evolução, nos estados confirmados pelo worker. Não altera passos de integração. Janela de128amostras; tempos físicos reais e lacunas ficam registrados. Salvar sessão conserva a janela.</p>
+  <label class="field">Grandeza<select id="history-quantity"><option value="acceleration_norm_m_s2">|g| das duas sondas · m/s²</option><option value="potential_J_kg">Potencial das duas sondas · J/kg</option><option value="tidal_xx_s_2">Maré Txx das duas sondas · s⁻²</option><option value="energy_J">Energia translacional · J</option><option value="energy_error">Erro relativo de energia</option><option value="momentum_error_normalized">Erro normalizado de P</option><option value="angular_momentum_error_normalized">Erro normalizado de L</option></select></label>
+  <label class="field">Escala vertical<select id="history-scale"><option value="linear">Linear</option><option value="log">Logarítmica · valores positivos</option></select></label>
+  <canvas id="history-chart" width="520" height="360" aria-label="Gráfico temporal das leituras confirmadas"></canvas>
+  <p id="history-chart-legend" class="field-help"></p>
+  <p class="field-help">Clique no gráfico para consultar uma amostra e ver suas marcas na cena. Traços interrompem em lacunas ou mudanças físicas/de configuração; pontos antigos não restauram a evolução.</p>
+  <p id="history-point-reading" class="field-help"></p>
+  <button id="history-export" class="wide" disabled>Exportar histórico completo e fontes SI</button>
+  <button id="history-clear" class="wide" disabled>Limpar janela de leituras</button>
+</details>

@@ -1,0 +1,24 @@
+<section id="layers-panel" class="glass" hidden aria-labelledby="layers-title">
+  <div class="layers-heading"><p class="eyebrow">GRAVIDADE E MAGNETISMO</p><button id="layers-panel-close" aria-label="Recolher painel de camadas">Recolher</button></div>
+  <h1 id="layers-title">Camadas do corpo</h1>
+  <p class="layers-intro">Explore uma referência espacial e uma amostra magnética na mesma cena. Os modelos são independentes e a órbita permanece pausada.</p>
+  <p id="layers-status" role="status" aria-live="polite"></p><p id="layers-error" role="alert"></p>
+  <div id="layers-start"><p class="field-help">Comece com uma cópia solar pausada. Feche outros instrumentos antes de abrir estas camadas.</p><button id="layers-copy" class="wide">Criar cena solar de referência</button></div>
+  <form id="layers-form"><fieldset id="layers-fields">
+    <label class="field">Corpo e modelo interno<select id="layers-body" required></select></label>
+    <div class="layers-pair"><label class="field">Latitude · graus<input id="layers-latitude" type="number" min="-90" max="90" step="any" value="-23.55" required></label><label class="field">Longitude leste · graus<input id="layers-longitude" type="number" min="-180" max="180" step="any" value="-46.63" required></label></div>
+    <label class="field" id="layers-altitude-label">Altitude geodética · metros<input id="layers-altitude" type="number" min="0" max="1000000" step="any" value="1000" required></label>
+    <label class="field" id="layers-radius-label" hidden>Raio joviano / Rref<input id="layers-radius" type="number" min="1" max="2.5" step="any" value="1.5" required></label>
+    <p class="field-help">Malha XY de 1–3 Rref, 65 anéis e altura gráfica ×200. A amostra magnética usa coordenadas próprias; seu domínio difere do exterior da malha.</p>
+    <button id="layers-create" class="wide" type="submit">Abrir camadas juntas</button>
+  </fieldset></form>
+  <button id="layers-cancel" class="wide" hidden>Cancelar preparação</button>
+  <div id="layers-active" hidden>
+    <fieldset id="layers-visibility"><label class="compact-check"><input id="layers-spatial-visible" type="checkbox" checked>Mostrar malha espacial</label><label class="compact-check"><input id="layers-magnetic-visible" type="checkbox" checked>Mostrar referência magnética</label></fieldset>
+    <details open><summary>Referência espacial</summary><p id="layers-spatial-reading" class="layers-reading"></p><p class="field-help">Schwarzschild esférico exterior isolado. A altura ampliada representa geometria espacial; não é trajetória de luz nem força adicional.</p></details>
+    <details open><summary>Amostra magnética</summary><p id="layers-magnetic-reading" class="layers-reading"></p><p class="field-help">Campo interno congelado. O comprimento da seta é gráfico; a intensidade está na leitura em tesla. Não inclui plasma ou campo externo.</p></details>
+    <details><summary>Fonte, época e limites</summary><p id="layers-source" class="layers-reading"></p><p class="field-help">Esconder cada referência conserva ambas as soluções e a órbita. As visualizações não combinam gravidade com B numa quantidade nova.</p></details>
+  </div>
+  <button id="layers-leave" class="wide" hidden>Fechar camadas e restaurar cena</button>
+</section>
+<section id="layers-caption" class="glass" hidden aria-label="Legenda das camadas"><p class="eyebrow">REFERÊNCIAS INDEPENDENTES</p><p id="layers-caption-source"></p><p class="layers-spatial-key">Ciano/violeta · malha espacial</p><p class="layers-magnetic-key">Verde · B em tesla · seta gráfica</p><p class="layers-point-key">Ouro · ponto da amostra</p><p id="layers-caption-visible"></p></section>

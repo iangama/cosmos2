@@ -1,0 +1,94 @@
+COSMOS2 — passagem 26/10/2026 23:56UTC
+Pedido contínuo: trabalhar até cota5h OU semanal esgotada, bloqueio real,
+plano concluído ou parada explícita. NÃOdelegar. ≤8% é checkpoint, continuar
+até0. Nunca inferir cota por tokens/contexto/tempo. Preservar Cosmos/Revenant,
+instalado3.13, sessões do dono e todos aceitos. LEIA-PRIMEIRO/AGENTS/final
+RETOMADA-20261023 governam; não reler roadmap inteiro.
+
+Última cota real OK15%5h/55%semana observada23:54:56.178UTC.
+Consultar python3 ../cosmos/scripts/check-codex-quota.py. Sem esgotamento.
+
+IS5/C2-20: EOS FDideal, pp-I/CNO-I térmico0.11.0 eperfilB ACEITOS;
+report IS-5-TERMICA-RESULTADO-20261026.md. Fonte/códigos preservar.
+PP-II ciência12espécies12canais ACEITA44taxas/32768gates/10casos/6recusas;
+fixturetérmicaECb2casos eworkerpp-II13recusasACEITOS. Preserveoutput/is5-pp2-
+staging eworker-staging. QAME2020atômico,todos12QporDecimal;3ciclosfecham
+26.730968386MeV. Be7ECsolarSFIIeq40strict10<T6<16,Yevariável,νmean.814MeV;
+ECconsomee−,βproduze+,aniquilaçãoincluídaQatômico. rho/Vfixos,radiaçãoLTE
+confinada/νescapa;semtransporte/screening/estrutura/luminosidade.
+
+0120CEFACEITOmasreviewFALSE:Be7negativominúsculosemrótulo/EC−0.
+0121isoladacorrigeformatterresíduo/−0/null eguardmodeiso no produto;
+ciência/workeranterioresintactos. 0121CEF ACEITOis5-native-pp2-121-20261026a:
+4grupos/11recusas/0JS,visual is5-pp2-121-visual-review-20261026a ACEITO4PNG
+100/150,marker21018pixels. Preserveapp0121+scriptsaceitos.
+
+ATIVO PERFIL0121A exec27494,benchmark-is5-pp2-native.py --label20261026a.
+Até23:56UTC1janela completa,2emcaptura.4janelas30warm+60SGCTcada+GPU66.
+NãoexecutartestesCPUheavy/importspynucastro,nemeditarfonteszipadasdurante.
+Apóscomplete: python3 scripts/audit-is5-pp2-profile.py --label20261026a
+E python3 scripts/audit-is5-pp2-profile-probes.py --label20261026a.
+Auditororiginalfrozen confereframes/escalares/digest/source/RAM/GPU/UTC;
+suplementarnovo (nãozipadoantes) confere2976valores/24estados,todas12
+espécies/12canais/14scalars/actual+referenceporíndice. Seaceitoscriar
+IS-5-PP-II-RESULTADO-20261026.md commétricas reais;atualizarhandoff.
+
+Host0121exec80764 app37240/server35012,output/session.json autoritativo.
+Apósperfil encerrar normalmente: WindowsPython scripts/engine-command.py
+'openspace.toggleShutdown();return {requested=true}',aguardarlauncher
+engine_exit0,preservarlogs candidate/execution-logs. CEF8088 sócef_page.py.
+Runtime.runtime-is4-stream9fontesupstreamintencionalmentealteradas,nãorestaurar/
+promover. Nãohápromoçãodoapp0121.
+
+Próximo PP-III: IS-5-PP-III-CONTRATO-PREVIO.md criado. Script
+scripts/prepare-is5-pp3-data.py escrito NÃOEXECUTADO. Adquirirapósperfil
+com WindowsPython;script exige DESToutput/is5-pp3-staging inexistente.
+Pynucastro3.1.0jáinstalado. DoisnovosfitsBe7p/B8beta2a originaisREACLIB,
+B8NUBASEoriginal771.9ms±.9ms conferidocomtaupackage;AME2020B8. Preserva
+12entrypp-IIdeepcopy,novosQmesmaAME. νB8mean6.735MeV TableIBahcall2001.
+Nenhumsolverpp-IIIimplementado/aceito. Nãoeditarpp-IIaceito.
+13espéciesB8extra;14canaisBe7p(strong+EM),B8beta2a(strong+weak) extra.
+B8beta2a EFETIVOagregaβ+ econtinuaçãoforte viaressonânciaslargasBe8;
+nãoBe8fundamental/estadoúnico,sem resolverpopulaçãoBe8strongoff,gate
+nãoalterameia-vidaβintrínseca. Ns13/Nch14/Nvar27,thermal28;Xi13:27.
+ATOLB8declarartrace~1e−32;prod2alphaS+2semdivisoridenticalproducts.
+Modeloanterior12/12temhardcodes12,24. Usarprevious=is5_pp2elegacy/eosdele,
+reutilizartaxas12/Qbasisanteriores. ECYeincluiZB8/Jac. B8lambdaNUBASE
+ouREACLIBwc12explicit. DomínioBeEC10<T6<16,default15MK10kyr.
+TestesantesworkerUI:4QcyclesDecimal,4pontosnovafit,131072gates,Jac,
+B8exponencial2alpha/e+/ν/Q;fixturetérmicaUinversa;competiçãoEC/proton
+BDFindepH/Yevariáveis;mistoprescrito/térmicoBDF+refine;offnew2reproduzppII;
+tipos/domínios/whole-runrefusal,noclamp. PrimaryPDFsfrozenpp2references.
+
+CHECKPOINT8%5h/54%semana27/10 00:00:56.988UTC:salvo,CONTINUARaté0.
+Perfil0121AACEITO4janelas pelos2auditores;reportIS-5-PP-II-RESULTADO-20261026.md.
+PP-IIIdadosadquiridosACEITOSPARADADOSsomenteis5-pp3-data-20261026a:
+13espécies/14canais,2fitsoriginais+B8NUBASE0.7719s;Qbe7p.136400064,
+Qb8beta2a18.07173726MeV. Nenhumsolverpp-IIIainda.
+Host0121encerrounormalengine_exit0exec80764,logsexecution-logs arquivados.
+Próximoimplementaroutput/is5-pp3-staging/is5_pp3.py conformecontrato,
+semalterarppIIaceito;depoistestesindependentesantesworkerUI.
+
+PP-IIImodeloescrito output/is5-pp3-staging/is5_pp3.py (13/14/NVAR27),
+NÃOACEITOscientificamente. FundaçãoEMEXEC42048 scripts/verify-is5-pp3-foundation.py:
+8taxas/4Qcycles/131072gates/B8isolado prescrito+térmico vs exp/energiaUinversa.
+Recibois5-pp3-foundation-20261026a apósconcluir;mesmoTrueéSÓFUNDACAO,
+nãofullscience. FaltaJac/competiçãoEC-p/BDFmisto/refine/ppIIlimit/recusas.
+Nãoeditarfonteexecutadasefundaçãoaceitaconfirmahash.5/54%cota00:02:05Z.
+
+PP-IIIFUNDAÇÃOACEITA is5-pp3-foundation-20261026a:8taxas/4Qcycles/
+131072gates/B8exponencial2modos,Terr8.48e-13rel;NÃOfullscience.
+PRESERVARmodelois5_pp3.py/inputs/fontesteste. NOVOSemexec:
+verify-is5-pp3-mixed.py exec80060 (prescritopassou,termicopendente),
+verify-is5-pp3-competition.py exec18312 (Jac13/BDF2extentsH+Ye/6recusas).
+Conferirrecibosis5-pp3-{mixed,competition}-20261026a apósconcluir,antes
+repetirqualquercoisa. Se3recibosaceitos ehashmodel/dadosidênticos,
+agregaraceitecientíficopp-III;worker/UI/perfilprópriosaindaaimplementar.
+Últimacota3%5h/54%semana00:02:42.337Z;continuaraté0.Nenhumhostativo.
+
+PP-IIICIÊNCIAAGREGADAACEITA is5-pp3-science-20261026a,3recibospassaram,
+hashesfontesidênticos+atuais. CompetiçãoBDFerro3.499e-13porbárion,
+ECfraction.99831194(desteFIXTURE,nãofraçãoUniversal),Jac1.259e-9rel,
+6recusas. MistoBDFthermalTerr1.475e-13,limiteppIITerr1.068e-14.
+PRESERVARoutput/is5-pp3-staging/model/data/refs e3tests aceitos.
+Próximo contrato/worker/artefato13/14 próprio;NENHUMworker/UIpp-IIIainda.

@@ -1,0 +1,38 @@
+--- v1/src/scene/scene.cpp
++++ v2/src/scene/scene.cpp
+@@ -318,7 +318,19 @@
+ 
+ Scene::~Scene() {
+     LINFO("Clearing current scene graph");
+-    for (SceneGraphNode* node : _topologicallySortedNodes) {
++    // Drain every live node before parent detachment. Use actual ownership,
++    // including nodes that have not entered the sorted render registry yet.
++    std::vector<SceneGraphNode*> postOrder;
++    std::function<void(SceneGraphNode*)> collect = [&](SceneGraphNode* node) {
++        for (SceneGraphNode* child : node->children()) { collect(child); }
++        if (node != &_rootNode) { postOrder.push_back(node); }
++    };
++    collect(&_rootNode);
++    for (SceneGraphNode* node : postOrder) {
++        _initializer->cancelInitialization(node);
++    }
++    // Children are deinitialized before parents clear their owning pointers.
++    for (SceneGraphNode* node : postOrder) {
+         if (node->identifier() == "Root") {
+             continue;
+         }
+@@ -343,7 +355,13 @@
+ }
+ 
+ ghoul::mm_unique_ptr<SceneGraphNode> Scene::detachNode(SceneGraphNode& node) {
+-    _initializer->cancelInitialization(&node);
++    // Child CPU initialization may still read its parent's scene/transform.
++    // Preserve the complete subtree until all of its jobs have joined.
++    std::function<void(SceneGraphNode&)> drain = [&](SceneGraphNode& current) {
++        _initializer->cancelInitialization(&current);
++        for (SceneGraphNode* child : current.children()) { drain(*child); }
++    };
++    drain(node);
+     ghoul_assert(node.parent(), "Cannot detach the root node");
+     return node.parent()->detachChild(node);
+ }

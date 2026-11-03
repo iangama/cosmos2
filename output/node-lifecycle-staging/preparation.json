@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "prepared": true,
+  "accepted": false,
+  "before_sha256": {
+    "include/openspace/scene/sceneinitializer.h": "53af6dc07a747924b510f4b5defc448b091dfa2b069e8a1dfc924eddd78dae65",
+    "src/scene/sceneinitializer.cpp": "41dcefa852c8d50357a2b149d5f6cf1cfc25d1a4ca0f7121948f18036320779e",
+    "src/scene/scene.cpp": "5bd4940913bf6cd0abcad027eb98571b536daea8ba96bea13483596d91fa76d2",
+    "src/scene/scene_lua.inl": "931fb65aee34fd0cc09ca502797be4cfb4ce1d685f367e19867d7161d46583f8",
+    "src/scene/scenegraphnode.cpp": "184942462c7aea230e2694a27c79930d0fef2036cff7f112d39ded76f5d6d5a8",
+    "src/engine/openspaceengine_lua.inl": "b6da88627f44d95aa8069510330cbc9020f0bba9441595a9db7a4d6674fd7eed",
+    "src/engine/openspaceengine.cpp": "1b1b3d6a83986d4b8906b0f01c1e30ab726cafc2e5808a23c614889cf8a795c9"
+  },
+  "changed_sha256": {
+    "include/openspace/scene/sceneinitializer.h": "634c09836e90efef9ecd215e8afc42f73425184e330c42c9950a55ed3bb0a9b4",
+    "src/scene/sceneinitializer.cpp": "b4f93e7adce8a4623e6a7af4554fc11c4100b5b0f975d266b013b8614dd3b58f",
+    "src/scene/scene.cpp": "a09f6bf0fc1f8b6e63a2ae2880cc88d875fbc082e391d2c01880c5886e8fdda0",
+    "src/scene/scene_lua.inl": "55892e268882720edc03e31ccf026756abe0c52f4d61f2d53f11cfc4816e549b",
+    "src/scene/scenegraphnode.cpp": "9311405033271874b34e2ea8d15c0c9ca8a81bb2a01b5b8d3a584f9d8d026d47",
+    "src/engine/openspaceengine_lua.inl": "a01a4e3c7d4786d74432d678855b6aae8de9896f2b115f9e84b5080cfa9415d7",
+    "src/engine/openspaceengine.cpp": "dba9eaa4acc37e789883a8a8322fb2a5ca62257a01b87953faa89051b24ae61a"
+  },
+  "preserved_sha256": {
+    ".runtime-cloud/bin/OpenSpace.exe": "43720759f69f0d763e2fcf17f6d3caa90715989106e93b39b2418171f8b3e4fa",
+    ".runtime-topic-cleanup/bin/OpenSpace.exe": "e37590771eac3e12e7beb9dc694eb81e9f67c4a5bf2a5558ec2ae7e7eeefe74b",
+    "evidence/built-runtime-cloud.json": "86afda4e8c834ceb5719cfeef7a13b567f013bfc270588acb4b194cd36a79e4c",
+    "evidence/built-runtime-topic-cleanup.json": "1c19d34efb88aed6be5d103b88fd3d8b48a13730ff910b19338d9989d95c973d",
+    "user/sessions/latest.json": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825"
+  },
+  "scope": "Cancel/wait CPU initialization and remove pending GL references before node destruction; skip GL deinit when never initialized. Separate unapproved runtime, no field/solver/renderer appearance changes. Native stress/replay/profile pending."
+}

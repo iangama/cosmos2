@@ -1,0 +1,29 @@
+#zone-panel{width:350px;overflow-y:auto;scrollbar-width:thin;pointer-events:auto}
+#zone-panel>*{flex-shrink:0}#zone-panel h1{font-size:24px}#zone-panel p{margin:10px 0}
+#zone-panel .field{font-size:12px;margin:14px 0}#zone-panel .compact-check{font-size:13px;margin:9px 0;line-height:1.5}
+#zone-panel legend{color:#a8dce1;margin:12px 0}#zone-panel details{margin-top:18px}
+.zone-reading{font-size:13px;line-height:1.6;white-space:pre-line;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+#zone-status{color:#8de0da}#zone-error{color:#ffc1a3}#zone-error:empty{display:none}
+#zone-panel input[type=range]{width:100%;accent-color:#8de0da;pointer-events:auto}
+#zone-charts{position:absolute;top:124px;right:28px;bottom:114px;width:min(600px,calc(100% - 850px));padding:18px 22px;overflow-y:auto;pointer-events:auto}
+#zone-charts h2{font-size:16px;font-weight:500;margin:0 0 9px;color:#d9edf1}
+#zone-charts h3{font-size:13px;font-weight:500;color:#b9d6df;margin:18px 0 6px}
+#zone-charts canvas{width:100%;height:auto;display:block;border:1px solid #293f50;border-radius:7px;background:#091722}
+#zone-charts p{font-size:12px;line-height:1.5;color:#abc2ce;margin:7px 0}
+.zone-active #lab-panel,.zone-active #lab-details,.zone-active #scene-targets{display:none!important}
+.zone-active nav button{pointer-events:none;opacity:.35}
+#zone-setup summary{line-height:1.5;color:#b4e1c3}
+.large-ui #zone-panel{width:330px;top:112px;bottom:100px;padding:16px}
+.large-ui #zone-charts{top:112px;bottom:100px;right:20px;width:min(430px,calc(100% - 720px));padding:14px}
+.large-ui #zone-panel h1{font-size:21px}
+#zone-panel::-webkit-scrollbar,#zone-charts::-webkit-scrollbar{width:5px}
+#zone-panel::-webkit-scrollbar-thumb,#zone-charts::-webkit-scrollbar-thumb{background:#385565;border-radius:5px}
+@media(max-width:1000px){#zone-panel{width:290px}#zone-charts{width:330px;right:20px}}
+
+.zone-factor-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;padding:8px 0;border-bottom:1px solid #29404f;font-size:12px;line-height:1.5}.zone-factor-value{white-space:nowrap;color:#edba79;font-variant-numeric:tabular-nums}#zone-model-reading{color:#c8b1ea}
+
+/* Flex children must fit the probe panel at every UI scale. */
+#zone-panel>*{min-width:0;max-width:100%}
+#zone-panel details,#zone-panel fieldset{min-width:0;max-width:100%}
+#zone-panel summary,#zone-panel legend{overflow-wrap:anywhere}
+#zone-panel input,#zone-panel select{min-width:0;max-width:100%}

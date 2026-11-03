@@ -1,0 +1,93 @@
+Cosmos2 - checkpoint de cota 22/10/2026
+C2-12 continua parcial. Candidata J output/c212-em-viewport-product.
+Telemetria REAL6%5h/85%semanal,observed2026-10-22T21:09:31.222Z,nao esgotada.
+Salvar checkpoint NAO manda parar. Continuar ate0/bloqueio/plano completo/ordem.
+Consultar python3 ../cosmos/scripts/check-codex-quota.py; nunca inferir contexto.
+Nao delegar sem pedido. Preservar Cosmos/Revenant/instalado3.13/owner.
+
+I congelada parcial com3perfis aprovados. Archive evidence/c212-em-framing-candidate-20261022.tar.gz
+SHA b89c0e48bd452e69df28aa62c711b45b072af18ab589b9264f4eb2e2bd5013e2.
+NAO editarI. Seu auditor de nuvem pendente concluiu accepted=true.
+Instalado3.13 restaurado/ready+82files/owner conferidos antesJ.
+
+J muda so camera/UI/raiosGRAFICOS. Nucleos/workers/helper byteiguaisI/G/F.
+app/em_viewport.py0.1.1 enquadra boundsSI no retangulo livreDOM com projecao
+planarSGCTconfig/resizehorizontal e yaw/pitchOpenSpace. 640projecoes matriciais
+independentes/8recusas passaram; erro<=9.095e-13px. Fonte/prova0.1.0 preservadas.
+Jlegendacompacta guarda detalhescompletos acessiveis no painelPotencial.
+Raio grafico min.004xdistancia soframe/restore,semrebuildpersnapshot;
+centrosSI iguais. Framingmin3m evita marcador gigante sozinho.
+Foco de selecao so aparece na vista nativa.
+
+Five-scenesrelease3 PASSOU20capturas/5presets/native+canvas100/150,
+65posicoesobservadas,forcas/faseiguaisH/I,poseWSindependente confirmada,
+mincanvas150327.28125px,zeroJS. Contato20cenas+6originais finais inspecionados,
+recibo em-viewport-five-scenes-visual-review.json. Aceite de recorte visual,
+sem promocao/aceiteglobal. Cloud editor100/150 inspecionado,sem aceitar
+nuvemsemmapas/pequena: em-viewport-cloud-visual-review.json.
+Suspeita anterior deheadercortado REFUTADA: faixa superior90px byteigual em
+12duplasnative/canvas,I/J; scrollTop0. Erro deinterpretacaodaprevia peloagente.
+Recibos de suspeita preservados ecorrecao gravada. Nenhumdefeitoheaderdemonstrado.
+
+JUIrelease4 PASSOU5presets/detalhesabertos,5recusasviewport/flagsantesphase/camera
+(toleranciafloat1e-12),view3/legacy2real/recusasresseladas/guardas/IOparcialreal.
+CloudUIrelease1 PASSOU5grupos128fontes/SI/legacy1real/saveprefs/IOparcialreal,
+zeroJS. Navigationrelease1 PASSOU16combosdasquatroforcas/limpeza/Atlasrestore.
+AMBOS reinicios finais PASSARAM aposfecharJ/reabrirnormalmente:
+em-viewport-restart-check.json (inclYaw/Pitch/foco) ecloud-restart-check.json.
+777passosfuturos EXATOScontraG,saves/ownerpreservados,zeroJS.
+Oracles output/em-viewport-restart-expected.json ecloud-restart-expected.json.
+Falhas deharness anteriores preservadas: altura283<300(fixlayout),poseexata
+(floatjitter),innerTextantesdetailsaberto,receitaperfilcontavabranchindentado2x.
+Nenhuma tolerancia de ciencia/perf afrouxada.
+
+Runners/auditores --viewport implica--framing--cloud-editor--integration
+--time-controls--topic-cleanup,flags/prefixosJestritos. Auditorstdlib separado
+scripts/em_viewport_profile_audit.py preserva auditoresIexecutadosnoarchive.
+Suporte PASSOU160combosflags/prefixos,9adulteracoes e3runnerguardas;
+rawIreutilizadoAPENASparaprovarhelper/SIidenticos,nuncaaceitedesempenhoJ.
+Arquivo anteriorI output/em-viewport-before-profile-support-20261022.tar.gz
+SHA821aebc6e65876536309090d07b60da067c3cd790826b4e96053205495796c8e.
+
+ATIVO perfil J128 c212j128a,exec25014. Nao editarJ/config/runners,nemCPU/CEF
+extra durante capturas. Ler evidence/native-em128-c212j128a.json para andamento;
+aposcompleted executar .tooling/python/Scripts/python.exe -Xutf8
+scripts/review-em128-new-runtime-benchmark.py c212j128a.
+Soapos resultado e cotaREALdisponivel seguir:
+benchmark-em128-potential-native.py --label c212jpota --topic-cleanup
+--time-controls --integration --cloud-editor --framing --viewport;
+auditor review-em128-new-runtime-benchmark.py c212jpota.
+Depois benchmark-em-cloud-source128-native.py --label c212jsrca mesmos6flags;
+auditor review-em-cloud-source128-benchmark.py c212jsrca.
+NAO repetir perfil/reescrever recibo existente. Preservar recusas.
+Script run-em-viewport-profiles.py foi PREPARADO mas NAOexecutado; nao roda-lo
+agora,pois tentaria repetir c212j128a. Nenhum perfilJaceito no checkpoint.
+J NAOcongelada/promovida; congelar so apos3perfis e fontes/recibosconferidos.
+Cloud framing pequeno aindaobservado; avaliar escopo real antesaceiteglobal.
+C2-13camposdoscorpos/C2-14/15malha e quatroforcas nucleares seguemobrigatorios.
+
+Sessao corrente:
+{
+  "emCloudNativeCandidate": true,
+  "cache": null,
+  "runtimeSelectionReason": "explicit-unapproved-EM-viewport-and-scene-layout-candidate",
+  "app": 25104,
+  "emIntegrationCandidate": true,
+  "emKernelVersion": "0.4.0",
+  "emPotentialCandidate": true,
+  "emCandidate": true,
+  "emCloudEditorCandidate": true,
+  "emCloudCandidate": true,
+  "emFramingCandidate": true,
+  "emTopicCleanupCandidate": true,
+  "coldCache": false,
+  "runtimeVariant": "topic-cleanup",
+  "offline": false,
+  "emViewportCandidate": true,
+  "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\c212-em-viewport-product\\app\\server.py",
+  "server": 4000,
+  "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-topic-cleanup",
+  "cloudCandidate": false,
+  "emTimeCandidate": true,
+  "started": "2026-10-22T21:03:52.6732597Z"
+}

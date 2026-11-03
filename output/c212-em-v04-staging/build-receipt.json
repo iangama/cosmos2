@@ -1,0 +1,11 @@
+﻿{
+    "cpp_sha256":  "3c079c5066f621fc66da55920369754c87f0fc2317fbaff743a07469666c8054",
+    "dll_sha256":  "115a7a11ffb381bd6bbdfa43c908e2d4b2aec17d4626224014024674b25e9e8d",
+    "policy":  "MSVC x64 Release /O2 /fp:strict; scalar pair order, no fast math/FMA; experimental helper only, no scientific or native acceptance.",
+    "abi":  1,
+    "compiler_sha256":  "fe251ef50a1545b1b0835ee17b1e785459712b38d79e45b5c1d3d28970a36619",
+    "builder_sha256":  "c307deae066d23990d080210fd80ed4bd3302502a5794e768d0bd873f0a1a862",
+    "cmake_sha256":  "2b21d551dbf2d9fa3f7f2393a4aba058eea4af94c370419d4e955256df902acf",
+    "schema":  1,
+    "compiler":  "C:\\Users\\Ian\\cosmos2\\.tooling\\vs-buildtools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"
+}

@@ -1,0 +1,21 @@
+--- body-trajectory-B/is4_particles.py
++++ stable-diagnostics/is4_particles.py
+@@ -62,11 +62,16 @@
+     # Endpoints may be outside while the two drift segments cross an exclusion.
+     # Both segments were checked, so no source can be silently crossed.
+     new_phase=Phase(tuple(float(v) for v in updated_position),tuple(float(v) for v in updated_velocity),end_time)
+-    electric_work=float(charge*np.dot(E,updated_position-x))
+-    gravity_work=float(mass*np.dot(g,updated_position-x))
++    # Integrate work along the two kinematic drift segments. Subtracting
++    # planet-scale absolute positions loses their small displacement.
++    drift_displacement=.5*dt*(v+updated_velocity)
++    electric_work=float(charge*np.dot(E,drift_displacement))
++    gravity_work=float(mass*np.dot(g,drift_displacement))
+     delta_K=.5*mass*float(np.dot(updated_velocity-v,updated_velocity+v))
+     if any(not math.isfinite(v) for v in [electric_work,gravity_work,delta_K]):raise DomainExit('Unrepresentable energy diagnostic')
+     return new_phase,{'electric_work_J':electric_work,'gravity_work_J':gravity_work,'kinetic_change_J':delta_K,
+         'sample_position_m':mid.tolist(),'sample_time_s':phase.time_s+.5*dt,
++        'work_displacement_m':drift_displacement.tolist(),
++        'absolute_position_roundoff_m':((updated_position-x)-drift_displacement).tolist(),
+         'velocity_convention':'position and velocity synchronized at full-step time',
+         'electric_acting':electric_acting,'magnetic_acting':magnetic_acting,'gravity_acting':gravity_acting}

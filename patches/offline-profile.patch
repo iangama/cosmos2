@@ -1,0 +1,171 @@
+--- a/src/util/httprequest.cpp
++++ b/src/util/httprequest.cpp
+@@ -23,12 +23,15 @@
+  ****************************************************************************************/
+ 
+ #include <openspace/util/httprequest.h>
++#include <openspace/util/cosmos2offline.h>
+ 
+ #include <ghoul/format.h>
+ #include <ghoul/logging/logmanager.h>
+ #include <curl/curl.h>
+ #include <array>
+ #include <cstdint>
++#include <cstdlib>
++#include <string_view>
+ #include <utility>
+ 
+ namespace openspace {
+@@ -53,14 +56,21 @@
+ }
+ 
+ bool HttpRequest::perform(std::chrono::milliseconds timeout) {
++    const bool offline = cosmos2::offline();
++    if (!cosmos2::networkAllowed(_url)) {
++        log(_failureVerbosity, "HttpRequest",
++            std::format("Cosmos2 offline blocked external URL '{}'", _url));
++        return false;
++    }
+     CURL* curl = curl_easy_init();
+     if (!curl) {
+         return false;
+     }
+ 
++    if (offline) { curl_easy_setopt(curl, CURLOPT_PROXY, ""); }
+     curl_easy_setopt(curl, CURLOPT_URL, _url.data());
+     curl_easy_setopt(curl, CURLOPT_USERAGENT, "OpenSpace");
+-    curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
++    curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, offline ? 0L : 1L);
+ 
+     // The leading + in all of the lambda expressions are to cause an implicit conversion
+     // to a standard C function pointer. Since the `curl_easy_setopt` function just takes
+--- a/src/engine/downloadmanager.cpp
++++ b/src/engine/downloadmanager.cpp
+@@ -23,6 +23,7 @@
+  ****************************************************************************************/
+ 
+ #include <openspace/engine/downloadmanager.h>
++#include <openspace/util/cosmos2offline.h>
+ 
+ #include <ghoul/format.h>
+ #include <ghoul/logging/logmanager.h>
+@@ -141,6 +142,13 @@
+     }
+ 
+     auto future = std::make_shared<FileFuture>(file.filename());
++    if (!cosmos2::networkAllowed(url)) {
++        future->isAborted = true;
++        future->errorMessage = std::format("Cosmos2 offline blocked external URL '{}'", url);
++        LWARNING(future->errorMessage);
++        if (finishedCallback) { finishedCallback(*future); }
++        return future;
++    }
+     errno = 0;
+ #ifdef WIN32
+     FILE* fp;
+@@ -165,7 +173,8 @@
+         if (curl) {
+             curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+             curl_easy_setopt(curl, CURLOPT_USERAGENT, "OpenSpace");
+-            curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
++            curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, cosmos2::offline() ? 0L : 1L);
++            if (cosmos2::offline()) { curl_easy_setopt(curl, CURLOPT_PROXY, ""); }
+             curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
+             curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, &writeData);
+             if (timeout_secs) {
+@@ -242,13 +251,22 @@
+             .corrupted = false
+         };
+ 
++        if (!cosmos2::networkAllowed(url)) {
++            const std::string error = std::format("Cosmos2 offline blocked external URL '{}'", url);
++            LWARNING(error);
++            if (errorCb) { errorCb(error); }
++            file.corrupted = true;
++            return file;
++        }
++
+         CURL* curl = curl_easy_init();
+         if (!curl) {
+             throw ghoul::RuntimeError("Error initializing cURL");
+         }
+ 
+         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+-        curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
++        curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, cosmos2::offline() ? 0L : 1L);
++        if (cosmos2::offline()) { curl_easy_setopt(curl, CURLOPT_PROXY, ""); }
+         curl_easy_setopt(curl, CURLOPT_USERAGENT, "OpenSpace");
+         curl_easy_setopt(curl, CURLOPT_WRITEDATA, reinterpret_cast<void*>(&file));
+         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writeMemoryCallback);
+@@ -301,8 +319,14 @@
+                                     RequestFinishedCallback finishedCallback) const
+ {
+     auto requestFunction = [url, finishedCb = std::move(finishedCallback)]() {
++        if (!cosmos2::networkAllowed(url)) {
++            LWARNING(std::format("Cosmos2 offline blocked external URL '{}'", url));
++            if (finishedCb) { finishedCb(""); }
++            return;
++        }
+         CURL* curl = curl_easy_init();
+         if (curl) {
++            if (cosmos2::offline()) { curl_easy_setopt(curl, CURLOPT_PROXY, ""); }
+             curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+             curl_easy_setopt(curl, CURLOPT_NOBODY, 1);
+             CURLcode res = curl_easy_perform(curl);
+--- a/modules/webbrowser/src/webbrowserapp.cpp
++++ b/modules/webbrowser/src/webbrowserapp.cpp
+@@ -23,6 +23,8 @@
+  ****************************************************************************************/
+ 
+ #include "include/webbrowserapp.h"
++#include <cstdlib>
++#include <string_view>
+ 
+ namespace openspace {
+ 
+@@ -41,6 +43,14 @@
+ void WebBrowserApp::OnBeforeCommandLineProcessing(const CefString&,
+                                                   CefRefPtr<CefCommandLine> commandline)
+ {
++    const char* offlineFlag = std::getenv("COSMOS2_OFFLINE");
++    if (offlineFlag && std::string_view(offlineFlag) == "1") {
++        // Fixed proxy, closed local port; no external browser connection.
++        // Chromium's local GUI/WebSocket requests explicitly bypass it.
++        commandline->AppendSwitchWithValue("proxy-server", "http://127.0.0.1:9");
++        commandline->AppendSwitchWithValue("proxy-bypass-list", "127.0.0.1;localhost;[::1]");
++        commandline->AppendSwitch("disable-background-networking");
++    }
+     // This is to allow dev tools to connect
+     commandline->AppendSwitchWithValue("remote-allow-origins", "http://localhost:8088");
+     commandline->AppendSwitch("log-gpu-control-list-decisions");
+--- /dev/null
++++ b/include/openspace/util/cosmos2offline.h
+@@ -0,0 +1,28 @@
++// Cosmos2 local fork: optional loopback-only HTTP policy for offline acceptance.
++#pragma once
++#include <curl/curl.h>
++#include <cstdlib>
++#include <string>
++#include <string_view>
++
++namespace openspace::cosmos2 {
++inline bool offline() {
++    const char* flag = std::getenv("COSMOS2_OFFLINE");
++    return flag && std::string_view(flag) == "1";
++}
++inline bool networkAllowed(const std::string& url) {
++    if (!offline()) { return true; }
++    CURLU* parsed = curl_url();
++    char* host = nullptr;
++    bool local = false;
++    if (parsed && curl_url_set(parsed, CURLUPART_URL, url.c_str(), 0) == CURLUE_OK &&
++        curl_url_get(parsed, CURLUPART_HOST, &host, 0) == CURLUE_OK)
++    {
++        const std::string_view hostname(host);
++        local = hostname == "127.0.0.1" || hostname == "localhost" || hostname == "[::1]";
++    }
++    curl_free(host);
++    curl_url_cleanup(parsed);
++    return local;
++}
++} // namespace openspace::cosmos2

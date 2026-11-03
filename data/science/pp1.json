@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "pynucastro": "3.1.0",
+  "network": "pp-I forward only",
+  "rates": {
+    "pp": {
+      "fname": "p_p_to_d_beta_pos_reaclib",
+      "reactants": [
+        "p",
+        "p"
+      ],
+      "products": [
+        "d"
+      ],
+      "Q_MeV": 1.44206,
+      "source": {
+        "Label": "bet+",
+        "Author": "-",
+        "Title": "experimental beta-plus rates",
+        "Publisher": "-",
+        "Year": "-",
+        "URL": "https://reaclib.jinaweb.org/labels.php?action=viewLabel&label=bet+"
+      },
+      "sets": [
+        [
+          -34.7863,
+          0.0,
+          -3.51193,
+          3.10086,
+          -0.198314,
+          0.0126251,
+          -1.02517
+        ]
+      ],
+      "prefactor": 0.5,
+      "weak_type": "beta_pos",
+      "raw_file": "pp1-pp-reaclib.txt",
+      "sha256": "a2798d4cece8678eaf19ec464678e0d993f057b3c531c38c3656df133af21628",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 1.4213851620195897e-20,
+        "15000000.0": 8.104421070121509e-20,
+        "20000000.0": 2.3940820408449504e-19,
+        "30000000.0": 9.141221854078233e-19
+      }
+    },
+    "dp": {
+      "fname": "d_p_to_He3_reaclib",
+      "reactants": [
+        "p",
+        "d"
+      ],
+      "products": [
+        "he3"
+      ],
+      "Q_MeV": 5.493,
+      "source": {
+        "Label": "de04",
+        "Author": "Descouvemont, P",
+        "Title": "Compilation and R-matrix analysis of Big Bang nuclear reaction rates",
+        "Publisher": "ADNDT 88, 203",
+        "Year": "2004",
+        "URL": "https://doi.org/10.1016/j.adt.2004.08.001"
+      },
+      "sets": [
+        [
+          8.93525,
+          0.0,
+          -3.7208,
+          0.198654,
+          0.0,
+          0.0,
+          0.333333
+        ],
+        [
+          7.52898,
+          0.0,
+          -3.7208,
+          0.871782,
+          0.0,
+          0.0,
+          -0.666667
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "pp1-dp-reaclib.txt",
+      "sha256": "de8914f7c69bc8f497218f4ec10d3994f37e4bfa4b64eb711e57820e52d45d69",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 0.0015823891892407062,
+        "15000000.0": 0.011189587220289322,
+        "20000000.0": 0.03807733660897715,
+        "30000000.0": 0.17510226725239625
+      }
+    },
+    "he3he3": {
+      "fname": "He3_He3_to_p_p_He4_reaclib",
+      "reactants": [
+        "he3",
+        "he3"
+      ],
+      "products": [
+        "p",
+        "p",
+        "he4"
+      ],
+      "Q_MeV": 12.859,
+      "source": {
+        "Label": "nacr",
+        "Author": "Angulo C.",
+        "Title": "A compilation of charged-particle induced thermonuclear reaction rates",
+        "Publisher": "Nuclear Physics, A656, 3-183",
+        "Year": "1999",
+        "URL": "https://doi.org/10.1016/S0375-9474(99)00030-5"
+      },
+      "sets": [
+        [
+          24.7788,
+          0.0,
+          -12.277,
+          -0.103699,
+          -0.0649967,
+          0.0168191,
+          -0.666667
+        ]
+      ],
+      "prefactor": 0.5,
+      "weak_type": "",
+      "raw_file": "pp1-he3he3-reaclib.txt",
+      "sha256": "5ad0b4435fb8602aa5c97e756e788b5d63032368dbfe8d5ba1e2d5ac6d634100",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 2.1700531459705926e-13,
+        "15000000.0": 2.219153470296946e-10,
+        "20000000.0": 1.7319003739979433e-08,
+        "30000000.0": 4.002223974788885e-06
+      }
+    }
+  },
+  "nuclides": {
+    "p": {
+      "A": 1,
+      "Z": 1
+    },
+    "d": {
+      "A": 2,
+      "Z": 1
+    },
+    "he3": {
+      "A": 3,
+      "Z": 2
+    },
+    "he4": {
+      "A": 4,
+      "Z": 2
+    }
+  },
+  "pp_neutrino_mean_MeV": 0.2668,
+  "neutrino_source": {
+    "url": "https://arxiv.org/abs/hep-ph/0108148",
+    "doi": "10.1103/PhysRevC.65.025801",
+    "table": "I",
+    "scope": "Solar-profile mean, fixed approximation; not recalculated from T."
+  },
+  "domain": "Forward pp-I only; 10-30 MK; fixed density/T, unscreened evaluated rates. No pep, pp-II/III, CNO or reverse reactions.",
+  "uncertainties": "Rate fit uncertainties not carried by this extraction; numerical tolerances are separate."
+}

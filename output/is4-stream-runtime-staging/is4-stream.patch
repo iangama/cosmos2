@@ -1,0 +1,294 @@
+--- before/modules/space/rendering/renderableconstellationlines.h
++++ is4-stream/modules/space/rendering/renderableconstellationlines.h
+@@ -32,6 +32,8 @@
+ #include <openspace/util/distanceconversion.h>
+ #include <ghoul/opengl/ghoul_gl.h>
+ #include <ghoul/opengl/uniformcache.h>
++#include <filesystem>
++#include <optional>
+ #include <unordered_map>
+ 
+ namespace openspace {
+@@ -67,6 +69,7 @@
+         const glm::dmat4& projectionMatrix);
+ 
+     void loadData();
++    void updateConfirmedTrajectory();
+ 
+     /**
+      * Callback method that gets triggered when `_constellationSelection` changes.
+@@ -75,6 +78,14 @@
+ 
+     StringProperty _speckFile;
+     BoolProperty _drawElements;
++    StringProperty _trajectoryStatus;
++    std::filesystem::path _trajectoryFile;
++    std::string _trajectoryBinding;
++    std::optional<std::filesystem::file_time_type> _trajectoryLastWrite;
++    std::int64_t _trajectorySequence = -1;
++    std::int64_t _trajectoryRevision = -1;
++    double _trajectoryTime = -1.0;
++    std::int64_t _trajectoryDrawnSequence = -1;
+ 
+     std::unique_ptr<ghoul::opengl::ProgramObject> _program = nullptr;
+     UniformCache(modelViewTransform, projectionTransform, opacity,
+--- before/modules/space/rendering/renderableconstellationlines.cpp
++++ is4-stream/modules/space/rendering/renderableconstellationlines.cpp
+@@ -36,16 +36,20 @@
+ #include <ghoul/misc/dictionary.h>
+ #include <ghoul/misc/exception.h>
+ #include <ghoul/misc/stringhelper.h>
++#include <ghoul/misc/crc32.h>
+ #include <ghoul/opengl/openglstatecache.h>
+ #include <ghoul/opengl/programobject.h>
+ #include <scn/scan.h>
+ #include <algorithm>
++#include <cmath>
++#include <cstring>
+ #include <filesystem>
+ #include <fstream>
+ #include <set>
+ #include <sstream>
+ #include <tuple>
+ #include <utility>
++#include <nlohmann/json.hpp>
+ 
+ namespace {
+     using namespace openspace;
+@@ -107,6 +111,10 @@
+         // [[codegen::verbatim(FileInfo.description)]]
+         std::filesystem::path file;
+ 
++        // Opt-in bounded normalized particle trajectory; legacy SPECK is unchanged.
++        std::optional<std::filesystem::path> confirmedTrajectoryFile;
++        std::optional<std::string> trajectoryBinding;
++
+         // [[codegen::verbatim(DrawElementsInfo.description)]]
+         std::optional<bool> drawElements;
+ 
+@@ -142,12 +150,32 @@
+     : RenderableConstellationsBase(dictionary)
+     , _speckFile(FileInfo)
+     , _drawElements(DrawElementsInfo, true)
++    , _trajectoryStatus({ "ConfirmedTrajectoryStatus", "Confirmed trajectory status",
++        "Normalized plot upload and draw submission; SI and SHA256 verified by Python" }, "{}")
+ {
+     const Parameters p = codegen::bake<Parameters>(dictionary);
+ 
++    if (p.confirmedTrajectoryFile.has_value() != p.trajectoryBinding.has_value()) {
++        throw std::runtime_error("Complete trajectory file/binding required");
++    }
++    if (p.trajectoryBinding) {
++        const std::string& binding = *p.trajectoryBinding;
++        if (binding.size() != 64 || !std::all_of(binding.begin(), binding.end(),
++            [](char x) { return (x >= '0' && x <= '9') || (x >= 'a' && x <= 'f'); }))
++        { throw std::runtime_error("Invalid trajectory SHA256 binding"); }
++        if (p.unit && codegen::map<DistanceUnit>(*p.unit) != DistanceUnit::Meter) {
++            throw std::runtime_error("Normalized trajectory requires unit multiplier one");
++        }
++        _trajectoryFile = absPath(*p.confirmedTrajectoryFile);
++        _trajectoryBinding = binding;
++        _trajectoryStatus.setReadOnly(true);
++        addProperty(_trajectoryStatus);
++    }
++
+     // Avoid reading files here, instead do it in multithreaded initialize()
+     _speckFile = p.file.string();
+-    _speckFile.onChange([this]() { loadData(); });
++    if (!_trajectoryFile.empty()) { _speckFile.setReadOnly(true); }
++    else { _speckFile.onChange([this]() { loadData(); }); }
+     addProperty(_speckFile);
+ 
+     _drawElements = p.drawElements.value_or(_drawElements);
+@@ -204,7 +232,13 @@
+ void RenderableConstellationLines::initialize() {
+     RenderableConstellationsBase::initialize();
+ 
+-    loadData();
++    if (_trajectoryFile.empty()) { loadData(); }
++    else {
++        ConstellationLine line;
++        line.name = "trajectory";
++        line.colorIndex = 1;
++        _renderingConstellationsMap.emplace(0, std::move(line));
++    }
+ 
+     if (!_assetSelection.empty()) {
+         const std::vector<std::string> options = _selection.options();
+@@ -294,6 +328,23 @@
+ 
+         glLineWidth(_lineWidth);
+         glDrawArrays(GL_LINE_STRIP, 0, pair.second.numV);
++        if (!_trajectoryFile.empty() && pair.second.numV > 0) {
++            // Endpoint and line share this exact uploaded VBO and particle instant.
++            GLfloat oldSize = 1.f;
++            glGetFloatv(GL_POINT_SIZE, &oldSize);
++            const GLboolean programPointSize = glIsEnabled(GL_PROGRAM_POINT_SIZE);
++            glDisable(GL_PROGRAM_POINT_SIZE);
++            glPointSize(7.f);
++            glDrawArrays(GL_POINTS, pair.second.numV - 1, 1);
++            glPointSize(oldSize);
++            if (programPointSize) { glEnable(GL_PROGRAM_POINT_SIZE); }
++            if (_trajectoryDrawnSequence != _trajectorySequence) {
++                auto status = nlohmann::json::parse(_trajectoryStatus.value());
++                status["draw_submitted_sequence"] = _trajectorySequence;
++                _trajectoryStatus = status.dump();
++                _trajectoryDrawnSequence = _trajectorySequence;
++            }
++        }
+         global::renderEngine->openglStateCache().resetLineState();
+     }
+ 
+@@ -316,9 +367,130 @@
+ }
+ 
+ void RenderableConstellationLines::update(const UpdateData&) {
++    if (!_trajectoryFile.empty()) { updateConfirmedTrajectory(); }
+     if (_program->isDirty()) {
+         _program->rebuildFromFile();
+         ghoul::opengl::updateUniformLocations(*_program, _uniformCache);
++    }
++}
++
++void RenderableConstellationLines::updateConfirmedTrajectory() {
++    try {
++        std::error_code ec;
++        const auto stamp = std::filesystem::last_write_time(_trajectoryFile, ec);
++        if (ec || (_trajectoryLastWrite && *_trajectoryLastWrite == stamp)) { return; }
++        const auto size = std::filesystem::file_size(_trajectoryFile, ec);
++        if (ec) { return; }
++        if (size < 13 || size > 12 + 32768 + 129 * 32) {
++            _trajectoryLastWrite = stamp;
++            throw std::runtime_error("Trajectory packet exceeds bounded contract");
++        }
++        std::ifstream file(_trajectoryFile, std::ios::binary);
++        if (!file) { return; }
++        std::vector<char> bytes(static_cast<size_t>(size));
++        file.read(bytes.data(), static_cast<std::streamsize>(bytes.size()));
++        if (!file) { return; }
++        _trajectoryLastWrite = stamp;
++        if (std::memcmp(bytes.data(), "C2IS4T01", 8) != 0) {
++            throw std::runtime_error("Invalid trajectory magic");
++        }
++        std::uint32_t n = 0;
++        std::memcpy(&n, bytes.data() + 8, 4);
++        if (n == 0 || n > 32768 || 12 + n > bytes.size()) {
++            throw std::runtime_error("Invalid trajectory header size");
++        }
++        std::set<std::string> parsedKeys;
++        const auto checkKey = [&parsedKeys](int depth, nlohmann::json::parse_event_t event,
++                                           nlohmann::json& parsed) {
++            if (depth > 1) { throw std::runtime_error("Flat trajectory metadata required"); }
++            if (event == nlohmann::json::parse_event_t::key &&
++                !parsedKeys.insert(parsed.get<std::string>()).second)
++            { throw std::runtime_error("Duplicate trajectory metadata key"); }
++            return true;
++        };
++        const auto m = nlohmann::json::parse(bytes.data() + 12, bytes.data() + 12 + n, checkKey);
++        const std::vector<std::string> keys = { "schema", "model", "binding_sha256",
++            "sequence", "revision", "time_s", "count", "positions", "payload_sha256",
++            "payload_crc32" };
++        if (!m.is_object() || m.size() != keys.size() ||
++            !std::all_of(keys.begin(), keys.end(), [&m](const auto& k) { return m.contains(k); }))
++        { throw std::runtime_error("Invalid trajectory metadata keys"); }
++        if (!m.at("schema").is_number_unsigned() || m.at("schema") != 1 ||
++            m.at("model") != "is4_magnified_trajectory_v1" ||
++            m.at("binding_sha256") != _trajectoryBinding ||
++            m.at("positions") != "normalized_float64_txyz_le" ||
++            !m.at("sequence").is_number_unsigned() ||
++            m.at("sequence").get<std::uint64_t>() >= (1ULL << 63) ||
++            !m.at("revision").is_number_unsigned() ||
++            m.at("revision").get<std::uint64_t>() >= (1ULL << 63) ||
++            !m.at("count").is_number_unsigned() ||
++            m.at("count").get<std::uint64_t>() < 1 ||
++            m.at("count").get<std::uint64_t>() > 129)
++        { throw std::runtime_error("Stale or incompatible trajectory binding"); }
++        const auto sequence = m.at("sequence").get<std::int64_t>();
++        const auto revision = m.at("revision").get<std::int64_t>();
++        const double time = m.at("time_s").get<double>();
++        if (sequence <= _trajectorySequence || revision < _trajectoryRevision ||
++            !m.at("time_s").is_number() || !std::isfinite(time) || time < 0.0 ||
++            time < _trajectoryTime)
++        { throw std::runtime_error("Trajectory sequence/revision/clock did not advance"); }
++        const auto count = m.at("count").get<unsigned int>();
++        const char* payload = bytes.data() + 12 + n;
++        const size_t payloadSize = bytes.size() - 12 - n;
++        if (payloadSize != static_cast<size_t>(count) * 32 ||
++            !m.at("payload_crc32").is_number_unsigned() ||
++            m.at("payload_crc32").get<std::uint64_t>() !=
++                ghoul::hashCRC32(payload, static_cast<unsigned int>(payloadSize)))
++        { throw std::runtime_error("Trajectory payload size or CRC32 differs"); }
++        const std::string sha = m.at("payload_sha256").get<std::string>();
++        if (sha.size() != 64 || !std::all_of(sha.begin(), sha.end(), [](char x) {
++            return (x >= '0' && x <= '9') || (x >= 'a' && x <= 'f'); }))
++        { throw std::runtime_error("Invalid trajectory payload SHA256 declaration"); }
++        std::vector<GLfloat> vertices;
++        vertices.reserve(3 * count);
++        double previous = -1.0;
++        double maximumError = 0.0;
++        double radius = 0.0;
++        for (unsigned int i = 0; i < count; ++i) {
++            double row[4];
++            std::memcpy(row, payload + static_cast<size_t>(i) * 32, 32);
++            if (!std::all_of(std::begin(row), std::end(row),
++                [](double x) { return std::isfinite(x); }) || row[0] < 0.0 ||
++                row[0] <= previous || row[0] > time)
++            { throw std::runtime_error("Invalid normalized trajectory sample/time"); }
++            const glm::dvec3 position(row[1], row[2], row[3]);
++            const double extent = glm::length(position);
++            if (!std::isfinite(extent) || extent > 1e8) {
++                throw std::runtime_error("Trajectory plot extent exceeds bound");
++            }
++            const glm::vec3 gpu(position);
++            maximumError = std::max(maximumError, glm::length(glm::dvec3(gpu) - position));
++            for (int j = 0; j < 3; ++j) { vertices.push_back(gpu[j]); }
++            radius = std::max(radius, extent);
++            previous = row[0];
++        }
++        if (previous != time) { throw std::runtime_error("Trajectory endpoint time differs"); }
++        // All validation precedes this single bounded GPU update.
++        auto& line = _renderingConstellationsMap.at(0);
++        glNamedBufferSubData(line.vbo, 0, vertices.size() * sizeof(GLfloat), vertices.data());
++        line.vertices = std::move(vertices);
++        line.numV = static_cast<int>(count);
++        setBoundingSphere(std::max(radius, 1.0));
++        _trajectorySequence = sequence;
++        _trajectoryRevision = revision;
++        _trajectoryTime = time;
++        _trajectoryStatus = nlohmann::json({ { "state", "accepted" }, { "metadata", m },
++            { "maximum_gpu_quantization_normalized", maximumError },
++            { "gpu_buffer_uploaded", true },
++            { "draw_submitted_sequence", _trajectoryDrawnSequence },
++            { "native_integrity_check", "CRC32; SHA256 independently verified by Python" }
++        }).dump();
++    }
++    catch (const std::exception& e) {
++        _trajectoryStatus = nlohmann::json({ { "state", "rejected" }, { "error", e.what() },
++            { "last_accepted_sequence", _trajectorySequence },
++            { "last_accepted_time_s", _trajectoryTime }, { "previous_buffer_preserved", true },
++            { "draw_submitted_sequence", _trajectoryDrawnSequence } }).dump();
+     }
+ }
+ 
+@@ -455,12 +627,15 @@
+ 
+     for (std::pair<const int, ConstellationLine>& p : _renderingConstellationsMap) {
+         glCreateBuffers(1, &p.second.vbo);
+-        glNamedBufferStorage(
+-            p.second.vbo,
+-            p.second.vertices.size() * sizeof(GLfloat),
+-            p.second.vertices.data(),
+-            GL_NONE_BIT
+-        );
++        if (_trajectoryFile.empty()) {
++            glNamedBufferStorage(p.second.vbo,
++                p.second.vertices.size() * sizeof(GLfloat),
++                p.second.vertices.data(), GL_NONE_BIT);
++        }
++        else {
++            glNamedBufferStorage(p.second.vbo, 129 * 3 * sizeof(GLfloat),
++                nullptr, GL_DYNAMIC_STORAGE_BIT);
++        }
+ 
+         glCreateVertexArrays(1, &p.second.vao);
+         glVertexArrayVertexBuffer(p.second.vao, 0, p.second.vbo, 0, 3 * sizeof(float));

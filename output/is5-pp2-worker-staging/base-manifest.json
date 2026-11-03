@@ -1,0 +1,6 @@
+{
+  "output/is5-thermal-worker-staging/is5_solar_source.py": "44114fd4f946a6ac91c62723899be497a1587412232ee30cfc3a0e26abc4ed02",
+  "output/is5-thermal-worker-staging/is5_thermal_artifact.py": "57a084cf52af93d69e9bf487b66c42c9f9432667fe9fc73d637ea90c348d160c",
+  "output/is5-thermal-worker-staging/is5_thermal_client.py": "ef5f36afc6c54a3f57c7fff244ea5d707818fb534ad8b7d5cf98cb02b146273a",
+  "output/is5-thermal-worker-staging/is5_thermal_worker.py": "6b5c138f20c690ffe88012dd1eebf1cfefde5d8b5831b41e351942366e959630"
+}

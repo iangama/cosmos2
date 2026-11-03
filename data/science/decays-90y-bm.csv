@@ -1,0 +1,6 @@
+mean_energy,unc_me,intensity_beta,unc_ib,daughter_level_hl,daughter_level_energy,max_energy,unc_me,log_ft,unc_lf,transition_type,anti_nu_mean_energy,unc_ame,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date
+24.23,0.45,0.0000014,0.0000003,,2186.273,92.2,1.6,11.04,0.1,1NU,68,1.3,39,51,Y,,0,,2-,64.05,,5,h,230580,180,B-,100,,2275.6,4,40,50,Zr,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2026-10-14
+184.59,0.61,0.0115,0.0014,,1760.74,517.8,1.6,9.64,0.06,1U,333.8,0.9,39,51,Y,,0,,2-,64.05,,5,h,230580,180,B-,100,,2275.6,4,40,50,Zr,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2026-10-14
+231.33,0.62,0.0018,0.0002,0.8092,2319.000,641.5,1.6,9.62,0.05,1U,411.5,1,39,51,Y,,682.01,0.05,7+,3.19,,6,h,11484,216,B-,0.0018,0.0002,2275.6,4,40,50,Zr,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2026-10-14
+932.4,0.73,99.9885,0.0014,,0,2278.5,1.6,9.224,0.0023,1U,1348.1,1.4,39,51,Y,,0,,2-,64.05,,5,h,230580,180,B-,100,,2275.6,4,40,50,Zr,1-Mar-2020,S. K. Basu and  E.A. MCCUTCHAN,2026-10-14
+

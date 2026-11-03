@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "scientific_receipt": "evidence/is5-cno2-science-20261027a.json",
+  "scientific_receipt_sha256": "14548c6c5c13f8bd89bdc712e571d0868a358c55ed051c031c87e37c4821e04a",
+  "change": "Distinct CNO-II worker protocol importing accepted16/18 science read-only; all previous candidates preserved."
+}

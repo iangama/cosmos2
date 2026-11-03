@@ -1,0 +1,13 @@
+{
+  "model": "cosmos2:SI-electromagnetic-prototype",
+  "version": "0.3.0",
+  "files_sha256": {
+    "em_fields.py": "483944d524fbebd78f5d1c0b0d048858e6720d5bc19fcb55671cf3cf240d3381",
+    "em_particles.py": "f7c957fd877c9222ecb27a2201673c2f9d3b58efcdd0f93cf6731308c26e4e97",
+    "em_mutual.py": "45cafeab8b8aa5f8c6cfbe26b3087c00b3a54cdfbaa66cadfc92900f09686511",
+    "em_experiment.py": "38485ea86cf05ddd0047f485019de28655eb58c9ac2c77c491c9b2540dd5a9a5",
+    "em_editor.py": "4e5bf48e64d6dfb823ad71cf8c75d356eb7a420dd5b5957104c1cd39324bf896",
+    "em_migrate.py": "e7d0a5318888fb05b481dbc6585244b535a659b241a2801ae62df5b69522c5ea",
+    "constants.json": "c94ce4f333542f8a7276a7785b86a646fb6284055d9a7816eec07b51aeb8c49e"
+  }
+}

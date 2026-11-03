@@ -1,0 +1,65 @@
+<!doctype html><html lang="pt-BR" class="native-view">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cosmos2 · nuvem eletromagnética</title><link rel="stylesheet" href="em/cloud.css">
+<body>
+<header><b>COSMOS<span>2</span></b><span>Nuvem eletromagnética</span><nav><a id="small-em" href="/em.html">Campos e cargas</a><a id="return" href="/">Voltar ao Atlas ↗</a></nav><label class="interface-scale">Interface<select id="interface-scale" aria-label="Escala da interface"><option value="1">100%</option><option value="1.25">125%</option><option value="1.5">150%</option></select></label></header>
+<nav class="workspace-tabs" aria-label="Ferramentas da nuvem">
+  <button data-cloud-panel="experience" aria-controls="cloud-experience" aria-expanded="true">Experiência</button>
+  <button data-cloud-panel="sources" aria-controls="cloud-sources" aria-expanded="false">Fontes</button>
+  <button data-cloud-panel="layers" aria-controls="cloud-layers" aria-expanded="false">Camadas</button>
+  <button data-cloud-panel="readings" aria-controls="cloud-readings" aria-expanded="false">Medições</button>
+  <small>MATÉRIA DE TESTE · UNIDADES SI</small>
+</nav>
+<main>
+<aside id="cloud-experience" data-workspace-panel="experience" aria-label="Experiência da nuvem">
+  <p class="eyebrow">EXPERIMENTO SINTÉTICO</p><div class="panel-title"><h1>Uma nuvem, campos prescritos.</h1><button class="close-panel" data-close-panel aria-label="Fechar painel">×</button></div>
+  <p>Partículas com carga e massa, sem reação nas fontes e sem interação entre si. Marcadores ampliados; posições e leituras em SI.</p>
+  <label>Experiência<select id="preset"><option value="helix">Hélice em B uniforme</option><option value="electric">Aceleração elétrica</option><option value="crossed">Deriva E × B</option><option value="dipole">Dipolo magnético ideal</option><option value="coulomb">Carga fixa · Coulomb</option></select></label>
+  <label>Quantidade<select id="count"><option value="1">1</option><option value="128">128</option><option value="1000">1.000</option><option value="10000" selected>10.000</option></select></label><button id="load-preset">Carregar nova nuvem pausada</button>
+  <section><h2>Atuação física</h2><label><input id="acting-e" type="checkbox" checked> Contribuição elétrica</label><label><input id="acting-b" type="checkbox" checked> Contribuição magnética</label><p>Pause para mudar a hipótese física. As medições dos campos continuam disponíveis.</p></section>
+  <section><h2>Tempo do experimento</h2><label>Ritmo solicitado · s do modelo/s real<select id="rate"><option value="0.1">0,1</option><option value="0.5">0,5</option><option value="1" selected>1</option><option value="2">2</option><option value="10">10</option></select></label><output id="rate-reading">Aguardando processo…</output><p>O ritmo efetivo pode ficar abaixo do solicitado. Posição e velocidade são medidas no mesmo instante, em passos completos.</p>
+    <form id="timestep-form"><label>Passo de integração · s<input id="dt" type="number" min="1e-12" step="any" value="0.002" required></label><button type="submit" id="apply-dt">Aplicar passo pausado</button></form>
+  </section>
+  <section><h2>Guardar e retomar</h2><div class="row"><button id="save">Salvar fase e vista</button><button id="restore">Retomar salva</button></div><button id="export">Exportar posições SI</button><p>A fase guarda velocidades, cargas, massas, fontes, controles e passo. A vista guarda seleção, ritmo e preferências. A retomada começa pausada.</p></section>
+</aside>
+
+<aside id="cloud-sources" data-workspace-panel="sources" aria-label="Fontes prescritas" hidden>
+  <p class="eyebrow">CARGAS E DIPOLOS IDEAIS</p><div class="panel-title"><h2>Fontes fixas</h2><button class="close-panel" data-close-panel aria-label="Fechar painel">×</button></div>
+  <output id="source-count"></output><p id="source-editor-note"></p>
+  <label>Selecionar por identidade<select id="field-source"><option value="">Nova fonte fixa</option></select></label>
+  <form id="cloud-source-form">
+    <label>Identidade<input id="field-source-id" type="text" maxlength="128" required autocomplete="off" value="fonte-1"></label>
+    <label>Posição · m</label><div class="components"><input id="field-source-x" type="number" step="any" value="0" aria-label="Fonte x em metros" required><input id="field-source-y" type="number" step="any" value="0" aria-label="Fonte y em metros" required><input id="field-source-z" type="number" step="any" value="0" aria-label="Fonte z em metros" required></div>
+    <label>Carga · C<input id="field-source-charge" type="number" step="any" value="1e-12" required></label>
+    <label>Raio de exclusão · m<input id="field-source-radius" type="number" min="1e-30" step="any" value="0.02" required></label>
+    <label>Momento de dipolo · A m²</label><div class="components"><input id="field-moment-x" type="number" step="any" value="0" aria-label="Momento magnético x" required><input id="field-moment-y" type="number" step="any" value="0" aria-label="Momento magnético y" required><input id="field-moment-z" type="number" step="any" value="0" aria-label="Momento magnético z" required></div>
+    <div class="row"><button id="apply-field-source" type="submit">Criar fonte pausada</button><button id="remove-field-source" type="button">Remover fonte</button></div>
+  </form>
+  <p>Fontes são modelos sintéticos definidos no experimento. Um nome de corpo não atribui observações à fonte. As fontes fixas não recebem reação das partículas.</p>
+  <details open><summary>Campos uniformes prescritos</summary><form id="background-form"><label>E · V/m</label><div class="components"><input id="ex" type="number" step="any" value="0" aria-label="E x" required><input id="ey" type="number" step="any" value="0" aria-label="E y" required><input id="ez" type="number" step="any" value="0" aria-label="E z" required></div><label>B · T</label><div class="components"><input id="bx" type="number" step="any" value="0" aria-label="B x" required><input id="by" type="number" step="any" value="0" aria-label="B y" required><input id="bz" type="number" step="any" value="1" aria-label="B z" required></div><button id="apply-background" type="submit">Aplicar campos pausado</button></form><p>Editar campos uniformes preserva as fontes. Trocar B não cria um E induzido neste modelo.</p></details>
+</aside>
+
+<aside id="cloud-layers" data-workspace-panel="layers" aria-label="Camadas da nuvem" hidden>
+  <p class="eyebrow">CAMPOS DE REFERÊNCIA</p><div class="panel-title"><h2>Camadas</h2><button class="close-panel" data-close-panel aria-label="Fechar painel">×</button></div>
+  <label><input id="visible-cloud" type="checkbox" checked> Mostrar partículas</label><label><input id="visible-e" type="checkbox" checked> Mostrar campo E</label><label><input id="visible-b" type="checkbox" checked> Mostrar campo B</label>
+  <button id="measure">Pausar e medir mapa E/B</button><p id="map-state">O mapa conserva fontes e instante próprios. Ocultar preserva a evolução.</p>
+  <details><summary>Amostragem do mapa</summary><form id="map-form"><label>Raio · m<input id="map-radius" type="number" min="1e-12" max="1e9" step="any" value="3" required></label><label>Altura do corte z · m<input id="map-z" type="number" min="-1e9" max="1e9" step="any" value="0" required></label><button type="submit">Guardar amostragem</button></form></details>
+</aside>
+
+<aside id="cloud-readings" data-workspace-panel="readings" aria-label="Medições da nuvem" hidden>
+  <p class="eyebrow">LEITURAS COM INSTANTE CONFIRMADO</p><div class="panel-title"><h2>Partícula selecionada</h2><button class="close-panel" data-close-panel aria-label="Fechar painel">×</button></div>
+  <form id="selection-form"><label>Índice · começa em zero<input id="index" type="number" min="0" max="9999" step="1" value="9999" required></label><button id="select" type="submit">Pausar e medir partícula</button></form><output id="particle-reading"></output>
+  <section><h2>Sonda dos campos</h2><form id="probe-form"><label>Posição · m</label><div class="components"><input id="px" type="number" step="any" value="3" aria-label="Sonda x" required><input id="py" type="number" step="any" value="2" aria-label="Sonda y" required><input id="pz" type="number" step="any" value="1" aria-label="Sonda z" required></div><button type="submit">Pausar e consultar E/B</button></form><output id="probe-reading"></output></section>
+  <section><h2>Diagnósticos da matéria</h2><output id="diagnostics"></output><p>Energia cinética da matéria de teste. Fontes fixas, reservatórios e energia do campo ficam fora. Sem gravidade, indução, radiação ou campo coletivo de plasma. v ≤ 0,01c; um passo fora do domínio pausa na última fase válida.</p></section>
+</aside>
+
+<article aria-label="Cena da nuvem">
+  <div class="heading"><div><p class="eyebrow">VOLUME 3D · ARRASTE PARA ORBITAR</p><h2 id="population">Nuvem EM</h2></div></div>
+  <div class="native-controls"><button id="frame">Ver nuvem inteira</button><button id="focus">Centrar partícula</button></div><p id="native-state" role="status">Aguardando confirmação da cena.</p>
+  <div class="open-view" aria-label="Cena nativa navegável de partículas eletromagnéticas"></div>
+  <div class="scene-footer"><div class="legend"><span>● partículas</span><span class="electric">— E · V/m</span><span class="magnetic">— B · T</span></div><p class="native-scale">10⁹ m gráficos por metro do modelo · posições medidas em SI · setas de comprimento gráfico uniforme.</p></div>
+</article>
+</main>
+<footer class="timebar"><button id="play">Iniciar</button><button id="step">Um passo</button><output id="time">—</output><output id="compact-rate"></output><p id="status" role="status">Conectando ao experimento…</p></footer>
+<script src="em/cloud.js"></script><script src="em/cloud-workspace.js"></script><script src="em/cloud-sources.js"></script>
+</body></html>

@@ -1,0 +1,90 @@
+{
+  "accepted": false,
+  "completed": true,
+  "reviewed_count": 4,
+  "captures": [
+    {
+      "path": "evidence/cosmos2-is6-layers-20261103a-399-100.png",
+      "sha256": "4af04e632d470134067d2dcbe47b6cf0f10d06d29c368c5f9e7a92f53e6a1bd2",
+      "RGB": "output/is6-layers-native-20261103a/cosmos2-is6-layers-20261103a-399-100.png",
+      "RGB_sha256": "56950a8dd37e677be0bd30a438e7bbcf68b205f90bf098869cd4e4128d9bb61f",
+      "layout": {
+        "scroll": 342,
+        "client": 342,
+        "leave": {
+          "top": 919,
+          "bottom": 957
+        },
+        "panel": {
+          "top": 116,
+          "bottom": 976
+        },
+        "error": ""
+      }
+    },
+    {
+      "path": "evidence/cosmos2-is6-layers-20261103a-399-150.png",
+      "sha256": "733bda4e68513d7c68ae65530d2bcd1afb2346316010b4bcdc8fd58ba5c2d2e4",
+      "RGB": "output/is6-layers-native-20261103a/cosmos2-is6-layers-20261103a-399-150.png",
+      "RGB_sha256": "4dd34de990b0f3590c883fa059838c6e5bf7602d5ce2694c823f335d8f039405",
+      "layout": {
+        "scroll": 321,
+        "client": 321,
+        "leave": {
+          "top": 560,
+          "bottom": 597.3333358764648
+        },
+        "panel": {
+          "top": 116,
+          "bottom": 616
+        },
+        "error": ""
+      }
+    },
+    {
+      "path": "evidence/cosmos2-is6-layers-20261103a-599-100.png",
+      "sha256": "46c98abf7ca1bcd00a29dd0a53940f89b351da76a9f8663e2c447bd8cdfb7b17",
+      "RGB": "output/is6-layers-native-20261103a/cosmos2-is6-layers-20261103a-599-100.png",
+      "RGB_sha256": "8d67d41be3e6faceeb47b1856769fb7c0b7267ca60172415a95aa7b33d8369f6",
+      "layout": {
+        "scroll": 342,
+        "client": 342,
+        "leave": {
+          "top": 919,
+          "bottom": 957
+        },
+        "panel": {
+          "top": 116,
+          "bottom": 976
+        },
+        "error": ""
+      }
+    },
+    {
+      "path": "evidence/cosmos2-is6-layers-20261103a-599-150.png",
+      "sha256": "7f606be5f2efbdfb47bf78c9c31a4fb55f0ac2a36736be46f710935b2b8f5ab7",
+      "RGB": "output/is6-layers-native-20261103a/cosmos2-is6-layers-20261103a-599-150.png",
+      "RGB_sha256": "2e6d0cbab1eb21423f6c06c960558e6016d24c336480e15e4c6fd3a914446b6b",
+      "layout": {
+        "scroll": 321,
+        "client": 321,
+        "leave": {
+          "top": 560,
+          "bottom": 597.3333358764648
+        },
+        "panel": {
+          "top": 116,
+          "bottom": 616
+        },
+        "error": ""
+      }
+    }
+  ],
+  "native_receipt_sha256": "343ebe2c6cb61d367f6c4cd258d087100452fed99c4a139e3de81d0783965027",
+  "observations": [
+    "Quatro imagens inspecionadas, sem rolagem horizontal, controles legíveis e saída fixa acessível nas duas escalas.",
+    "Razão dos relógios da Terra arredonda para 1; exibir déficit não nulo para preservar a leitura do efeito.",
+    "Leitura magnética em 150% requer rolagem vertical e imagem adicional."
+  ],
+  "scope": "Functional 0.19.0 acceptance preserved; visual finalization pending revision B."
+}

@@ -1,0 +1,37 @@
+PERFILK3 planejamento de entrada preparado em
+evidence/is6-layers-profile-plan-20261103a.json (4janelas/240comandos).
+Script prepare-is6-layers-profile-plan.py e suporte jáexecutados/congelados.
+NENHUM benchmarkUI foi executado:próximoimplementar coletor+auditor novos
+usando esseplano,sem editarfontesaceitas. Identidadesguard/body_id devem
+ser resolvidas da novacópia nativa;não repetirUUIDsdoarquivo antigo.
+
+Consolidação limitada0.19.1:is6-layers-product-cut-20261103b.json criada;
+accepted=true. Fontes/recibos/6imagens/manifest/dono auditados.
+
+PERFILK3:novo suporte scripts/is6_layers_profile_support.py escrito;
+validação CPU dos2modelos/receitas passou;suporte disponível.
+Coletor e auditor K3 completos ainda NÃO implementados. Não afirmar perfilUI.
+
+COSMOS2 — ATUALIZAÇÃO03/11:K3B0.19.1 ACEITA funcional/visual/processos.
+2corpos,8visibilidades,14recusas,6PNGrevistos(incluiB150%rolado),cancelamento
+HTTP real,precisãoSI,zeroJS,restauração,app/server0/0 e semPIDs.
+Recibos:is6-layers-native-20261103b.json,is6-layers-visual-20261103b.json,
+is6-layers-native-process-20261103b.json. Relatório próprio
+IS-6-COEXISTENCIA-PRODUTO-RESULTADO-20261103.md. FontesA/B congeladas.
+K2 tambémaceito:18037quadros,p95≤14,010ms,zero>100ms,240comandos;perfil
+pertenceà0.18.5 experimental,nãoàinterface0.19.1.
+K4 fundaçãoCPU ACEITA:8roundtrips/32recusas checksumrecalculado,recibo
+is6-layers-checkpoint-20261103a.json. Módulo novo
+output/is6-layers-persistence-staging/is6_layers_checkpoint.py congelado.
+Nãohástore/gravação/UI/ramo/load nativo/migração composta implementados.
+PRÓXIMO EXATO:implementar coletor+auditor do perfilAPI/UI0.19.1 conforme
+IS-6-COEXISTENCIA-PERFIL-K3-CONTRATO.md. K2tem suporteGPU puro reutilizável
+scripts/is6_pair_profile_support.py;copiar semeditarfontes aceitas.
+Quatrojanelas30+60s,2Hz nas duasativas,mesmoslimites. Depois integrarK4
+aoserviço/candidatanova e testar persistênciareinício/migração.
+TodaIS6/v1,expansãocatálogo eGR adicional continuam pendentes;7marcoscompletos.
+Preservar3.13,Cosmos,Revenant eowner SHA
+ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825.
+LerAGENTS. Semsubagentes. Rodarcontinuamente atélimite real;8%écheckpoint.
+
+COTA REAL {"observed": "2026-11-03T13:23:50.403Z", "codex": {"limit_id": "codex", "limit_name": null, "primary": {"used_percent": 93.0, "window_minutes": 300, "resets_at": 1793726590}, "secondary": {"used_percent": 94.0, "window_minutes": 10080, "resets_at": 1794151518}, "credits": {"has_credits": false, "unlimited": false, "balance": "0"}, "individual_limit": null, "spend_control_reached": null, "plan_type": "plus", "rate_limit_reached_type": null}}

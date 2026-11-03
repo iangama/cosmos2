@@ -1,0 +1,111 @@
+# Cosmos2 — leia primeiro
+
+Atualizado em18/10/2026. Ler AGENTS.md depois. Construção local contínua
+reautorizada pelo dono após o relatório pontual de gravidade. Sem subagentes,
+gastos ou publicação. Preservar Cosmos/Revenant e a sessão salva do dono.
+Continuar até cota real de5h OU semanal esgotar, conclusão, bloqueio real ou
+pedido de parada.8%é checkpoint para salvar a passagem e CONTINUAR até0.
+Telemetria mais recente4%5h/69%semanal, observed2026-10-18T03:50:51.402Z;
+reconferir com python3 ../cosmos/scripts/check-codex-quota.py.
+
+## Trabalho ativo: C2-12
+
+Ler apenas C2-12 do ROADMAP-GERAL.md, seção9 de VALIDACAO.md,
+CAMADAS-QUATRO-FORCAS.md e output/c212-em-staging/LEIA-EM.md.
+NÃO reler toda a pesquisa/plano/histórico. Não confundir os dois projetos Cosmos.
+
+C2-12 está ISOLADO em output/c212-em-staging; produto3.13 preservado.
+LEIA-EM.md nessa pasta descreve os modelos/limites e pendências.
+ProvasAPROVADAS:
+1. em-field-kernel-check.json:4120direções, cargas±, dipolos,E/B/potencial,
+   gradiente e divergência refinados, rotação, controles e exclusões.
+2. em-particle-dynamics-check.json:Boris sincronizado10períodosB/E×B,
+   energia5.908e-15, deriva8.226e-7, não uniforme contraDOP8531.538e-6.
+3. em-mutual-dynamics-check.json:CoulombcomreaçãoVelocityVerlet,10períodos
+   e=.4, energia5.044e-7 na escalaK+absU,128forças vsreferênciaE5.487e-16.
+4. em-checkpoint-check.json:em_experiment.py schema1(selado/geração/cap2MiB),
+   save123+777passos futurosEXATOS nos2regimes,14recusas,crossingsemperderfase.
+5. em-worker-check.json:workerreal5presets,salvar/load/sonda/controles,
+   fila32/quantum32passos20ms,20pausas≤2.140ms nasPEQUENASpopulações.
+6. em-native-ui-check.json:servidorexperimental4716,canvas3D no CEFREAL,
+   cinco presets97amostrasE/B,cascavolumétrica+corte,setas194/97/97/0,
+   sondaSI/mapacongelado/save-evolve-restore/zeroJS. Fonteatualfoireiniciada
+   ereexecutada para baterhashservercomprocesso.Captura
+   evidence/cosmos2-em-prototype-fields.png revista emem-native-ui-visual-review.json.
+
+ÚLTIMOESTADO18/10: prova --with-128 PASSOU (exec14377encerrado).
+128cargas interagentes evoluíram0.103s do modelo comerroenergia4.275e-16
+nafixture;25pausas totais≤6.951ms. Taxa mínimaobservada0.15955s/s: NÃOperfil
+formal nem aceite de taxapedida/frames. Reciboem-worker-check.json atualizado.
+ServerUI4716+worker ENCERRADOSNORMAL via/api/shutdown,exec94202concluído.
+CEF voltouaoAtlas4700. Produto3.13 podeestarabertolazy;ownerintacto.
+Fontese6reciboscongelados: evidence/em-prototype-0_1-frozen-20261018.tar.gz,
+manifestem-prototype-0_1-frozen-check.json eauditoriaem-prototype-0_1-audit.json.
+Próximafatia temcontratoem output/c212-em-staging/EDICAO-FONTES-EM.md:
+fonteseditáveis,contabilizaçãoΔE/P/L/carga,históricopersistido,migradorEM0.1.
+Nenhumaediçãodefontesoumalhaédeclaradapronta. Cota4%5h/69%semanal;
+CONTINUARaté0,deixando passagemsalva antesdo limite.
+
+PRÓXIMO desenvolvimento: editorfontes/cargas com contabilizaçãodeintervenções
+energiamomento e persistência; depois candidata deproduto própriaparaintegrar
+camadasàcena/navegação. Faltamlinhasintegrais/exportações/associaçãoa corpos,
+fonte/época(C2-13),128formal/10miltestesEM emperfisseparados.
+NenhumC2-12completo ouaceitedamalhafoiafirmado. Nãoalterarappinstalada
+fora de uma candidata, para preservaraprovacãoporhash3.13.
+
+## Nova solicitação de18/10
+
+CAMADAS-QUATRO-FORCAS.md adicionado como requisitoobrigatório da v1 e ligado
+noROADMAP/QUATRO-FORCAS/ESCOPO/AGENTS. MalhaC2-14/15, E/BfontesC2-12 e
+corposC2-13, forte/fracaC2-18/19/20, aceiteconjuntoC2-17. Não hámalha pronta.
+Malha é corteespacial/observadordomodelo, com botãopróprio e medições; volume3D
+continua. Cadaforça temrepresentaçãoadequada, sem inventarcampoplanetárioforte/fraco.
+Corpos têmmodelo/fonte/época/domínio; desconhecido não viracampozero.
+Relatórioanterior: RELATORIO-GRAVIDADE-MALHA-2026-10-18.md.
+Gravidade3D±z e lateraisaprovada; Mostrar/Esconder e referênciaCURVATURApassaram.
+
+## Instalado3.13, fechado o corte de10mil em18/10
+
+3.13foipromovida APÓS dupla aprovação formal,9regressões/jornadaCEF/legados/
+13migrações/Kepler10000. Backup3.12 completo:
+output/c211-pre-cloud-20261018T033232Z/app. Preservarnãorestaurarsemrazão.
+Aprovação evidence/c211-cloud-validated.json e c211-cloud-promotion.json.
+Boot-Built padrão agora seleciona .runtime-cloud porhash deengine+82arquivosapp,
+comrecibosdeambosperfis. Query/baseline/semBuiltpreservados;18seleçõespassaram.
+C2-11permaneceparcial noescopocompleto; nenhumaceite da malha/novas camadas.
+
+Cloud: native-benchmark-c211cloud4-review.json:3×60s/30s/1080p,
+p95max18.327741/p99max19.515841ms,zero>100ms. Keplerindependente10000 após
+39.200órbitas,erro5.371e-13. Pacotefinalcongelado ehashesemrecibos.
+P256MESMOmotor: native-benchmark-c211p256c2-review.json:3×60s/30s/1080p,
+p95max21.460199/p99max23.259919ms,zero>100ms,rate≥1.0002195,
+20pausas≤53.3758ms,RAMsoma1.0213GiB/WDDMsoma2.9584GiB<DXGI7.1901GiB.
+SomadeWDDM/RAMpodecontarpáginascompartilhadas; nãoVRAMúnica.
+
+Instalaçãoverificada: cloud-installed-ui-check.json(criação10000/evolução/
+seleção9999nativaSIexata/zeroJS/semSAVEdoowner),
+cloud-installed-four-forces-cef-check.json(16combinaçõesdasquatroforçaszeroJS),
+runtime-default-boot-check.json(SEGUNDO bootfinal:Atlas/Terra/lazy/ownerintacto).
+MotorpodeestaraindaabertonoAtlas, launcher93325; conferiroutput/session.json.
+Owner user/sessions/latest.json SHA256:
+ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825.
+TodosostestessemSAVEdoowner;storagecandidato emoutput/c211-cloud-candidate/sessions.
+
+Incidentes preservados: cloud1falhatravaWindowscorrigida; cloud2recusadohitch467ms;
+p256c1interrompidosemjanelas (nativeWSstall,causanãoisolada). Primeiratentativa
+botãocampo18/10teveerronoleitordoteste(dictLua), corrigido; cleanupcausoucrash
+nativocomdump,causanãoisolada. Bootnovo+6limpezas+2rotas256↔10000↔Atlas
+passaram:cloud-native-transitions-check.json. Não apagarcrashnematribuircausa.
+TelaForçascandidatafalhouporlayoutdedadosausente; preparadocomjunctionWindows
+output/c211-cloud-product/data->data,semalterarapp/dados. Candidataentãopassou
+em4700:cloud-candidate-spacetime-controls-check.json. Instaladopassoutambém.
+
+Ferramentas: PythonWindows .tooling/python/Scripts/python.exe -Xutf8.
+WSLloopback≠Windows; HTTP/native/CEF viaPythonWindows. CEF8088 SOMENTE
+scripts/cef_page.py; jamaisPlaywrightconnect_over_cdp. Lançar
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/start-cosmos2.ps1
+ -Built -InspectCEF -Benchmark1080 (padrãoprodutivo). CandidataC211 opcional
+ -Built -RuntimeVariantcloud -CloudCandidate -InspectCEF -Benchmark1080.
+Apósboot:wait-cosmos2-ready.py. Fecharnormal:engine-command.py
+ 'openspace.toggleShutdown()', aguardarlauncherlimpar. Dangerfull/approvalnever:
+NÃOpassarsandbox_permissions. Semsubagentesporpedido do dono.

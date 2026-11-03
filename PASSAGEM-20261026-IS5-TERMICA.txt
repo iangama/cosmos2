@@ -1,0 +1,74 @@
+COSMOS2 — PASSAGEM IS5 TÉRMICA — 26/10/2026 17:49 UTC
+
+Preferência do dono: continuar até esgotar cota real, bloqueio ou plano concluído.
+Checkpoint real: 7% da janela5h /70% semanal, observado17:49:27.869UTC.
+NÃO esgotada. Este checkpoint salva a passagem; continuar até0. Não inferir
+cotas por contexto/tokens/tempo. Telemetria: python3 ../cosmos/scripts/check-codex-quota.py.
+Não delegar. Preservar Cosmos,Revenant,instalado/sessões do dono e fontes aceitas.
+
+CONCLUÍDO
+- Produto de zona prescrita0.10.3: ciência/worker/CEF/visual/perfil aceitos.
+  IS-5-ZONA-SOLAR-RESULTADO-20261026.md. Perfil B reutiliza2janelas A completas
+  e mede3/4;auditorv2 valida proveniência. p95max13,87063/p99max14,27859ms,
+  zero>100,RAM1,164726/GPU2,977722GiB,ritmomín0,964753. Preservar103.
+- EOS ideal térmica: output/is5-thermal-staging/is5_eos.py. Íons clássicos,
+  elétronsFD não-relativísticos,radiaçãoLTE confinada;rho/V fixos.27FDvsmpmath50dps,
+  27EOS/derivadas/Maxwell e12recusas aceitos is5-thermal-eos-20261026a.
+- Rede térmica is5_thermal.py:8casos/5recusas aceitos is5-thermal-20261026a.
+  Feedback1Myr aceito is5-thermal-feedback-20261026a:15→18,503490MK,erroT
+  vsBDF energiaU+inversãoEOS2,06e-10rel;energia6,07e-14normalizada.
+  PRESERVAR EOS/rede/core/refs/manifestos aceitos.
+- Worker/artefato próprios output/is5-thermal-worker-staging:13recusas,
+  save/load/newprocess exato/32ramos/locksWindows aceitos
+  is5-thermal-worker-artifact-20261026a. Preservar todos esses.py.
+- Nova candidata output/is5-thermal-zone-product0.11.0/app isolada da103:
+  T0 inicial,T/P/U/Cv sonda,gráficoT+composição/energia/ν,referência completa.
+  CEF is5-native-thermal-20261026a ACEITO4grupos/9recusas/0JS e4PNG com
+  critério de pixels do marcador. APP011 agora PRESERVAR aceito.
+
+ESTADO / PRÓXIMO EXATO
+Host011 ativo, launcher exec9279,app9596/server29684; output/session.json
+contém PIDs atuais. TesteCEF exec31388 terminou aceito e limpou paraAtlas.
+Visual011 ACEITO evidence/is5-thermal-visual-review-20261026a.json.
+PERFIL011B EM EXECUÇÃO, exec43669:
+ scripts/benchmark-is5-thermal-native.py --label20261026b
+Primeira tentativaA abortou antes medir por guardherdado0.10.3;corrigido
+SOMENTEguardpara0.11.0. FolderA vazio preservado. B usa CEF/visual20261026a.
+Recibo de andamento: evidence/is5-thermal-zone-profile-20261026b.json.
+Não editarapp/coletor/auditor enquanto executa. Esperarresultado. Quando
+completedtrue,rodar:
+ python3 scripts/audit-is5-thermal-profile.py --label20261026b
+Contrato IS-5-TERMICA-PERFIL-PREVIO.md:4janelas30+60s,2amostras/s,GPU66,
+espera60s. Resultado térmico inteiro arquivado e sondaT/P/U/Cv conferida por
+índice e artifact_sha,maisframe/GPU/RAM/fonte/owner. Semaceite atéauditor.
+Apósaceite:relatório térmico/LEIA/RETOMADA e encerrar normal toggleShutdown,
+aguardar launcherengine_exit0. Não afirmar perfil011 baseado no103.
+
+COTA MAIS RECENTE: script retornou STALE1%5h/69%semana,observado17:51:10Z.
+Percentual atual indisponível;NÃO inferir novo saldo nem declarar esgotado.
+Dono enviouContinue;trabalho continua autorizado. Conferir telemetria real,
+preservarpassagem e nunca contornar leitura atualexhaustedtrue.
+
+LIMITES / CUIDADOS
+- Modelo ideal não resolve Coulomb/screening/pp-II/III/transporte/hidrostática,
+  perfis estelares/luminosidade ou emissão espacial. C2-20/IS5 não concluídos.
+  Próximos aprofundamentos só pela seção ativaC2-20 do ROADMAP-GERAL.md;
+  não reler roadmap inteiro. Contratos térmicos contêm hipóteses/fontes.
+- Preview inline pode OMITIR círculo/rótulo existente noPNG! Originais103
+  têm21018pixelsouro emROI700,460..1200,650;centerRGB251,184,96. Também101/102
+  tinham;atribuição antiga de falhalifecycle retirada em
+  evidence/is5-visual-preview-correction-20261026.json. Não diagnosticar engine
+  só por preview. Testes103/011contam pixels reais (PillowWindows instalado).
+- Runtime .runtime-is4-stream inalterado.9fontes upstream intencionais
+  (7V2+2IS4),não restaurar/promover. CEF8088 somente scripts/cef_page.py.
+- Science/Store ainda só validam dados/cálculos;UI/visual/perfis são separados.
+- Roots novas preservam geracão/arquivos. Não modificar aceitos: nova candidata
+  se precisar mudar fontes já executadas/aceitas. Todosmanifestos/ZIPs preservados.
+
+NOVA JANELA confirmada26/10 23:21:21.104UTC:100%5h/69%semana.
+LeituraatualOKsubstituiSTALE1%;continuarautorizado. Perfil011Bexec43669
+emcaptura1,deixarconcluirsemeditarfontes.
+
+ATUALIZAÇÃO23:29UTC:PERFIL011B ACEITO,relatório térmico pronto.
+PróximoativoPP-IIcontratoIS-5-PP-II-CONTRATO-PREVIO.md,dados/códigoainda
+nãoadquiridos/implementados.Nãoexecutarperfil011novamente.78/65%cotas.

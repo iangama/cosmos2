@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cosmos2 · campos e cargas</title><link rel="stylesheet" href="em/style.css">
+<body>
+<header><b>COSMOS<span>2</span></b><span>Campos e cargas</span><nav><a id="open-cloud" href="/em-cloud.html">Nuvem EM</a><a id="native-return" href="/">Voltar ao Atlas ↗</a></nav><label class="interface-scale">Interface<select id="interface-scale" aria-label="Escala da interface"><option value="1">100%</option><option value="1.25">125%</option><option value="1.5">150%</option></select></label></header>
+<nav class="workspace-tabs" aria-label="Ferramentas do laboratório">
+  <button data-panel="experience" aria-controls="experience-panel" aria-expanded="true">Experiência</button>
+  <button data-panel="editor" aria-controls="editor" aria-expanded="false">Fontes e partícula</button>
+  <button data-panel="layers" aria-controls="layers-panel" aria-expanded="false">Camadas</button>
+  <button data-panel="readings" aria-controls="readings-panel" aria-expanded="false">Medições</button>
+  <small>FONTES SINTÉTICAS · UNIDADES SI</small>
+</nav>
+<main>
+<aside id="experience-panel" data-workspace-panel="experience" aria-label="Experiência e tempo">
+  <p class="eyebrow">LABORATÓRIO ELETROMAGNÉTICO</p>
+  <div class="panel-title"><h1>Investigue os campos.</h1><button class="close-panel" data-close-panel aria-label="Fechar painel">×</button></div>
+  <p>Uma partícula em fontes fixas ou cargas que trocam força elétrica. Cada experiência identifica seu modelo.</p>
+  <label>Experiência<select id="preset"><option value="electric">Aceleração elétrica</option><option value="helix" selected>Hélice em B uniforme</option><option value="crossed">Deriva E × B</option><option value="dipole">Dipolo magnético ideal</option><option value="coulomb">Par de cargas com reação</option></select></label>
+  <button id="load-preset">Carregar pausado</button>
+  <section><h2>Atuação física</h2><label><input type="checkbox" id="acting-e" checked> Contribuição elétrica</label><label id="magnetic-acting-label"><input type="checkbox" id="acting-b" checked> Contribuição magnética</label><p id="model-note"></p></section>
+  <section><h2>Tempo do experimento</h2>
+    <label>Ritmo solicitado · s do modelo/s real<select id="model-rate"><option value="0.1">0,1</option><option value="0.5">0,5</option><option value="1" selected>1</option><option value="2">2</option><option value="5">5</option></select></label>
+    <form id="custom-rate-form"><label>Outro ritmo · s/s<input id="custom-rate" type="number" min="1e-30" max="100" step="any" value="1" required></label><button type="submit">Aplicar ritmo</button></form>
+    <output id="timing-reading"></output><p>O ritmo efetivo pode ficar abaixo do solicitado. A física avança em passos completos.</p>
+    <form id="timestep-form"><label>Passo de integração · s<input id="integration-step" type="number" min="1e-30" max="1" step="any" value="0.002" required></label><button id="apply-timestep" type="submit">Aplicar passo pausado</button></form>
+    <p>Refine o passo e compare resultados. Alterar o ritmo preserva o passo de integração.</p><output id="timing-history"></output>
+  </section>
+  <section><h2>Guardar e retomar</h2><div class="row"><button id="save">Salvar fase e vista</button><button id="restore">Retomar salva</button></div><p>A retomada começa pausada e conserva o passo e as preferências de tempo confirmadas.</p></section>
+</aside>
+
+<aside id="editor" data-workspace-panel="editor" aria-label="Fontes e partícula" hidden>
+  <p class="eyebrow">ALTERAÇÕES NO INSTANTE CONFIRMADO</p>
+  <div class="panel-title"><h2>Fontes e partícula</h2><button class="close-panel" data-close-panel aria-label="Fechar painel">×</button></div>
+  <p id="editor-hint">Pause para editar. Aplicar mantém o experimento pausado.</p>
+  <section id="test-particle-editor"><h2>Partícula de teste</h2>
+    <label>Referência de carga e massa<select id="particle-species"><option value="custom">Definida pelo usuário</option><option value="electron">Elétron · CODATA 2022</option><option value="proton">Próton · CODATA 2022</option></select></label>
+    <p id="particle-origin">Posição, velocidade e campos são condições do experimento.</p>
+    <form id="particle-form">
+      <label>Carga · C<input id="particle-charge" type="number" step="any" value="1" required></label>
+      <label>Massa · kg<input id="particle-mass" type="number" min="1e-100" step="any" value="1" required></label>
+      <label>Posição · m</label><div class="components"><input id="particle-x" type="number" step="any" value="0" aria-label="Partícula x em metros" required><input id="particle-y" type="number" step="any" value="0" aria-label="Partícula y em metros" required><input id="particle-z" type="number" step="any" value="0" aria-label="Partícula z em metros" required></div>
+      <label>Velocidade · m/s</label><div class="components"><input id="particle-vx" type="number" step="any" value="1" aria-label="Partícula velocidade x" required><input id="particle-vy" type="number" step="any" value="0" aria-label="Partícula velocidade y" required><input id="particle-vz" type="number" step="any" value="0.3" aria-label="Partícula velocidade z" required></div>
+      <button id="apply-particle" type="submit">Aplicar partícula pausada</button>
+    </form>
+    <p>Selecionar uma referência preenche carga e massa. Confirme os campos e o passo antes de aplicar. Em campos fortes, partículas leves exigem passos e ritmos menores.</p>
+    <details><summary>Origem das referências</summary><p>Massas e carga elementar: <a href="https://physics.nist.gov/cuu/pdf/wall_2022.pdf" target="_blank" rel="noopener">NIST · CODATA 2022</a>. Modelo clássico não relativístico, sem estrutura atômica ou efeitos quânticos.</p><output id="species-uncertainty"></output></details>
+  </section>
+  <section><h2 id="source-editor-title">Fontes fixas</h2>
+    <label>Selecionar por identidade<select id="source-select"><option value="">Nova fonte</option></select></label><p id="source-origin"></p>
+    <form id="source-form">
+      <label>Identidade<input id="source-id" required maxlength="128" autocomplete="off" value=""></label>
+      <label>Posição · m</label><div class="components"><input id="source-x" type="number" value="0" step="any" required aria-label="Fonte x em metros"><input id="source-y" type="number" value="0" step="any" required aria-label="Fonte y em metros"><input id="source-z" type="number" value="0" step="any" required aria-label="Fonte z em metros"></div>
+      <label>Carga · C<input id="source-charge" type="number" value="1e-9" step="any" required></label>
+      <label>Raio de exclusão · m<input id="source-radius" type="number" value="0.1" step="any" min="1e-30" required></label>
+      <div id="dipole-fields"><label>Momento de dipolo · A m²</label><div class="components"><input id="source-mx" type="number" value="0" step="any" required aria-label="Momento magnético x"><input id="source-my" type="number" value="0" step="any" required aria-label="Momento magnético y"><input id="source-mz" type="number" value="0" step="any" required aria-label="Momento magnético z"></div></div>
+      <div id="body-fields" hidden><label>Massa · kg<input id="source-mass" type="number" value="1" min="1e-30" step="any"></label><label>Velocidade · m/s</label><div class="components"><input id="source-vx" type="number" value="0" step="any" aria-label="Velocidade x"><input id="source-vy" type="number" value="0" step="any" aria-label="Velocidade y"><input id="source-vz" type="number" value="0" step="any" aria-label="Velocidade z"></div></div>
+      <div class="row"><button id="apply-source" type="submit">Criar fonte</button><button id="remove-source" type="button">Remover</button></div>
+    </form>
+  </section>
+  <details id="background-editor"><summary>Campos uniformes prescritos</summary><form id="background-form">
+    <label>E · V/m</label><div class="components"><input id="background-ex" type="number" value="0" step="any" required aria-label="Campo elétrico x"><input id="background-ey" type="number" value="0" step="any" required aria-label="Campo elétrico y"><input id="background-ez" type="number" value="0" step="any" required aria-label="Campo elétrico z"></div>
+    <label>B · T</label><div class="components"><input id="background-bx" type="number" value="0" step="any" required aria-label="Campo magnético x"><input id="background-by" type="number" value="0" step="any" required aria-label="Campo magnético y"><input id="background-bz" type="number" value="1" step="any" required aria-label="Campo magnético z"></div><button id="apply-background" type="submit">Aplicar campos</button>
+  </form><p>A mudança é uma intervenção. O modelo não calcula o campo elétrico induzido pela troca de B.</p></details>
+  <p>Parâmetros editados são modelos do usuário. Um nome de planeta não atribui dados observacionais à fonte.</p>
+</aside>
+
+<aside id="layers-panel" data-workspace-panel="layers" aria-label="Camadas de referência" hidden>
+  <p class="eyebrow">CAMPOS DE REFERÊNCIA</p>
+  <div class="panel-title"><h2>Camadas</h2><button class="close-panel" data-close-panel aria-label="Fechar painel">×</button></div>
+  <label><input type="checkbox" id="visible-e" checked> Campo elétrico E</label><label><input type="checkbox" id="visible-b" checked> Campo magnético B</label>
+  <p>Ocultar preserva a física. Setas têm comprimento gráfico uniforme; as leituras mostram a intensidade em SI.</p>
+  <button id="measure">Pausar e medir campos</button><p id="map-state">Meça para criar uma casca 3D e um corte de referência.</p>
+  <div class="row"><button id="trace-fields">Calcular linhas E/B</button><button id="export-layers">Exportar camadas</button></div><p id="line-state">Linhas seguem o campo de referência; não são trajetórias de partículas.</p>
+  <details><summary>Amostragem do mapa</summary><form id="map-form"><label>Raio da casca · m<input id="map-radius" type="number" value="3" min="1e-12" max="1e9" step="any" required></label><label>Altura do corte z · m<input id="map-cut" type="number" value="0" step="any" required></label><button id="apply-map" type="submit">Guardar amostragem</button></form></details>
+  <section id="potential-panel"><h2>Potencial elétrico · V</h2>
+    <label><input type="checkbox" id="visible-potential"> Mostrar equipotenciais</label><button id="measure-potential">Pausar, medir e mostrar corte</button><p id="potential-state" role="status">Meça para criar um corte de potencial elétrico.</p>
+    <details><summary>Grade e níveis de tensão</summary><form id="potential-form"><label>Grade do corte<select id="potential-count"><option value="17">17 × 17</option><option value="33" selected>33 × 33</option><option value="65">65 × 65</option></select></label><label><input type="checkbox" id="potential-auto" checked> Níveis automáticos · percentis 10–90</label><label>Níveis · V<input id="potential-levels" type="text" value="-1; 0; 1" aria-label="Níveis de potencial em volts"></label><p>Separe até 16 níveis crescentes com ponto e vírgula; use ponto decimal.</p><button type="submit">Guardar preferências do corte</button></form></details>
+    <p>Mesmo raio e altura z do mapa. Linhas interpolam valores medidos; refine a grade para comparar. A camada não desloca a cena em altura.</p>
+  </section>
+</aside>
+
+<aside id="readings-panel" data-workspace-panel="readings" aria-label="Medições e diagnósticos" hidden>
+  <p class="eyebrow">LEITURAS COM INSTANTE CONFIRMADO</p>
+  <div class="panel-title"><h2>Medir em SI</h2><button class="close-panel" data-close-panel aria-label="Fechar painel">×</button></div>
+  <button id="measure-particle">Pausar e medir partícula</button><output id="particle-measurement">Consulte força, potência e energia no instante confirmado.</output><p id="measurement-note"></p><button id="export-particle">Exportar medição da matéria</button>
+  <section><h2>Sonda dos campos</h2><label>Posição da sonda · m</label><div class="components"><input id="probe-x" type="number" value="3" step="any" aria-label="Sonda x em metros"><input id="probe-y" type="number" value="2" step="any" aria-label="Sonda y em metros"><input id="probe-z" type="number" value="1" step="any" aria-label="Sonda z em metros"></div>
+    <div class="row"><button id="probe">Pausar e consultar</button><button id="export">Exportar fontes e leitura</button></div><button id="probe-potential">Consultar fontes do corte congelado</button><output id="reading">Clique numa seta do mapa para medir.</output><p id="export-state">O JSON inclui fontes, unidades, referencial e instante confirmado.</p>
+  </section>
+  <section><h2>Diagnósticos da matéria</h2><output id="diagnostics"></output><p>Energia mecânica do modelo. Fontes fixas, seus reservatórios, energia do campo, indução e radiação ficam fora do balanço.</p><output id="intervention"></output></section>
+</aside>
+
+<article aria-label="Cena do experimento">
+  <div class="heading"><div><p class="eyebrow">VOLUME 3D · ARRASTE PARA ORBITAR</p><h2 id="title">Campos eletromagnéticos</h2></div></div>
+  <div class="native-controls"><button id="native-toggle">Ver mapa interativo</button><button id="native-frame">Restaurar enquadramento</button><button id="native-focus">Centrar seleção</button><button id="potential-jump">Potencial elétrico</button></div>
+  <p id="native-state" role="status">Aguardando cena.</p>
+  <canvas id="view" aria-label="Trajetória e campos E/B em três dimensões"></canvas>
+  <div class="scene-footer"><div class="legend"><span class="electric">● E · V/m</span><span class="magnetic">● B · T</span><span>● matéria · posição em m</span></div><p class="native-scale">Cena nativa · 10⁹ m gráficos por metro do modelo · marcadores com raio gráfico. Medições em SI.</p><p id="potential-legend"></p></div>
+</article>
+</main>
+<footer class="timebar"><button id="play">Iniciar</button><button id="one-step">Um passo</button><output id="time">—</output><output id="compact-rate"></output><p id="status" role="status">Conectando ao processo científico…</p></footer>
+<script src="em/app.js"></script><script src="em/native.js"></script><script src="em/potential.js"></script><script src="em/timing.js"></script><script src="em/workspace.js"></script><script src="em/particle.js"></script>
+</body></html>

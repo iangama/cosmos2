@@ -1,0 +1,11 @@
+{
+  "kind": "isolated_Coulomb_artifact_from_CNOII",
+  "scientific_acceptance": "is5-coulomb-science-20261028a",
+  "base_sha256": {
+    "output/is5-cno2-worker-staging/is5_cno2_artifact.py": "61f66deddf6140e27bcc94993acd002ecb8773adf0512f4b5d81b27f9e2be0c7",
+    "output/is5-cno2-worker-staging/is5_cno2_client.py": "10843570c3d7a368e50bf6b1e017b2270bd375f89e72b85e4dc00aff7e5856e8",
+    "output/is5-cno2-worker-staging/is5_cno2_worker.py": "dbbc2a94119073742af707d8c3d5a323fd2f15e3d56247a8f61e27b31b743a7c",
+    "output/is5-cno2-worker-staging/is5_solar_source.py": "44114fd4f946a6ac91c62723899be497a1587412232ee30cfc3a0e26abc4ed02"
+  },
+  "changes": "Own schema/configuration/science generation, Coulomb U and screening probes. Store/seals/branches retained by merit."
+}

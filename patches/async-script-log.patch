@@ -1,0 +1,253 @@
+--- a/src/scripting/scriptengine.cpp
++++ b/src/scripting/scriptengine.cpp
+@@ -27,6 +27,7 @@
+ #include <openspace/documentation/documentation.h>
+ #include <openspace/engine/configuration.h>
+ #include <openspace/engine/cosmos2stagetrace.h>
++#include <openspace/scripting/asyncscriptlog.h>
+ #include <openspace/engine/globals.h>
+ #include <openspace/engine/windowdelegate.h>
+ #include <openspace/interaction/sessionrecordinghandler.h>
+@@ -93,6 +94,10 @@
+     : _state(ghoul::lua::LuaState::Sandboxed(sandboxedLua))
+ {}
+ 
++ScriptEngine::~ScriptEngine() {
++    cosmos2log::writer.reset(); // Drain accepted entries while logging services exist.
++}
++
+ void ScriptEngine::initialize() {
+     ZoneScoped;
+ 
+@@ -113,6 +118,7 @@
+         }
+     }
+     _repeatedScripts.clear();
++    cosmos2log::writer.reset(); // Flush before global logging services are torn down.
+ }
+ 
+ void ScriptEngine::initializeLuaState(lua_State* state) {
+@@ -443,42 +449,36 @@
+ }
+ 
+ void ScriptEngine::writeLog(const std::string& script) {
+-    cosmos2trace::Scope c2LogScope(21, "script_log_open_write_close");
+-    ZoneScoped;
+-
+-    // Check that logging is enabled and initialize if necessary
+-    if (!_logFileExists) {
+-        // If a ScriptLogFile was specified, generate it now
+-        if (!global::configuration->scriptLog.empty()) {
+-            _logFilename = absPath(global::configuration->scriptLog);
+-            _logFileExists = true;
+-
+-            LDEBUG(std::format("Using script log file '{}'", _logFilename));
+-
+-            // Test file and clear previous input
+-            std::ofstream file(_logFilename, std::ofstream::out | std::ofstream::trunc);
+-
+-            if (!file.good()) {
+-                LERROR(std::format(
+-                    "Could not open file '{}' for logging scripts", _logFilename
+-                ));
+-                return;
+-            }
+-        }
+-        else {
++    cosmos2trace::Scope c2LogScope(21, "script_log_submit");
++    ZoneScoped;
++    if (!_logFileExists || !cosmos2log::writer) {
++        if (global::configuration->scriptLog.empty()) {
+             _logScripts = false;
+             return;
+         }
+-    }
+-
+-    // Simple text output to logfile
+-    std::ofstream file(_logFilename, std::ofstream::app);
+-    if (!file.good()) {
+-        LERROR(std::format("Could not open file '{}' for logging scripts", _logFilename));
+-        return;
+-    }
+-
+-    file << script << '\n';
++        const bool truncate = !_logFileExists;
++        if (!_logFileExists) { _logFilename = absPath(global::configuration->scriptLog); }
++        const std::filesystem::path path = _logFilename;
++        auto stream = std::make_shared<std::ofstream>();
++        cosmos2log::writer = std::make_unique<cosmos2log::AsyncScriptLog>(
++            [path, stream, truncate](const std::optional<std::string>& line) {
++                if (!line) {
++                    if (stream->is_open()) { stream->flush(); stream->close(); }
++                    return;
++                }
++                if (!stream->is_open()) {
++                    stream->exceptions(std::ios::badbit | std::ios::failbit);
++                    stream->open(path, std::ofstream::out | (truncate ? std::ofstream::trunc : std::ofstream::app));
++                }
++                *stream << *line << '\n';
++                stream->flush();
++            },
++            [](const std::string& message) { LERROR(message); }
++        );
++        _logFileExists = true;
++        LDEBUG(std::format("Using asynchronous script log file '{}'", _logFilename));
++    }
++    cosmos2log::writer->submit(script);
+ }
+ 
+ void ScriptEngine::preSync(bool isMaster) {
+--- a/include/openspace/scripting/scriptengine.h
++++ b/include/openspace/scripting/scriptengine.h
+@@ -88,6 +88,7 @@
+     static constexpr std::string_view OpenSpaceLibraryName = "openspace";
+ 
+     explicit ScriptEngine(bool sandboxedLua = true);
++    ~ScriptEngine() override;
+ 
+     /**
+      * Initializes the internal Lua state and registers a common set of library functions.
+--- a/src/engine/openspaceengine.cpp
++++ b/src/engine/openspaceengine.cpp
+@@ -24,6 +24,7 @@
+ 
+ #include <openspace/engine/openspaceengine.h>
+ #include <openspace/engine/cosmos2stagetrace.h>
++#include <openspace/scripting/asyncscriptlog.h>
+ 
+ #include <openspace/openspace.h>
+ #include <openspace/camera/camera.h>
+@@ -1820,6 +1821,7 @@
+             codegen::lua::Cosmos2MemoryMetrics,
+             codegen::lua::Cosmos2BeginStageTrace,
+             codegen::lua::Cosmos2EndStageTrace,
++            codegen::lua::Cosmos2ScriptLogStatus,
+             codegen::lua::WriteDocumentation,
+             codegen::lua::SetScreenshotFolder,
+             codegen::lua::AddTag,
+--- a/src/engine/openspaceengine_lua.inl
++++ b/src/engine/openspaceengine_lua.inl
+@@ -135,6 +135,21 @@
+     return result;
+ }
+ 
++/** Observes bounded script logging; accepted entries are drained on shutdown. */
++[[codegen::luawrap]] ghoul::Dictionary cosmos2ScriptLogStatus() {
++    ghoul::Dictionary result;
++    result.setValue("initialized", openspace::cosmos2log::writer != nullptr);
++    if (openspace::cosmos2log::writer) {
++        const auto s = openspace::cosmos2log::writer->status();
++        result.setValue("accepted", static_cast<double>(s.accepted));
++        result.setValue("written", static_cast<double>(s.written));
++        result.setValue("dropped", static_cast<double>(s.dropped));
++        result.setValue("queued_bytes", static_cast<double>(s.queuedBytes));
++        result.setValue("failed", s.failed); result.setValue("worker_max_write_ms", s.maximumWriteMs);
++    }
++    return result;
++}
++
+ /** Windows process memory and per-adapter DXGI budget; never substitutes nominal VRAM. */
+ [[codegen::luawrap]] ghoul::Dictionary cosmos2MemoryMetrics() {
+     ghoul::Dictionary result;
+--- /dev/null
++++ b/include/openspace/scripting/asyncscriptlog.h
+@@ -0,0 +1,99 @@
++// Cosmos2 bounded asynchronous script logging. The sink is called only by its worker.
++#ifndef COSMOS2_ASYNC_SCRIPT_LOG_H
++#define COSMOS2_ASYNC_SCRIPT_LOG_H
++#include <atomic>
++#include <chrono>
++#include <condition_variable>
++#include <cstdint>
++#include <deque>
++#include <functional>
++#include <memory>
++#include <mutex>
++#include <optional>
++#include <stdexcept>
++#include <string>
++#include <thread>
++namespace openspace::cosmos2log {
++class AsyncScriptLog {
++public:
++    using Sink = std::function<void(const std::optional<std::string>&)>;
++    using Error = std::function<void(const std::string&)>;
++    struct Status {
++        std::uint64_t accepted, written, dropped; std::size_t queuedBytes;
++        bool failed; double maximumWriteMs;
++    };
++    AsyncScriptLog(Sink sink, Error error, std::size_t capacity = 8 * 1024 * 1024)
++        : _sink(std::move(sink)), _error(std::move(error)), _capacity(capacity)
++    {
++        if (!_capacity) { throw std::invalid_argument("Script log capacity is zero"); }
++        _worker = std::thread([this]() { run(); });
++    }
++    ~AsyncScriptLog() {
++        { std::lock_guard lock(_mutex); _stopping = true; }
++        _ready.notify_one(); if (_worker.joinable()) { _worker.join(); }
++    }
++    bool submit(const std::string& line) {
++        std::lock_guard lock(_mutex);
++        if (_stopping || _failed || _queue.size() >= 1024 || line.size() > _capacity ||
++            _bytes > _capacity - line.size())
++        {
++            ++_dropped; _ready.notify_one(); return false;
++        }
++        _queue.push_back(line); _bytes += line.size(); ++_accepted;
++        _ready.notify_one(); return true;
++    }
++    Status status() const {
++        std::lock_guard lock(_mutex);
++        return {_accepted, _written, _dropped, _bytes, _failed, _maximumWriteMs};
++    }
++private:
++    void report(const std::string& message) noexcept {
++        try { if (_error) { _error(message); } } catch (...) {}
++    }
++    void run() noexcept {
++        std::uint64_t reportedDrops = 0;
++        try {
++            for (;;) {
++                std::string line; bool haveLine = false; std::uint64_t drops = 0;
++                {
++                    std::unique_lock lock(_mutex);
++                    _ready.wait(lock, [&]() { return _stopping || !_queue.empty() || _dropped != reportedDrops; });
++                    drops = _dropped;
++                    if (!_queue.empty()) {
++                        line = std::move(_queue.front()); _queue.pop_front();
++                        _bytes -= line.size(); haveLine = true;
++                    }
++                    else if (_stopping) { break; }
++                }
++                if (drops != reportedDrops) {
++                    report("Script log incomplete: " + std::to_string(drops) + " entries omitted by bounded queue");
++                    reportedDrops = drops;
++                }
++                if (!haveLine) { continue; }
++                const auto start = std::chrono::steady_clock::now();
++                _sink(std::move(line));
++                const double ms = std::chrono::duration<double, std::milli>(std::chrono::steady_clock::now() - start).count();
++                { std::lock_guard lock(_mutex); ++_written; if (ms > _maximumWriteMs) { _maximumWriteMs = ms; } }
++            }
++        }
++        catch (const std::exception& e) {
++            { std::lock_guard lock(_mutex); _failed = true; _dropped += _queue.size() + 1; _queue.clear(); _bytes = 0; }
++            report(std::string("Script log I/O failed: ") + e.what());
++        }
++        catch (...) {
++            { std::lock_guard lock(_mutex); _failed = true; _dropped += _queue.size() + 1; _queue.clear(); _bytes = 0; }
++            report("Script log I/O failed with an unknown error");
++        }
++        try { _sink(std::nullopt); }
++        catch (...) { { std::lock_guard lock(_mutex); _failed = true; } report("Script log close/flush failed"); }
++    }
++    Sink _sink; Error _error; const std::size_t _capacity;
++    mutable std::mutex _mutex; std::condition_variable _ready;
++    std::deque<std::string> _queue; std::size_t _bytes = 0;
++    std::uint64_t _accepted = 0, _written = 0, _dropped = 0;
++    bool _stopping = false, _failed = false; double _maximumWriteMs = 0.;
++    std::thread _worker;
++};
++inline std::unique_ptr<AsyncScriptLog> writer;
++}
++#endif

@@ -1,0 +1,240 @@
+{
+  "schema": 1,
+  "version": "1.0.0",
+  "frame": "user_defined_initial_origin_inertial",
+  "units": "canonical G=1; SI binding in canonical-units.json",
+  "source_kind": "local_curated_model_initial_conditions",
+  "concept_reference": "https://arxiv.org/abs/astro-ph/9604015",
+  "models": [
+    {
+      "id": "flyby",
+      "label": "Encontro hiperbólico",
+      "goal": "Compare a aproximação e o afastamento de duas massas livres. A energia positiva do par impede captura conservativa de dois corpos.",
+      "horizon_model_time": 20,
+      "initial": [
+        {
+          "name": "Massa A",
+          "mass": 8.000000000000002e-07,
+          "position": [
+            0.0010127742652761087,
+            0.007446772056961275,
+            0.0023035565397981402
+          ],
+          "velocity": [
+            -0.0011228392904446838,
+            -0.0015913570997330337,
+            -0.0004922644370210638
+          ]
+        },
+        {
+          "name": "Massa B",
+          "mass": 2.0000000000000004e-07,
+          "position": [
+            -0.004051097061104435,
+            -0.029787088227845097,
+            -0.009214226159192561
+          ],
+          "velocity": [
+            0.004491357161778734,
+            0.006365428398932134,
+            0.001969057748084255
+          ]
+        }
+      ],
+      "initial_conditions_sha256": "3426c3670715df15d976218122880f44ab231d99f381d77588cc5720f09f8bf1",
+      "expected_pair_indices": null,
+      "expected_escaper_index": null,
+      "display_marker_radius_m": 300000.0,
+      "display_min_view_distance_m": 3000000.0,
+      "verification_times_model": [
+        13.333333333333334,
+        20
+      ],
+      "construction": {
+        "kind": "local_curated_newtonian_point_mass_model",
+        "base_parameters": {
+          "a": -2,
+          "eccentricity": 1.6,
+          "true_anomaly": -1.7,
+          "inclination": 0.3
+        },
+        "similarity_scaling": {
+          "length": 0.01,
+          "mass": 1.0000000000000002e-06,
+          "velocity": 0.01,
+          "time": 1.0
+        },
+        "observational_source": null
+      },
+      "limitations": [
+        "Condições de modelo, sem corpos observados.",
+        "Gravidade pontual newtoniana, sem colisões, marés, J2 ou GR.",
+        "Captura/escape verificados em intervalo finito, sem garantia eterna."
+      ]
+    },
+    {
+      "id": "capture",
+      "label": "Captura por troca",
+      "goal": "Um visitante inicialmente livre troca energia com um binário. Observe a captura do visitante e a saída de um membro antigo.",
+      "horizon_model_time": 120,
+      "initial": [
+        {
+          "name": "Massa A",
+          "mass": 8.000000000000002e-07,
+          "position": [
+            0.03282777703087147,
+            -0.0033690942118573776,
+            0.0
+          ],
+          "velocity": [
+            -0.00034519150242833695,
+            -0.0014579372548428231,
+            0.0
+          ]
+        },
+        {
+          "name": "Companheiro B",
+          "mass": 2.0000000000000004e-07,
+          "position": [
+            0.04011746330508559,
+            0.00347637684742951,
+            0.0
+          ],
+          "velocity": [
+            -0.007190662561715224,
+            0.0058317490193712926,
+            0.0
+          ]
+        },
+        {
+          "name": "Visitante C",
+          "mass": 4.000000000000001e-07,
+          "position": [
+            -0.08571428571428572,
+            0.005,
+            0.0
+          ],
+          "velocity": [
+            0.004285714285714286,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "initial_conditions_sha256": "0e1c2dd88bbfe7a024b915f4d048b9ebf622a4077bb6c0d0104d929295bffe23",
+      "expected_pair_indices": [
+        0,
+        2
+      ],
+      "expected_escaper_index": 1,
+      "display_marker_radius_m": 300000.0,
+      "display_min_view_distance_m": 3000000.0,
+      "verification_times_model": [
+        80.0,
+        120
+      ],
+      "construction": {
+        "kind": "local_curated_newtonian_point_mass_model",
+        "base_parameters": {
+          "phase_rad": 0.7539822368615503,
+          "impact_canonical": 0.7,
+          "incoming_speed_canonical": 0.6
+        },
+        "similarity_scaling": {
+          "length": 0.01,
+          "mass": 1.0000000000000002e-06,
+          "velocity": 0.01,
+          "time": 1.0
+        },
+        "observational_source": null
+      },
+      "limitations": [
+        "Condições de modelo, sem corpos observados.",
+        "Gravidade pontual newtoniana, sem colisões, marés, J2 ou GR.",
+        "Captura/escape verificados em intervalo finito, sem garantia eterna."
+      ]
+    },
+    {
+      "id": "ejection",
+      "label": "Ejeção de uma tripla",
+      "goal": "Um terceiro corpo inicialmente ligado ao conjunto ganha energia e se afasta, enquanto o binário fica mais ligado.",
+      "horizon_model_time": 120,
+      "initial": [
+        {
+          "name": "Massa A",
+          "mass": 8.000000000000002e-07,
+          "position": [
+            0.03466047691488574,
+            0.0011074316443145204,
+            0.0
+          ],
+          "velocity": [
+            -0.0026788602157430917,
+            0.00037476262917144926,
+            0.0
+          ]
+        },
+        {
+          "name": "Companheiro B",
+          "mass": 2.0000000000000004e-07,
+          "position": [
+            0.032786663769028494,
+            -0.008715440862972369,
+            0.0
+          ],
+          "velocity": [
+            0.007144012291543797,
+            -0.001499050516685797,
+            0.0
+          ]
+        },
+        {
+          "name": "Terceiro C",
+          "mass": 4.000000000000001e-07,
+          "position": [
+            -0.08571428571428572,
+            0.002142857142857143,
+            0.0
+          ],
+          "velocity": [
+            0.0017857142857142854,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "initial_conditions_sha256": "b50fe3a50d60035ba23da5933fd552f2a3b66b35a3cc618699cf0c828c02a787",
+      "expected_pair_indices": [
+        0,
+        1
+      ],
+      "expected_escaper_index": 2,
+      "display_marker_radius_m": 300000.0,
+      "display_min_view_distance_m": 3000000.0,
+      "verification_times_model": [
+        80.0,
+        120
+      ],
+      "construction": {
+        "kind": "local_curated_newtonian_point_mass_model",
+        "base_parameters": {
+          "phase_rad": 4.523893421169302,
+          "impact_canonical": 0.3,
+          "incoming_speed_canonical": 0.25
+        },
+        "similarity_scaling": {
+          "length": 0.01,
+          "mass": 1.0000000000000002e-06,
+          "velocity": 0.01,
+          "time": 1.0
+        },
+        "observational_source": null
+      },
+      "limitations": [
+        "Condições de modelo, sem corpos observados.",
+        "Gravidade pontual newtoniana, sem colisões, marés, J2 ou GR.",
+        "Captura/escape verificados em intervalo finito, sem garantia eterna."
+      ]
+    }
+  ]
+}

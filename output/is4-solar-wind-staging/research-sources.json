@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "retrieved_utc": "2026-10-26T00:30:09.604813+00:00",
+  "files": [
+    {
+      "path": "Dalla-et-al-2013-Parker-spiral.pdf",
+      "bytes": 356671,
+      "sha256": "66f44875c5195c4e6b4aca887ea2976fc1e81003661af52ca4e363719333328d",
+      "url": "https://www.star.uclan.ac.uk/~sdalla/DallaetalJGR2013.pdf",
+      "doi": "10.1002/jgra.50589",
+      "role": "Author copy of primary paper, section2.1 equations1–6 and section2.2; Gaussian units."
+    }
+  ],
+  "context": [
+    {
+      "url": "https://www.spaceweather.gov/phenomena/solar-wind",
+      "role": "NOAA context only; no live observations imported."
+    }
+  ]
+}

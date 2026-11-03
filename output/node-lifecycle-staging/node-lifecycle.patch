@@ -1,0 +1,122 @@
+--- before/include/openspace/scene/sceneinitializer.h
++++ node-lifecycle/include/openspace/scene/sceneinitializer.h
+@@ -45,6 +45,8 @@
+     explicit SceneInitializer(unsigned int nThreads = 0);
+ 
+     void initializeNode(SceneGraphNode* node);
++    // Join this node's CPU work and erase its pending GL reference before deletion.
++    void cancelInitialization(SceneGraphNode* node);
+     std::vector<SceneGraphNode*> takeInitializedNodes();
+     bool isInitializing() const;
+ 
+--- before/src/scene/sceneinitializer.cpp
++++ node-lifecycle/src/scene/sceneinitializer.cpp
+@@ -31,6 +31,7 @@
+ #include <ghoul/logging/logmanager.h>
+ #include <ghoul/misc/exception.h>
+ #include <ghoul/misc/profiling.h>
++#include <algorithm>
+ #include <chrono>
+ #include <thread>
+ #include <utility>
+@@ -110,6 +111,21 @@
+     }
+ }
+ 
++void SceneInitializer::cancelInitialization(SceneGraphNode* node) {
++    // The worker holds _mutex through its final LoadingScreen access, so once
++    // the node leaves this set and we acquire the lock it is safe to destroy.
++    for (;;) {
++        {
++            const std::unique_lock lock(_mutex);
++            if (!_initializingNodes.contains(node)) {
++                std::erase(_initializedNodes, node);
++                return;
++            }
++        }
++        std::this_thread::sleep_for(std::chrono::milliseconds(1));
++    }
++}
++
+ std::vector<SceneGraphNode*> SceneInitializer::takeInitializedNodes() {
+     // Some of the scene graph nodes might still be in the initialization queue and we
+     // should wait for those to finish or we end up in some half-initialized state since
+--- before/src/scene/scene.cpp
++++ node-lifecycle/src/scene/scene.cpp
+@@ -343,7 +343,9 @@
+ }
+ 
+ ghoul::mm_unique_ptr<SceneGraphNode> Scene::detachNode(SceneGraphNode& node) {
+-    return _rootNode.detachChild(node);
++    _initializer->cancelInitialization(&node);
++    ghoul_assert(node.parent(), "Cannot detach the root node");
++    return node.parent()->detachChild(node);
+ }
+ 
+ Camera* Scene::camera() const {
+--- before/src/scene/scene_lua.inl
++++ node-lifecycle/src/scene/scene_lua.inl
+@@ -908,9 +908,8 @@
+ 
+         std::vector<SceneGraphNode*> children = localNode->children();
+ 
+-        ghoul::mm_unique_ptr<SceneGraphNode> n = localNode->parent()->detachChild(
+-            *localNode
+-        );
++        ghoul::mm_unique_ptr<SceneGraphNode> n =
++            global::renderEngine->scene()->detachNode(*localNode);
+         ghoul_assert(n.get() == localNode, "Wrong node returned from detaching");
+ 
+         for (SceneGraphNode* c : children) {
+@@ -1011,9 +1010,8 @@
+ 
+         std::vector<SceneGraphNode*> children = localNode->children();
+ 
+-        ghoul::mm_unique_ptr<SceneGraphNode> n = localNode->parent()->detachChild(
+-            *localNode
+-        );
++        ghoul::mm_unique_ptr<SceneGraphNode> n =
++            global::renderEngine->scene()->detachNode(*localNode);
+         ghoul_assert(n.get() == localNode, "Wrong node returned from detaching");
+ 
+         for (SceneGraphNode* c : children) {
+--- before/src/scene/scenegraphnode.cpp
++++ node-lifecycle/src/scene/scenegraphnode.cpp
+@@ -762,6 +762,10 @@
+ }
+ 
+ void SceneGraphNode::deinitializeGL() {
++    // A cancelled CPU initializer may never have allocated any GL resources.
++    if (_state.load() != State::GLInitialized) {
++        return;
++    }
+     ZoneScoped;
+     ZoneName(identifier().c_str(), identifier().size());
+ 
+--- before/src/engine/openspaceengine_lua.inl
++++ node-lifecycle/src/engine/openspaceengine_lua.inl
+@@ -56,6 +56,14 @@
+ };
+ Cosmos2FrameCapture cosmos2FrameCapture;
+ 
++/** CPU initialization status for bounded scene-readiness checks in this candidate. */
++[[codegen::luawrap]] ghoul::Dictionary cosmos2SceneInitialization() {
++    ghoul::Dictionary result;
++    result.setValue("cpu_initializing", global::renderEngine->scene()->isInitializing());
++    result.setValue("policy", std::string("CPU work only; observe later rendered frames for GL readiness"));
++    return result;
++}
++
+ /** Starts a bounded capture of actual SGCT frame intervals, including VSync. */
+ [[codegen::luawrap]] void cosmos2BeginFrameCapture(int maximum = 12000) {
+     if (maximum < 1 || maximum > 120000) {
+--- before/src/engine/openspaceengine.cpp
++++ node-lifecycle/src/engine/openspaceengine.cpp
+@@ -1819,6 +1819,7 @@
+             codegen::lua::Cosmos2BeginFrameCapture,
+             codegen::lua::Cosmos2EndFrameCapture,
+             codegen::lua::Cosmos2MemoryMetrics,
++            codegen::lua::Cosmos2SceneInitialization,
+             codegen::lua::Cosmos2BeginStageTrace,
+             codegen::lua::Cosmos2EndStageTrace,
+             codegen::lua::Cosmos2ScriptLogStatus,

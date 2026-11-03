@@ -1,0 +1,420 @@
+{
+  "schema": 1,
+  "pynucastro": "3.1.0",
+  "rates": {
+    "dt": {
+      "query": "t(d,n)he4",
+      "fname": "t_d_to_n_He4_reaclib",
+      "reactants": [
+        "d",
+        "t"
+      ],
+      "products": [
+        "n",
+        "he4"
+      ],
+      "Q_MeV": 17.589,
+      "prefactor": 1.0,
+      "label": "de04",
+      "source": {
+        "Label": "de04",
+        "Author": "Descouvemont, P",
+        "Title": "Compilation and R-matrix analysis of Big Bang nuclear reaction rates",
+        "Publisher": "ADNDT 88, 203",
+        "Year": "2004",
+        "URL": "https://doi.org/10.1016/j.adt.2004.08.001"
+      },
+      "sets": [
+        [
+          39.3457,
+          0.0,
+          -4.5244,
+          -16.4028,
+          1.73103,
+          -0.122966,
+          2.31304
+        ],
+        [
+          25.1794,
+          0.0,
+          -4.5244,
+          0.350337,
+          0.58747,
+          -8.84909,
+          -0.666667
+        ]
+      ],
+      "units": "cm^3 mol^-1 s^-1",
+      "raw_file": "fusion-dt-reaclib.txt",
+      "sha256": "d0dbc02a2f455b43596c797fa713d0f5165b043e1d0c89e598b359e8450afad8",
+      "reference_rates": {
+        "10000000.0": 1584.9852390623041,
+        "30000000.0": 580698.7565535037,
+        "100000000.0": 44459543.57853307,
+        "300000000.0": 349321526.7128471,
+        "1000000000.0": 498568220.8258025
+      }
+    },
+    "ddn": {
+      "query": "d(d,n)he3",
+      "fname": "d_d_to_n_He3_reaclib",
+      "reactants": [
+        "d",
+        "d"
+      ],
+      "products": [
+        "n",
+        "he3"
+      ],
+      "Q_MeV": 3.2689,
+      "prefactor": 0.5,
+      "label": "gi17n",
+      "source": {
+        "Label": "gi17",
+        "Author": "A. Gomez Inesta, C. Iliadis, A. Coc",
+        "Title": "Bayesian Estimation of Thermonuclear Reaction Rates for Deuterium+Deuterium Reactions",
+        "Publisher": "APJ 849 (2017) 134",
+        "Year": "2017",
+        "URL": "https://doi.org/10.3847/1538-4357/aa9025"
+      },
+      "sets": [
+        [
+          19.0876,
+          -0.00019002,
+          -4.2292,
+          1.6932,
+          -0.0855529,
+          -1.35709e-25,
+          -0.734513
+        ]
+      ],
+      "units": "cm^3 mol^-1 s^-1",
+      "raw_file": "fusion-ddn-reaclib.txt",
+      "sha256": "87c3d546358065ebfcce055fd497a9d9aa92d5b965e8f9cbc0305fa3cdfdd69f",
+      "reference_rates": {
+        "10000000.0": 24.16441814098265,
+        "30000000.0": 5269.035971335959,
+        "100000000.0": 253419.58294246398,
+        "300000000.0": 2575444.3134896206,
+        "1000000000.0": 14158944.181550035
+      }
+    },
+    "ddp": {
+      "query": "d(d,p)t",
+      "fname": "d_d_to_p_t_reaclib",
+      "reactants": [
+        "d",
+        "d"
+      ],
+      "products": [
+        "p",
+        "t"
+      ],
+      "Q_MeV": 4.03266,
+      "prefactor": 0.5,
+      "label": "go17n",
+      "source": {
+        "Label": "go17",
+        "Author": "A. Gomez Inesta, C. Iliadis, A. Coc",
+        "Title": "Bayesian Estimation of Thermonuclear Reaction Rates for Deuterium+Deuterium Reactions",
+        "Publisher": "APJ 849 (2017) 134",
+        "Year": "2017",
+        "URL": "https://doi.org/10.3847/1538-4357/aa9025"
+      },
+      "sets": [
+        [
+          18.8052,
+          4.36209e-05,
+          -4.32296,
+          1.91572,
+          -0.081562,
+          -3.28804e-22,
+          -0.879518
+        ]
+      ],
+      "units": "cm^3 mol^-1 s^-1",
+      "raw_file": "fusion-ddp-reaclib.txt",
+      "sha256": "71142119dc6aa04d425882071aee82d5ab1015c2f0eaf567bf0c5162f79b4d39",
+      "reference_rates": {
+        "10000000.0": 24.690116946113115,
+        "30000000.0": 5276.263227679722,
+        "100000000.0": 242391.26892264557,
+        "300000000.0": 2337503.78482693,
+        "1000000000.0": 12193841.911303284
+      }
+    },
+    "dp": {
+      "query": "d(p,g)he3",
+      "fname": "d_p_to_He3_reaclib",
+      "reactants": [
+        "p",
+        "d"
+      ],
+      "products": [
+        "he3"
+      ],
+      "Q_MeV": 5.493,
+      "prefactor": 1.0,
+      "label": "de04",
+      "source": {
+        "Label": "de04",
+        "Author": "Descouvemont, P",
+        "Title": "Compilation and R-matrix analysis of Big Bang nuclear reaction rates",
+        "Publisher": "ADNDT 88, 203",
+        "Year": "2004",
+        "URL": "https://doi.org/10.1016/j.adt.2004.08.001"
+      },
+      "sets": [
+        [
+          8.93525,
+          0.0,
+          -3.7208,
+          0.198654,
+          0.0,
+          0.0,
+          0.333333
+        ],
+        [
+          7.52898,
+          0.0,
+          -3.7208,
+          0.871782,
+          0.0,
+          0.0,
+          -0.666667
+        ]
+      ],
+      "units": "cm^3 mol^-1 s^-1",
+      "raw_file": "fusion-dp-reaclib.txt",
+      "sha256": "de8914f7c69bc8f497218f4ec10d3994f37e4bfa4b64eb711e57820e52d45d69",
+      "reference_rates": {
+        "10000000.0": 0.0015823891892407062,
+        "30000000.0": 0.17510226725239625,
+        "100000000.0": 5.549597098210844,
+        "300000000.0": 51.0991718332202,
+        "1000000000.0": 332.09279595529506
+      }
+    },
+    "he3he3": {
+      "query": "he3(he3,pp)he4",
+      "fname": "He3_He3_to_p_p_He4_reaclib",
+      "reactants": [
+        "he3",
+        "he3"
+      ],
+      "products": [
+        "p",
+        "p",
+        "he4"
+      ],
+      "Q_MeV": 12.859,
+      "prefactor": 0.5,
+      "label": "nacrn",
+      "source": {
+        "Label": "nacr",
+        "Author": "Angulo C.",
+        "Title": "A compilation of charged-particle induced thermonuclear reaction rates",
+        "Publisher": "Nuclear Physics, A656, 3-183",
+        "Year": "1999",
+        "URL": "https://doi.org/10.1016/S0375-9474(99)00030-5"
+      },
+      "sets": [
+        [
+          24.7788,
+          0.0,
+          -12.277,
+          -0.103699,
+          -0.0649967,
+          0.0168191,
+          -0.666667
+        ]
+      ],
+      "units": "cm^3 mol^-1 s^-1",
+      "raw_file": "fusion-he3he3-reaclib.txt",
+      "sha256": "5ad0b4435fb8602aa5c97e756e788b5d63032368dbfe8d5ba1e2d5ac6d634100",
+      "reference_rates": {
+        "10000000.0": 2.1700531459705926e-13,
+        "30000000.0": 4.002223974788885e-06,
+        "100000000.0": 0.8266223664895367,
+        "300000000.0": 1280.9913782551018,
+        "1000000000.0": 230942.35201905674
+      }
+    },
+    "li7p": {
+      "query": "li7(p,a)he4",
+      "fname": "Li7_p_to_He4_He4_reaclib",
+      "reactants": [
+        "p",
+        "li7"
+      ],
+      "products": [
+        "he4",
+        "he4"
+      ],
+      "Q_MeV": 17.347,
+      "prefactor": 1.0,
+      "label": "de04c",
+      "source": {
+        "Label": "de04",
+        "Author": "Descouvemont, P",
+        "Title": "Compilation and R-matrix analysis of Big Bang nuclear reaction rates",
+        "Publisher": "ADNDT 88, 203",
+        "Year": "2004",
+        "URL": "https://doi.org/10.1016/j.adt.2004.08.001"
+      },
+      "sets": [
+        [
+          21.8999,
+          -26.1527,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.5
+        ],
+        [
+          20.4438,
+          0.0,
+          -8.4727,
+          0.297934,
+          0.0582335,
+          -0.00413383,
+          -0.666667
+        ],
+        [
+          14.2538,
+          -4.478,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.5
+        ],
+        [
+          11.9576,
+          0.0,
+          -8.4727,
+          0.417943,
+          5.34565,
+          -4.8684,
+          -0.666667
+        ]
+      ],
+      "units": "cm^3 mol^-1 s^-1",
+      "raw_file": "fusion-li7p-reaclib.txt",
+      "sha256": "2ecb11b32cb486b0590a1b6aa974ac16f1736335bcfd9913f6b78d6348d10894",
+      "reference_rates": {
+        "10000000.0": 1.4480414931641703e-07,
+        "30000000.0": 0.012380790721982815,
+        "100000000.0": 47.91051097764082,
+        "300000000.0": 6682.917209380226,
+        "1000000000.0": 242520.03239928032
+      }
+    },
+    "c12alpha": {
+      "query": "c12(a,g)o16",
+      "fname": "C12_He4_to_O16_reaclib",
+      "reactants": [
+        "he4",
+        "c12"
+      ],
+      "products": [
+        "o16"
+      ],
+      "Q_MeV": 7.16192,
+      "prefactor": 1.0,
+      "label": "nac2",
+      "source": {
+        "Label": "nac2",
+        "Author": "Xu, Y. et al.",
+        "Title": "NACRE2",
+        "Publisher": "Nucl. Phys. A 918, P. 61",
+        "Year": "2013",
+        "URL": "https://doi.org/10.1016/j.nuclphysa.2013.09.007"
+      },
+      "sets": [
+        [
+          254.634,
+          -1.84097,
+          103.411,
+          -420.567,
+          64.0874,
+          -12.4624,
+          137.303
+        ],
+        [
+          69.6526,
+          -1.39254,
+          58.9128,
+          -148.273,
+          9.08324,
+          -0.541041,
+          70.3554
+        ]
+      ],
+      "units": "cm^3 mol^-1 s^-1",
+      "raw_file": "fusion-c12alpha-reaclib.txt",
+      "sha256": "6b1b37047cd65ba4c5aff075c08d1e3a356034ab99314efd8247548e616a0715",
+      "reference_rates": {
+        "10000000.0": 9.663318877952765e-67,
+        "30000000.0": 2.5314256073687075e-35,
+        "100000000.0": 1.1524978644858443e-20,
+        "300000000.0": 4.1982440779961944e-12,
+        "1000000000.0": 6.4543097398453576e-06
+      }
+    }
+  },
+  "nuclides": {
+    "d": {
+      "A": 2,
+      "Z": 1,
+      "ame2020_id": "nucleus:ame2020:1:2"
+    },
+    "t": {
+      "A": 3,
+      "Z": 1,
+      "ame2020_id": "nucleus:ame2020:1:3"
+    },
+    "n": {
+      "A": 1,
+      "Z": 0,
+      "ame2020_id": "nucleus:ame2020:0:1"
+    },
+    "he4": {
+      "A": 4,
+      "Z": 2,
+      "ame2020_id": "nucleus:ame2020:2:4"
+    },
+    "he3": {
+      "A": 3,
+      "Z": 2,
+      "ame2020_id": "nucleus:ame2020:2:3"
+    },
+    "p": {
+      "A": 1,
+      "Z": 1,
+      "ame2020_id": "nucleus:ame2020:1:1"
+    },
+    "li7": {
+      "A": 7,
+      "Z": 3,
+      "ame2020_id": "nucleus:ame2020:3:7"
+    },
+    "c12": {
+      "A": 12,
+      "Z": 6,
+      "ame2020_id": "nucleus:ame2020:6:12"
+    },
+    "o16": {
+      "A": 16,
+      "Z": 8,
+      "ame2020_id": "nucleus:ame2020:8:16"
+    }
+  },
+  "domain": "10-1000MK; forward isolated mixtures; fixed T/volume; no screening, reverse or secondary reactions, confinement, thermal feedback or deposition model",
+  "uncertainties": "Fit uncertainties not in this extraction; unknown, not zero.",
+  "sources": [
+    "https://reaclib.jinaweb.org/",
+    "https://pynucastro.github.io/pynucastro/_modules/pynucastro/rates/rate.html"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "pynucastro": "3.1.0",
+  "rate": {
+    "reaction": "D + T -> He4 + n",
+    "source": {
+      "Label": "de04",
+      "Author": "Descouvemont, P",
+      "Title": "Compilation and R-matrix analysis of Big Bang nuclear reaction rates",
+      "Publisher": "ADNDT 88, 203",
+      "Year": "2004",
+      "URL": "https://doi.org/10.1016/j.adt.2004.08.001"
+    },
+    "label": "de04  ",
+    "Q_MeV": 17.589,
+    "sets": [
+      [
+        39.3457,
+        0.0,
+        -4.5244,
+        -16.4028,
+        1.73103,
+        -0.122966,
+        2.31304
+      ],
+      [
+        25.1794,
+        0.0,
+        -4.5244,
+        0.350337,
+        0.58747,
+        -8.84909,
+        -0.666667
+      ]
+    ],
+    "raw_file": "dt-reaclib.txt",
+    "sha256": "d0dbc02a2f455b43596c797fa713d0f5165b043e1d0c89e598b359e8450afad8",
+    "units": "cm^3 mol^-1 s^-1",
+    "url": "https://reaclib.jinaweb.org/index.php"
+  },
+  "nuclides": {
+    "n": {
+      "A": 1,
+      "Z": 0,
+      "half_life_s": 609.8,
+      "binding_MeV_per_nucleon": 0.0,
+      "atomic_mass_MeV": 939.56542052
+    },
+    "p": {
+      "A": 1,
+      "Z": 1,
+      "half_life_s": "stable",
+      "binding_MeV_per_nucleon": 0.0,
+      "atomic_mass_MeV": 938.7830734839999
+    },
+    "d": {
+      "A": 2,
+      "Z": 1,
+      "half_life_s": "stable",
+      "binding_MeV_per_nucleon": 1.1122831344998758,
+      "atomic_mass_MeV": 1876.123927735
+    },
+    "t": {
+      "A": 3,
+      "Z": 1,
+      "half_life_s": 388781328.32,
+      "binding_MeV_per_nucleon": 2.827265454666455,
+      "atomic_mass_MeV": 2809.4321181600003
+    },
+    "he3": {
+      "A": 3,
+      "Z": 2,
+      "half_life_s": "stable",
+      "binding_MeV_per_nucleon": 2.572680449333196,
+      "atomic_mass_MeV": 2809.41352614
+    },
+    "he4": {
+      "A": 4,
+      "Z": 2,
+      "half_life_s": "stable",
+      "binding_MeV_per_nucleon": 7.073915614499924,
+      "atomic_mass_MeV": 3728.40132555
+    },
+    "c14": {
+      "A": 14,
+      "Z": 6,
+      "half_life_s": 179874478200.0,
+      "binding_MeV_per_nucleon": 7.520319870285675,
+      "atomic_mass_MeV": 13043.937326880001
+    },
+    "n14": {
+      "A": 14,
+      "Z": 7,
+      "half_life_s": "stable",
+      "binding_MeV_per_nucleon": 7.475614810571252,
+      "atomic_mass_MeV": 13043.780850680001
+    },
+    "be7": {
+      "A": 7,
+      "Z": 4,
+      "half_life_s": 4598208.0,
+      "binding_MeV_per_nucleon": 5.371548365142838,
+      "atomic_mass_MeV": 6536.22771694
+    },
+    "li7": {
+      "A": 7,
+      "Z": 3,
+      "half_life_s": "stable",
+      "binding_MeV_per_nucleon": 5.606440084571399,
+      "atomic_mass_MeV": 6535.36582194
+    }
+  },
+  "evaluations": {
+    "name": "AME2020 / NUBASE2020 via pynucastro",
+    "url": "https://www-nds.iaea.org/amdc/",
+    "half_life_table_sha256": "87577e0f17f80048f8ebcb96357f99e5856f029471915cb224ebbfbe5d2e8744",
+    "mass_table_sha256": "2f202b6407b9c47bcf390445c663d783280fb4636d44891ad8f902fe91f68959",
+    "uncertainties": "This extracted table does not carry uncertainties; do not report them as zero."
+  },
+  "reference_rates": {
+    "10000000.0": 1584.9852390623041,
+    "30000000.0": 580698.7565535037,
+    "100000000.0": 44459543.57853307,
+    "300000000.0": 349321526.7128471,
+    "1000000000.0": 498568220.8258025
+  }
+}

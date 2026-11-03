@@ -1,0 +1,22 @@
+<section class="glass" id="stellar-reference-panel" hidden aria-labelledby="stellar-reference-title">
+  <div class="stellar-reference-heading"><div><p class="eyebrow">MODELOS SOLARES DE REFERÊNCIA · B23 v1.2</p><h1 id="stellar-reference-title">Por dentro dos modelos do Sol</h1></div><button id="stellar-reference-close">Fechar perfis</button></div>
+  <p>Perfis calculados por Herrera e Serenelli com GarStEC. São referências externas; esta consulta não evolui o Sol nem altera sua zona ou a órbita.</p>
+  <div class="stellar-reference-layout">
+    <div>
+      <label class="field">Composição do modelo<select id="stellar-reference-model"><option>Carregando…</option></select></label><button id="stellar-reference-reload" class="wide">Recarregar perfil</button>
+      <label class="field">Amostra radial · 0–2000<input id="stellar-reference-index" type="range" min="0" max="2000" step="1" value="3"></label>
+      <div class="stellar-reference-selection"><label class="field">Índice tabulado<input id="stellar-reference-number" type="number" min="0" max="2000" step="1" value="3" required></label><label class="field">Interface<select id="stellar-reference-scale"><option value="1">100%</option><option value="1.25">125%</option><option value="1.5">150%</option></select></label></div>
+      <p id="stellar-reference-status" role="status"></p><p id="stellar-reference-reading" class="stellar-reference-reading"></p>
+      <p id="stellar-reference-quality" class="field-help"></p>
+      <details open><summary>Comparação com a EOS ideal</summary><p id="stellar-reference-comparison" class="stellar-reference-reading"></p><p class="field-help">Intervalo paramétrico A ≥ 1 já auditado. Não é intervalo de confiança. Não inclui a correção de Coulomb: os perfis não fixam todos os isótopos e estados de ionização necessários ao modelo da zona.</p></details>
+      <details><summary>Abundâncias originais</summary><p class="field-help">Frações mássicas de elementos e isótopos conforme a tabela, sem renormalização. Um elemento sem número de massa não identifica um isótopo.</p><table id="stellar-reference-abundances"></table></details>
+      <details><summary>Dados e limites</summary><p class="field-help">2001 pontos por modelo, separados por 0,0005 R☉. A sonda lê apenas a linha selecionada; os traços unem pontos. As três primeiras linhas ficam excluídas da comparação EOS e mantêm suas flags. Neutrinos auxiliares assinados não são usados como produção local nesta consulta. Não há estrutura ou luminosidade evoluída pelo Cosmos2. Dados sob CC BY 4.0.</p><a id="stellar-reference-source" href="https://zenodo.org/records/10822316" target="_blank" rel="noopener noreferrer">Herrera e Serenelli · B23 v1.2 · DOI 10.5281/zenodo.10822316</a></details>
+    </div>
+    <div id="stellar-reference-curves">
+      <div><h2>Temperatura · MK</h2><canvas id="stellar-reference-temperature" width="900" height="240" aria-label="Temperatura do modelo solar em milhões de kelvins contra raio em unidades solares"></canvas></div>
+      <div><h2>Densidade · kg/m³ · eixo log10</h2><canvas id="stellar-reference-density" width="900" height="240" aria-label="Logaritmo decimal da densidade do modelo em quilogramas por metro cúbico contra raio em unidades solares"></canvas></div>
+      <div><h2>Pressão · Pa · eixo log10</h2><canvas id="stellar-reference-pressure" width="900" height="240" aria-label="Logaritmo decimal da pressão do modelo em pascals contra raio em unidades solares"></canvas></div>
+      <p class="field-help">Eixo horizontal: r/R☉ tabulado, 0–1. Clique numa curva ou use o seletor radial para consultar a amostra mais próxima. Traços são perfis de referência, sem interpolação da sonda.</p>
+    </div>
+  </div>
+</section>

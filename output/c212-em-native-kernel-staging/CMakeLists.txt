@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(Cosmos2EMPair LANGUAGES CXX)
+add_library(cosmos2_em_pair SHARED pair_kernel.cpp)
+target_compile_features(cosmos2_em_pair PRIVATE cxx_std_17)
+target_compile_options(cosmos2_em_pair PRIVATE /O2 /fp:strict /W4 /WX)
+set_target_properties(cosmos2_em_pair PROPERTIES MSVC_RUNTIME_LIBRARY MultiThreadedDLL)

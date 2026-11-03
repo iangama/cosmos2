@@ -1,0 +1,18 @@
+{
+  "prepared": true,
+  "accepted": false,
+  "parent_worker_receipt_sha256": "b2898393295073f65e0b3e0ac3d4b2afd75c8066a483df1227c4d803a2ee6aa7",
+  "science_receipt": "evidence/is5-compression-fast-20261029a.json",
+  "science_receipt_sha256": "33bb20befbaa6e62fa4dc8518c96663c5869b1e7bfa34644d9a1d20484806ce4",
+  "recipe_sha256": "7f88fffe3533cc71147ceb15d3fe5d07d27a8a60477bf4aed9e7307768d55e6e",
+  "files_sha256": {
+    "is5_compression_artifact.py": "3950d2dbdf2f257af30f9c31447cedd800ba9061b209c19d62226727a419b517",
+    "is5_solar_source.py": "44114fd4f946a6ac91c62723899be497a1587412232ee30cfc3a0e26abc4ed02",
+    "is5_compression_worker.py": "d55fbf0e489284d974f6c944c7d2ea7e627e3058e8f61b78b2baef9cfabc548e",
+    "is5_compression_calculate.py": "bd0744851892fcec7d8c168111c29a1a8329d64d97ea6b53d1329805e17199ad",
+    "is5_compression_client.py": "1c3776a824a64e68891cec758eb062fb25755f1ab65178cc9dfbcdc1cdd3a2e6",
+    "is5_compression_process.py": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8"
+  },
+  "calculation_budget_s": 600,
+  "transport_budget_s": 660
+}

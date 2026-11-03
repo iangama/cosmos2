@@ -1,0 +1,11 @@
+{
+  "base_sha256": {
+    "output/is5-coulomb-worker-staging/is5_coulomb_artifact.py": "b9dfef29508dff5fef48b53df1c54b7c3620512e79ac972ba6f74d6e24936683",
+    "output/is5-coulomb-worker-staging/is5_coulomb_calculate.py": "1ed0e40f14148b77c99b5bb6503ac122a0475a8ded5775e20aedc52b40368582",
+    "output/is5-coulomb-worker-staging/is5_coulomb_client.py": "fedb43fabcd82f87bf19f28b0c4a087b219bb96acbd2bc7b040de8003cea4dec",
+    "output/is5-coulomb-worker-staging/is5_coulomb_worker.py": "8e68b6d32401325bfd7b9d8f81b6d6c95a708980c95fac1f628a5ed98d50a2db",
+    "output/is5-coulomb-worker-staging/is5_solar_source.py": "44114fd4f946a6ac91c62723899be497a1587412232ee30cfc3a0e26abc4ed02"
+  },
+  "A_rejection": "is5-coulomb-worker-artifact-20261029a",
+  "reason": "Direct interpreter PID ownership and OS job instead of Python monitor thread"
+}

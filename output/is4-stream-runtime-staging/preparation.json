@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "before_sha256": {
+    "modules/space/rendering/renderableconstellationlines.h": "5dbfb48ace2661c11ca724347ab47d33f08ad1e4e86b92585d2e9a11dda0b9e1",
+    "modules/space/rendering/renderableconstellationlines.cpp": "1f0fa554cc8e7fe59b3e0f911c9a6bcb9f6a45dad593419554e8de53afa5fce0"
+  },
+  "preserved_sha256": {
+    ".runtime-node-lifecycle-v2/bin/OpenSpace.exe": "f047516705466669f7e77b160654fc5ddd9bb5068633d27328be44aaee811bad",
+    "evidence/built-runtime-node-lifecycle-v2.json": "ccf51bc2085221aff36943de83a0746e14beadac2df51585acb2d89de13c566a",
+    "user/sessions/latest.json": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825"
+  },
+  "contract_sha256": "f14f19df93146a0c681951d09976f1ee8f7634ea86464e6c59c774136285460b"
+}

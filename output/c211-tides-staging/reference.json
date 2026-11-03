@@ -1,0 +1,47 @@
+{
+  "status": "primary_research_only_no_installed_tidal_operator",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/dtamayo/reboundx/5.1.0/src/tides_spin.c",
+      "path": "reference-reboundx-5.1.0-tides_spin.c",
+      "sha256": "0d991ad7c260eb22d12c88370e0b726f2ff52aab05ea352fd3af1286788da36f"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2303.00006v1",
+      "path": "reference-Lu2023-v1.pdf",
+      "sha256": "fcd1e18867a1815de96b4c7f4629a0d1d6e958630322a9bce8c14477cd49e73c"
+    },
+    {
+      "url": "https://arxiv.org/html/2303.00006v1",
+      "path": "reference-Lu2023-v1.html",
+      "sha256": "470b3c67563a0ff3c2ad20f8e3e28c718f09eb5a74ff6eda25c912a677948d17"
+    },
+    {
+      "url": "https://arxiv.org/pdf/astro-ph/9801246",
+      "path": "reference-Eggleton1998.pdf",
+      "sha256": "02027da7ae222cea72de16538a55443490fe86b7422a39537049626fae54dea0"
+    },
+    {
+      "url": "https://arxiv.org/pdf/0807.2856",
+      "path": "reference-RagozzineWolf2009.pdf",
+      "sha256": "4587139445f69b48bffc3bb3897950f097f360ce4fc287ce91cd1a2154c93f43"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1004.0463",
+      "path": "reference-leconte-2010.pdf",
+      "sha256": "f27aabe8e13d343127e66b3fbb3063046df9d3d7f06d5d13f985f464e877f8e0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hannorein/rebound/5.2.2/src/integrator_bs.c",
+      "path": "reference-rebound-5.2.2-src-integrator_bs.c",
+      "sha256": "ae0dd66c3302f06da4467a7ef16eea40f544986ad8c8b9d533fc75858c91f499"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hannorein/rebound/5.2.2/src/integrator_ias15.c",
+      "path": "reference-rebound-5.2.2-src-integrator_ias15.c",
+      "sha256": "7d3038a1f1f6ad079f86dd652d75fe16bea76df8c0ae1df630b6001e4871ef6b"
+    }
+  ],
+  "open_issue": "Conflicting factors in Lu2023/Eggleton parameterization are preserved, not silently identified. Candidate selects potential Love k2 per RagozzineWolf2009 (twice apsidal constant), conservative induced energy half interaction, and Leconte2010 constant time lag with factor3. Must verify rates/torque/heat against these references; no claim of REBOUNDx/paper equivalence.",
+  "Q_policy": "Use tau in seconds; Lu equation4 gives Q^-1 approximately2n tau only under stated synchronized/circular limiting assumptions. Online documentation tau=1/(2*n*tau) is inconsistent and must not be used."
+}

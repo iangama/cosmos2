@@ -1,0 +1,178 @@
+diff --git a/modules/galaxy/rendering/renderablegalaxy.cpp b/modules/galaxy/rendering/renderablegalaxy.cpp
+index a83967f..cd808ed 100644
+--- a/modules/galaxy/rendering/renderablegalaxy.cpp
++++ b/modules/galaxy/rendering/renderablegalaxy.cpp
+@@ -25,6 +25,7 @@
+ #include <modules/galaxy/rendering/renderablegalaxy.h>
+ 
+ #include <modules/galaxy/rendering/galaxyraycaster.h>
++#include <modules/galaxy/rendering/galaxypointreader.h>
+ #include <modules/volume/rawvolume.h>
+ #include <modules/volume/rawvolumereader.h>
+ #include <openspace/documentation/documentation.h>
+@@ -356,6 +357,9 @@ void RenderableGalaxy::initialize() {
+         else {
+             FileSys.cacheManager()->removeCacheFile(_pointsFilename);
+             Result resPoint = loadPointFile();
++            if (!resPoint.success) {
++                throw ghoul::RuntimeError("Invalid galaxy point file", "RenderableGalaxy");
++            }
+             _pointPositionsCache = std::move(resPoint.positions);
+             _pointColorsCache = std::move(resPoint.color);
+             saveCachedFile(
+@@ -369,7 +373,9 @@ void RenderableGalaxy::initialize() {
+     }
+     else {
+         Result res = loadPointFile();
+-        ghoul_assert(res.success, "Point file loading failed");
++        if (!res.success) {
++            throw ghoul::RuntimeError("Invalid galaxy point file", "RenderableGalaxy");
++        }
+         _pointPositionsCache = std::move(res.positions);
+         _pointColorsCache = std::move(res.color);
+         saveCachedFile(
+@@ -687,45 +693,45 @@ void RenderableGalaxy::renderBillboards(const RenderData& data) {
+ }
+ 
+ RenderableGalaxy::Result RenderableGalaxy::loadPointFile() {
+-    std::ifstream pointFile = std::ifstream(_pointsFilename, std::ios::in);
++    std::ifstream pointFile = std::ifstream(_pointsFilename, std::ios::binary);
+ 
+     // Read header for OFF (Object File Format)
+     std::string line;
+     ghoul::getline(pointFile, line);
++    if (!line.empty() && line.back() == '\r') { line.pop_back(); }
++    if (line != "COFF" && line != "OFF") { return { .success = false }; }
+ 
+     // Read point count
+     ghoul::getline(pointFile, line);
+     std::istringstream iss = std::istringstream(line);
+     int64_t nPoints = 0;
+     iss >> nPoints;
++    if (!iss || nPoints <= 0 || static_cast<uint64_t>(nPoints) >
++        std::filesystem::file_size(_pointsFilename) / 14)
++    {
++        return { .success = false };
++    }
+ 
+     // Prepare point reading
+     _nPoints = static_cast<size_t>(nPoints);
+ 
+     std::vector<glm::vec3> pointPositions;
+     std::vector<glm::vec3> pointColors;
++    pointPositions.reserve(_nPoints);
++    pointColors.reserve(_nPoints);
+     // Read points
+-    for (size_t i = 0;
+-        i < static_cast<size_t>(_nPoints * _enabledPointsRatio.maxValue()) + 1;
+-        i++)
+-    {
+-        float x = 0.f;
+-        float y = 0.f;
+-        float z = 0.f;
+-        float r = 0.f;
+-        float g = 0.f;
+-        float b = 0.f;
+-        float a = 0.f;
+-        ghoul::getline(pointFile, line);
+-        std::istringstream issp = std::istringstream(line);
+-        issp >> x >> y >> z >> r >> g >> b >> a;
+-
+-        // Convert kiloparsec to meters
+-        glm::vec3 position = glm::vec3(x, y, z);
+-        position *= (distanceconstants::Parsec * 100);
+-
+-        pointPositions.emplace_back(position);
+-        pointColors.emplace_back(r, g, b);
++    const bool success = readGalaxyPointRows(pointFile, _nPoints,
++        [&](const std::array<float, 7>& values) {
++            // Preserve the upstream model's existing scale conversion.
++            glm::vec3 position(values[0], values[1], values[2]);
++            position *= (distanceconstants::Parsec * 100);
++            pointPositions.emplace_back(position);
++            pointColors.emplace_back(values[3], values[4], values[5]);
++        }
++    );
++    if (!success) {
++        LERROR("Invalid or truncated galaxy point file");
++        return { .success = false };
+     }
+ 
+     return {
+diff --git a/modules/galaxy/rendering/galaxypointreader.h b/modules/galaxy/rendering/galaxypointreader.h
+new file mode 100644
+--- /dev/null
++++ b/modules/galaxy/rendering/galaxypointreader.h
+@@ -0,0 +1,72 @@
++// Cosmos2 local adaptation: locale-independent COFF vertex parsing.
++#pragma once
++#include <array>
++#include <charconv>
++#include <cmath>
++#include <istream>
++#include <string>
++#include <string_view>
++
++namespace openspace {
++inline bool parseGalaxyPoint(std::string_view line, std::array<float, 7>& values) {
++    if (line.empty()) { return false; }
++    const char* cursor = line.data();
++    const char* end = cursor + line.size();
++    const auto whitespace = [](char c) {
++        return c == ' ' || c == '\t' || c == '\r' || c == '\n';
++    };
++    for (float& value : values) {
++        while (cursor != end && whitespace(*cursor)) { ++cursor; }
++        if (cursor == end) { return false; }
++        if (*cursor == '+') {
++            ++cursor;
++            if (cursor != end && (*cursor == '+' || *cursor == '-')) { return false; }
++        }
++        if (cursor == end) { return false; }
++        const auto parsed = std::from_chars(cursor, end, value);
++        if (parsed.ec != std::errc() || !std::isfinite(value)) { return false; }
++        cursor = parsed.ptr;
++        if (cursor != end && !whitespace(*cursor)) { return false; }
++    }
++    while (cursor != end && whitespace(*cursor)) { ++cursor; }
++    return cursor == end;
++}
++
++template <typename Consumer>
++bool readGalaxyPointRows(std::istream& stream, size_t count, Consumer consume) {
++    // Bulk reads avoid per-character formatted stream extraction on Windows.
++    std::string block(1024 * 1024, '\0');
++    std::string partial;
++    size_t rows = 0;
++    const auto accept = [&](std::string_view line) {
++        std::array<float, 7> values;
++        if (!parseGalaxyPoint(line, values)) { return false; }
++        consume(values);
++        ++rows;
++        return true;
++    };
++    while (rows < count && stream) {
++        stream.read(block.data(), static_cast<std::streamsize>(block.size()));
++        std::string_view chunk(block.data(), static_cast<size_t>(stream.gcount()));
++        while (!chunk.empty() && rows < count) {
++            const size_t end = chunk.find('\n');
++            if (end == std::string_view::npos) {
++                partial.append(chunk);
++                break;
++            }
++            const std::string_view line = chunk.substr(0, end);
++            if (partial.empty()) {
++                if (!accept(line)) { return false; }
++            }
++            else {
++                partial.append(line);
++                if (!accept(partial)) { return false; }
++                partial.clear();
++            }
++            chunk.remove_prefix(end + 1);
++        }
++    }
++    if (rows < count && !partial.empty() && !accept(partial)) { return false; }
++    return rows == count;
++}
++}

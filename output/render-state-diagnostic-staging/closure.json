@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "status": "diagnostic_not_adopted_sources_restored",
+  "compilation_and_link_succeeded": true,
+  "staging_completed": false,
+  "staging_failure": "Windows PermissionError copying chrome_elf.dll and d3dcompiler_47.dll; partial runtime retained, not launched.",
+  "reason_not_adopted": "Exact central-scene RGBA equality disproved the alleged visibility failure; no rendering fix justified.",
+  "original_four_sources_restored_byte_exact": true,
+  "new_header_removed": true,
+  "measured_runtimes_and_owner_preserved": true,
+  "scope": "No graphics/science fix applied; diagnostic source archive retained. No receipt endorses the partial runtime."
+}

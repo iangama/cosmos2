@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "masteraddress": "localhost",
+  "settings": {"display": {"swapinterval": 1}},
+  "nodes": [{
+    "address": "localhost", "port": 20401,
+    "windows": [{
+      "name": "Cosmos2 — Atlas", "fullscreen": false,
+      "pos": {"x": 60, "y": 50}, "size": {"x": 1440, "y": 900},
+      "viewports": [{
+        "tracked": true,
+        "projection": {"type": "PlanarProjection", "fov": {"hfov": 70, "vfov": 47.27}}
+      }]
+    }]
+  }],
+  "users": [{"eyeseparation": 0.065, "pos": {"x": 0, "y": 0, "z": 0}}]
+}
