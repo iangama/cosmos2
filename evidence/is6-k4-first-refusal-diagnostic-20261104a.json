@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "completed": true,
+  "native_receipt": "evidence/is6-layers-storage-native-20261104a.json",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-native-is6-layers-storage.py\", line 148, in main\n    command('get_artifact');set_visible(page,dict(spatial=True,magnetic=True));page.wait_for_function('!layerInstrument.snapshot.error')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-native-is6-layers-storage.py\", line 81, in set_visible\n    success(page);assert state()['artifact']['visible']==visible\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "hypothesis": "The harness checked input.disabled, which does not include disabled inherited from a fieldset; a busy poll during a direct API check can temporarily block the group. V2 waits for UI idle and :disabled before input.",
+  "preserved_store": "output/is6-layers-product0.20.0/layer-checkpoints-refused-20261104a",
+  "candidate_sources_changed": false
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cosmos2 · Energias nucleares</title>
+<link rel="stylesheet" href="forces.css">
+<link rel="stylesheet" href="nuclear-energy.css">
+<body>
+<header><a href="/" class="brand">COSMOS<span>2</span></a><div><b>Energias nucleares</b><small>Massas AME2020 · Q, separações e limiares</small></div><a class="back" href="/nuclei.html">Acervo nuclear ↗</a></header>
+<main>
+  <aside>
+    <p class="eyebrow">REAÇÕES E CONSERVAÇÃO</p>
+    <h1>Quanto muda<br>a energia de repouso?</h1>
+    <p class="muted">Compare a energia dos incidentes e produtos. Explore a energia mínima do projétil para um alvo em repouso.</p>
+    <label class="field">Exemplo avaliado<select id="energy-preset" disabled></select></label>
+    <form id="reaction-form">
+      <label>Projétil<input id="energy-projectile" list="energy-species" required autocomplete="off"></label>
+      <label>Alvo em repouso<input id="energy-target" list="energy-species" required autocomplete="off"></label>
+      <p class="field-label">Produtos · espécie e quantidade</p>
+      <div id="energy-products"></div>
+      <button type="button" id="add-product">Adicionar produto</button>
+      <label>Energia do projétil / MeV<input id="incident-energy" type="number" min="0" max="100" step="any" required value="0.1"></label>
+      <p class="muted">Energia cinética para partículas com massa; energia total para γ. Núcleos no estado de referência AME2020.</p>
+      <button id="calculate-energy" class="primary">Calcular reação</button>
+    </form>
+    <section><h2>Separar partículas</h2><form id="separation-form"><label>Estado do acervo<input id="separation-species" list="energy-species" required autocomplete="off"></label><button id="calculate-separation">Consultar separações</button></form></section>
+    <section><h2>Explorar a evolução</h2><a class="process-link" href="/forces.html#strong">Fusão D + T com taxa avaliada ↗</a><a class="process-link" href="/forces.html#stellar">Rede estelar pp-I ↗</a><p class="muted">Q e limiar são referências energéticas. Taxas e composição dependem das condições e dos modelos desses palcos.</p></section>
+    <div class="actions"><button id="save-energy">Salvar</button><button id="load-energy">Retomar</button><button id="export-energy">Exportar JSON</button></div>
+  </aside>
+  <article>
+    <p id="energy-restoration" class="restoration-note" hidden role="status"></p>
+    <div class="scene-heading"><div><p class="eyebrow">INSTRUMENTO DE REFERÊNCIA · SEM EVOLUÇÃO TEMPORAL</p><h2 id="reaction-title">Carregando massas…</h2></div><span id="conservation-reading"></span></div>
+    <p id="energy-draft" class="restoration-note" hidden>Alterações pendentes. As leituras ainda correspondem à última reação calculada.</p>
+    <div class="energy-readings">
+      <div class="measurement"><small>Energia Q / MeV</small><strong id="q-reading">—</strong><small id="q-uncertainty"></small></div>
+      <div class="measurement"><small>Limiar relativístico / MeV</small><strong id="threshold-reading">—</strong><small id="threshold-uncertainty"></small></div>
+      <div class="measurement"><small>Disponível no centro de momento / MeV</small><strong id="available-reading">—</strong><small id="beam-reading"></small></div>
+    </div>
+    <p id="kinematic-reading" class="kinematic-reading"></p>
+    <div class="energy-figure"><canvas id="energy-canvas" aria-label="Energia disponível no centro de momento em função da energia do projétil. O marcador vertical mostra o limiar; as leituras numéricas estão acima."></canvas></div>
+    <label class="energy-slider">Energia do projétil <input id="energy-slider" type="range" min="0" max="20" step="0.001" value="0.1"><output id="slider-reading">0,1 MeV</output></label>
+    <p class="muted" id="approximation-reading"></p>
+    <p class="muted">Alcançar o limiar satisfaz uma condição de energia e momento. Isso não garante reação: barreira Coulomb, probabilidades e regras quânticas exigem outros modelos. No limiar, o espaço de fase pode ser nulo.</p>
+    <section><h2 id="separation-title">Energias de separação</h2><div class="energy-table"><table id="separation-table"></table></div><p class="muted">S = energia de repouso do remanescente e das partículas − energia de repouso inicial. S negativo indica liberação energética nesse canal; não fornece meia-vida.</p></section>
+    <details id="mass-details"><summary>Como Q é calculado · termos e incertezas</summary><div class="energy-table"><table id="mass-table"></table></div><p class="muted" id="rounding-reading"></p><p class="muted">σ independente combina incertezas padrão tabuladas após somar os coeficientes de cada estado. Não inclui covariâncias da avaliação. Resolução impressa, incerteza da fonte e erro numérico são grandezas distintas.</p></details>
+    <details><summary>Convenção de massas e alcance</summary><p>São massas de átomos neutros; o nêutron é livre e γ tem massa de repouso zero. Z conserva a contagem de elétrons, mas as ligações eletrônicas continuam incluídas. Q de íons totalmente despidos exigiria correções.</p><p class="muted">Conversão fixa da AME2020: u·c² = 931 494,10242 keV. Sua incerteza não é propagada na cinemática. Não há estados excitados, isômeros, taxas ou partículas com trajetórias clássicas neste instrumento. A referência independe dos controles de atuação da bancada.</p><p id="external-comparison" class="muted"></p><div id="energy-sources"></div></details>
+    <p id="energy-status" class="status" role="status">Carregando a tabela local…</p>
+  </article>
+</main>
+<datalist id="energy-species"></datalist>
+<script src="nuclear-energy.js"></script>
+</body>
+</html>

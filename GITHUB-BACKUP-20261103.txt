@@ -1,5 +1,8 @@
+GITHUB PUBLICO por pedido do dono;pagina/API/README200sem login.
+Comprovante:evidence/github-public-access-20261104a.json.
+
 BACKUP GITHUB CONCLUIDO — 03/11/2026
-Repositorio privado: https://github.com/iangama/cosmos2
+Repositorio publico: https://github.com/iangama/cosmos2
 Branch main; commit e80eaa631901a0b21549622d17d73e4651c9fc04 confirmado no GitHub.
 Checkout do backup: /mnt/c/Users/Ian/cosmos2-github-snapshot-20261103
 1713 arquivos versionados;1710 arquivos de origem com hashes conferidos.

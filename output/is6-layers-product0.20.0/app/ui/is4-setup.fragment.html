@@ -1,0 +1,8 @@
+<details id="particle-setup" hidden open><summary>Carga de teste no campo do corpo</summary>
+<p class="field-help">Use uma amostra magnética da Terra ou de Júpiter na cópia solar pausada. A partícula terá relógio próprio; época, orientação e quatro centros ficarão congelados.</p>
+<p id="particle-source" class="field-help" role="status">Prepare uma amostra do campo abaixo.</p>
+<form id="particle-create-form"><label class="field">Espécie<select id="particle-species"><option value="proton">Próton · carga positiva</option><option value="electron">Elétron · carga negativa</option><option value="neutral">Neutra · massa de próton</option></select></label>
+<label class="field">Velocidade inicial (m/s)<input id="particle-speed" type="number" min="0.000001" max="2997924.58" step="any" required value="100000"></label>
+<label class="field">Ângulo com +B (°)<input id="particle-pitch" type="number" min="0" max="180" step="any" required value="60"></label>
+<p class="field-help">800 passos por período de giro inicial; para carga zero, passo de 0,001 s. Sem radiação, colisões ou reação nos corpos.</p><button id="particle-create" type="submit" class="wide primary" disabled>Criar partícula e ampliar trajetória</button></form>
+<button id="particle-load-saved" class="wide" disabled>Retomar partícula salva</button><p id="particle-setup-status" class="field-help" role="status"></p></details>

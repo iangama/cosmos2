@@ -1,7 +1,7 @@
-# Cosmos2 — snapshot privado de 03/11/2026
+# Cosmos2 — snapshot público de 04/11/2026
 
-Backup do código, planos, passagem e evidências selecionadas. Inclui a candidata 0.19.1 e módulos de preparação científica.
+Código, planos, passagem e evidências selecionadas. Inclui fontes das candidatas 0.19.1, 0.20.0 e 0.20.1 e preparação K4.
 
-Não inclui executáveis, ambientes, builds, caches, sessões pessoais ou todos os conjuntos de dados e artefatos gerados. Ainda não é um pacote reproduzível ou instalável completo. O inventário registra exatamente os arquivos copiados; LEIA-PRIMEIRO.md registra o próximo trabalho.
+A interface 0.19.1 tem aceite funcional, visual e perfil próprio. A persistência 0.20.0 passou nas jornadas nativas de primeira execução e reinício; há um defeito de contraste nos botões salvar/restaurar, sem aceite visual ou perfil de desempenho dessa versão. A 0.20.1 corrige os botões e está em teste. LEIA-PRIMEIRO.md registra a continuidade.
 
-A interface 0.19.1 tem aceite funcional/visual; seu perfil próprio e a persistência integrada continuam pendentes. Nenhuma publicação de site ou binário é realizada por este backup.
+Exclui executáveis, ambientes, builds, caches, sessões pessoais e parte dos dados/artefatos. Não é instalador nem pacote totalmente reproduzível. O inventário registra os arquivos copiados.
