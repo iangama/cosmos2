@@ -1,0 +1,70 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "evidence/is6-layers-storage-native-20261104e.json": "f0fed4a3533b8be1766e452be33b76d173a7f22a19dae33d60b3d3917e0a96d6",
+    "scripts/audit-is6-layers-storage-process-v3.py": "ffed58d8759392c8cfbc2fa1927e81c67ed50426dad8ce43e8453c8f1aa1ef67",
+    "output/is6-layers-storage-host-k4-first-e-20261104.log": "a4d788342fdfb7c4f54f29bb2fd1394fb3937049a644246e6a83cb6234a196b4",
+    "output/is6-layers-product0.20.1/execution-logs/1793755984734105900/session.json": "a2cee8298fa1d00c888d3a8b428f8facc13ea682affb7d2dd28776651c57a500",
+    "output/is6-layers-product0.20.1/execution-logs/1793755984734105900/process-result.json": "0992090c6233f6d606cba90e0af041d6a797a801ee768f271f6a5d86e2ac2f2e"
+  },
+  "session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "app": 31808,
+    "server": 39444,
+    "launcher": 23368,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-layers-product0.20.1\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-layers-product0.20.1\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Layers-0.20.1-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-04T01:31:34Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-layers-storage-candidate-v2.py"
+  },
+  "process_result": {
+    "app_exit": 0,
+    "server_exit": 0
+  },
+  "pids_alive": {
+    "app": false,
+    "server": false,
+    "launcher": false
+  },
+  "reused_numeric_pids": {
+    "launcher": {
+      "pid": 23368,
+      "name": "svchost.exe",
+      "created_unix": 1793788634.7271848,
+      "archived_end_unix": 1793755984.7452328
+    }
+  },
+  "remaining_project_engines": [],
+  "owner_sha256": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825",
+  "scope": "Own pair host exit only; no product promotion or broader milestone acceptance."
+}

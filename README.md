@@ -3,7 +3,13 @@
 Novo projeto de explorador e laboratório do universo para PC, inspirado em
 SpaceEngine, Universe Sandbox, OpenSpace e Celestia.
 
-**Estado em 14/10/2026: plano4.1/meta de um mês; C2-00/G0, C2-01, C2-02, C2-03, C2-06, C2-18 e C2-19 aprovados localmente, construção em continuidade.**
+**Estado em 04/11/2026: sete marcos com aceite local; construção em continuidade.**
+A candidata isolada 0.20.1 passou em persistência/reinício de camadas da Terra
+e de Júpiter, com 12 capturas revistas. O perfil próprio segue pendente após
+uma coleta recusada. A fundação de importação composta passou em 24 conversões
+CPU e 229 recusas; sua integração nativa ainda está em construção.
+Veja os [resultados K4](IS-6-COEXISTENCIA-PERSISTENCIA-K4-RESULTADO-20261104B.md)
+e [K5A](IS-6-COEXISTENCIA-MIGRACAO-K5-RESULTADO-20261104.md).
 Palavras de retomada: **cosmos2** ou **cosmos 2**. O Cosmos original permanece separado.
 
 A revisão 3.0 incorpora o pedido de instrumentos científicos, gravidade

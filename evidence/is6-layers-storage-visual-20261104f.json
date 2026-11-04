@@ -1,0 +1,122 @@
+{
+  "accepted": true,
+  "completed": true,
+  "candidate": "0.20.1",
+  "source_sha256": {
+    "scripts/record-is6-layers-storage-visual-review.py": "bdef9f29c4346e24080ae6764b049e0899a76c3d81292973267045244ff0216f",
+    "evidence/is6-layers-storage-native-20261104e.json": "f0fed4a3533b8be1766e452be33b76d173a7f22a19dae33d60b3d3917e0a96d6",
+    "evidence/cosmos2-is6-storage-20261104e-399-overview-100.png": "76dfb1bc48e09f04f8ee56c19723bd62bb277ea6962a5a8300c0ad57e84aa22b",
+    "output/is6-layers-storage-native-20261104e/cosmos2-is6-storage-20261104e-399-overview-100.png": "76e8fd74e649f5c8f98da462dd69acd2a3eada02d3296ace557d4fe6e68756fb",
+    "evidence/cosmos2-is6-storage-20261104e-399-overview-150.png": "30a04b8bc52bdbdf99c73a33d8b2dd88c9818723a6a5c265e4f347b1b954704e",
+    "output/is6-layers-storage-native-20261104e/cosmos2-is6-storage-20261104e-399-overview-150.png": "7d26c1a935cdf4f2a8603f860ff017be032876d0e1009dbf5efcbcf54b35a6e2",
+    "evidence/cosmos2-is6-storage-20261104e-399-storage-150.png": "be4fd19ebd1729547c979da341395987fc0a9545f6f2d1a513a54c51c30c68a6",
+    "output/is6-layers-storage-native-20261104e/cosmos2-is6-storage-20261104e-399-storage-150.png": "902b47bcba979740076e12070c262cf3e03ac0dbb1bceec3a0b56a72da1b2ea4",
+    "evidence/cosmos2-is6-storage-20261104e-599-overview-100.png": "390b2a4439f584ef17e18eeff176f95e00532a299f66f23908fa0c4ba36689e5",
+    "output/is6-layers-storage-native-20261104e/cosmos2-is6-storage-20261104e-599-overview-100.png": "95b58d9e9e16d7acbf5b10410ea80fba2665680785e049673b44ab650311bf4f",
+    "evidence/cosmos2-is6-storage-20261104e-599-overview-150.png": "eb906264a5d1060505bbf415fb3f7cc1b0ed7a62d384f8c12531cea2152479b3",
+    "output/is6-layers-storage-native-20261104e/cosmos2-is6-storage-20261104e-599-overview-150.png": "a95a5f31507ba850109ee6539b996a673112a9baf887246c6f5b9448be063749",
+    "evidence/cosmos2-is6-storage-20261104e-599-storage-150.png": "c58c4511547e4cc2d7dda74b1007e188d3a387ea997299fa85cc7989e1f2ea4b",
+    "output/is6-layers-storage-native-20261104e/cosmos2-is6-storage-20261104e-599-storage-150.png": "940feb3f6daa974b4b59d2716dfa2c8d93b1f63dcf3513930f939966c920989b",
+    "evidence/is6-layers-storage-native-20261104f.json": "a3f7e23468414dec7e2664381695a3756ba2e92252cb82be3e1438733d3c75c0",
+    "evidence/cosmos2-is6-storage-20261104f-599-overview-100.png": "d13a90f025cb48108872662a5a6b7dc1832ff73a997a21c44628b3bd6e49eb54",
+    "output/is6-layers-storage-native-20261104f/cosmos2-is6-storage-20261104f-599-overview-100.png": "211dbfc2b16c6dd719b510bed11e21f4fbb7dd9bfe7fa07758116823455b77b0",
+    "evidence/cosmos2-is6-storage-20261104f-599-overview-150.png": "36bd479b380ba44541df62098699ccc92f0efa4fc0164b4d27bc366d9e5046bf",
+    "output/is6-layers-storage-native-20261104f/cosmos2-is6-storage-20261104f-599-overview-150.png": "8de8b9438b38bd72c8b112eaaba93d4c43c7fa5c561b9a98a57a2ffcc353cfe9",
+    "evidence/cosmos2-is6-storage-20261104f-599-storage-150.png": "e28fa58a9c3469788983f30350bdc3f1fdd6889ecd40317e60130573aacc1075",
+    "output/is6-layers-storage-native-20261104f/cosmos2-is6-storage-20261104f-599-storage-150.png": "a0641d2e6df44290205ae6676bd8f2d429b3436b5490ccc8e46b4d18af858ed2",
+    "evidence/cosmos2-is6-storage-20261104f-399-overview-100.png": "f39a9ba27f69fecd4dc35d05679e8fda66585d6d009d66446bcb717d1648fb6c",
+    "output/is6-layers-storage-native-20261104f/cosmos2-is6-storage-20261104f-399-overview-100.png": "f993310b370454736dcbab73a80c5b72dae33f5b9fb4f7d2fc2e3cca73d64003",
+    "evidence/cosmos2-is6-storage-20261104f-399-overview-150.png": "b07b6dd578dd27b5018c40d32547b8e12c583687fbf7db60102146d4baf39b08",
+    "output/is6-layers-storage-native-20261104f/cosmos2-is6-storage-20261104f-399-overview-150.png": "8c5707d6f40ac6f160ff9ad251b07044962bf7f4a83c06c11f4d754be38d66c4",
+    "evidence/cosmos2-is6-storage-20261104f-399-storage-150.png": "69dc9fbce13c4ed988afebd596534dcd074ebc2657e7306c6590ecc51259cb46",
+    "output/is6-layers-storage-native-20261104f/cosmos2-is6-storage-20261104f-399-storage-150.png": "53ddce3c37e1c01d6dfedf75beda4531b5ec1b5fe6b2a0957e68f04893469258"
+  },
+  "method": "Inspeção visual direta das doze imagens via view_image pelo agente, antes deste registro; validações de hash e layout são complementares.",
+  "captures": [
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104e-399-overview-100.png",
+      "sha256": "76dfb1bc48e09f04f8ee56c19723bd62bb277ea6962a5a8300c0ad57e84aa22b",
+      "phase": "first",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104e-399-overview-150.png",
+      "sha256": "30a04b8bc52bdbdf99c73a33d8b2dd88c9818723a6a5c265e4f347b1b954704e",
+      "phase": "first",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104e-399-storage-150.png",
+      "sha256": "be4fd19ebd1729547c979da341395987fc0a9545f6f2d1a513a54c51c30c68a6",
+      "phase": "first",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104e-599-overview-100.png",
+      "sha256": "390b2a4439f584ef17e18eeff176f95e00532a299f66f23908fa0c4ba36689e5",
+      "phase": "first",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104e-599-overview-150.png",
+      "sha256": "eb906264a5d1060505bbf415fb3f7cc1b0ed7a62d384f8c12531cea2152479b3",
+      "phase": "first",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104e-599-storage-150.png",
+      "sha256": "c58c4511547e4cc2d7dda74b1007e188d3a387ea997299fa85cc7989e1f2ea4b",
+      "phase": "first",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104f-599-overview-100.png",
+      "sha256": "d13a90f025cb48108872662a5a6b7dc1832ff73a997a21c44628b3bd6e49eb54",
+      "phase": "restart",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104f-599-overview-150.png",
+      "sha256": "36bd479b380ba44541df62098699ccc92f0efa4fc0164b4d27bc366d9e5046bf",
+      "phase": "restart",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104f-599-storage-150.png",
+      "sha256": "e28fa58a9c3469788983f30350bdc3f1fdd6889ecd40317e60130573aacc1075",
+      "phase": "restart",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104f-399-overview-100.png",
+      "sha256": "f39a9ba27f69fecd4dc35d05679e8fda66585d6d009d66446bcb717d1648fb6c",
+      "phase": "restart",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104f-399-overview-150.png",
+      "sha256": "b07b6dd578dd27b5018c40d32547b8e12c583687fbf7db60102146d4baf39b08",
+      "phase": "restart",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    },
+    {
+      "path": "evidence/cosmos2-is6-storage-20261104f-399-storage-150.png",
+      "sha256": "69dc9fbce13c4ed988afebd596534dcd074ebc2657e7306c6590ecc51259cb46",
+      "phase": "restart",
+      "accepted": true,
+      "observations": "Salvar e restaurar têm fundo azul escuro e texto legível; nome, lista de ramos, restauração e exportação estão legíveis em 150%; rolagem e saída acessíveis."
+    }
+  ],
+  "scope": "Revisão visual das jornadas E/F em 100% e 150%, incluindo armazenamento; sem aceite de desempenho ou IS6/v1 inteira."
+}
