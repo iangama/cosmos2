@@ -21,7 +21,7 @@ receipts = [ROOT / 'evidence/is6-layers-storage-cut-20261104f.json',
             ROOT / 'evidence/is6-layers-profile-process-20261104i.json',
             ROOT / 'evidence/is6-layers-migration-20261104h.json',
             ROOT / 'evidence/is6-layers-import-store-20261104j2.json',
-            ROOT / 'evidence/is6-layers-import-service-20261104l.json']
+            ROOT / 'evidence/is6-layers-import-service-20261104l2.json']
 sources = dict(manifest['source_sha256'])
 for path in [parent, Path(__file__), *receipts]:
     if path in receipts:

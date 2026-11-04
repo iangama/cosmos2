@@ -1,0 +1,66 @@
+{
+  "accepted": true,
+  "profile": "evidence/is6-layers-storage-profile-20261104p.json",
+  "profile_sha256": "175fbd82a6123ce3b396e08ecb196d3193fdd785913a305bd6040f001a1f57cf",
+  "auditor_sha256": "94f17fa0c1a9b83335213a6190a1b8587e190f22ccfbf948bc54d7efdfa53951",
+  "runs": [
+    {
+      "run": 1,
+      "body": "399",
+      "kind": "static",
+      "GPU_peak_GiB": 2.9415321350097656,
+      "frames": 4507,
+      "median_ms": 13.323100283741951,
+      "p95_ms": 13.925869856029749,
+      "p99_ms": 14.3587002530694,
+      "over_100ms": 0,
+      "interval_s": 60.113689290359616
+    },
+    {
+      "run": 2,
+      "body": "599",
+      "kind": "static",
+      "GPU_peak_GiB": 2.9454383850097656,
+      "frames": 4509,
+      "median_ms": 13.32900021225214,
+      "p95_ms": 13.904879800975321,
+      "p99_ms": 14.326103925704956,
+      "over_100ms": 0,
+      "interval_s": 60.13969111349434
+    },
+    {
+      "run": 3,
+      "body": "399",
+      "kind": "visibility",
+      "GPU_peak_GiB": 2.9580001831054688,
+      "frames": 4507,
+      "median_ms": 13.340599834918976,
+      "p95_ms": 13.970600254833696,
+      "p99_ms": 14.359027817845343,
+      "over_100ms": 0,
+      "interval_s": 60.11381746828556,
+      "command_completion_ratio": 1.0,
+      "command_p95_s": 0.21412803500115843,
+      "command_max_s": 0.24164550000205054
+    },
+    {
+      "run": 4,
+      "body": "599",
+      "kind": "visibility",
+      "GPU_peak_GiB": 2.9516677856445312,
+      "frames": 4507,
+      "median_ms": 13.330300338566303,
+      "p95_ms": 13.972670212388037,
+      "p99_ms": 14.377337936311958,
+      "over_100ms": 0,
+      "interval_s": 60.113662373274565,
+      "command_completion_ratio": 1.0,
+      "command_p95_s": 0.21717721500117476,
+      "command_max_s": 0.2697157000002335
+    }
+  ],
+  "commands": 240,
+  "RAM_peak_GiB": 1.1322402954101562,
+  "GPU_peak_GiB": 2.9580001831054688,
+  "scope": "K4 0.20.1 rendering/API visibility with existing compound catalog; records remain byte-identical. Not save throughput, human input throughput, automatic migration, promotion or full IS6/v1 acceptance."
+}

@@ -1,0 +1,124 @@
+{
+  "accepted": false,
+  "completed": true,
+  "recovered": true,
+  "session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 36376,
+    "server": 5936,
+    "launcher": 13984,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-layers-product0.21.0\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-layers-product0.21.0\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Layers-0.21.0-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-04T16:04:57Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-layers-import-candidate.py"
+  },
+  "before": {
+    "active": false,
+    "error": null,
+    "recovery_required": false,
+    "guard": {
+      "session_id": "cbc75c6f6fa64931a4fabdb62ff341d7",
+      "artifact_id": null,
+      "revision": 0
+    },
+    "artifact": null,
+    "scene": null,
+    "checkpoint_available": false,
+    "branches": [],
+    "branch_parent": null,
+    "loaded_record": null,
+    "import_preview": {
+      "id": "99e392ad89e64329bdb12a0ede4eb990",
+      "valid": true,
+      "source_format": "checkpoint-0.1.0",
+      "source_sha256": "b3fd04e2b30d8e5a3d5ba7ebf34c867e8be156e76299497eab322077790f872f",
+      "import_sha256": "7b3e8c2aa2731759d7a019157c2007dbe32157b7a8140a7358b5a04c6afbf992",
+      "body_reference_id": "sol:naif:399",
+      "epoch": {
+        "et_tdb_s": 844992069.1823514,
+        "utc": "2026-10-11T12:00:00.000000Z",
+        "UTC_rounding_s": 1e-06
+      },
+      "visible": {
+        "spatial": false,
+        "magnetic": true
+      },
+      "scientific_sha256": "a86cb6c6b21d5aace62a32bad63fb3d7699f23cc8fc8e1a5c1041bde6b51b06e",
+      "magnetic_model": "IGRF14",
+      "changes": [
+        "Envelope 0.1.0 convertido explicitamente para 0.2.0; ciência e visibilidades idênticas."
+      ]
+    },
+    "busy": false,
+    "transaction": null
+  },
+  "owner_sha256": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825",
+  "captures": [
+    {
+      "path": "evidence/cosmos2-is6-import-diagnostic-m-preview-100.png",
+      "sha256": "86c1eda2c022e7d5b67c7fe872464e6043261575a30f9fdedfbe773332743aba"
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-diagnostic-m-preview-150.png",
+      "sha256": "c4190631e635cbb623f5a16f324a64d1cde1e825711e2adfb2879d19c52742e1"
+    }
+  ],
+  "source_sha256": {
+    "scripts/recover-is6-import-m-transport.py": "5672f50636c8229c79f083558a4751f68aa838dfc2e4cab71daec915c7e5ee7d",
+    "scripts/cef_page_v2.py": "6e6899c8d557ca9b444aeebfd454a5a9ed43eb9b7abc371a871ddd1f94f41cbe",
+    "scripts/capture-window.ps1": "9be4d8d2e83f7a2332a5a9bd2bdb0b3502522409cc448f06aa0dac0ca42c5dbc",
+    "evidence/is6-layers-import-native-20261104m.json": "c0294f6138538dfdc6cf67365a8c3e9b168b2a63959c7d9c416d35b7bde9cfa8"
+  },
+  "scope": "Diagnostic preview/recovery only; M functional failure remains refused.",
+  "ui_reading": "Terra · 2026-10-11T12:00:00.000000Z\nIGRF14\nMalha oculta · amostra magnética visível\nEnvelope 0.1.0 convertido explicitamente para 0.2.0; ciência e visibilidades idênticas.\nPronto para criar um novo ramo.",
+  "after": {
+    "active": false,
+    "error": null,
+    "recovery_required": false,
+    "guard": {
+      "session_id": "cbc75c6f6fa64931a4fabdb62ff341d7",
+      "artifact_id": null,
+      "revision": 0
+    },
+    "artifact": null,
+    "scene": null,
+    "checkpoint_available": false,
+    "branches": [],
+    "branch_parent": null,
+    "loaded_record": null,
+    "import_preview": null,
+    "busy": false,
+    "transaction": null
+  },
+  "pids_alive": false
+}

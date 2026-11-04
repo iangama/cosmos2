@@ -1,0 +1,54 @@
+{
+  "accepted": false,
+  "completed": true,
+  "records": [
+    {
+      "path": "output/ui-startup-diagnostic-20261104/scripts/start-cosmos2.ps1",
+      "original": "scripts/start-cosmos2.ps1",
+      "sha256": "44e234ae41fbf8ea9252526a57fddd1b9e92315887041322fdf4ec9ffcf14e04"
+    },
+    {
+      "path": "output/ui-startup-diagnostic-20261104/scripts/bootstrap-native-ui.py",
+      "original": "scripts/bootstrap-native-ui.py",
+      "sha256": "9106535116bebadcfd1e11a52783d488cc03131c833b1468d383bdbc9861fae6"
+    },
+    {
+      "path": "output/ui-startup-diagnostic-20261104/scripts/launch-is6-layers-import-candidate-v2.py",
+      "original": "scripts/launch-is6-layers-import-candidate-v2.py",
+      "sha256": "3a40d016ff518db57da96a7f9fa312da895ef150cda2276ef3115878a893baca"
+    },
+    {
+      "path": "output/ui-startup-diagnostic-20261104/output/bootstrap-ui.json",
+      "original": "output/bootstrap-ui.json",
+      "sha256": "d7b598d9bc5262ecc479f2d545d202ee4ace094e5a9d8457b3591f7c3420c516"
+    },
+    {
+      "path": "output/ui-startup-diagnostic-20261104/output/bootstrap-ui.log",
+      "original": "output/bootstrap-ui.log",
+      "sha256": "afa38ac7256e1cef3ec724019b0ebf2133245c7d7ed4e71a244401d2f545ca78"
+    },
+    {
+      "path": "output/ui-startup-diagnostic-20261104/output/server.log",
+      "original": "output/server.log",
+      "sha256": "d13d509d005aef5b8f73b12888245cce7be0021c4f68457b9ef5a65cf58dd36c"
+    },
+    {
+      "path": "output/ui-startup-diagnostic-20261104/output/server-errors.log",
+      "original": "output/server-errors.log",
+      "sha256": "cbbceb05c02ba24cde499b6b1fe396071b4173e52310ad11f44e0143bb29c363"
+    },
+    {
+      "path": "output/ui-startup-diagnostic-20261104/output/is6-layers-import-host-profile-k5-o-20261104.log",
+      "original": "output/is6-layers-import-host-profile-k5-o-20261104.log",
+      "sha256": "1c58331a93d0f49f296765f8a234bb8461291b04b6d9f54d77dc0dc98654a786"
+    }
+  ],
+  "owner_screenshot_sha256": "9b3c45428fff7beb73f64cdff4686fe9c1abf80734c5eb53b0aabd68a7fd800e",
+  "findings": [
+    "The owner screenshot shows127.0.0.1 ERR_CONNECTION_REFUSED; it does not identify the exact process or request timestamp.",
+    "Current startup code launches local HTTP and the engine in parallel; bootstrap waits for the native scene but does not test HTTP readiness before navigating.",
+    "At inspection time the current server health is200 and the CEF page title is Cosmos2 — Atlas.",
+    "An HTTP readiness gate is required to remove the demonstrated startup ordering race; the exact cause of every earlier screenshot is not established."
+  ],
+  "scope": "Startup ordering diagnostic; no changes to installed scientific code or owner session."
+}

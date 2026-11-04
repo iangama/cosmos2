@@ -1,0 +1,262 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/compare-is6-capture-pixels.py": "001cfccd440697efce33e6863648de55b398facae92a3ad6f4d63bc4f0a08892",
+    "IS-6-CAPTURAS-CORRECAO-DIAGNOSTICO-20261104.md": "3c5a1a4583a3eb85fc8358eca185cba095967af95af8e7553de20ce6a6e02a41",
+    "evidence/is6-import-caption-diagnostic-20261104v.json": "b2cc062e912c2e5617ec2474b3251a77915ef27938eadb45cac71166d3a5672d",
+    "evidence/is6-import-caption-review-20261104v.json": "626198fc9bf896ae229024ffed6303ac4aa67b180a99023fb222326549d5c197",
+    "evidence/is6-import-native-captures-20261104w.json": "313477b36df2d694661e330c2a6bf503b74048a733e4ed4afee7166f8c98ad6c",
+    "evidence/cosmos2-is6-caption-v-engine-before.png": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d",
+    "evidence/cosmos2-is6-caption-v-printwindow.png": "aaa46215b9a3099ac64d3b3ec4d5a8054b3da41f968dedfdeb7e53250aaca51e",
+    "evidence/cosmos2-is6-caption-v-engine-after.png": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d",
+    "evidence/cosmos2-is6-import-20261104w-399-overview-00-100.png": "a807ce56bd7c3a99fdeaf873a7fa50b73bd03c575558a715e5212288868a3b88",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-00-100.png": "d52464373f3a13fa0424c05845a802f9fb4af3a5b34760e96cd8044c83e7d11b",
+    "evidence/cosmos2-is6-import-20261104w-399-overview-01-100.png": "7592b6a18e4d033007e1f3711313fad23668240ebaa72eba1a5ce05a7e4865fe",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-01-100.png": "0f9555e0f58c725818a255cb33cf641a01c8a636d08ec24f21c97a29f41d3a2f",
+    "evidence/cosmos2-is6-import-20261104w-399-overview-10-100.png": "a983864172ce9f707c32602cf36b8eb50aef10efc291c18a028040e510ca31ce",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-10-100.png": "bac0b554d683f14577615e90dfea1a825275fbf2221b04411aec092f0391a149",
+    "evidence/cosmos2-is6-import-20261104w-399-overview-11-100.png": "3682aebb883e4386af287167828b703e45f86cccbc27772f5e7e8c9c6d9eb59f",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-11-100.png": "f725c54da214f0860bc58d5edae6b7af7c40970433c8df4a47a3f881fa7ce7ed",
+    "evidence/cosmos2-is6-import-20261104w-399-overview-11-150.png": "a28de059e21c114a0b0fdcfcb24233f6f52fe2a1da728e14194947e8f87f5375",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-11-150.png": "83aadad598338b8b5209cdd0b524f7453de348c39897fa6f7865a1937a171713",
+    "evidence/cosmos2-is6-import-20261104w-399-storage-11-150.png": "b7a3d4fc0fca9d50513334919a93306a66e59fdd1ce248fad4c8eb6133285cb7",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-storage-11-150.png": "c8bcae7fc27cbf9712b293479f2fe5a4b11f76caad0d76af32a2c3343e0f4044",
+    "evidence/cosmos2-is6-import-20261104w-399-import-01-100.png": "e6f7222b59827289d60740be9f66320dbc7a7227c6439c6f1f782b79c286184a",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-import-01-100.png": "bbba89afb0215e5e2d1e1e11c0f7d1167b077a9d6d9e62ed9727fd40e1304425",
+    "evidence/cosmos2-is6-import-20261104w-399-import-01-150.png": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-import-01-150.png": "4b8af46c4bc3ef778133bdf6fae338ba01737c56b2ba13da949a1451af029013",
+    "evidence/cosmos2-is6-import-20261104w-599-overview-00-100.png": "fdb95258c37f8d9de45177b3f8443f2c24879ec234d82cc496e23bc3e44f7a7f",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-00-100.png": "8b599978b572e29b10a91bc1c8b1d33c8ebbe61e4ce1c9ac1ff67418c6a01f75",
+    "evidence/cosmos2-is6-import-20261104w-599-overview-01-100.png": "6dbd79f9b37a681cd8c2b6b11a28ad505e32e0d36713eaae7aba233c3a083fff",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-01-100.png": "2b44aaf75029de8bf80892118a878a660d03e0c8b31249fc080d7be7608eee76",
+    "evidence/cosmos2-is6-import-20261104w-599-overview-10-100.png": "52962aa0cb45a0ded524ed1aef1e1adfeca787b5286a6d8ffa38b6677a5d5008",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-10-100.png": "bb29cd6aa2d25d72b91116a9cf9b7dd97b56af79be529e8ef08a1b17a96016ea",
+    "evidence/cosmos2-is6-import-20261104w-599-overview-11-100.png": "dd5df090edc7c0f9132049df8f7c074424e67a21b50a94cc189be6b9b27c491c",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-11-100.png": "873cbfd0266e4465c80a55fca79d975f514825d3799edeebc8f5db94be4e0aaa",
+    "evidence/cosmos2-is6-import-20261104w-599-overview-11-150.png": "fc3f88db214119af24ed9e27524407513109f59486883c01b09dbeb73da3457e",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-11-150.png": "c5bdce92709bd0ec8ce562b787d3e781af7f81b820b0d06256c9a1bbde48efd2",
+    "evidence/cosmos2-is6-import-20261104w-599-storage-11-150.png": "264fe0cb0edf6ef2e4f487bec1e49668fbea608849f7611fdf3a819044ccb167",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-storage-11-150.png": "7db38617c2a4f879008db42e363f687737cec88d33bc6600c40b0215751a4501",
+    "evidence/cosmos2-is6-import-20261104w-599-import-10-100.png": "5d006461e79a005728f2e5513b251d109d444c023c77ee93adb35a282bc206e7",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-import-10-100.png": "c45562a2c0bc90f84e65e62cf02c8510a337c6fb51aa57bea5ce5b94e106bb33",
+    "evidence/cosmos2-is6-import-20261104w-599-import-10-150.png": "9922945dae0ae4cfc1fba8e586f7d01d60f657d53182b909093d391e3d45cbfd",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-import-10-150.png": "20c47aa17d4b4e5ea21f9b321e5013a736ef92442327c0c469050c5bc75f2422"
+  },
+  "formats": {
+    "engine-before": {
+      "mode": "RGB",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    "printwindow": {
+      "mode": "RGBA",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_histogram": {
+        "0": 4,
+        "255": 2073596
+      }
+    },
+    "engine-after": {
+      "mode": "RGB",
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  },
+  "regions": {
+    "left_panel": [
+      36,
+      175,
+      530,
+      924
+    ],
+    "caption": [
+      1568,
+      180,
+      1884,
+      487
+    ],
+    "footer": [
+      36,
+      953,
+      1884,
+      1053
+    ]
+  },
+  "comparisons": [
+    {
+      "first": "engine-before",
+      "second": "printwindow",
+      "different_pixels": 4,
+      "max_channel_difference": 13,
+      "changed_coordinates_y_x": [
+        [
+          28,
+          1143
+        ],
+        [
+          28,
+          1198
+        ],
+        [
+          30,
+          1141
+        ],
+        [
+          485,
+          684
+        ]
+      ],
+      "region_different_pixels": {
+        "left_panel": 0,
+        "caption": 0,
+        "footer": 0
+      }
+    },
+    {
+      "first": "engine-before",
+      "second": "engine-after",
+      "different_pixels": 0,
+      "max_channel_difference": 0,
+      "changed_coordinates_y_x": [],
+      "region_different_pixels": {
+        "left_panel": 0,
+        "caption": 0,
+        "footer": 0
+      }
+    }
+  ],
+  "verified_inspection_copies": [
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-399-overview-00-100.png",
+      "original_sha256": "a807ce56bd7c3a99fdeaf873a7fa50b73bd03c575558a715e5212288868a3b88",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-00-100.png",
+      "inspection_sha256": "d52464373f3a13fa0424c05845a802f9fb4af3a5b34760e96cd8044c83e7d11b",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-399-overview-01-100.png",
+      "original_sha256": "7592b6a18e4d033007e1f3711313fad23668240ebaa72eba1a5ce05a7e4865fe",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-01-100.png",
+      "inspection_sha256": "0f9555e0f58c725818a255cb33cf641a01c8a636d08ec24f21c97a29f41d3a2f",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-399-overview-10-100.png",
+      "original_sha256": "a983864172ce9f707c32602cf36b8eb50aef10efc291c18a028040e510ca31ce",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-10-100.png",
+      "inspection_sha256": "bac0b554d683f14577615e90dfea1a825275fbf2221b04411aec092f0391a149",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-399-overview-11-100.png",
+      "original_sha256": "3682aebb883e4386af287167828b703e45f86cccbc27772f5e7e8c9c6d9eb59f",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-11-100.png",
+      "inspection_sha256": "f725c54da214f0860bc58d5edae6b7af7c40970433c8df4a47a3f881fa7ce7ed",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-399-overview-11-150.png",
+      "original_sha256": "a28de059e21c114a0b0fdcfcb24233f6f52fe2a1da728e14194947e8f87f5375",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-11-150.png",
+      "inspection_sha256": "83aadad598338b8b5209cdd0b524f7453de348c39897fa6f7865a1937a171713",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-399-storage-11-150.png",
+      "original_sha256": "b7a3d4fc0fca9d50513334919a93306a66e59fdd1ce248fad4c8eb6133285cb7",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-storage-11-150.png",
+      "inspection_sha256": "c8bcae7fc27cbf9712b293479f2fe5a4b11f76caad0d76af32a2c3343e0f4044",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-399-import-01-100.png",
+      "original_sha256": "e6f7222b59827289d60740be9f66320dbc7a7227c6439c6f1f782b79c286184a",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-import-01-100.png",
+      "inspection_sha256": "bbba89afb0215e5e2d1e1e11c0f7d1167b077a9d6d9e62ed9727fd40e1304425",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-399-import-01-150.png",
+      "original_sha256": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-import-01-150.png",
+      "inspection_sha256": "4b8af46c4bc3ef778133bdf6fae338ba01737c56b2ba13da949a1451af029013",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-599-overview-00-100.png",
+      "original_sha256": "fdb95258c37f8d9de45177b3f8443f2c24879ec234d82cc496e23bc3e44f7a7f",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-00-100.png",
+      "inspection_sha256": "8b599978b572e29b10a91bc1c8b1d33c8ebbe61e4ce1c9ac1ff67418c6a01f75",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-599-overview-01-100.png",
+      "original_sha256": "6dbd79f9b37a681cd8c2b6b11a28ad505e32e0d36713eaae7aba233c3a083fff",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-01-100.png",
+      "inspection_sha256": "2b44aaf75029de8bf80892118a878a660d03e0c8b31249fc080d7be7608eee76",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-599-overview-10-100.png",
+      "original_sha256": "52962aa0cb45a0ded524ed1aef1e1adfeca787b5286a6d8ffa38b6677a5d5008",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-10-100.png",
+      "inspection_sha256": "bb29cd6aa2d25d72b91116a9cf9b7dd97b56af79be529e8ef08a1b17a96016ea",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-599-overview-11-100.png",
+      "original_sha256": "dd5df090edc7c0f9132049df8f7c074424e67a21b50a94cc189be6b9b27c491c",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-11-100.png",
+      "inspection_sha256": "873cbfd0266e4465c80a55fca79d975f514825d3799edeebc8f5db94be4e0aaa",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-599-overview-11-150.png",
+      "original_sha256": "fc3f88db214119af24ed9e27524407513109f59486883c01b09dbeb73da3457e",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-11-150.png",
+      "inspection_sha256": "c5bdce92709bd0ec8ce562b787d3e781af7f81b820b0d06256c9a1bbde48efd2",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-599-storage-11-150.png",
+      "original_sha256": "264fe0cb0edf6ef2e4f487bec1e49668fbea608849f7611fdf3a819044ccb167",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-storage-11-150.png",
+      "inspection_sha256": "7db38617c2a4f879008db42e363f687737cec88d33bc6600c40b0215751a4501",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-599-import-10-100.png",
+      "original_sha256": "5d006461e79a005728f2e5513b251d109d444c023c77ee93adb35a282bc206e7",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-import-10-100.png",
+      "inspection_sha256": "c45562a2c0bc90f84e65e62cf02c8510a337c6fb51aa57bea5ce5b94e106bb33",
+      "equal_RGB_pixels": true
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104w-599-import-10-150.png",
+      "original_sha256": "9922945dae0ae4cfc1fba8e586f7d01d60f657d53182b909093d391e3d45cbfd",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-import-10-150.png",
+      "inspection_sha256": "20c47aa17d4b4e5ea21f9b321e5013a736ef92442327c0c469050c5bc75f2422",
+      "equal_RGB_pixels": true
+    }
+  ],
+  "supersedes_interpretation": [
+    "evidence/is6-import-caption-review-20261104v.json",
+    "IS-6-COEXISTENCIA-MIGRACAO-NATIVA-K5-REVISAO-C.md: initial PrintWindow-loss diagnosis only"
+  ],
+  "findings": [
+    "The V files have identical RGB pixels throughout all three inspected UI regions.",
+    "Only four pixels outside those UI regions differ between native and PrintWindow images.",
+    "The earlier claim that the PrintWindow file lost UI pixels is refuted by direct comparison.",
+    "All sixteen W inspection copies preserve exactly the native RGB pixels; original PNGs remain unchanged.",
+    "The image preview presentation is not sufficient evidence of an internal product or capture-method defect."
+  ],
+  "scope": "Pixel comparison and correction of a prior interpretation only; manual visual review, own performance and promotion remain separate."
+}

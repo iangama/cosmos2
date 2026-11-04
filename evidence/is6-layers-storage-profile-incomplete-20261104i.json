@@ -1,0 +1,18 @@
+{
+  "accepted": false,
+  "completed": true,
+  "source_sha256": {
+    "evidence/is6-layers-storage-profile-20261104i.json": "04372b043da546a9c0aa1f86f401ca3e8ff8f7c3447e4e99efe7ae6948ac3b33",
+    "output/is6-layers-storage-profile-20261104i-driver.json": "b43e6db606ac6ab345a1b1257a95b424de527d9e0d9bc0e2a8e65fbd5c8459ed",
+    "output/is6-k5-import-flow-20261104b.json": "af38b253e0c719fdc18dddb9822473c801a0f742a9ba8a29a11ece7207bc00dd",
+    "output/is6-layers-storage-host-profile-k4-i-20261104.log": "c354b8a3fb2459196d7e28b26b7f754d6fa133dcc6714d91cec7dfa06acf36af",
+    "output/is6-layers-product0.20.1/execution-logs/1793806622913205800/session.json": "330636fe96ecec6668735f71005283154833fbed7a9f979971450794181bbcce",
+    "output/is6-layers-product0.20.1/execution-logs/1793806622913205800/process-result.json": "0992090c6233f6d606cba90e0af041d6a797a801ee768f271f6a5d86e2ac2f2e"
+  },
+  "reason": "Collector and driver stopped without final receipt; zero measurement windows. Workflow later timed out. Cause not established.",
+  "process_result": {
+    "app_exit": 0,
+    "server_exit": 0
+  },
+  "scope": "Diagnostic only; normal archived app/server exits do not accept an incomplete benchmark."
+}

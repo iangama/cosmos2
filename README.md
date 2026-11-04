@@ -4,12 +4,15 @@ Novo projeto de explorador e laboratório do universo para PC, inspirado em
 SpaceEngine, Universe Sandbox, OpenSpace e Celestia.
 
 **Estado em 04/11/2026: sete marcos com aceite local; construção em continuidade.**
-A candidata isolada 0.20.1 passou em persistência/reinício de camadas da Terra
-e de Júpiter, com 12 capturas revistas. O perfil próprio segue pendente após
-uma coleta recusada. A fundação de importação composta passou em 24 conversões
-CPU e 229 recusas; sua integração nativa ainda está em construção.
-Veja os [resultados K4](IS-6-COEXISTENCIA-PERSISTENCIA-K4-RESULTADO-20261104B.md)
-e [K5A](IS-6-COEXISTENCIA-MIGRACAO-K5-RESULTADO-20261104.md).
+A candidata isolada0.20.1 passou em persistência, reinício e perfil próprio,
+com quatro janelas,240comandos e nenhum quadro acima de100ms. A importação
+composta na0.21.1 passou nos testes CPU e nas jornadas funcionais nativas
+Terra/Júpiter. A revisão visual W passou com16capturas nativas e as quatro
+visibilidades por corpo. A comparação direta dos pixels corrigiu uma
+interpretação anterior sobre o PrintWindow: os arquivos conservavam a interface.
+O perfil próprio0.21.1 e os saves apenas espaciais continuam pendentes. Veja os
+[resultados K4](IS-6-COEXISTENCIA-PERSISTENCIA-K4-RESULTADO-20261104B.md)
+e [K5](IS-6-COEXISTENCIA-MIGRACAO-K5-RESULTADO-20261104.md).
 Palavras de retomada: **cosmos2** ou **cosmos 2**. O Cosmos original permanece separado.
 
 A revisão 3.0 incorpora o pedido de instrumentos científicos, gravidade
