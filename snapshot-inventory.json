@@ -98,8 +98,8 @@
     },
     {
       "path": "COSMOS2-PASSAGEM-20261103-8PORCENTO.txt",
-      "bytes": 3145,
-      "sha256": "1e16de5b5d4d9e46ccf8bc3602e4f9a44b0f342aa93237ed135861389c2fda6d"
+      "bytes": 3903,
+      "sha256": "6f3f5a87c8023b12facb4b5d29d6dcfb91434e09ae8325414643166ad38f03a6"
     },
     {
       "path": "DECAIMENTOS.md",
@@ -155,6 +155,11 @@
       "path": "G0-DECISAO.md",
       "bytes": 3305,
       "sha256": "5a563df09dc3de981fec64664bce89b1d5a6506788878de0943bf7424b9c7304"
+    },
+    {
+      "path": "GITHUB-BACKUP-20261103.txt",
+      "bytes": 758,
+      "sha256": "d9a4fb2a5bd8052f2f4fcf8c128f5717e7d2db0da48cc16eacea89b72ff18a0b"
     },
     {
       "path": "GRAVIDADE-NUMERICO.md",
@@ -968,8 +973,8 @@
     },
     {
       "path": "LEIA-PRIMEIRO.md",
-      "bytes": 2689,
-      "sha256": "e6415ae157c0d5dd3b0b941cc5ec760088ff67a454c1032466f5ddd1f20a1e50"
+      "bytes": 3447,
+      "sha256": "823d269fdb5739f7ae218eb4949746f26abf246ba3b065ae2e081fd733dba9eb"
     },
     {
       "path": "MARES-EQUILIBRIO.md",
@@ -3017,6 +3022,11 @@
       "sha256": "369e137a85ade1d58a2032e9bcf9205e3f139958e668a646c923b620389faaf3"
     },
     {
+      "path": "output/is5-compression-product0.17.2/build-manifest.json",
+      "bytes": 36657,
+      "sha256": "018c919d63f5327725583e9d09e20abd3aeb1ade03bdb644afb56273810568e9"
+    },
+    {
       "path": "output/is5-compression-staging/LICENSE-GPL-3.0.txt",
       "bytes": 35147,
       "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
@@ -3527,6 +3537,11 @@
       "sha256": "386c4665810017782ee3c973ab997474e5675020e56e57661ecfd5c5e3244ada"
     },
     {
+      "path": "output/is6-layers-product-staging-b/ui/is6-layers.js",
+      "bytes": 8587,
+      "sha256": "2044c5f1c276673a41a6fcc6739b499f39e57b9e1ecfec778dd2f019ad08aeba"
+    },
+    {
       "path": "output/is6-layers-product-staging/is6_layer_contract.py",
       "bytes": 4236,
       "sha256": "f721b43a55a5e4dd2bfedce262bba85ce099573cc039736a62b677cb9b5f1ce2"
@@ -3567,9 +3582,9 @@
       "sha256": "0f421a931bbb061fd2cb6df78d4783488ae2a0a982a1dd230e3a8f31212b742a"
     },
     {
-      "path": "output/is6-layers-product-staging-b/ui/is6-layers.js",
-      "bytes": 8587,
-      "sha256": "2044c5f1c276673a41a6fcc6739b499f39e57b9e1ecfec778dd2f019ad08aeba"
+      "path": "output/is6-layers-product0.19.0/build-manifest.json",
+      "bytes": 131824,
+      "sha256": "82367acafea07efd05c81619de98941e04580d0cef31c2857473a834f7dabe04"
     },
     {
       "path": "output/is6-layers-product0.19.1/app/artifacts.py",
@@ -4512,29 +4527,9 @@
       "sha256": "2fbd0aa78c84e851ac9fd6d839dfbd1aaab658046197b4ad6422809f4d30b335"
     },
     {
-      "path": "output/is6-product-staging/is6_laboratory.py",
-      "bytes": 13098,
-      "sha256": "29943afe6a85eaee603f4d04c6313c9a9a67d9848d936c162a386e09f680d574"
-    },
-    {
-      "path": "output/is6-product-staging/is6_product_scene.py",
-      "bytes": 5097,
-      "sha256": "7e2c7c17f85e6cb9b681ad45d22cf35fb40ec0a90bd8d8450557d966cbfcb128"
-    },
-    {
-      "path": "output/is6-product-staging/ui/is6-spatial-panel.html",
-      "bytes": 4825,
-      "sha256": "e2f77c99858440882c0d7758cd6e0abd57c9cd352a04c04638606a898f068454"
-    },
-    {
-      "path": "output/is6-product-staging/ui/is6-spatial.css",
-      "bytes": 2414,
-      "sha256": "6954227d672b81c57972e25c146e2d0f12bd2d1ee03013c42709270a92a82aef"
-    },
-    {
-      "path": "output/is6-product-staging/ui/is6-spatial.js",
-      "bytes": 9808,
-      "sha256": "89476bfa96a62ccb69ea4abb12e4fc9816d155e226799c6fd6b7e2c07d6d777a"
+      "path": "output/is6-layers-product0.19.1/build-manifest.json",
+      "bytes": 158776,
+      "sha256": "3f9df89f0b72f25de04001cbb6c6d353fb459e0769c9a1ea4919b829a81f7d5c"
     },
     {
       "path": "output/is6-product-staging-b/is6_laboratory.py",
@@ -4637,6 +4632,31 @@
       "sha256": "97a7a8ee5c1aab3527b622f5bd678a6947baf7c23f526c328e585cb38ca7122b"
     },
     {
+      "path": "output/is6-product-staging/is6_laboratory.py",
+      "bytes": 13098,
+      "sha256": "29943afe6a85eaee603f4d04c6313c9a9a67d9848d936c162a386e09f680d574"
+    },
+    {
+      "path": "output/is6-product-staging/is6_product_scene.py",
+      "bytes": 5097,
+      "sha256": "7e2c7c17f85e6cb9b681ad45d22cf35fb40ec0a90bd8d8450557d966cbfcb128"
+    },
+    {
+      "path": "output/is6-product-staging/ui/is6-spatial-panel.html",
+      "bytes": 4825,
+      "sha256": "e2f77c99858440882c0d7758cd6e0abd57c9cd352a04c04638606a898f068454"
+    },
+    {
+      "path": "output/is6-product-staging/ui/is6-spatial.css",
+      "bytes": 2414,
+      "sha256": "6954227d672b81c57972e25c146e2d0f12bd2d1ee03013c42709270a92a82aef"
+    },
+    {
+      "path": "output/is6-product-staging/ui/is6-spatial.js",
+      "bytes": 9808,
+      "sha256": "89476bfa96a62ccb69ea4abb12e4fc9816d155e226799c6fd6b7e2c07d6d777a"
+    },
+    {
       "path": "output/is6-spatial-artifact-staging/is6_spatial_artifact.py",
       "bytes": 14012,
       "sha256": "c4c2106eaf808b6518bfd146e7d68325fee8c3ab01a9993c8a02564ef7acab51"
@@ -4647,19 +4667,39 @@
       "sha256": "6e324c7fd13a3624d8f60292147f4b7048ba7e4ce186ac19f5851d54d7a5f4ad"
     },
     {
+      "path": "output/is6-spatial-product0.18.2/build-manifest.json",
+      "bytes": 95436,
+      "sha256": "7ac1e0725669b94439b54168ba5bd9b166aebaf0441c730f3080c1eaf4e96234"
+    },
+    {
+      "path": "output/is6-spatial-product0.18.3/build-manifest.json",
+      "bytes": 96835,
+      "sha256": "0451e61a123e5d1ff02cccd3950e94ef67870402ce3a51001171e9e71c41d462"
+    },
+    {
+      "path": "output/is6-spatial-product0.18.4/build-manifest.json",
+      "bytes": 98889,
+      "sha256": "af180b85bd1c197525688cbd31d05c66463d8413c066fd69ad3f5be9b83b59a2"
+    },
+    {
+      "path": "output/is6-spatial-product0.18.5/build-manifest.json",
+      "bytes": 99548,
+      "sha256": "995604720c3336954f147f50fdb1b0d29c554700f204127ebbf6baba49325885"
+    },
+    {
       "path": "output/is6-spatial-scene-staging/is6_spatial_scene.py",
       "bytes": 9013,
       "sha256": "6fb55bdab9b3bf06c639472802c1cc48223394539b9a7751c9057bbc5ea87533"
     },
     {
-      "path": "output/is6-spatial-staging/is6_spatial.py",
-      "bytes": 7379,
-      "sha256": "575954d7788aad186c7294579d0601af8979fae8ccf0394dfe11dccf45504090"
-    },
-    {
       "path": "output/is6-spatial-staging-b/is6_spatial.py",
       "bytes": 7465,
       "sha256": "3827a18b86e4dfe6f5b78e55ac8802c2ce971c9a012d9f7ec0f78dc5031e41de"
+    },
+    {
+      "path": "output/is6-spatial-staging/is6_spatial.py",
+      "bytes": 7379,
+      "sha256": "575954d7788aad186c7294579d0601af8979fae8ccf0394dfe11dccf45504090"
     },
     {
       "path": "output/node-lifecycle-staging/before/include/openspace/scene/sceneinitializer.h",

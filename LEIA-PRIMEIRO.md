@@ -1,3 +1,15 @@
+BACKUP GITHUB CONCLUIDO — 03/11/2026
+Repositorio privado: https://github.com/iangama/cosmos2
+Branch main; commit e80eaa631901a0b21549622d17d73e4651c9fc04 confirmado no GitHub.
+Checkout do backup: /mnt/c/Users/Ian/cosmos2-github-snapshot-20261103
+1713 arquivos versionados;1710 arquivos de origem com hashes conferidos.
+Inclui codigo da0.19.1,stagingcientifico,scripts,planos,passagem,evidencias
+selecionadas e6PNG atuais. Exclui runtimes,builds,caches,sessoespessoais
+e parte dos dados/artefatos. Snapshot parcial de fontes,nao instalador
+nem pacote totalmente reproduzivel. snapshot-inventory.json registra escopo.
+Workspace original Cosmos2 preservado e continua semgit;nao confundir
+com checkout do backup. Proximo tecnico continua perfilUI0.19.1 eK4.
+
 PERFILK3 planejamento de entrada preparado em
 evidence/is6-layers-profile-plan-20261103a.json (4janelas/240comandos).
 Script prepare-is6-layers-profile-plan.py e suporte jáexecutados/congelados.
