@@ -1,0 +1,12 @@
+#spatial-panel{position:absolute;top:116px;bottom:104px;left:24px;width:355px;padding:18px;overflow:auto;z-index:7;background:#091822f5;scrollbar-width:thin;scrollbar-color:#385565 #10212e}
+#spatial-panel h1{font-size:24px;margin:5px 0 12px}#spatial-panel .spatial-intro{font-size:12px;color:#b2c8d5;line-height:1.6}
+.spatial-heading{display:flex;gap:12px;justify-content:space-between;align-items:start}.spatial-heading button{background:#243c4c;border-radius:5px;padding:7px;font-size:11px}.spatial-heading .eyebrow{font-size:8px;line-height:1.5;margin:0}
+.spatial-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}#spatial-panel .field{font-size:11px;margin-bottom:12px}#spatial-panel .wide{margin:5px 0 8px;min-height:36px;font-size:12px}
+#spatial-status{font-size:12px;color:#8dd6dc;line-height:1.6;min-height:1.6em}#spatial-error{font-size:12px;color:#ffc477;line-height:1.6;overflow-wrap:anywhere}#spatial-error:empty{display:none}
+.spatial-reading{font-size:12px;line-height:1.7;white-space:pre-line;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}.spatial-visible{margin:13px 0}#spatial-panel details{padding-top:13px;margin-top:13px}#spatial-panel summary{font-size:12px}
+#spatial-caption{position:absolute;right:24px;top:120px;padding:16px;width:295px;z-index:5;pointer-events:none}#spatial-caption p{font-size:12px;line-height:1.6;margin:5px 0;color:#b9d5df}#spatial-caption .eyebrow{font-size:9px;color:#83d9e1}
+.spatial-active #lab-panel,.spatial-active #lab-details,.spatial-active #scene-targets,.spatial-active #zone-setup,.spatial-active #particle-setup{display:none!important}
+.spatial-active nav button:not(#open-spatial):not(#open-stellar-reference),.spatial-active #home{pointer-events:none;opacity:.4}
+header{gap:14px}header nav{min-width:0;overflow-x:auto;scrollbar-width:thin;flex:1}header nav button{flex-shrink:0;font-size:12px;padding:10px}.large-ui .brand{font-size:18px;letter-spacing:3px}.large-ui header{padding:0 12px;gap:12px}.large-ui nav button{font-size:10px;padding:9px 7px}.large-ui #spatial-panel{width:330px}.large-ui #spatial-caption{width:230px;padding:12px}.large-ui #spatial-caption p{font-size:10px}
+#spatial-panel input:focus-visible,#spatial-panel select:focus-visible,#spatial-panel button:focus-visible{outline:2px solid #8dd6dc;outline-offset:2px}
+@media(max-width:1000px){#spatial-caption{right:20px;width:220px}header .connection{display:none}}

@@ -1,0 +1,20 @@
+#stellar-reference-panel{position:absolute;top:116px;bottom:104px;left:24px;right:24px;z-index:6;padding:22px;overflow:auto;background:#08151f;color:#d3e6ee}
+.zone-active nav #open-stellar-reference{pointer-events:auto;opacity:1}
+#stellar-reference-panel[hidden]{display:none}
+#stellar-reference-panel h1{font-size:25px;margin:5px 0 12px}
+#stellar-reference-panel h2{font-size:14px;margin:8px 0}
+#stellar-reference-panel>p{max-width:1000px;font-size:13px;line-height:1.55;margin:0 0 18px}
+.stellar-reference-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.stellar-reference-heading button{background:#243c4c;padding:11px 16px;border-radius:7px;white-space:nowrap}
+.stellar-reference-layout{display:grid;grid-template-columns:minmax(245px,1fr) minmax(440px,2.1fr);gap:26px;align-items:start}
+.stellar-reference-selection{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.stellar-reference-reading{font-size:12px;white-space:pre-line;line-height:1.65;overflow-wrap:anywhere}
+#stellar-reference-status{color:#8dd6dc;font-size:12px;min-height:1.5em}
+#stellar-reference-curves canvas{display:block;width:100%;height:auto;border:1px solid #355264;border-radius:8px;background:#091a25;cursor:crosshair}
+#stellar-reference-curves>div{margin-bottom:18px}
+#stellar-reference-abundances{width:100%;font-size:12px;border-collapse:collapse}
+#stellar-reference-abundances td{padding:6px;border-bottom:1px solid #293b4a}
+#stellar-reference-abundances td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+#stellar-reference-source{color:#8dd6dc;font-size:12px;overflow-wrap:anywhere}
+#stellar-reference-panel input:focus-visible,#stellar-reference-panel select:focus-visible,#stellar-reference-panel button:focus-visible{outline:2px solid #8dd6dc;outline-offset:3px}
+@media(max-width:760px){.stellar-reference-layout{grid-template-columns:1fr}}

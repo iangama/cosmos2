@@ -1,0 +1,123 @@
+{
+  "accepted": true,
+  "completed": true,
+  "candidate": "0.22.1",
+  "native_receipt": "evidence/is6-spatial-import-native-20261105e.json",
+  "native_receipt_sha256": "b35143d7d5cf91d7c6d9bacaf836dfd29ac813a851c5400c2a283ae794c0f100",
+  "captures": [
+    {
+      "path": "output/is6-spatial-import-native-20261105e/import-100.png",
+      "sha256": "a5b83e3c502c05f84586cab883ec6614b747f3476bc2cd936b3a91104e461a27",
+      "RGB": "output/is6-spatial-import-native-20261105e/import-100-RGB.png",
+      "RGB_sha256": "2913c7daa9d7407cfbf93bf3806dce1acb1a8b17a6a51d3c5b4a68d1a2391915",
+      "layout": {
+        "width": 342,
+        "scroll": 342,
+        "error": ""
+      }
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/import-150.png",
+      "sha256": "6efdd97f3e23fc821017032212ca343e150550d4d31bc7dc85e7374e37329d1b",
+      "RGB": "output/is6-spatial-import-native-20261105e/import-150-RGB.png",
+      "RGB_sha256": "865688fb3160442ba6ea57a113d7d0c4256e2a6fc97cedbf55e75e7cd57812c5",
+      "layout": {
+        "width": 321,
+        "scroll": 321,
+        "error": ""
+      }
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/probe-100.png",
+      "sha256": "fb8373ec292ef401d0ab68c0caf67532896fb9d93a61e9674e72cb780d963e05",
+      "RGB": "output/is6-spatial-import-native-20261105e/probe-100-RGB.png",
+      "RGB_sha256": "7b66641504338fa5b6097ac656c1ca7ccab0cb075eec00fccc1ee7872a970f6e",
+      "layout": {
+        "width": 342,
+        "scroll": 342,
+        "error": ""
+      }
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/source-100.png",
+      "sha256": "b8cc85e87db0f0ec77557fba9ad47aaaa61a4fd77122f4d704a123be4a6d63ec",
+      "RGB": "output/is6-spatial-import-native-20261105e/source-100-RGB.png",
+      "RGB_sha256": "a721c1101352ae3a55be6f47516212bc8e2c6174b9600638a732a30704d6e240",
+      "layout": {
+        "width": 342,
+        "scroll": 342,
+        "error": ""
+      }
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/probe-150.png",
+      "sha256": "71aa19621a9479aaa74dfec83696ade55e13f033a4c8dcfcad4416a4c3991475",
+      "RGB": "output/is6-spatial-import-native-20261105e/probe-150-RGB.png",
+      "RGB_sha256": "98ecde74424b54bb4965f2fcc3dfa8d319d10c08f31a3d867adc41a75dc1954f",
+      "layout": {
+        "width": 321,
+        "scroll": 321,
+        "error": ""
+      }
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/source-150.png",
+      "sha256": "4cfc0c13321bebd4bbdb70cc53fd3408759de822994191a0e11f838189e66906",
+      "RGB": "output/is6-spatial-import-native-20261105e/source-150-RGB.png",
+      "RGB_sha256": "23b3f1579822c0cbdd5f08a97cf88c686c0af51f7a2054f042f69d55d1e6dfbe",
+      "layout": {
+        "width": 321,
+        "scroll": 321,
+        "error": ""
+      }
+    }
+  ],
+  "review": "New import100/150 reviewed directly: selected filename appears in the actual file control and summary; scientific source and original view readable. Four probe/source UI rectangles are pixel-identical to the reviewed C images; full native-to-RGB pixels match for all six. Actual File input ownership was asserted by the native verifier.",
+  "UI_comparisons": [
+    {
+      "source": "output/is6-spatial-import-native-20261105c/probe-100-RGB.png",
+      "target": "output/is6-spatial-import-native-20261105e/probe-100-RGB.png",
+      "rectangle": [
+        24,
+        116,
+        379,
+        976
+      ],
+      "different_UI_pixels": 0
+    },
+    {
+      "source": "output/is6-spatial-import-native-20261105c/probe-150-RGB.png",
+      "target": "output/is6-spatial-import-native-20261105e/probe-150-RGB.png",
+      "rectangle": [
+        36,
+        174,
+        531,
+        924
+      ],
+      "different_UI_pixels": 0
+    },
+    {
+      "source": "output/is6-spatial-import-native-20261105c/source-100-RGB.png",
+      "target": "output/is6-spatial-import-native-20261105e/source-100-RGB.png",
+      "rectangle": [
+        24,
+        116,
+        379,
+        976
+      ],
+      "different_UI_pixels": 0
+    },
+    {
+      "source": "output/is6-spatial-import-native-20261105c/source-150-RGB.png",
+      "target": "output/is6-spatial-import-native-20261105e/source-150-RGB.png",
+      "rectangle": [
+        36,
+        174,
+        531,
+        924
+      ],
+      "different_UI_pixels": 0
+    }
+  ],
+  "scope": "First native solar UI slice only; restart and own performance profile not included."
+}

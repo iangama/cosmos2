@@ -892,6 +892,11 @@
       "sha256": "d96a23b89d60d108fb2b31d657f5cc7ab09ef09e07554bc3c792d5e3d7220bf3"
     },
     {
+      "path": "IS-6-IMPORTACAO-ESPACIAL-K5D-NATIVO-RESULTADO-20261105.md",
+      "bytes": 2815,
+      "sha256": "54323552124e1ddeaf7263350ae094476daf15d292255570d6b964492b87da6a"
+    },
+    {
       "path": "IS-6-IMPORTACAO-ESPACIAL-K5D-RESULTADO-20261104.md",
       "bytes": 1640,
       "sha256": "7aae7b66d09da86920d54800889987d4c36389194f8b9b8ecce259e914317807"
@@ -1078,8 +1083,8 @@
     },
     {
       "path": "LEIA-PRIMEIRO.md",
-      "bytes": 6656,
-      "sha256": "3a7290c6d3e3e891dc6dc55ba93fb139e18bbb62fb9f611749d6dcf27fb19867"
+      "bytes": 7065,
+      "sha256": "62214d88f9d7ca6fcff43deb85c2768375c2f1d568b1c680f2db2926deac0b9b"
     },
     {
       "path": "MARES-EQUILIBRIO.md",
@@ -1148,8 +1153,8 @@
     },
     {
       "path": "PASSAGEM-COTA.txt",
-      "bytes": 6965,
-      "sha256": "c14db5c9ac27cb5cc3aabdffb23b6032e11cc33707e8310c2f5b6b0dc6b37189"
+      "bytes": 2281,
+      "sha256": "1f9f6158b9291bee3f0b359bce1900b55eb9902fc76c8d33926292840df7415a"
     },
     {
       "path": "PASSAGEM.txt",
@@ -1193,8 +1198,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9518,
-      "sha256": "ccf25f7e8b5231190b82f4bc25b26b6561c85e39ccc75cdf0e3f4e8ec4cf36b1"
+      "bytes": 9648,
+      "sha256": "9ca805e7f8d3ead4b150f9caa21da598c431229510482683cfcb7477275456b7"
     },
     {
       "path": "RELATORIO-GRAVIDADE-MALHA-2026-10-18.md",
@@ -2267,6 +2272,11 @@
       "sha256": "fa78d1bfc7e6e29bade239a5e7c3448c5efbcf9fa2985872a1b1035288017a6d"
     },
     {
+      "path": "evidence/github-source-push-20261105a.json",
+      "bytes": 529,
+      "sha256": "80573ebf6a4c6364b867736958a2b6ea2fca14acfc2d98473d9b7ffc54d5546d"
+    },
+    {
       "path": "evidence/github-source-staged-20261104c.json",
       "bytes": 890,
       "sha256": "4314e0ec88abb6fe3bf87075013fb3c9d10b092a182c39766b03e316636bfa51"
@@ -2310,6 +2320,11 @@
       "path": "evidence/github-source-sync-20261104m.json",
       "bytes": 1186,
       "sha256": "93b968eb8115930f34b1354ee039ebffe0a1423c8b557ae5f12d40e541324cb4"
+    },
+    {
+      "path": "evidence/github-source-sync-20261105a.json",
+      "bytes": 1634,
+      "sha256": "8e4db53a0341bf2ba6ba822f48e652e32502bd57ece5e603ad4525e7076d99e2"
     },
     {
       "path": "evidence/gpu-memory-is6-k4-20261104g-1.json",
@@ -2697,6 +2712,41 @@
       "sha256": "e0fb4bed9ff95bed07b392d6e7bfb361991fa079e77dadbbb9b37c57ce4f29ce"
     },
     {
+      "path": "evidence/is6-spatial-import-http-20261105a.json",
+      "bytes": 283043,
+      "sha256": "fb6c1f0e36d241494d74843e5c607a5723bdfc20e3841145fbdf082f3b0f0341"
+    },
+    {
+      "path": "evidence/is6-spatial-import-native-20261105b.json",
+      "bytes": 281633,
+      "sha256": "0a0bf8f721f10daed130dcec362bbbcb68b276b0ba564e0c4984ead78ffba0b7"
+    },
+    {
+      "path": "evidence/is6-spatial-import-native-20261105c.json",
+      "bytes": 346187,
+      "sha256": "7e22052675093926f87f0a12e951f7e1a9f82d53a04fe55964879bf5015c145e"
+    },
+    {
+      "path": "evidence/is6-spatial-import-native-20261105d.json",
+      "bytes": 346392,
+      "sha256": "7d4342a5c219ddd340cff2ad2b4f791b906045f56df7987b0d79677749cde6f8"
+    },
+    {
+      "path": "evidence/is6-spatial-import-native-20261105e.json",
+      "bytes": 346831,
+      "sha256": "b35143d7d5cf91d7c6d9bacaf836dfd29ac813a851c5400c2a283ae794c0f100"
+    },
+    {
+      "path": "evidence/is6-spatial-import-native-20261105f.json",
+      "bytes": 347033,
+      "sha256": "6dcb199378b5c28c4f9e3db2d7c1a7d2087c56693fea9c9e1b0f0a5da926bb61"
+    },
+    {
+      "path": "evidence/is6-spatial-import-native-cleanup-20261105b.json",
+      "bytes": 1980,
+      "sha256": "40bf708e370092913143a44fcd52e57780d52b71ca8fdb9f63fda6a02784ae69"
+    },
+    {
       "path": "evidence/is6-spatial-import-service-20261104c.json",
       "bytes": 31969,
       "sha256": "dafeff8f2b39718850e9d3623b6d97165236a5e79e413f45b74ad29796e79898"
@@ -2715,6 +2765,16 @@
       "path": "evidence/is6-spatial-import-store-20261104b.json",
       "bytes": 16664,
       "sha256": "fcc1324cc33d87417ce4ca733eedfccd5574d08c0f15a5dad4fe4ea0324473da"
+    },
+    {
+      "path": "evidence/is6-spatial-import-visual-20261105c.json",
+      "bytes": 2166,
+      "sha256": "1ebf5bcdeaff61caf9ed4e3e68ad2e9a103d510cab4adb9adc628fb41618674d"
+    },
+    {
+      "path": "evidence/is6-spatial-import-visual-20261105e.json",
+      "bytes": 4566,
+      "sha256": "1384d4a99635d2cb99408f5012565b5e4c658d27abd0a2b3bb75fa4f98bc8420"
     },
     {
       "path": "evidence/is6-ui-startup-diagnostic-20261104.json",
@@ -3535,6 +3595,11 @@
       "path": "output/c212-em-v04-staging/pair_kernel.cpp",
       "bytes": 2935,
       "sha256": "3c079c5066f621fc66da55920369754c87f0fc2317fbaff743a07469666c8054"
+    },
+    {
+      "path": "output/handoff-archive/before-20261104n.md",
+      "bytes": 8249,
+      "sha256": "937079c2d7df2f3b4f793e5453e97593657cbc65bf977afedd90bcf3f8389798"
     },
     {
       "path": "output/is3-body-lines-staging/body_field_lines.py",
@@ -10247,6 +10312,2426 @@
       "sha256": "ed9e80a0d36ad3e6e9cbdf883cf16cad6dfafea20ad6b1de5aeb3a820489d963"
     },
     {
+      "path": "output/is6-spatial-import-native-20261105b/stored-snapshots/branches/5639f459c270457bbb92ad86da278919.json",
+      "bytes": 3313763,
+      "sha256": "9bd49781ef772e26751e11ff93d5300b96f9b3446284c9a8abd835ec35f3d22c"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105b/stored-snapshots/branches/9e3da2e88bd24d6294de05966cac6093.json",
+      "bytes": 3313764,
+      "sha256": "b3544113dba72242e7f94ddb01064ed7a11420d1b6fd531eafdeb5a24e20c41f"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/import-100-RGB.png",
+      "bytes": 900537,
+      "sha256": "b813273eb4c91bd378ade5450747ea90935870ef98d03c4ac549174d00229aa5"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/import-100.png",
+      "bytes": 1039722,
+      "sha256": "360e66e31eb3336e53128ccb0de1aa4f70f8712da587ed126e89aa7018d82b7e"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/import-150-RGB.png",
+      "bytes": 826256,
+      "sha256": "865688fb3160442ba6ea57a113d7d0c4256e2a6fc97cedbf55e75e7cd57812c5"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/import-150.png",
+      "bytes": 999689,
+      "sha256": "6efdd97f3e23fc821017032212ca343e150550d4d31bc7dc85e7374e37329d1b"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/local-ui-readiness.json",
+      "bytes": 371,
+      "sha256": "3007f8cea491c990203a6f36118509de4e250ea429be425d3aa8084ac3b45221"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/probe-100-RGB.png",
+      "bytes": 842803,
+      "sha256": "7b66641504338fa5b6097ac656c1ca7ccab0cb075eec00fccc1ee7872a970f6e"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/probe-100.png",
+      "bytes": 688776,
+      "sha256": "fb8373ec292ef401d0ab68c0caf67532896fb9d93a61e9674e72cb780d963e05"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/probe-150-RGB.png",
+      "bytes": 853122,
+      "sha256": "98ecde74424b54bb4965f2fcc3dfa8d319d10c08f31a3d867adc41a75dc1954f"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/probe-150.png",
+      "bytes": 679309,
+      "sha256": "71aa19621a9479aaa74dfec83696ade55e13f033a4c8dcfcad4416a4c3991475"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/source-100-RGB.png",
+      "bytes": 864391,
+      "sha256": "a721c1101352ae3a55be6f47516212bc8e2c6174b9600638a732a30704d6e240"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/source-100.png",
+      "bytes": 699288,
+      "sha256": "b8cc85e87db0f0ec77557fba9ad47aaaa61a4fd77122f4d704a123be4a6d63ec"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/source-150-RGB.png",
+      "bytes": 859759,
+      "sha256": "23b3f1579822c0cbdd5f08a97cf88c686c0af51f7a2054f042f69d55d1e6dfbe"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/source-150.png",
+      "bytes": 684105,
+      "sha256": "4cfc0c13321bebd4bbdb70cc53fd3408759de822994191a0e11f838189e66906"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/stored-snapshots/branches/5639f459c270457bbb92ad86da278919.json",
+      "bytes": 3313763,
+      "sha256": "9bd49781ef772e26751e11ff93d5300b96f9b3446284c9a8abd835ec35f3d22c"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/stored-snapshots/branches/62d24e7975784bf9a4a0f8880e108884.json",
+      "bytes": 3313801,
+      "sha256": "a77793f0ba707ed23ee173fdd840af4bd7789bbb386bee4994a8f623c9fb2f08"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/stored-snapshots/branches/946b10b467894cccba38a2b76141ac5e.json",
+      "bytes": 3313786,
+      "sha256": "578194f4ce1140ea2903bb495d5eac99ed500d6b790e3db84c4662eff7d41586"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/stored-snapshots/branches/9e3da2e88bd24d6294de05966cac6093.json",
+      "bytes": 3313764,
+      "sha256": "b3544113dba72242e7f94ddb01064ed7a11420d1b6fd531eafdeb5a24e20c41f"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/stored-snapshots/exports/165c35743eac4964b41d90ef42f677bf.json",
+      "bytes": 3313684,
+      "sha256": "e9ba53dafbcb7d1bd701cc1ad4ed65917be2176ba55b79401663d5759f6f63bf"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/stored-snapshots/previews/524ae6db6a3b4e7cba93e020c2568ee1/binding.json",
+      "bytes": 23171,
+      "sha256": "fce674acb5fc21587c6992f210055b03491a7c61d0dab866724f8e8a3d9cfe08"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/stored-snapshots/saved.json",
+      "bytes": 3313684,
+      "sha256": "8641525f2aae736ce6a1958a0419c8f828b531a0aabbe012cc8e360b3b1a25b3"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/import-100-RGB.png",
+      "bytes": 900537,
+      "sha256": "b813273eb4c91bd378ade5450747ea90935870ef98d03c4ac549174d00229aa5"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/import-100.png",
+      "bytes": 1039722,
+      "sha256": "360e66e31eb3336e53128ccb0de1aa4f70f8712da587ed126e89aa7018d82b7e"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/import-150-RGB.png",
+      "bytes": 826256,
+      "sha256": "865688fb3160442ba6ea57a113d7d0c4256e2a6fc97cedbf55e75e7cd57812c5"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/import-150.png",
+      "bytes": 999689,
+      "sha256": "6efdd97f3e23fc821017032212ca343e150550d4d31bc7dc85e7374e37329d1b"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/local-ui-readiness.json",
+      "bytes": 371,
+      "sha256": "7b91db06cb97695ff6a620084e7e64a0dc4a87916331815cec18a2a7b251fb62"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/probe-100-RGB.png",
+      "bytes": 842803,
+      "sha256": "7b66641504338fa5b6097ac656c1ca7ccab0cb075eec00fccc1ee7872a970f6e"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/probe-100.png",
+      "bytes": 688776,
+      "sha256": "fb8373ec292ef401d0ab68c0caf67532896fb9d93a61e9674e72cb780d963e05"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/probe-150-RGB.png",
+      "bytes": 853122,
+      "sha256": "98ecde74424b54bb4965f2fcc3dfa8d319d10c08f31a3d867adc41a75dc1954f"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/probe-150.png",
+      "bytes": 679309,
+      "sha256": "71aa19621a9479aaa74dfec83696ade55e13f033a4c8dcfcad4416a4c3991475"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/source-100-RGB.png",
+      "bytes": 864391,
+      "sha256": "a721c1101352ae3a55be6f47516212bc8e2c6174b9600638a732a30704d6e240"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/source-100.png",
+      "bytes": 699288,
+      "sha256": "b8cc85e87db0f0ec77557fba9ad47aaaa61a4fd77122f4d704a123be4a6d63ec"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/source-150-RGB.png",
+      "bytes": 859759,
+      "sha256": "23b3f1579822c0cbdd5f08a97cf88c686c0af51f7a2054f042f69d55d1e6dfbe"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/source-150.png",
+      "bytes": 684105,
+      "sha256": "4cfc0c13321bebd4bbdb70cc53fd3408759de822994191a0e11f838189e66906"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/branches/5639f459c270457bbb92ad86da278919.json",
+      "bytes": 3313763,
+      "sha256": "9bd49781ef772e26751e11ff93d5300b96f9b3446284c9a8abd835ec35f3d22c"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/branches/5e328a781b7743e3a719bd0fcc123507.json",
+      "bytes": 3313801,
+      "sha256": "4075f6b208b71224001d7fccafbdb8754de6c1e997313a9b9d8d02736c331491"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/branches/62d24e7975784bf9a4a0f8880e108884.json",
+      "bytes": 3313801,
+      "sha256": "a77793f0ba707ed23ee173fdd840af4bd7789bbb386bee4994a8f623c9fb2f08"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/branches/946b10b467894cccba38a2b76141ac5e.json",
+      "bytes": 3313786,
+      "sha256": "578194f4ce1140ea2903bb495d5eac99ed500d6b790e3db84c4662eff7d41586"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/branches/9e3da2e88bd24d6294de05966cac6093.json",
+      "bytes": 3313764,
+      "sha256": "b3544113dba72242e7f94ddb01064ed7a11420d1b6fd531eafdeb5a24e20c41f"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/branches/d06c52c2b08f44da85f114638ccd2a0b.json",
+      "bytes": 3313786,
+      "sha256": "70e5e401bc7cabfff82d589aeb024bdaec2b4ea4ab98be5febaf44f37962ccd5"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/exports/165c35743eac4964b41d90ef42f677bf.json",
+      "bytes": 3313684,
+      "sha256": "e9ba53dafbcb7d1bd701cc1ad4ed65917be2176ba55b79401663d5759f6f63bf"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/exports/a3f26f2690f64453b142033fca02ece3.json",
+      "bytes": 3313684,
+      "sha256": "d339dd29af305f94f1d3782d4f376d41d19f470eedb3095d3313d4663142ce81"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/previews/27a8031f6a5a41228afd16ca37232ed5/binding.json",
+      "bytes": 23171,
+      "sha256": "fce674acb5fc21587c6992f210055b03491a7c61d0dab866724f8e8a3d9cfe08"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/previews/524ae6db6a3b4e7cba93e020c2568ee1/binding.json",
+      "bytes": 23171,
+      "sha256": "fce674acb5fc21587c6992f210055b03491a7c61d0dab866724f8e8a3d9cfe08"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/previews/6d1327ca8d9c40779e821895803750c5/binding.json",
+      "bytes": 23171,
+      "sha256": "fce674acb5fc21587c6992f210055b03491a7c61d0dab866724f8e8a3d9cfe08"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105d/stored-snapshots/saved.json",
+      "bytes": 3313684,
+      "sha256": "0a006c634fea87d9ac5fe165a88c998bbadec1b2fa0ad1b0ccd1190427c4a509"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/import-100-RGB.png",
+      "bytes": 901014,
+      "sha256": "2913c7daa9d7407cfbf93bf3806dce1acb1a8b17a6a51d3c5b4a68d1a2391915"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/import-100.png",
+      "bytes": 1039926,
+      "sha256": "a5b83e3c502c05f84586cab883ec6614b747f3476bc2cd936b3a91104e461a27"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/import-150-RGB.png",
+      "bytes": 826256,
+      "sha256": "865688fb3160442ba6ea57a113d7d0c4256e2a6fc97cedbf55e75e7cd57812c5"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/import-150.png",
+      "bytes": 999689,
+      "sha256": "6efdd97f3e23fc821017032212ca343e150550d4d31bc7dc85e7374e37329d1b"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/local-ui-readiness.json",
+      "bytes": 373,
+      "sha256": "ed234d3c975959dc986792947ae9d1b320db2af011310936cbe4c25d1d150895"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/probe-100-RGB.png",
+      "bytes": 842803,
+      "sha256": "7b66641504338fa5b6097ac656c1ca7ccab0cb075eec00fccc1ee7872a970f6e"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/probe-100.png",
+      "bytes": 688776,
+      "sha256": "fb8373ec292ef401d0ab68c0caf67532896fb9d93a61e9674e72cb780d963e05"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/probe-150-RGB.png",
+      "bytes": 853122,
+      "sha256": "98ecde74424b54bb4965f2fcc3dfa8d319d10c08f31a3d867adc41a75dc1954f"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/probe-150.png",
+      "bytes": 679309,
+      "sha256": "71aa19621a9479aaa74dfec83696ade55e13f033a4c8dcfcad4416a4c3991475"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/source-100-RGB.png",
+      "bytes": 864391,
+      "sha256": "a721c1101352ae3a55be6f47516212bc8e2c6174b9600638a732a30704d6e240"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/source-100.png",
+      "bytes": 699288,
+      "sha256": "b8cc85e87db0f0ec77557fba9ad47aaaa61a4fd77122f4d704a123be4a6d63ec"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/source-150-RGB.png",
+      "bytes": 859759,
+      "sha256": "23b3f1579822c0cbdd5f08a97cf88c686c0af51f7a2054f042f69d55d1e6dfbe"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/source-150.png",
+      "bytes": 684105,
+      "sha256": "4cfc0c13321bebd4bbdb70cc53fd3408759de822994191a0e11f838189e66906"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/stored-snapshots/branches/5eb8109d19914bc4a3891e881b66d131.json",
+      "bytes": 3313786,
+      "sha256": "9c25d86426a1e64849a8ee8b280bfd49f9ca603809731baabf10ebaa4fe47aeb"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/stored-snapshots/branches/8a2b3d0b00d6490caff34cf4edab3c6d.json",
+      "bytes": 3313801,
+      "sha256": "8e71459419af68570a2e739687ddd2fa2b1477e3181b072a1b7763563aa3a0db"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/stored-snapshots/exports/a62b3827ea8f4ba68bd05e52313b175f.json",
+      "bytes": 3313684,
+      "sha256": "eba90853d160a8b97ce88c466260d984088fdefc5e9cc40e619920f98d519e84"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/stored-snapshots/previews/c6be4cf7bb174bcfb7d19de209cb93f1/binding.json",
+      "bytes": 23171,
+      "sha256": "fce674acb5fc21587c6992f210055b03491a7c61d0dab866724f8e8a3d9cfe08"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105e/stored-snapshots/saved.json",
+      "bytes": 3313684,
+      "sha256": "de9d48c8fb1d0e28e39feb1178985a0d815234ec3dab5b4e7dbd8e8e82426c73"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/import-100-RGB.png",
+      "bytes": 901014,
+      "sha256": "2913c7daa9d7407cfbf93bf3806dce1acb1a8b17a6a51d3c5b4a68d1a2391915"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/import-100.png",
+      "bytes": 1039926,
+      "sha256": "a5b83e3c502c05f84586cab883ec6614b747f3476bc2cd936b3a91104e461a27"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/import-150-RGB.png",
+      "bytes": 826256,
+      "sha256": "865688fb3160442ba6ea57a113d7d0c4256e2a6fc97cedbf55e75e7cd57812c5"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/import-150.png",
+      "bytes": 999689,
+      "sha256": "6efdd97f3e23fc821017032212ca343e150550d4d31bc7dc85e7374e37329d1b"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/local-ui-readiness.json",
+      "bytes": 360,
+      "sha256": "0ceccb692eae1e1cee8f480dcc27dcc70784ceb09f395371e88061e140e89c0d"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/probe-100-RGB.png",
+      "bytes": 842803,
+      "sha256": "7b66641504338fa5b6097ac656c1ca7ccab0cb075eec00fccc1ee7872a970f6e"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/probe-100.png",
+      "bytes": 688776,
+      "sha256": "fb8373ec292ef401d0ab68c0caf67532896fb9d93a61e9674e72cb780d963e05"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/probe-150-RGB.png",
+      "bytes": 853122,
+      "sha256": "98ecde74424b54bb4965f2fcc3dfa8d319d10c08f31a3d867adc41a75dc1954f"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/probe-150.png",
+      "bytes": 679309,
+      "sha256": "71aa19621a9479aaa74dfec83696ade55e13f033a4c8dcfcad4416a4c3991475"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/source-100-RGB.png",
+      "bytes": 864391,
+      "sha256": "a721c1101352ae3a55be6f47516212bc8e2c6174b9600638a732a30704d6e240"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/source-100.png",
+      "bytes": 699288,
+      "sha256": "b8cc85e87db0f0ec77557fba9ad47aaaa61a4fd77122f4d704a123be4a6d63ec"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/source-150-RGB.png",
+      "bytes": 859759,
+      "sha256": "23b3f1579822c0cbdd5f08a97cf88c686c0af51f7a2054f042f69d55d1e6dfbe"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/source-150.png",
+      "bytes": 684105,
+      "sha256": "4cfc0c13321bebd4bbdb70cc53fd3408759de822994191a0e11f838189e66906"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/stored-snapshots/branches/32a9a397d4cc4058a8386e27f6e1df08.json",
+      "bytes": 3313786,
+      "sha256": "212eacd727d0ee6a93b1ea2d98dc82171d71e16a32252a6c8fcfe20d67f5e700"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/stored-snapshots/branches/5eb8109d19914bc4a3891e881b66d131.json",
+      "bytes": 3313786,
+      "sha256": "9c25d86426a1e64849a8ee8b280bfd49f9ca603809731baabf10ebaa4fe47aeb"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/stored-snapshots/branches/8a2b3d0b00d6490caff34cf4edab3c6d.json",
+      "bytes": 3313801,
+      "sha256": "8e71459419af68570a2e739687ddd2fa2b1477e3181b072a1b7763563aa3a0db"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/stored-snapshots/branches/98e4b79cc14f4fe6a9937b43726a3273.json",
+      "bytes": 3313801,
+      "sha256": "44da1dfcaa07a872ab143f29bcedfd1873a16c07787a8546c6210759d96799b2"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/stored-snapshots/exports/0780299319734c18b2d2f1ffc62a4631.json",
+      "bytes": 3313684,
+      "sha256": "9c26275b91f29faa310a4de4d2d2ce56adfdd1634c47f23dddb7b2c6a45a9e04"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/stored-snapshots/exports/a62b3827ea8f4ba68bd05e52313b175f.json",
+      "bytes": 3313684,
+      "sha256": "eba90853d160a8b97ce88c466260d984088fdefc5e9cc40e619920f98d519e84"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/stored-snapshots/previews/2499025424ce492caa32307e431e8cab/binding.json",
+      "bytes": 23171,
+      "sha256": "fce674acb5fc21587c6992f210055b03491a7c61d0dab866724f8e8a3d9cfe08"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/stored-snapshots/previews/8b5ba5b10db74c228c32a1ed933b7f95/binding.json",
+      "bytes": 23171,
+      "sha256": "fce674acb5fc21587c6992f210055b03491a7c61d0dab866724f8e8a3d9cfe08"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/stored-snapshots/previews/c6be4cf7bb174bcfb7d19de209cb93f1/binding.json",
+      "bytes": 23171,
+      "sha256": "fce674acb5fc21587c6992f210055b03491a7c61d0dab866724f8e8a3d9cfe08"
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105f/stored-snapshots/saved.json",
+      "bytes": 3313684,
+      "sha256": "f0b3deb7056748e3598d2866121fe47df65d2fc0eb33d219a3af944a1ff08ca3"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/artifacts.py",
+      "bytes": 1180,
+      "sha256": "d01d6048c15756cdd373a60217ed5650dc8fb38536f936f5eff7ea3695347775"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/atlas.py",
+      "bytes": 9400,
+      "sha256": "218fac6e9aad5aa71bf589ea86b8ef6af91fb1e8d56af0402972cada2d60f1c2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/atlas_import.py",
+      "bytes": 14732,
+      "sha256": "5cd4e78d7976b292ceb0ed637d7a255687abb16e7d907313e11c9e42c719b6cf"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/atlas_properties.py",
+      "bytes": 7319,
+      "sha256": "c7748a866e5be67326e776a8b0805cb8b80fc1fff8b8566f7b095bb97963a900"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/binary_gravity.py",
+      "bytes": 8155,
+      "sha256": "cf5a4c3f29141fb64fc1c20ad1e53375ea465765c9f403e600adae6bbcd41936"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_attributes.py",
+      "bytes": 6904,
+      "sha256": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_field_geometry.py",
+      "bytes": 6267,
+      "sha256": "17a257fe18708f640e3f79e43dac6d78c498dd2844a4633757498ebabfe1afc4"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_field_layer.py",
+      "bytes": 9823,
+      "sha256": "a56118896a743d904312f8bfe466bdc98c19675694e3a17ef7a07ee0df8de3a2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_field_lines.py",
+      "bytes": 9403,
+      "sha256": "ddd0e266f6cc96a4cba64db773a3b801ed5e8ca8cd9b07b88efd92088c93f8f3"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_field_map_geometry.py",
+      "bytes": 3614,
+      "sha256": "cfa807924eed8c8a06e1ee25f8eb8a759ce37b900bffe7e7a3f58fc619c560bd"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_field_map_layer.py",
+      "bytes": 3929,
+      "sha256": "17640635bf80047d537df0be650871d463b5802fb4818a3020210aadcfb7b154"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_field_maps.py",
+      "bytes": 4691,
+      "sha256": "8988d3c437b88c2a6c0db5210dd8710c5ccc7e35b8e2be9b693fe57216e8630f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_field_points.py",
+      "bytes": 2693,
+      "sha256": "d054c5c72ef76cabe5cacfc6b78cb67f5b51387a60e2152ee3107127fbe8f169"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_field_scene.py",
+      "bytes": 6925,
+      "sha256": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_field_view.py",
+      "bytes": 8059,
+      "sha256": "274a3916769331b4518c0aa543acc00fe5f0531b380e76473fbfc101ebdd6933"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/body_registry.py",
+      "bytes": 9339,
+      "sha256": "20732fd25f24bd024aad3de96cfd355a3af66c6e0b2a8121b45b13fa43d8be7c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/branch_store.py",
+      "bytes": 11633,
+      "sha256": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/cloud_bridge.py",
+      "bytes": 10947,
+      "sha256": "cfa4b8b7bda7ad44bdb8ed27b024a4a52a3c7bf8381a23f98f5a83a695a7ef9c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/cloud_driver.py",
+      "bytes": 10026,
+      "sha256": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/cloud_scene.py",
+      "bytes": 1968,
+      "sha256": "f372b7542e05ca19500482401f98b5cb0f566203994482400eb451acd0235b3f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/cloud_transport.py",
+      "bytes": 5472,
+      "sha256": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/cno.py",
+      "bytes": 11182,
+      "sha256": "1ffe541ea8b182154dad3359960d2e5ad80c8a9b40477fb6061659759a4f56b7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/constants.json",
+      "bytes": 830,
+      "sha256": "642b0cf9f09d72408b7bfc2e0a256b681a85ba0afc4ff251555f0d31facec0da"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/decays.py",
+      "bytes": 9216,
+      "sha256": "cfaad568c3f8493f6ec9a8da3fa69ab83c1188f278939fd30701c9457f550c21"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/dipole.py",
+      "bytes": 13494,
+      "sha256": "df2149713070beb150d3da755e2118efd2238b84fee097d157e124f3bac0b231"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/earth_magnetism.py",
+      "bytes": 6398,
+      "sha256": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/equilibrium_tide.py",
+      "bytes": 4673,
+      "sha256": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/field_geometry.py",
+      "bytes": 2225,
+      "sha256": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/field_layers.py",
+      "bytes": 10670,
+      "sha256": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/field_scene.py",
+      "bytes": 6945,
+      "sha256": "f055b600cd015733e72414692902f171dcd275343923f6b361eb0d0659afac27"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/field_sections.py",
+      "bytes": 4945,
+      "sha256": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/forces.py",
+      "bytes": 37524,
+      "sha256": "8a5696fd943c2327fee7a71788d8bcf6e8cfc5a1396cc656595dfede375a8c30"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/fusion.py",
+      "bytes": 10495,
+      "sha256": "c44fcae2f1ee24dcc2b7c762898c5832df70986df655e5abd1165eb46df5070d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/geomagnetism.py",
+      "bytes": 10509,
+      "sha256": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/gravity_experiments.py",
+      "bytes": 6711,
+      "sha256": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/gravity_field.py",
+      "bytes": 3844,
+      "sha256": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/gravity_harmonics.py",
+      "bytes": 10993,
+      "sha256": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/gravity_instruments.py",
+      "bytes": 10788,
+      "sha256": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/import_dispatch.py",
+      "bytes": 423,
+      "sha256": "f634e5377379d34bcf543c3862e1e7790ac2f7598e1c47a2d9b028ca595085d7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/instrument_history.py",
+      "bytes": 15942,
+      "sha256": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/instrument_scene.py",
+      "bytes": 2386,
+      "sha256": "3f5450ba5c78987c8f0d504e437e46a0c15ac36c1d8967fc988e53b4d130638b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_body_snapshot.py",
+      "bytes": 10291,
+      "sha256": "43338578a784579b19cc032888ac8fb516322b5bebf0fd9c4346e2375ee1e1d0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_client.py",
+      "bytes": 4024,
+      "sha256": "4dba32d86ffa0d98e1576d756c7b58b8bda7edc0e0ee6bd1f42b2b0540b0b24f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_domains.py",
+      "bytes": 1343,
+      "sha256": "aee58f0313741fec29b65d55d2bead0343976e20e4aef27bc5eaf93ca46751f0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_experiment.py",
+      "bytes": 17496,
+      "sha256": "5905195365284b5f83294b5c7e416870cc852f3b33585deb6dcaf13f5291ffd5"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_laboratory.py",
+      "bytes": 18505,
+      "sha256": "659789a013cc08b412de67f2b9afa065924567dcf51cc2a1d03bbf8f377edc2d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_particle_scene.py",
+      "bytes": 8403,
+      "sha256": "912df8d5265079c4bb997af27b36849ca54aa63fe5047f2ecbea6ae53f68dd3a"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_particles.py",
+      "bytes": 5597,
+      "sha256": "0eebc49fae538ac9211024ba554fe33ab8ccf4eaa7850eb771345b07d663e56b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_product_store.py",
+      "bytes": 6039,
+      "sha256": "82885d6e7e211ea3342a6b738ed54d9badeb5382d786a2dcc52c5b4dd07429c6"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_stream_scene.py",
+      "bytes": 7465,
+      "sha256": "123ed9308fe42fbef7790004976d5be86df3ebceff22bf6b5258ab3a9c5dc712"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_trajectory_transport.py",
+      "bytes": 5036,
+      "sha256": "913c18d2bf2c84d998803fb078853fc385f6e5da009759076788981a33d39b72"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_values.py",
+      "bytes": 453,
+      "sha256": "3f0c824510506a0a4e23e3b85cbda9aa5d642b67b7f13058faef623890bd155c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_wind_diagnostics.py",
+      "bytes": 1641,
+      "sha256": "a1de7ae2b0ea389f59728799e7134c6759087b3dba802ec7630fc800beae7e1f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_wind_field.py",
+      "bytes": 4212,
+      "sha256": "187a5946ef60e41e2b31de28464c43c6eb5e6327e15e37019316cb367d14b2d1"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_wind_reading.py",
+      "bytes": 3181,
+      "sha256": "e6854954aafe280b109689b7174e6bed20ba4a2cc7ef61bd8c9ae879e9d57628"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_wind_snapshot.py",
+      "bytes": 8194,
+      "sha256": "5e34940f911212757cf55e91ea5200e1be2d44150dbabd7fb03a28573ffb30ae"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is4_worker.py",
+      "bytes": 10584,
+      "sha256": "966d66d2a0b52e05790f521f653d3ec65b8a48c8ed763ed723cb092da5bcf51a"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_artifact.py",
+      "bytes": 9909,
+      "sha256": "85713e1ed1249af3a1577987e34734409cdee4b2c637564d307b13e202b1588e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_client.py",
+      "bytes": 3974,
+      "sha256": "0b0a90356a31ab298862a11e31aad127b35a2fff11802a1c553c8ceac4f070cd"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_cno2_artifact.py",
+      "bytes": 10124,
+      "sha256": "61f66deddf6140e27bcc94993acd002ecb8773adf0512f4b5d81b27f9e2be0c7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_cno2_client.py",
+      "bytes": 3984,
+      "sha256": "10843570c3d7a368e50bf6b1e017b2270bd375f89e72b85e4dc00aff7e5856e8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_cno2_worker.py",
+      "bytes": 6115,
+      "sha256": "dbbc2a94119073742af707d8c3d5a323fd2f15e3d56247a8f61e27b31b743a7c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_compression_artifact.py",
+      "bytes": 11845,
+      "sha256": "3950d2dbdf2f257af30f9c31447cedd800ba9061b209c19d62226727a419b517"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_compression_calculate.py",
+      "bytes": 1568,
+      "sha256": "bd0744851892fcec7d8c168111c29a1a8329d64d97ea6b53d1329805e17199ad"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_compression_client.py",
+      "bytes": 5851,
+      "sha256": "1c3776a824a64e68891cec758eb062fb25755f1ab65178cc9dfbcdc1cdd3a2e6"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_compression_process.py",
+      "bytes": 3270,
+      "sha256": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_compression_worker.py",
+      "bytes": 12739,
+      "sha256": "d55fbf0e489284d974f6c944c7d2ea7e627e3058e8f61b78b2baef9cfabc548e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_core.py",
+      "bytes": 10282,
+      "sha256": "d0f2e96496f902c3b9ccbfb859fecab77f41d9a9e74897dabccfafd9aa01dd29"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_coulomb_artifact.py",
+      "bytes": 11287,
+      "sha256": "ca921a0b2434143b67b3eccea82a864360a457d62362f04e3a5723a9b443cc5b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_coulomb_calculate.py",
+      "bytes": 1564,
+      "sha256": "5c39b3c95c7a6cdd458e778092bb361a901f4a251e21f5fcb5fd4355186b2114"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_coulomb_client.py",
+      "bytes": 5839,
+      "sha256": "5761b775c5eb75e71cad3f5ec59d8ba0566ee7dc967fd4fb6b2e47f696914490"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_coulomb_process.py",
+      "bytes": 3270,
+      "sha256": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_coulomb_worker.py",
+      "bytes": 12719,
+      "sha256": "6ee49110f005f4602d76d85b10da2e27696786190f4755b963b3854f2cc18f3e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_laboratory.py",
+      "bytes": 20998,
+      "sha256": "be542ea69943e28f899aba8edee7d5443115823e939cbffca7f42aeb7318b5a2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_pp2_artifact.py",
+      "bytes": 10116,
+      "sha256": "7ff6af08f000abda872ae005571a787794c15aec74d98a536deaf6a5888f48a1"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_pp2_client.py",
+      "bytes": 3982,
+      "sha256": "8134a47c22aff5f31ed1298513326142fdd1d6240ff0c49ec87a91999b74485e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_pp2_worker.py",
+      "bytes": 6112,
+      "sha256": "881f58ca79b6077de2a10af1a490f763e0cc69e19090026d16bfeceac5f2f2bd"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_pp3_artifact.py",
+      "bytes": 10116,
+      "sha256": "4ecafa39037becfa676c6ec9156b8c7ff8e1abc77e04cd14c08113e2a4c857e0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_pp3_client.py",
+      "bytes": 3982,
+      "sha256": "d60f2b9c6436c3ff5f9001e1b834659d043973000ea284dae04290c7f21789d0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_pp3_worker.py",
+      "bytes": 6112,
+      "sha256": "b1915a1a2739207d28644d8a91b5eeac6dc207c99cafbbbbe06b2f0a5b930691"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_reference_browser.py",
+      "bytes": 4065,
+      "sha256": "63b77f1713e08e460ab82db3bf755092e874c3c836046351fdb9d67da406b746"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_reference_cno.py",
+      "bytes": 11234,
+      "sha256": "00d409e2b649e41c1f03d66edc6c744b7c2eff9132273b82408e4ca2b83dc41c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_reference_manifest.py",
+      "bytes": 1398,
+      "sha256": "b11dfef5443e2e43531489dabb61302e55d976310dfe633534494504cb14a035"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_reference_pp.py",
+      "bytes": 5312,
+      "sha256": "9ac515e8c40b3b8bf23b548d7cc585c4b7b2ab2b55c6f25a02a249956921fd84"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_solar_source.py",
+      "bytes": 4931,
+      "sha256": "44114fd4f946a6ac91c62723899be497a1587412232ee30cfc3a0e26abc4ed02"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_thermal_artifact.py",
+      "bytes": 9983,
+      "sha256": "57a084cf52af93d69e9bf487b66c42c9f9432667fe9fc73d637ea90c348d160c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_thermal_client.py",
+      "bytes": 3992,
+      "sha256": "ef5f36afc6c54a3f57c7fff244ea5d707818fb534ad8b7d5cf98cb02b146273a"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_thermal_worker.py",
+      "bytes": 6126,
+      "sha256": "6b5c138f20c690ffe88012dd1eebf1cfefde5d8b5831b41e351942366e959630"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is5_worker.py",
+      "bytes": 6100,
+      "sha256": "55bd92c7c45c946f43d89f649db5042c524742189254f3d214d9fffa21fd51ee"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_laboratory.py",
+      "bytes": 15019,
+      "sha256": "696d75341a301fd34a7fd6a54cf5a09e106defe701a54c4de5f9a66fa3420e2d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_layer_contract.py",
+      "bytes": 4236,
+      "sha256": "f721b43a55a5e4dd2bfedce262bba85ce099573cc039736a62b677cb9b5f1ce2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_layers_checkpoint_v2.py",
+      "bytes": 3700,
+      "sha256": "8d05595b50b47971c7f953109baf0d8dc9a7016602d9140434c0966f26db25ab"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_layers_import_store_v2.py",
+      "bytes": 6325,
+      "sha256": "4e13e0f4c4e12ddb40cf108797f103f50dc5589a7cf247c10e9ecf0f1e74ccea"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_layers_laboratory.py",
+      "bytes": 19894,
+      "sha256": "6d1ff837e0a45842c290be70bc3069029825de1a3fe25f47e6065e638d460527"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_layers_migration.py",
+      "bytes": 7988,
+      "sha256": "e510751b7a79ccb1e7a73c3e5ef53bfa114dd91d8e128d9f884ca1b29f396a4d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_layers_saved_scene.py",
+      "bytes": 1649,
+      "sha256": "2f682d1db0349905f391de69efef3d1b9b20cd5621d13b3ed284ab793b8a195a"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_layers_scene.py",
+      "bytes": 13945,
+      "sha256": "dec60d7ac7bd33cd8f4435e5915d6590357f0bcb517c752cfdf39eed0165712a"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_layers_store.py",
+      "bytes": 6977,
+      "sha256": "44cfd158824b5d545e8f1d5ea1823d086119745946a3be69c3f0bf526a9ee631"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_product_scene.py",
+      "bytes": 7266,
+      "sha256": "9facb179adad2699c198821d3e4f936b4241deb4bcf650d86b73593e528e25e6"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_spatial_import.py",
+      "bytes": 6524,
+      "sha256": "632ec6a3221df0dca3f7c22acabccf0b51209852347156611d7a51ac5b886086"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_spatial_import_laboratory.py",
+      "bytes": 12016,
+      "sha256": "5a68f68a5da56d057cd7632dfce495de67e47b157a2df4bc16121dc54b619dea"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_spatial_import_scene.py",
+      "bytes": 787,
+      "sha256": "5fd201379a07028ac03b5692e406221aa8996a151fee96fa42bf11876acb20c1"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/is6_spatial_import_store.py",
+      "bytes": 15862,
+      "sha256": "91aa6b9855db546e8fe408d3bdba907d63ff5b5fb9fd0ec3755eb6907170cefe"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/j2_field.py",
+      "bytes": 3064,
+      "sha256": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/jrm33-coefficients.json",
+      "bytes": 156848,
+      "sha256": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/jrm33.py",
+      "bytes": 4490,
+      "sha256": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/jupiter_magnetism.py",
+      "bytes": 6641,
+      "sha256": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/laboratory.py",
+      "bytes": 53771,
+      "sha256": "cddf56c89580301f417d6b9bef7e93a50da75d719fe3fc63e56bd49fa7696a67"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/material_driver.py",
+      "bytes": 17294,
+      "sha256": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/material_tides.py",
+      "bytes": 7576,
+      "sha256": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/navigation.py",
+      "bytes": 18940,
+      "sha256": "fefa696249d460e5b966a436eb68bc6007f48a7496d5ee3622b24e402865ae51"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/nuclear_energies.py",
+      "bytes": 15879,
+      "sha256": "5b850fedba33905c6e7ba3ba5b05d40704285eeea00f0db077c30341eeac2d5c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/nuclei.py",
+      "bytes": 10530,
+      "sha256": "10ad5c228582bb6c59384ec05dd7533584afcdd50d9d316e8f47d322aa94ac3e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/orbit_scene.py",
+      "bytes": 3439,
+      "sha256": "f382a770e4de1a575cf882d281ae7591f10727ff7bb225bf748729ba37d3de9d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/orbital_diagnostics.py",
+      "bytes": 13534,
+      "sha256": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/orbital_instruments.py",
+      "bytes": 17518,
+      "sha256": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/packages.py",
+      "bytes": 7343,
+      "sha256": "289267c353687f0ba5c6df53dedae90a084264e3669e7d3314784f54ed9e87aa"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/physics.py",
+      "bytes": 2298,
+      "sha256": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/probe_comparison.py",
+      "bytes": 2453,
+      "sha256": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/reference-manifest.json",
+      "bytes": 533,
+      "sha256": "5ee84d0068e4a4877cb9a897a032812d541de1c8ec16582e8197307baf39af19"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/references/AAG21.json",
+      "bytes": 1796806,
+      "sha256": "d0df2fb698f3cd1bcded07fd0238d84fb91deee632152d50af9af361d9bf8fad"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/references/AGSS09-ideal-EOS-Age1.json",
+      "bytes": 250983,
+      "sha256": "5ffa4972b0e52fbf56796f710c9d7ed99d19b162eb1db5a2501c54b97c6aa142"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/references/AGSS09.json",
+      "bytes": 1789432,
+      "sha256": "27249fde184ba8f5fbbeebfd944be33afbad1beedf77eb648144012c28c2deae"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/references/B23-metadata-original.json",
+      "bytes": 5861,
+      "sha256": "bff47fd4295c07c1da0a255beadd61a049a88aaa6e21b9b5a6ee74212abed15f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/references/C11.json",
+      "bytes": 1792735,
+      "sha256": "1fc77007ac474289021b0262b09d76f6ab2b09c038e95fb025e0fff32d4b97dc"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/references/GS98-ideal-EOS-Age1.json",
+      "bytes": 254232,
+      "sha256": "d692f63e45297828e3e2e35aaab00174a468e1d3fae3792ccc3540d91a3ae0c0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/references/GS98.json",
+      "bytes": 1794358,
+      "sha256": "8b4205361e0420411c81c394bec2a102848910987b5e8cbfc5f129053e9df895"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/references/MB22m.json",
+      "bytes": 1786006,
+      "sha256": "31f25f8b9ba3fd66cecaee032acfdb8b05c577647eb54ba815514db5dccdaf4e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/references/MB22p.json",
+      "bytes": 1793134,
+      "sha256": "f827f7f96277f7ed0a50d4d74e15a554571a3d24d8f34ff87ade1f999837efca"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/references/README-B23-original.txt",
+      "bytes": 4045,
+      "sha256": "6a7131a68db7e5753b77b7ddf61b833894a1603130c3734fa029e3a6133d5e4f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/relativity.py",
+      "bytes": 7713,
+      "sha256": "50637a4e9c02e2c70341423eb4ec1fcb8dd6bc4cbb719baff6061bcae12373bf"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/resonant_angles.py",
+      "bytes": 5657,
+      "sha256": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/science_contracts.py",
+      "bytes": 14870,
+      "sha256": "2b46b66b1f5f589b4e14c6a5adb24e741c39b4cee8f2c1e9f669c2fe9e9a5e91"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/server.py",
+      "bytes": 21659,
+      "sha256": "8bff44f954688ebd979826f8e084e799e643ce59f79ab240c6be1e073bfabf47"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/session.py",
+      "bytes": 77043,
+      "sha256": "caaeaada0ceddf0c39ce4bc0ac4bce24504b9418bd93862fe3a660358718485d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/solar_catalog.py",
+      "bytes": 4166,
+      "sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/solar_contract.py",
+      "bytes": 10182,
+      "sha256": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/solar_import.py",
+      "bytes": 7087,
+      "sha256": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/solar_tides.py",
+      "bytes": 4111,
+      "sha256": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/stellar.py",
+      "bytes": 5269,
+      "sha256": "c5e4ce10987fb6935785cbf0d44967a28df6e5a7d4c3a0d138866f8a51b8f166"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/test_cloud.py",
+      "bytes": 7321,
+      "sha256": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/app.js",
+      "bytes": 22361,
+      "sha256": "3b17e9ebb92a90705616d66b899a8d8402897600f8cbab5fd141d0c263467cb9"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/body-attributes.js",
+      "bytes": 4121,
+      "sha256": "e2a6d3b2596c43386438a705ff3b177df12f296cffc47c414cfc69e9f0e2e3c0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/body-editor.js",
+      "bytes": 6633,
+      "sha256": "d7ffafa7a8fad4adc763462d2b0bb85fc0dd39d2c169fe44a8264e7f535fed00"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/body-field-map.js",
+      "bytes": 2484,
+      "sha256": "4f3e28018da5e03409b22964f20bdfefad03672b7f7f7b315c625fc1e672c57f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/body-field-vector.js",
+      "bytes": 6521,
+      "sha256": "6111db1df2e3aeda9707570e84422e91edc8c6903cfa2300eff0c34d5f07ca27"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/branches.js",
+      "bytes": 8383,
+      "sha256": "054286ff6a7b20cf793e14644df8254544d1b56235aadbb251990a9ca28ea997"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/content.css",
+      "bytes": 3631,
+      "sha256": "f9879319e0f7ae78a44591f9ab5ece5a73d624dc8d24d591b92a86c90475681b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/content.html",
+      "bytes": 3706,
+      "sha256": "6e5f4a34563544202eebc23ac6311c4e86a811180f337e806755b60545e94f54"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/content.js",
+      "bytes": 10630,
+      "sha256": "c27fcd055755d5e27fc9854645bdafae7887bd115a9f989504b971f32d6e28f7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/decays.js",
+      "bytes": 8860,
+      "sha256": "d9d29e3e2af599a4e636f59cae95d14924ca267c409d9cccd52d4a020209f8d8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/earth-field.js",
+      "bytes": 3193,
+      "sha256": "ad7994a929eed6870c47a18ddce97350496117795b059172fae065cddd96e06c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/forces.css",
+      "bytes": 11241,
+      "sha256": "461308d6e50cff1d45f832ae6d3a11883021751674f3b4aee487c1a101d0dfac"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/forces.html",
+      "bytes": 5912,
+      "sha256": "933bc14341f4f6b2058c020f589fca063f4ba601e50796e60c6b626d931f2bbf"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/forces.js",
+      "bytes": 41533,
+      "sha256": "092c456b5bfe76305f32ea4b0bd427012b9460b952e2186a0baf552290848f1c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/fusion.js",
+      "bytes": 4932,
+      "sha256": "32ab742c9f90c7b29809122cd47ef01983770aff1108f16ba0d2e2fd26734b1d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/geomagnetism.js",
+      "bytes": 8586,
+      "sha256": "598bae70fed268ae923b50b55086941403312e8500fd71a22787e951c12ccc9f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/gravity-experiences.js",
+      "bytes": 4526,
+      "sha256": "6ac356af3e98f95dd6d2d61e5c595ba792c5e8be9fc8585076694d7f36975398"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/gravity-fields.js",
+      "bytes": 8299,
+      "sha256": "8b6b2d2f1a64ec782c557d58164e2f4b159e0895124a95bbd7851ec5c4dac97e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/gravity-harmonics.js",
+      "bytes": 3266,
+      "sha256": "837e3b4eb2997e9b130155674c90e80cc92fa779e2bd1a426844daccaa0f45cc"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/gravity-instruments.js",
+      "bytes": 7224,
+      "sha256": "0ec9022849bfe78ee2570b17ecc0c105b44d8d4ef9baf5774d167fec686ae7f3"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/gravity-probe.js",
+      "bytes": 1932,
+      "sha256": "2a79aef0f81a0130ff7d4cb7de3d78a15339432e07788456cba3820c95ea0484"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/index.html",
+      "bytes": 89378,
+      "sha256": "f4a00fd14b620e90dd6f1e39e675ab477cbb3adb7a4541d216e2032f50bf23c1"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/instrument-history.js",
+      "bytes": 11230,
+      "sha256": "d9368a341afe7b2738f27c2050b3ff177ecef2ca55397ed338e18089f7d9fe9c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is4-panel.fragment.html",
+      "bytes": 3639,
+      "sha256": "5402619b772dac20adf19e06ca4422bb28fbfeddd97367a21295369769bee9f9"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is4-particle.css",
+      "bytes": 1619,
+      "sha256": "a1f832c1a2b7395863846520e08ddfb8e464428c5d1a4e7787a8aaa824b55792"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is4-particle.js",
+      "bytes": 11262,
+      "sha256": "7adcf6b0b20a28e31e2604f36ba889c4e76ee6b761446234f3027cf360cd4522"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is4-setup.fragment.html",
+      "bytes": 1421,
+      "sha256": "e05d9e71b578ffb0e3b20ac84c533e2501e995f151c106ba6275b35c89d77b5e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is4-wind-setup.fragment.html",
+      "bytes": 2572,
+      "sha256": "99758cde5721a6513f20bba5c0448034ffbef600b21bf7e3907b0762b4bf8ce8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is5-zone-panel.html",
+      "bytes": 13304,
+      "sha256": "160c44a738147e5a894dfc91ee066db73fb056c9523f46b7d5f9c68e39bebf95"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is5-zone.css",
+      "bytes": 2526,
+      "sha256": "97a7a8ee5c1aab3527b622f5bd678a6947baf7c23f526c328e585cb38ca7122b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is5-zone.js",
+      "bytes": 22111,
+      "sha256": "46a1f748db43e04a8ef895c06842d66663f83bc30f9e5fbe2c64e3b995e5a1a2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is6-layers-panel.html",
+      "bytes": 5928,
+      "sha256": "f76ff6b04ab74e56db942d1d04dbc76871975406623a8508838364d8bb4dcfdb"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is6-layers.css",
+      "bytes": 2637,
+      "sha256": "c61a1c9a6a06ccbeb0c10535d5a1500ff3eba1af5e87ff9635428c0865b3f24d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is6-layers.js",
+      "bytes": 15012,
+      "sha256": "3a98a6cee7f6dcbe9a7aeb7bf43f83ee2eeb1188b390f0627dc700d1dd8b1534"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is6-spatial-panel.html",
+      "bytes": 4825,
+      "sha256": "e2f77c99858440882c0d7758cd6e0abd57c9cd352a04c04638606a898f068454"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is6-spatial.css",
+      "bytes": 2414,
+      "sha256": "6954227d672b81c57972e25c146e2d0f12bd2d1ee03013c42709270a92a82aef"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/is6-spatial.js",
+      "bytes": 15100,
+      "sha256": "4f657176665f666c18ecb764d71fc18e58746ffafb28b8ddad05ced902f13259"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/jupiter-field.js",
+      "bytes": 3400,
+      "sha256": "a60901311af45084ebdeaa0668ad25af9d419c04a7a40fcf75b87ff35e2b4aee"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/material-tides.js",
+      "bytes": 6161,
+      "sha256": "1b287b9bb54fe50f1764d91463b694be2f9c3a7d5baac85a792a6324abf7c701"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/navigation.js",
+      "bytes": 12362,
+      "sha256": "19fcd376e30ffc048b406b1d6116312fa1a59cf3dc4fe8f5801b42b473952e97"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/nuclear-energy.css",
+      "bytes": 2721,
+      "sha256": "d1ad0ec936e8111818ad56aed0f30a3c95efe0e319d21c5b2c927b71c85617c2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/nuclear-energy.html",
+      "bytes": 5858,
+      "sha256": "4b655211cfab257512ad959f5f8010ed497b65dc5c20ec18dcea29daef378ae2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/nuclear-energy.js",
+      "bytes": 13055,
+      "sha256": "068d86f6b70875533674026c90f9da030da7475aef6a5f2f43cb3e36bc36e27f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/nuclei.css",
+      "bytes": 3016,
+      "sha256": "3b79851b22aa981e38354ec4a4ece469fc4dbbee8f338aff5ea040d6b07c2547"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/nuclei.html",
+      "bytes": 4924,
+      "sha256": "e0975e132f969941a0855b9e1486cca4b284628303214c889cd1d828000687a5"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/nuclei.js",
+      "bytes": 13509,
+      "sha256": "66f80c499117e28f1bce18612260a1cf5fc690d7598008b63e2002bd99712cdd"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/orbit-editor.js",
+      "bytes": 7263,
+      "sha256": "43003e3c442d3dc61cd1c5ed19ec151913bbcd6bbee16240cc1a0e98808a6776"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/orbital-instruments.js",
+      "bytes": 13391,
+      "sha256": "1c8cd58875423234b0b8e066b217dc90cbe45a81b463a9475344413526a813bc"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/solar-tide.js",
+      "bytes": 2768,
+      "sha256": "a47ab6a75f64a382ad711939cf3c8c70166dc9a56dec4f66e79b74fe86c98e03"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/solar.js",
+      "bytes": 4048,
+      "sha256": "8f6ef004006ae29ae509e5cb718c95dc157c323255b68573b96dbc483e489093"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/stellar-reference-panel.html",
+      "bytes": 3804,
+      "sha256": "03e5cd370255d795157314f1774257f4c253be1bc2ff2d3736a2e0c922daaac2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/stellar-reference.css",
+      "bytes": 1883,
+      "sha256": "846af8965445a164fa2bbb5e6ebb898a6733634d0f3e6c51a21747dc77267563"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/stellar-reference.js",
+      "bytes": 7882,
+      "sha256": "899fdfcc099889bd005da0aa388210d2a516b5b70a16e9e27174430cb4a11a5e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/style.css",
+      "bytes": 15199,
+      "sha256": "e08095d07d994e927aba7d778ed56baafa7fb2165843a753f2a8f1e66152fcd1"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/ui/test-cloud.js",
+      "bytes": 4591,
+      "sha256": "1f3611ac8304d49351d975316f90a627530de849ef3f2cab9aef4a0873655740"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/app/worker.py",
+      "bytes": 11686,
+      "sha256": "2fbd0aa78c84e851ac9fd6d839dfbd1aaab658046197b4ad6422809f4d30b335"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.0/build-manifest.json",
+      "bytes": 288327,
+      "sha256": "e2ddb87fe489931dd9384efd69ef3c81ecc22776fb9ff14a3c44c619890d9713"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/artifacts.py",
+      "bytes": 1180,
+      "sha256": "d01d6048c15756cdd373a60217ed5650dc8fb38536f936f5eff7ea3695347775"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/atlas.py",
+      "bytes": 9400,
+      "sha256": "218fac6e9aad5aa71bf589ea86b8ef6af91fb1e8d56af0402972cada2d60f1c2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/atlas_import.py",
+      "bytes": 14732,
+      "sha256": "5cd4e78d7976b292ceb0ed637d7a255687abb16e7d907313e11c9e42c719b6cf"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/atlas_properties.py",
+      "bytes": 7319,
+      "sha256": "c7748a866e5be67326e776a8b0805cb8b80fc1fff8b8566f7b095bb97963a900"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/binary_gravity.py",
+      "bytes": 8155,
+      "sha256": "cf5a4c3f29141fb64fc1c20ad1e53375ea465765c9f403e600adae6bbcd41936"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_attributes.py",
+      "bytes": 6904,
+      "sha256": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_field_geometry.py",
+      "bytes": 6267,
+      "sha256": "17a257fe18708f640e3f79e43dac6d78c498dd2844a4633757498ebabfe1afc4"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_field_layer.py",
+      "bytes": 9823,
+      "sha256": "a56118896a743d904312f8bfe466bdc98c19675694e3a17ef7a07ee0df8de3a2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_field_lines.py",
+      "bytes": 9403,
+      "sha256": "ddd0e266f6cc96a4cba64db773a3b801ed5e8ca8cd9b07b88efd92088c93f8f3"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_field_map_geometry.py",
+      "bytes": 3614,
+      "sha256": "cfa807924eed8c8a06e1ee25f8eb8a759ce37b900bffe7e7a3f58fc619c560bd"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_field_map_layer.py",
+      "bytes": 3929,
+      "sha256": "17640635bf80047d537df0be650871d463b5802fb4818a3020210aadcfb7b154"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_field_maps.py",
+      "bytes": 4691,
+      "sha256": "8988d3c437b88c2a6c0db5210dd8710c5ccc7e35b8e2be9b693fe57216e8630f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_field_points.py",
+      "bytes": 2693,
+      "sha256": "d054c5c72ef76cabe5cacfc6b78cb67f5b51387a60e2152ee3107127fbe8f169"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_field_scene.py",
+      "bytes": 6925,
+      "sha256": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_field_view.py",
+      "bytes": 8059,
+      "sha256": "274a3916769331b4518c0aa543acc00fe5f0531b380e76473fbfc101ebdd6933"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/body_registry.py",
+      "bytes": 9339,
+      "sha256": "20732fd25f24bd024aad3de96cfd355a3af66c6e0b2a8121b45b13fa43d8be7c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/branch_store.py",
+      "bytes": 11633,
+      "sha256": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/cloud_bridge.py",
+      "bytes": 10947,
+      "sha256": "cfa4b8b7bda7ad44bdb8ed27b024a4a52a3c7bf8381a23f98f5a83a695a7ef9c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/cloud_driver.py",
+      "bytes": 10026,
+      "sha256": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/cloud_scene.py",
+      "bytes": 1968,
+      "sha256": "f372b7542e05ca19500482401f98b5cb0f566203994482400eb451acd0235b3f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/cloud_transport.py",
+      "bytes": 5472,
+      "sha256": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/cno.py",
+      "bytes": 11182,
+      "sha256": "1ffe541ea8b182154dad3359960d2e5ad80c8a9b40477fb6061659759a4f56b7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/constants.json",
+      "bytes": 830,
+      "sha256": "642b0cf9f09d72408b7bfc2e0a256b681a85ba0afc4ff251555f0d31facec0da"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/decays.py",
+      "bytes": 9216,
+      "sha256": "cfaad568c3f8493f6ec9a8da3fa69ab83c1188f278939fd30701c9457f550c21"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/dipole.py",
+      "bytes": 13494,
+      "sha256": "df2149713070beb150d3da755e2118efd2238b84fee097d157e124f3bac0b231"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/earth_magnetism.py",
+      "bytes": 6398,
+      "sha256": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/equilibrium_tide.py",
+      "bytes": 4673,
+      "sha256": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/field_geometry.py",
+      "bytes": 2225,
+      "sha256": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/field_layers.py",
+      "bytes": 10670,
+      "sha256": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/field_scene.py",
+      "bytes": 6945,
+      "sha256": "f055b600cd015733e72414692902f171dcd275343923f6b361eb0d0659afac27"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/field_sections.py",
+      "bytes": 4945,
+      "sha256": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/forces.py",
+      "bytes": 37524,
+      "sha256": "8a5696fd943c2327fee7a71788d8bcf6e8cfc5a1396cc656595dfede375a8c30"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/fusion.py",
+      "bytes": 10495,
+      "sha256": "c44fcae2f1ee24dcc2b7c762898c5832df70986df655e5abd1165eb46df5070d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/geomagnetism.py",
+      "bytes": 10509,
+      "sha256": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/gravity_experiments.py",
+      "bytes": 6711,
+      "sha256": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/gravity_field.py",
+      "bytes": 3844,
+      "sha256": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/gravity_harmonics.py",
+      "bytes": 10993,
+      "sha256": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/gravity_instruments.py",
+      "bytes": 10788,
+      "sha256": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/import_dispatch.py",
+      "bytes": 423,
+      "sha256": "f634e5377379d34bcf543c3862e1e7790ac2f7598e1c47a2d9b028ca595085d7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/instrument_history.py",
+      "bytes": 15942,
+      "sha256": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/instrument_scene.py",
+      "bytes": 2386,
+      "sha256": "3f5450ba5c78987c8f0d504e437e46a0c15ac36c1d8967fc988e53b4d130638b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_body_snapshot.py",
+      "bytes": 10291,
+      "sha256": "43338578a784579b19cc032888ac8fb516322b5bebf0fd9c4346e2375ee1e1d0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_client.py",
+      "bytes": 4024,
+      "sha256": "4dba32d86ffa0d98e1576d756c7b58b8bda7edc0e0ee6bd1f42b2b0540b0b24f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_domains.py",
+      "bytes": 1343,
+      "sha256": "aee58f0313741fec29b65d55d2bead0343976e20e4aef27bc5eaf93ca46751f0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_experiment.py",
+      "bytes": 17496,
+      "sha256": "5905195365284b5f83294b5c7e416870cc852f3b33585deb6dcaf13f5291ffd5"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_laboratory.py",
+      "bytes": 18505,
+      "sha256": "659789a013cc08b412de67f2b9afa065924567dcf51cc2a1d03bbf8f377edc2d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_particle_scene.py",
+      "bytes": 8403,
+      "sha256": "912df8d5265079c4bb997af27b36849ca54aa63fe5047f2ecbea6ae53f68dd3a"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_particles.py",
+      "bytes": 5597,
+      "sha256": "0eebc49fae538ac9211024ba554fe33ab8ccf4eaa7850eb771345b07d663e56b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_product_store.py",
+      "bytes": 6039,
+      "sha256": "82885d6e7e211ea3342a6b738ed54d9badeb5382d786a2dcc52c5b4dd07429c6"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_stream_scene.py",
+      "bytes": 7465,
+      "sha256": "123ed9308fe42fbef7790004976d5be86df3ebceff22bf6b5258ab3a9c5dc712"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_trajectory_transport.py",
+      "bytes": 5036,
+      "sha256": "913c18d2bf2c84d998803fb078853fc385f6e5da009759076788981a33d39b72"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_values.py",
+      "bytes": 453,
+      "sha256": "3f0c824510506a0a4e23e3b85cbda9aa5d642b67b7f13058faef623890bd155c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_wind_diagnostics.py",
+      "bytes": 1641,
+      "sha256": "a1de7ae2b0ea389f59728799e7134c6759087b3dba802ec7630fc800beae7e1f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_wind_field.py",
+      "bytes": 4212,
+      "sha256": "187a5946ef60e41e2b31de28464c43c6eb5e6327e15e37019316cb367d14b2d1"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_wind_reading.py",
+      "bytes": 3181,
+      "sha256": "e6854954aafe280b109689b7174e6bed20ba4a2cc7ef61bd8c9ae879e9d57628"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_wind_snapshot.py",
+      "bytes": 8194,
+      "sha256": "5e34940f911212757cf55e91ea5200e1be2d44150dbabd7fb03a28573ffb30ae"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is4_worker.py",
+      "bytes": 10584,
+      "sha256": "966d66d2a0b52e05790f521f653d3ec65b8a48c8ed763ed723cb092da5bcf51a"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_artifact.py",
+      "bytes": 9909,
+      "sha256": "85713e1ed1249af3a1577987e34734409cdee4b2c637564d307b13e202b1588e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_client.py",
+      "bytes": 3974,
+      "sha256": "0b0a90356a31ab298862a11e31aad127b35a2fff11802a1c553c8ceac4f070cd"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_cno2_artifact.py",
+      "bytes": 10124,
+      "sha256": "61f66deddf6140e27bcc94993acd002ecb8773adf0512f4b5d81b27f9e2be0c7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_cno2_client.py",
+      "bytes": 3984,
+      "sha256": "10843570c3d7a368e50bf6b1e017b2270bd375f89e72b85e4dc00aff7e5856e8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_cno2_worker.py",
+      "bytes": 6115,
+      "sha256": "dbbc2a94119073742af707d8c3d5a323fd2f15e3d56247a8f61e27b31b743a7c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_compression_artifact.py",
+      "bytes": 11845,
+      "sha256": "3950d2dbdf2f257af30f9c31447cedd800ba9061b209c19d62226727a419b517"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_compression_calculate.py",
+      "bytes": 1568,
+      "sha256": "bd0744851892fcec7d8c168111c29a1a8329d64d97ea6b53d1329805e17199ad"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_compression_client.py",
+      "bytes": 5851,
+      "sha256": "1c3776a824a64e68891cec758eb062fb25755f1ab65178cc9dfbcdc1cdd3a2e6"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_compression_process.py",
+      "bytes": 3270,
+      "sha256": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_compression_worker.py",
+      "bytes": 12739,
+      "sha256": "d55fbf0e489284d974f6c944c7d2ea7e627e3058e8f61b78b2baef9cfabc548e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_core.py",
+      "bytes": 10282,
+      "sha256": "d0f2e96496f902c3b9ccbfb859fecab77f41d9a9e74897dabccfafd9aa01dd29"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_coulomb_artifact.py",
+      "bytes": 11287,
+      "sha256": "ca921a0b2434143b67b3eccea82a864360a457d62362f04e3a5723a9b443cc5b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_coulomb_calculate.py",
+      "bytes": 1564,
+      "sha256": "5c39b3c95c7a6cdd458e778092bb361a901f4a251e21f5fcb5fd4355186b2114"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_coulomb_client.py",
+      "bytes": 5839,
+      "sha256": "5761b775c5eb75e71cad3f5ec59d8ba0566ee7dc967fd4fb6b2e47f696914490"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_coulomb_process.py",
+      "bytes": 3270,
+      "sha256": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_coulomb_worker.py",
+      "bytes": 12719,
+      "sha256": "6ee49110f005f4602d76d85b10da2e27696786190f4755b963b3854f2cc18f3e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_laboratory.py",
+      "bytes": 20998,
+      "sha256": "be542ea69943e28f899aba8edee7d5443115823e939cbffca7f42aeb7318b5a2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_pp2_artifact.py",
+      "bytes": 10116,
+      "sha256": "7ff6af08f000abda872ae005571a787794c15aec74d98a536deaf6a5888f48a1"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_pp2_client.py",
+      "bytes": 3982,
+      "sha256": "8134a47c22aff5f31ed1298513326142fdd1d6240ff0c49ec87a91999b74485e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_pp2_worker.py",
+      "bytes": 6112,
+      "sha256": "881f58ca79b6077de2a10af1a490f763e0cc69e19090026d16bfeceac5f2f2bd"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_pp3_artifact.py",
+      "bytes": 10116,
+      "sha256": "4ecafa39037becfa676c6ec9156b8c7ff8e1abc77e04cd14c08113e2a4c857e0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_pp3_client.py",
+      "bytes": 3982,
+      "sha256": "d60f2b9c6436c3ff5f9001e1b834659d043973000ea284dae04290c7f21789d0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_pp3_worker.py",
+      "bytes": 6112,
+      "sha256": "b1915a1a2739207d28644d8a91b5eeac6dc207c99cafbbbbe06b2f0a5b930691"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_reference_browser.py",
+      "bytes": 4065,
+      "sha256": "63b77f1713e08e460ab82db3bf755092e874c3c836046351fdb9d67da406b746"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_reference_cno.py",
+      "bytes": 11234,
+      "sha256": "00d409e2b649e41c1f03d66edc6c744b7c2eff9132273b82408e4ca2b83dc41c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_reference_manifest.py",
+      "bytes": 1398,
+      "sha256": "b11dfef5443e2e43531489dabb61302e55d976310dfe633534494504cb14a035"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_reference_pp.py",
+      "bytes": 5312,
+      "sha256": "9ac515e8c40b3b8bf23b548d7cc585c4b7b2ab2b55c6f25a02a249956921fd84"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_solar_source.py",
+      "bytes": 4931,
+      "sha256": "44114fd4f946a6ac91c62723899be497a1587412232ee30cfc3a0e26abc4ed02"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_thermal_artifact.py",
+      "bytes": 9983,
+      "sha256": "57a084cf52af93d69e9bf487b66c42c9f9432667fe9fc73d637ea90c348d160c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_thermal_client.py",
+      "bytes": 3992,
+      "sha256": "ef5f36afc6c54a3f57c7fff244ea5d707818fb534ad8b7d5cf98cb02b146273a"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_thermal_worker.py",
+      "bytes": 6126,
+      "sha256": "6b5c138f20c690ffe88012dd1eebf1cfefde5d8b5831b41e351942366e959630"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is5_worker.py",
+      "bytes": 6100,
+      "sha256": "55bd92c7c45c946f43d89f649db5042c524742189254f3d214d9fffa21fd51ee"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_laboratory.py",
+      "bytes": 15019,
+      "sha256": "696d75341a301fd34a7fd6a54cf5a09e106defe701a54c4de5f9a66fa3420e2d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_layer_contract.py",
+      "bytes": 4236,
+      "sha256": "f721b43a55a5e4dd2bfedce262bba85ce099573cc039736a62b677cb9b5f1ce2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_layers_checkpoint_v2.py",
+      "bytes": 3700,
+      "sha256": "8d05595b50b47971c7f953109baf0d8dc9a7016602d9140434c0966f26db25ab"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_layers_import_store_v2.py",
+      "bytes": 6325,
+      "sha256": "4e13e0f4c4e12ddb40cf108797f103f50dc5589a7cf247c10e9ecf0f1e74ccea"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_layers_laboratory.py",
+      "bytes": 19894,
+      "sha256": "6d1ff837e0a45842c290be70bc3069029825de1a3fe25f47e6065e638d460527"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_layers_migration.py",
+      "bytes": 7988,
+      "sha256": "e510751b7a79ccb1e7a73c3e5ef53bfa114dd91d8e128d9f884ca1b29f396a4d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_layers_saved_scene.py",
+      "bytes": 1649,
+      "sha256": "2f682d1db0349905f391de69efef3d1b9b20cd5621d13b3ed284ab793b8a195a"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_layers_scene.py",
+      "bytes": 13945,
+      "sha256": "dec60d7ac7bd33cd8f4435e5915d6590357f0bcb517c752cfdf39eed0165712a"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_layers_store.py",
+      "bytes": 6977,
+      "sha256": "44cfd158824b5d545e8f1d5ea1823d086119745946a3be69c3f0bf526a9ee631"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_product_scene.py",
+      "bytes": 7266,
+      "sha256": "9facb179adad2699c198821d3e4f936b4241deb4bcf650d86b73593e528e25e6"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_spatial_import.py",
+      "bytes": 6524,
+      "sha256": "632ec6a3221df0dca3f7c22acabccf0b51209852347156611d7a51ac5b886086"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_spatial_import_laboratory.py",
+      "bytes": 12016,
+      "sha256": "5a68f68a5da56d057cd7632dfce495de67e47b157a2df4bc16121dc54b619dea"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_spatial_import_scene.py",
+      "bytes": 787,
+      "sha256": "5fd201379a07028ac03b5692e406221aa8996a151fee96fa42bf11876acb20c1"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/is6_spatial_import_store.py",
+      "bytes": 15862,
+      "sha256": "91aa6b9855db546e8fe408d3bdba907d63ff5b5fb9fd0ec3755eb6907170cefe"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/j2_field.py",
+      "bytes": 3064,
+      "sha256": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/jrm33-coefficients.json",
+      "bytes": 156848,
+      "sha256": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/jrm33.py",
+      "bytes": 4490,
+      "sha256": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/jupiter_magnetism.py",
+      "bytes": 6641,
+      "sha256": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/laboratory.py",
+      "bytes": 53771,
+      "sha256": "cddf56c89580301f417d6b9bef7e93a50da75d719fe3fc63e56bd49fa7696a67"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/material_driver.py",
+      "bytes": 17294,
+      "sha256": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/material_tides.py",
+      "bytes": 7576,
+      "sha256": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/navigation.py",
+      "bytes": 18940,
+      "sha256": "fefa696249d460e5b966a436eb68bc6007f48a7496d5ee3622b24e402865ae51"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/nuclear_energies.py",
+      "bytes": 15879,
+      "sha256": "5b850fedba33905c6e7ba3ba5b05d40704285eeea00f0db077c30341eeac2d5c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/nuclei.py",
+      "bytes": 10530,
+      "sha256": "10ad5c228582bb6c59384ec05dd7533584afcdd50d9d316e8f47d322aa94ac3e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/orbit_scene.py",
+      "bytes": 3439,
+      "sha256": "f382a770e4de1a575cf882d281ae7591f10727ff7bb225bf748729ba37d3de9d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/orbital_diagnostics.py",
+      "bytes": 13534,
+      "sha256": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/orbital_instruments.py",
+      "bytes": 17518,
+      "sha256": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/packages.py",
+      "bytes": 7343,
+      "sha256": "289267c353687f0ba5c6df53dedae90a084264e3669e7d3314784f54ed9e87aa"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/physics.py",
+      "bytes": 2298,
+      "sha256": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/probe_comparison.py",
+      "bytes": 2453,
+      "sha256": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/reference-manifest.json",
+      "bytes": 533,
+      "sha256": "5ee84d0068e4a4877cb9a897a032812d541de1c8ec16582e8197307baf39af19"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/references/AAG21.json",
+      "bytes": 1796806,
+      "sha256": "d0df2fb698f3cd1bcded07fd0238d84fb91deee632152d50af9af361d9bf8fad"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/references/AGSS09-ideal-EOS-Age1.json",
+      "bytes": 250983,
+      "sha256": "5ffa4972b0e52fbf56796f710c9d7ed99d19b162eb1db5a2501c54b97c6aa142"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/references/AGSS09.json",
+      "bytes": 1789432,
+      "sha256": "27249fde184ba8f5fbbeebfd944be33afbad1beedf77eb648144012c28c2deae"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/references/B23-metadata-original.json",
+      "bytes": 5861,
+      "sha256": "bff47fd4295c07c1da0a255beadd61a049a88aaa6e21b9b5a6ee74212abed15f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/references/C11.json",
+      "bytes": 1792735,
+      "sha256": "1fc77007ac474289021b0262b09d76f6ab2b09c038e95fb025e0fff32d4b97dc"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/references/GS98-ideal-EOS-Age1.json",
+      "bytes": 254232,
+      "sha256": "d692f63e45297828e3e2e35aaab00174a468e1d3fae3792ccc3540d91a3ae0c0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/references/GS98.json",
+      "bytes": 1794358,
+      "sha256": "8b4205361e0420411c81c394bec2a102848910987b5e8cbfc5f129053e9df895"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/references/MB22m.json",
+      "bytes": 1786006,
+      "sha256": "31f25f8b9ba3fd66cecaee032acfdb8b05c577647eb54ba815514db5dccdaf4e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/references/MB22p.json",
+      "bytes": 1793134,
+      "sha256": "f827f7f96277f7ed0a50d4d74e15a554571a3d24d8f34ff87ade1f999837efca"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/references/README-B23-original.txt",
+      "bytes": 4045,
+      "sha256": "6a7131a68db7e5753b77b7ddf61b833894a1603130c3734fa029e3a6133d5e4f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/relativity.py",
+      "bytes": 7713,
+      "sha256": "50637a4e9c02e2c70341423eb4ec1fcb8dd6bc4cbb719baff6061bcae12373bf"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/resonant_angles.py",
+      "bytes": 5657,
+      "sha256": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/science_contracts.py",
+      "bytes": 14870,
+      "sha256": "2b46b66b1f5f589b4e14c6a5adb24e741c39b4cee8f2c1e9f669c2fe9e9a5e91"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/server.py",
+      "bytes": 21659,
+      "sha256": "8bff44f954688ebd979826f8e084e799e643ce59f79ab240c6be1e073bfabf47"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/session.py",
+      "bytes": 77043,
+      "sha256": "caaeaada0ceddf0c39ce4bc0ac4bce24504b9418bd93862fe3a660358718485d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/solar_catalog.py",
+      "bytes": 4166,
+      "sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/solar_contract.py",
+      "bytes": 10182,
+      "sha256": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/solar_import.py",
+      "bytes": 7087,
+      "sha256": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/solar_tides.py",
+      "bytes": 4111,
+      "sha256": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/stellar.py",
+      "bytes": 5269,
+      "sha256": "c5e4ce10987fb6935785cbf0d44967a28df6e5a7d4c3a0d138866f8a51b8f166"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/test_cloud.py",
+      "bytes": 7321,
+      "sha256": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/app.js",
+      "bytes": 22361,
+      "sha256": "3b17e9ebb92a90705616d66b899a8d8402897600f8cbab5fd141d0c263467cb9"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/body-attributes.js",
+      "bytes": 4121,
+      "sha256": "e2a6d3b2596c43386438a705ff3b177df12f296cffc47c414cfc69e9f0e2e3c0"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/body-editor.js",
+      "bytes": 6633,
+      "sha256": "d7ffafa7a8fad4adc763462d2b0bb85fc0dd39d2c169fe44a8264e7f535fed00"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/body-field-map.js",
+      "bytes": 2484,
+      "sha256": "4f3e28018da5e03409b22964f20bdfefad03672b7f7f7b315c625fc1e672c57f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/body-field-vector.js",
+      "bytes": 6521,
+      "sha256": "6111db1df2e3aeda9707570e84422e91edc8c6903cfa2300eff0c34d5f07ca27"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/branches.js",
+      "bytes": 8383,
+      "sha256": "054286ff6a7b20cf793e14644df8254544d1b56235aadbb251990a9ca28ea997"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/content.css",
+      "bytes": 3631,
+      "sha256": "f9879319e0f7ae78a44591f9ab5ece5a73d624dc8d24d591b92a86c90475681b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/content.html",
+      "bytes": 3706,
+      "sha256": "6e5f4a34563544202eebc23ac6311c4e86a811180f337e806755b60545e94f54"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/content.js",
+      "bytes": 10630,
+      "sha256": "c27fcd055755d5e27fc9854645bdafae7887bd115a9f989504b971f32d6e28f7"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/decays.js",
+      "bytes": 8860,
+      "sha256": "d9d29e3e2af599a4e636f59cae95d14924ca267c409d9cccd52d4a020209f8d8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/earth-field.js",
+      "bytes": 3193,
+      "sha256": "ad7994a929eed6870c47a18ddce97350496117795b059172fae065cddd96e06c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/forces.css",
+      "bytes": 11241,
+      "sha256": "461308d6e50cff1d45f832ae6d3a11883021751674f3b4aee487c1a101d0dfac"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/forces.html",
+      "bytes": 5912,
+      "sha256": "933bc14341f4f6b2058c020f589fca063f4ba601e50796e60c6b626d931f2bbf"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/forces.js",
+      "bytes": 41533,
+      "sha256": "092c456b5bfe76305f32ea4b0bd427012b9460b952e2186a0baf552290848f1c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/fusion.js",
+      "bytes": 4932,
+      "sha256": "32ab742c9f90c7b29809122cd47ef01983770aff1108f16ba0d2e2fd26734b1d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/geomagnetism.js",
+      "bytes": 8586,
+      "sha256": "598bae70fed268ae923b50b55086941403312e8500fd71a22787e951c12ccc9f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/gravity-experiences.js",
+      "bytes": 4526,
+      "sha256": "6ac356af3e98f95dd6d2d61e5c595ba792c5e8be9fc8585076694d7f36975398"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/gravity-fields.js",
+      "bytes": 8299,
+      "sha256": "8b6b2d2f1a64ec782c557d58164e2f4b159e0895124a95bbd7851ec5c4dac97e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/gravity-harmonics.js",
+      "bytes": 3266,
+      "sha256": "837e3b4eb2997e9b130155674c90e80cc92fa779e2bd1a426844daccaa0f45cc"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/gravity-instruments.js",
+      "bytes": 7224,
+      "sha256": "0ec9022849bfe78ee2570b17ecc0c105b44d8d4ef9baf5774d167fec686ae7f3"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/gravity-probe.js",
+      "bytes": 1932,
+      "sha256": "2a79aef0f81a0130ff7d4cb7de3d78a15339432e07788456cba3820c95ea0484"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/index.html",
+      "bytes": 89378,
+      "sha256": "f4a00fd14b620e90dd6f1e39e675ab477cbb3adb7a4541d216e2032f50bf23c1"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/instrument-history.js",
+      "bytes": 11230,
+      "sha256": "d9368a341afe7b2738f27c2050b3ff177ecef2ca55397ed338e18089f7d9fe9c"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is4-panel.fragment.html",
+      "bytes": 3639,
+      "sha256": "5402619b772dac20adf19e06ca4422bb28fbfeddd97367a21295369769bee9f9"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is4-particle.css",
+      "bytes": 1619,
+      "sha256": "a1f832c1a2b7395863846520e08ddfb8e464428c5d1a4e7787a8aaa824b55792"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is4-particle.js",
+      "bytes": 11262,
+      "sha256": "7adcf6b0b20a28e31e2604f36ba889c4e76ee6b761446234f3027cf360cd4522"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is4-setup.fragment.html",
+      "bytes": 1421,
+      "sha256": "e05d9e71b578ffb0e3b20ac84c533e2501e995f151c106ba6275b35c89d77b5e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is4-wind-setup.fragment.html",
+      "bytes": 2572,
+      "sha256": "99758cde5721a6513f20bba5c0448034ffbef600b21bf7e3907b0762b4bf8ce8"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is5-zone-panel.html",
+      "bytes": 13304,
+      "sha256": "160c44a738147e5a894dfc91ee066db73fb056c9523f46b7d5f9c68e39bebf95"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is5-zone.css",
+      "bytes": 2526,
+      "sha256": "97a7a8ee5c1aab3527b622f5bd678a6947baf7c23f526c328e585cb38ca7122b"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is5-zone.js",
+      "bytes": 22111,
+      "sha256": "46a1f748db43e04a8ef895c06842d66663f83bc30f9e5fbe2c64e3b995e5a1a2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is6-layers-panel.html",
+      "bytes": 5928,
+      "sha256": "f76ff6b04ab74e56db942d1d04dbc76871975406623a8508838364d8bb4dcfdb"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is6-layers.css",
+      "bytes": 2637,
+      "sha256": "c61a1c9a6a06ccbeb0c10535d5a1500ff3eba1af5e87ff9635428c0865b3f24d"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is6-layers.js",
+      "bytes": 15012,
+      "sha256": "3a98a6cee7f6dcbe9a7aeb7bf43f83ee2eeb1188b390f0627dc700d1dd8b1534"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is6-spatial-panel.html",
+      "bytes": 4825,
+      "sha256": "e2f77c99858440882c0d7758cd6e0abd57c9cd352a04c04638606a898f068454"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is6-spatial.css",
+      "bytes": 2414,
+      "sha256": "6954227d672b81c57972e25c146e2d0f12bd2d1ee03013c42709270a92a82aef"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/is6-spatial.js",
+      "bytes": 15318,
+      "sha256": "ef34b77461e692cf6d2fabbbd12afc9c63c488bc68039fae4a9a553f0ed2c047"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/jupiter-field.js",
+      "bytes": 3400,
+      "sha256": "a60901311af45084ebdeaa0668ad25af9d419c04a7a40fcf75b87ff35e2b4aee"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/material-tides.js",
+      "bytes": 6161,
+      "sha256": "1b287b9bb54fe50f1764d91463b694be2f9c3a7d5baac85a792a6324abf7c701"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/navigation.js",
+      "bytes": 12362,
+      "sha256": "19fcd376e30ffc048b406b1d6116312fa1a59cf3dc4fe8f5801b42b473952e97"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/nuclear-energy.css",
+      "bytes": 2721,
+      "sha256": "d1ad0ec936e8111818ad56aed0f30a3c95efe0e319d21c5b2c927b71c85617c2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/nuclear-energy.html",
+      "bytes": 5858,
+      "sha256": "4b655211cfab257512ad959f5f8010ed497b65dc5c20ec18dcea29daef378ae2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/nuclear-energy.js",
+      "bytes": 13055,
+      "sha256": "068d86f6b70875533674026c90f9da030da7475aef6a5f2f43cb3e36bc36e27f"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/nuclei.css",
+      "bytes": 3016,
+      "sha256": "3b79851b22aa981e38354ec4a4ece469fc4dbbee8f338aff5ea040d6b07c2547"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/nuclei.html",
+      "bytes": 4924,
+      "sha256": "e0975e132f969941a0855b9e1486cca4b284628303214c889cd1d828000687a5"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/nuclei.js",
+      "bytes": 13509,
+      "sha256": "66f80c499117e28f1bce18612260a1cf5fc690d7598008b63e2002bd99712cdd"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/orbit-editor.js",
+      "bytes": 7263,
+      "sha256": "43003e3c442d3dc61cd1c5ed19ec151913bbcd6bbee16240cc1a0e98808a6776"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/orbital-instruments.js",
+      "bytes": 13391,
+      "sha256": "1c8cd58875423234b0b8e066b217dc90cbe45a81b463a9475344413526a813bc"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/solar-tide.js",
+      "bytes": 2768,
+      "sha256": "a47ab6a75f64a382ad711939cf3c8c70166dc9a56dec4f66e79b74fe86c98e03"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/solar.js",
+      "bytes": 4048,
+      "sha256": "8f6ef004006ae29ae509e5cb718c95dc157c323255b68573b96dbc483e489093"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/stellar-reference-panel.html",
+      "bytes": 3804,
+      "sha256": "03e5cd370255d795157314f1774257f4c253be1bc2ff2d3736a2e0c922daaac2"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/stellar-reference.css",
+      "bytes": 1883,
+      "sha256": "846af8965445a164fa2bbb5e6ebb898a6733634d0f3e6c51a21747dc77267563"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/stellar-reference.js",
+      "bytes": 7882,
+      "sha256": "899fdfcc099889bd005da0aa388210d2a516b5b70a16e9e27174430cb4a11a5e"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/style.css",
+      "bytes": 15199,
+      "sha256": "e08095d07d994e927aba7d778ed56baafa7fb2165843a753f2a8f1e66152fcd1"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/ui/test-cloud.js",
+      "bytes": 4591,
+      "sha256": "1f3611ac8304d49351d975316f90a627530de849ef3f2cab9aef4a0873655740"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/app/worker.py",
+      "bytes": 11686,
+      "sha256": "2fbd0aa78c84e851ac9fd6d839dfbd1aaab658046197b4ad6422809f4d30b335"
+    },
+    {
+      "path": "output/is6-spatial-import-product0.22.1/build-manifest.json",
+      "bytes": 289132,
+      "sha256": "566e440be5ead1946fa1ef08730fcb2db364801823dd24988e5ca8a7c64e18ed"
+    },
+    {
       "path": "output/is6-spatial-import-staging/is6_spatial_import.py",
       "bytes": 6524,
       "sha256": "632ec6a3221df0dca3f7c22acabccf0b51209852347156611d7a51ac5b886086"
@@ -10265,6 +12750,26 @@
       "path": "output/is6-spatial-import-staging/is6_spatial_import_store.py",
       "bytes": 15862,
       "sha256": "91aa6b9855db546e8fe408d3bdba907d63ff5b5fb9fd0ec3755eb6907170cefe"
+    },
+    {
+      "path": "output/is6-spatial-import-staging/server.py",
+      "bytes": 21659,
+      "sha256": "8bff44f954688ebd979826f8e084e799e643ce59f79ab240c6be1e073bfabf47"
+    },
+    {
+      "path": "output/is6-spatial-import-staging/ui/is6-layers.js",
+      "bytes": 15012,
+      "sha256": "3a98a6cee7f6dcbe9a7aeb7bf43f83ee2eeb1188b390f0627dc700d1dd8b1534"
+    },
+    {
+      "path": "output/is6-spatial-import-staging/ui/is6-spatial.js",
+      "bytes": 15100,
+      "sha256": "4f657176665f666c18ecb764d71fc18e58746ffafb28b8ddad05ced902f13259"
+    },
+    {
+      "path": "output/is6-spatial-import-staging/ui/spatial-panel.html",
+      "bytes": 5813,
+      "sha256": "64c21d35066664988b412d4a9bfc943315e16e3d446532e39e5f6ec4b3e0c501"
     },
     {
       "path": "output/is6-spatial-import-store-20261104b/expected-before-reopen.json",
@@ -11682,6 +14187,16 @@
       "sha256": "cdd88bb72cced48a8ffa29c9a80145296ea791365a17c9148f4e8891f2f982c8"
     },
     {
+      "path": "scripts/launch-is6-spatial-import-candidate-v2.py",
+      "bytes": 6232,
+      "sha256": "fcc39a4552861c72b128f1f289b2145e879fe9a831929ae714ea1289b460e1b4"
+    },
+    {
+      "path": "scripts/launch-is6-spatial-import-candidate.py",
+      "bytes": 6232,
+      "sha256": "aa58203bc43f4b1c3c3510f17c714e52e956819949e28496e6e3069ecc80f834"
+    },
+    {
       "path": "scripts/launch-is6-spatial-revision-c.py",
       "bytes": 5703,
       "sha256": "5550f893bcb5918b29d2f399988340a9443dd30fb0d2c06c14751c5ce8d7801e"
@@ -12055,6 +14570,16 @@
       "path": "scripts/prepare-is6-spatial-fixtures.py",
       "bytes": 1986,
       "sha256": "445d90044ae8cf32e490487595621b3efbfc87a49b32cbe0bd4e80cf7559b5f2"
+    },
+    {
+      "path": "scripts/prepare-is6-spatial-import-product.py",
+      "bytes": 3934,
+      "sha256": "420854db497138acf75ad664541c268f3a584abacc6bbac1cc95e5b36dfc3446"
+    },
+    {
+      "path": "scripts/prepare-is6-spatial-import-revision.py",
+      "bytes": 2854,
+      "sha256": "e247459f12983cd437af08c54eb38f0bb2cec88fc54e8ba29a0d46e3add9c7d4"
     },
     {
       "path": "scripts/prepare-is6-spatial-research.py",
@@ -12777,6 +15302,11 @@
       "sha256": "1817bccf438332cacda77724339c9ccb4368455ff952cdcd43cd65c32b33475a"
     },
     {
+      "path": "scripts/start-is6-spatial-import-background.py",
+      "bytes": 1471,
+      "sha256": "1b3d0ca876b7604c6381228558a5ad77e2080daa75948b57b4715c47c9349325"
+    },
+    {
       "path": "scripts/summarize-body-vector-visibility.py",
       "bytes": 2651,
       "sha256": "b0282a450cc75d34276339c3d0b60c7f01173301cc3c60e399fc94341aa625da"
@@ -12805,6 +15335,11 @@
       "path": "scripts/sync-github-source-snapshot-v5.py",
       "bytes": 7092,
       "sha256": "55ea9e4472a93048b0f0d2a5e697573f3b2f0e258c39e3654e36f4caca780b17"
+    },
+    {
+      "path": "scripts/sync-github-source-snapshot-v6.py",
+      "bytes": 7556,
+      "sha256": "740cedd0c58fb1b8bac0c67451cf8843ffe4e8abddd3b8050863b1d506d8fc38"
     },
     {
       "path": "scripts/sync-github-source-snapshot.py",
@@ -13997,6 +16532,11 @@
       "sha256": "437c4aca9dc90ff7bd5cad01364cad54a4d76333fa3c0e0fca7db99f1c643679"
     },
     {
+      "path": "scripts/verify-is6-spatial-import-http.py",
+      "bytes": 7509,
+      "sha256": "9f927e2a02750d1f409d08100b363e0cdf0f80dfde685266c91488e26937ffd9"
+    },
+    {
       "path": "scripts/verify-is6-spatial-import-service-v2.py",
       "bytes": 10008,
       "sha256": "bf09a5107bc375c323ddf69eb4e93d1f8a3274392f1e1f080afee551f727071d"
@@ -14435,6 +16975,21 @@
       "path": "scripts/verify-native-is6-scene-transaction.py",
       "bytes": 7745,
       "sha256": "2d3d5df878a2f65288d98f7eb203736b633ce7a2fc8d454121fef09972a3572e"
+    },
+    {
+      "path": "scripts/verify-native-is6-spatial-import-v2.py",
+      "bytes": 20393,
+      "sha256": "b23441d347499469d8bd35bde1a0f3436b575ef3095ab1bc6cdebd0994d0d010"
+    },
+    {
+      "path": "scripts/verify-native-is6-spatial-import-v3.py",
+      "bytes": 20509,
+      "sha256": "f9e5d69ea7107ddede9779fa38e1868ccee3f8761729fe4d3a02ddfcce4f54ab"
+    },
+    {
+      "path": "scripts/verify-native-is6-spatial-import.py",
+      "bytes": 20048,
+      "sha256": "553d2ef4110d540f5fffe914a27719da98a11be570c2ae05a48279420f0ec78b"
     },
     {
       "path": "scripts/verify-native-is6-spatial-prototype.py",
