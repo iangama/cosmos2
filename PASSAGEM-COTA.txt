@@ -1,15 +1,30 @@
+ATUALIZAÇÃO: P4 ACEITO após auditor-v3.18.059quadros/240comandos/zero>100ms,
+p95máx13,815ms/p99máx14,172ms/RAM1,12961GiB/GPU soma3,01709GiB. Quatro0/0/0/0.
+Nenhum host próprio ativo. Ver IS-6-IMPORTACAO-ESPACIAL-PERFIL-P4-20261105.md.
+Próximo exato: K5 composto0.21.1. Novos benchmark/auditor/driver-owned-v4 e
+plano-v3 preparados com PDH, RAM estrita, prévia pausada e host próprio. Sintaxe
+conferida; ainda não executados. Preparar plano --label20261105k5a, executar
+run-is6-layers-import-profile-owned-v4.py --label20261105k5a --plan-label20261105k5a.
+Auditoria é automática após fechamento; verificar recibos e closure do host.
+Atualização backup-v8 inclui P4 e nova preparação K5. Conferir sync/push20261105d.
+Telemetria16:42:50UTC86%5h/3%semanal. Continuar até limite real.
+
 COSMOS2 — PASSAGEM 05/11/2026, após recusa P3
 
 Continuar implementação autorizada, sem subagentes e sem confirmação rotineira.
-Telemetria disponível 11:08:42.968Z: 3% restantes na janela 5h e 6% semanal.
+Telemetria disponível 16:34:44.836Z: 92% restantes na janela 5h e 4% semanal.
 São percentuais de uso, não contexto. Checkpoint não é ordem de parar.
 
-ESTADO ATUAL: nenhum host próprio ativo. Sessão exec80795 terminou. P3 recusou
+ESTADO ATUAL: P4 RODANDO na sessão exec94013; aguardar saída/recibo. P3 recusou
 na preparação, zero janelas, WinError87 OpenProcess PID1692/pai39860. Quatro
 processos próprios encerraram0/0/0/0. Auditor-v2 recusou corretamente.
 P1/P2 também recusados; P2 teve duas janelas estáticas mas não é aceite parcial.
 
-PRÓXIMO EXATO: ler IS-6-IMPORTACAO-ESPACIAL-PERFIL-RESULTADO-20261105.md,
+PRÓXIMO EXATO: P4 usando benchmark-is6-spatial-import-v4.py --label 20261105p4 --plan-label 20261105p4.
+Plano-v3 congelado. Helper preparação passou7checks CPU/zero nativo. Auditor
+novo-v3 verifica também todo histórico de estabilização. Após P4 fechar:
+.tooling/python/Scripts/python.exe -Xutf8 scripts/audit-is6-spatial-import-profile-v3.py --label 20261105p4 --plan-label 20261105p4
+Não hashing/backup/build pesado durante janelas. Para contexto ler IS-6-IMPORTACAO-ESPACIAL-PERFIL-RESULTADO-20261105.md,
 IS-6-GPU-IDENTIDADE-PROCESSOS.md e seções pertinentes do contrato de perfil.
 Inspecionar benchmark-is6-spatial-import-v3.py preparação/estabilização e
 owned_process_snapshot.py. Criar versões novas: possível espera limitada
@@ -28,7 +43,8 @@ PS-File nasce suspenso; não forçar threads/políticas nem repetir testes-File.
 Python Windows .tooling/python/Scripts/python.exe; WSL sem rebound.
 
 BACKUP: remoto confirmado antes deste checkpoint205036004894b6077a02de89da056d8124faf7f3.
-Atualização-v7 em preparação para incluir PDH, identidade, planos e recusasP1/P2/P3.
+Atualização-v7 concluída: commit remoto aa1b330d7ad7ce7b1db6a6b77f820e044367c5ce,
+3544arquivos/84alterados, inclui PDH/identidade/planos/recusasP1-P3. P4 ainda fora.
 Conferir recibos github-source-sync/push-20261105c e git remoto para saber se
 concluiu. Checkout irmão cosmos2-github-snapshot-20261103. Backup parcial sem
 runtimes/user/ZIPs. Não normalizar os dois README-B23-original.txt herdados.
