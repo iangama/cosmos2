@@ -1,0 +1,178 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/collect_gpu_pdh_v2.py": "08f084de158bd0f71c0bf141f06f62e564d2cc09834e90cfeab6abba699e6ee8",
+    "scripts/windows_gpu_pdh_v2.py": "9a35ebdcc93ca30c748bf64b7e849b567150d2711f615d8c22af38d284564924",
+    "scripts/gpu_pdh_audit_v2.py": "8b1b9d0fe63c8c15cfd11af71c3e0799b3b8906c062cc0e6352e93ff5fdd5fe1",
+    "IS-6-GPU-PDH-PYTHON-CONTRATO.md": "b32b9e2bbdb3ba8981ba0041eb5b6ba809e339bf8837357b971f0cb35b6784a1",
+    "IS-6-GPU-PDH-PYTHON-TEMPO.md": "83490234ad9b949dd031812fe356594e9e8a0654625f8b300016827292791e1e",
+    "scripts/verify-gpu-pdh-report.py": "45abce0fe78d84ec6ff6c27feeeb024b2bd4cb900dd67984f8d12c95d90c6790",
+    "evidence/gpu-pdh-20261105b.json": "cb74fd840e9e430e7804dc85b1ac003cfabfb11fbb66990562cfbea153d0d3e3"
+  },
+  "native_report": "evidence/gpu-pdh-20261105b.json",
+  "native_report_sha256": "cb74fd840e9e430e7804dc85b1ac003cfabfb11fbb66990562cfbea153d0d3e3",
+  "summary": {
+    "samples": 3,
+    "paths": 6,
+    "owned_processes": 8,
+    "peak_dedicated_plus_shared_bytes": 3225415680,
+    "scope": "WDDM sum per process; shared allocations can be counted more than once."
+  },
+  "refusals": [
+    {
+      "case": "Wrong schema",
+      "error": "Native PDH schema4 required"
+    },
+    {
+      "case": "Boolean schema",
+      "error": "Native PDH schema4 required"
+    },
+    {
+      "case": "Refused native capture",
+      "error": "PDH collection was refused"
+    },
+    {
+      "case": "Native failure hidden",
+      "error": "PDH collection was refused"
+    },
+    {
+      "case": "Different session",
+      "error": "GPU collector session differs from the owned host"
+    },
+    {
+      "case": "Different executable",
+      "error": "GPU collector executable differs"
+    },
+    {
+      "case": "Different source generation",
+      "error": "GPU collector generation differs"
+    },
+    {
+      "case": "Native API failure",
+      "error": "PDH API call failed"
+    },
+    {
+      "case": "Formatted API failure",
+      "error": "PDH API call failed"
+    },
+    {
+      "case": "Invalid raw CStatus",
+      "error": "PDH counter data invalid"
+    },
+    {
+      "case": "Invalid formatted CStatus",
+      "error": "PDH counter data invalid"
+    },
+    {
+      "case": "Wrong raw type",
+      "error": "PDH counter is not a64-bit byte gauge"
+    },
+    {
+      "case": "Wrong formatted type",
+      "error": "PDH counter is not a64-bit byte gauge"
+    },
+    {
+      "case": "Applied counter scaling",
+      "error": "Unscaled integer PDH format required"
+    },
+    {
+      "case": "Negative bytes",
+      "error": "Nonnegative64-bit integer required"
+    },
+    {
+      "case": "Boolean bytes",
+      "error": "Nonnegative64-bit integer required"
+    },
+    {
+      "case": "Raw/formatted mismatch",
+      "error": "Formatted GPU bytes differ from raw count"
+    },
+    {
+      "case": "Omitted selected counter",
+      "error": "Selected PDH row count differs"
+    },
+    {
+      "case": "Duplicated selected counter",
+      "error": "Selected PDH row count differs"
+    },
+    {
+      "case": "Changed instance inventory",
+      "error": "GPU path set changed during collection"
+    },
+    {
+      "case": "Duplicate owned identity",
+      "error": "Owned process identities differ"
+    },
+    {
+      "case": "Reused process identity",
+      "error": "Owned process identity changed"
+    },
+    {
+      "case": "Zero assigned to unexposed identity",
+      "error": "Missing exposed GPU paths were assigned zero"
+    },
+    {
+      "case": "Omitted GPU identity",
+      "error": "Exposed GPU identity set differs"
+    },
+    {
+      "case": "GPU sum changed",
+      "error": "GPU projection/sum differs from raw samples"
+    },
+    {
+      "case": "Projected bytes changed",
+      "error": "GPU projection/sum differs from raw samples"
+    },
+    {
+      "case": "Counter metadata identity changed",
+      "error": "GPU counter metadata identity differs"
+    },
+    {
+      "case": "Sample loss",
+      "error": "PDH sample loss"
+    },
+    {
+      "case": "Scenario changed",
+      "error": "Renderer/scenario changed during GPU sampling"
+    },
+    {
+      "case": "Final worker changed",
+      "error": "Final renderer/scenario changed"
+    },
+    {
+      "case": "NaN sampling offset",
+      "error": "Sampling offset differs"
+    },
+    {
+      "case": "Infinite sampling offset",
+      "error": "Sampling offset differs"
+    },
+    {
+      "case": "Dropped sampling interval",
+      "error": "GPU sampling interval outside adopted bounds"
+    },
+    {
+      "case": "Missing native time basis",
+      "error": "'time_basis'"
+    },
+    {
+      "case": "Local timestamp relabelled UTC",
+      "error": "Local FILETIME conversion differs"
+    },
+    {
+      "case": "Timezone offset invented",
+      "error": "Local FILETIME conversion differs"
+    }
+  ],
+  "owner_sha256": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825",
+  "scope": "Real native PDH Atlas byte-gauge preflight and independent receipt audit. No frame/resource budget acceptance, experiment sampling or product promotion.",
+  "fresh_interpreter": {
+    "samples": 3,
+    "paths": 6,
+    "owned_processes": 8,
+    "peak_dedicated_plus_shared_bytes": 3225415680,
+    "scope": "WDDM sum per process; shared allocations can be counted more than once."
+  },
+  "documented_NEW_DATA_status_preserved": true
+}

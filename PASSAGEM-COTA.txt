@@ -1,35 +1,37 @@
-COSMOS2 — CHECKPOINT DE COTA, CONTINUAR TRABALHO
-Telemetria corrente2026-11-05T03:19:04UTC:8%da janela5h e23%semanal restantes.
-Checkpoint, não parada: continuar até esgotamento real, bloqueio ou conclusão.
+COSMOS2 — PASSAGEM 05/11/2026, após recusa P3
 
-K5D CPU aceito: fundação6conversões/25recusas; armazenamento6ciclos/43recusas/
-18falhasI/O/24reaberturas; ator6imports/96recusas/zero motor. HTTP0.22.0 passou
-2imports/8recusas/server0. Nativo0.22.0 C4checks eDreinício5checks;6capturas cada,
-processos0/0/0/0, ciência arquivada/origem/sondas/pais conservados e contexto vivo
-restaurado. Fontes/artefatos executados CONGELADOS. V1 continua7/21, não completa.
+Continuar implementação autorizada, sem subagentes e sem confirmação rotineira.
+Telemetria disponível 11:08:42.968Z: 3% restantes na janela 5h e 6% semanal.
+São percentuais de uso, não contexto. Checkpoint não é ordem de parar.
 
-VisualC recusado: encaminhamento mostra nome no resumo mas input dizia No file
-chosen; previewbodyfixoSol.0.22.1 preparada mudando só ui/is6-spatial.js:
-DataTransfer coloca o arquivo no input real e nome do corpo depende de sua origem.
-Executar verificador-v3 próprio0.22.1; depois reabrir em outro host e revisar novas
-capturas. Nenhum aceite de perfil/GPU ou promoção. App3.13/atalho original intactos.
+ESTADO ATUAL: nenhum host próprio ativo. Sessão exec80795 terminou. P3 recusou
+na preparação, zero janelas, WinError87 OpenProcess PID1692/pai39860. Quatro
+processos próprios encerraram0/0/0/0. Auditor-v2 recusou corretamente.
+P1/P2 também recusados; P2 teve duas janelas estáticas mas não é aceite parcial.
 
-PS-Command passou, PS-File continuou stopped/1thread/zeroCPU. Apenas PS próprios
-foram encerrados; sem resume/política. ColetorGPU/perfil viaPS continua pendente.
-Pergunta antiga ao dono não respondida. CadeiaPython de lançamento funciona.
+PRÓXIMO EXATO: ler IS-6-IMPORTACAO-ESPACIAL-PERFIL-RESULTADO-20261105.md,
+IS-6-GPU-IDENTIDADE-PROCESSOS.md e seções pertinentes do contrato de perfil.
+Inspecionar benchmark-is6-spatial-import-v3.py preparação/estabilização e
+owned_process_snapshot.py. Criar versões novas: possível espera limitada
+somente antes da medição, registrando recusas e reiniciando contagem das cinco
+fotografias iguais. Não ignorar desaparecimentos dentro de janelas. Arquivos
+executados e planos preparados são congelados. Plano novo obrigatório para
+fontes novas. Validar primeiro a prévia PDH pausada; só então quatro janelas.
+Auditoria independente necessária para aceitar; manter limites existentes.
 
-Backup público442f106e13772d70f7d8a68e56f0eb29ec2a5d99 confirmado remoto/GitHub:
-2951arquivos/57alterados, CPU incluído. Novo sync-v6 está pronto para0.22.x,
-fontes/capturas/recibos e snapshots; fazer sync/stage/commit/push antes do limite.
-Ler LEIA-PRIMEIRO.md para processo ativo, comandos e próximo exato.
-Sessão do dono ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825 intacta.
+ACEITES:0.22.1 E/F funcional+reinício+visual; CPU fundação A, armazenamento B-r2,
+ator C2 e HTTP A. Ver resumo nativo e recibos. V1 segue7/21, IS6 incompleto.
+Produto principal3.13 e atalho original preservados. Sessão do dono SHA256
+ ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825.
+0.21.1 também precisa perfil próprio; preparado-v3 ainda usa PS e não executou.
+PS-File nasce suspenso; não forçar threads/políticas nem repetir testes-File.
+Python Windows .tooling/python/Scripts/python.exe; WSL sem rebound.
 
-ATUALIZAÇÃO: E0.22.1 ACEITO4checks/6capturas/saídas0/0/0/0. VisualE aceita,
-input real comprovado,4regiões UI idênticas aos pixels revisadosC. F reinício
-está RODANDO com verificador-v3, --label20261105f --seed-label20261105e.
-Backup-v6 para0.22.x ainda pendente. Conferir reciboF antes de outro host.
+BACKUP: remoto confirmado antes deste checkpoint205036004894b6077a02de89da056d8124faf7f3.
+Atualização-v7 em preparação para incluir PDH, identidade, planos e recusasP1/P2/P3.
+Conferir recibos github-source-sync/push-20261105c e git remoto para saber se
+concluiu. Checkout irmão cosmos2-github-snapshot-20261103. Backup parcial sem
+runtimes/user/ZIPs. Não normalizar os dois README-B23-original.txt herdados.
 
-ATUALIZAÇÃO05/11 às10:03UTC: janela renovou para100%5h/22%semanal.
-F0.22.1 ACEITO5checks/6capturas/saídas0/0/0/0. Nenhum host próprio aberto.
-Próximo backup-v6 e coletorGPU Python PDH com auditor próprio antes do perfil.
-Não forçar PS-File; nenhuma alteração de política.
+Preservar Cosmos/Revenant. Continua valendo trabalho até esgotamento real;
+acompanhar ambas as janelas por telemetria sem inferir pelos tokens/tempo.

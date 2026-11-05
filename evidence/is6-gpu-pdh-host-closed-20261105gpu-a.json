@@ -1,0 +1,63 @@
+{
+  "accepted": true,
+  "completed": true,
+  "session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 33496,
+    "server": 39812,
+    "launcher": 17752,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-spatial-import-product0.22.1\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-spatial-import-product0.22.1\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Spatial-Import-0.22.1-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-05T10:10:45Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-spatial-import-candidate-v2.py"
+  },
+  "pids": {
+    "engine": 33496,
+    "server": 39812,
+    "launcher": 17752,
+    "launcher_wrapper": 24128
+  },
+  "source_sha256": {
+    "scripts/close-owned-is6-python-host.py": "206b90ee1f98fe752e46ed645c2e382d04794d13113c578826abf4dfd36afc8f",
+    "evidence/gpu-pdh-20261105b.json": "cb74fd840e9e430e7804dc85b1ac003cfabfb11fbb66990562cfbea153d0d3e3"
+  },
+  "owner_sha256": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825",
+  "scope": "Only identified owned Atlas GPU-probe host cleanup; no launcher activation or performance acceptance.",
+  "process_exit_codes": {
+    "engine": 0,
+    "server": 0,
+    "launcher": 0,
+    "launcher_wrapper": 0
+  }
+}

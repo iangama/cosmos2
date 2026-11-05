@@ -1,0 +1,10 @@
+{
+  "accepted": true,
+  "scope": "Only two immutable copied scientific README originals have upstream trailing spaces; all other committed files pass CRLF-aware diff --check. Originals remain byte-identical to0.21.1, no formatting normalization.",
+  "preserved_originals": [
+    "output/is6-spatial-import-product0.22.0/app/references/README-B23-original.txt",
+    "output/is6-spatial-import-product0.22.1/app/references/README-B23-original.txt"
+  ],
+  "baseline": "output/is6-layers-product0.21.1/app/references/README-B23-original.txt",
+  "sha256": "6a7131a68db7e5753b77b7ddf61b833894a1603130c3734fa029e3a6133d5e4f"
+}
