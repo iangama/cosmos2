@@ -1,0 +1,16 @@
+{
+  "accepted": true,
+  "completed": true,
+  "destination": "/mnt/c/Users/Ian/cosmos2-github-snapshot-20261103",
+  "files": 2897,
+  "changed": [
+    "ABERTURA-SERVIDOR-LOCAL-20261104.md",
+    "LEIA-PRIMEIRO.md",
+    "evidence/local-ui-native-startup-20261104b-r2.json",
+    "scripts/audit-native-ui-startup-process.py"
+  ],
+  "preserved_missing_sources": [],
+  "inventory_sha256": "f1f530b9fcb13a6fc3ab9d7ee278fbf604ff20cadcd6b01b5d86f25d03be01e9",
+  "script_sha256": "b66b28001a2b2f224d952779d21158ef8735b518813bfb7236ca1fb3f1f64e83",
+  "scope": "Partial source/evidence backup only; excludes runtimes, personal sessions, binary archives and most generated records. Does not install the product or constitute full reproducibility."
+}

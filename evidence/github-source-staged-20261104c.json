@@ -1,0 +1,18 @@
+{
+  "accepted": true,
+  "completed": true,
+  "inventory_files_verified": 2897,
+  "changed_files": 631,
+  "full_whitespace_check": 2,
+  "immutable_whitespace_warnings": 19,
+  "immutable_exception_paths": [
+    "output/is6-layers-product0.21.0/app/references/README-B23-original.txt",
+    "output/is6-layers-product0.21.1/app/references/README-B23-original.txt",
+    "scripts/verify-native-ui-readiness-v2.py"
+  ],
+  "exception_reason": "Preserve original scientific reference text and an already executed/sealed test byte for byte; no normalization of accepted sources.",
+  "remaining_whitespace_check": 0,
+  "byte_preserving_git_configuration": "core.whitespace=cr-at-eol",
+  "staged_inventory_blob": "7a73434e2e50388019f4cb952dbcb69e11ecb12c",
+  "scope": "Public partial source backup staged blobs exactly match source inventory; no runtimes, personal session files or binary archives."
+}

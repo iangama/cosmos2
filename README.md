@@ -10,7 +10,12 @@ composta na0.21.1 passou nos testes CPU e nas jornadas funcionais nativas
 Terra/Júpiter. A revisão visual W passou com16capturas nativas e as quatro
 visibilidades por corpo. A comparação direta dos pixels corrigiu uma
 interpretação anterior sobre o PrintWindow: os arquivos conservavam a interface.
-O perfil próprio0.21.1 e os saves apenas espaciais continuam pendentes. Veja os
+O perfil próprio0.21.1 continua pendente. A fundação CPU dos saves apenas
+espaciais passou em seis conversões e25recusas. O novo armazenamento atômico
+passou em seis ciclos,43recusas,18falhas de I/O e24registros reabertos em outro
+intérprete. O serviço CPU também passou em seis importações,96recusas e zero
+chamadas ao motor; integração HTTP/UI e restauração nativa ainda pendem. Veja o
+[resultado espacial](IS-6-IMPORTACAO-ESPACIAL-K5D-ARMAZENAMENTO-RESULTADO-20261104.md) e os
 [resultados K4](IS-6-COEXISTENCIA-PERSISTENCIA-K4-RESULTADO-20261104B.md)
 e [K5](IS-6-COEXISTENCIA-MIGRACAO-K5-RESULTADO-20261104.md).
 Palavras de retomada: **cosmos2** ou **cosmos 2**. O Cosmos original permanece separado.

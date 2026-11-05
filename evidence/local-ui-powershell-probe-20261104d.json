@@ -1,0 +1,37 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/probe-powershell-startup.py": "0a6623af34c225d4101b9c51b585c399d1d8a6d9859205dd90aea48f399a6b6a"
+  },
+  "entry_sha256": "70cc2461c931ee6b4c1c211faf9a5bfe05455be1c240c17e3e16e3c7e69eccb8",
+  "owner_sha256": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825",
+  "observations": [
+    {
+      "status": "running",
+      "threads": 1,
+      "cpu_s": 0.0
+    },
+    {
+      "status": "running",
+      "threads": 18,
+      "cpu_s": 0.40625
+    },
+    {
+      "status": "running",
+      "threads": 25,
+      "cpu_s": 0.875
+    },
+    {
+      "status": "running",
+      "threads": 26,
+      "cpu_s": 1.109375
+    }
+  ],
+  "scope": "Single harmless PowerShell console-output probe after execution permissions changed. No thread resume, security policy change, native startup, shortcut activation or GPU/profile acceptance.",
+  "pid": 37860,
+  "timed_out": false,
+  "exit": 0,
+  "stdout": "COSMOS2_PS_PROBE\n",
+  "stderr": ""
+}

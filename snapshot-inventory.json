@@ -877,9 +877,34 @@
       "sha256": "7e820a5cba863a76809d3e929ec81a89f9d940051b00189e376e5051d130fa1b"
     },
     {
+      "path": "IS-6-IMPORTACAO-ESPACIAL-K5D-ARMAZENAMENTO-RESULTADO-20261104.md",
+      "bytes": 2332,
+      "sha256": "949d9dd421a7308c38b1db1707e612a0a990a300a99000cbab2be63ebb2e3dd0"
+    },
+    {
+      "path": "IS-6-IMPORTACAO-ESPACIAL-K5D-ARMAZENAMENTO.md",
+      "bytes": 2611,
+      "sha256": "3544a128c9c7722d8251f17d5c158a15fdba87586a94b288e2f43103d2a16d07"
+    },
+    {
       "path": "IS-6-IMPORTACAO-ESPACIAL-K5D-CONTRATO.md",
       "bytes": 2366,
       "sha256": "d96a23b89d60d108fb2b31d657f5cc7ab09ef09e07554bc3c792d5e3d7220bf3"
+    },
+    {
+      "path": "IS-6-IMPORTACAO-ESPACIAL-K5D-RESULTADO-20261104.md",
+      "bytes": 1640,
+      "sha256": "7aae7b66d09da86920d54800889987d4c36389194f8b9b8ecce259e914317807"
+    },
+    {
+      "path": "IS-6-IMPORTACAO-ESPACIAL-K5D-SERVICO-RESULTADO-20261104.md",
+      "bytes": 1745,
+      "sha256": "15c5206135b927994e000bac3e38081a9ceee5d634735a794bc17da1eab5aa25"
+    },
+    {
+      "path": "IS-6-IMPORTACAO-ESPACIAL-K5D-SERVICO.md",
+      "bytes": 2804,
+      "sha256": "cfabc3ca791bf77eda12b3218d27366414636b9f03139363269a67b626e2d1ba"
     },
     {
       "path": "IS-6-MALHA-ESPACIAL-CONTRATO-PREVIO.md",
@@ -1053,8 +1078,8 @@
     },
     {
       "path": "LEIA-PRIMEIRO.md",
-      "bytes": 5624,
-      "sha256": "5bed045f9372a4126985aaf85b0270758dfdf4f57da0a261ffe7d70cbc658821"
+      "bytes": 6656,
+      "sha256": "3a7290c6d3e3e891dc6dc55ba93fb139e18bbb62fb9f611749d6dcf27fb19867"
     },
     {
       "path": "MARES-EQUILIBRIO.md",
@@ -1168,8 +1193,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9105,
-      "sha256": "5e0c7197a753de3fd56684cc5a69eb19f14803efc344cf955d0df3acb5a501f0"
+      "bytes": 9518,
+      "sha256": "ccf25f7e8b5231190b82f4bc25b26b6561c85e39ccc75cdf0e3f4e8ec4cf36b1"
     },
     {
       "path": "RELATORIO-GRAVIDADE-MALHA-2026-10-18.md",
@@ -2232,6 +2257,61 @@
       "sha256": "3a94f342cdb9d3c21f92a3a989b64da0e491712721bb9138bc3e8eb519c9e46c"
     },
     {
+      "path": "evidence/github-source-push-20261104b.json",
+      "bytes": 516,
+      "sha256": "e9d0f9ca7016e42d7c9d8abd371f47d93e5cd77d417c42cb7db15ee4b7aede69"
+    },
+    {
+      "path": "evidence/github-source-push-20261104c.json",
+      "bytes": 551,
+      "sha256": "fa78d1bfc7e6e29bade239a5e7c3448c5efbcf9fa2985872a1b1035288017a6d"
+    },
+    {
+      "path": "evidence/github-source-staged-20261104c.json",
+      "bytes": 890,
+      "sha256": "4314e0ec88abb6fe3bf87075013fb3c9d10b092a182c39766b03e316636bfa51"
+    },
+    {
+      "path": "evidence/github-source-sync-20261104b.json",
+      "bytes": 8918,
+      "sha256": "96446c9f57771fe49205eb95bbab63c67ccc89886eaaa6d01df6a828bd976f75"
+    },
+    {
+      "path": "evidence/github-source-sync-20261104c.json",
+      "bytes": 666,
+      "sha256": "f6e85babee4bbf1152eab4533f65ca770ca0874f4d7d3e3e94d0cad4178b34a6"
+    },
+    {
+      "path": "evidence/github-source-sync-20261104d.json",
+      "bytes": 601,
+      "sha256": "ee13cf1d26df5feb85592d056458a54c4fb643fb9743f9d0d79397f4b4110019"
+    },
+    {
+      "path": "evidence/github-source-sync-20261104f.json",
+      "bytes": 41377,
+      "sha256": "104b6b8c38f4e43739169ab29cf84132917fc36549b13a7d47ebe4628d4e6c4d"
+    },
+    {
+      "path": "evidence/github-source-sync-20261104g.json",
+      "bytes": 1604,
+      "sha256": "053e8b1d185e9df04fd97b96d700cd472235bc9a2bad6d8a28293d540fc389cd"
+    },
+    {
+      "path": "evidence/github-source-sync-20261104h.json",
+      "bytes": 735,
+      "sha256": "b9980bcdecabd26895908acd7984d887cd3878c7d84b73b0b13dc6aa3b86fbfe"
+    },
+    {
+      "path": "evidence/github-source-sync-20261104k.json",
+      "bytes": 2140,
+      "sha256": "c04adedaf11b1c549593b174df1e361726234105345f69a4ee10729c4cb36906"
+    },
+    {
+      "path": "evidence/github-source-sync-20261104m.json",
+      "bytes": 1186,
+      "sha256": "93b968eb8115930f34b1354ee039ebffe0a1423c8b557ae5f12d40e541324cb4"
+    },
+    {
       "path": "evidence/gpu-memory-is6-k4-20261104g-1.json",
       "bytes": 586055,
       "sha256": "706d8573207f795d8a5f18b92c87362fd264b13c4d22c0c53696794862643145"
@@ -2612,6 +2692,31 @@
       "sha256": "088d3c0d1072a0d54fd8338682c17b374c7d02b48ba642c6252682fafdbd158d"
     },
     {
+      "path": "evidence/is6-spatial-import-20261104a.json",
+      "bytes": 44920,
+      "sha256": "e0fb4bed9ff95bed07b392d6e7bfb361991fa079e77dadbbb9b37c57ce4f29ce"
+    },
+    {
+      "path": "evidence/is6-spatial-import-service-20261104c.json",
+      "bytes": 31969,
+      "sha256": "dafeff8f2b39718850e9d3623b6d97165236a5e79e413f45b74ad29796e79898"
+    },
+    {
+      "path": "evidence/is6-spatial-import-service-20261104c2.json",
+      "bytes": 54057,
+      "sha256": "41a7a55c65d92b6bf50fceb375f50df8df7b6eaef881112d00f23c2c3efa0f82"
+    },
+    {
+      "path": "evidence/is6-spatial-import-store-20261104b-r2.json",
+      "bytes": 141062,
+      "sha256": "fe45eb3ca475e7a43190c266e77cc1577d9af32ecf16fa9b1c43a05c4f096e17"
+    },
+    {
+      "path": "evidence/is6-spatial-import-store-20261104b.json",
+      "bytes": 16664,
+      "sha256": "fcc1324cc33d87417ce4ca733eedfccd5574d08c0f15a5dad4fe4ea0324473da"
+    },
+    {
       "path": "evidence/is6-ui-startup-diagnostic-20261104.json",
       "bytes": 2718,
       "sha256": "f95555d08afd1feffeb77eff1693bfd4d900cb5ea04d58ffa32c3e6d13d696cc"
@@ -2630,6 +2735,21 @@
       "path": "evidence/local-ui-native-startup-20261104b.json",
       "bytes": 30855,
       "sha256": "4fccf9f806eb01a4d4a763fba6f159714b3d849ae667c339dc3086fecf803b1e"
+    },
+    {
+      "path": "evidence/local-ui-native-startup-20261104d-owned-ps-closed.json",
+      "bytes": 373,
+      "sha256": "d15ba790c0bcbd65a81dc5f321e09078ab19e44b3c9bfa4504410b71ccc91d0d"
+    },
+    {
+      "path": "evidence/local-ui-native-startup-20261104d.json",
+      "bytes": 10078,
+      "sha256": "151057318cfcfcb1c419e703a72a3d950bd669b10898c6e4c571b86a2fc04e1c"
+    },
+    {
+      "path": "evidence/local-ui-powershell-probe-20261104d.json",
+      "bytes": 1048,
+      "sha256": "922cebe3e27b8fef406a252a48f38bad57a875398687a83dd2547d6961827e21"
     },
     {
       "path": "evidence/local-ui-powershell-stopped-20261104.json",
@@ -10067,6 +10187,91 @@
       "sha256": "6e324c7fd13a3624d8f60292147f4b7048ba7e4ce186ac19f5851d54d7a5f4ad"
     },
     {
+      "path": "output/is6-spatial-import-20261104a/branch-0-package.json",
+      "bytes": 3149403,
+      "sha256": "420e42f7cae8efad4417d6d0e109af3050c619f5758491772219d162d9568279"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/branch-0-source.json",
+      "bytes": 1495956,
+      "sha256": "b0d519246b03fffd1ab63fbc5ea501cdb06af9801be406b8d46198165153143b"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/branch-1-package.json",
+      "bytes": 3149403,
+      "sha256": "ff81ca0b55ae00416d57148feb4d285eebfaad159e525e8a706471a4d556ba65"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/branch-1-source.json",
+      "bytes": 1495956,
+      "sha256": "c00fb0fe122c127ae3d2390d35fdc025e9b636c12e1f979ad49eb84dbe9f3d93"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/export-0-package.json",
+      "bytes": 3149118,
+      "sha256": "f683102a446fc9452472921c0dd8861a2342e37a968095531af180f78e288bd2"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/export-0-source.json",
+      "bytes": 1495828,
+      "sha256": "945d396f8cb6f674781d4f288de3679510a3c25d6bb5fcd20c3c284a4af2d62f"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/export-1-package.json",
+      "bytes": 3149118,
+      "sha256": "4a77d5d9055411ce5c2600e7cab24dc53aea85aba03ba6fee31be046d909728d"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/export-1-source.json",
+      "bytes": 1495828,
+      "sha256": "e5f180213a5497a90b2ddba83d58c875b90022b95909dbdfc36a1887241fd2b8"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/saved-0-package.json",
+      "bytes": 3149118,
+      "sha256": "74b5615a48bd9fabf6f556d64359f2c0f19e964e00fa382eeb4046ac773cbd22"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/saved-0-source.json",
+      "bytes": 1495828,
+      "sha256": "e479cf78a71ed2eede5607bfd6fd262ee673df8d2adcdb6995083fd5a9ead690"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/saved-1-package.json",
+      "bytes": 3149118,
+      "sha256": "ac6b92ebd0b46fa245e45c8068a979536a647933532f521885d01522a1cdc7ca"
+    },
+    {
+      "path": "output/is6-spatial-import-20261104a/saved-1-source.json",
+      "bytes": 1495828,
+      "sha256": "ed9e80a0d36ad3e6e9cbdf883cf16cad6dfafea20ad6b1de5aeb3a820489d963"
+    },
+    {
+      "path": "output/is6-spatial-import-staging/is6_spatial_import.py",
+      "bytes": 6524,
+      "sha256": "632ec6a3221df0dca3f7c22acabccf0b51209852347156611d7a51ac5b886086"
+    },
+    {
+      "path": "output/is6-spatial-import-staging/is6_spatial_import_laboratory.py",
+      "bytes": 12016,
+      "sha256": "5a68f68a5da56d057cd7632dfce495de67e47b157a2df4bc16121dc54b619dea"
+    },
+    {
+      "path": "output/is6-spatial-import-staging/is6_spatial_import_scene.py",
+      "bytes": 787,
+      "sha256": "5fd201379a07028ac03b5692e406221aa8996a151fee96fa42bf11876acb20c1"
+    },
+    {
+      "path": "output/is6-spatial-import-staging/is6_spatial_import_store.py",
+      "bytes": 15862,
+      "sha256": "91aa6b9855db546e8fe408d3bdba907d63ff5b5fb9fd0ec3755eb6907170cefe"
+    },
+    {
+      "path": "output/is6-spatial-import-store-20261104b/expected-before-reopen.json",
+      "bytes": 74914,
+      "sha256": "4b394832c076589edf71aa1a8b7936e93b396824cc5aab96df4807151e22fb5d"
+    },
+    {
       "path": "output/is6-spatial-product0.18.2/build-manifest.json",
       "bytes": 95436,
       "sha256": "7ac1e0725669b94439b54168ba5bd9b166aebaf0441c730f3080c1eaf4e96234"
@@ -10108,6 +10313,11 @@
     },
     {
       "path": "output/local-ui-native-startup-20261104b/original-entry.cmd",
+      "bytes": 128,
+      "sha256": "70cc2461c931ee6b4c1c211faf9a5bfe05455be1c240c17e3e16e3c7e69eccb8"
+    },
+    {
+      "path": "output/local-ui-native-startup-20261104d/original-entry.cmd",
       "bytes": 128,
       "sha256": "70cc2461c931ee6b4c1c211faf9a5bfe05455be1c240c17e3e16e3c7e69eccb8"
     },
@@ -10527,6 +10737,11 @@
       "sha256": "f9c094d80f7ccfc06730e6e6cc8a9d89870f9ea9006ee1256d74178fe2fc19df"
     },
     {
+      "path": "scripts/audit-is6-layers-import-profile-v3.py",
+      "bytes": 9077,
+      "sha256": "4dbf87a8a399e0753fc2888aca5f5340a62c8d7d853c360608d266c2e24e68e6"
+    },
+    {
       "path": "scripts/audit-is6-layers-import-profile.py",
       "bytes": 8224,
       "sha256": "65d952a2828369e8c209bebd493976da1d382dd69af487781becd0d8aa8fc9fc"
@@ -10595,6 +10810,11 @@
       "path": "scripts/audit-is6-spatial-cut.py",
       "bytes": 4909,
       "sha256": "499bf9ade04a617a863f4b6d3f72d5eebc7bbb3e25679117b68abbba98a03ee3"
+    },
+    {
+      "path": "scripts/audit-is6-spatial-import-store-process.py",
+      "bytes": 10064,
+      "sha256": "51a5450a8bda99b65d3da5c77dfd1aad266fa76e31964f0a013de889c57b9d0e"
     },
     {
       "path": "scripts/audit-is6-spatial-profile-v2.py",
@@ -10770,6 +10990,11 @@
       "path": "scripts/benchmark-is6-layers-import-native-v2.py",
       "bytes": 15595,
       "sha256": "7a31c53398b2a9a7389f0c260aaa7528ccb3992e6782b07f33054b6d35ed1c57"
+    },
+    {
+      "path": "scripts/benchmark-is6-layers-import-native-v3.py",
+      "bytes": 17009,
+      "sha256": "4b7f2c150d5e34931b2d0f325bc863431296acdb960a8a60f8ab99e159149d2a"
     },
     {
       "path": "scripts/benchmark-is6-layers-import-native.py",
@@ -11887,6 +12112,11 @@
       "sha256": "ddccc80eec58e92327e18ab0fc06cc7b2e70dd95279739ee0914ce91706b8a20"
     },
     {
+      "path": "scripts/probe-powershell-startup.py",
+      "bytes": 2674,
+      "sha256": "0a6623af34c225d4101b9c51b585c399d1d8a6d9859205dd90aea48f399a6b6a"
+    },
+    {
       "path": "scripts/profile-em-cloud-native-threads.py",
       "bytes": 3059,
       "sha256": "d68d80c696d97f50663647b843be112805218a7725963c63d85e804fff3ab73d"
@@ -12152,6 +12382,11 @@
       "sha256": "db2edecde03ee810a23168b87cbe4f88014c4dfa07f1da395abb4acb5f179faa"
     },
     {
+      "path": "scripts/run-is6-layers-import-profile-background-v3.py",
+      "bytes": 2368,
+      "sha256": "f00cf4a3ce872bf01757c5fb3cf03c8bd7136a19a58cf88cf63dd830ced343ab"
+    },
+    {
       "path": "scripts/run-is6-layers-import-profile-background.py",
       "bytes": 2362,
       "sha256": "31837e6883285a63f120269151096f7f825b5e6e84479b7e994509edb2552086"
@@ -12295,6 +12530,11 @@
       "path": "scripts/run-native-ui-startup-check-v2.py",
       "bytes": 9782,
       "sha256": "1b16ce0a116c037f1620473636fea2fd2cbe7bd795e6b7a5b6ffd5028fe17aaa"
+    },
+    {
+      "path": "scripts/run-native-ui-startup-check-v3.py",
+      "bytes": 11232,
+      "sha256": "52265118ddc5e4eecf31e14e8aa56b486e8e7fa2a01d0c89baec3ee1812d4dad"
     },
     {
       "path": "scripts/run-native-ui-startup-check.py",
@@ -12555,6 +12795,16 @@
       "path": "scripts/sync-github-source-snapshot-v3.py",
       "bytes": 6799,
       "sha256": "b66b28001a2b2f224d952779d21158ef8735b518813bfb7236ca1fb3f1f64e83"
+    },
+    {
+      "path": "scripts/sync-github-source-snapshot-v4.py",
+      "bytes": 7023,
+      "sha256": "872cadc6b34500c09bcc61a2403a9e20e40a1b971c1fed489f2a63dca23686bc"
+    },
+    {
+      "path": "scripts/sync-github-source-snapshot-v5.py",
+      "bytes": 7092,
+      "sha256": "55ea9e4472a93048b0f0d2a5e697573f3b2f0e258c39e3654e36f4caca780b17"
     },
     {
       "path": "scripts/sync-github-source-snapshot.py",
@@ -13745,6 +13995,26 @@
       "path": "scripts/verify-is6-spatial-artifact.py",
       "bytes": 11233,
       "sha256": "437c4aca9dc90ff7bd5cad01364cad54a4d76333fa3c0e0fca7db99f1c643679"
+    },
+    {
+      "path": "scripts/verify-is6-spatial-import-service-v2.py",
+      "bytes": 10008,
+      "sha256": "bf09a5107bc375c323ddf69eb4e93d1f8a3274392f1e1f080afee551f727071d"
+    },
+    {
+      "path": "scripts/verify-is6-spatial-import-service.py",
+      "bytes": 9998,
+      "sha256": "3b17f29c4e829ccd7c0c73a003bea50bd0032dd83422bf45324b8394fa3888a1"
+    },
+    {
+      "path": "scripts/verify-is6-spatial-import-store.py",
+      "bytes": 24666,
+      "sha256": "3cbf29860d9f8a5812c3589afe19e513721fd636f102903da5ede8db4631fa32"
+    },
+    {
+      "path": "scripts/verify-is6-spatial-import.py",
+      "bytes": 8573,
+      "sha256": "22a574c21e152d68870d9b87f5621e2d4ec5b3f720320dabc9ede4f7b50ed415"
     },
     {
       "path": "scripts/verify-is6-spatial-scene-files.py",

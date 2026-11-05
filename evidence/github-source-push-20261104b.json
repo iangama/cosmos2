@@ -1,0 +1,12 @@
+{
+  "accepted": true,
+  "completed": true,
+  "repository": "https://github.com/iangama/cosmos2",
+  "visibility": "public",
+  "branch": "main",
+  "local_commit": "e422f2834c336cc6ceb4b5df63f53f5a0169b08a",
+  "github_API_commit": "e422f2834c336cc6ceb4b5df63f53f5a0169b08a",
+  "inventory_sha256": "c52acfb3be2e2de2683bc8ddf0532ef34e3277cc7a48173e11261dabd038d67c",
+  "files": 2272,
+  "scope": "Authorized partial source/evidence backup; no runtime, personal sessions, complete reproducibility or product acceptance."
+}
