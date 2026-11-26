@@ -1,0 +1,38 @@
+COSMOS2 — PUBLICAÇÃO CONCLUÍDA; ENCERRAR POR PEDIDO DO DONO
+
+Repositório público: https://github.com/iangama/cosmos2
+Fontes atuais da candidata local0.29.0. Primeiro commit:
+ed8afa8b5d15f8940d606af5498ec65761001c91; árvore
+919745958047861729873cb0cc01e61b12bdc9be. Foram publicados14357arquivos
+neste primeiro commit. A confirmação e esta passagem entram em seguida,
+com a mesma autoria, sem alterar o produto científico.
+
+Autoria confirmada pela API do GitHub: Ian, conta iangama, como autor e
+committer; endereço113548582+iangama@users.noreply.github.com. Apenas iangama
+na lista de colaboradores consultada. Git do WSL e checkout configurados;
+hooks de criação/envio ativos e testados com identidades válidas e inválidas.
+Página, README e configuração0.29.0 responderamHTTP200 sem login/cookies.
+Recibos em evidence/github-republish-20261126a.json,
+github-republish-public-access-20261126a.json,
+github-republish-staged-20261126a.json e github-authorship-guard-20261126a.json.
+
+Todos os14341arquivos do inventário anterior foram conferidos porSHA256;
+três textos históricos foram atualizados a partir da origem atual. Fontes
+próprias adicionais e documentação da publicação foram incluídas. Todos os
+blobs preparados foram conferidos antes do commit. Os274arquivos do manifesto
+0.29.0 são idênticos aos da origem. Não houve nova execução científica ou QA
+nativa nem mudança no app/data de geração executada ou na sessão do dono.
+
+O histórico anterior está preservado em
+/mnt/c/Users/Ian/.cosmos2-git-history-before-republish-20261126.
+O novo main não herda seus commits. O checkout de fontes continua em
+/mnt/c/Users/Ian/cosmos2-github-snapshot-20261103.
+O workspace principal continua sem Git. Runtimes, ambientes, builds,
+caches e sessões pessoais permanecem locais. O repositório é um snapshot
+de fontes/evidências selecionadas, não um instalador ou simulador web.
+
+Pedido literal posterior do dono: “Quando acabar e hospedar certinho pode
+parar os trabalhos”. Concluir a conferência final do envio desta passagem
+e parar. Não iniciar mapas ou outro avanço científico neste pedido.
+O próximo passo técnico, para uma futura retomada, segue em LEIA-PRIMEIRO.md:
+adapter puro versionado do mapa quantitativo, com contrato já congelado.

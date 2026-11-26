@@ -1,0 +1,31 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checked_utc": "2026-11-26T17:05:53.478608+00:00",
+  "anonymous_checks": [
+    {
+      "check": "repository",
+      "url": "https://github.com/iangama/cosmos2",
+      "http_status": 200,
+      "version_visible": true,
+      "cookies_sent": false,
+      "authorization_sent": false
+    },
+    {
+      "check": "readme",
+      "url": "https://raw.githubusercontent.com/iangama/cosmos2/main/README.md",
+      "http_status": 200,
+      "version_visible": true,
+      "cookies_sent": false,
+      "authorization_sent": false
+    },
+    {
+      "check": "selection",
+      "url": "https://raw.githubusercontent.com/iangama/cosmos2/main/config/local-working-product.json",
+      "http_status": 200,
+      "version_visible": true,
+      "cookies_sent": false,
+      "authorization_sent": false
+    }
+  ]
+}

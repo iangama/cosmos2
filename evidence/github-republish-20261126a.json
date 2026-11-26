@@ -1,0 +1,27 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checked_utc": "2026-11-26T17:05:54.537583+00:00",
+  "repository": "https://github.com/iangama/cosmos2",
+  "repository_id": 1473449354,
+  "public": true,
+  "branch": "main",
+  "source_commit": "ed8afa8b5d15f8940d606af5498ec65761001c91",
+  "remote_head": "ed8afa8b5d15f8940d606af5498ec65761001c91",
+  "tree": "919745958047861729873cb0cc01e61b12bdc9be",
+  "root_commit_has_no_parents": true,
+  "author_login": "iangama",
+  "committer_login": "iangama",
+  "git_email": "113548582+iangama@users.noreply.github.com",
+  "contributors": [
+    {
+      "login": "iangama",
+      "contributions": 1
+    }
+  ],
+  "published_paths": 14357,
+  "candidate": "0.29.0",
+  "staged_receipt": "evidence/github-republish-staged-20261126a.json",
+  "old_history_preserved": "/mnt/c/Users/Ian/.cosmos2-git-history-before-republish-20261126",
+  "scope": "Source publication verified through GitHub commit attribution and remote branch/tree; final handoff metadata follows separately. Not an installer or browser-hosted simulator."
+}

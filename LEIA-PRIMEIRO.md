@@ -4,8 +4,13 @@ estado atual. Destino público: https://github.com/iangama/cosmos2. Checkout
 mantido em cosmos2-github-snapshot-20261103, com histórico novo e identidade
 Ian <113548582+iangama@users.noreply.github.com> fixada. Git antigo preservado
 em /mnt/c/Users/Ian/.cosmos2-git-history-before-republish-20261126. Hooks ativos
-verificam autor/committer e histórico antes do envio. Publicação em preparação;
-confirmar o recibo github-republish-20261126a.json antes de alegar concluída.
+verificam autor/committer e histórico antes do envio. Publicação confirmada:
+commit de fontes ed8afa8b5d15f8940d606af5498ec65761001c91. GitHub associou
+ambos a iangama e listou apenas iangama nos colaboradores. Página, README e
+configuração pública responderam HTTP200 sem autenticação. Recibos:
+evidence/github-republish-20261126a.json e github-republish-public-access-20261126a.json.
+Pedido vigente: encerrar após esta confirmação e a passagem. Retomar somente
+com novo pedido do dono, sem iniciar outra implementação neste atendimento.
 Fontes da candidata0.29.0 conferidas contra os274 hashes do manifesto.
 Nenhum app/data executado foi editado; nenhuma sessão interativa foi trocada.
 O próximo passo científico abaixo continua pendente e não foi iniciado.

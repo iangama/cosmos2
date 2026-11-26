@@ -1498,8 +1498,8 @@
     },
     {
       "path": "LEIA-PRIMEIRO.md",
-      "bytes": 6237,
-      "sha256": "9a31713a329e3237e5194b37d5e62222bf6058cb3ee691feadc2c63b66d4298d"
+      "bytes": 6626,
+      "sha256": "e644a4f01ac04d78a21ea82efd9908ac16f091f7924a94b5ac8e6f9e1e030131"
     },
     {
       "path": "MARES-EQUILIBRIO.md",
@@ -1620,6 +1620,11 @@
       "path": "PLANO-UM-MES.md",
       "bytes": 6623,
       "sha256": "91ef64a55afa448cc3708e7981606927ce83957e0ee621d73623689a4ae759a5"
+    },
+    {
+      "path": "PUBLICACAO-GITHUB-20261126.txt",
+      "bytes": 2296,
+      "sha256": "6891f0ab2296af257ae84dac50a858d137b9c5bdabd66e432e577b7125fd9411"
     },
     {
       "path": "QUALIDADE-VISUAL.md",
@@ -3022,9 +3027,19 @@
       "sha256": "3a94f342cdb9d3c21f92a3a989b64da0e491712721bb9138bc3e8eb519c9e46c"
     },
     {
+      "path": "evidence/github-republish-20261126a.json",
+      "bytes": 1053,
+      "sha256": "8ae6298ce8dd9f7388767510cb293a0ce3a4e9642a56b881714d02ff9087364a"
+    },
+    {
       "path": "evidence/github-republish-preflight-20261126a.json",
       "bytes": 462,
       "sha256": "cd64b682e47ab53f3039fd3c5c47ba33c83ec398012e35e497c531564dde876e"
+    },
+    {
+      "path": "evidence/github-republish-public-access-20261126a.json",
+      "bytes": 843,
+      "sha256": "77ba45d0cb988cdf15fc337a735beaf036c9b1742545dac593c0ca7e99697a5f"
     },
     {
       "path": "evidence/github-republish-selection-20261126a.json",
