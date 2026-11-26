@@ -1,0 +1,10 @@
+{
+  "accepted": true,
+  "completed": true,
+  "local_commit": "881f835db64c9c35505f62c9fd3eff13280134f7",
+  "files": 10228,
+  "inventory_sha256": "65b61465604af95441b7e41b22abe3bf3f507bb30b6d03d0f20866905b5b0d4f",
+  "pushed": false,
+  "promoted": false,
+  "scope": "Incremental v26 source backup: unified entry, working product and rejected native b/c attempts. Later driver v3 and native d remain work in progress outside this commit."
+}

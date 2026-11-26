@@ -1,0 +1,18 @@
+VIGENTE13/11 — OBSERVADOR NATIVO ACEITO EM FIXTURE E PREFLIGHTD30AMOSTRAS
+Backupv19local8cd4df3827eff96c7d1aebf02c39a51ae28312c3/6600arquivos.Sem push.
+Ler IS-6-PROCESSOS-AUXILIARES-RESULTADO-20261113.md e revisõesD/OBSERVADOR-LIMITES.
+ProbeB300s concluído23818snapshots/31helpers/0incertos;22saídas0+FILETIMEválido/4horários0inválidos
+preservados.NomesProcessorMetrics/Unzipper/DataDecoder.PIDsA/Boriginaissemargvrecuperado.
+DriverhelperB4x0/vistarestaurada/novaapp42184válida,conferirsession/processos.
+Historyfixture20261113a ACEITO:filhoscurtosprova0/refusacódigo7.Nove recusasofflineACEITAS.
+PreflightDschema6 ACEITO30amostras/8processos/GPU3.0063GiB/RAM.9902GiB.
+Coletor4 retémhistórico a100Hz nominal;Wait sinalizado+FILETIME+0 exigidos;semdebugger/admin.
+Cenário científico fixo/primeiros66;população podevariar porprovanativa.Caminhosdentroconsultafixos;
+RAMindisponível/identidadeincerta/códigonãozero recusam.Nãohágarantia desubpollnem picosentre1Hz.
+ATIVO preparador3 --label20261113c --preflight20261113d. Conferirplanreceiptantesderepetir.
+Próximo:iniciar Windowsdestacado run-expanded-residency-v3.py --label20261113c --plan-label20261113c
+SOMENTEapósplanaceito. Dezjanelas,30s+60s;sembackup/download/testepesado/navegaçãoduranteperfil.
+A/Brecusadosintocados;novasfontesseladasnooffline,nãoeditar;revisarreceipt/logantesderepetir.
+Telemetria23:03:04.528Z:57%5h/62%semanal disponíveis.Salvar8% econtinuaratélimite real.
+Semsubagentes/promoção.V1segue7/21;IS6incompleto;K5Arecusado;produto científico byteidêntico0.26.2.
+

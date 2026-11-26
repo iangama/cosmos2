@@ -1,0 +1,6 @@
+
+DevTools listening on ws://127.0.0.1:8088/devtools/browser/c1c72a40-85f5-4d3e-b953-204459bde648
+[15012:28008:1114/082524.805:ERROR:device_event_log_impl.cc(196)] [08:25:24.803] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Elemento não encontrado. (0x490)
+[2026-11-14 08:25:37] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-14 08:25:43] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-14 08:25:43] [error] handle_read_frame error: websocketpp.transport:7 (End of File)

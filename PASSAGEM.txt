@@ -1,0 +1,5 @@
+COSMOS2 — checkpoint de continuidade 13/10/2026
+Cota real: 8% cinco horas / 86% semanal, evento 21:33:32.433Z. Não parar aos8%; continuar até esgotamento real.
+C2-00 eC2-01 aprovados localmente. InstrumentoC2-18 energias nucleares implementado e verificado em ciência/Edge/CEF; imagens revistas. Contrato e limites: ENERGIAS-NUCLEARES.md.
+Próximo: avaliar pendências/aceiteC2-18 e iniciar ampliaçãoC2-19 com pelo menos8decaimentos/capturas e ramificações avaliadas. Não atribuir aceite aos demaismarcos.
+Ler LEIA-PRIMEIRO.md primeiro para detalhes, processos e evidências. Não repetir pesquisas antigas nem G0sem regressão. Cosmos/Revenant preservados.

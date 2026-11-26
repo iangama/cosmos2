@@ -1,0 +1,55 @@
+{
+  "completed": true,
+  "diagnostic": "evidence/is6-k5-hitch-native-20261110a.json",
+  "diagnostic_sha256": "cd74c94fd56f6f4ca6b29dddc07cb0d025b48b2d0652132dc9a20c4764c05721",
+  "plan_sha256": "9eb4a317b64f5569a3d3f3a86cb5d4c15b727da9fcd91c099f872e3d7ccfdc17",
+  "sources_verified": 1859,
+  "runs": [
+    {
+      "id": "earth",
+      "frames": 4517,
+      "raw_sum_s": 60.26091966871172,
+      "median_ms": 13.33479955792427,
+      "p95_ms": 13.926739804446697,
+      "p99_ms": 14.394184350967407,
+      "max_ms": 26.989299803972244,
+      "over_100ms": 0,
+      "slow_stages": {},
+      "cef_longtasks": 0,
+      "cef_requests": 120,
+      "cef_request_max_ms": 6.620000000111759
+    },
+    {
+      "id": "jupiter-on",
+      "frames": 4517,
+      "raw_sum_s": 60.26014852337539,
+      "median_ms": 13.341600075364113,
+      "p95_ms": 13.900500349700451,
+      "p99_ms": 14.291259832680225,
+      "max_ms": 26.579000055789948,
+      "over_100ms": 0,
+      "slow_stages": {},
+      "cef_longtasks": 0,
+      "cef_requests": 121,
+      "cef_request_max_ms": 6.7769999950542115
+    },
+    {
+      "id": "jupiter-off",
+      "frames": 4519,
+      "raw_sum_s": 60.28671643976122,
+      "median_ms": 13.337899930775166,
+      "p95_ms": 13.912640418857336,
+      "p99_ms": 14.315368346869946,
+      "max_ms": 27.21250057220459,
+      "over_100ms": 0,
+      "slow_stages": {},
+      "cef_longtasks": 0,
+      "cef_requests": 121,
+      "cef_request_max_ms": 6.233000000065658
+    }
+  ],
+  "original_K5A_accepted": false,
+  "causal_result": "inconclusive; the original hitch was not reproduced",
+  "scientific_check_scope": "Scientific comparisons ran as assertions in the sealed native diagnostic; this analysis checks records and timings.",
+  "scope": "Diagnostic analysis only; raw initial intervals are retained in these statistics. Original formal audit semantics and limits remain in effect."
+}

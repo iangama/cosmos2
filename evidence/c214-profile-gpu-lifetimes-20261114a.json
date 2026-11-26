@@ -1,0 +1,65 @@
+{
+  "accepted": true,
+  "completed": true,
+  "groups": 3,
+  "refusals": [
+    {
+      "name": "original_A_has_no_final_witness",
+      "error": "Counter change lacks its bounded original witness"
+    },
+    {
+      "name": "expired_wait",
+      "error": "Counter change lacks its bounded original witness"
+    },
+    {
+      "name": "no_witness",
+      "error": "Counter change lacks its bounded original witness"
+    },
+    {
+      "name": "nonzero_exit",
+      "error": "Nonzero or unsignaled retained process exit"
+    },
+    {
+      "name": "unsignaled_exit",
+      "error": "Nonzero or unsignaled retained process exit"
+    },
+    {
+      "name": "missing_gauge",
+      "error": "Selected PDH row count differs"
+    },
+    {
+      "name": "stale_timestamp",
+      "error": "GPU raw value was not collected before the proven exit"
+    },
+    {
+      "name": "gauge_after_exit",
+      "error": "GPU raw value was not collected before the proven exit"
+    },
+    {
+      "name": "still_listed_live",
+      "error": "Removed counter lacks original/final process membership"
+    },
+    {
+      "name": "half_removed_pair",
+      "error": "Counter lifetime exception has only half a pair"
+    },
+    {
+      "name": "incomplete_added_witness",
+      "error": "Counter change lacks its bounded original witness"
+    },
+    {
+      "name": "already_existing_context",
+      "error": "RAM ownership missing/duplicated"
+    }
+  ],
+  "source_sha256": {
+    "scripts/verify-c214-profile-gpu-lifetimes.py": "66a83efb3cb536c5d0f74672a0590dcc3fb25ce3de98375a02fc9dbf5312396f",
+    "scripts/c214_profile_gpu_v2.py": "7582b7d6ee388e74061bcc7a4498cd31a2de85c5908111da869c9d5168fcf99d",
+    "evidence/c214-orbits-profile-collector-20261114a.json": "466b99a27f33a4474d4405db4816920899b76a57c8260bbfced6795f689489fe",
+    "output/c214-profile-gpu-fixtures-20261114a/original-refused-row.json": "759dbe9cfde4c1377929762f999146833f76bcf2a4f3359b1f8710877d11d684",
+    "output/c214-profile-gpu-fixtures-20261114a/synthetic-born-after-query.json": "182843f69a105f7b7c0030b41df7d3e8e7d176b8f5b702db96f03a508d1d6651",
+    "output/c214-profile-gpu-fixtures-20261114a/synthetic-signaled-exit.json": "92922f0e1e2c745780b78b5d339d8c5e4e5c810668ddcd7968aaebf39b6b5bf5"
+  },
+  "original_data_sha256": "d5eb99347b0c18b4f355cd4d2409c4cba40e3c72bb10f6dcc8956528a95756d1",
+  "scope": "Offline admission with actual refused A plus separately labeled synthetic fixtures; A remains refused, no native performance acceptance"
+}

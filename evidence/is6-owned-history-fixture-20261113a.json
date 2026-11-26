@@ -1,0 +1,202 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-owned-process-history.py": "a1fc63c5683085d9fe214bb9198226c3378efc8a3822a6e0eae8b35e3d63c73b",
+    "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+    "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77",
+    "output/is6-owned-history-fixture-20261113a/fixture.py": "5148a4766da4de35f20fc99663431faf898d2b79feee8b25a80e33d461579419"
+  },
+  "refusals": [
+    {
+      "name": "nonzero-owned-child",
+      "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\owned_process_history.py\", line 192, in loop\n    self.step()\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\owned_process_history.py\", line 169, in step\n    self.refresh(pid)\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\owned_process_history.py\", line 79, in refresh\n    assert value['code'] == 0, 'Owned process exited nonzero: ' + str(pid) + '/' + str(value['code'])\n           ^^^^^^^^^^^^^^^^^^\nAssertionError: Owned process exited nonzero: 38144/7\n"
+    }
+  ],
+  "scope": "Own fixture roots only, native product untouched. All zero-code child lifetimes retained and a later code7 must invalidate the observer.",
+  "positive_history": {
+    "records": [
+      {
+        "identity": {
+          "pid": 3316,
+          "parent": 28340,
+          "name": "python.exe",
+          "created_filetime": 134390840182974451,
+          "started_unix": 1794610418.2974453,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134390840181841092
+        },
+        "first_observed_filetime": 134390840183156969,
+        "exit": {
+          "code": 0,
+          "exited_filetime": 134390840185612517,
+          "observed_filetime": 134390840185710229
+        },
+        "last_native": {
+          "created_filetime": 134390840182974451,
+          "exited_filetime": 134390840185612517,
+          "code": 0,
+          "wait": 0,
+          "observed_filetime": 134390840186635855
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+          "-c",
+          "import time,sys;time.sleep(.2);sys.exit(0)"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 10904,
+          "parent": 43188,
+          "name": "python.exe",
+          "created_filetime": 134390840181668696,
+          "started_unix": 1794610418.1668696,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+          "scope_root": true
+        },
+        "first_observed_filetime": 134390840182134574,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134390840181668696,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134390840186635584
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+          "-Xutf8",
+          "C:\\Users\\Ian\\cosmos2\\output\\is6-owned-history-fixture-20261113a\\fixture.py",
+          "C:\\Users\\Ian\\cosmos2\\output\\is6-owned-history-fixture-20261113a\\a"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 26604,
+          "parent": 43188,
+          "name": "python.exe",
+          "created_filetime": 134390840181808549,
+          "started_unix": 1794610418.1808548,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+          "scope_root": true
+        },
+        "first_observed_filetime": 134390840182277809,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134390840181808549,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134390840186635657
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+          "-Xutf8",
+          "C:\\Users\\Ian\\cosmos2\\output\\is6-owned-history-fixture-20261113a\\fixture.py",
+          "C:\\Users\\Ian\\cosmos2\\output\\is6-owned-history-fixture-20261113a\\b"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 28340,
+          "parent": 10904,
+          "name": "python.exe",
+          "created_filetime": 134390840181841092,
+          "started_unix": 1794610418.1841092,
+          "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134390840181668696
+        },
+        "first_observed_filetime": 134390840182559335,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134390840181841092,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134390840186635783
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "-Xutf8",
+          "C:\\Users\\Ian\\cosmos2\\output\\is6-owned-history-fixture-20261113a\\fixture.py",
+          "C:\\Users\\Ian\\cosmos2\\output\\is6-owned-history-fixture-20261113a\\a"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 29408,
+          "parent": 26604,
+          "name": "python.exe",
+          "created_filetime": 134390840182005572,
+          "started_unix": 1794610418.2005572,
+          "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134390840181808549
+        },
+        "first_observed_filetime": 134390840182395743,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134390840182005572,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134390840186635721
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "-Xutf8",
+          "C:\\Users\\Ian\\cosmos2\\output\\is6-owned-history-fixture-20261113a\\fixture.py",
+          "C:\\Users\\Ian\\cosmos2\\output\\is6-owned-history-fixture-20261113a\\b"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 38668,
+          "parent": 3316,
+          "name": "python.exe",
+          "created_filetime": 134390840183150847,
+          "started_unix": 1794610418.3150847,
+          "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134390840182974451
+        },
+        "first_observed_filetime": 134390840183419881,
+        "exit": {
+          "code": 0,
+          "exited_filetime": 134390840185548098,
+          "observed_filetime": 134390840185711938
+        },
+        "last_native": {
+          "created_filetime": 134390840183150847,
+          "exited_filetime": 134390840185548098,
+          "code": 0,
+          "wait": 0,
+          "observed_filetime": 134390840186635940
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "-c",
+          "import time,sys;time.sleep(.2);sys.exit(0)"
+        ],
+        "first_terminating_native": {
+          "created_filetime": 134390840183150847,
+          "exited_filetime": 134390840185548098,
+          "code": 0,
+          "wait": 258,
+          "observed_filetime": 134390840185561992
+        }
+      }
+    ],
+    "polls": 21,
+    "maximum_poll_gap_s": 0.07488710000325227,
+    "source_sha256": {
+      "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+      "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+      "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77"
+    }
+  }
+}

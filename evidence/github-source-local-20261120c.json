@@ -1,0 +1,11 @@
+{
+  "accepted": true,
+  "completed": true,
+  "commit": "fd0ba2e9d5709a74ae57439040d2348fc42ddec4",
+  "files": 11245,
+  "verified_staged_paths": 1027,
+  "verified_blob_bytes": 101355442,
+  "inventory_sha256": "8419089517f80e86acb13a7093b684b166d5fc5550bd4f8505179ef7de49b081",
+  "published": false,
+  "scope": "Local v27 source/evidence snapshot. Every committed new/changed blob was verified against inventoried raw bytes before committing. Historical CRLF-only differences remain untouched."
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "adjustment": "CODATA 2022",
+  "source": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+  "verified_utc": "2026-10-25",
+  "acquisition": "NIST complete text table inspected via web tool; selected numeric values transcribed and matched to installed scipy.constants1.18.1. No hash of an unarchived original download is claimed. Individual CGI pages returned an ill-formed-query page.",
+  "proton_mass_kg": {
+    "value": 1.67262192595e-27,
+    "standard_uncertainty": 5.2e-37
+  },
+  "electron_mass_kg": {
+    "value": 9.1093837139e-31,
+    "standard_uncertainty": 2.8e-40
+  },
+  "elementary_charge_C": {
+    "value": 1.602176634e-19,
+    "standard_uncertainty": 0.0,
+    "exact": true
+  },
+  "speed_of_light_m_s": {
+    "value": 299792458.0,
+    "standard_uncertainty": 0.0,
+    "exact": true
+  }
+}

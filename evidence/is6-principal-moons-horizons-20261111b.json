@@ -1,0 +1,401 @@
+{
+  "accepted": true,
+  "completed": true,
+  "queries": [
+    {
+      "target": "501",
+      "center": "5",
+      "local_model": "JUP365",
+      "horizons_model": "jup365_merged",
+      "response": "output/is6-principal-moons-horizons-20261111a/501-relative-5.json",
+      "response_sha256": "932119bc8089ddbfc5ea2fd4e26e9889d205b0c35739a47b26728ac251a84e84",
+      "comparison_kernel": {
+        "path": "output/is6-principal-moons-acquisition-20261111a/jup365.bsp",
+        "sha256": "dbf016c01ba4d022154838000cf3f06962cf958ddc503a366f7fe8f81495c5cb"
+      },
+      "cases": [
+        {
+          "requested_jd_tdb": "2449718.5007081474177539",
+          "et_tdb_s": -157809538.8160631,
+          "printed_jd_tdb": "2449718.500708147",
+          "printed_calendar_tdb": " A.D. 1995-Jan-01 00:01:01.1839",
+          "printed_epoch_difference_s": -4.023313522338867e-05,
+          "position_difference_m": 2.9103830456733704e-08,
+          "velocity_difference_m_s": 3.552713678800501e-12,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2451545.0007428694516420",
+          "et_tdb_s": 64.1839206218688,
+          "printed_jd_tdb": "2451545.000742869",
+          "printed_calendar_tdb": " A.D. 2000-Jan-01 12:01:04.1839",
+          "printed_epoch_difference_s": -4.0233132068578925e-05,
+          "position_difference_m": 7.59632276379165e-08,
+          "velocity_difference_m_s": 4.782987168225453e-12,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2461325.0008007218129933",
+          "et_tdb_s": 844992069.1823647,
+          "printed_jd_tdb": "2461325.000800722",
+          "printed_calendar_tdb": " A.D. 2026-Oct-11 12:01:09.1824",
+          "printed_epoch_difference_s": 0.0,
+          "position_difference_m": 2.9103830456733704e-08,
+          "velocity_difference_m_s": 3.552713678800501e-12,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2462668.2716340804472566",
+          "et_tdb_s": 961050669.1845506,
+          "printed_jd_tdb": "2462668.271634080",
+          "printed_calendar_tdb": " A.D. 2030-Jun-15 18:31:09.1846",
+          "printed_epoch_difference_s": -4.017353057861328e-05,
+          "position_difference_m": 5.999908354159067e-08,
+          "velocity_difference_m_s": 3.66205343881779e-12,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2469806.5007891654968262",
+          "et_tdb_s": 1577793668.183899,
+          "printed_jd_tdb": "2469806.500789165",
+          "printed_calendar_tdb": " A.D. 2049-Dec-31 00:01:08.1839",
+          "printed_epoch_difference_s": -4.029273986816406e-05,
+          "position_difference_m": 4.1159031748919954e-08,
+          "velocity_difference_m_s": 3.5803616730494476e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "target": "502",
+      "center": "5",
+      "local_model": "JUP365",
+      "horizons_model": "jup365_merged",
+      "response": "output/is6-principal-moons-horizons-20261111a/502-relative-5.json",
+      "response_sha256": "2de45a23294c93c66e007347e4529b5bd8db11dbfa47cf2c08d2570a75e60984",
+      "comparison_kernel": {
+        "path": "output/is6-principal-moons-acquisition-20261111a/jup365.bsp",
+        "sha256": "dbf016c01ba4d022154838000cf3f06962cf958ddc503a366f7fe8f81495c5cb"
+      },
+      "cases": [
+        {
+          "requested_jd_tdb": "2449718.5007081474177539",
+          "et_tdb_s": -157809538.8160631,
+          "printed_jd_tdb": "2449718.500708147",
+          "printed_calendar_tdb": " A.D. 1995-Jan-01 00:01:01.1839",
+          "printed_epoch_difference_s": -4.023313522338867e-05,
+          "position_difference_m": 3.637978807091713e-09,
+          "velocity_difference_m_s": 5.329431906671217e-12,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2451545.0007428694516420",
+          "et_tdb_s": 64.1839206218688,
+          "printed_jd_tdb": "2451545.000742869",
+          "printed_calendar_tdb": " A.D. 2000-Jan-01 12:01:04.1839",
+          "printed_epoch_difference_s": -4.0233132068578925e-05,
+          "position_difference_m": 5.820766091346741e-08,
+          "velocity_difference_m_s": 2.51214793389404e-12,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2461325.0008007218129933",
+          "et_tdb_s": 844992069.1823647,
+          "printed_jd_tdb": "2461325.000800722",
+          "printed_calendar_tdb": " A.D. 2026-Oct-11 12:01:09.1824",
+          "printed_epoch_difference_s": 0.0,
+          "position_difference_m": 0.0,
+          "velocity_difference_m_s": 0.0,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2462668.2716340804472566",
+          "et_tdb_s": 961050669.1845506,
+          "printed_jd_tdb": "2462668.271634080",
+          "printed_calendar_tdb": " A.D. 2030-Jun-15 18:31:09.1846",
+          "printed_epoch_difference_s": -4.017353057861328e-05,
+          "position_difference_m": 6.507814330688532e-08,
+          "velocity_difference_m_s": 1.7763568394002505e-12,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2469806.5007891654968262",
+          "et_tdb_s": 1577793668.183899,
+          "printed_jd_tdb": "2469806.500789165",
+          "printed_calendar_tdb": " A.D. 2049-Dec-31 00:01:08.1839",
+          "printed_epoch_difference_s": -4.029273986816406e-05,
+          "position_difference_m": 5.820766091346741e-08,
+          "velocity_difference_m_s": 1.831026719408895e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "target": "503",
+      "center": "5",
+      "local_model": "JUP365",
+      "horizons_model": "jup365_merged",
+      "response": "output/is6-principal-moons-horizons-20261111a/503-relative-5.json",
+      "response_sha256": "57397e11cc03b42b93d235d56ac126a078f89d0562a6dcbcee01655adacb2175",
+      "comparison_kernel": {
+        "path": "output/is6-principal-moons-acquisition-20261111a/jup365.bsp",
+        "sha256": "dbf016c01ba4d022154838000cf3f06962cf958ddc503a366f7fe8f81495c5cb"
+      },
+      "cases": [
+        {
+          "requested_jd_tdb": "2449718.5007081474177539",
+          "et_tdb_s": -157809538.8160631,
+          "printed_jd_tdb": "2449718.500708147",
+          "printed_calendar_tdb": " A.D. 1995-Jan-01 00:01:01.1839",
+          "printed_epoch_difference_s": -4.023313522338867e-05,
+          "position_difference_m": 5.820766091346741e-08,
+          "velocity_difference_m_s": 8.881784197001252e-13,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2451545.0007428694516420",
+          "et_tdb_s": 64.1839206218688,
+          "printed_jd_tdb": "2451545.000742869",
+          "printed_calendar_tdb": " A.D. 2000-Jan-01 12:01:04.1839",
+          "printed_epoch_difference_s": -4.0233132068578925e-05,
+          "position_difference_m": 1.1641532182693481e-07,
+          "velocity_difference_m_s": 9.930136612989092e-13,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2461325.0008007218129933",
+          "et_tdb_s": 844992069.1823647,
+          "printed_jd_tdb": "2461325.000800722",
+          "printed_calendar_tdb": " A.D. 2026-Oct-11 12:01:09.1824",
+          "printed_epoch_difference_s": 0.0,
+          "position_difference_m": 8.231806349783991e-08,
+          "velocity_difference_m_s": 0.0,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2462668.2716340804472566",
+          "et_tdb_s": 961050669.1845506,
+          "printed_jd_tdb": "2462668.271634080",
+          "printed_calendar_tdb": " A.D. 2030-Jun-15 18:31:09.1846",
+          "printed_epoch_difference_s": -4.017353057861328e-05,
+          "position_difference_m": 5.820766091346741e-08,
+          "velocity_difference_m_s": 0.0,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2469806.5007891654968262",
+          "et_tdb_s": 1577793668.183899,
+          "printed_jd_tdb": "2469806.500789165",
+          "printed_calendar_tdb": " A.D. 2049-Dec-31 00:01:08.1839",
+          "printed_epoch_difference_s": -4.029273986816406e-05,
+          "position_difference_m": 4.6566128730773926e-07,
+          "velocity_difference_m_s": 4.440892098500626e-13,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "target": "504",
+      "center": "5",
+      "local_model": "JUP365",
+      "horizons_model": "jup365_merged",
+      "response": "output/is6-principal-moons-horizons-20261111a/504-relative-5.json",
+      "response_sha256": "688ef33f4ff6855b32f0f1664c9cba7f015c4840b44f48be1157a5de8e3ab653",
+      "comparison_kernel": {
+        "path": "output/is6-principal-moons-acquisition-20261111a/jup365.bsp",
+        "sha256": "dbf016c01ba4d022154838000cf3f06962cf958ddc503a366f7fe8f81495c5cb"
+      },
+      "cases": [
+        {
+          "requested_jd_tdb": "2449718.5007081474177539",
+          "et_tdb_s": -157809538.8160631,
+          "printed_jd_tdb": "2449718.500708147",
+          "printed_calendar_tdb": " A.D. 1995-Jan-01 00:01:01.1839",
+          "printed_epoch_difference_s": -4.023313522338867e-05,
+          "position_difference_m": 4.6566128730773926e-07,
+          "velocity_difference_m_s": 2.220446049250313e-13,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2451545.0007428694516420",
+          "et_tdb_s": 64.1839206218688,
+          "printed_jd_tdb": "2451545.000742869",
+          "printed_calendar_tdb": " A.D. 2000-Jan-01 12:01:04.1839",
+          "printed_epoch_difference_s": -4.0233132068578925e-05,
+          "position_difference_m": 4.6566128730773926e-07,
+          "velocity_difference_m_s": 4.440892098500626e-13,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2461325.0008007218129933",
+          "et_tdb_s": 844992069.1823647,
+          "printed_jd_tdb": "2461325.000800722",
+          "printed_calendar_tdb": " A.D. 2026-Oct-11 12:01:09.1824",
+          "printed_epoch_difference_s": 0.0,
+          "position_difference_m": 0.0,
+          "velocity_difference_m_s": 0.0,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2462668.2716340804472566",
+          "et_tdb_s": 961050669.1845506,
+          "printed_jd_tdb": "2462668.271634080",
+          "printed_calendar_tdb": " A.D. 2030-Jun-15 18:31:09.1846",
+          "printed_epoch_difference_s": -4.017353057861328e-05,
+          "position_difference_m": 2.399963341663627e-07,
+          "velocity_difference_m_s": 2.220446049250313e-13,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2469806.5007891654968262",
+          "et_tdb_s": 1577793668.183899,
+          "printed_jd_tdb": "2469806.500789165",
+          "printed_calendar_tdb": " A.D. 2049-Dec-31 00:01:08.1839",
+          "printed_epoch_difference_s": -4.029273986816406e-05,
+          "position_difference_m": 0.0,
+          "velocity_difference_m_s": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "target": "602",
+      "center": "6",
+      "local_model": "SAT441",
+      "horizons_model": "sat441l",
+      "response": "output/is6-principal-moons-horizons-20261111a/602-relative-6.json",
+      "response_sha256": "2aee89cc88a752abe8c4fabd1d0e96c1827a3b39ff2821c5d277e2a339734f08",
+      "comparison_kernel": {
+        "path": "output/is6-principal-moons-acquisition-20261111a/sat441.bsp",
+        "sha256": "d7e444a9ba7a52b8f448ff0747030789524d2f0c1212e4e2bd7f5fc3c96444d5"
+      },
+      "cases": [
+        {
+          "requested_jd_tdb": "2449718.5007081474177539",
+          "et_tdb_s": -157809538.8160631,
+          "printed_jd_tdb": "2449718.500708147",
+          "printed_calendar_tdb": " A.D. 1995-Jan-01 00:01:01.1839",
+          "printed_epoch_difference_s": -4.023313522338867e-05,
+          "position_difference_m": 2.9103830456733704e-08,
+          "velocity_difference_m_s": 2.220446049250313e-13,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2451545.0007428694516420",
+          "et_tdb_s": 64.1839206218688,
+          "printed_jd_tdb": "2451545.000742869",
+          "printed_calendar_tdb": " A.D. 2000-Jan-01 12:01:04.1839",
+          "printed_epoch_difference_s": -4.0233132068578925e-05,
+          "position_difference_m": 8.732599707941872e-08,
+          "velocity_difference_m_s": 2.5219419200973695e-12,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2461325.0008007218129933",
+          "et_tdb_s": 844992069.1823647,
+          "printed_jd_tdb": "2461325.000800722",
+          "printed_calendar_tdb": " A.D. 2026-Oct-11 12:01:09.1824",
+          "printed_epoch_difference_s": 0.0,
+          "position_difference_m": 2.9103830456733704e-08,
+          "velocity_difference_m_s": 5.407139474782739e-12,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2462668.2716340804472566",
+          "et_tdb_s": 961050669.1845506,
+          "printed_jd_tdb": "2462668.271634080",
+          "printed_calendar_tdb": " A.D. 2030-Jun-15 18:31:09.1846",
+          "printed_epoch_difference_s": -4.017353057861328e-05,
+          "position_difference_m": 2.9330322825621075e-08,
+          "velocity_difference_m_s": 2.2377260456559047e-13,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2469806.5007891654968262",
+          "et_tdb_s": 1577793668.183899,
+          "printed_jd_tdb": "2469806.500789165",
+          "printed_calendar_tdb": " A.D. 2049-Dec-31 00:01:08.1839",
+          "printed_epoch_difference_s": -4.029273986816406e-05,
+          "position_difference_m": 2.9103830456733704e-08,
+          "velocity_difference_m_s": 1.7901808365247238e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "target": "606",
+      "center": "6",
+      "local_model": "SAT441",
+      "horizons_model": "sat441l",
+      "response": "output/is6-principal-moons-horizons-20261111a/606-relative-6.json",
+      "response_sha256": "7cbf29414e9fa92a4bc9d59bd205a043e776d988cc079c269b932ff36495ff6c",
+      "comparison_kernel": {
+        "path": "output/is6-principal-moons-acquisition-20261111a/sat441.bsp",
+        "sha256": "d7e444a9ba7a52b8f448ff0747030789524d2f0c1212e4e2bd7f5fc3c96444d5"
+      },
+      "cases": [
+        {
+          "requested_jd_tdb": "2449718.5007081474177539",
+          "et_tdb_s": -157809538.8160631,
+          "printed_jd_tdb": "2449718.500708147",
+          "printed_calendar_tdb": " A.D. 1995-Jan-01 00:01:01.1839",
+          "printed_epoch_difference_s": -4.023313522338867e-05,
+          "position_difference_m": 1.1647215137477995e-07,
+          "velocity_difference_m_s": 0.0,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2451545.0007428694516420",
+          "et_tdb_s": 64.1839206218688,
+          "printed_jd_tdb": "2451545.000742869",
+          "printed_calendar_tdb": " A.D. 2000-Jan-01 12:01:04.1839",
+          "printed_epoch_difference_s": -4.0233132068578925e-05,
+          "position_difference_m": 7.275957614183426e-09,
+          "velocity_difference_m_s": 9.930136612989092e-13,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2461325.0008007218129933",
+          "et_tdb_s": 844992069.1823647,
+          "printed_jd_tdb": "2461325.000800722",
+          "printed_calendar_tdb": " A.D. 2026-Oct-11 12:01:09.1824",
+          "printed_epoch_difference_s": 0.0,
+          "position_difference_m": 2.3509338529261745e-07,
+          "velocity_difference_m_s": 2.288783399261119e-13,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2462668.2716340804472566",
+          "et_tdb_s": 961050669.1845506,
+          "printed_jd_tdb": "2462668.271634080",
+          "printed_calendar_tdb": " A.D. 2030-Jun-15 18:31:09.1846",
+          "printed_epoch_difference_s": -4.017353057861328e-05,
+          "position_difference_m": 2.399963341663627e-07,
+          "velocity_difference_m_s": 2.220446049250313e-13,
+          "passed": true
+        },
+        {
+          "requested_jd_tdb": "2469806.5007891654968262",
+          "et_tdb_s": 1577793668.183899,
+          "printed_jd_tdb": "2469806.500789165",
+          "printed_calendar_tdb": " A.D. 2049-Dec-31 00:01:08.1839",
+          "printed_epoch_difference_s": -4.029273986816406e-05,
+          "position_difference_m": 2.9103830456733704e-08,
+          "velocity_difference_m_s": 6.281902941027859e-13,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "source": "evidence/is6-principal-moons-horizons-20261111a.json",
+  "source_sha256": "6f38315245d2588be9121b510fc227896fea1aa5b55e82444c291b354a3dbe53",
+  "script_sha256": "5ed6e4b1b980bf0ffd0e47433d7c266bad8148ef70c7035d0a7f59d816c1c348",
+  "contract_sha256": "26d1c4cd3ea5355685f409e8b2875057005e6444870859e778436cd8984ed0a4",
+  "position_limit_m": 1.0,
+  "velocity_limit_m_s": 1e-05,
+  "timestamp_basis": "Exact sent TLIST decimal JD minus J2000, times86400; rounded response epochs retained",
+  "scope": "Numerical agreement with pinned complete kernels; service source labels remain explicit and are not declared identical packages.",
+  "cases": 30,
+  "maximum_position_difference_m": 4.6566128730773926e-07,
+  "maximum_velocity_difference_m_s": 5.407139474782739e-12
+}

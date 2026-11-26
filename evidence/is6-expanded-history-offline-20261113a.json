@@ -1,0 +1,65 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-expanded-history-admission.py": "385a67bb1100b025437e127cf2b25736aa0305dde9944b2ad0e55cf96d55ad9e",
+    "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+    "scripts/expanded_residency_history_audit.py": "a5488eb7b19712441e2b142057734afd5beb7e148789c028d45a03172a84e25d",
+    "scripts/expanded_residency_contract_v3.py": "33ea0d732234406de9673f669e606e1bbc54883bb994e0542526e1795dd1269a",
+    "scripts/collect_expanded_residency_v4.py": "780a2d2aed59c2adcd0d14a7e6eaedcd01bbc45f0778898f5b5afe712e784845",
+    "scripts/expanded_residency_audit_v3.py": "7c7073edf81fc6e22f32653b062b5a79a5f4b608d6dac92393ef660567d9ee36",
+    "scripts/profile-expanded-residency-v3.py": "9bfc0b23a48f30fbc865ac4f00d153b9e8687422e341a5fe310b11e1ba4b137d",
+    "scripts/audit-expanded-residency-v3.py": "85e0bdffebb82024c9cf7287b7a45a87b932808d11163f10e5f31d3c5886faa3",
+    "scripts/run-expanded-residency-v3.py": "c4e17466970babcc23bc4e6a8c17979fceb8ab19f3fdcdb09f752a753671a4f9",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-OBSERVADOR-LIMITES.md": "3251978ff356f1bd9441bb2dd23e21c2b277b0e37d1023d126978e2e075aeae6",
+    "evidence/is6-owned-history-fixture-20261113a.json": "6e4e0d378a6e3ea30954d1a3c7fba8675205acc88a5b17a190f54fe43dace415",
+    "evidence/is6-expanded-residency-audit-offline-20261113b.json": "d044d1b74cd8d5cfb1652836af31c747fb29127845dae847dd5479359d314e2f",
+    "evidence/is6-dynamics16-profile-20261112a.json": "c8e93f0eba634714218b6561201d7ce001c5a7c22367a88dced00606c3a45026",
+    "evidence/gpu-pdh-is6d16-20261112a-1.json": "e6e3c421a83013c1571493c7a723f44007461e7b7b8466b39c0175b9eb44ddb2"
+  },
+  "checks": [
+    "Preserved raw GPU/RAM values admitted with temporally matched retained identities",
+    "Native-proven late birth admitted; unexposed GPU remains explicit, without an invented zero",
+    "Exit after a real RAM reading admitted with exact native time and code0"
+  ],
+  "refusals": [
+    {
+      "name": "nonzero-exit",
+      "error": "Nonzero or unsignaled retained process exit"
+    },
+    {
+      "name": "exit-not-signaled",
+      "error": "Nonzero or unsignaled retained process exit"
+    },
+    {
+      "name": "zero-exit-FILETIME",
+      "error": "Nonnegative64-bit integer required"
+    },
+    {
+      "name": "RAM-after-native-exit",
+      "error": "RAM was read after the process ended"
+    },
+    {
+      "name": "unknown-sampled-child",
+      "error": "Sampled identity differs from retained handle"
+    },
+    {
+      "name": "retained-PID-identity-changed",
+      "error": "Retained handle creation/wait differs"
+    },
+    {
+      "name": "late-old-process-reappeared",
+      "error": "Process appeared outside the observed creation interval"
+    },
+    {
+      "name": "paths-changed-within-query",
+      "error": "GPU paths changed within a sample"
+    },
+    {
+      "name": "unexposed-child-silently-omitted",
+      "error": "Unexposed process was silently assigned GPU zero"
+    }
+  ],
+  "scope": "Offline admission of native lifetime evidence with preserved raw GPU/RAM fixtures; no new performance measurement."
+}

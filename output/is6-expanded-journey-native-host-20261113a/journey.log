@@ -1,0 +1,6 @@
+{"progress": "Atlas16 and32 native selections/readings;16 checkpoint/parent-child/comparison/export"}
+{"progress": "Same4 phase: real mesh/layers/proton/checkpoints/exports/native cleanup 399"}
+{"progress": "Same4 phase: real mesh/layers/electron/checkpoints/exports/native cleanup 599"}
+{"progress": "Same4 phase: nuclear18 checkpoint/branch/export/visibility/weak recomputation/restore/cleanup"}
+{"progress": "Exact final16 restore,new token,guards,15 contributions,legacy3/4 and isolated archives"}
+{"accepted": true, "steps": 5, "selections": 32, "captures": 20, "failure": [], "cleanup_failure": []}

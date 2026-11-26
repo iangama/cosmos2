@@ -1,0 +1,29 @@
+{
+  "accepted": true,
+  "completed": true,
+  "files": 13061,
+  "changed": [
+    "evidence/github-source-sync-20261121e.json",
+    "scripts/append-source-backup-receipt-v5.py",
+    "LEIA-PRIMEIRO.md",
+    "PASSAGEM-CURADORIA-20261121.txt",
+    "output/continuity-checkpoint-20261121-cycle.txt",
+    "scripts/verify-native-working-orbits-v2.py",
+    "scripts/audit-c214-orbits-profile-v4.py",
+    "scripts/record-working-orbits-delivery.py",
+    "evidence/native-working-orbits-20261121b.json",
+    "evidence/c214-orbits-profile-audit-after-delivery-20261121b.json",
+    "evidence/working-orbits-delivery-20261121a.json",
+    "output/native-working-orbits-20261121b/clock-readings-at150.png",
+    "output/native-working-orbits-20261121b/clock-view-selected-by-mouse.png",
+    "output/native-working-orbits-20261121b/orbit-discovered-from-original-header.png",
+    "output/c214-profile-entry-transition-20261121b/Abrir-Planetas-e-Luas.cmd",
+    "output/c214-profile-entry-transition-20261121b/Abrir-Planetas.cmd",
+    "output/c214-profile-entry-transition-20261121b/Iniciar-Cosmos2.cmd",
+    "output/c214-profile-entry-transition-20261121b/transition.json",
+    "output/c214-profile-entry-transition-20261121b/config/local-working-product.json"
+  ],
+  "inventory_sha256": "571d6f5818656957c857c41619a636b458ba01bb098b8ded12659a48dd32a356",
+  "script_sha256": "12ba81f87757092a812d7627cb936c14d8c70ce4a38fd8dc65367090294d3843",
+  "scope": "Incremental append only. Existing inventoried helper source is verified and retained; completed diagnostic evidence added if available. No private session or Windows home-directory image, no scientific rerun or publication."
+}

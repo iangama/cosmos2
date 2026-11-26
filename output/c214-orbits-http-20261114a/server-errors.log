@@ -1,0 +1,34 @@
+127.0.0.1 - - [14/Nov/2026 13:14:22] "GET /api/timelike/state HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 63918)
+Traceback (most recent call last):
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-staging\app\server.py", line 37, in __init__
+    super().__init__(*args, directory=str(Path(__file__).parent / "ui"), **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-staging\app\server.py", line 133, in do_GET
+    from forces import SCENARIOS, EFFECTS
+  File "C:\Users\Ian\cosmos2\output\is5-compression-product0.17.2\app\forces.py", line 17, in <module>
+    from science_contracts import contract, physics_fingerprint, scientific_generation, generation_difference
+  File "C:\Users\Ian\cosmos2\output\is5-compression-product0.17.2\app\science_contracts.py", line 42, in <module>
+    FROZEN_HASHES={path:hashlib.sha256((ROOT/path).read_bytes()).hexdigest()
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Ian\\cosmos2\\output\\is5-compression-product0.17.2\\data\\science\\ame2020-mass-original.txt'
+----------------------------------------
+127.0.0.1 - - [14/Nov/2026 13:14:23] "POST /api/shutdown HTTP/1.1" 200 -

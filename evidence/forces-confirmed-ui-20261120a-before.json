@@ -1,0 +1,114 @@
+{
+  "accepted": true,
+  "completed": true,
+  "native_user_flow_accepted": false,
+  "scope": "Headless browser state/scale checks only, using real frozen default scientific responses and a memory-only HTTP adapter. No original launcher, owner session, renderer, scientific recomputation, persistence or performance acceptance.",
+  "product": "output/original-flow-hotfix-product0.27.1",
+  "source_sha256": {
+    "output/original-flow-hotfix-product0.27.1/app/ui/forces.html": "1151fade8479fdf343bb27f8536b7aefcedfb0a4c6506c5650af684c33a28103",
+    "output/original-flow-hotfix-product0.27.1/app/ui/forces.css": "005e507534ab5ceba539e9294c97f37e8b6ebcd57fa761c7f54d58fd0b6640ad",
+    "output/original-flow-hotfix-product0.27.1/app/ui/forces.js": "d5826b526bddb0ec6a91d63ec57078cf52aa2a0cf33437b88589356dee3ee872",
+    "output/original-flow-hotfix-product0.27.1/app/ui/geomagnetism.js": "598bae70fed268ae923b50b55086941403312e8500fd71a22787e951c12ccc9f",
+    "output/original-flow-hotfix-product0.27.1/app/ui/fusion.js": "32ab742c9f90c7b29809122cd47ef01983770aff1108f16ba0d2e2fd26734b1d",
+    "output/original-flow-hotfix-product0.27.1/app/ui/decays.js": "d9d29e3e2af599a4e636f59cae95d14924ca267c409d9cccd52d4a020209f8d8",
+    "scripts/verify-forces-confirmed-ui.cjs": "9d1e144f4648ecde2823d6492f5b8da7afa0cec4417486d2411da79c526ab7e5",
+    "output/forces-confirmed-ui-fixtures-20261120a/catalog.json": "084efb7a898d5c2b004964e9c5c8f9d211a9cdc771d897b150a38ad8d9a47afd",
+    "output/forces-confirmed-ui-fixtures-20261120a/decays.json": "837317223b1d69374cb8564ab5eccd4c80343ab3fffea777da47adc92f526706",
+    "output/forces-confirmed-ui-fixtures-20261120a/fusion.json": "b936667b07f51d0c2d668bee089f85ede1e53dc4cf7c7ab60bec58d1a4d5eb6f",
+    "output/forces-confirmed-ui-fixtures-20261120a/geomagnetic.json": "b4fe2611c229afe0ab4f6db00a7f261af4bf03deaa140ce6e023aa8d2d140044",
+    "output/forces-confirmed-ui-fixtures-20261120a/dipole.json": "5c634a73d777d04270594ea37b2686754e67abe26c06e5c48ec8012594a444c3",
+    "output/forces-confirmed-ui-fixtures-20261120a/binary.json": "79b598ee3ec46e6b349c86e65b119e8c86eeb558001b7a4c1dab054e22f0d4f5",
+    "output/forces-confirmed-ui-fixtures-20261120a/cno.json": "76f2e4717b713925c5dcdc42c42647a9cd96c5a6847e30ae88ce012ccccf92f5",
+    "output/forces-confirmed-ui-fixtures-20261120a/relativity.json": "e610ac054d9b11a42cb22dd882cbd9980455493fffbf51f486edf6e0531f3c61",
+    "output/forces-confirmed-ui-fixtures-20261120a/gravity.json": "58f117e97531fee7922edf763c9cefaa3c93b6145aae0fbdc717d3c3c0bbe1f4",
+    "output/forces-confirmed-ui-fixtures-20261120a/electromagnetic.json": "d136d744a954e572b3ed2084b6ac93041d44959956bf1d8c6c24f7958e18ef8f",
+    "output/forces-confirmed-ui-fixtures-20261120a/strong.json": "921c5e2d56165a5553e8f10db0bdbcc59c4ffa34f0984d7b1c037f98ca23e24a",
+    "output/forces-confirmed-ui-fixtures-20261120a/weak.json": "8f70c435c70f30ad1255e5cbb10777d257bf1eefeeb3494c178755851cd81432",
+    "output/forces-confirmed-ui-fixtures-20261120a/stellar.json": "e4a95530f1aa7c95de670afa2a22b57b63f0a344b0cc12f3124e2aa6e1bf6909"
+  },
+  "checks": [
+    {
+      "name": "rejected-scenario-keeps-confirmed-drawing-and-notice",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'strong'\n- 'gravity'",
+      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'strong'\n- 'gravity'\n    at /mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:74:10\n    at async test (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:58:3)\n    at async main (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:72:2)",
+      "page_errors": []
+    },
+    {
+      "name": "save-and-export-after-rejection-use-confirmed-result",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'strong'\n- 'gravity'",
+      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'strong'\n- 'gravity'\n    at /mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:85:10\n    at async test (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:58:3)\n    at async main (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:81:2)",
+      "page_errors": []
+    },
+    {
+      "name": "restore-confirmed-conditions-without-recalculation",
+      "passed": false,
+      "error": "locator.click: Timeout 2200ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#restore-result-conditions')\u001b[22m\n",
+      "stack": "locator.click: Timeout 2200ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#restore-result-conditions')\u001b[22m\n\n    at /mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:91:52\n    at async test (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:58:3)\n    at async main (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:89:2)",
+      "page_errors": []
+    },
+    {
+      "name": "successful-retry-publishes-the-new-result",
+      "passed": true
+    },
+    {
+      "name": "editing-a-field-does-not-mutate-confirmed-data",
+      "passed": false,
+      "error": "false == true",
+      "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at /mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:108:3\n    at async test (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:58:3)\n    at async main (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:104:2)",
+      "page_errors": []
+    },
+    {
+      "name": "save-load-recalculates-and-reports-generation",
+      "passed": true
+    },
+    {
+      "name": "all-twelve-default-scenarios-remain-renderable",
+      "passed": true
+    },
+    {
+      "name": "fusion-failed-choice-preserves-visible-curves",
+      "passed": false,
+      "error": "false == true",
+      "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at /mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:135:3\n    at async test (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:58:3)\n    at async main (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:127:81)",
+      "page_errors": [
+        "Cannot read properties of undefined (reading 'has')"
+      ]
+    },
+    {
+      "name": "decays-failed-choice-preserves-visible-curves",
+      "passed": false,
+      "error": "false == true",
+      "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at /mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:135:3\n    at async test (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:58:3)\n    at async main (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:127:81)",
+      "page_errors": [
+        "Cannot read properties of undefined (reading 'has')"
+      ]
+    },
+    {
+      "name": "shared-scale-1",
+      "passed": true
+    },
+    {
+      "name": "shared-scale-1.25",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\n1 !== 1.25\n",
+      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 1.25\n\n    at test.scale.scale (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:139:10)\n    at async test (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:58:3)\n    at async main (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:138:40)",
+      "page_errors": []
+    },
+    {
+      "name": "shared-scale-1.5",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\n1 !== 1.5\n",
+      "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 1.5\n\n    at test.scale.scale (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:139:10)\n    at async test (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:58:3)\n    at async main (/mnt/c/Users/Ian/cosmos2/scripts/verify-forces-confirmed-ui.cjs:138:40)",
+      "page_errors": []
+    }
+  ],
+  "captures": [
+    "output/forces-confirmed-ui-20261120a-before/scale-1.png"
+  ],
+  "unexpected_requests": [],
+  "passed": 4,
+  "failed": 8,
+  "expected_existing_defects": true
+}

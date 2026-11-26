@@ -1,0 +1,39 @@
+{
+  "accepted": true,
+  "removed_id": "47d2e011fe2f4be9b3ade85cb9e3e08b",
+  "before": [
+    {
+      "id": "47d2e011fe2f4be9b3ade85cb9e3e08b",
+      "name": "Vista anterior à troca",
+      "view": {
+        "schema": 1,
+        "target": "Earth",
+        "mode": "orbit",
+        "utc": "2026-10-11T12:00:00.000",
+        "et": 844992069.1823514,
+        "paused": true,
+        "rate": 1,
+        "navigation": {
+          "Anchor": "Earth",
+          "ReferenceFrame": "Root",
+          "Position": [
+            17674090.6536026,
+            -1566585.506652832,
+            18170644.716644287
+          ],
+          "Up": [
+            -0.7126743196161902,
+            0.0631696013082495,
+            0.6986450569711041
+          ],
+          "Yaw": 0,
+          "Pitch": 0
+        },
+        "free_anchor_render_m": null
+      }
+    }
+  ],
+  "after": [],
+  "script_sha256": "c76736077000bd0d3babfdf561a183421f2c9f1c861524c6667259fcbb2f83c7",
+  "reason": "Only the test-created temporary view from refused switchB; no owner favorite selected."
+}

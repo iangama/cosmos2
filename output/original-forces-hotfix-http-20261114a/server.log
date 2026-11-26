@@ -1,0 +1,7 @@
+Cosmos2 UI http://127.0.0.1:58098
+127.0.0.1 - - [14/Nov/2026 21:17:19] "GET /api/forces/catalog HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 21:17:19] "POST /api/forces/evaluate HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 21:17:19] "POST /api/forces/evaluate HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 21:17:19] "POST /api/forces/evaluate HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 21:17:19] "POST /api/forces/evaluate HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 21:17:19] "POST /api/shutdown HTTP/1.1" 200 -

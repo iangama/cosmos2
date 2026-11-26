@@ -1,0 +1,189 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/collect_gpu_pdh_v3.py": "c807127e2236b914071c86447cbc5b2cddc0c82db7008a17854293ac3504761b",
+    "scripts/windows_gpu_pdh_v2.py": "9a35ebdcc93ca30c748bf64b7e849b567150d2711f615d8c22af38d284564924",
+    "scripts/gpu_pdh_audit_v3.py": "a08d153e3e1ddc7d0314b2f51cba349a1bab9fb0caf2fd0650e235a6f559c903",
+    "scripts/gpu_pdh_audit_v2.py": "8b1b9d0fe63c8c15cfd11af71c3e0799b3b8906c062cc0e6352e93ff5fdd5fe1",
+    "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+    "IS-6-GPU-IDENTIDADE-PROCESSOS.md": "ecf5f20e1574e1f6f51a126a99f9a95265e0070c3a978e8a704cf2a8939f0cae",
+    "IS-6-GPU-PDH-PYTHON-CONTRATO.md": "b32b9e2bbdb3ba8981ba0041eb5b6ba809e339bf8837357b971f0cb35b6784a1",
+    "IS-6-GPU-PDH-PYTHON-TEMPO.md": "83490234ad9b949dd031812fe356594e9e8a0654625f8b300016827292791e1e",
+    "scripts/verify-gpu-pdh-report-v3.py": "942a4930060e0a13c81fdc91050827e2051d6d748dbf7097ab66252fc8fe4dc7",
+    "evidence/gpu-pdh-is6p-20261105p4-pre.json": "a5c99c9e6f4fd322775d5fc6269b275e7ce8e23929db1e927536d49e9cece5cf"
+  },
+  "native_report": "evidence/gpu-pdh-is6p-20261105p4-pre.json",
+  "native_report_sha256": "a5c99c9e6f4fd322775d5fc6269b275e7ce8e23929db1e927536d49e9cece5cf",
+  "summary": {
+    "samples": 3,
+    "paths": 6,
+    "owned_processes": 10,
+    "peak_dedicated_plus_shared_bytes": 3229704192,
+    "scope": "WDDM sum per process; shared allocations can be counted more than once."
+  },
+  "refusals": [
+    {
+      "case": "Unverified ownership method",
+      "error": "Native temporal ownership proof required"
+    },
+    {
+      "case": "Invalid native creation time",
+      "error": "Owned process identity changed"
+    },
+    {
+      "case": "Wrong schema",
+      "error": "Native PDH schema4 required"
+    },
+    {
+      "case": "Boolean schema",
+      "error": "Native PDH schema4 required"
+    },
+    {
+      "case": "Refused native capture",
+      "error": "PDH collection was refused"
+    },
+    {
+      "case": "Native failure hidden",
+      "error": "PDH collection was refused"
+    },
+    {
+      "case": "Different session",
+      "error": "GPU collector session differs from the owned host"
+    },
+    {
+      "case": "Different executable",
+      "error": "GPU collector executable differs"
+    },
+    {
+      "case": "Different source generation",
+      "error": "GPU collector generation differs"
+    },
+    {
+      "case": "Native API failure",
+      "error": "PDH API call failed"
+    },
+    {
+      "case": "Formatted API failure",
+      "error": "PDH API call failed"
+    },
+    {
+      "case": "Invalid raw CStatus",
+      "error": "PDH counter data invalid"
+    },
+    {
+      "case": "Invalid formatted CStatus",
+      "error": "PDH counter data invalid"
+    },
+    {
+      "case": "Wrong raw type",
+      "error": "PDH counter is not a64-bit byte gauge"
+    },
+    {
+      "case": "Wrong formatted type",
+      "error": "PDH counter is not a64-bit byte gauge"
+    },
+    {
+      "case": "Applied counter scaling",
+      "error": "Unscaled integer PDH format required"
+    },
+    {
+      "case": "Negative bytes",
+      "error": "Nonnegative64-bit integer required"
+    },
+    {
+      "case": "Boolean bytes",
+      "error": "Nonnegative64-bit integer required"
+    },
+    {
+      "case": "Raw/formatted mismatch",
+      "error": "Formatted GPU bytes differ from raw count"
+    },
+    {
+      "case": "Omitted selected counter",
+      "error": "Selected PDH row count differs"
+    },
+    {
+      "case": "Duplicated selected counter",
+      "error": "Selected PDH row count differs"
+    },
+    {
+      "case": "Changed instance inventory",
+      "error": "GPU path set changed during collection"
+    },
+    {
+      "case": "Duplicate owned identity",
+      "error": "Owned process identities differ"
+    },
+    {
+      "case": "Reused process identity",
+      "error": "Owned process identity changed"
+    },
+    {
+      "case": "Zero assigned to unexposed identity",
+      "error": "Missing exposed GPU paths were assigned zero"
+    },
+    {
+      "case": "Omitted GPU identity",
+      "error": "Exposed GPU identity set differs"
+    },
+    {
+      "case": "GPU sum changed",
+      "error": "GPU projection/sum differs from raw samples"
+    },
+    {
+      "case": "Projected bytes changed",
+      "error": "GPU projection/sum differs from raw samples"
+    },
+    {
+      "case": "Counter metadata identity changed",
+      "error": "GPU counter metadata identity differs"
+    },
+    {
+      "case": "Sample loss",
+      "error": "PDH sample loss"
+    },
+    {
+      "case": "Scenario changed",
+      "error": "Renderer/scenario changed during GPU sampling"
+    },
+    {
+      "case": "Final worker changed",
+      "error": "Final renderer/scenario changed"
+    },
+    {
+      "case": "NaN sampling offset",
+      "error": "Sampling offset differs"
+    },
+    {
+      "case": "Infinite sampling offset",
+      "error": "Sampling offset differs"
+    },
+    {
+      "case": "Dropped sampling interval",
+      "error": "GPU sampling interval outside adopted bounds"
+    },
+    {
+      "case": "Missing native time basis",
+      "error": "'time_basis'"
+    },
+    {
+      "case": "Local timestamp relabelled UTC",
+      "error": "Local FILETIME conversion differs"
+    },
+    {
+      "case": "Timezone offset invented",
+      "error": "Local FILETIME conversion differs"
+    }
+  ],
+  "owner_sha256": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825",
+  "scope": "Real native PDH byte-gauge preflight in its declared scenario and independent receipt audit. No frame/resource budget acceptance, experiment sampling or product promotion.",
+  "fresh_interpreter": {
+    "samples": 3,
+    "paths": 6,
+    "owned_processes": 10,
+    "peak_dedicated_plus_shared_bytes": 3229704192,
+    "scope": "WDDM sum per process; shared allocations can be counted more than once."
+  },
+  "documented_NEW_DATA_status_preserved": true
+}

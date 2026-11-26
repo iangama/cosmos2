@@ -1,0 +1,9 @@
+{
+  "prepared": true,
+  "executed": false,
+  "base_sha256": "d6ded364dc4d9a0f2f752143ad3f8b155f6a9ef85f7b9d6f3ab4369059366b10",
+  "target_sha256": "3cc77212372714eb1f4601204541d6b3dde4d450fa05e45f33980f477ffc7f70",
+  "failed_receipt_sha256": "efa260f45221ea865121a916863a06f87f1aafe657297cbd11ea698c1e3a9b31",
+  "product_changed": false,
+  "change": "Pin the actual paused source snapshot in the read-only status adapter; enforce exact physical equality with current real worker on every status call. Preserve publication counters in the pinned source."
+}

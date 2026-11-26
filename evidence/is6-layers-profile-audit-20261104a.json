@@ -1,0 +1,66 @@
+{
+  "accepted": true,
+  "profile": "evidence/is6-layers-profile-20261104a.json",
+  "profile_sha256": "b096cdc0ec9c363a2d6ff97b8b2acbc4671abe89e2a44099e67a3824f9038a70",
+  "auditor_sha256": "8b8f43354c896e42bc0b524e39ff212ab963ab2d72d8ccd3a6f31f403269b6ed",
+  "runs": [
+    {
+      "run": 1,
+      "body": "399",
+      "kind": "static",
+      "GPU_peak_GiB": 3.0040321350097656,
+      "frames": 4508,
+      "median_ms": 13.319999910891056,
+      "p95_ms": 14.085294958204031,
+      "p99_ms": 14.437059601768851,
+      "over_100ms": 0,
+      "interval_s": 60.12689528707415
+    },
+    {
+      "run": 2,
+      "body": "599",
+      "kind": "static",
+      "GPU_peak_GiB": 3.0040321350097656,
+      "frames": 4506,
+      "median_ms": 13.309150002896786,
+      "p95_ms": 14.095474733039737,
+      "p99_ms": 14.469860401004551,
+      "over_100ms": 0,
+      "interval_s": 60.1271374868229
+    },
+    {
+      "run": 3,
+      "body": "399",
+      "kind": "visibility",
+      "GPU_peak_GiB": 3.0102615356445312,
+      "frames": 4508,
+      "median_ms": 13.319950085133314,
+      "p95_ms": 14.139425056055186,
+      "p99_ms": 14.48417315259576,
+      "over_100ms": 0,
+      "interval_s": 60.12743689818308,
+      "command_completion_ratio": 1.0,
+      "command_p95_s": 0.21651217499602352,
+      "command_max_s": 0.2629192000022158
+    },
+    {
+      "run": 4,
+      "body": "599",
+      "kind": "visibility",
+      "GPU_peak_GiB": 3.0102615356445312,
+      "frames": 4507,
+      "median_ms": 13.326499611139297,
+      "p95_ms": 14.086469914764166,
+      "p99_ms": 14.481897931545973,
+      "over_100ms": 0,
+      "interval_s": 60.12722659856081,
+      "command_completion_ratio": 1.0,
+      "command_p95_s": 0.21595113500043225,
+      "command_max_s": 0.2499995999969542
+    }
+  ],
+  "commands": 240,
+  "RAM_peak_GiB": 1.1314926147460938,
+  "GPU_peak_GiB": 3.0102615356445312,
+  "scope": "K3 final 0.19.1 interface rendering and 2Hz API confirmation latency. UI stays rendered and polls real state; not human input throughput, compound persistence, migration or promotion acceptance."
+}

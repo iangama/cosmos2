@@ -1,0 +1,1 @@
+{"valid": true, "samples": 3, "audit": {"samples": 3, "paths": 6, "owned_processes": 10, "peak_dedicated_plus_shared_bytes": 3236950016, "scope": "WDDM sum per process; shared allocations can be counted more than once."}, "failure": null}

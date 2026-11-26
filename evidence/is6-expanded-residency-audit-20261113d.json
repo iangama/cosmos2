@@ -1,0 +1,6 @@
+{
+  "accepted": false,
+  "completed": false,
+  "input_sha256": "6acc739348156cd6deedc8eee5425c1273849c8f659f0a1e0d60226307c01e23",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\audit-expanded-residency-v3.py\", line 57, in main\n    answer.update(audit.audit(report, collector, rows, seed, service), data_sha256=sha(data),\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\expanded_residency_audit_v3.py\", line 117, in audit\n    c.require(a <= gauge <= b and b - a < 1, 'Raw sample timing exceeds1Hz budget')\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\expanded_residency_contract_v3.py\", line 29, in require\n    raise ValueError(message)\nValueError: Raw sample timing exceeds1Hz budget\n"
+}

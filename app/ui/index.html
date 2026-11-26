@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cosmos2 — Atlas</title>
+<link rel="stylesheet" href="style.css">
+<body>
+  <header class="glass"><div class="brand">COSMOS<span>2</span><small>ATLAS DO UNIVERSO</small></div><nav><button class="selected" id="atlas">Explorar</button><button id="experiment">Experimentos</button><button id="forces">Forças fundamentais</button><button id="open-content">Dados e fontes</button><button id="panel-toggle" aria-expanded="false">Ver ficha</button></nav><div class="connection"><i id="led"></i><span id="connection">Conectando ao universo…</span></div></header>
+  <aside class="glass" id="atlas-panel">
+    <p class="eyebrow">NOSSA VIZINHANÇA CÓSMICA</p><h1>Explore nossa<br>vizinhança cósmica.</h1>
+    <p class="intro">Selecione um destino, confira seus dados e escolha como viajar.</p>
+    <label class="search">⌕ <input id="search" aria-label="Buscar destinos" placeholder="Buscar um destino…"></label>
+    <div class="catalog-filters"><select id="type-filter" aria-label="Tipo de destino"><option value="all">Todos os tipos</option><option value="planet">Planetas</option><option value="moon">Luas</option><option value="system">Sistemas</option><option value="galaxy">Galáxias</option></select><select id="distance-sort" aria-label="Ordenar destinos"><option value="system">Árvore do sistema</option><option value="nearest">Mais próximos da câmera</option></select><select id="nearby-filter" aria-label="Distância máxima da câmera"><option value="0">Qualquer distância</option><option value="1e9">Até 1 milhão km da câmera</option><option value="2e12">Até 2 bilhões km da câmera</option></select></div><details id="system-tree"><summary>Árvore · Sistema Solar</summary><button data-tree-target="Earth">↳ Terra</button><button data-tree-target="Moon">↳ ↳ Lua</button><button data-tree-target="Saturn">↳ Saturno</button></details><p class="field-help" id="catalog-scope">Recorte local · 2 planetas, 1 lua e modelo galáctico</p><div id="destinations">
+      <button class="destination active" data-target="Earth" data-kind="planet"><span class="planet earth"></span><span><b>Terra</b><small>Sol › Terra · planeta rochoso</small></span><span class="arrow">↗</span></button>
+      <button class="destination" data-target="Moon" data-kind="moon"><span class="planet moon"></span><span><b>Lua</b><small id="moon-distance">Distância calculada por época</small></span><span class="arrow">↗</span></button>
+      <button class="destination" data-target="Saturn" data-kind="planet"><span class="planet saturn">♄</span><span><b>Saturno</b><small>Sol › Saturno · planeta gasoso</small></span><span class="arrow">↗</span></button>
+      <button class="destination" data-target="System" data-kind="system"><span class="planet system">◎</span><span><b>Terra e Lua</b><small>Sol › Terra › Lua · sistema</small></span><span class="arrow">↗</span></button>
+      <button class="destination" data-target="Galaxy" data-kind="galaxy"><span class="planet system">✧</span><span><b>Via Láctea</b><small>Modelo volumétrico da galáxia</small></span><span class="arrow">↗</span></button>
+    </div>
+    <p id="empty" hidden>Nenhum destino corresponde aos filtros.</p><div class="button-row"><button class="primary" id="visit-target">Visitar selecionado</button><button id="return-view" disabled>Voltar à vista anterior</button></div><label class="compact-check"><input type="checkbox" id="smooth-flight" checked> Viagem suave · 4 segundos</label><button id="cancel-flight" class="wide" hidden>Cancelar viagem</button><details id="favorites-panel"><summary>Meus favoritos</summary><label class="field">Nome da vista<input id="favorite-name" maxlength="80" placeholder="Minha vista"></label><button id="save-favorite" class="wide">Salvar vista atual</button><div id="favorites-list"></div></details>
+    <details id="time-panel"><summary>Tempo do Atlas · 1950–2050</summary><div class="button-row"><button id="atlas-pause">Retomar tempo</button><select id="atlas-rate" aria-label="Ritmo do Atlas"><option value="-86400">−1 dia/s</option><option value="-3600">−1 hora/s</option><option value="1" selected>Tempo real</option><option value="3600">1 hora/s</option><option value="86400">1 dia/s</option></select></div><label class="field">Percorrer época<input id="epoch-slider" type="range" min="1950" max="2050.999" step="0.001" value="2026.77"></label><form id="atlas-epoch-form" class="atlas-epoch"><label for="atlas-epoch">Época UTC · AAAA-MM-DDTHH:MM:SS</label><input id="atlas-epoch" type="text" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}" value="2026-10-11T12:00:00" title="Época UTC de 1950 a 2050, por exemplo 2026-10-11T12:00:00"><button id="apply-atlas-epoch" class="wide">Aplicar época e pausar</button><small id="atlas-time-reading">Consultando o relógio do Atlas…</small></form></details>
+    <section class="atlas-copy"><button id="copy-atlas" class="wide" disabled>Copiar Sol/Terra/Lua para experimento</button><p class="field-help">Pausa o Atlas na época exibida e cria uma cópia newtoniana dos três corpos. Outros planetas, relatividade e colisões ficam excluídos.</p></section>
+    <div class="scene-note"><span class="tag">JPL · DE442s + SAT441</span><p>Sol/Terra/Lua/Saturno · estados geométricos.<br>1950–2050 · rotações IAU gerais.<br>Terra/Lua NASA; Saturno OpenSpace · AMNH.<br>Via Láctea: modelo de simulação NAOJ.</p><button id="export-atlas">Exportar estado e fontes</button></div>
+  </aside>
+  <aside class="glass" id="lab-panel" hidden>
+    <p class="eyebrow">LABORATÓRIO GRAVITACIONAL</p><h1>Observe.<br>Altere. Descubra.</h1>
+    <p class="intro" id="lab-intro">Um corpo central e pequenos orbitantes. Mude a massa e acompanhe a resposta do sistema.</p>
+    <details id="gravity-experiences"><summary>Experiências prontas</summary><label class="field">Modelo<select id="gravity-experience"></select></label><p id="gravity-experience-goal" class="field-help"></p><button id="load-gravity-experience" class="wide" disabled>Carregar modelo pausado</button><p class="field-help">Condições de modelo, sem corpos observados. Escolha o ritmo e inicie a evolução.</p><p id="gravity-experience-result" class="field-help" role="status"></p><div class="button-row"><button id="view-gravity-pair" disabled>Ver par instantâneo</button><button id="view-gravity-escaper" disabled>Ver terceiro</button></div></details><fieldset id="lab-controls">
+      <label class="field">Cenário inicial<select id="fixture"><option value="32">P32 · 32 corpos</option><option value="128">P128 · 128 corpos</option><option value="256">P256 · 256 corpos</option><option value="user" id="user-fixture-option" hidden disabled>Sistema definido pelo usuário</option><option value="atlas" id="atlas-fixture-option" hidden disabled>Sol/Terra/Lua · cópia do Atlas</option></select></label>
+      <div class="button-row"><button class="primary" id="play">Iniciar</button><button id="reset">Reiniciar cenário</button></div>
+      <label class="field">Ritmo solicitado<select id="rate"><option value="0.1">0,1 unidade/s</option><option value="1" selected>1 unidade/s</option><option value="10">10 unidades/s</option></select></label>
+      <label class="field"><span id="mass-label">Massa central / massa solar nominal</span><input id="mass" type="number" required min="0.000000000001" max="100" step="any" value="1"></label>
+      <button class="wide" id="apply-mass">Aplicar massa e pausar</button>
+      <p class="field-help">Preserva posição e velocidade. A energia e o momento adicionados ficam registrados.</p>
+      <div class="button-row"><button id="save">Salvar sessão</button><button id="load">Retomar salva</button></div>
+    </fieldset>
+    <details id="body-editor"><summary>Corpos · criar, editar ou remover</summary><label class="field">Operação<select id="edit-operation"><option value="edit">Editar corpo existente</option><option value="create">Acrescentar corpo ao sistema</option><option value="new">Iniciar novo sistema com 1 corpo</option></select></label><label class="field">Corpo<select id="edit-body"></select></label><button id="view-edit-body" class="wide">Ver corpo selecionado</button><button id="prepare-body-edit" class="wide">Pausar e preparar</button><button id="remove-edit-body" class="wide">Remover corpo selecionado</button><p class="field-help">Corpos acrescentados são modelos definidos por você, sem fonte observacional. Limite: 1–256 corpos ativos. Marcadores ampliados, massas pontuais.</p><p id="body-edit-frame" class="field-help">Referencial da sessão, com origem inicial fixa.</p><form id="body-edit-form"><fieldset id="body-edit-fields" disabled><label class="field" id="edit-name-field" hidden>Nome do novo corpo<input id="edit-name" type="text" maxlength="80" value="Corpo criado"></label><label class="field">Massa (kg)<input id="edit-mass-kg" type="number" step="any" min="0" required></label><label class="field">Posição x / y / z (m)</label><div class="vector-fields"><label class="vector-row"><span>x</span><input id="edit-position-0" aria-label="Posição x em metros" type="number" step="any" required></label><label class="vector-row"><span>y</span><input id="edit-position-1" aria-label="Posição y em metros" type="number" step="any" required></label><label class="vector-row"><span>z</span><input id="edit-position-2" aria-label="Posição z em metros" type="number" step="any" required></label></div><label class="field">Velocidade x / y / z (m/s)</label><div class="vector-fields"><label class="vector-row"><span>x</span><input id="edit-velocity-0" aria-label="Velocidade x em metros por segundo" type="number" step="any" required></label><label class="vector-row"><span>y</span><input id="edit-velocity-1" aria-label="Velocidade y em metros por segundo" type="number" step="any" required></label><label class="vector-row"><span>z</span><input id="edit-velocity-2" aria-label="Velocidade z em metros por segundo" type="number" step="any" required></label></div><button id="apply-body-edit" class="wide" type="submit" disabled>Aplicar estado e pausar</button></fieldset></form><details id="body-attributes"><summary>Raio e rotação</summary><p class="field-help">Raio geométrico e rotação cinemática. Não ativam colisões, J2 ou torques. Os balanços de energia e momento medem a translação dos centros.</p><label class="field">Tamanho na cena<select id="body-radius-mode"><option value="markers">Marcadores ampliados</option><option value="physical">Raios físicos definidos</option></select></label><label class="compact-check"><input type="checkbox" id="body-show-axes"> Eixos RGB do corpo selecionado</label><p id="body-display-note" class="field-help"></p><button id="prepare-body-attributes" class="wide">Pausar e carregar raio/spin</button><form id="body-attributes-form"><fieldset id="body-attributes-fields" disabled><label class="field">Raio geométrico (m)<input id="body-radius-m" type="number" min="0" max="1e12" step="any" placeholder="Não definido"></label><p class="field-help">Vazio: desconhecido. Zero: massa pontual.</p><label class="compact-check"><input type="checkbox" id="body-spin-defined"> Definir velocidade angular</label><fieldset id="body-spin-fields" class="vector-fields" disabled><label class="vector-row"><span>x</span><input id="body-spin-0" aria-label="Spin x em radianos por segundo" type="number" step="any" required></label><label class="vector-row"><span>y</span><input id="body-spin-1" aria-label="Spin y em radianos por segundo" type="number" step="any" required></label><label class="vector-row"><span>z</span><input id="body-spin-2" aria-label="Spin z em radianos por segundo" type="number" step="any" required></label></fieldset><button id="apply-body-attributes" class="wide" type="submit" disabled>Aplicar raio/spin e pausar</button></fieldset></form><p id="body-attributes-origin" class="field-help"></p><p id="body-attributes-status" class="field-help" role="status">Selecione um corpo e carregue os atributos.</p></details><details id="orbit-editor"><summary>Órbita e escape</summary><p class="field-help">Corpo: seleção acima. Cônica instantânea de dois corpos; a evolução usa todas as massas ativas.</p><label class="field">Primário do par<select id="orbit-primary"></select></label><button id="calculate-orbit" class="wide">Pausar e calcular prévia</button><button id="compare-orbit" class="wide">Comparar com os campos do editor</button><p class="field-help">Comparação usa massa, posição e velocidade preparados acima, sem aplicá-los.</p><p id="orbit-status" class="field-help" role="status">Escolha corpo e primário.</p><table id="orbit-table" class="orbit-table" hidden></table><p id="orbit-model-note" class="field-help"></p><div class="button-row"><button id="view-orbit" disabled>Ver curvas</button><button id="clear-orbit" disabled>Limpar curvas</button></div></details><p id="body-edit-event" class="field-help" hidden></p><p id="body-edit-status" class="field-help" role="status">Selecione um corpo e carregue seu estado.</p></details>
+    <details id="orbital-panel">
+      <summary>Ressonâncias · instrumentos orbitais</summary>
+      <p class="field-help">Compare razões de períodos e ângulos críticos de dois orbitadores com o mesmo primário. As massas interagem pela gravitação existente.</p>
+      <div class="button-row"><button id="orbital-new-resonant">Novo par 2:1</button><button id="orbital-new-control">Controle 1,8:1</button></div>
+      <p class="field-help">Cenários sintéticos com três massas ativas. Substituem a fase atual; arquive antes para voltar a ela.</p>
+      <p id="orbital-reading" class="field-help" role="status"></p>
+      <button id="orbital-sample" class="wide">Pausar e medir os ângulos</button>
+      <div class="button-row"><button id="orbital-toggle">Ativar gravação orbital</button><select id="orbital-cadence" aria-label="Cadência orbital real"><option value="0.25">0,25 s</option><option value="1" selected>1 s</option><option value="5">5 s</option></select></div>
+      <p id="orbital-status" class="field-help"></p>
+      <label class="field">Grandeza<select id="orbital-quantity"><option value="orbital_theta_inner">Ângulo com periastro interno · °</option><option value="orbital_theta_outer">Ângulo com periastro externo · °</option><option value="orbital_ratio">Período externo / interno</option><option value="orbital_offset">Desvio da razão nominal · %</option></select></label>
+      <canvas id="orbital-chart" width="520" height="360" aria-label="Ângulos orbitais e razão de períodos em instantes físicos confirmados"></canvas>
+      <p id="orbital-chart-legend" class="field-help"></p><p id="orbital-point-reading" class="field-help"></p>
+      <div class="button-row"><button id="orbital-clear">Limpar janela orbital</button><button id="orbital-export">Exportar fontes SI</button></div>
+      <details id="orbital-definition"><summary>Primário, orbitadores e plano</summary>
+        <button id="orbital-prepare" class="wide">Pausar e carregar definição</button>
+        <form id="orbital-form"><fieldset id="orbital-editor-fields" disabled>
+          <label class="field">Primário comum<select id="orbital-primary"></select></label>
+          <label class="field">Orbitador interno<select id="orbital-inner"></select></label>
+          <label class="field">Orbitador externo<select id="orbital-outer"></select></label>
+          <label class="field">Razão nominal j:(j−1)<select id="orbital-j"><option value="2">2:1</option><option value="3">3:2</option><option value="4">4:3</option><option value="5">5:4</option><option value="6">6:5</option><option value="7">7:6</option><option value="8">8:7</option><option value="9">9:8</option></select></label>
+          <details><summary>Plano inercial fixo</summary><label class="field">Normal do plano · componentes inerciais</label><div class="vector-fields"><label class="vector-row"><span>x</span><input id="orbital-normal-0" aria-label="Normal do plano x" type="number" step="any" value="0" required></label><label class="vector-row"><span>y</span><input id="orbital-normal-1" aria-label="Normal do plano y" type="number" step="any" value="0" required></label><label class="vector-row"><span>z</span><input id="orbital-normal-2" aria-label="Normal do plano z" type="number" step="any" value="1" required></label></div><label class="field">Referência angular no plano · componentes inerciais</label><div class="vector-fields"><label class="vector-row"><span>x</span><input id="orbital-reference-0" aria-label="Referência angular no plano x" type="number" step="any" value="1" required></label><label class="vector-row"><span>y</span><input id="orbital-reference-1" aria-label="Referência angular no plano y" type="number" step="any" value="0" required></label><label class="vector-row"><span>z</span><input id="orbital-reference-2" aria-label="Referência angular no plano z" type="number" step="any" value="0" required></label></div><p class="field-help">Plano explícito, normalizado pelo instrumento. As duas órbitas precisam ser prógradas e coplanares. O plano não acompanha as órbitas após ser fixado.</p></details>
+          <button id="orbital-align-plane" type="button" class="wide">Fixar plano da órbita interna agora</button>
+          <button id="orbital-apply" type="submit" class="wide" disabled>Aplicar definição orbital</button>
+        </fieldset></form>
+        <p id="orbital-editor-status" class="field-help" role="status"></p>
+        <button id="orbital-disable" class="wide">Desativar definição; manter histórico</button>
+      </details>
+      <p class="field-help">Elementos osculantes relativos ao primário, sem convenção Jacobi implícita. Periastro quase circular fica indefinido. Razão perto de 2:1 ou arco curto numa janela finita não confirma libracão ou captura permanente. Configurar, ler e gravar não acrescenta força nem reinicia a evolução.</p>
+    </details>
+    <details id="tides-panel">
+      <summary>Marés materiais · spin e calor</summary>
+      <p class="field-help">Resposta quadrupolar de equilíbrio com atraso constante. O torque troca momento angular entre órbita e spin; a dissipação produz calor.</p>
+      <button id="tide-new-pair" class="wide">Criar novo par sintético com maré</button>
+      <p class="field-help">Inicia outro sistema: duas massas de 10²⁵ kg, órbita inicial e=0,2, parâmetros sintéticos explícitos. Arquive a fase atual para voltar a ela.</p>
+      <label class="field">Corpo deformável<select id="tide-body"></select></label>
+      <p id="tide-status" class="field-help" role="status"></p>
+      <button id="prepare-tide" class="wide">Pausar e carregar material</button>
+      <form id="tide-form"><fieldset id="tide-editor-fields" disabled>
+        <label class="compact-check"><input id="tide-active" type="checkbox"> Ativar maré material</label>
+        <fieldset id="tide-parameters" disabled>
+          <label class="field">Raio material fixo R (m)<input id="tide-radius" type="number" min="0.001" max="1e12" step="any" required></label>
+          <label class="field">Love potencial k2 (adimensional)<input id="tide-love" type="number" min="0.000000001" max="1.5" step="any" required></label>
+          <label class="field">Atraso temporal τ (s)<input id="tide-lag" type="number" min="0" max="1e12" step="any" required></label>
+          <label class="field">Momento de inércia I (kg·m²)<input id="tide-inertia" type="number" min="0" step="any" required></label>
+          <label class="field">Spin material x / y / z (rad/s)</label>
+          <div class="vector-fields"><label class="vector-row"><span>x</span><input id="tide-spin-0" type="number" step="any" required></label><label class="vector-row"><span>y</span><input id="tide-spin-1" type="number" step="any" required></label><label class="vector-row"><span>z</span><input id="tide-spin-2" type="number" step="any" required></label></div>
+          <label class="field">Procedência<input id="tide-provenance" type="text" maxlength="240" required placeholder="Fonte e época, ou material sintético"></label>
+        </fieldset>
+        <button id="apply-tide" class="wide" type="submit" disabled>Aplicar modelo e pausar</button>
+      </fieldset></form>
+      <p id="tide-editor-status" class="field-help" role="status"></p>
+      <p id="tide-domain" class="field-help"></p>
+      <p class="field-help">Raio e inércia ficam fixos. O calor é um reservatório contabilizado; não altera temperatura ou raio. k2 não define altura de superfície: sem h2 ou relevo material. Esferas e orientação cinemática continuam controles separados. Não há conversão automática entre Q e τ.</p>
+    </details>
+    <details id="test-cloud"><summary>10.000 partículas de teste</summary>
+      <p class="field-help">Anel circular sintético, sem origem observacional. Uma fonte gravitacional e partículas sem massa; sem colisões, J2, maré material ou forças entre partículas. A fonte e o anel evoluem juntos.</p>
+      <button id="cloud-create" class="wide">Novo anel com 10.000 partículas</button>
+      <p id="cloud-status" class="field-help" role="status"></p>
+      <label class="field">Índice da partícula (0 a 9.999)<input id="cloud-index" type="number" min="0" max="9999" step="1" value="9999" required></label>
+      <button id="cloud-select" class="wide">Pausar e medir partícula</button>
+      <p id="cloud-reading" class="field-help" role="status"></p>
+      <div class="button-row"><button id="cloud-focus">Ver partícula ↗</button><button id="cloud-remove">Remover partículas</button></div>
+      <div class="button-row"><button id="cloud-export-reading">Exportar leitura SI</button><button id="cloud-export-positions">Exportar posições SI</button></div>
+      <p class="field-help">Marcadores ampliados. Gráfico com precisão float32; leituras SI com precisão float64. A evolução torna a leitura guardada antiga; o marcador continua seguindo a partícula.</p>
+    </details>
+    <details id="gravity-harmonics">
+      <summary>Achatamento J2 · campo e força</summary>
+      <p class="field-help">Correção gravitacional exterior ao raio equatorial Req. Usa potencial, força e tensor do mesmo modelo. Cada fonte reage às forças; os eixos de simetria ficam fixos no referencial inercial.</p>
+      <label class="field">Fonte J2<select id="j2-body"></select></label>
+      <p id="j2-status" class="field-help" role="status"></p>
+      <button id="prepare-j2" class="wide">Pausar e carregar J2</button>
+      <form id="j2-form"><fieldset id="j2-editor-fields" disabled>
+        <label class="compact-check"><input type="checkbox" id="j2-active"> Ativar J2 nesta fonte</label>
+        <fieldset id="j2-parameters" disabled>
+          <label class="field">J2 (adimensional, não nulo)<input id="j2-coefficient" type="number" min="-0.1" max="0.1" step="any" required></label>
+          <label class="field">Raio equatorial de referência Req (m)<input id="j2-radius" type="number" min="0" max="1e12" step="any" required></label>
+          <p class="field-help">Req define o domínio do modelo; o raio geométrico da esfera é configurado separadamente. Todos os demais centros devem ficar a pelo menos Req da fonte. Ao atingir o limite, a evolução pausa na última fase confirmada.</p>
+          <label class="field">Eixo de simetria inercial, x / y / z</label>
+          <div class="vector-fields"><label class="vector-row"><span>x</span><input id="j2-axis-0" aria-label="Eixo J2 x" type="number" step="any" required value="0"></label><label class="vector-row"><span>y</span><input id="j2-axis-1" aria-label="Eixo J2 y" type="number" step="any" required value="0"></label><label class="vector-row"><span>z</span><input id="j2-axis-2" aria-label="Eixo J2 z" type="number" step="any" required value="1"></label></div>
+          <label class="field">Procedência dos parâmetros<input id="j2-provenance" type="text" maxlength="240" required placeholder="Fonte e época, ou modelo definido por você"></label>
+        </fieldset>
+        <button id="apply-j2" class="wide" type="submit" disabled>Aplicar J2 e pausar</button>
+      </fieldset></form>
+      <p id="j2-editor-status" class="field-help" role="status"></p>
+      <p class="field-help">Energia mecânica inclui o quadrupolo e o momento linear recebe reação. O spin não recebe torque nem evolui; a mudança de L orbital não é erro numérico. Só a componente de L em um eixo comum pode conservar. Sem maré material ou modelo interior. Sondas são pontos sem quadrupolo próprio.</p>
+    </details>
+    <details id="gravity-probe"><summary>Sonda pontual · g e potencial</summary><p class="field-help">Amostra sem massa e sem retroação, fixa no instante calculado. Coordenadas SI no referencial inercial do experimento.</p><form id="probe-form"><div class="vector-fields"><label>X (m)<input id="probe-position-0" type="number" step="any" required value="10000000000.0"></label><label>Y (m)<input id="probe-position-1" type="number" step="any" required value="0"></label><label>Z (m)<input id="probe-position-2" type="number" step="any" required value="1000000000.0"></label></div><button id="sample-probe" class="wide">Pausar e medir neste ponto</button></form><p id="probe-reading" class="field-help"></p><p class="field-help">Massas pontuais; Φ=0 no infinito. Menos de 1 mm de uma fonte fica fora do domínio. A marca não tem tamanho físico. Esta leitura ainda não é salva com a sessão.</p><button id="view-probe" class="wide" disabled>Ver ponto da sonda ↗</button><button id="clear-probe" class="wide" disabled>Esconder marca e limpar leitura</button></details>
+    <details id="gravity-instruments">
+      <summary>Sondas salvas · campo e maré</summary>
+      <p class="field-help">Até 16 sondas sem massa. Posição fixa ou deslocamento em eixos inerciais de um corpo. Definições ficam salvas com a sessão; leituras e marcas são congeladas no instante medido.</p>
+      <label class="field">Sonda<select id="instrument-selection"><option value="">Criar nova sonda</option></select></label>
+      <button id="prepare-instrument" class="wide">Pausar e preparar sonda</button>
+      <form id="instrument-form"><fieldset id="instrument-fields" disabled>
+        <label class="field">Nome<input id="instrument-name" type="text" maxlength="80" required value="Minha sonda"></label>
+        <label class="field">Posição<select id="instrument-mode"><option value="fixed">Fixa no referencial do experimento</option><option value="follow">Seguir um corpo · eixos inerciais</option></select></label>
+        <label class="field" id="instrument-body-field" hidden>Corpo seguido<select id="instrument-body"></select></label>
+        <p id="instrument-coordinates-note" class="field-help">Coordenadas fixas em metros.</p>
+        <div class="vector-fields">
+          <label>X (m)<input id="instrument-coordinate-0" type="number" step="any" required value="17000000000"></label>
+          <label>Y (m)<input id="instrument-coordinate-1" type="number" step="any" required value="-9000000000"></label>
+          <label>Z (m)<input id="instrument-coordinate-2" type="number" step="any" required value="3000000000"></label>
+        </div>
+        <label class="compact-check" id="instrument-exclusion-field" hidden><input id="instrument-exclude" type="checkbox"> Medir apenas o campo das outras massas</label>
+        <p class="field-help">O deslocamento segue a posição do corpo, sem girar com ele. No centro de uma massa pontual, sua contribuição é singular: exclua essa fonte explicitamente para medir o campo externo.</p>
+        <button id="apply-instrument" class="wide">Salvar definição da sonda</button>
+      </fieldset></form>
+      <button id="remove-instrument" class="wide" disabled>Remover sonda selecionada</button>
+      <button id="measure-instruments" class="wide" disabled>Pausar e medir todas as sondas</button>
+      <p id="instruments-status" class="field-help" role="status"></p>
+      <div id="instruments-readings" class="field-help"></div>
+      <button id="view-instrument" class="wide" disabled>Ver ponto medido ↗</button>
+      <button id="clear-instruments" class="wide" disabled>Limpar leituras e marcas</button>
+      <button id="export-instruments" class="wide" disabled>Exportar definições e leituras JSON</button>
+      <p class="field-help">g em m/s², potencial em J/kg com zero no infinito e tensor de maré em s⁻². O tensor mede aceleração diferencial, sem representar deformação material. Uma fonte seguida removida torna a sonda indisponível, preservando seu ID.</p>
+    </details>
+    <details id="gravity-fields">
+      <summary>Campo 3D e cortes equipotenciais</summary>
+      <p class="field-help">Mapa congelado das massas ativas. A casca amostra todas as direções; o corte pode ser deslocado e girado. As escolhas ficam salvas com a sessão.</p>
+      <button id="prepare-fields" class="wide">Pausar e preparar mapa</button>
+      <form id="fields-form"><fieldset id="fields-inputs" disabled>
+        <label class="field">Centro do mapa<select id="field-center-mode"><option value="fixed">Fixo nos eixos do experimento</option><option value="follow">Seguir posição de um corpo</option></select></label>
+        <label id="field-body-label" class="field" hidden>Corpo central<select id="field-body"></select></label>
+        <p id="field-center-note" class="field-help">Posição fixa em metros.</p>
+        <div class="vector-fields"><label>X (m)<input id="field-center-0" type="number" step="any" required></label><label>Y (m)<input id="field-center-1" type="number" step="any" required></label><label>Z (m)<input id="field-center-2" type="number" step="any" required></label></div>
+        <label class="compact-check"><input id="field-shell-enabled" type="checkbox" checked> Casca de vetores 3D</label>
+        <label class="field">Raio da casca (m)<input id="field-radius" type="number" step="any" min="0.001" max="1e17" required></label>
+        <label class="field">Direções da casca<select id="field-shell-count"><option value="48">48</option><option value="96" selected>96</option><option value="128">128</option></select></label>
+        <label class="compact-check"><input id="field-cut-enabled" type="checkbox" checked> Corte com vetores e equipotenciais</label>
+        <label class="field">Meia largura do corte (m)<input id="field-cut-width" type="number" step="any" min="0.001" max="1e17" required></label>
+        <label class="field">Amostras no corte<select id="field-cut-resolution"><option value="17">17 × 17</option><option value="21">21 × 21</option></select></label>
+        <label class="field">Deslocamento na normal (m)<input id="field-cut-offset" type="number" step="any" required></label>
+        <p class="field-help">Giros em torno de X, Y e Z (graus), aplicados nessa ordem nos eixos inerciais. Zero dá o plano XY.</p>
+        <div class="vector-fields"><label>X°<input id="field-angle-0" type="number" min="-360" max="360" step="any" required></label><label>Y°<input id="field-angle-1" type="number" min="-360" max="360" step="any" required></label><label>Z°<input id="field-angle-2" type="number" min="-360" max="360" step="any" required></label></div>
+        <label class="field">Cor de |g|<select id="field-magnitude-scale"><option value="log">Logarítmica</option><option value="linear">Linear</option></select></label>
+        <label class="field">Potenciais (J/kg), separados por vírgula<input id="field-levels" type="text" placeholder="Automático: quantis 20 / 50 / 80%"></label>
+        <p class="field-help">Até quatro níveis; use ponto decimal. Os níveis escolhidos aparecem na legenda.</p>
+        <button id="apply-fields" class="wide">Salvar configuração do mapa</button>
+      </fieldset></form>
+      <button id="measure-fields" class="wide">Pausar e medir mapa</button>
+      <button id="view-fields" class="wide" disabled>Ver campo na cena ↗</button>
+      <p id="fields-status" class="field-help" role="status"></p>
+      <div id="fields-colorbar" aria-label="Cor de magnitude do campo" hidden></div>
+      <p id="fields-legend" class="field-help"></p>
+      <details><summary>Consultar uma amostra</summary>
+        <label class="field">Camada<select id="field-sample-layer"><option value="shell">Casca</option><option value="cut">Corte</option></select></label>
+        <label class="field">Índice da amostra (começa em 0)<input id="field-sample-index" type="number" min="0" step="1" value="0"></label>
+        <button id="read-field-sample" class="wide" disabled>Ler g, potencial e maré</button>
+        <p id="field-sample-reading" class="field-help"></p>
+      </details>
+      <button id="toggle-fields" class="wide" disabled>Esconder campo</button>
+      <button id="clear-fields" class="wide" disabled>Limpar mapa e leitura</button>
+      <button id="export-fields" class="wide" disabled>Exportar mapa e fontes SI</button>
+      <p class="field-help">Comprimento das setas é gráfico e uniforme em cada camada; cor indica |g| em m/s². Equipotenciais são curvas interpoladas em J/kg, com Φ=0 no infinito. Células singulares ficam com lacunas. Tensor em s⁻² mede aceleração diferencial. Linhas não são trajetórias nem deformação material.</p>
+    </details>
+<details id="instrument-history">
+  <summary>Comparar sondas e acompanhar no tempo</summary>
+  <p class="field-help">Compare duas leituras do mesmo instante. O tensor prevê a diferença apenas para deslocamentos pequenos e com as mesmas fontes incluídas.</p>
+  <label class="field">Primeira sonda<select id="compare-probe-a"></select></label>
+  <label class="field">Segunda sonda<select id="compare-probe-b"></select></label>
+  <button id="compare-probes" class="wide" disabled>Comparar a leitura confirmada</button>
+  <p id="probe-comparison-reading" class="field-help"></p>
+  <label class="field">Cadência real de gravação<select id="history-cadence"><option value="0.25">0,25 segundo</option><option value="0.5">0,5 segundo</option><option value="1" selected>1 segundo</option><option value="2">2 segundos</option><option value="5">5 segundos</option></select></label>
+  <button id="history-toggle" class="wide" disabled>Ativar gravação</button>
+  <p id="history-status" class="field-help" role="status"></p>
+  <p class="field-help">Grava somente durante a evolução, nos estados confirmados pelo worker. Não altera passos de integração. Janela de128amostras; tempos físicos reais e lacunas ficam registrados. Salvar sessão conserva a janela.</p>
+  <label class="field">Grandeza<select id="history-quantity"><option value="acceleration_norm_m_s2">|g| das duas sondas · m/s²</option><option value="potential_J_kg">Potencial das duas sondas · J/kg</option><option value="tidal_xx_s_2">Maré Txx das duas sondas · s⁻²</option><option value="energy_J">Energia auditada · J</option><option value="energy_error">Erro relativo de energia</option><option value="momentum_error_normalized">Erro normalizado de P</option><option value="angular_momentum_error_normalized">Erro normalizado de L</option></select></label>
+  <label class="field">Escala vertical<select id="history-scale"><option value="linear">Linear</option><option value="log">Logarítmica · valores positivos</option></select></label>
+  <canvas id="history-chart" width="520" height="360" aria-label="Gráfico temporal das leituras confirmadas"></canvas>
+  <p id="history-chart-legend" class="field-help"></p>
+  <p class="field-help">Clique no gráfico para consultar uma amostra e ver suas marcas na cena. Traços interrompem em lacunas ou mudanças físicas/de configuração; pontos antigos não restauram a evolução.</p>
+  <p id="history-point-reading" class="field-help"></p>
+  <button id="history-export" class="wide" disabled>Exportar histórico completo e fontes SI</button>
+  <button id="history-clear" class="wide" disabled>Limpar janela de leituras</button>
+</details>
+
+    <details id="simulation-branches"><summary>Ramos · arquivar e comparar evoluções</summary>
+      <p class="field-help">Arquivo independente da sessão principal: fase do integrador, definições e janela de leituras. Até32ramos locais. Cada arquivo conserva sua origem e seu pai.</p>
+      <label class="field">Nome do novo ramo<input id="branch-name" maxlength="80" value="Minha evolução"></label>
+      <button id="branch-create" class="wide">Pausar e arquivar a fase atual</button>
+      <p id="branch-status" class="field-help"></p>
+      <label class="field">Primeiro ramo<select id="branch-first"></select></label>
+      <label class="field">Segundo ramo<select id="branch-second"></select></label>
+      <button id="branch-load" class="wide" disabled>Restaurar o primeiro ramo</button>
+      <p class="field-help">Restaurar troca a fase atual pelo arquivo escolhido e pausa. Arquive a fase atual se quiser voltar a ela.</p>
+      <button id="branch-compare" class="wide" disabled>Pausar e comparar arquivos</button>
+      <p id="branch-comparison-status" class="field-help"></p>
+      <label class="field">Sonda nos dois ramos<select id="branch-probe"></select></label>
+      <label class="field">Grandeza<select id="branch-quantity"><option value="acceleration_norm_m_s2">|g| · m/s²</option><option value="potential_J_kg">Φ · J/kg</option><option value="tidal_xx_s_2">Txx · s⁻²</option><option value="energy_J">Energia auditada · J</option><option value="energy_error">Erro relativo de energia</option><option value="orbital_theta_inner">Ângulo orbital interno · °</option><option value="orbital_theta_outer">Ângulo orbital externo · °</option><option value="orbital_ratio">Período externo / interno</option><option value="orbital_offset">Desvio da razão nominal · %</option></select></label>
+      <canvas id="branch-chart" width="520" height="360" aria-label="Comparação temporal dos arquivos de dois ramos"></canvas>
+      <p id="branch-chart-legend" class="field-help"></p>
+      <button id="branch-export" class="wide" disabled>Exportar comparação dos arquivos</button>
+    </details>
+
+    <details id="lab-origin" hidden><summary>Origem e limites da cópia</summary><p id="lab-origin-reading"></p><div id="lab-source-GM"></div><p class="field-help">GM é um parâmetro do modelo JPL. Massa em kg vem de GM/G; as incertezas de GM e dos vetores não são fornecidas neste recorte e permanecem desconhecidas.</p><p id="lab-exclusions"></p></details>
+    <div class="scene-note"><span id="lab-model-tag" class="tag">MODELO NEWTONIANO · IAS15</span><p id="unit-note">Massas pontuais, sem colisões.<br>Marcadores ampliados para visualização.</p></div>
+  </aside>
+  <section class="object glass" id="atlas-details"><span class="eyebrow">OBJETO SELECIONADO</span><h2 id="object-name">Terra</h2><p id="object-description">Oceanos, continentes e luzes noturnas em um globo com dimensões reais.</p><div class="facts"><div><small id="measure-label">RAIO DE REFERÊNCIA</small><strong id="radius">6.378 km</strong></div><div><small>ORIGEM DA IMAGEM</small><strong id="surface">NASA Blue Marble</strong></div></div><label class="field">Câmera<select id="camera-mode"><option value="orbit">Orbitar · eixos inerciais</option><option value="follow">Seguir rotação · até 20 raios</option><option value="free">Voo livre · WASD / Q E</option></select></label><p id="camera-distance" class="field-help"></p><div id="free-controls" hidden><label class="field">Velocidade da câmera<select id="free-speed"><option value="100000">100 km/s</option><option value="10000000" selected>10 mil km/s</option><option value="1000000000">1 milhão km/s</option><option value="1e17">10¹⁷ m/s · galáxia</option></select></label><div class="free-buttons"><button data-move="0,0,1">Avançar W</button><button data-move="0,0,-1">Recuar S</button><button data-move="-1,0,0">Esquerda A</button><button data-move="1,0,0">Direita D</button><button data-move="0,1,0">Subir E</button><button data-move="0,-1,0">Descer Q</button></div><p class="field-help">Arraste a cena para olhar. Movimento da câmera; sem força física.</p></div><details id="visual-controls"><summary>Vistas e exposição</summary><div class="viewpoint-grid"><button data-viewpoint="overview">Visão geral</button><button data-viewpoint="terminator">Terminador</button><button data-viewpoint="polar">Polo norte</button><button data-viewpoint="detail">Órbita próxima</button></div><label class="field">Exposição visual<input id="visual-exposure" type="range" min="0.5" max="5" step="0.05" value="3.7"></label><p id="exposure-reading" class="field-help"></p><label class="compact-check"><input id="visual-sky" type="checkbox" checked> Céu didático · estrelas ampliadas</label><p id="content-limit" class="field-help"></p></details><button id="sunlit-view">Ver lado iluminado ↗</button><button id="home">Restaurar vista inicial ↗</button></section>
+  <section class="object glass" id="lab-details" hidden><span class="eyebrow" id="lab-state">PREPARANDO EXPERIMENTO</span><h2><span id="body-count">32</span><span id="body-count-label"> corpos</span></h2><p id="lab-grid-note">Integração independente da câmera. Grade de coordenadas: intervalos de 5 milhões de km.</p><p id="lab-epoch" hidden></p><p id="lab-restoration" hidden></p><dl class="metrics"><div><dt>Tempo simulado</dt><dd id="sim-time">0,000 u</dd></div><div><dt>Ritmo efetivo</dt><dd id="effective-rate">0,00 u/s</dd></div><div><dt>Erro de energia¹</dt><dd id="energy-error">0</dd></div><div><dt>Alterações externas</dt><dd id="revision">0</dd></div><div><dt>Último comando físico</dt><dd id="ack-latency">—</dd></div></dl><p id="energy-scope" class="field-help">¹ Desde a condição inicial ou última intervenção. Com energia de referência nula, mostra ΔE absoluto em unidades canônicas.</p><details id="conservation-panel"><summary>Conservação e baricentro</summary><p id="conservation-scope" class="field-help">Translação dos centros. Referência renovada nas intervenções físicas; raio/spin cinemáticos não a alteram.</p><p id="conservation-reading" class="field-help"></p><button id="view-barycenter">Ver baricentro ↗</button><p id="conservation-normalization" class="field-help">Erros de P e L normalizados pelas somas de seus módulos na referência. Sem inércia ou energia interna de spin.</p></details><button id="lab-home">Ver sistema completo ↗</button><button id="lab-earth-moon" hidden>Ver região Terra–Lua ↗</button></section>
+  <div id="scene-targets" aria-label="Seleção na cena"></div><div id="free-look" hidden aria-label="Arraste para olhar em voo livre"></div><footer class="glass"><div><span class="key">ARRASTAR</span> Orbitar <span class="key">G</span> Visitar <span class="key">F</span> Seguir</div><div id="notice" role="status">Explore com o mouse ou escolha um destino.</div><label>Interface <select id="ui-scale" aria-label="Escala da interface"><option value="1">100%</option><option value="1.25">125%</option><option value="1.5">150%</option></select></label><button id="capture">Capturar imagem</button></footer>
+  <script src="app.js"></script><script src="navigation.js"></script><script src="body-editor.js"></script><script src="body-attributes.js"></script><script src="gravity-harmonics.js"></script><script src="material-tides.js"></script><script src="orbit-editor.js"></script><script src="gravity-experiences.js"></script><script src="gravity-probe.js"></script><script src="gravity-instruments.js"></script><script src="gravity-fields.js"></script><script src="instrument-history.js"></script><script src="orbital-instruments.js"></script><script src="branches.js"></script><script src="test-cloud.js"></script>
+</body></html>

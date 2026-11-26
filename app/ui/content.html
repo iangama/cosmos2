@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cosmos2 · Dados e fontes</title>
+<link rel="stylesheet" href="forces.css">
+<link rel="stylesheet" href="content.css">
+<body>
+<header><a href="/" class="brand">COSMOS<span>2</span></a><div><b>Dados e fontes</b><small>Propriedades do Atlas · conteúdo local</small></div><a class="back" href="/">Voltar ao universo ↗</a></header>
+<main>
+  <aside>
+    <p class="eyebrow">ORIGEM DE CADA PROPRIEDADE</p><h1>Conhecer também<br>é conferir.</h1>
+    <p class="muted">Consulte o que vem de um modelo, de uma imagem ou de uma forma adotada. Cada propriedade conserva sua fonte e seus limites.</p>
+    <div class="content-tabs" role="group" aria-label="Consulta de dados"><button id="show-properties" aria-pressed="true">Propriedades</button><button id="show-packages" aria-pressed="false">Pacotes locais</button></div>
+    <section id="property-options"><h2>Corpo de referência</h2><label>Selecionar corpo<select id="reference-body"><option value="399">Terra · NAIF399</option><option value="301">Lua · NAIF301</option><option value="699">Saturno · NAIF699</option><option value="10">Sol · NAIF10</option></select></label><p class="muted">A seleção consulta os dados. A câmera e o experimento permanecem independentes.</p><button id="refresh-properties">Atualizar estado do Atlas</button><button id="export-properties">Exportar estado e fontes</button></section>
+    <section id="package-options" hidden><h2>Conteúdo instalado</h2><label>Buscar pacote<input id="package-search" type="search" placeholder="Nome, origem ou tipo…"></label><div id="package-list"></div><button id="export-packages">Exportar manifesto local</button></section>
+    <p id="content-status" class="status" role="status">Carregando dados locais…</p><p id="content-export-path" class="muted" hidden></p>
+  </aside>
+  <article>
+    <section id="properties-view"><p class="eyebrow">REFERÊNCIA CIENTÍFICA DO ATLAS</p><h2 id="reference-title">Terra</h2><p id="reference-epoch" class="muted"></p><div class="coordinate-note"><b>Estado geométrico simultâneo</b><p>Origem no baricentro do Sistema Solar; eixos J2000/ICRF. Todos os corpos estão na mesma época TDB. A propagação da luz não é aplicada, e a câmera não define um observador físico.</p><small>Tempos de emissão e recepção: não calculados. Incerteza ausente permanece desconhecida.</small></div><div id="reference-properties" class="property-cards"></div></section>
+    <section id="packages-view" hidden><p class="eyebrow">MANIFESTOS FIXADOS · CONSULTA LOCAL</p><h2 id="package-title">Pacotes locais</h2><p id="package-summary" class="muted"></p><div id="package-metadata"></div><div class="verification-actions"><button id="verify-package" class="primary">Verificar conteúdo deste pacote</button><span id="verification-status" role="status"></span></div><p class="muted">A verificação relê os arquivos e compara SHA256 com o manifesto fixado. A última leitura tem data; a consulta posterior usa tamanho e data de modificação para identificar alterações. Não há monitoramento contínuo.</p><div class="package-files"><table><thead><tr><th>Arquivo</th><th>Tamanho</th><th>Integridade local</th></tr></thead><tbody id="package-files"></tbody></table></div><p class="muted">SHA256 local verifica integridade; não é assinatura do fornecedor ou permissão de redistribuição. Esta página consulta e verifica dados já instalados.</p><details><summary>Identidade do manifesto</summary><code id="manifest-hash"></code></details></section>
+  </article>
+</main>
+<script src="content.js"></script>
+</body>
+</html>

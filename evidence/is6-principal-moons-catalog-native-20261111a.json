@@ -1,0 +1,93 @@
+{
+  "accepted": true,
+  "completed": true,
+  "bodies": [
+    {
+      "target": "10",
+      "title": "Sol · sol:naif:10"
+    },
+    {
+      "target": "199",
+      "title": "Mercúrio · sol:naif:199"
+    },
+    {
+      "target": "299",
+      "title": "Vênus · sol:naif:299"
+    },
+    {
+      "target": "399",
+      "title": "Terra · sol:naif:399"
+    },
+    {
+      "target": "301",
+      "title": "Lua · sol:naif:301"
+    },
+    {
+      "target": "499",
+      "title": "Marte · sol:naif:499"
+    },
+    {
+      "target": "599",
+      "title": "Júpiter · sol:naif:599"
+    },
+    {
+      "target": "699",
+      "title": "Saturno · sol:naif:699"
+    },
+    {
+      "target": "799",
+      "title": "Urano · sol:naif:799"
+    },
+    {
+      "target": "899",
+      "title": "Netuno · sol:naif:899"
+    },
+    {
+      "target": "501",
+      "title": "Io · sol:naif:501"
+    },
+    {
+      "target": "502",
+      "title": "Europa · sol:naif:502"
+    },
+    {
+      "target": "503",
+      "title": "Ganimedes · sol:naif:503"
+    },
+    {
+      "target": "504",
+      "title": "Calisto · sol:naif:504"
+    },
+    {
+      "target": "602",
+      "title": "Encélado · sol:naif:602"
+    },
+    {
+      "target": "606",
+      "title": "Titã · sol:naif:606"
+    }
+  ],
+  "captures": [
+    {
+      "path": "output/is6-principal-moons-catalog-native-20261111a/catalog-1.png",
+      "sha256": "0c88b31598c5b2ac0d7644b09dc65edecd9cd961bdd6aa66c39fd23f749dc560",
+      "scale": 1
+    },
+    {
+      "path": "output/is6-principal-moons-catalog-native-20261111a/catalog-1.5.png",
+      "sha256": "4d0dfac601ef84fa3fa3c731c942de5bfeac9184ef5b7f8ec5087a614aed7503",
+      "scale": 1.5
+    }
+  ],
+  "errors": [],
+  "script_sha256": "2cdf3b91d4cce9cc41ab0734334b5ba1865333f81efa1cb16b5f5f3f2f39480d",
+  "export": {
+    "path": "C:/Users/Ian/cosmos2/user/exports/cosmos2-planet-reference-20261111T215540Z-34d19528.json",
+    "sha256": "1908292ecd714e7b649df6f2caafaf8320366703007954250685724794fda65f"
+  },
+  "atlas_epoch_and_bodies_unchanged": true,
+  "protected_unchanged": {
+    "user/sessions/latest.json": true,
+    "Iniciar-Cosmos2.cmd": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "accepted": false,
+  "completed": false,
+  "label": "20261114a",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\audit-c214-orbits-profile.py\", line 116, in main\n    answer.update(audit(report, collected, rows), completed=True,\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\audit-c214-orbits-profile.py\", line 20, in audit\n    c.require(report['completed'] is True and report['collector_exit'] == 0 and not report.get('failure') and\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\expanded_residency_contract_v4.py\", line 29, in require\n    raise ValueError(message)\nValueError: Profile executor did not complete\n"
+}

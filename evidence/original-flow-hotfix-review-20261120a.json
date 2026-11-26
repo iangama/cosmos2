@@ -1,0 +1,93 @@
+{
+  "accepted": true,
+  "completed": true,
+  "recorded_utc": "2026-11-20T15:14:56.462676+00:00",
+  "candidate": "output/original-flow-hotfix-staging-v2",
+  "installed": false,
+  "promoted": false,
+  "native_user_flow_accepted": false,
+  "manual_test_completion_indicated": false,
+  "scope": "Offline correction review only. Final integrated panel remains unimplemented. Owner workflow requires the original launcher and buttons after manual-test completion is indicated.",
+  "baseline_panel_identity_with_original_027": {
+    "index.html": "d55013471ca00fa1b901bb053d24ed39838ddedbe2309baaf4deca102aa673bd",
+    "is6-spatial.js": "ef34b77461e692cf6d2fabbbd12afc9c63c488bc68039fae4a9a553f0ed2c047",
+    "is6-layers.js": "3a98a6cee7f6dcbe9a7aeb7bf43f83ee2eeb1188b390f0627dc700d1dd8b1534",
+    "is6-spatial.css": "6954227d672b81c57972e25c146e2d0f12bd2d1ee03013c42709270a92a82aef",
+    "is6-layers.css": "c61a1c9a6a06ccbeb0c10535d5a1500ff3eba1af5e87ff9635428c0865b3f24d",
+    "navigation.js": "f498e128a987c83fa5966f38dccc1467165a910cddf7336c07b3f793415accaf"
+  },
+  "reproduced_existing_failures": [
+    "spatial-initial-outage-blocks-mutation",
+    "spatial-retry-clears-only-transport-error",
+    "spatial-later-outage-blocks-stale-snapshot",
+    "spatial-invalid-snapshot-is-recoverable",
+    "spatial-sixteen-body-source-has-explicit-route",
+    "spatial-running-source-can-be-paused",
+    "layers-initial-outage-blocks-mutation",
+    "layers-retry-clears-only-transport-error",
+    "layers-later-outage-blocks-stale-snapshot",
+    "layers-invalid-snapshot-is-recoverable",
+    "layers-sixteen-body-source-has-explicit-route",
+    "layers-running-source-can-be-paused",
+    "switching-panels-reclaims-space-and-aria-state",
+    "mesh-recovery-hides-controls-without-an-artifact",
+    "mesh-lock-disables-keyboard-navigation-and-restores-it",
+    "new-imported-branch-remains-selected"
+  ],
+  "candidate_checks": 22,
+  "actual_scale_layout_checks": 4,
+  "http_checks": 14,
+  "scientific_python_unchanged": 137,
+  "previous_dependency_repairs_rechecked": 96,
+  "preparation_sha256": "0dd7499a6a2a8005fd536888dd26d842ab864dac12f49bdd92f17a6ec59e2973",
+  "proofs": {
+    "evidence/original-panels-ui-offline-20261120e-before.json": {
+      "sha256": "f2c33fe698da47f61f0c439a568fb9c795d31664b6ee6299638b1ba82b5acf53",
+      "checks": 22,
+      "passed": 6,
+      "failed": 16,
+      "expected_existing_defects": true
+    },
+    "evidence/original-panels-ui-offline-20261120f-candidate.json": {
+      "sha256": "3fd140c87a29f75e760cd18ece05456111650c93986558bcab48f84ab6c422da",
+      "checks": 22,
+      "passed": 22,
+      "failed": 0,
+      "expected_existing_defects": false
+    },
+    "evidence/original-panels-ui-offline-20261120g-zoom.json": {
+      "sha256": "5dcf61644862325e64715f29926cedce9fa24523b92e98407212b01fcd30d01f",
+      "checks": 4,
+      "passed": 4,
+      "failed": 0,
+      "expected_existing_defects": false
+    },
+    "evidence/original-flow-hotfix-http-20261120a.json": {
+      "sha256": "27e5c42523407183280545f252dc3085743d343f93caccb89ddd80655c98e767",
+      "checks": 14,
+      "passed": null,
+      "failed": null,
+      "expected_existing_defects": false
+    }
+  },
+  "private_test_records": [
+    {
+      "source": "output/original-flow-hotfix-staging-v2/user/exports/cosmos2-forces-strong-20261120T151100Z-7c07a802.json",
+      "preserved": "output/original-flow-hotfix-review-20261120a/private-science-records/exports/cosmos2-forces-strong-20261120T151100Z-7c07a802.json",
+      "sha256": "37860a18e919db5628241d7ea3bd4dee786a59bd8ebd0857c6b4c7635bca1f87"
+    },
+    {
+      "source": "output/original-flow-hotfix-staging-v2/user/forces/latest.json",
+      "preserved": "output/original-flow-hotfix-review-20261120a/private-science-records/forces/latest.json",
+      "sha256": "c051e49d850a406eb2d2a6707d996faff7b9e6737b336baedde66eefb8d4d016"
+    }
+  ],
+  "observed_app_server_processes": [],
+  "stale_session_metadata_note": "output/session.json records the previous launch; absent processes do not indicate that the owner ended manual testing.",
+  "superseded_test_notes": [
+    "20261120a-before / b-candidate: isDisabled on fieldset is not an effective-control check; preserved, superseded by v3.",
+    "20261120c-before / d-candidate: generic panel wait selected another fieldset; preserved, superseded by v3.",
+    "v3 large-ui screenshots check that class only. Actual CSS zoom and the original ui-scale handler were separately checked in 20261120g-zoom."
+  ],
+  "review_script_sha256": "fc4f875b6918770d9afcd8ced5a467227ee07221c852c5396e5e5146cc4aef50"
+}

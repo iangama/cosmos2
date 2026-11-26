@@ -1,0 +1,34 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checks": [
+    {
+      "name": "combined-backend-matches-accepted-physics-eccentric-orbit",
+      "physics_sha256": "ed4552dc217cc24814345c1460dd4b371d147eb061637aa141cf551b15d2f701"
+    },
+    {
+      "name": "combined-backend-matches-accepted-physics-eccentric-clocks",
+      "physics_sha256": "ed4552dc217cc24814345c1460dd4b371d147eb061637aa141cf551b15d2f701"
+    },
+    {
+      "name": "combined-backend-matches-accepted-physics-straight-clocks",
+      "physics_sha256": "9e407cb48d39b2d5cdaca78cc3c0d95db818c98a87374a522c2e6faa4837ad1f"
+    },
+    {
+      "name": "combined-backend-matches-accepted-physics-circular-orbit",
+      "physics_sha256": "2dd03293541c13106b639964a01b58837fec966633595cffd1e58347a371a04e"
+    },
+    {
+      "name": "new-orbit-conditions-save-load-and-export-retain-physics"
+    },
+    {
+      "name": "new-spatial-format-remains-admitted-in-combined-server"
+    }
+  ],
+  "source_sha256": {
+    "scripts/verify-working-orbits-http.py": "a99c8772bd4e1afa55c7d349ac19c27fb75cc9bd89ac01b078f920d1bc94e1de",
+    "output/original-flow-hotfix-product0.28.3/build-manifest.json": "00395a42741be535562928f95ce55f4e8033dcc502bc04ee8e33460c6728c65a"
+  },
+  "scope": "Separate loopback server and private candidate storage. Combined HTTP wiring, unchanged accepted timelike physics fingerprints, current spatial preview, save/export/restore. No native usability or transferred performance acceptance.",
+  "server_exit": 0
+}

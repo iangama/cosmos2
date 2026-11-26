@@ -1,0 +1,43 @@
+{
+  "accepted": true,
+  "cases": [
+    {
+      "encoding": "ascii",
+      "name": "Jupiter",
+      "legacy_read_without_mutation": true,
+      "new_write_utf8": true,
+      "corruption_refused": true
+    },
+    {
+      "encoding": "cp1252",
+      "name": "Titã em órbita",
+      "legacy_read_without_mutation": true,
+      "new_write_utf8": true,
+      "corruption_refused": true
+    },
+    {
+      "encoding": "cp1252",
+      "name": "Ã©",
+      "legacy_read_without_mutation": true,
+      "new_write_utf8": true,
+      "corruption_refused": true
+    },
+    {
+      "encoding": "utf8",
+      "name": "Io 🚀",
+      "legacy_read_without_mutation": true,
+      "new_write_utf8": true,
+      "corruption_refused": true
+    },
+    {
+      "encoding": "utf8",
+      "name": "星 e Lua",
+      "legacy_read_without_mutation": true,
+      "new_write_utf8": true,
+      "corruption_refused": true
+    }
+  ],
+  "script_sha256": "f7a7c0b42aa49cdde717f463b38f2ce3a352d68f76f47d377013eb4f7ffdea71",
+  "module_sha256": "810cfd68d5c4c621873e4316d1824a3c2b0213d8270da1f002e4cd8c6e065ae2",
+  "completed": true
+}

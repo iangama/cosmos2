@@ -1,0 +1,527 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checks": [
+    {
+      "name": "original-launcher-header-and-scenario-open-complete-timelike-result"
+    },
+    {
+      "name": "mouse-selects-circular-and-applies-its-analytic-reference"
+    },
+    {
+      "name": "clock-view-and-native-playback-show-current-readings"
+    },
+    {
+      "name": "clock-operator-changes-the-applied-clock-while-owner-phase-stays-intact"
+    },
+    {
+      "name": "invalid-fractional-cycle-keeps-confirmed-result-and-recovers-with-ordinary-button"
+    },
+    {
+      "name": "ordinary-view-and-orientation-options-work-at150"
+    }
+  ],
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-working-orbits-20261121b\\orbit-discovered-from-original-header.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "446bf2617e97849541f0e7ea7095990bb9d27eeb068fad97be2011d413c71c38"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-working-orbits-20261121b\\clock-view-selected-by-mouse.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "820ee8687276db3a7c679dd3aaaa9fdd189f1f21495083888a4e355ab52a56fd"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-working-orbits-20261121b\\clock-readings-at150.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "d86b0ea5945ea479349d1753f6aa673c0c1fe5973cc0b86132610e89da2e3392"
+    }
+  ],
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.back",
+      "x": 1346,
+      "y": 40
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#experiment",
+      "x": 321,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#load",
+      "x": 244,
+      "y": 768
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#atlas",
+      "x": 240,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#forces",
+      "x": 435,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"timelike-orbits\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"timelike-orbits\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[data-scenario=\"timelike-orbits\"]",
+      "x": 164,
+      "y": 858
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#scene-title",
+      "x": 557,
+      "y": 146
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-12-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-12-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-12-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-12-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-12-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-12-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-12-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-12-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#choice-12-choice",
+      "x": 93,
+      "y": 821
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"circular\"][aria-disabled=\"false\"]",
+      "x": 136,
+      "y": 772
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#calculate"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#calculate",
+      "x": 164,
+      "y": 882
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#timelike-view-choice",
+      "x": 531,
+      "y": 203
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"clocks\"][aria-disabled=\"false\"]",
+      "x": 550,
+      "y": 292
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#timelike-readings",
+      "x": 884,
+      "y": 734
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#animate",
+      "x": 392,
+      "y": 816
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#animate",
+      "x": 391,
+      "y": 816
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[data-effect=\"proper_clock_rate\"]",
+      "x": 38,
+      "y": 414
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#parameters [name=\"radial_cycles\"]",
+      "x": 164,
+      "y": 769
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 3
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#calculate",
+      "x": 164,
+      "y": 882
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#restore-result-conditions",
+      "x": 478,
+      "y": 170
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.back",
+      "x": 1346,
+      "y": 40
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1.5\"][aria-disabled=\"false\"]",
+      "x": 1321,
+      "y": 806
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#forces",
+      "x": 552,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"timelike-orbits\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"timelike-orbits\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"timelike-orbits\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"timelike-orbits\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"timelike-orbits\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"timelike-orbits\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"timelike-orbits\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[data-scenario=\"timelike-orbits\"]",
+      "x": 219,
+      "y": 769
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#timelike-view-choice",
+      "x": 728,
+      "y": 298
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"clocks\"][aria-disabled=\"false\"]",
+      "x": 757,
+      "y": 411
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#timelike-readings"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#timelike-readings",
+      "x": 940,
+      "y": 818
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#choice-14-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#choice-14-choice",
+      "x": 202,
+      "y": 877
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"negative\"][aria-disabled=\"false\"]",
+      "x": 324,
+      "y": 815
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#calculate"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#calculate",
+      "x": 219,
+      "y": 831
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.back",
+      "x": 1298,
+      "y": 61
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1141,
+      "y": 824
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1\"][aria-disabled=\"false\"]",
+      "x": 1264,
+      "y": 674
+    }
+  ],
+  "session": {
+    "app": 35748,
+    "server": 28404,
+    "launcher": 23608,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.28.4-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.28.4\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.28.4\\gravity-sessions",
+    "started": "2026-11-21T14:10:09Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v3.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.28.4",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "script_sha256": "018cce8ef3068e8be7d444fc5ce9ddf8123b4c773ddce261587d3d40bde3667b",
+  "manifest_sha256": "243275ec270bce590be32ada97d947e06dd142f2634e32ab78244d99a06004b6",
+  "scope": "Original launcher/header, ordinary Windows clicks/typing and visible option lists at100%/150%. Discover and use timelike orbits, circular choice, clock view, playback, clock operator, invalid conditions and recovery, return to saved owner experiment/Atlas. DOM/HTTP observe only. No transferred0.28.2 performance or whole C2-14 acceptance; no claim of native calculation-cancellation timing.",
+  "step": "a.back",
+  "owner_phase_preserved": true
+}

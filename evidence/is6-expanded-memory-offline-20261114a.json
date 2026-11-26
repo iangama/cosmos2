@@ -1,0 +1,147 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-windows-shared-json-v2.py": "56de9b3beb5a653f17edfa614afb09e2e26728d0e631ad6ee7f32299a9619dd9",
+    "scripts/windows_shared_json_v2.py": "c535a01683192c09741b45e8dbb36315a8b0f78621859ca64eec48f447ffc106",
+    "scripts/collect_expanded_residency_v4.py": "780a2d2aed59c2adcd0d14a7e6eaedcd01bbc45f0778898f5b5afe712e784845",
+    "scripts/prepare-expanded-residency-ipc.py": "eebf8256f9d952489ed8a68fcfebeae1f6ec64e4ff7d40195cdc6768a377c62e",
+    "scripts/collect_expanded_residency_v5.py": "638ddb6c8e370fa24a4f727e05300c07c76cb9c1730f18b7bf90531d13ada591",
+    "scripts/profile-expanded-residency-v4.py": "13f1135fb49a8ccfaf938cb8b59d0c1220af42e2444bddb8650185148635cef7",
+    "scripts/run-expanded-residency-v4.py": "3661b75c3f08b153590fea243273aa3730caab1451990a8cb3cb58ea2d93942c",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-E.md": "a10ea723605f3682f1dc11b5979b78e5b0c591fa07e7046e5c423c615ecfb0c2",
+    "evidence/is6-shared-json-fixture-20261113b.json": "e79993bbb74a56549175355c4314eaa35e9f852c51e38ccd32ff95dc6698b250",
+    "evidence/is6-expanded-residency-20261113c.json": "43972277ad12acdbea080d0097d6cd38db19ffc4fae7e1fd1e9bb141c0f85b4b",
+    "evidence/is6-expanded-residency-collector-20261113c.json": "2043b78f2e0e6dad25c66e1b995173a245b5732a156c12d2335638ac8ee89446",
+    "evidence/is6-expanded-residency-host-20261113c.json": "526380b4756981f9d0a0a15b1a4403402cd4279ad8ff7c13b8f5dba589df20f7",
+    "scripts/verify-expanded-residency-timing-v2.py": "76e08230b9c6d5bca0c43793fe76df11b42b9854cbc8543ed2cb37a775a59da2",
+    "scripts/expanded_residency_timing.py": "6fb34f4e9bcd18b3290394bd31d917153adc7f5809778bbe7cd75ba82db9a8a2",
+    "scripts/collect_expanded_residency_v6.py": "3ccb0b138e2c5042418dca5870f28f5a81f9fdece4a4a648df983d1abbea7f11",
+    "scripts/expanded_residency_audit_v4.py": "672c372bd5481cba06c4fa00665c37adf34e5d9fed5735b76133230bc2010f4b",
+    "scripts/profile-expanded-residency-v5.py": "f533c24d6b6daab49852b88e1bc831a8279d55332eba07815889129bcffd0733",
+    "scripts/audit-expanded-residency-v4.py": "ff626a360f70c50f712625b397baccb444e027f7b128a739bce7ef93c2d39651",
+    "scripts/run-expanded-residency-v5.py": "bc9a934312824f7ba1cb095b6f3c0422523bec05e782795b4581f0e5ce33e171",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-F.md": "139830ed746c44d83029b383225f5f40acbb2c10d288c13871d3d6ebe9527ad1",
+    "scripts/verify-expanded-residency-preflight-v7.py": "c2d3ecea37c3130ea44106ace4ce5c9c0c1600c43b8fbe4ee95cdadeed3a3aa1",
+    "scripts/prepare-expanded-residency-v6.py": "bea64d44760eff841cf44c7677e3cb4ecade611f1c6f546bc0c03453af9f43d7",
+    "evidence/is6-expanded-residency-diagnosis-20261114d.json": "06c1914ed0f4d8996fa6bcb23606654218c2e523011be7c0effc78d1a80002d1",
+    "evidence/is6-expanded-pdh-startup-20261114a.json": "428406ac34b24f2a5564396a671097cea63a7dbb7e1bd852d4ce010dd5f57b14",
+    "output/is6-expanded-pdh-startup-20261114a/observations.jsonl": "1a2ee04abb0b8a8d84fd586e553ed05e045b831fea241c8f934b4f3e2bc540f3",
+    "evidence/is6-expanded-residency-ipc-preparation-20261113a.json": "c6411495ad0a2612c8933689cd16a09193b5ffcdb681b4cff37fa97d38c32dc8",
+    "scripts/verify-owned-process-memory-v3.py": "a997575607a613f9da49a161eac8aca99438c808fdd93c56fc1a206467fa656d",
+    "scripts/owned_process_memory.py": "786b2f24bab86370ba8f7b0ea531d3a0c7d30c96ffc6d49f9d2d52d42d6974c4",
+    "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+    "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+    "scripts/expanded_residency_memory_audit.py": "08ce967813c85ccaa197e009863ffb01d8446913b11488204994aac44da180a6",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-G.md": "8f76de036b329307efee91ee6482f00a31346bc8dbbf6dad0e70db87a9932660",
+    "scripts/verify-expanded-residency-memory.py": "055b4f349a0f7bb74dea7f68d2ad3ffd8083e7f2a7d2519f2186a90e213be788",
+    "scripts/expanded_residency_history_audit_v2.py": "76fe600dbec68f1a165a6f33bdad4aed2b3d4cbd869e7cc9066dadab3f1509a5",
+    "scripts/expanded_residency_contract_v4.py": "aadc8763851a81e1092dc02dfafa8efae38c7f4b2df5d2ae785f7fe6e2e16ab2",
+    "scripts/collect_expanded_residency_v7.py": "7902c8be6b28b2a0bc5234556412623d219bfbf65d17349200edf866475d72aa",
+    "scripts/expanded_residency_audit_v5.py": "42ba3ff69234d00c0b9fee757c1ada81ccee84f0aa661cd9d9df131e26bdccda",
+    "scripts/audit-expanded-residency-v5.py": "48ac38c4361eb939348f2dd78a183466eaba16f2a606f641c344e2cbc27d665a",
+    "scripts/profile-expanded-residency-v6.py": "1fedf918fa4bbbcef662a06cebfa4e6785cafb2eb03dc38f4ed2d09dc445d764",
+    "scripts/run-expanded-residency-v6.py": "401bbd6999fa30739be2c78b4379489e7ec417cbc456d24f4ea132ae3279a244",
+    "scripts/verify-expanded-residency-preflight-v8.py": "1fbfe60ded1e9973d2d06317f9cb5a7fc885a8df75ce283a11b208e21b82c1dd",
+    "scripts/prepare-expanded-residency-v7.py": "922039b5d6c9e94dda251f197b7518369b3fb4e492198219972abb11fab6dc8c",
+    "evidence/is6-owned-memory-fixture-20261114c.json": "fc343b4e105d4c3e4b3c4390c100b5e40bb5b69214125c4f1151ff473841cbae",
+    "evidence/is6-expanded-timing-offline-20261114b.json": "a9bab427801d53c047ab3fc0f950f901ef570461bbba995687b8333e0c57cfa8"
+  },
+  "checks": [
+    "Real successful native RAM and explicit completed-before-read fixture admitted",
+    "Unsignaled native object does not use undefined exitTime as a completed-process proof",
+    "Synthetic exit during successful read retains every measured byte in the conservative sum",
+    "Failed API called once and retained with null aggregate; no fabricated zero or retry"
+  ],
+  "refusals": [
+    {
+      "name": "API-failed-without-zero-substitution",
+      "error": "Unmeasured/failed RAM query"
+    },
+    {
+      "name": "RAM-API-not-called",
+      "error": "Unmeasured/failed RAM query"
+    },
+    {
+      "name": "RAM-PID-reuse",
+      "error": "RAM identity changed"
+    },
+    {
+      "name": "RAM-native-identity-changed",
+      "error": "RAM native identity/wait differs"
+    },
+    {
+      "name": "RAM-sum-mismatch",
+      "error": "RAM measured sum differs"
+    },
+    {
+      "name": "RAM-working-set-projection",
+      "error": "RAM raw/projection differs"
+    },
+    {
+      "name": "RAM-private-projection",
+      "error": "RAM raw/projection differs"
+    },
+    {
+      "name": "negative-native-RAM",
+      "error": "Nonnegative64-bit integer required"
+    },
+    {
+      "name": "wrong-native-struct-size",
+      "error": "RAM raw struct differs"
+    },
+    {
+      "name": "RAM-outside-native-bracket",
+      "error": "Nonnegative64-bit integer required"
+    },
+    {
+      "name": "RAM-outside-inventory",
+      "error": "RAM native bracket outside inventory"
+    },
+    {
+      "name": "duplicate-RAM-process",
+      "error": "RAM ownership missing/duplicated"
+    },
+    {
+      "name": "silently-missing-RAM-process",
+      "error": "RAM ownership missing/duplicated"
+    },
+    {
+      "name": "measured-after-pre-read-completion",
+      "error": "RAM completed object lacks exact zero exit"
+    },
+    {
+      "name": "invented-zero-for-completed-object",
+      "error": "Completed RAM was assigned synthetic bytes"
+    },
+    {
+      "name": "unsignaled-exclusion",
+      "error": "RAM exclusion lacks pre-read completion"
+    },
+    {
+      "name": "nonzero-exit-exclusion",
+      "error": "RAM completed object lacks exact zero exit"
+    },
+    {
+      "name": "missing-exit-FILETIME",
+      "error": "RAM completed object lacks exact zero exit"
+    },
+    {
+      "name": "changed-final-exit-FILETIME",
+      "error": "RAM completed object lacks exact zero exit"
+    },
+    {
+      "name": "hidden-call-on-completed-object",
+      "error": "RAM exclusion lacks pre-read completion"
+    },
+    {
+      "name": "unknown-RAM-model",
+      "error": "Unknown RAM accounting model"
+    },
+    {
+      "name": "single-API-failure-kept-without-retry-or-sum",
+      "error": "Unmeasured/failed RAM query"
+    }
+  ],
+  "scope": "Offline RAM admission fixtures only. E and all previous original profiles remain refused."
+}

@@ -1,0 +1,30 @@
+diff --git a/src/query/query.cpp b/src/query/query.cpp
+index 62510c9..af36a50 100644
+--- a/src/query/query.cpp
++++ b/src/query/query.cpp
+@@ -55,6 +55,25 @@ const Renderable* renderable(std::string_view name) {
+ }
+ 
+ Property* property(std::string_view uri) {
++    // Scene nodes already have an identifier registry. Avoid a linear scan of
++    // every scene property owner for each per-frame translation update. Resolve
++    // from the live registry on every call so removal/recreation cannot leave
++    // a cached Property pointer behind. Keep other owners on the normal path.
++    constexpr std::string_view ScenePrefix = "Scene.";
++    if (uri.starts_with(ScenePrefix)) {
++        const size_t separator = uri.find('.', ScenePrefix.size());
++        if (separator != std::string_view::npos) {
++            const std::string_view identifier = uri.substr(
++                ScenePrefix.size(), separator - ScenePrefix.size()
++            );
++            SceneGraphNode* node = sceneGraphNode(identifier);
++            if (node && node->owner() ==
++                global::rootPropertyOwner->propertySubOwner("Scene"))
++            {
++                return node->property(uri.substr(separator + 1));
++            }
++        }
++    }
+     Property* property = global::rootPropertyOwner->property(uri);
+     return property;
+ }

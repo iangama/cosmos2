@@ -1,0 +1,92 @@
+COSMOS2 — RETOMADA 04/11/2026, diagnóstico V concluído
+Ler AGENTS.md. Implementação contínua autorizada; não delegar. Em <=8% salvar e
+continuar até limite real, conclusão ou bloqueio. Não confundir tokens/contexto
+com cota. Telemetria guardada em output/is6-resume-quota-20261104e.json.
+Preservar3.13, Cosmos/Revenant e user/sessions/latest.json SHA256
+ ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825.
+7/21 marcos v1 aceitos; IS6/v1 ainda incompletos.
+
+PRÓXIMO EXATO
+O diagnóstico V terminou, host U fechou normalmente (bootstrap0/engine0), sem
+falha de limpeza. Não duplicar hosts. Recibo evidence/is6-import-caption-
+diagnostic-20261104v.json completed=true, accepted=false (só diagnóstico).
+Imagens V engine-before, PrintWindow e CEF foram vistas: engine e CEF exibem
+legenda inteira "Malha oculta · referência magnética visível" e aviso inteiro;
+PrintWindow perdeu quase toda a interface e preservou fundo/malha. Engine-before
+é byte a byte igual engine-after. Isso demonstra divergência do método de
+captura nesta execução, sem estabelecer causa exata do PrintWindow/CEF/Windows.
+Importante: a imagem engine contém malha ciano embora estado/caption digam
+spatial=false. Conferir se é superfície de referência corporal/contexto ou
+objeto espacial indevidamente visível; não declarar visual aceito ainda.
+Próximo: registrar revisão diagnóstica V com hashes; preparar nova verificação
+com captura nativa openspace.takeScreenshot(), preservando S/T/PW originais,
+e validar todos os estados Terra/Júpiter100/150 antes de cut/perfil0.21.1.
+Não editar fontes executadas; novos scripts versionados. Captura CEF isolada
+não contém cena3D; engine é necessária para inspeção de composição nativa.
+Startup do servidor com catálogo persistido demorou cerca de2min; diagnóstico
+U inicial falhou goto antes de health. V espera /health. Causa/custo porregistro
+pendentes, não alegar perfil integral aprovado.
+
+ESTADO ACEITO
+K4 0.20.1 E/F funcional/visual/processos aceitos; perfil P aceito:18030quadros,
+240/240comandos,p95max13.97267ms,p99max14.37734ms,zero>100ms,RAM1.13224GiB,
+GPU2.958GiB,processos0/0. Não transferir esse perfil a0.21.1.
+CPU K5 H:24conversões/229recusas/24reaberturas/8originais intactos.
+J/J2:24registros/24recusas/16falhasI/O/24reaberturas cada. L2serviço:2imports,
+24recusas,0nativecalls. Lfalhoutesthelper; MfalhoutransporteCDP1MiB;preservados.
+cef_page_v2.py64MiB congelado. RecoveryM cancelouprévia/0arquivosnovos/0/0.
+Q/R0.21.0 funcional aceito12checks/15imagens/11recusas, mas visual recusado.
+S/T0.21.1 funcional aceito12checks/15imagens/11recusas/processos0/0;
+todas15capturas0mutaçõesdetexto idle. S399import150 tinha palavra aparentemente
+faltante em PrintWindow; sem cut/perfil ainda. NoopDOM não prova correção pixels.
+0.21.1 muda só ui/is6-layers.js para setters condicionais; backend/modelos iguais.
+App output/is6-layers-product0.21.1/app, staging is6-layers-migration-staging.
+
+FERRAMENTAS PREPARADAS
+Verificador/driver-v4 geraram S/T; processauditimport-v2. Cut-v2 exige S/T e
+revisão visual explícita15imagens. Perfil import-v2 próprio exigecutT; planoT,
+coletor/auditor/driver-v2 para candidato0.21.1, futurasérieO. NÃOexecutar antes
+do visual coerente. Não herdar K4P. Fluxos A/B/C/D todos encerrados.
+K5D somentecontrato IS-6-IMPORTACAO-ESPACIAL-K5D-CONTRATO.md;semimplementação.
+Fonte real0.18.2 spatial saved.json éSolNAIF10/1–8Rref/65x96/amp200/seleção
+radial16az95. Sem modelo B interno adotado; nunca inventarB0/renomearcomposto.
+Depois K5 seguir K5D e plano ativo, sem refazer investigação inteira.
+
+BACKUP/DOCUMENTAÇÃO
+GitHub público https://github.com/iangama/cosmos2, checkout irmão
+cosmos2-github-snapshot-20261103, último commit confirmado
+ e422f2834c336cc6ceb4b5df63f53f5a0169b08a.
+scripts/sync-github-source-snapshot-v2.py preparadoNÃOexecutado, inclui21.0/.1,
+Q/R/S/T mas deve adicionar recibos/imagensdiagnósticasV. Original semgit.
+Backup autorizado; excluirruntimes/sessões/ZIPs. PreservarbytesCRLF,gitcheckcom
+core.whitespace=cr-at-eol. AtualizarREADME/K4resultado/K5resultado antesbackup.
+Não executar IO/CPU pesado durante futurasjanelasperfil. Histórico desta
+retomada está em output/handoff-archive/LEIA-PRIMEIRO-before-20261104d.md.
+
+TELEMETRIA REAL
+{
+  "timestamp": "2026-11-04T21:02:22.504Z",
+  "rate_limits": {
+    "limit_id": "codex",
+    "limit_name": null,
+    "primary": {
+      "used_percent": 2.0,
+      "window_minutes": 300,
+      "resets_at": 1793844116
+    },
+    "secondary": {
+      "used_percent": 47.0,
+      "window_minutes": 10080,
+      "resets_at": 1794358406
+    },
+    "credits": {
+      "has_credits": false,
+      "unlimited": false,
+      "balance": "0"
+    },
+    "individual_limit": null,
+    "spend_control_reached": null,
+    "plan_type": "plus",
+    "rate_limit_reached_type": null
+  }
+}

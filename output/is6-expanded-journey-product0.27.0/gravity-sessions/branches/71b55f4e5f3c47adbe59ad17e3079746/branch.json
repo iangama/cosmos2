@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "id": "branch:71b55f4e5f3c47adbe59ad17e3079746",
+  "name": "Filho16 ampliado",
+  "parent_id": "branch:be496cb08b424c83b50c17858b29dcbf",
+  "parent_sha256": "b6fdef7dda17eda51246e22423885badbae90f3e31c0e975bac9c2ecbaa34eeb",
+  "created_utc": "2026-11-13T12:11:02.973634+00:00",
+  "checkpoint_manifest_sha256": "9234848d57eba0fa45c416da12a1855d48e71bbacb632c4c73a009a16196fb3d",
+  "system_id": "2ad694b6f482460eb9461fa925a26541",
+  "time": 0.5333333333333333,
+  "revision": 0,
+  "fixture_sha256": "79a86048842c1c410a82ed463186026d66eb5ba24db146b92824f9367dd3a251",
+  "frame": "initial_subset_barycenter_inertial_axes_J2000",
+  "record_sha256": "39c9e5398c97cb68f5e6417937d8dd0f3158f8e832f85c8024032d630eed0f2e"
+}

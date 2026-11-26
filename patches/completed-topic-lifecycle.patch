@@ -1,0 +1,48 @@
+--- em-cloud-before/src/topic/connection.cpp
++++ topic-cleanup-candidate/src/topic/connection.cpp
+@@ -212,6 +212,19 @@
+     return _password;
+ }
+ 
++void Connection::removeFinishedTopics() {
++    // Called on the engine thread at the next preSync, after asynchronous script
++    // callbacks have returned. Never delete a topic from inside its callback.
++    for (auto it = _topics.begin(); it != _topics.end();) {
++        if (it->second->isDone()) {
++            it = _topics.erase(it);
++        }
++        else {
++            ++it;
++        }
++    }
++}
++
+ Topic* Connection::findTopicByType(const std::string& type) {
+     const auto it = std::find_if(
+         _topics.begin(),
+--- em-cloud-before/include/openspace/topic/connection.h
++++ topic-cleanup-candidate/include/openspace/topic/connection.h
+@@ -66,6 +66,7 @@
+     void handleJson(const nlohmann::json& json);
+     void sendJson(const nlohmann::json& json);
+     void setAuthorized(bool status);
++    void removeFinishedTopics();
+     Topic* findTopicByType(const std::string& type);
+ 
+     bool isAuthorized() const;
+--- em-cloud-before/src/topic/server.cpp
++++ topic-cleanup-candidate/src/topic/server.cpp
+@@ -206,6 +206,13 @@
+         }
+     }
+ 
++    // Lua return topics complete during postSync, after handleJson has inserted
++    // them. Retire them once per frame, including idle connections, while keeping
++    // pending callbacks and active subscriptions alive.
++    for (const ConnectionData& connectionData : _connections) {
++        connectionData.connection->removeFinishedTopics();
++    }
++
+     // Consume all messages put into the message queue by the socket threads
+     consumeMessages();
+ 

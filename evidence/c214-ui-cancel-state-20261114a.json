@@ -1,0 +1,30 @@
+{
+  "accepted": true,
+  "completed": true,
+  "scope": "Actual UI calculate() with deterministic cancelled transport and DOM fixtures; native proof remains separate",
+  "fixture": "output/c214-orbits-native-20261114b/last-result.json",
+  "fixture_sha256": "50e48944859b575e5cdc211a019d104928411781e5a2c6fa884c93e984bf3987",
+  "script_sha256": "ac754f25dd33129851ac15e1440fde32ab7b2f0e78e951e28780504d04a21cc2",
+  "trials": [
+    {
+      "version": "0.28.1",
+      "source": "output/c214-orbits-product0.28.1/app/ui/forces.js",
+      "source_sha256": "c0f71b1d432fd4423dcbff3c56fc4acc71c5bf40b87013e3e5b75f213f97a9fc",
+      "initial_alias": true,
+      "full_result_preserved": false,
+      "configuration_matches": true,
+      "form_mass": 9.99,
+      "completed_mass": 9.99
+    },
+    {
+      "version": "0.28.2",
+      "source": "output/c214-orbits-product0.28.2/app/ui/forces.js",
+      "source_sha256": "4dd82e3873d97add165c3f2202296d66e14bc76a1ba12f7a5d89b235895321fd",
+      "initial_alias": false,
+      "full_result_preserved": true,
+      "configuration_matches": true,
+      "form_mass": 8.37,
+      "completed_mass": 8.37
+    }
+  ]
+}

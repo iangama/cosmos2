@@ -1,0 +1,1823 @@
+{
+  "index": 107,
+  "started_utc": "2026-11-14T21:23:08.584418+00:00",
+  "monotonic_offset_s": 107.0,
+  "phase_before": {
+    "schema": 1,
+    "id": "005-warmup",
+    "kind": "warmup",
+    "window": "eccentric-clocks",
+    "recipe": {
+      "name": "eccentric-clocks",
+      "view": "clocks",
+      "orbit": true,
+      "orbit_kind": "eccentric"
+    },
+    "expected_scenario": {
+      "job_id": "a5050a1c5c014a9d97b4a28b30da089e",
+      "edit_token": "5f441b09a156459b86ef55adb3547b17",
+      "revision": 3,
+      "body_sha256": "bca88030b2885c1fcf480f55e0f87a72f9ac59a92519d9757f2ac72871337017",
+      "configuration": {
+        "scenario": "timelike-orbits",
+        "controls": {
+          "gravity": {
+            "acting": true,
+            "visible": true,
+            "effects": {
+              "orbital_acceleration": true,
+              "ray_bending": true,
+              "static_clock_rate": true,
+              "primary_attraction": true,
+              "secondary_attraction": true,
+              "proper_clock_rate": true
+            }
+          },
+          "electromagnetic": {
+            "acting": true,
+            "visible": true,
+            "effects": {
+              "electric_acceleration": true,
+              "magnetic_deflection": true,
+              "stellar_radiative_capture": true,
+              "cno_radiative_capture": true,
+              "fusion_radiative_capture": true
+            }
+          },
+          "strong": {
+            "acting": true,
+            "visible": true,
+            "effects": {
+              "dt_fusion": true,
+              "dp_capture": true,
+              "he3_fusion": true,
+              "cno_c12_capture": true,
+              "cno_c13_capture": true,
+              "cno_n14_capture": true,
+              "cno_n15_alpha": true,
+              "fusion_dt": true,
+              "fusion_ddn": true,
+              "fusion_ddp": true,
+              "fusion_dp": true,
+              "fusion_he3he3": true,
+              "fusion_li7p": true,
+              "fusion_c12alpha": true
+            }
+          },
+          "weak": {
+            "acting": true,
+            "visible": true,
+            "effects": {
+              "beta_decay": true,
+              "pp_fusion": true,
+              "electron_capture": true,
+              "cno_n13_beta": true,
+              "cno_o15_beta": true,
+              "decay_n_beta_minus_0": true,
+              "decay_t_beta_minus_0": true,
+              "decay_c14_beta_minus_0": true,
+              "decay_be7_electron_capture_0": true,
+              "decay_be7_electron_capture_1": true,
+              "decay_n13_beta_plus_0": true,
+              "decay_n13_electron_capture_0": true,
+              "decay_o15_beta_plus_0": true,
+              "decay_o15_electron_capture_0": true,
+              "decay_f18_beta_plus_0": true,
+              "decay_f18_electron_capture_0": true,
+              "decay_na22_beta_plus_0": true,
+              "decay_na22_electron_capture_0": true,
+              "decay_na22_beta_plus_1": true,
+              "decay_na22_electron_capture_1": true,
+              "decay_sr90_beta_minus_0": true,
+              "decay_y90_beta_minus_0": true,
+              "decay_y90_beta_minus_1": true,
+              "decay_y90_beta_minus_3": true
+            }
+          }
+        },
+        "parameters": {
+          "mass_solar": 10,
+          "semi_latus_rectum_rs": 1000,
+          "orbit_kind": "eccentric",
+          "eccentricity": 0.6,
+          "radial_cycles": 8,
+          "orientation": "positive"
+        }
+      },
+      "configuration_sha256": "4c08935ea5e71dd07d18370860d40f2036916ddd975bc779d3aef266965e6780",
+      "physics_sha256": "ed4552dc217cc24814345c1460dd4b371d147eb061637aa141cf551b15d2f701",
+      "kernel_configuration": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 1000.0,
+        "eccentricity": 0.6,
+        "source_radius_rs": 1.0,
+        "radial_cycles": 8,
+        "output_samples": 1025,
+        "orientation": 1
+      },
+      "orbit_effect_applied": true,
+      "clock_effect_applied": true
+    }
+  },
+  "inventory_before": {
+    "owned": [
+      {
+        "pid": 356,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391648684309817,
+        "started_unix": 1794691268.4309816,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 6788,
+        "parent": 2432,
+        "name": "python.exe",
+        "created_filetime": 134391648647024159,
+        "started_unix": 1794691264.702416,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+        "scope_root": true
+      },
+      {
+        "pid": 7956,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391648683049312,
+        "started_unix": 1794691268.3049312,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 18224,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391648685345080,
+        "started_unix": 1794691268.534508,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 24548,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391648691638750,
+        "started_unix": 1794691269.163875,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 35660,
+        "parent": 2432,
+        "name": "OpenSpace.exe",
+        "created_filetime": 134391648660110483,
+        "started_unix": 1794691266.0110483,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+        "scope_root": true
+      },
+      {
+        "pid": 36704,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391648692739931,
+        "started_unix": 1794691269.2739933,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 39328,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391649883118593,
+        "started_unix": 1794691388.3118591,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 41408,
+        "parent": 6788,
+        "name": "python.exe",
+        "created_filetime": 134391648647180022,
+        "started_unix": 1794691264.718002,
+        "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648647024159
+      }
+    ],
+    "excluded_completed": [],
+    "excluded_old_parent_links": [],
+    "started_filetime": 134391649885849021,
+    "finished_filetime": 134391649886031943,
+    "generation": {
+      "id": "cosmos2:retained-native-history",
+      "version": "0.1.0",
+      "source_sha256": {
+        "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+        "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+        "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77"
+      }
+    }
+  },
+  "http_reference": {
+    "path": "output/c214-orbits-profile-20261114a/http-objects/bca88030b2885c1fcf480f55e0f87a72f9ac59a92519d9757f2ac72871337017.json",
+    "sha256": "bca88030b2885c1fcf480f55e0f87a72f9ac59a92519d9757f2ac72871337017",
+    "bytes": 745267
+  },
+  "worker_projection": {
+    "job_id": "a5050a1c5c014a9d97b4a28b30da089e",
+    "edit_token": "5f441b09a156459b86ef55adb3547b17",
+    "revision": 3,
+    "body_sha256": "bca88030b2885c1fcf480f55e0f87a72f9ac59a92519d9757f2ac72871337017",
+    "configuration": {
+      "scenario": "timelike-orbits",
+      "controls": {
+        "gravity": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "orbital_acceleration": true,
+            "ray_bending": true,
+            "static_clock_rate": true,
+            "primary_attraction": true,
+            "secondary_attraction": true,
+            "proper_clock_rate": true
+          }
+        },
+        "electromagnetic": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "electric_acceleration": true,
+            "magnetic_deflection": true,
+            "stellar_radiative_capture": true,
+            "cno_radiative_capture": true,
+            "fusion_radiative_capture": true
+          }
+        },
+        "strong": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "dt_fusion": true,
+            "dp_capture": true,
+            "he3_fusion": true,
+            "cno_c12_capture": true,
+            "cno_c13_capture": true,
+            "cno_n14_capture": true,
+            "cno_n15_alpha": true,
+            "fusion_dt": true,
+            "fusion_ddn": true,
+            "fusion_ddp": true,
+            "fusion_dp": true,
+            "fusion_he3he3": true,
+            "fusion_li7p": true,
+            "fusion_c12alpha": true
+          }
+        },
+        "weak": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "beta_decay": true,
+            "pp_fusion": true,
+            "electron_capture": true,
+            "cno_n13_beta": true,
+            "cno_o15_beta": true,
+            "decay_n_beta_minus_0": true,
+            "decay_t_beta_minus_0": true,
+            "decay_c14_beta_minus_0": true,
+            "decay_be7_electron_capture_0": true,
+            "decay_be7_electron_capture_1": true,
+            "decay_n13_beta_plus_0": true,
+            "decay_n13_electron_capture_0": true,
+            "decay_o15_beta_plus_0": true,
+            "decay_o15_electron_capture_0": true,
+            "decay_f18_beta_plus_0": true,
+            "decay_f18_electron_capture_0": true,
+            "decay_na22_beta_plus_0": true,
+            "decay_na22_electron_capture_0": true,
+            "decay_na22_beta_plus_1": true,
+            "decay_na22_electron_capture_1": true,
+            "decay_sr90_beta_minus_0": true,
+            "decay_y90_beta_minus_0": true,
+            "decay_y90_beta_minus_1": true,
+            "decay_y90_beta_minus_3": true
+          }
+        }
+      },
+      "parameters": {
+        "mass_solar": 10,
+        "semi_latus_rectum_rs": 1000,
+        "orbit_kind": "eccentric",
+        "eccentricity": 0.6,
+        "radial_cycles": 8,
+        "orientation": "positive"
+      }
+    },
+    "configuration_sha256": "4c08935ea5e71dd07d18370860d40f2036916ddd975bc779d3aef266965e6780",
+    "physics_sha256": "ed4552dc217cc24814345c1460dd4b371d147eb061637aa141cf551b15d2f701",
+    "kernel_configuration": {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000.0,
+      "eccentricity": 0.6,
+      "source_radius_rs": 1.0,
+      "radial_cycles": 8,
+      "output_samples": 1025,
+      "orientation": 1
+    },
+    "orbit_effect_applied": true,
+    "clock_effect_applied": true
+  },
+  "backend": {
+    "mode": "atlas",
+    "renderer_confirmed": true,
+    "anchor": "Earth",
+    "et": 844992069.1823514
+  },
+  "ui": {
+    "url": "http://127.0.0.1:4700/forces.html#timelike-orbits",
+    "pending": false,
+    "configuration": {
+      "scenario": "timelike-orbits",
+      "controls": {
+        "gravity": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "orbital_acceleration": true,
+            "ray_bending": true,
+            "static_clock_rate": true,
+            "primary_attraction": true,
+            "secondary_attraction": true,
+            "proper_clock_rate": true
+          }
+        },
+        "electromagnetic": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "electric_acceleration": true,
+            "magnetic_deflection": true,
+            "stellar_radiative_capture": true,
+            "cno_radiative_capture": true,
+            "fusion_radiative_capture": true
+          }
+        },
+        "strong": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "dt_fusion": true,
+            "dp_capture": true,
+            "he3_fusion": true,
+            "cno_c12_capture": true,
+            "cno_c13_capture": true,
+            "cno_n14_capture": true,
+            "cno_n15_alpha": true,
+            "fusion_dt": true,
+            "fusion_ddn": true,
+            "fusion_ddp": true,
+            "fusion_dp": true,
+            "fusion_he3he3": true,
+            "fusion_li7p": true,
+            "fusion_c12alpha": true
+          }
+        },
+        "weak": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "beta_decay": true,
+            "pp_fusion": true,
+            "electron_capture": true,
+            "cno_n13_beta": true,
+            "cno_o15_beta": true,
+            "decay_n_beta_minus_0": true,
+            "decay_t_beta_minus_0": true,
+            "decay_c14_beta_minus_0": true,
+            "decay_be7_electron_capture_0": true,
+            "decay_be7_electron_capture_1": true,
+            "decay_n13_beta_plus_0": true,
+            "decay_n13_electron_capture_0": true,
+            "decay_o15_beta_plus_0": true,
+            "decay_o15_electron_capture_0": true,
+            "decay_f18_beta_plus_0": true,
+            "decay_f18_electron_capture_0": true,
+            "decay_na22_beta_plus_0": true,
+            "decay_na22_electron_capture_0": true,
+            "decay_na22_beta_plus_1": true,
+            "decay_na22_electron_capture_1": true,
+            "decay_sr90_beta_minus_0": true,
+            "decay_y90_beta_minus_0": true,
+            "decay_y90_beta_minus_1": true,
+            "decay_y90_beta_minus_3": true
+          }
+        }
+      },
+      "parameters": {
+        "mass_solar": 10,
+        "semi_latus_rectum_rs": 1000,
+        "orbit_kind": "eccentric",
+        "eccentricity": 0.6,
+        "radial_cycles": 8,
+        "orientation": "positive"
+      }
+    },
+    "physics_sha256": "ed4552dc217cc24814345c1460dd4b371d147eb061637aa141cf551b15d2f701",
+    "configuration_sha256": "4c08935ea5e71dd07d18370860d40f2036916ddd975bc779d3aef266965e6780",
+    "view": "clocks",
+    "zoom": 1,
+    "width": 1920,
+    "height": 1080,
+    "hidden": false,
+    "playing": true,
+    "index": 612,
+    "max": 1024,
+    "reading": {
+      "index": 612,
+      "coordinate_time_s": 258.73991811922,
+      "applied_clock_time_s": 258.61874596496057,
+      "applied_lag_s": 0.12117215425945922,
+      "applied_clock_rate": 0.9996325097314495,
+      "metric_worldline_proper_time_s": 258.61874596496057,
+      "metric_worldline_clock_rate": 0.9996325097314495,
+      "gr_reference_lag_s": 0.12117215425945922,
+      "radius_m": 55997142.951567136,
+      "velocity_coordinate_m_s": [
+        4180182.636544977,
+        -1080619.5691455873,
+        0
+      ]
+    },
+    "time_s": 258.73991811922,
+    "canvas": {
+      "width": 1483,
+      "height": 538
+    },
+    "viewport": {
+      "top": 260.5,
+      "bottom": 800.5
+    },
+    "profile": {
+      "enabled": true,
+      "ticks": 6578,
+      "advances": 2200,
+      "loops": 8,
+      "last_index": 612,
+      "started_ms": 962.5,
+      "now_ms": 110591.10000000149
+    },
+    "error": false
+  },
+  "ram": {
+    "model": "retained-native-process-memory/1",
+    "processes": [
+      {
+        "pid": 356,
+        "created_filetime": 134391648684309817,
+        "observation_started_filetime": 134391649887221250,
+        "api_called": true,
+        "native_before": {
+          "created_filetime": 134391648684309817,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887221605
+        },
+        "read_started_filetime": 134391649887221710,
+        "read_finished_filetime": 134391649887221835,
+        "api_return": 1,
+        "api_error": 0,
+        "raw": {
+          "cb": 80,
+          "PageFaultCount": 17145,
+          "PeakWorkingSetSize": 39460864,
+          "WorkingSetSize": 32391168,
+          "QuotaPeakPagedPoolUsage": 673896,
+          "QuotaPagedPoolUsage": 633704,
+          "QuotaPeakNonPagedPoolUsage": 186064,
+          "QuotaNonPagedPoolUsage": 28152,
+          "PagefileUsage": 12910592,
+          "PeakPagefileUsage": 18305024,
+          "PrivateUsage": 12910592
+        },
+        "native_after": {
+          "created_filetime": 134391648684309817,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887222072
+        },
+        "observation_finished_filetime": 134391649887222106,
+        "status": "measured",
+        "working_set_bytes": 32391168,
+        "private_bytes": 12910592
+      },
+      {
+        "pid": 6788,
+        "created_filetime": 134391648647024159,
+        "observation_started_filetime": 134391649887222171,
+        "api_called": true,
+        "native_before": {
+          "created_filetime": 134391648647024159,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887222301
+        },
+        "read_started_filetime": 134391649887222343,
+        "read_finished_filetime": 134391649887222413,
+        "api_return": 1,
+        "api_error": 0,
+        "raw": {
+          "cb": 80,
+          "PageFaultCount": 1097,
+          "PeakWorkingSetSize": 4317184,
+          "WorkingSetSize": 4288512,
+          "QuotaPeakPagedPoolUsage": 29016,
+          "QuotaPagedPoolUsage": 28840,
+          "QuotaPeakNonPagedPoolUsage": 15576,
+          "QuotaNonPagedPoolUsage": 5176,
+          "PagefileUsage": 761856,
+          "PeakPagefileUsage": 819200,
+          "PrivateUsage": 761856
+        },
+        "native_after": {
+          "created_filetime": 134391648647024159,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887222563
+        },
+        "observation_finished_filetime": 134391649887222593,
+        "status": "measured",
+        "working_set_bytes": 4288512,
+        "private_bytes": 761856
+      },
+      {
+        "pid": 7956,
+        "created_filetime": 134391648683049312,
+        "observation_started_filetime": 134391649887222647,
+        "api_called": true,
+        "native_before": {
+          "created_filetime": 134391648683049312,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887222815
+        },
+        "read_started_filetime": 134391649887222853,
+        "read_finished_filetime": 134391649887222915,
+        "api_return": 1,
+        "api_error": 0,
+        "raw": {
+          "cb": 80,
+          "PageFaultCount": 4589141,
+          "PeakWorkingSetSize": 171675648,
+          "WorkingSetSize": 171491328,
+          "QuotaPeakPagedPoolUsage": 1023752,
+          "QuotaPagedPoolUsage": 1007032,
+          "QuotaPeakNonPagedPoolUsage": 51944,
+          "QuotaNonPagedPoolUsage": 33744,
+          "PagefileUsage": 221769728,
+          "PeakPagefileUsage": 244871168,
+          "PrivateUsage": 221769728
+        },
+        "native_after": {
+          "created_filetime": 134391648683049312,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887223052
+        },
+        "observation_finished_filetime": 134391649887223080,
+        "status": "measured",
+        "working_set_bytes": 171491328,
+        "private_bytes": 221769728
+      },
+      {
+        "pid": 18224,
+        "created_filetime": 134391648685345080,
+        "observation_started_filetime": 134391649887223132,
+        "api_called": true,
+        "native_before": {
+          "created_filetime": 134391648685345080,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887223270
+        },
+        "read_started_filetime": 134391649887223309,
+        "read_finished_filetime": 134391649887223375,
+        "api_return": 1,
+        "api_error": 0,
+        "raw": {
+          "cb": 80,
+          "PageFaultCount": 6469,
+          "PeakWorkingSetSize": 18808832,
+          "WorkingSetSize": 18644992,
+          "QuotaPeakPagedPoolUsage": 622792,
+          "QuotaPagedPoolUsage": 622792,
+          "QuotaPeakNonPagedPoolUsage": 15056,
+          "QuotaNonPagedPoolUsage": 14152,
+          "PagefileUsage": 7176192,
+          "PeakPagefileUsage": 8286208,
+          "PrivateUsage": 7176192
+        },
+        "native_after": {
+          "created_filetime": 134391648685345080,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887223509
+        },
+        "observation_finished_filetime": 134391649887223530,
+        "status": "measured",
+        "working_set_bytes": 18644992,
+        "private_bytes": 7176192
+      },
+      {
+        "pid": 24548,
+        "created_filetime": 134391648691638750,
+        "observation_started_filetime": 134391649887223576,
+        "api_called": true,
+        "native_before": {
+          "created_filetime": 134391648691638750,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887223695
+        },
+        "read_started_filetime": 134391649887223726,
+        "read_finished_filetime": 134391649887223786,
+        "api_return": 1,
+        "api_error": 0,
+        "raw": {
+          "cb": 80,
+          "PageFaultCount": 8169,
+          "PeakWorkingSetSize": 26255360,
+          "WorkingSetSize": 26140672,
+          "QuotaPeakPagedPoolUsage": 637992,
+          "QuotaPagedPoolUsage": 626128,
+          "QuotaPeakNonPagedPoolUsage": 17280,
+          "QuotaNonPagedPoolUsage": 16768,
+          "PagefileUsage": 11472896,
+          "PeakPagefileUsage": 11669504,
+          "PrivateUsage": 11472896
+        },
+        "native_after": {
+          "created_filetime": 134391648691638750,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887223898
+        },
+        "observation_finished_filetime": 134391649887223918,
+        "status": "measured",
+        "working_set_bytes": 26140672,
+        "private_bytes": 11472896
+      },
+      {
+        "pid": 35660,
+        "created_filetime": 134391648660110483,
+        "observation_started_filetime": 134391649887223961,
+        "api_called": true,
+        "native_before": {
+          "created_filetime": 134391648660110483,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887224190
+        },
+        "read_started_filetime": 134391649887224218,
+        "read_finished_filetime": 134391649887224264,
+        "api_return": 1,
+        "api_error": 0,
+        "raw": {
+          "cb": 80,
+          "PageFaultCount": 6878197,
+          "PeakWorkingSetSize": 1614385152,
+          "WorkingSetSize": 576823296,
+          "QuotaPeakPagedPoolUsage": 1891592,
+          "QuotaPagedPoolUsage": 1886880,
+          "QuotaPeakNonPagedPoolUsage": 3317832,
+          "QuotaNonPagedPoolUsage": 152816,
+          "PagefileUsage": 3702149120,
+          "PeakPagefileUsage": 4824186880,
+          "PrivateUsage": 3702149120
+        },
+        "native_after": {
+          "created_filetime": 134391648660110483,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887224386
+        },
+        "observation_finished_filetime": 134391649887224411,
+        "status": "measured",
+        "working_set_bytes": 576823296,
+        "private_bytes": 3702149120
+      },
+      {
+        "pid": 36704,
+        "created_filetime": 134391648692739931,
+        "observation_started_filetime": 134391649887224450,
+        "api_called": true,
+        "native_before": {
+          "created_filetime": 134391648692739931,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887224602
+        },
+        "read_started_filetime": 134391649887224642,
+        "read_finished_filetime": 134391649887224710,
+        "api_return": 1,
+        "api_error": 0,
+        "raw": {
+          "cb": 80,
+          "PageFaultCount": 81282,
+          "PeakWorkingSetSize": 113778688,
+          "WorkingSetSize": 107638784,
+          "QuotaPeakPagedPoolUsage": 812312,
+          "QuotaPagedPoolUsage": 771088,
+          "QuotaPeakNonPagedPoolUsage": 129808,
+          "QuotaNonPagedPoolUsage": 23464,
+          "PagefileUsage": 68042752,
+          "PeakPagefileUsage": 73977856,
+          "PrivateUsage": 68042752
+        },
+        "native_after": {
+          "created_filetime": 134391648692739931,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887224864
+        },
+        "observation_finished_filetime": 134391649887224891,
+        "status": "measured",
+        "working_set_bytes": 107638784,
+        "private_bytes": 68042752
+      },
+      {
+        "pid": 39328,
+        "created_filetime": 134391649883118593,
+        "observation_started_filetime": 134391649887224934,
+        "api_called": true,
+        "native_before": {
+          "created_filetime": 134391649883118593,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887225029
+        },
+        "read_started_filetime": 134391649887225051,
+        "read_finished_filetime": 134391649887225096,
+        "api_return": 1,
+        "api_error": 0,
+        "raw": {
+          "cb": 80,
+          "PageFaultCount": 19085,
+          "PeakWorkingSetSize": 57933824,
+          "WorkingSetSize": 57933824,
+          "QuotaPeakPagedPoolUsage": 1107048,
+          "QuotaPagedPoolUsage": 1106728,
+          "QuotaPeakNonPagedPoolUsage": 26368,
+          "QuotaNonPagedPoolUsage": 26168,
+          "PagefileUsage": 52019200,
+          "PeakPagefileUsage": 52019200,
+          "PrivateUsage": 52019200
+        },
+        "native_after": {
+          "created_filetime": 134391649883118593,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887225187
+        },
+        "observation_finished_filetime": 134391649887225201,
+        "status": "measured",
+        "working_set_bytes": 57933824,
+        "private_bytes": 52019200
+      },
+      {
+        "pid": 41408,
+        "created_filetime": 134391648647180022,
+        "observation_started_filetime": 134391649887225232,
+        "api_called": true,
+        "native_before": {
+          "created_filetime": 134391648647180022,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887225341
+        },
+        "read_started_filetime": 134391649887225360,
+        "read_finished_filetime": 134391649887225395,
+        "api_return": 1,
+        "api_error": 0,
+        "raw": {
+          "cb": 80,
+          "PageFaultCount": 165974,
+          "PeakWorkingSetSize": 167682048,
+          "WorkingSetSize": 145797120,
+          "QuotaPeakPagedPoolUsage": 581280,
+          "QuotaPagedPoolUsage": 580128,
+          "QuotaPeakNonPagedPoolUsage": 797408,
+          "QuotaNonPagedPoolUsage": 47592,
+          "PagefileUsage": 990277632,
+          "PeakPagefileUsage": 992833536,
+          "PrivateUsage": 990277632
+        },
+        "native_after": {
+          "created_filetime": 134391648647180022,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887225479
+        },
+        "observation_finished_filetime": 134391649887225493,
+        "status": "measured",
+        "working_set_bytes": 145797120,
+        "private_bytes": 990277632
+      }
+    ],
+    "completed_before_read": [],
+    "sum_working_set_bytes": 1141149696
+  },
+  "utc": "2026-11-14T21:23:08.724221+00:00",
+  "query_filetime": 134391541887242217,
+  "query_utc_filetime": 134391649887242217,
+  "time_basis": "PDH local FILETIME converted by LocalFileTimeToFileTime",
+  "local_to_utc_seconds": 10800.0,
+  "call_started_utc": "2026-11-14T21:23:08.724221+00:00",
+  "call_finished_utc": "2026-11-14T21:23:08.724221+00:00",
+  "raw_counter_samples": [
+    {
+      "path": "\\gpu adapter memory(luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+      "raw_api_status": 0,
+      "formatted_api_status": 0,
+      "raw_status": 0,
+      "formatted_status": 0,
+      "raw_type": 65792,
+      "formatted_type": 65792,
+      "raw_first_value": 5177778176,
+      "raw_second_value": 0,
+      "raw_multi_count": 1,
+      "raw_timestamp_filetime": 134391541887242217,
+      "formatted_bytes": 5177778176,
+      "format": 5120
+    },
+    {
+      "path": "\\gpu adapter memory(luid_0x00000000_0x0000f1f9_phys_0)\\dedicated usage",
+      "raw_api_status": 0,
+      "formatted_api_status": 0,
+      "raw_status": 0,
+      "formatted_status": 0,
+      "raw_type": 65792,
+      "formatted_type": 65792,
+      "raw_first_value": 0,
+      "raw_second_value": 0,
+      "raw_multi_count": 1,
+      "raw_timestamp_filetime": 134391541887242217,
+      "formatted_bytes": 0,
+      "format": 5120
+    },
+    {
+      "path": "\\gpu process memory(pid_35660_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+      "raw_api_status": 0,
+      "formatted_api_status": 0,
+      "raw_status": 0,
+      "formatted_status": 0,
+      "raw_type": 65792,
+      "formatted_type": 65792,
+      "raw_first_value": 3114610688,
+      "raw_second_value": 0,
+      "raw_multi_count": 1,
+      "raw_timestamp_filetime": 134391541887242217,
+      "formatted_bytes": 3114610688,
+      "format": 5120
+    },
+    {
+      "path": "\\gpu process memory(pid_35660_luid_0x00000000_0x0000d742_phys_0)\\shared usage",
+      "raw_api_status": 0,
+      "formatted_api_status": 0,
+      "raw_status": 0,
+      "formatted_status": 0,
+      "raw_type": 65792,
+      "formatted_type": 65792,
+      "raw_first_value": 31268864,
+      "raw_second_value": 0,
+      "raw_multi_count": 1,
+      "raw_timestamp_filetime": 134391541887242217,
+      "formatted_bytes": 31268864,
+      "format": 5120
+    },
+    {
+      "path": "\\gpu process memory(pid_39328_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+      "raw_api_status": 0,
+      "formatted_api_status": 0,
+      "raw_status": 0,
+      "formatted_status": 0,
+      "raw_type": 65792,
+      "formatted_type": 65792,
+      "raw_first_value": 5656576,
+      "raw_second_value": 0,
+      "raw_multi_count": 1,
+      "raw_timestamp_filetime": 134391541887242217,
+      "formatted_bytes": 5656576,
+      "format": 5120
+    },
+    {
+      "path": "\\gpu process memory(pid_39328_luid_0x00000000_0x0000d742_phys_0)\\shared usage",
+      "raw_api_status": 0,
+      "formatted_api_status": 0,
+      "raw_status": 0,
+      "formatted_status": 0,
+      "raw_type": 65792,
+      "formatted_type": 65792,
+      "raw_first_value": 348160,
+      "raw_second_value": 0,
+      "raw_multi_count": 1,
+      "raw_timestamp_filetime": 134391541887242217,
+      "formatted_bytes": 348160,
+      "format": 5120
+    },
+    {
+      "path": "\\gpu process memory(pid_7956_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+      "raw_api_status": 0,
+      "formatted_api_status": 0,
+      "raw_status": 0,
+      "formatted_status": 0,
+      "raw_type": 65792,
+      "formatted_type": 65792,
+      "raw_first_value": 86458368,
+      "raw_second_value": 0,
+      "raw_multi_count": 1,
+      "raw_timestamp_filetime": 134391541887242217,
+      "formatted_bytes": 86458368,
+      "format": 5120
+    },
+    {
+      "path": "\\gpu process memory(pid_7956_luid_0x00000000_0x0000d742_phys_0)\\shared usage",
+      "raw_api_status": 0,
+      "formatted_api_status": 0,
+      "raw_status": 0,
+      "formatted_status": 0,
+      "raw_type": 65792,
+      "formatted_type": 65792,
+      "raw_first_value": 30150656,
+      "raw_second_value": 0,
+      "raw_multi_count": 1,
+      "raw_timestamp_filetime": 134391541887242217,
+      "formatted_bytes": 30150656,
+      "format": 5120
+    }
+  ],
+  "configured_counter_paths": [
+    "\\gpu adapter memory(luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+    "\\gpu adapter memory(luid_0x00000000_0x0000f1f9_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_35660_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_35660_luid_0x00000000_0x0000d742_phys_0)\\shared usage",
+    "\\gpu process memory(pid_39328_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_39328_luid_0x00000000_0x0000d742_phys_0)\\shared usage",
+    "\\gpu process memory(pid_7956_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_7956_luid_0x00000000_0x0000d742_phys_0)\\shared usage"
+  ],
+  "counter_metadata": {
+    "\\gpu adapter memory(luid_0x00000000_0x0000d742_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Adapter Memory(luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "instance": "luid_0x00000000_0x0000d742_phys_0",
+      "pid": null,
+      "object": "GPU Adapter Memory",
+      "counter": "dedicated usage",
+      "path": "\\\\PC\\GPU Adapter Memory(luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu adapter memory(luid_0x00000000_0x0000f1f9_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Adapter Memory(luid_0x00000000_0x0000F1F9_phys_0)\\Dedicated Usage",
+      "instance": "luid_0x00000000_0x0000f1f9_phys_0",
+      "pid": null,
+      "object": "GPU Adapter Memory",
+      "counter": "dedicated usage",
+      "path": "\\\\PC\\GPU Adapter Memory(luid_0x00000000_0x0000F1F9_phys_0)\\Dedicated Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu process memory(pid_35660_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_35660_luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "instance": "pid_35660_luid_0x00000000_0x0000d742_phys_0",
+      "pid": 35660,
+      "object": "GPU Process Memory",
+      "counter": "dedicated usage",
+      "path": "\\\\PC\\GPU Process Memory(pid_35660_luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu process memory(pid_35660_luid_0x00000000_0x0000d742_phys_0)\\shared usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_35660_luid_0x00000000_0x0000D742_phys_0)\\Shared Usage",
+      "instance": "pid_35660_luid_0x00000000_0x0000d742_phys_0",
+      "pid": 35660,
+      "object": "GPU Process Memory",
+      "counter": "shared usage",
+      "path": "\\\\PC\\GPU Process Memory(pid_35660_luid_0x00000000_0x0000D742_phys_0)\\Shared Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu process memory(pid_39328_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_39328_luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "instance": "pid_39328_luid_0x00000000_0x0000d742_phys_0",
+      "pid": 39328,
+      "object": "GPU Process Memory",
+      "counter": "dedicated usage",
+      "path": "\\\\PC\\GPU Process Memory(pid_39328_luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu process memory(pid_39328_luid_0x00000000_0x0000d742_phys_0)\\shared usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_39328_luid_0x00000000_0x0000D742_phys_0)\\Shared Usage",
+      "instance": "pid_39328_luid_0x00000000_0x0000d742_phys_0",
+      "pid": 39328,
+      "object": "GPU Process Memory",
+      "counter": "shared usage",
+      "path": "\\\\PC\\GPU Process Memory(pid_39328_luid_0x00000000_0x0000D742_phys_0)\\Shared Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu process memory(pid_7956_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_7956_luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "instance": "pid_7956_luid_0x00000000_0x0000d742_phys_0",
+      "pid": 7956,
+      "object": "GPU Process Memory",
+      "counter": "dedicated usage",
+      "path": "\\\\PC\\GPU Process Memory(pid_7956_luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu process memory(pid_7956_luid_0x00000000_0x0000d742_phys_0)\\shared usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_7956_luid_0x00000000_0x0000D742_phys_0)\\Shared Usage",
+      "instance": "pid_7956_luid_0x00000000_0x0000d742_phys_0",
+      "pid": 7956,
+      "object": "GPU Process Memory",
+      "counter": "shared usage",
+      "path": "\\\\PC\\GPU Process Memory(pid_7956_luid_0x00000000_0x0000D742_phys_0)\\Shared Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    }
+  },
+  "inventory_after": {
+    "owned": [
+      {
+        "pid": 356,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391648684309817,
+        "started_unix": 1794691268.4309816,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 6788,
+        "parent": 2432,
+        "name": "python.exe",
+        "created_filetime": 134391648647024159,
+        "started_unix": 1794691264.702416,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+        "scope_root": true
+      },
+      {
+        "pid": 7956,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391648683049312,
+        "started_unix": 1794691268.3049312,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 18224,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391648685345080,
+        "started_unix": 1794691268.534508,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 24548,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391648691638750,
+        "started_unix": 1794691269.163875,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 35660,
+        "parent": 2432,
+        "name": "OpenSpace.exe",
+        "created_filetime": 134391648660110483,
+        "started_unix": 1794691266.0110483,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+        "scope_root": true
+      },
+      {
+        "pid": 36704,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391648692739931,
+        "started_unix": 1794691269.2739933,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 39328,
+        "parent": 35660,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391649883118593,
+        "started_unix": 1794691388.3118591,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648660110483
+      },
+      {
+        "pid": 41408,
+        "parent": 6788,
+        "name": "python.exe",
+        "created_filetime": 134391648647180022,
+        "started_unix": 1794691264.718002,
+        "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391648647024159
+      }
+    ],
+    "excluded_completed": [],
+    "excluded_old_parent_links": [],
+    "started_filetime": 134391649887249197,
+    "finished_filetime": 134391649887406621,
+    "generation": {
+      "id": "cosmos2:retained-native-history",
+      "version": "0.1.0",
+      "source_sha256": {
+        "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+        "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+        "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77"
+      }
+    }
+  },
+  "native_history": {
+    "records": [
+      {
+        "identity": {
+          "pid": 356,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391648684309817,
+          "started_unix": 1794691268.4309816,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391648800745194,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391648684309817,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887581011
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=utility",
+          "--utility-sub-type=network.mojom.NetworkService",
+          "--lang=en-US",
+          "--service-sandbox-type=none",
+          "--no-sandbox",
+          "--start-stack-profiler",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--field-trial-handle=2908,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=3608",
+          "--mojo-platform-channel-handle=3512",
+          "/prefetch:11"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 2012,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391649367835674,
+          "started_unix": 1794691336.7835674,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391649368028604,
+        "exit": {
+          "code": 0,
+          "exited_filetime": 134391649369294325,
+          "observed_filetime": 134391649369402201
+        },
+        "last_native": {
+          "created_filetime": 134391649367835674,
+          "exited_filetime": 134391649369294325,
+          "code": 0,
+          "wait": 0,
+          "observed_filetime": 134391649887581548
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=utility",
+          "--utility-sub-type=unzip.mojom.Unzipper",
+          "--lang=en-US",
+          "--service-sandbox-type=service",
+          "--no-sandbox",
+          "--video-capture-use-gpu-memory-buffer",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--field-trial-handle=7144,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=6876",
+          "--mojo-platform-channel-handle=6940",
+          "/prefetch:14"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 6788,
+          "parent": 2432,
+          "name": "python.exe",
+          "created_filetime": 134391648647024159,
+          "started_unix": 1794691264.702416,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+          "scope_root": true
+        },
+        "first_observed_filetime": 134391648800345369,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391648647024159,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887580659
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+          "-u",
+          "C:\\Users\\Ian\\cosmos2\\output\\c214-orbits-product0.28.2\\app\\server.py"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 7956,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391648683049312,
+          "started_unix": 1794691268.3049312,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391648800614090,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391648683049312,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887580906
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=gpu-process",
+          "--no-sandbox",
+          "--start-stack-profiler",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--gpu-preferences=WAAAAAAAAADgAgAMAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA==",
+          "--field-trial-handle=2708,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=2860",
+          "--mojo-platform-channel-handle=2704",
+          "/prefetch:2"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 11068,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391649500817367,
+          "started_unix": 1794691350.0817368,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391649501189710,
+        "exit": {
+          "code": 0,
+          "exited_filetime": 134391649502429931,
+          "observed_filetime": 134391649502552621
+        },
+        "last_native": {
+          "created_filetime": 134391649500817367,
+          "exited_filetime": 134391649502429931,
+          "code": 0,
+          "wait": 0,
+          "observed_filetime": 134391649887581803
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=utility",
+          "--utility-sub-type=unzip.mojom.Unzipper",
+          "--lang=en-US",
+          "--service-sandbox-type=service",
+          "--no-sandbox",
+          "--video-capture-use-gpu-memory-buffer",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--field-trial-handle=7028,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=756",
+          "--mojo-platform-channel-handle=7056",
+          "/prefetch:14"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 18224,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391648685345080,
+          "started_unix": 1794691268.534508,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391648800894634,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391648685345080,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887581117
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=utility",
+          "--utility-sub-type=storage.mojom.StorageService",
+          "--lang=en-US",
+          "--service-sandbox-type=service",
+          "--no-sandbox",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--field-trial-handle=3040,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=3648",
+          "--mojo-platform-channel-handle=3640",
+          "/prefetch:13"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 24548,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391648691638750,
+          "started_unix": 1794691269.163875,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391648801041975,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391648691638750,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887581221
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=renderer",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--no-sandbox",
+          "--autoplay-policy=no-user-gesture-required",
+          "--remote-debugging-port=8088",
+          "--video-capture-use-gpu-memory-buffer",
+          "--lang=en-US",
+          "--device-scale-factor=1",
+          "--num-raster-threads=4",
+          "--enable-main-frame-before-activation",
+          "--renderer-client-id=6",
+          "--time-ticks-at-unix-epoch=-1794648307290796",
+          "--launch-time-ticks=42961871034",
+          "--field-trial-handle=4020,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=4024",
+          "--mojo-platform-channel-handle=4016",
+          "/prefetch:1"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 26472,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391649412249883,
+          "started_unix": 1794691341.2249885,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391649412487235,
+        "exit": {
+          "code": 0,
+          "exited_filetime": 134391649413976600,
+          "observed_filetime": 134391649414229646
+        },
+        "last_native": {
+          "created_filetime": 134391649412249883,
+          "exited_filetime": 134391649413976600,
+          "code": 0,
+          "wait": 0,
+          "observed_filetime": 134391649887581676
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=utility",
+          "--utility-sub-type=unzip.mojom.Unzipper",
+          "--lang=en-US",
+          "--service-sandbox-type=service",
+          "--no-sandbox",
+          "--video-capture-use-gpu-memory-buffer",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--field-trial-handle=5384,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=7156",
+          "--mojo-platform-channel-handle=7084",
+          "/prefetch:14"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 29612,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391649806251580,
+          "started_unix": 1794691380.625158,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391649806676369,
+        "exit": {
+          "code": 0,
+          "exited_filetime": 134391649807600948,
+          "observed_filetime": 134391649807746084
+        },
+        "last_native": {
+          "created_filetime": 134391649806251580,
+          "exited_filetime": 134391649807600948,
+          "code": 0,
+          "wait": 0,
+          "observed_filetime": 134391649887582056
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=utility",
+          "--utility-sub-type=unzip.mojom.Unzipper",
+          "--lang=en-US",
+          "--service-sandbox-type=service",
+          "--no-sandbox",
+          "--video-capture-use-gpu-memory-buffer",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--field-trial-handle=7044,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=6940",
+          "--mojo-platform-channel-handle=7016",
+          "/prefetch:14"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 31284,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391649632190034,
+          "started_unix": 1794691363.2190034,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391649632416367,
+        "exit": {
+          "code": 0,
+          "exited_filetime": 134391649633572022,
+          "observed_filetime": 134391649633837377
+        },
+        "last_native": {
+          "created_filetime": 134391649632190034,
+          "exited_filetime": 134391649633572022,
+          "code": 0,
+          "wait": 0,
+          "observed_filetime": 134391649887581932
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=utility",
+          "--utility-sub-type=unzip.mojom.Unzipper",
+          "--lang=en-US",
+          "--service-sandbox-type=service",
+          "--no-sandbox",
+          "--video-capture-use-gpu-memory-buffer",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--field-trial-handle=7040,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=7020",
+          "--mojo-platform-channel-handle=1960",
+          "/prefetch:14"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 35660,
+          "parent": 2432,
+          "name": "OpenSpace.exe",
+          "created_filetime": 134391648660110483,
+          "started_unix": 1794691266.0110483,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+          "scope_root": true
+        },
+        "first_observed_filetime": 134391648800489133,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391648660110483,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887580797
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+          "--file",
+          "cosmos2.cfg",
+          "--bypassLauncher"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 36704,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391648692739931,
+          "started_unix": 1794691269.2739933,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391648801204284,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391648692739931,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887581327
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=renderer",
+          "--start-stack-profiler",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--no-sandbox",
+          "--autoplay-policy=no-user-gesture-required",
+          "--remote-debugging-port=8088",
+          "--video-capture-use-gpu-memory-buffer",
+          "--lang=en-US",
+          "--device-scale-factor=1",
+          "--num-raster-threads=4",
+          "--enable-main-frame-before-activation",
+          "--renderer-client-id=5",
+          "--time-ticks-at-unix-epoch=-1794648307290796",
+          "--launch-time-ticks=42961981370",
+          "--field-trial-handle=4032,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=4268",
+          "--mojo-platform-channel-handle=4272",
+          "/prefetch:1"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 39328,
+          "parent": 35660,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391649883118593,
+          "started_unix": 1794691388.3118591,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648660110483
+        },
+        "first_observed_filetime": 134391649883298910,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391649883118593,
+          "exited_filetime": 134391649887511768,
+          "code": 0,
+          "wait": 258,
+          "observed_filetime": 134391649887582161
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=gpu-process",
+          "--disable-gpu-sandbox",
+          "--use-gl=disabled",
+          "--gpu-vendor-id=4098",
+          "--gpu-device-id=29824",
+          "--gpu-sub-system-id=1393760329",
+          "--gpu-revision=207",
+          "--gpu-driver-version=32.0.32015.7029",
+          "--no-sandbox",
+          "--start-stack-profiler",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--gpu-preferences=WAAAAAAAAADoAgAMAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA==",
+          "--field-trial-handle=7004,i,7920026482378636178,8664359967829515498,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=7072",
+          "--mojo-platform-channel-handle=7036",
+          "/prefetch:10"
+        ],
+        "first_terminating_native": {
+          "created_filetime": 134391649883118593,
+          "exited_filetime": 134391649887511768,
+          "code": 0,
+          "wait": 258,
+          "observed_filetime": 134391649887579002
+        }
+      },
+      {
+        "identity": {
+          "pid": 41408,
+          "parent": 6788,
+          "name": "python.exe",
+          "created_filetime": 134391648647180022,
+          "started_unix": 1794691264.718002,
+          "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391648647024159
+        },
+        "first_observed_filetime": 134391648801314791,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391648647180022,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391649887581435
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "-u",
+          "C:\\Users\\Ian\\cosmos2\\output\\c214-orbits-product0.28.2\\app\\server.py"
+        ]
+      }
+    ],
+    "polls": 3645,
+    "maximum_poll_gap_s": 0.14396719999786,
+    "source_sha256": {
+      "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+      "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+      "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77"
+    }
+  },
+  "counter_paths_after": [
+    "\\gpu adapter memory(luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+    "\\gpu adapter memory(luid_0x00000000_0x0000f1f9_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_35660_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_35660_luid_0x00000000_0x0000d742_phys_0)\\shared usage",
+    "\\gpu process memory(pid_7956_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_7956_luid_0x00000000_0x0000d742_phys_0)\\shared usage"
+  ],
+  "products": [
+    {
+      "pid": 35660,
+      "instance": "pid_35660_luid_0x00000000_0x0000d742_phys_0",
+      "counter": "dedicated usage",
+      "bytes": 3114610688
+    },
+    {
+      "pid": 35660,
+      "instance": "pid_35660_luid_0x00000000_0x0000d742_phys_0",
+      "counter": "shared usage",
+      "bytes": 31268864
+    },
+    {
+      "pid": 39328,
+      "instance": "pid_39328_luid_0x00000000_0x0000d742_phys_0",
+      "counter": "dedicated usage",
+      "bytes": 5656576
+    },
+    {
+      "pid": 39328,
+      "instance": "pid_39328_luid_0x00000000_0x0000d742_phys_0",
+      "counter": "shared usage",
+      "bytes": 348160
+    },
+    {
+      "pid": 7956,
+      "instance": "pid_7956_luid_0x00000000_0x0000d742_phys_0",
+      "counter": "dedicated usage",
+      "bytes": 86458368
+    },
+    {
+      "pid": 7956,
+      "instance": "pid_7956_luid_0x00000000_0x0000d742_phys_0",
+      "counter": "shared usage",
+      "bytes": 30150656
+    }
+  ],
+  "adapters": [
+    {
+      "pid": null,
+      "instance": "luid_0x00000000_0x0000d742_phys_0",
+      "counter": "dedicated usage",
+      "bytes": 5177778176
+    },
+    {
+      "pid": null,
+      "instance": "luid_0x00000000_0x0000f1f9_phys_0",
+      "counter": "dedicated usage",
+      "bytes": 0
+    }
+  ],
+  "product_dedicated_sum_bytes": 3206725632,
+  "product_dedicated_plus_shared_sum_bytes": 3268493312,
+  "owned_without_exposed_gpu_counter": [
+    356,
+    2012,
+    6788,
+    11068,
+    18224,
+    24548,
+    26472,
+    29612,
+    31284,
+    36704,
+    41408
+  ],
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\collect_c214_orbits_residency.py\", line 157, in main\n    contract.gpu_row(row, session)\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\expanded_residency_contract_v4.py\", line 147, in gpu_row\n    require(configured == row['counter_paths_after'], 'GPU paths changed within a sample')\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\expanded_residency_contract_v4.py\", line 29, in require\n    raise ValueError(message)\nValueError: GPU paths changed within a sample\n"
+}

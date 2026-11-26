@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "id": "branch:66b6e6c958bc4b54ae4984a40e79ebbd",
+  "name": "Fase4 comum aos instrumentos",
+  "parent_id": null,
+  "parent_sha256": null,
+  "created_utc": "2026-11-13T12:11:05.306806+00:00",
+  "checkpoint_manifest_sha256": "a080df48bceaa00cf3a95936b30fbd89de446513e0b617f1ccbfb8fba70d5b58",
+  "system_id": "fe941811a69742f4997c8944f826ac75",
+  "time": 0.0,
+  "revision": 0,
+  "fixture_sha256": "0c5d6cb7d6bbc6aa3bbafecaca11011ab05020fadbfa8b95c696d593f34af5a9",
+  "frame": "initial_subset_barycenter_inertial_axes_J2000",
+  "record_sha256": "1d8b85b338a1f44484fd53c4eecc40c26687b922ce8b80e1517aa9374d4863d8"
+}

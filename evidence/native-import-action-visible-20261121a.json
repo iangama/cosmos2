@@ -1,0 +1,246 @@
+{
+  "accepted": true,
+  "completed": true,
+  "session": {
+    "app": 39904,
+    "server": 32628,
+    "launcher": 37000,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.6-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.6\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.6\\gravity-sessions",
+    "started": "2026-11-21T08:59:44Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.6",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "observed": {
+    "text": "Importar como novo ramo",
+    "enabled": true,
+    "full_button_inside_panel": true,
+    "focused": true
+  },
+  "capture": {
+    "path": "C:\\Users\\Ian\\cosmos2\\output\\native-reference-import-20261121a\\layers-import-button-150-fully-visible.png",
+    "size": [
+      1440,
+      900
+    ],
+    "method": "Unedited Windows client-area capture",
+    "sha256": "ed942e4e1554536699fbcf238a6ad0631fb0f987d621e8aeaab28873e1f7f1d3"
+  },
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1.5\"][aria-disabled=\"false\"]",
+      "x": 1321,
+      "y": 806
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-layers",
+      "x": 929,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-preview"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-preview"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-preview"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-preview"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-preview"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-preview"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-preview",
+      "x": 278,
+      "y": 709
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-name"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-name"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-name"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-name",
+      "x": 278,
+      "y": 657
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 34
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 9,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 15,
+      "extended": false
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-cancel"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-cancel",
+      "x": 278,
+      "y": 666
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-panel-close",
+      "x": 450,
+      "y": 224
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1141,
+      "y": 824
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1\"][aria-disabled=\"false\"]",
+      "x": 1264,
+      "y": 674
+    }
+  ],
+  "script_sha256": "1f25fce976182791d2b22f8dcd73b8a048df8725c7f0539857352fe6b51b0c1a",
+  "scope": "Supplementary native150% visual/keyboard check: Tab from the name field scrolls the complete enabled Import button into view. Preview cancelled, no duplicate branch created. Does not claim import commit at150%; actual commit was tested separately at100%."
+}

@@ -1,0 +1,101 @@
+{
+  "session": {
+    "app": 13068,
+    "server": 952,
+    "launcher": 6896,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.2-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.2\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.2\\gravity-sessions",
+    "started": "2026-11-21T01:02:02Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.2",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\option-popup-before-20261120a\\types.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "f970718e00d14e7ca6eb720a63df308ae9726366b6f2f26c607d8c6ad996af16",
+      "selector": "#type-filter"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\option-popup-before-20261120a\\scale.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "e78c7eae76538192f647f1ba9ea67115ea3cf27ca7efbf007db942a48a0a9bb1",
+      "selector": "#ui-scale"
+    }
+  ],
+  "actions": [
+    {
+      "input": "Windows keyboard",
+      "key": 27,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 1,
+      "extended": false
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#type-filter",
+      "x": 178,
+      "y": 363
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 27,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 1,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 27,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 1,
+      "extended": false
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 27,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 1,
+      "extended": false
+    }
+  ],
+  "native_selection_accepted": false,
+  "manifest_sha256": "5a7b5d3241278e699c1d6daab23f8685139931d3d8b3227b1bec5cb43f6b01f0",
+  "scope": "Original shortcut opened the app. Genuine Windows mouse opens native selects; client-area captures do not refocus/restore the window. Read-only DOM and native source inspection are supplementary. Visual review determines the popup defect.",
+  "script_sha256": "f675e74d8db946754d11e3d9e4979ad3d77bdf10897595c6e07811fd364962f7"
+}

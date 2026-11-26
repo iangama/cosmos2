@@ -1,0 +1,19 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checks": [
+    "five equal valid snapshots before admission",
+    "transient refusal resets the consecutive count and is retained",
+    "identity change restarts the count",
+    "persistent native refusal reaches deadline without admission",
+    "structural failure propagates immediately",
+    "late inventory cannot pass the deadline",
+    "changed source generation is not retried"
+  ],
+  "native_calls": 0,
+  "source_sha256": {
+    "scripts/verify-owned-process-preparation.py": "5c81f44e2fc92a11850a299891ac88ba8c7d8899cbaa3c23ef08fe4b8cb68df1",
+    "scripts/owned_process_preparation.py": "8861e55c157baaf382b22ad443f7dc19d9aa6506c756b5fefab77f2ccee327f5",
+    "IS-6-IMPORTACAO-ESPACIAL-PREPARACAO-V4.md": "c95d01d18c211c6bc477e3d74785924f4c8f202a9d6ac93270025af14d1d78d2"
+  }
+}

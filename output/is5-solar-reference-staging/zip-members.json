@@ -1,0 +1,126 @@
+[
+  {
+    "name": "SolarModels/",
+    "bytes": 0
+  },
+  {
+    "name": "SolarModels/Cs_obs.dat",
+    "bytes": 2652
+  },
+  {
+    "name": "SolarModels/fluxes_SF3_AAG21.dat",
+    "bytes": 1112
+  },
+  {
+    "name": "SolarModels/fluxes_SF3_AGSS09.dat",
+    "bytes": 1104
+  },
+  {
+    "name": "SolarModels/fluxes_SF3_C11.dat",
+    "bytes": 1095
+  },
+  {
+    "name": "SolarModels/fluxes_SF3_GS98.dat",
+    "bytes": 1099
+  },
+  {
+    "name": "SolarModels/fluxes_SF3_MB22m.dat",
+    "bytes": 1103
+  },
+  {
+    "name": "SolarModels/fluxes_SF3_MB22p.dat",
+    "bytes": 1116
+  },
+  {
+    "name": "SolarModels/struct+nu_SF3_AAG21.dat",
+    "bytes": 1515506
+  },
+  {
+    "name": "SolarModels/struct+nu_SF3_AGSS09.dat",
+    "bytes": 1515506
+  },
+  {
+    "name": "SolarModels/struct+nu_SF3_C11.dat",
+    "bytes": 1515506
+  },
+  {
+    "name": "SolarModels/struct+nu_SF3_GS98.dat",
+    "bytes": 1515506
+  },
+  {
+    "name": "SolarModels/struct+nu_SF3_MB22m.dat",
+    "bytes": 1515506
+  },
+  {
+    "name": "SolarModels/struct+nu_SF3_MB22p.dat",
+    "bytes": 1515506
+  },
+  {
+    "name": "PLD/",
+    "bytes": 0
+  },
+  {
+    "name": "PLD/dlnc_dlnz_aag21.dat",
+    "bytes": 253339
+  },
+  {
+    "name": "PLD/dlnc_dlnz_agss09.dat",
+    "bytes": 253340
+  },
+  {
+    "name": "PLD/dlnc_dlnz_c11.dat",
+    "bytes": 253337
+  },
+  {
+    "name": "PLD/dlnc_dlnz_gs98.dat",
+    "bytes": 253338
+  },
+  {
+    "name": "PLD/dlnc_dlnz_mb22.txt",
+    "bytes": 188394
+  },
+  {
+    "name": "PLD/dlnc_dlnz_mb22m.dat",
+    "bytes": 253339
+  },
+  {
+    "name": "PLD/dlnc_dlnz_mb22p.dat",
+    "bytes": 253339
+  },
+  {
+    "name": "PLD/pwrlaws_SF3_aag21.dat",
+    "bytes": 2353
+  },
+  {
+    "name": "PLD/pwrlaws_SF3_agss09.dat",
+    "bytes": 2215
+  },
+  {
+    "name": "PLD/pwrlaws_SF3_c11.dat",
+    "bytes": 2351
+  },
+  {
+    "name": "PLD/pwrlaws_SF3_gs98.dat",
+    "bytes": 2215
+  },
+  {
+    "name": "PLD/pwrlaws_SF3_mb22.dat",
+    "bytes": 2351
+  },
+  {
+    "name": "ReadMe.md",
+    "bytes": 4045
+  },
+  {
+    "name": "ReadMe.pdf",
+    "bytes": 44982
+  },
+  {
+    "name": "SSM-variations.ipynb",
+    "bytes": 320860
+  },
+  {
+    "name": "SSM-variations.R",
+    "bytes": 12577
+  }
+]

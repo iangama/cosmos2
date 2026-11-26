@@ -1,0 +1,8 @@
+{
+  "prepared": true,
+  "executed": false,
+  "local_only": true,
+  "base_sha256": "94736fe8c56cb44506aa2fb5e15afe1db8781934be4add43a8ec7be1fd1c5b2f",
+  "target_sha256": "bd3738dc99b38d11485466651480d075978342ea4c1afaf83af01af470a400d9",
+  "scope": "Partial expanded-journey source/evidence snapshot. Excludes runtimes, full capsules, personal sessions and live nuclear _work inputs."
+}

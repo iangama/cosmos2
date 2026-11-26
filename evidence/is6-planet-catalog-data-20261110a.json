@@ -1,0 +1,163 @@
+{
+  "accepted": true,
+  "completed": true,
+  "sources": {
+    "output/is6-planet-catalog-acquisition-20261110a/mar099s.bsp": "997dc93ba640e476da7a494d2237dcdeb145e528db37be8ccee588c615e4e1ff",
+    "output/is6-planet-catalog-acquisition-20261110a/ura182.bsp": "fd3275d760a8d7e9a7d58c1894196495fb41967d2507d0a986666a927fe88706",
+    "output/is6-planet-catalog-acquisition-20261110a/nep097.bsp": "5c1132fdc48c54e5d2e4eb663e1ed1a876911eae9433c203f29a5a1b5e1fa9b1"
+  },
+  "centers": [
+    {
+      "target": 499,
+      "center": 4,
+      "source": "output/is6-planet-catalog-acquisition-20261110a/mar099s.bsp",
+      "file": "output/is6-planet-catalog-data-20261110a/center-499.bsp",
+      "sha256": "83d55340bf5eaf3a8407bfd0b1225d2cde93dbce41bab3ee1c0d72cf29b1de25",
+      "bytes": 16719872,
+      "segments": [
+        {
+          "target": 499,
+          "center": 4,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "MAR099.01",
+          "source_et": [
+            -157809600.0,
+            1577880000.0
+          ],
+          "subset_et": [
+            -157809538.81607857,
+            1577793668.1838844
+          ]
+        }
+      ],
+      "coverage_et_s": [
+        [
+          -157809538.81607857,
+          1577793668.1838844
+        ]
+      ],
+      "comments": {
+        "path": "output/is6-planet-catalog-data-20261110a/center-499.comments.txt",
+        "sha256": "321e92c9f23fed65cea7b36de7cf2d9f4c9946aad37b790b8957f378367161e7"
+      },
+      "comparison_epochs": 203,
+      "relative_states_bit_identical": true,
+      "old_DE442s_states_bit_identical": true,
+      "chain_difference_SI": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": 799,
+      "center": 7,
+      "source": "output/is6-planet-catalog-acquisition-20261110a/ura182.bsp",
+      "file": "output/is6-planet-catalog-data-20261110a/center-799.bsp",
+      "sha256": "b644c5b52ab4d8e0bbe61318572c4b6beb57e51a4c93800c0436a9cf84353d8e",
+      "bytes": 2016256,
+      "segments": [
+        {
+          "target": 799,
+          "center": 7,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "URA182.21",
+          "source_et": [
+            -455025600.0,
+            20512180800.0
+          ],
+          "subset_et": [
+            -157809538.81607857,
+            1577793668.1838844
+          ]
+        }
+      ],
+      "coverage_et_s": [
+        [
+          -157809538.81607857,
+          1577793668.1838844
+        ]
+      ],
+      "comments": {
+        "path": "output/is6-planet-catalog-data-20261110a/center-799.comments.txt",
+        "sha256": "3b15fa449378dfcf4e42cec467d57f3c6e6776e70ee7544fd1233ad447364f8b"
+      },
+      "comparison_epochs": 203,
+      "relative_states_bit_identical": true,
+      "old_DE442s_states_bit_identical": true,
+      "chain_difference_SI": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": 899,
+      "center": 8,
+      "source": "output/is6-planet-catalog-acquisition-20261110a/nep097.bsp",
+      "file": "output/is6-planet-catalog-data-20261110a/center-899.bsp",
+      "sha256": "a324ee0222f45a4d6791aae324ca04733b1762f4181c8743e2b49aee3e09eebe",
+      "bytes": 709632,
+      "segments": [
+        {
+          "target": 899,
+          "center": 8,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "NEP097",
+          "source_et": [
+            -320932800.0,
+            12622651200.0
+          ],
+          "subset_et": [
+            -157809538.81607857,
+            1577793668.1838844
+          ]
+        }
+      ],
+      "coverage_et_s": [
+        [
+          -157809538.81607857,
+          1577793668.1838844
+        ]
+      ],
+      "comments": {
+        "path": "output/is6-planet-catalog-data-20261110a/center-899.comments.txt",
+        "sha256": "837c43489c9f72786644120d71428b1f177c6e41b849003ec3c64893100f642f"
+      },
+      "comparison_epochs": 203,
+      "relative_states_bit_identical": true,
+      "old_DE442s_states_bit_identical": true,
+      "chain_difference_SI": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "created_utc": "2026-11-11T01:16:43.716462+00:00",
+  "script_sha256": "0b1609805c7b2eee18d5d59e1fea841705bc65f13af6f62363ac9f93e9e3e71a",
+  "acquisition_sha256": "2a646d22f41c19c9421b271fe4f89e5fbce3dc3323a6eb85d591843c4f0def66",
+  "application_utc": [
+    "1995-01-01T00:00:00",
+    "2049-12-30T23:59:59"
+  ],
+  "comparison_uniform_epochs": 201,
+  "contract_sha256": "9a0db9f932e7c495d7e044ef6120e44cd5686c62a9c4768a8502ab2c6e61fcb0",
+  "base_sha256": {
+    "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+    "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+    "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1"
+  }
+}

@@ -1,0 +1,17 @@
+.c2-choice{position:relative;display:inline-grid;grid-template-columns:minmax(0,1fr);max-width:100%;min-width:0;vertical-align:middle;pointer-events:auto}
+.field>.c2-choice,.catalog-filters>.c2-choice{display:grid;width:100%}
+.c2-choice>select.c2-choice-source{grid-area:1/1;opacity:0!important;pointer-events:none!important;min-width:0}
+.c2-choice>.c2-choice-trigger{grid-area:1/1;display:flex;align-items:center;justify-content:space-between;min-width:0;max-width:100%;cursor:pointer;user-select:none;pointer-events:auto;box-sizing:border-box}
+.c2-choice-caption{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.c2-choice-arrow{flex:none;color:#a9dce0;font-size:.85em}
+.c2-choice-trigger[aria-disabled=true]{opacity:.45;cursor:default}
+.c2-choice-trigger:focus-visible,.c2-choice-trigger[aria-expanded=true]{outline:2px solid #83d5de;outline-offset:2px}
+.c2-options-portal{position:fixed;inset:0;width:100vw;height:100vh;margin:0;padding:0;border:0;max-width:none;max-height:none;background:rgba(0,0,0,.06);color:#e4f2f6;pointer-events:auto;z-index:2147483647;font-family:'Segoe UI',sans-serif}
+.c2-options-portal[hidden]{display:none!important}
+.c2-options-list{position:absolute;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;border:1px solid #6095a7;border-radius:8px;padding:5px;background:#102331;box-shadow:0 8px 30px #0009;pointer-events:auto;box-sizing:border-box}
+.c2-choice-option{display:flex;align-items:center;gap:9px;min-height:var(--choice-row-height,38px);padding:8px 10px;line-height:1.4;border-radius:4px;cursor:pointer;overflow-wrap:anywhere;box-sizing:border-box;pointer-events:auto}
+.c2-choice-option[aria-selected=true]{color:#acf2e9;background:#1c3e49}
+.c2-choice-option.c2-option-active{outline:1px solid #83d5de;outline-offset:-1px;background:#294957}
+.c2-choice-option[aria-disabled=true]{opacity:.4;cursor:default;outline:none}
+.c2-choice-mark{width:17px;flex:none;font-weight:700}
+.c2-option-group,.c2-choice-empty{padding:10px;color:#9bb7c6;font-size:.9em}

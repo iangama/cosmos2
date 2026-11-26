@@ -1,0 +1,178 @@
+{
+  "accepted": true,
+  "completed": true,
+  "runs": [
+    {
+      "index": 1,
+      "target": "Mercury",
+      "frames": 4518,
+      "median_ms": 13.290749862790108,
+      "p95_ms": 14.45647496730089,
+      "p99_ms": 14.953981302678585,
+      "over_100ms": 0,
+      "interval_s": 60.25999959604815,
+      "GPU_peak_GiB": 3.0372848510742188
+    },
+    {
+      "index": 2,
+      "target": "Venus",
+      "frames": 4522,
+      "median_ms": 13.29949963837862,
+      "p95_ms": 14.485460380092263,
+      "p99_ms": 15.03905882127583,
+      "over_100ms": 0,
+      "interval_s": 60.313437613192946,
+      "GPU_peak_GiB": 3.0370407104492188
+    },
+    {
+      "index": 3,
+      "target": "Earth",
+      "frames": 4518,
+      "median_ms": 13.293699827045202,
+      "p95_ms": 14.425144996494055,
+      "p99_ms": 14.936265954747796,
+      "over_100ms": 0,
+      "interval_s": 60.26074409671128,
+      "GPU_peak_GiB": 3.0370407104492188
+    },
+    {
+      "index": 4,
+      "target": "Moon",
+      "frames": 4518,
+      "median_ms": 13.292600400745869,
+      "p95_ms": 14.42625536583364,
+      "p99_ms": 14.982462227344513,
+      "over_100ms": 0,
+      "interval_s": 60.258667604997754,
+      "GPU_peak_GiB": 3.0372848510742188
+    },
+    {
+      "index": 5,
+      "target": "Mars",
+      "frames": 4519,
+      "median_ms": 13.301500119268894,
+      "p95_ms": 14.439930394291878,
+      "p99_ms": 14.959309734404087,
+      "over_100ms": 0,
+      "interval_s": 60.27498659072444,
+      "GPU_peak_GiB": 3.0370407104492188
+    },
+    {
+      "index": 6,
+      "target": "Jupiter",
+      "frames": 4518,
+      "median_ms": 13.295149896293879,
+      "p95_ms": 14.372019935399292,
+      "p99_ms": 14.940821873024106,
+      "over_100ms": 0,
+      "interval_s": 60.26013859268278,
+      "GPU_peak_GiB": 3.0370407104492188
+    },
+    {
+      "index": 7,
+      "target": "Saturn",
+      "frames": 4528,
+      "median_ms": 13.2985501550138,
+      "p95_ms": 14.400725299492477,
+      "p99_ms": 14.947676071897147,
+      "over_100ms": 0,
+      "interval_s": 60.394017403479666,
+      "GPU_peak_GiB": 3.0407028198242188
+    },
+    {
+      "index": 8,
+      "target": "Uranus",
+      "frames": 4520,
+      "median_ms": 13.296450022608042,
+      "p95_ms": 14.403804577887058,
+      "p99_ms": 14.982134271413097,
+      "over_100ms": 0,
+      "interval_s": 60.287176478654146,
+      "GPU_peak_GiB": 3.0370407104492188
+    },
+    {
+      "index": 9,
+      "target": "Neptune",
+      "frames": 4518,
+      "median_ms": 13.294099830091,
+      "p95_ms": 14.395900070667267,
+      "p99_ms": 14.970629597082732,
+      "over_100ms": 0,
+      "interval_s": 60.26094889966771,
+      "GPU_peak_GiB": 3.0370407104492188
+    },
+    {
+      "index": 10,
+      "target": "Io",
+      "frames": 4519,
+      "median_ms": 13.29679973423481,
+      "p95_ms": 14.398459810763597,
+      "p99_ms": 14.94812835007906,
+      "over_100ms": 0,
+      "interval_s": 60.273831291589886,
+      "GPU_peak_GiB": 3.0370407104492188
+    },
+    {
+      "index": 11,
+      "target": "Europa",
+      "frames": 4521,
+      "median_ms": 13.33869993686676,
+      "p95_ms": 14.473499730229378,
+      "p99_ms": 14.753859676420689,
+      "over_100ms": 0,
+      "interval_s": 60.30064479680732,
+      "GPU_peak_GiB": 3.0377731323242188
+    },
+    {
+      "index": 12,
+      "target": "Ganymede",
+      "frames": 4517,
+      "median_ms": 13.340899720788002,
+      "p95_ms": 14.488599821925163,
+      "p99_ms": 14.769572354853153,
+      "over_100ms": 0,
+      "interval_s": 60.24601985840127,
+      "GPU_peak_GiB": 3.0372848510742188
+    },
+    {
+      "index": 13,
+      "target": "Callisto",
+      "frames": 4517,
+      "median_ms": 13.339700177311897,
+      "p95_ms": 14.450739882886408,
+      "p99_ms": 14.748220406472683,
+      "over_100ms": 0,
+      "interval_s": 60.24600597843528,
+      "GPU_peak_GiB": 3.0370407104492188
+    },
+    {
+      "index": 14,
+      "target": "Enceladus",
+      "frames": 4522,
+      "median_ms": 13.341949786990881,
+      "p95_ms": 14.467289904132485,
+      "p99_ms": 14.759573321789503,
+      "over_100ms": 0,
+      "interval_s": 60.31350783025846,
+      "GPU_peak_GiB": 3.0372848510742188
+    },
+    {
+      "index": 15,
+      "target": "Titan",
+      "frames": 4523,
+      "median_ms": 13.338900171220303,
+      "p95_ms": 14.458900317549706,
+      "p99_ms": 14.71175828948617,
+      "over_100ms": 0,
+      "interval_s": 60.327212103875354,
+      "GPU_peak_GiB": 3.0370407104492188
+    }
+  ],
+  "source": "evidence/is6-principal-moons-navigation-profile-20261111a.json",
+  "source_sha256": "fbe1ea270e755253481f2d1975e058cbb772bcbf1ef89ac192c2c1636e42c072",
+  "auditor_sha256": "8ae633fe0e055cdd09abd985379ce470f28a491d5aace6571b89bbc12e252934",
+  "frames": 67798,
+  "RAM_peak_GiB": 1.6025810241699219,
+  "GPU_peak_GiB": 3.0407028198242188,
+  "scope": "One cached static overview per destination; attached app remains open. Own profile only, no cold startup, K5 transfer, promotion or complete IS6 acceptance."
+}

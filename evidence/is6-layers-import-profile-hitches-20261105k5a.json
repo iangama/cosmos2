@@ -1,0 +1,63 @@
+{
+  "completed": true,
+  "profile": "evidence/is6-layers-import-profile-20261105k5a.json",
+  "profile_sha256": "d2fd19e12dce9779655350ca795449c77ed5d814ba2d4301356b36fa813a6d3c",
+  "accepted_profile": false,
+  "windows": [
+    {
+      "run": 1,
+      "body": "399",
+      "kind": "static",
+      "frames": 4515,
+      "median_ms": 13.331799767911434,
+      "p95_ms": 13.783229887485504,
+      "p99_ms": 14.149920344352722,
+      "max_ms": 19.35419999063015,
+      "over_100ms": 0,
+      "hitches": []
+    },
+    {
+      "run": 2,
+      "body": "599",
+      "kind": "static",
+      "frames": 4473,
+      "median_ms": 13.330399990081787,
+      "p95_ms": 13.821600005030632,
+      "p99_ms": 14.227036200463768,
+      "max_ms": 580.5686116218567,
+      "over_100ms": 1,
+      "hitches": [
+        {
+          "measured_frame": 1264,
+          "duration_ms": 580.5686116218567,
+          "preceding_duration_s": 16.845730987144634
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "body": "399",
+      "kind": "visibility",
+      "frames": 4514,
+      "median_ms": 13.320949859917164,
+      "p95_ms": 13.86257535777986,
+      "p99_ms": 14.25397322513163,
+      "max_ms": 19.684400409460068,
+      "over_100ms": 0,
+      "hitches": []
+    },
+    {
+      "run": 4,
+      "body": "599",
+      "kind": "visibility",
+      "frames": 4513,
+      "median_ms": 13.319999910891056,
+      "p95_ms": 13.864899799227713,
+      "p99_ms": 14.229228347539902,
+      "max_ms": 19.272999837994576,
+      "over_100ms": 0,
+      "hitches": []
+    }
+  ],
+  "scope": "Descriptive raw-frame diagnosis only; no thresholds changed, discarded frames or partial acceptance. Cause not established."
+}

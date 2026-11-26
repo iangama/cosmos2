@@ -1,0 +1,38 @@
+{
+  "accepted": true,
+  "completed": true,
+  "created_utc": "2026-11-26T16:57:55.340194+00:00",
+  "old_local_head": "8fb3527ab8f5b1899643deddb1e6b938374aee7a",
+  "old_git_backup": "/mnt/c/Users/Ian/.cosmos2-git-history-before-republish-20261126",
+  "old_inventory_files": 14341,
+  "old_inventory_all_hashes_valid": true,
+  "source_selected_files_identical": 14338,
+  "source_historical_text_updates": [
+    "PASSAGEM-CURADORIA-20261120.txt",
+    "output/continuity-checkpoint-20261120-selecao-final.txt",
+    "output/original-flow-hotfix-review-20261120a/backup-paths.txt"
+  ],
+  "current_candidate": "0.29.0",
+  "current_candidate_manifest_files": 274,
+  "updates_and_additions": [
+    ".gitattributes",
+    ".githooks/pre-commit",
+    ".githooks/pre-push",
+    "AGENTS.md",
+    "LEIA-PRIMEIRO.md",
+    "PASSAGEM-COTA-20261104B.txt",
+    "PASSAGEM-COTA-20261104C.txt",
+    "PASSAGEM-COTA-20261104D.txt",
+    "PASSAGEM-CURADORIA-20261120.txt",
+    "README.md",
+    "SNAPSHOT-GITHUB.md",
+    "evidence/github-authorship-guard-20261126a.json",
+    "evidence/github-republish-preflight-20261126a.json",
+    "output/continuity-checkpoint-20261120-selecao-final.txt",
+    "output/original-flow-hotfix-review-20261120a/backup-paths.txt",
+    "scripts/collect_c214_orbits_residency_v3.py",
+    "scripts/profile-c214-orbits-v3.py",
+    "scripts/verify-github-authorship.py"
+  ],
+  "scope": "New root history for the existing authorized public source snapshot; runtime and personal sessions excluded; original product files unchanged."
+}

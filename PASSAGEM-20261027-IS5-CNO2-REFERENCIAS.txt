@@ -1,0 +1,81 @@
+COSMOS2 — passagem 27/10/2026 14:34UTC
+Trabalho contínuo autorizado até cota5h OU semanal0,bloqueio real,plano
+concluídoouparada do dono. NÃOdelegar. ≤8%checkpoint,nãopararcedo.
+Quotahelper python3 ../cosmos/scripts/check-codex-quota.py;últimaOK9%5h/
+39%semana14:34:20.297UTC,nãoesgotada. Nunca inferir porcontexto/tokens/tempo.
+LEIA-PRIMEIRO.md/AGENTS.md/fimRETOMADA-20261023. PreservarCosmos/Revenant,
+instalado3.13/owner e todosaceitos. Sem promoção/publicação.
+
+CONCLUÍDO pp-III0.13.0 ciência13/14+workerB14recusas/CEF4grupos11recusas/
+visual6PNG/perfilB4janelas. ReportIS-5-PP-III-RESULTADO-20261027.md.
+PerfilA falhou1quadro401.108712msrun4offset41.722s. B MESMASfontes/host/
+scripts/limites repetiu4semreusarA,passou0>100,p95max13.960800ms.
+CausadopicoA nãoestabelecida;mantidaexplicitamente no report.A/ZIPpreservar.
+Host0130encerrouNORMALexec4833engine_exit0,logspreservados.
+
+CONCLUÍDO CNO-II0.14.0:16espécies/18canais,novosO16/F17/O17 e
+N15pγ/O16pγ/F17β/O17pα,mesmofuel. SementeO16explícita,defaultN14.
+10<T6<16porECBe7,ρ/Vfixos,EOSidealFDnão-rel+íonsclássicos+radiaçãoLTE
+confinada/νescapa. B8seguecanalEFETIVO,semBe8resolvido. F17t1/2NUBASE
+64.370±.027s,νmean.9977MeVBahcall1997eq36/PDFpróprio;coefβterrestre
+éaproximação,ECpequenasN13/O15/F17nãoresolvidas. QAME2020todos18,cinco
+ciclosDecimal26.730968386MeV. SemCNOIII/hotCNO/pep/hep/screeningdasfusões/
+CoulombEOS/transporte/hidro/luminosidade. Be7ECmantémleiSFIIplasma publicada.
+
+CNOscienceaggregateis5-cno2-science-20261027a ACEITO (foundation/mixed/
+competitionA +14datasetsledger):16fits/128gatesnovos+18controlindependência,
+F17exp2modos/Terr6.08e-14rel,4mistoN14/O16prescrito/térmicoBDFUinverso/
+refine/ppIIIlimit,Terrmax3.66e-13;N15branchanalytic1.46e-14porbárion,
+Jac16 8.16e-10rel,routefechado,7recusas. PRESERVARmodel/data/3tests.
+Workeris5-cno2-worker-artifact-20261027a ACEITO14recusas,seedO16/newprocess/
+32branches/locks/whole-runrecusaT0válido1Myr. CEFis5-native-cno2-20261027a
+ACEITO4grupos11recusas0JS,visual8PNG100/15021018markerasecada;CNOlog10
+trêsespécieslegíveis,zeros/resíduosnãopositivosfora logmasbrutosnasonda.
+Perfilis5-cno2-zone-profile-audit-20261027a ACEITO4janelas30warm+60sSGCT,
+seedO16,3936valores/24estados conferidos,p95max13.917380/p99max14.404980ms,
+0>100,RAM1.208447/GPU2.989685GiB,minrate.964918.NãothroughputODE.
+ReportIS-5-CNO-II-RESULTADO-20261027.md. PRESERVARapp0140/stages/scripts/
+contratos/recibos. Host0140encerrouNORMALexec94074engine_exit0,logsapp0140/
+execution-logs. Nenhumhostativo;output/session.jsonhistórico.
+
+REFERÊNCIASB23v1.2fixadasDOI10.5281/zenodo.10822316,ZIP2.5MBorigemautores
+Herrera/Serenelli,metadata/ReadMe/31members emoutput/is5-solar-reference-staging.
+SHAZIP382037d76ed35c9b50a4094d3ada3c90284af025c3235b49cda9d932699f87d0.
+NãorodarR/notebooksterceiros. Seisstruct+nu2001×47parseadosperscripts/
+is5_solar_reference.py. Originalcentrotemmassa/L/dm/νnegativostiny,logRduas
+linhasiniciaisinconsistentes. Rawpreservadoflags,3linhascentraisexcluídas
+EOS,nãoextrapolarsó10<T6<16/rho1e4..3e5. Radiusr/Rsunoriginal,nãoconfundir
+nominaloulogRartefatual. Assinadosauxνpreservados,nãoproduçãolocalabsoluta.
+
+importAis5-solar-reference-20261027a ACEITO6modelos/120Decimal/10recusas,
+scriptverify-is5-solar-reference.py efontecongelados. EOSGS98/AGSS09lo calculado
+peloidealaceito/nefornecidoperfil/íonscobertosH1He3He4C12C13N14N15O16O17.
+UpperA=ΣYi+Xmissing/10 ERAcondicionalA>=10,insuficienteparaqualquermassa
+nãolistada. NÃOsobrescrever.AuditorB scripts/audit-is5-solar-reference.py
+is5-solar-reference-audit-20261027b ACEITO:uppergenéricoΣYi+Xmissing(A>=1),
+reusapressõesloA,713pontos(originais/elegibilidade/conversões/EOS6amostras).
+ContratoEOS-LIMITESexplica,nãocomposiçãoneutrainventada/intervaloestatístico.
+Electronaudit is5-solar-reference-electrons-20261027b confere12006ne+713Ye,
+erromax3.303e-16. VisualBfiguraPNG/SVGaceito. FonteA efiguraspreservar,
+Béapresentaçãocorrente. ScriptB/auditorfontescongelados.
+GS98359pontosr.0015..1805,Pidealacima1.73829..2.27948%;AGSS09354pontos
+r.0015..1780,1.76160..2.22297%. Nãoatribuircausaúnicaouprecisão física.
+ReportIS-5-REFERENCIAS-SOLARES-RESULTADO-20261027.md. Figuraatual
+output/is5-solar-reference-audit-20261027b/B23-reference-comparison-Age1.png/.svg.
+NãoháSolimportadoparazona/nemevolução/calibração/hidro/transporte.
+
+PRÓXIMO IS5/C2-20 EOSCoulomb/screening: pesquisar/fontesprimárias efixar
+contratoantesnovoEOS/solver. Semalterarideais/redesaceitos. IdeiaaindaNÃO
+implementada:energialivreDHparaderivarU/P/Cv/gradcomposição+screening,com
+elétronsFDviaχe=∂ne/∂μe,semusarclassicalDHfora domínio. SusceptibilidadeFD,
+limitesfracos/quantum/ioncoupling eenergiaacoplada precisamvalidação.
+Nãoinferirque1.7%vemapenasCoulomb.Novasimplementaçõesemstagingpróprio.
+
+Runtime.runtime-is4-stream9fontesupstreamintencionalmentealteradas,
+nãorestaurar/promover. CEF8088sócef_page.py;encerrartoggleShutdownnormal,
+aguardarengine_exit0,arquivarlogs. WindowsPython.tooling/python/Scripts/
+python.exe-Xutf8-u comcaminhoWindows. Semdelegação.
+
+CHECKPOINT5%5h/38%semana27/10 14:35:29.951UTC,salvoantesesgotar;
+passagemPASSAGEM-20261027-IS5-CNO2-REFERENCIAS.txtatual,continuaraté0.
+Nenhumhostativo/testependente;próximopesquisa/contratoCoulombEOS.

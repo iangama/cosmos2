@@ -1,0 +1,56 @@
+{
+  "completed": true,
+  "acquisition_sha256": "dfa1210f60817e1b12dec927f22f16f3fb08d2a07479eaf5938fcf419a323a3a",
+  "maps": {
+    "Mercury": {
+      "width": 11520,
+      "height": 5760,
+      "mode": "RGB",
+      "format": "JPEG",
+      "pixels_decoded": true,
+      "warnings": [
+        "Truncated File Read"
+      ]
+    },
+    "Venus": {
+      "width": 1800,
+      "height": 900,
+      "mode": "RGB",
+      "format": "JPEG",
+      "pixels_decoded": true,
+      "warnings": []
+    },
+    "Mars": {
+      "width": 8192,
+      "height": 4096,
+      "mode": "RGB",
+      "format": "PNG",
+      "pixels_decoded": true,
+      "warnings": []
+    },
+    "Jupiter": {
+      "width": 4096,
+      "height": 2048,
+      "mode": "RGB",
+      "format": "TIFF",
+      "pixels_decoded": true,
+      "warnings": []
+    },
+    "Uranus": {
+      "width": 2048,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "JPEG",
+      "pixels_decoded": true,
+      "warnings": []
+    },
+    "Neptune": {
+      "width": 3000,
+      "height": 1500,
+      "mode": "RGB",
+      "format": "JPEG",
+      "pixels_decoded": true,
+      "warnings": []
+    }
+  }
+}

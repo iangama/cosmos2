@@ -1,0 +1,11 @@
+{
+  "accepted": true,
+  "completed": true,
+  "owner_restored": true,
+  "profile_started": false,
+  "parent_receipt_sha256": "5d5273e4b3de5a7e8ebd637195403db74c2fe98810ea08049a73a316551e0123",
+  "expected_mutation": [
+    "navigation/favorites.json"
+  ],
+  "explanation": "The temporary favorite was archived after creation and then deliberately removed, so the broad file guard compared different expected states. Actual favorite list, camera/epoch and full paused phase restored; all other preserved files unchanged. Original host refusal remains intact; no performance data collected."
+}

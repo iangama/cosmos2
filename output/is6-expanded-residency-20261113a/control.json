@@ -1,0 +1,422 @@
+{
+  "schema": 1,
+  "id": "005-warmup",
+  "kind": "warmup",
+  "window": "sixteen_system",
+  "recipe": {
+    "name": "sixteen_system",
+    "mode": "experiment",
+    "instrument": null,
+    "bodies": 16
+  },
+  "expected_scenario": {
+    "mode": "experiment",
+    "renderer_confirmed": true,
+    "physics": {
+      "system_id": "2ad694b6f482460eb9461fa925a26541",
+      "edit_token": "cc56d4d26aac4484810eed9f82402f02",
+      "revision": 0,
+      "time": 0.0,
+      "paused": true,
+      "contract": {
+        "schema": 3,
+        "frame": "initial_subset_barycenter_inertial_axes_J2000",
+        "units": {
+          "system": "canonical",
+          "G": 1.0
+        },
+        "model": "newtonian_point_masses",
+        "collisions": "disabled",
+        "softening_m": 0.0,
+        "integrator": "IAS15",
+        "epsilon": 1e-09,
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "utc_conversion": "naif0012 fixed leap-second table; future leap seconds unknown"
+        },
+        "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for ephemerides",
+        "centers": "physical body centers and individual body GMs; no separate system barycenter particles",
+        "excluded_influences": [
+          "general_relativity",
+          "multipoles",
+          "tidal_dissipation",
+          "unlisted_moons",
+          "asteroids",
+          "plasma",
+          "nongravitational_forces"
+        ],
+        "electromagnetic_coupling": false,
+        "nuclear_coupling": false
+      },
+      "physical_scale": {
+        "schema": 1,
+        "length_unit_m": 1000000000.0,
+        "nominal_GM_unit_m3_s2": 1.3271244e+20,
+        "G_m3_kg_s2": 6.6743e-11,
+        "G_standard_uncertainty": 1.5e-15,
+        "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+        "sources": [
+          "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+          "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+        ],
+        "time_unit_s": 2745.0115932913473,
+        "mass_unit_kg": 1.988409870698051e+30,
+        "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+        "velocity_unit_m_s": 364297.1863739823
+      },
+      "bodies": [
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:10",
+          "reference_id": "sol:naif:10",
+          "mass": 1.0000000003108473,
+          "applied_GM_m3_s2": 1.327124400412533e+20,
+          "position": [
+            -0.17663128028975103,
+            -0.7073819159616833,
+            -0.2914902854740598
+          ],
+          "velocity": [
+            2.8635012471640233e-05,
+            1.152912335804068e-05,
+            4.328883572452795e-06
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:199",
+          "reference_id": "sol:naif:199",
+          "mass": 1.6601208259753193e-07,
+          "applied_GM_m3_s2": 22031868551000.0,
+          "position": [
+            30.391648741713638,
+            -50.65652983639849,
+            -30.142589889690115
+          ],
+          "velocity": [
+            0.0914492865046619,
+            0.0646204836393214,
+            0.02504416109163823
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:299",
+          "reference_id": "sol:naif:299",
+          "mass": 2.4478382885583295e-06,
+          "applied_GM_m3_s2": 324858592000000.0,
+          "position": [
+            106.54027391474982,
+            19.237413987853195,
+            1.931748026701024
+          ],
+          "velocity": [
+            -0.017339044511980196,
+            0.08550816709644982,
+            0.03957438761466799
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:399",
+          "reference_id": "sol:naif:399",
+          "mass": 3.0034896166779844e-06,
+          "applied_GM_m3_s2": 398600435544000.0,
+          "position": [
+            142.01094604280442,
+            41.230985692714086,
+            17.88744332961537
+          ],
+          "velocity": [
+            -0.026337583680304935,
+            0.07118182364660726,
+            0.03085719861669121
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:301",
+          "reference_id": "sol:naif:301",
+          "mass": 3.694303340365078e-08,
+          "applied_GM_m3_s2": 4902800104000.0,
+          "position": [
+            141.6663204728629,
+            41.07594866970865,
+            17.787559819207654
+          ],
+          "velocity": [
+            -0.025144314097152554,
+            0.06894032072442387,
+            0.029738972315801186
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:499",
+          "reference_id": "sol:naif:499",
+          "mass": 3.227156011701409e-07,
+          "applied_GM_m3_s2": 42828374857356.26,
+          "position": [
+            -2.266515916377528,
+            212.88294232433097,
+            97.7337989486468
+          ],
+          "velocity": [
+            -0.06395919661811204,
+            0.0039843605710638,
+            0.0035523532923827108
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:599",
+          "reference_id": "sol:naif:599",
+          "mass": 0.0009545942482887844,
+          "applied_GM_m3_s2": 1.266865319003704e+17,
+          "position": [
+            -531.3568039428893,
+            537.4437457840976,
+            243.3047227084288
+          ],
+          "velocity": [
+            -0.027077057847985492,
+            -0.02075172778019364,
+            -0.008235410509439605
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:699",
+          "reference_id": "sol:naif:699",
+          "mass": 0.00028581500147508153,
+          "applied_GM_m3_s2": 3.793120623436167e+16,
+          "position": [
+            1382.8178366872112,
+            273.44042943825923,
+            53.383320876198745
+          ],
+          "velocity": [
+            -0.006577900247672019,
+            0.023893081577675297,
+            0.010152067951102944
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:799",
+          "reference_id": "sol:naif:799",
+          "mass": 4.365793146701919e-05,
+          "applied_GM_m3_s2": 5793950610340896.0,
+          "position": [
+            1330.2961499468654,
+            2374.8305998470173,
+            1021.2950755443968
+          ],
+          "velocity": [
+            -0.016759876095028912,
+            0.006950691995065514,
+            0.003281168441519662
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:899",
+          "reference_id": "sol:naif:899",
+          "mass": 5.150308417543085e-05,
+          "applied_GM_m3_s2": 6835099968446816.0,
+          "position": [
+            4463.188606792842,
+            235.91174499434933,
+            -14.557829508721058
+          ],
+          "velocity": [
+            -0.0008035439315021105,
+            0.013869278172909219,
+            0.005698243305271769
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:501",
+          "reference_id": "sol:naif:501",
+          "mass": 4.490849136810791e-08,
+          "applied_GM_m3_s2": 5959915466180.539,
+          "position": [
+            -531.1511131558689,
+            537.7735028981001,
+            243.46534712462528
+          ],
+          "velocity": [
+            -0.06863141245990806,
+            0.0006896101575408401,
+            0.0013377752508388322
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:502",
+          "reference_id": "sol:naif:502",
+          "mass": 2.4132719582333766e-08,
+          "applied_GM_m3_s2": 3202712099607.295,
+          "position": [
+            -531.8811749497233,
+            537.0777328627609,
+            243.12107933570186
+          ],
+          "velocity": [
+            -0.003781102107002751,
+            -0.048172233005297146,
+            -0.02059918621604014
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:503",
+          "reference_id": "sol:naif:503",
+          "mass": 7.450569632145742e-08,
+          "applied_GM_m3_s2": 9887832752719.639,
+          "position": [
+            -532.3202329453703,
+            537.0248730487201,
+            243.0881659106793
+          ],
+          "velocity": [
+            -0.01393443542358051,
+            -0.044951840459911865,
+            -0.019631864003264818
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:504",
+          "reference_id": "sol:naif:504",
+          "mass": 5.409653686255664e-08,
+          "applied_GM_m3_s2": 7179283402579.837,
+          "position": [
+            -531.1959371978402,
+            539.1362696991039,
+            244.10475668695747
+          ],
+          "velocity": [
+            -0.04954340915218555,
+            -0.01873568275591046,
+            -0.007619404914848764
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:602",
+          "reference_id": "sol:naif:602",
+          "mass": 5.433075217815976e-11,
+          "applied_GM_m3_s2": 7210366688.598896,
+          "position": [
+            1382.6093235557414,
+            273.55673248559907,
+            53.3926928023205
+          ],
+          "velocity": [
+            -0.02327074537597805,
+            -0.006133346823414575,
+            0.013795967722437094
+          ]
+        },
+        {
+          "id": "exp:e6e5b14f8be5445d91d0364495e35af2:naif:606",
+          "reference_id": "sol:naif:606",
+          "mass": 6.765105890239865e-08,
+          "applied_GM_m3_s2": 8978137095521.047,
+          "position": [
+            1382.5618293155683,
+            272.25058219891883,
+            53.48582006435079
+          ],
+          "velocity": [
+            0.00840989570951109,
+            0.021021653107063606,
+            0.009016583363770524
+          ]
+        }
+      ],
+      "atlas_initial_sha256": "9840ee2e5d271724c0d7c59997f9df2284b305027a29025eb92ed7623aae485d",
+      "interventions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dynamics16": {
+        "model_id": "cosmos2:sixteen-physical-centers-newton",
+        "initial_format": "solar_sixteen_physical_centers/0.1.0",
+        "initial_body_count": 16,
+        "active_body_count": 16,
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "utc_conversion": "naif0012 fixed leap-second table; future leap seconds unknown"
+        },
+        "elapsed_s": 0.0,
+        "revision": 0,
+        "inertial_frame": {
+          "schema": 1,
+          "encoding": "split_inertial_origin",
+          "elapsed_s": 0.0,
+          "initial_origin_m": [
+            -185869.00537140778,
+            -32464.353997318172,
+            2233.8320469779524
+          ],
+          "origin_m": [
+            -185869.00537140778,
+            -32464.353997318172,
+            2233.8320469779524
+          ],
+          "origin_velocity_m_s": [
+            -1.683275925691079e-05,
+            -0.00011520819468876183,
+            -3.156075577828559e-05
+          ],
+          "local_frame": "initial_subset_barycenter_inertial_axes_J2000",
+          "world_frame": "SSB/J2000",
+          "meaning": "World position = origin_m + local_position*length_unit_m; components remain separate from the solver."
+        },
+        "electromagnetic_coupling": false,
+        "nuclear_coupling": false,
+        "excluded_influences": [
+          "general_relativity",
+          "multipoles",
+          "tidal_dissipation",
+          "unlisted_moons",
+          "asteroids",
+          "plasma",
+          "nongravitational_forces"
+        ],
+        "evolution": "IAS15 Newtonian point masses; ephemerides initialize the model only",
+        "mass_meaning": "Model mass derived from source GM/G, with unknown source uncertainty; edits are external interventions."
+      }
+    },
+    "modules": {
+      "spatial": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "guard": {
+          "session_id": "a25c411e222e46e7a52fc75f8470f213",
+          "artifact_id": null,
+          "revision": 0
+        },
+        "artifact": null,
+        "scene": null
+      },
+      "layers": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "guard": {
+          "session_id": "25cbfc6acbad43db8e54bf8ded673645",
+          "artifact_id": null,
+          "revision": 0
+        },
+        "artifact": null,
+        "scene": null
+      },
+      "particles": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false
+      },
+      "solar-zone": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "playing": false,
+        "scene": null,
+        "worker": null
+      }
+    }
+  }
+}

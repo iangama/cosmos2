@@ -1,0 +1,14 @@
+<details id="wind-setup" hidden><summary>Vento solar · cenário prescrito de Parker</summary>
+<p class="field-help">Uma carga-teste em campos estacionários com duas polaridades. Vento radial prescrito, E = −u × B e gravidade dos quatro centros. A cópia solar fica pausada; a partícula tem relógio próprio.</p>
+<form id="wind-create-form">
+<label class="field">Espécie<select id="wind-species"><option value="proton">Próton · carga positiva</option><option value="electron">Elétron · carga negativa</option><option value="neutral">Neutra · massa de próton</option></select></label>
+<label class="field">Distância ao Sol (AU)<input id="wind-radius" type="number" min="0.1" max="10" step="any" required value="1"></label>
+<div class="vector-fields"><label>Latitude solar (°)<input id="wind-latitude" type="number" min="-90" max="90" step="any" required value="30"></label><label>Longitude leste (°)<input id="wind-longitude" type="number" min="-180" max="180" step="any" required value="20"></label></div>
+<label class="field">Vento radial (m/s)<input id="wind-speed" type="number" min="10000" max="2000000" step="any" required value="400000"></label>
+<label class="field">B radial de referência a 1 AU (nT)<input id="wind-bref" type="number" min="0.001" max="1000" step="any" required value="3"></label>
+<label class="field">Polaridade<select id="wind-polarity"><option value="1">A+ · campo sai no norte e entra no sul</option><option value="-1">A− · campo entra no norte e sai no sul</option></select></label>
+<label class="field">Velocidade relativa ao vento (m/s)<input id="wind-relative-speed" type="number" min="0.000001" max="2997924.58" step="any" required value="100000"></label>
+<label class="field">Ângulo da velocidade relativa com +B (°)<input id="wind-pitch" type="number" min="0" max="180" step="any" required value="60"></label>
+<p class="field-help">Parâmetros didáticos, sem ajuste a observações. Rotação prescrita: 25,38 dias. 1 AU = 149.597.870.700 m. Eixos solares congelados na época; 800 passos por giro inicial, ou 0,01 s para carga zero. Limite da velocidade total: 0,01c.</p>
+<p class="field-help">Domínio: 0,1–10 AU e latitude fora da banda equatorial ±5°. Regiões próximas dos planetas são excluídas por cortes computacionais. Sem folha de corrente resolvida, CME, espalhamento, magnetosfera ou MHD.</p>
+<button id="wind-create" class="wide primary" type="submit" disabled>Criar carga no vento e ampliar trajetória</button></form><p id="wind-setup-status" class="field-help" role="status"></p></details>

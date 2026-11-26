@@ -1,0 +1,27 @@
+CHECKPOINT8% — 2026-11-14T12:02:44.930Z: 7.0%5h/38.0%semanal disponíveis,por telemetria real.
+Cosmos2:residênciaF/20261114b,Host6Windowsdestacado wrapper39808.
+Host=complete;janelasconcluídas=10/10;amostras=1078;fase=031-cleanup.
+Coletorválido=True;auditoraceito=True. Não declarar aceitegeralantesdehostfinal+auditor+4saídas0.
+Continuar atélimite real;checkpointnãoéordemdeparada.Não contornar esgotamento.
+Sem subagentes/push/promoção.V1segue7/21;IS6incompleto;K5Arecusado.
+FusaColetor7/schema8,Contract4/Historyaudit2/Auditor5/Profiler6/Host6,
+RAM K32GetProcessMemoryInfo pelohandle retido,Wait/code/temposantes/depois;
+semRAMzeroinventada,semretry;erroAPIrecusa.Fontes/protegidos selados imutáveis.
+PlanoF2398fontes/29protegidos.Preflight8B30amostrasACEITO;fixtureRAMC2filhos/2saídas0;
+offlineRAM22recusasACEITAS.TimingF22recusas/preflightantigopreservados.
+A/B/C/D/Econtinuamrecusados e intocados.E40amostrasfalhouporRAMpsutilapósDataDecoderexit0;
+D1070amostras/10janelasfalhouporprimeiraPDH1,336s;dezquadrossódiagnóstico.
+Conferir receipts evidence/is6-expanded-residency-{host,audit,collector}-20261114b.json
+eperfil evidence/is6-expanded-residency-20261114b.json ANTESderepetir.
+Monitorreadonly:python3 output/monitor-residency-20261114b.py;cotassessãoATUAL.
+Duranteperfilsembackup/download/navegação/testepesado.
+Backupv22driverWindowswrapper40240 aguardaHostFencerrado+4saídas0+vistadodono;
+estadoatual=checking_originals.Consultaroutput/is6-residency-followup-20261114b.json antesdeagir.
+Se copying/committing,nãoeditarfontes/MD/evidence enquanto cópiaestiverativa.
+DriverdivideJSONLgrandeempartesbyteidênticas,syncv22--label20261114c ecommitLOCALsem push.
+Conferir evidence/github-source-local-20261114c.json antesderepetir;processoautônomopodeconcluirapóslimiteagent.
+Últimobackupconfirmadov21f09c26354af9d161c7c2d43a98acef5f116150bc/6757arquivos;
+F/G/fixturesRAMposterioresestãonafila v22.D167MiBjáem5partesSHAexatas.
+Produto científico0.27.0byteidêntico0.26.2.Não repetirjornadas/CPU30dias/perfisaceitos.
+DepoisdefimF:lerauditor/host reais;seaceito ebackupencerrado,avaliarpróximafatiadeIS6/C2-14–17;
+sefalhar,preservaroriginais/diagnosticarantesdenovarevisão.NenhumcontratoGRnovoimplementado.

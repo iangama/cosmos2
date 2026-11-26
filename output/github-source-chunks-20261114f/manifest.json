@@ -1,0 +1,43 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source": "output/is6-expanded-residency-20261114b/memory.jsonl",
+  "source_sha256": "780be9e119d67ef8f659801ef8cb43029966cccf12a9ac91ac333cbb3bac0af7",
+  "source_bytes": 182050376,
+  "chunks": [
+    {
+      "path": "output/github-source-chunks-20261114f/part-0000.jsonl",
+      "bytes": 41885253,
+      "lines": 355,
+      "sha256": "f3a74a4106a7fe565b611d83178f98828daa71e590722345878123ff576f4e67"
+    },
+    {
+      "path": "output/github-source-chunks-20261114f/part-0001.jsonl",
+      "bytes": 41838498,
+      "lines": 170,
+      "sha256": "03bcfdd31fcbfa8eabadfcffdb937bb27fca023c7bd0d02202819f06367e5eeb"
+    },
+    {
+      "path": "output/github-source-chunks-20261114f/part-0002.jsonl",
+      "bytes": 41691881,
+      "lines": 224,
+      "sha256": "7cf6af8826412682f26a15dc958516de28d0f95a77fd2f381289d9a2a777b18e"
+    },
+    {
+      "path": "output/github-source-chunks-20261114f/part-0003.jsonl",
+      "bytes": 41874410,
+      "lines": 240,
+      "sha256": "e6c6d4184e27681619f1f2e87311a58f91b7e075086cc5590b3fa71bf919c230"
+    },
+    {
+      "path": "output/github-source-chunks-20261114f/part-0004.jsonl",
+      "bytes": 14760334,
+      "lines": 89,
+      "sha256": "74db4d7c0fc9690b9d8e74ba0ce3b264439b96d382d1915baab1bbe73c9a4d03"
+    }
+  ],
+  "concatenation_sha256": "780be9e119d67ef8f659801ef8cb43029966cccf12a9ac91ac333cbb3bac0af7",
+  "lines": 1078,
+  "script_sha256": "51c082be54ef5152334c3c067903f92c603e637d6f6bf1b23f83fadf2bf54dd4",
+  "reconstruction": "Concatenate chunk bytes in the listed order; the result must match source_sha256."
+}

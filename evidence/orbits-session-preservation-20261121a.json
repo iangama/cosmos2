@@ -1,0 +1,3349 @@
+{
+  "accepted": true,
+  "completed": true,
+  "session": {
+    "app": 43100,
+    "server": 42356,
+    "launcher": 14324,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.7-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.7\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.7\\gravity-sessions",
+    "started": "2026-11-21T14:02:20Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.7",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "files": [
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/27fbb4cfea5d495cb86e3fbf16215fcc.bin",
+      "relative": "gravity-sessions/27fbb4cfea5d495cb86e3fbf16215fcc.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/27fbb4cfea5d495cb86e3fbf16215fcc.bin",
+      "sha256": "1d0c7ec8537c5bc52095833ee00602253560e9f78ca12585098aafffa2a6c562"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/4dabc5f3f2134eb394eb85da16aef32e.bin",
+      "relative": "gravity-sessions/4dabc5f3f2134eb394eb85da16aef32e.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/4dabc5f3f2134eb394eb85da16aef32e.bin",
+      "sha256": "067aae1b6bf6f16504ce801b65528e088611734239dcd61c754009e5709550b9"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/bfd32550d5334bc1b8c27d19b8a5b541.bin",
+      "relative": "gravity-sessions/bfd32550d5334bc1b8c27d19b8a5b541.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/bfd32550d5334bc1b8c27d19b8a5b541.bin",
+      "sha256": "9dddf19b475641c9cfd463836b0ebac7ffa458dbbd2f8d921ea39ecc11cf1f94"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/118f49e4043249c18399885f06f17a31.bin",
+      "relative": "gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/118f49e4043249c18399885f06f17a31.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/118f49e4043249c18399885f06f17a31.bin",
+      "sha256": "4bf770d8cc9c0ed1467864391421bd69d19dfd44086e176521e55391721bc86a"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/branch.json",
+      "relative": "gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/branch.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/branch.json",
+      "sha256": "9136a71ce685f9db4ac8825517122de0910f0fc56bf73b1563db067a25f71506"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/latest.json",
+      "relative": "gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/latest.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/latest.json",
+      "sha256": "c17d1445842efe76b3ebd2505eff104106e7fae5b4c8e0d03c0b62bebea6e315"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/1011378199274b588c2e0614d3460aca.bin",
+      "relative": "gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/1011378199274b588c2e0614d3460aca.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/1011378199274b588c2e0614d3460aca.bin",
+      "sha256": "9195be01b504e35696200e996e891cf62ababd8088c296521160ddef7004b3d1"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/branch.json",
+      "relative": "gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/branch.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/branch.json",
+      "sha256": "4524384fc43da24011573758a56a2e350b1cc7e9b95a45604624ff945e69ba7e"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/latest.json",
+      "relative": "gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/latest.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/latest.json",
+      "sha256": "6161761a649ae5078c776b6264e551f34c020fb35c72daf373feead59ee061b1"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/9464f433a70f48ed9bcf74693b8d6d31.bin",
+      "relative": "gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/9464f433a70f48ed9bcf74693b8d6d31.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/9464f433a70f48ed9bcf74693b8d6d31.bin",
+      "sha256": "d1536c178dda1d5d497c4a4dabd3f66c35a2cb47d7bcf38de5fe0ee7cceb4d69"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/branch.json",
+      "relative": "gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/branch.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/branch.json",
+      "sha256": "882edc1c38b43a5c22e0541f6fe1f42eba0b0510129aa03bc1d987b005f32f31"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/latest.json",
+      "relative": "gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/latest.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/latest.json",
+      "sha256": "2476c507043ad5807a6e646e30119006eceac433dfe2d5bf226bab75dd229fe2"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/ce44ba90f8b045c8b433624431dfbd02.bin",
+      "relative": "gravity-sessions/ce44ba90f8b045c8b433624431dfbd02.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/ce44ba90f8b045c8b433624431dfbd02.bin",
+      "sha256": "cba5dfda2668067a0f68dab23cd20ed160116a7bd0482060b1f0e1270e7daa0c"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/cee7384de6ed45bc82c496a954e5b92c.bin",
+      "relative": "gravity-sessions/cee7384de6ed45bc82c496a954e5b92c.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/cee7384de6ed45bc82c496a954e5b92c.bin",
+      "sha256": "405f89eb107917a81bb51ca62ecc3251efecf698b7c248d9797f1d3dcde97d04"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/d11fd3ded4f3421eb754ca71eb117479.bin",
+      "relative": "gravity-sessions/d11fd3ded4f3421eb754ca71eb117479.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/d11fd3ded4f3421eb754ca71eb117479.bin",
+      "sha256": "625b5a56b880b413faafcd7d8f3bc0fd07516cdd382a05a8353233cb43968fd9"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/d3636f942cfc4c3fae03eadfb4b4e64a.bin",
+      "relative": "gravity-sessions/d3636f942cfc4c3fae03eadfb4b4e64a.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/d3636f942cfc4c3fae03eadfb4b4e64a.bin",
+      "sha256": "16a66e8f2f8254806375b6e21c08064c459d3e115d20a4b341586f5d33a4da09"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/e4fffb4bb5d24c058a357bb42cc73872.bin",
+      "relative": "gravity-sessions/e4fffb4bb5d24c058a357bb42cc73872.bin",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/e4fffb4bb5d24c058a357bb42cc73872.bin",
+      "sha256": "d1536c178dda1d5d497c4a4dabd3f66c35a2cb47d7bcf38de5fe0ee7cceb4d69"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/gravity-sessions/latest.json",
+      "relative": "gravity-sessions/latest.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/gravity-sessions/latest.json",
+      "sha256": "f90b27803f7b21a24b317e8cfe128b85bb246f0cd52a22b5c0bd27076aef5a15"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/branches/0cbf9749451b4871b1603093072c0251.json",
+      "relative": "is6-spatial-import-service-records/branches/0cbf9749451b4871b1603093072c0251.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/branches/0cbf9749451b4871b1603093072c0251.json",
+      "sha256": "fd230973bd4c7e2c7d1a3b28c40f9c80a42447589c592cd3dfc040244c999226"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/branches/9bb173b8cb734817bfa22ba114634ef3.json",
+      "relative": "is6-spatial-import-service-records/branches/9bb173b8cb734817bfa22ba114634ef3.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/branches/9bb173b8cb734817bfa22ba114634ef3.json",
+      "sha256": "afb9d841fbd6d5e1dd774ffbcd374d46f778039db6de574c6ee959feaf7f3be4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/exports/04b96ab941534f7ab61eace9fc97a907.json",
+      "relative": "is6-spatial-import-service-records/exports/04b96ab941534f7ab61eace9fc97a907.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/exports/04b96ab941534f7ab61eace9fc97a907.json",
+      "sha256": "24fa2647e2ad1d77694fb3aaafbfc334192f81ad28709b3c6b16e12bd27b16fc"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/exports/089e05948dba4b688d95927f71bfc84f.json",
+      "relative": "is6-spatial-import-service-records/exports/089e05948dba4b688d95927f71bfc84f.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/exports/089e05948dba4b688d95927f71bfc84f.json",
+      "sha256": "6c3cc8df1e1d2f4c4a43ca3d210100c6a506d63c468c16151ca7cdb858693c5c"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/exports/0db7a8400d4d4922ab62c4e1ff68abdf.json",
+      "relative": "is6-spatial-import-service-records/exports/0db7a8400d4d4922ab62c4e1ff68abdf.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/exports/0db7a8400d4d4922ab62c4e1ff68abdf.json",
+      "sha256": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/exports/0fc6b39c528c4fc587d0d1313c63e2d6.json",
+      "relative": "is6-spatial-import-service-records/exports/0fc6b39c528c4fc587d0d1313c63e2d6.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/exports/0fc6b39c528c4fc587d0d1313c63e2d6.json",
+      "sha256": "b84ec74a0b55de7f0eeeaf3034a819e23680ff4f3e48e09a528687fa7ce09fe4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/exports/3579c564081b4b19b55b7778a8681f8b.json",
+      "relative": "is6-spatial-import-service-records/exports/3579c564081b4b19b55b7778a8681f8b.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/exports/3579c564081b4b19b55b7778a8681f8b.json",
+      "sha256": "e973d1a1d6e0f5a490db84eae44434a522070f4e93000b5e4a8ff31340cd63a9"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/exports/834c4caa4eaa4112a9d30a9cc6514e53.json",
+      "relative": "is6-spatial-import-service-records/exports/834c4caa4eaa4112a9d30a9cc6514e53.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/exports/834c4caa4eaa4112a9d30a9cc6514e53.json",
+      "sha256": "492926e53131a55d96bd094bc8718e47287247697be3342e35ffcf56870bfe83"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/exports/c301b9efcab2452c8704efab13081cd1.json",
+      "relative": "is6-spatial-import-service-records/exports/c301b9efcab2452c8704efab13081cd1.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/exports/c301b9efcab2452c8704efab13081cd1.json",
+      "sha256": "9944c3ebe3315be5fcbbd953652520544947fc139eec96edb0b434501b54b0d5"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/exports/e051ffd4c6e448bdb9b9626d3108649c.json",
+      "relative": "is6-spatial-import-service-records/exports/e051ffd4c6e448bdb9b9626d3108649c.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/exports/e051ffd4c6e448bdb9b9626d3108649c.json",
+      "sha256": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/exports/f6dee22dbd064d8686fe05629cc07092.json",
+      "relative": "is6-spatial-import-service-records/exports/f6dee22dbd064d8686fe05629cc07092.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/exports/f6dee22dbd064d8686fe05629cc07092.json",
+      "sha256": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/2ddcf94f70544a46a4b88404a336b596/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/2ddcf94f70544a46a4b88404a336b596/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/2ddcf94f70544a46a4b88404a336b596/binding.json",
+      "sha256": "d8275f496afce097f89e2202db3d22848fd07802deb4c22064e40b629bab3781"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/2ddcf94f70544a46a4b88404a336b596/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/2ddcf94f70544a46a4b88404a336b596/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/2ddcf94f70544a46a4b88404a336b596/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/2ddcf94f70544a46a4b88404a336b596/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/2ddcf94f70544a46a4b88404a336b596/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/2ddcf94f70544a46a4b88404a336b596/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/30029ed651e34547b0a30f83b8b9ac47/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/30029ed651e34547b0a30f83b8b9ac47/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/30029ed651e34547b0a30f83b8b9ac47/binding.json",
+      "sha256": "d8275f496afce097f89e2202db3d22848fd07802deb4c22064e40b629bab3781"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/30029ed651e34547b0a30f83b8b9ac47/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/30029ed651e34547b0a30f83b8b9ac47/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/30029ed651e34547b0a30f83b8b9ac47/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/30029ed651e34547b0a30f83b8b9ac47/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/30029ed651e34547b0a30f83b8b9ac47/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/30029ed651e34547b0a30f83b8b9ac47/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/352534b3c12e4ca291de61c0d83f77d2/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/352534b3c12e4ca291de61c0d83f77d2/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/352534b3c12e4ca291de61c0d83f77d2/binding.json",
+      "sha256": "d8275f496afce097f89e2202db3d22848fd07802deb4c22064e40b629bab3781"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/352534b3c12e4ca291de61c0d83f77d2/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/352534b3c12e4ca291de61c0d83f77d2/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/352534b3c12e4ca291de61c0d83f77d2/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/352534b3c12e4ca291de61c0d83f77d2/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/352534b3c12e4ca291de61c0d83f77d2/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/352534b3c12e4ca291de61c0d83f77d2/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/binding.json",
+      "sha256": "aacf0eb5bf332cc4e33140b1c8a90a693e850cb0491c3767a81fee55a75386e5"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/423eb2f8d4f14eb09ff464373d9274f4/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/423eb2f8d4f14eb09ff464373d9274f4/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/423eb2f8d4f14eb09ff464373d9274f4/binding.json",
+      "sha256": "c0f328cc7732d83b150972b507e19a9aabfd19cce188b9e34a545cd0f775397a"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/423eb2f8d4f14eb09ff464373d9274f4/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/423eb2f8d4f14eb09ff464373d9274f4/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/423eb2f8d4f14eb09ff464373d9274f4/wire.names",
+      "sha256": "82a384ebd474afa8e987e8863abfe357ea253ce5516cc9d26b3b03fd68c9f4b9"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/423eb2f8d4f14eb09ff464373d9274f4/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/423eb2f8d4f14eb09ff464373d9274f4/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/423eb2f8d4f14eb09ff464373d9274f4/wire.speck",
+      "sha256": "6642a2c87da5312f45e5134b00df21c92239364196095e7f553e342a980a3179"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/binding.json",
+      "sha256": "b29b19e438b9237c03ad871c946cd1c1ca0193b06f067b89ba0b92699e845853"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/binding.json",
+      "sha256": "2a833c51ac537601866044440c35231a49bfb30daa28fc604c5e4b49696ccde0"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/binding.json",
+      "sha256": "5deec17c889f751c0d53d7e9026aa0b49aff22e8882c9760e4cd0bf42cdff462"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/7a727e38474f4be68b0d8551cf9255f8/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/7a727e38474f4be68b0d8551cf9255f8/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/7a727e38474f4be68b0d8551cf9255f8/binding.json",
+      "sha256": "d8275f496afce097f89e2202db3d22848fd07802deb4c22064e40b629bab3781"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/7a727e38474f4be68b0d8551cf9255f8/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/7a727e38474f4be68b0d8551cf9255f8/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/7a727e38474f4be68b0d8551cf9255f8/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/7a727e38474f4be68b0d8551cf9255f8/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/7a727e38474f4be68b0d8551cf9255f8/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/7a727e38474f4be68b0d8551cf9255f8/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/a35162fdce2043a9acc13703be3b8886/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/a35162fdce2043a9acc13703be3b8886/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/a35162fdce2043a9acc13703be3b8886/binding.json",
+      "sha256": "1b8487fe496938f2ac57f28284fd778a26772d5c5f07eafea89a9387a2615cf7"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/a35162fdce2043a9acc13703be3b8886/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/a35162fdce2043a9acc13703be3b8886/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/a35162fdce2043a9acc13703be3b8886/wire.names",
+      "sha256": "82a384ebd474afa8e987e8863abfe357ea253ce5516cc9d26b3b03fd68c9f4b9"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/a35162fdce2043a9acc13703be3b8886/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/a35162fdce2043a9acc13703be3b8886/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/a35162fdce2043a9acc13703be3b8886/wire.speck",
+      "sha256": "6642a2c87da5312f45e5134b00df21c92239364196095e7f553e342a980a3179"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/binding.json",
+      "sha256": "260864dd04b2ed318df4273ea4a6794dccc66f6404f75f05a1f734260008abf0"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/binding.json",
+      "sha256": "33e4b1b6ffd0285773c3aadbb77a5d82da515d9aeed6165b983d053525c619ff"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/cd0c46c682014bfeb118b57d70d9ad75/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/cd0c46c682014bfeb118b57d70d9ad75/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/cd0c46c682014bfeb118b57d70d9ad75/binding.json",
+      "sha256": "d8275f496afce097f89e2202db3d22848fd07802deb4c22064e40b629bab3781"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/cd0c46c682014bfeb118b57d70d9ad75/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/cd0c46c682014bfeb118b57d70d9ad75/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/cd0c46c682014bfeb118b57d70d9ad75/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/cd0c46c682014bfeb118b57d70d9ad75/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/cd0c46c682014bfeb118b57d70d9ad75/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/cd0c46c682014bfeb118b57d70d9ad75/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/binding.json",
+      "relative": "is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/binding.json",
+      "sha256": "d8275f496afce097f89e2202db3d22848fd07802deb4c22064e40b629bab3781"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/wire.names",
+      "relative": "is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/wire.speck",
+      "relative": "is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/saved.json",
+      "relative": "is6-spatial-import-service-records/saved.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/saved.json",
+      "sha256": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/is6-spatial-import-service-records/writer.lock",
+      "relative": "is6-spatial-import-service-records/writer.lock",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/is6-spatial-import-service-records/writer.lock",
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/branches/1aecd25eb473477d9eab82da8829f0aa.json",
+      "relative": "layer-checkpoints/branches/1aecd25eb473477d9eab82da8829f0aa.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/branches/1aecd25eb473477d9eab82da8829f0aa.json",
+      "sha256": "949a22866a259920e91a564937a35b025274acfc44dbefd0af054a5795469d18"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/branches/3e41e18bc73f40f5b81e98baee4a294b.json",
+      "relative": "layer-checkpoints/branches/3e41e18bc73f40f5b81e98baee4a294b.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/branches/3e41e18bc73f40f5b81e98baee4a294b.json",
+      "sha256": "aaeb245b5a03b46a9e959daa3bf8153f2780c911b4d1fe03a14995e703301e25"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/branches/a571d0aa834b4c87a6b00e72840b66d5.json",
+      "relative": "layer-checkpoints/branches/a571d0aa834b4c87a6b00e72840b66d5.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/branches/a571d0aa834b4c87a6b00e72840b66d5.json",
+      "sha256": "d0cda60473733bc29a32cacc2c4ec4ad76f6f3cd8c989f4be58afb2615e4e6b9"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/exports/074696b5dc8141e1915156576f922b70.json",
+      "relative": "layer-checkpoints/exports/074696b5dc8141e1915156576f922b70.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/exports/074696b5dc8141e1915156576f922b70.json",
+      "sha256": "68b42dd3a070889242eb0a8752cfe2c755d6926bc0c2288fe15adaf6169ba383"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/exports/40fdb9138f714b088ff75dbef9a02cb8.json",
+      "relative": "layer-checkpoints/exports/40fdb9138f714b088ff75dbef9a02cb8.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/exports/40fdb9138f714b088ff75dbef9a02cb8.json",
+      "sha256": "482c4465ef043dea816d7bcd5f0b7e695fd9dfbf8b61cd162a2c0121bc75522b"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/exports/64af0f5f95934640af8f0c74cdc033a3.json",
+      "relative": "layer-checkpoints/exports/64af0f5f95934640af8f0c74cdc033a3.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/exports/64af0f5f95934640af8f0c74cdc033a3.json",
+      "sha256": "c0b9a951ac363b658ee389c440502744faac6be2292b1a6563e57aac7228f7a8"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/exports/73c06dcfa44b4e15a224f8f0a47c05fd.json",
+      "relative": "layer-checkpoints/exports/73c06dcfa44b4e15a224f8f0a47c05fd.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/exports/73c06dcfa44b4e15a224f8f0a47c05fd.json",
+      "sha256": "0a10ce8bf1131328687967f5ebe315b51a472c1a8a0ec4acf4e09f9b1c211a17"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/exports/7a966d797b5b4aab85411e564e07e66d.json",
+      "relative": "layer-checkpoints/exports/7a966d797b5b4aab85411e564e07e66d.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/exports/7a966d797b5b4aab85411e564e07e66d.json",
+      "sha256": "09adbd4f1adb2c2bbc98a209a3426c2b71e8045e3df73c959bccfcc3aecf287c"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/exports/9fd00dd025414da7a13858b43d554ff9.json",
+      "relative": "layer-checkpoints/exports/9fd00dd025414da7a13858b43d554ff9.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/exports/9fd00dd025414da7a13858b43d554ff9.json",
+      "sha256": "77c32ed59b81fe391051ba476906e8554a8052fc63afacb302d4ea495e73ac51"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/exports/a77d47756bb444eda42d2c43140fe66e.json",
+      "relative": "layer-checkpoints/exports/a77d47756bb444eda42d2c43140fe66e.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/exports/a77d47756bb444eda42d2c43140fe66e.json",
+      "sha256": "a526753d86c4f4c9280f3a3b59d1e6edc1940672f6e4a5b931506ba86d6ac456"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/exports/c4fe2707543a4494864b79d9e3e4a54c.json",
+      "relative": "layer-checkpoints/exports/c4fe2707543a4494864b79d9e3e4a54c.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/exports/c4fe2707543a4494864b79d9e3e4a54c.json",
+      "sha256": "b02bb3f7af081f5e280c98b2858200ee0e13c3e8d523b80fc3d0fd7c7cb328a8"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-checkpoints/latest.json",
+      "relative": "layer-checkpoints/latest.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-checkpoints/latest.json",
+      "sha256": "c95cb70f0610f5f57a3772ed7867e7e11bb39deb74e0a17fb931996f867c7fa5"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/1fc545419e6d4d078d454b848aefb4da/binding.json",
+      "relative": "layer-previews/1fc545419e6d4d078d454b848aefb4da/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/1fc545419e6d4d078d454b848aefb4da/binding.json",
+      "sha256": "02c3290ddfc72f7e1fa36482ce3dd72bfb78b9a9c8aa51ae8e49178bd8d199ea"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/1fc545419e6d4d078d454b848aefb4da/wire.names",
+      "relative": "layer-previews/1fc545419e6d4d078d454b848aefb4da/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/1fc545419e6d4d078d454b848aefb4da/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/1fc545419e6d4d078d454b848aefb4da/wire.speck",
+      "relative": "layer-previews/1fc545419e6d4d078d454b848aefb4da/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/1fc545419e6d4d078d454b848aefb4da/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/570cfda2ce6a4863afcfefe65d54555e/binding.json",
+      "relative": "layer-previews/570cfda2ce6a4863afcfefe65d54555e/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/570cfda2ce6a4863afcfefe65d54555e/binding.json",
+      "sha256": "1ce04d6c174bbf836cf71eda588865b74b48748adeb53dfe2540d2a9b244948b"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/570cfda2ce6a4863afcfefe65d54555e/wire.names",
+      "relative": "layer-previews/570cfda2ce6a4863afcfefe65d54555e/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/570cfda2ce6a4863afcfefe65d54555e/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/570cfda2ce6a4863afcfefe65d54555e/wire.speck",
+      "relative": "layer-previews/570cfda2ce6a4863afcfefe65d54555e/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/570cfda2ce6a4863afcfefe65d54555e/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/6d9d8b99fb1345c7839852ab5422ee53/binding.json",
+      "relative": "layer-previews/6d9d8b99fb1345c7839852ab5422ee53/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/6d9d8b99fb1345c7839852ab5422ee53/binding.json",
+      "sha256": "22d53ba744e6b578ac4ea39585eb3d48a3ec54c9b68ead0e538b54da314aca43"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/6d9d8b99fb1345c7839852ab5422ee53/wire.names",
+      "relative": "layer-previews/6d9d8b99fb1345c7839852ab5422ee53/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/6d9d8b99fb1345c7839852ab5422ee53/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/6d9d8b99fb1345c7839852ab5422ee53/wire.speck",
+      "relative": "layer-previews/6d9d8b99fb1345c7839852ab5422ee53/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/6d9d8b99fb1345c7839852ab5422ee53/wire.speck",
+      "sha256": "175ffa1c97053ed9a26cb14ead6fa98aaddb27ebc3c0fbe64c7f6957377be44b"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/binding.json",
+      "relative": "layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/binding.json",
+      "sha256": "aa503653deb7a26f5896f2e4def66a8a24361355d4e6b9e361208342a21d5b39"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/wire.names",
+      "relative": "layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/wire.speck",
+      "relative": "layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/a2fab3ef842f47808fe688e1021bc073/binding.json",
+      "relative": "layer-previews/a2fab3ef842f47808fe688e1021bc073/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/a2fab3ef842f47808fe688e1021bc073/binding.json",
+      "sha256": "9072f2aeec772a8c1a2d19bbfb3540dcfb4ad373eec9f79e18c490903d5590a4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/a2fab3ef842f47808fe688e1021bc073/wire.names",
+      "relative": "layer-previews/a2fab3ef842f47808fe688e1021bc073/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/a2fab3ef842f47808fe688e1021bc073/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/a2fab3ef842f47808fe688e1021bc073/wire.speck",
+      "relative": "layer-previews/a2fab3ef842f47808fe688e1021bc073/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/a2fab3ef842f47808fe688e1021bc073/wire.speck",
+      "sha256": "175ffa1c97053ed9a26cb14ead6fa98aaddb27ebc3c0fbe64c7f6957377be44b"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/b789a86ceebb4a78a5a55b612a310003/binding.json",
+      "relative": "layer-previews/b789a86ceebb4a78a5a55b612a310003/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/b789a86ceebb4a78a5a55b612a310003/binding.json",
+      "sha256": "c42d8a1c46e9b2aebc83adae1ebbbce1b85183252788242581edf55501301d88"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/b789a86ceebb4a78a5a55b612a310003/wire.names",
+      "relative": "layer-previews/b789a86ceebb4a78a5a55b612a310003/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/b789a86ceebb4a78a5a55b612a310003/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/b789a86ceebb4a78a5a55b612a310003/wire.speck",
+      "relative": "layer-previews/b789a86ceebb4a78a5a55b612a310003/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/b789a86ceebb4a78a5a55b612a310003/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/bd78b9cf70fe4b16abfb5ef9abe4f4d3/binding.json",
+      "relative": "layer-previews/bd78b9cf70fe4b16abfb5ef9abe4f4d3/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/bd78b9cf70fe4b16abfb5ef9abe4f4d3/binding.json",
+      "sha256": "ade5a3ed6256774b20a7f807c2c23e2b7c409845481db65faecb646d38e9e27d"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/bd78b9cf70fe4b16abfb5ef9abe4f4d3/wire.names",
+      "relative": "layer-previews/bd78b9cf70fe4b16abfb5ef9abe4f4d3/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/bd78b9cf70fe4b16abfb5ef9abe4f4d3/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/bd78b9cf70fe4b16abfb5ef9abe4f4d3/wire.speck",
+      "relative": "layer-previews/bd78b9cf70fe4b16abfb5ef9abe4f4d3/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/bd78b9cf70fe4b16abfb5ef9abe4f4d3/wire.speck",
+      "sha256": "175ffa1c97053ed9a26cb14ead6fa98aaddb27ebc3c0fbe64c7f6957377be44b"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/bdc2fda5b2a146f4bfd53f5445bdaf04/binding.json",
+      "relative": "layer-previews/bdc2fda5b2a146f4bfd53f5445bdaf04/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/bdc2fda5b2a146f4bfd53f5445bdaf04/binding.json",
+      "sha256": "c42d8a1c46e9b2aebc83adae1ebbbce1b85183252788242581edf55501301d88"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/bdc2fda5b2a146f4bfd53f5445bdaf04/wire.names",
+      "relative": "layer-previews/bdc2fda5b2a146f4bfd53f5445bdaf04/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/bdc2fda5b2a146f4bfd53f5445bdaf04/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/bdc2fda5b2a146f4bfd53f5445bdaf04/wire.speck",
+      "relative": "layer-previews/bdc2fda5b2a146f4bfd53f5445bdaf04/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/bdc2fda5b2a146f4bfd53f5445bdaf04/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/c0380748a0d24da6ac20c7d50b3ef7e0/binding.json",
+      "relative": "layer-previews/c0380748a0d24da6ac20c7d50b3ef7e0/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/c0380748a0d24da6ac20c7d50b3ef7e0/binding.json",
+      "sha256": "56c664b879cffb8d66f4c1e4e0a6c99b715cb99d09a8d6be497dce80d4a86d70"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/c0380748a0d24da6ac20c7d50b3ef7e0/wire.names",
+      "relative": "layer-previews/c0380748a0d24da6ac20c7d50b3ef7e0/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/c0380748a0d24da6ac20c7d50b3ef7e0/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/c0380748a0d24da6ac20c7d50b3ef7e0/wire.speck",
+      "relative": "layer-previews/c0380748a0d24da6ac20c7d50b3ef7e0/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/c0380748a0d24da6ac20c7d50b3ef7e0/wire.speck",
+      "sha256": "175ffa1c97053ed9a26cb14ead6fa98aaddb27ebc3c0fbe64c7f6957377be44b"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/cc42e1f46b0044069cf61d9e69799786/binding.json",
+      "relative": "layer-previews/cc42e1f46b0044069cf61d9e69799786/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/cc42e1f46b0044069cf61d9e69799786/binding.json",
+      "sha256": "39d132b6f059416f2fe51a9b582e890a07875d61f6427cdc9f3f01a7bd0d52ef"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/cc42e1f46b0044069cf61d9e69799786/wire.names",
+      "relative": "layer-previews/cc42e1f46b0044069cf61d9e69799786/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/cc42e1f46b0044069cf61d9e69799786/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/cc42e1f46b0044069cf61d9e69799786/wire.speck",
+      "relative": "layer-previews/cc42e1f46b0044069cf61d9e69799786/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/cc42e1f46b0044069cf61d9e69799786/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/binding.json",
+      "relative": "layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/binding.json",
+      "sha256": "68eb1a2a135f76a654a0debd6ac0cfb888c2a854b37fe01978ceae7faf6976b0"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/wire.names",
+      "relative": "layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/wire.speck",
+      "relative": "layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/d078e64eb0064f3995938fa090021d74/binding.json",
+      "relative": "layer-previews/d078e64eb0064f3995938fa090021d74/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/d078e64eb0064f3995938fa090021d74/binding.json",
+      "sha256": "02c3290ddfc72f7e1fa36482ce3dd72bfb78b9a9c8aa51ae8e49178bd8d199ea"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/d078e64eb0064f3995938fa090021d74/wire.names",
+      "relative": "layer-previews/d078e64eb0064f3995938fa090021d74/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/d078e64eb0064f3995938fa090021d74/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/d078e64eb0064f3995938fa090021d74/wire.speck",
+      "relative": "layer-previews/d078e64eb0064f3995938fa090021d74/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/d078e64eb0064f3995938fa090021d74/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/eaed756948a94dffa9921c677a245d85/binding.json",
+      "relative": "layer-previews/eaed756948a94dffa9921c677a245d85/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/eaed756948a94dffa9921c677a245d85/binding.json",
+      "sha256": "416ec04783ea3111e0b4f3cfcc7bbf97178735abf781836893533c47c4b20cb1"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/eaed756948a94dffa9921c677a245d85/wire.names",
+      "relative": "layer-previews/eaed756948a94dffa9921c677a245d85/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/eaed756948a94dffa9921c677a245d85/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/eaed756948a94dffa9921c677a245d85/wire.speck",
+      "relative": "layer-previews/eaed756948a94dffa9921c677a245d85/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/eaed756948a94dffa9921c677a245d85/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/f4e8387338e44e96ae370b7a88f38210/binding.json",
+      "relative": "layer-previews/f4e8387338e44e96ae370b7a88f38210/binding.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/f4e8387338e44e96ae370b7a88f38210/binding.json",
+      "sha256": "02c3290ddfc72f7e1fa36482ce3dd72bfb78b9a9c8aa51ae8e49178bd8d199ea"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/f4e8387338e44e96ae370b7a88f38210/wire.names",
+      "relative": "layer-previews/f4e8387338e44e96ae370b7a88f38210/wire.names",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/f4e8387338e44e96ae370b7a88f38210/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/layer-previews/f4e8387338e44e96ae370b7a88f38210/wire.speck",
+      "relative": "layer-previews/f4e8387338e44e96ae370b7a88f38210/wire.speck",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/layer-previews/f4e8387338e44e96ae370b7a88f38210/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/navigation/favorites.json",
+      "relative": "navigation/favorites.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/navigation/favorites.json",
+      "sha256": "ae655fc73c34d0682ba651db5cc3ea4c3238ad43994cac3e14a60cdc6b25d209"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/particle-checkpoints/branches/3ea8665c689048aa9e1fa7c2d06c5449.json",
+      "relative": "particle-checkpoints/branches/3ea8665c689048aa9e1fa7c2d06c5449.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/particle-checkpoints/branches/3ea8665c689048aa9e1fa7c2d06c5449.json",
+      "sha256": "852b8c6391a56cec6fd9d56c44b338cac34ccf3cb6c83d666847dab313177a23"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/particle-checkpoints/branches/b9c53b8d220648bc996aabcf566ed169.json",
+      "relative": "particle-checkpoints/branches/b9c53b8d220648bc996aabcf566ed169.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/particle-checkpoints/branches/b9c53b8d220648bc996aabcf566ed169.json",
+      "sha256": "e4630346e9c3efa927337d34d625a240ea16af0fbccbace7f8313a0b2d0083bf"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/particle-checkpoints/saved.json",
+      "relative": "particle-checkpoints/saved.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/particle-checkpoints/saved.json",
+      "sha256": "803ca08ad8158e1067551eadf8b373cb9544f0e3e9918a1b53c6c773479a2d16"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/solar-zone-checkpoints/branches/0cfbd5275a0f499f807ae94a378f6512.json",
+      "relative": "solar-zone-checkpoints/branches/0cfbd5275a0f499f807ae94a378f6512.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/solar-zone-checkpoints/branches/0cfbd5275a0f499f807ae94a378f6512.json",
+      "sha256": "74f0044287d374991f3f59ed5c08cc700746963fa5209ad4c5bafce34444d908"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/solar-zone-checkpoints/exports/3b6ff33f48d84e148eb765af36e8378b.json",
+      "relative": "solar-zone-checkpoints/exports/3b6ff33f48d84e148eb765af36e8378b.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/solar-zone-checkpoints/exports/3b6ff33f48d84e148eb765af36e8378b.json",
+      "sha256": "0b9cd711b67b196d0e3c31b6136b0260c5233d368c10511a980fa2fac7ef2e47"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/solar-zone-checkpoints/saved.json",
+      "relative": "solar-zone-checkpoints/saved.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/solar-zone-checkpoints/saved.json",
+      "sha256": "a7e3a96fb55889b6a1d903b5f2533b2a402c98294f48329e5998353902b4c678"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/user/exports/cosmos2-forces-gravity-20261120T202934Z-6fa3f66c.json",
+      "relative": "user/exports/cosmos2-forces-gravity-20261120T202934Z-6fa3f66c.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/user/exports/cosmos2-forces-gravity-20261120T202934Z-6fa3f66c.json",
+      "sha256": "cdd3f071a59578e4fd5d1f12e6cdff012ba0483d148077a9fc09883d22b87dc0"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/user/exports/cosmos2-forces-gravity-20261120T202948Z-a2e2ecb1.json",
+      "relative": "user/exports/cosmos2-forces-gravity-20261120T202948Z-a2e2ecb1.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/user/exports/cosmos2-forces-gravity-20261120T202948Z-a2e2ecb1.json",
+      "sha256": "40f4412a038a2fcfa5e20b763f565d57535d54702a18a30d202b249fea8a1dd0"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/user/exports/cosmos2-forces-strong-20261120T195919Z-f9d093b6.json",
+      "relative": "user/exports/cosmos2-forces-strong-20261120T195919Z-f9d093b6.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/user/exports/cosmos2-forces-strong-20261120T195919Z-f9d093b6.json",
+      "sha256": "b8ebc4329a2562e5d5709ab3541d5f4d495a613bffaf2fb3f790c0e442189831"
+    },
+    {
+      "source": "output/original-flow-hotfix-product0.27.7/user/forces/latest.json",
+      "relative": "user/forces/latest.json",
+      "preserved": "output/orbits-session-preservation-20261121a/mutable-state/user/forces/latest.json",
+      "sha256": "902a90b8eb6399cf68a0419f19920213d6bbbc5980c332ef2fbe392c70596eaf"
+    }
+  ],
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#save",
+      "x": 111,
+      "y": 768
+    }
+  ],
+  "scope": "Live session preservation only: ordinary Windows click on Salvar sessão; DOM/HTTP/native camera readback observes state. No version/process switch in this script.",
+  "initial_mode": "atlas",
+  "physical_before": {
+    "system_id": "abe2511b219246869f3f8d493e78a9f5",
+    "edit_token": "7c231c2d9f2a4252a376bd3aee82f1e4",
+    "revision": 3,
+    "time": 16.333333333333332,
+    "paused": true,
+    "bodies": [
+      {
+        "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+        "mass": 1.0000000003108473,
+        "position": [
+          0.5065679462909468,
+          -0.5130318354902692,
+          -0.23224140521310213
+        ],
+        "velocity": [
+          2.591581890432978e-05,
+          1.960278817480963e-05,
+          7.772255575995723e-06
+        ],
+        "name": "Sol",
+        "reference_id": "sol:naif:10",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+        },
+        "scene_node": "LabBody_5d7de2e0524344761156612d",
+        "label_node": "LabLabel_5d7de2e0524344761156612d",
+        "spin_node": "LabSpin_5d7de2e0524344761156612d",
+        "shape_node": "LabShape_5d7de2e0524344761156612d",
+        "applied_GM_m3_s2": 1.327124400412533e+20,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:399",
+        "mass": 3.0034896166779844e-06,
+        "position": [
+          142.25778135827989,
+          42.58607528685744,
+          18.44987903281961
+        ],
+        "velocity": [
+          -0.027039831493687362,
+          0.07097965819818078,
+          0.030769170999207868
+        ],
+        "name": "Terra",
+        "reference_id": "sol:naif:399",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+        },
+        "scene_node": "LabBody_156b23bc97e8c1c0051654f3",
+        "label_node": "LabLabel_156b23bc97e8c1c0051654f3",
+        "spin_node": "LabSpin_156b23bc97e8c1c0051654f3",
+        "shape_node": "LabShape_156b23bc97e8c1c0051654f3",
+        "applied_GM_m3_s2": 398600435544000.0,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:301",
+        "mass": 3.694303340365078e-08,
+        "position": [
+          141.93489787231357,
+          42.3955492997141,
+          18.332444904295755
+        ],
+        "velocity": [
+          -0.02557449634493525,
+          0.06888011964788956,
+          0.029740541450176575
+        ],
+        "name": "Lua",
+        "reference_id": "sol:naif:301",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+        },
+        "scene_node": "LabBody_c96957fe70a068fb3b2405f5",
+        "label_node": "LabLabel_c96957fe70a068fb3b2405f5",
+        "spin_node": "LabSpin_c96957fe70a068fb3b2405f5",
+        "shape_node": "LabShape_c96957fe70a068fb3b2405f5",
+        "applied_GM_m3_s2": 4902800104000.0,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:599",
+        "mass": 0.0009545942482887844,
+        "position": [
+          -531.1161895560766,
+          537.2988193822084,
+          243.229324317932
+        ],
+        "velocity": [
+          -0.027062451199653215,
+          -0.02076119725567651,
+          -0.008239908404998369
+        ],
+        "name": "Júpiter",
+        "reference_id": "sol:naif:599",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+        },
+        "scene_node": "LabBody_d6925d1923ae74cf51345837",
+        "label_node": "LabLabel_d6925d1923ae74cf51345837",
+        "spin_node": "LabSpin_d6925d1923ae74cf51345837",
+        "shape_node": "LabShape_d6925d1923ae74cf51345837",
+        "applied_GM_m3_s2": 1.266865319003704e+17,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "atlas_initial": {
+      "schema": 2,
+      "kind": "solar_four_physical_centers",
+      "version": "1.0.0",
+      "branch_id": "19bc450c015f4bcaac761ab6eaf5153b",
+      "contract": {
+        "schema": 2,
+        "frame": "initial_subset_barycenter_inertial_axes_J2000",
+        "units": {
+          "system": "canonical",
+          "G": 1.0
+        },
+        "model": "newtonian_point_masses",
+        "collisions": "disabled",
+        "integrator": "IAS15",
+        "epsilon": 1e-09,
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "origin": "explicit geometric coordinate epoch",
+          "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+        },
+        "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for JPL ephemerides",
+        "jupiter_representation": "physical center599 and planet GM; no independent barycenter5 particle",
+        "excluded_influences": [
+          "demais planetas e luas, incluindo luas jovianas",
+          "asteroides e outros corpos menores",
+          "relatividade",
+          "multipolos e deformações de maré",
+          "campos EM e processos estelares",
+          "colisões"
+        ]
+      },
+      "physical_scale": {
+        "schema": 1,
+        "length_unit_m": 1000000000.0,
+        "nominal_GM_unit_m3_s2": 1.3271244e+20,
+        "G_m3_kg_s2": 6.6743e-11,
+        "G_standard_uncertainty": 1.5e-15,
+        "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+        "sources": [
+          "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+          "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+        ],
+        "time_unit_s": 2745.0115932913473,
+        "mass_unit_kg": 1.988409870698051e+30,
+        "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+        "velocity_unit_m_s": 364297.1863739823
+      },
+      "source": {
+        "model": "DE442s + original JUP365 planet599 subset",
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "origin": "explicit geometric coordinate epoch",
+          "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+        },
+        "frame": "J2000/ICRF",
+        "center_naif_id": "0",
+        "aberration": "NONE",
+        "provenance": {
+          "origin": "pinned geometric reference, not observations or an evolved experiment",
+          "kernel_sha256": {
+            "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+            "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+            "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+            "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+          },
+          "catalog_code_sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+        }
+      },
+      "reference_catalog": {
+        "schema": 1,
+        "kind": "solar_four_center_reference",
+        "version": "1.0.0",
+        "model": "DE442s + original JUP365 planet599 subset",
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "origin": "explicit geometric coordinate epoch",
+          "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+        },
+        "frame": "J2000/ICRF",
+        "center_naif_id": "0",
+        "aberration": "NONE",
+        "position_unit": "m",
+        "velocity_unit": "m/s",
+        "render_frame": "GALACTIC",
+        "j2000_to_render_frame": [
+          [
+            -0.054875539395742516,
+            -0.8734371047275961,
+            -0.4838349917700252
+          ],
+          [
+            0.49410945362774383,
+            -0.44482959429757496,
+            0.7469822486998919
+          ],
+          [
+            -0.8676661356833737,
+            -0.19807638961301985,
+            0.4559837945214199
+          ]
+        ],
+        "bodies": [
+          {
+            "id": "sol:naif:10",
+            "naif_id": "10",
+            "name": "Sol",
+            "entity_kind": "physical_body",
+            "position_m": [
+              -176817149.29512244,
+              -707414380.3156806,
+              -291488051.64201283
+            ],
+            "velocity_m_s": [
+              10.431637642443171,
+              4.199911992498089,
+              1.5769685448293278
+            ],
+            "GM": {
+              "value": 1.327124400412533e+20,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "132712440041.253311",
+              "source_line": 49,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "10",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "10",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": null,
+              "model": null,
+              "body_to_j2000": null,
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "unavailable",
+                "model": null,
+                "version": null,
+                "reason": "Campo solar e plasma não adotados nesta candidata.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "pp-I/CNO-I",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "pp-I/CNO-I and beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          },
+          {
+            "id": "sol:naif:399",
+            "naif_id": "399",
+            "name": "Terra",
+            "entity_kind": "physical_body",
+            "position_m": [
+              142010760173.79904,
+              41230953228.36009,
+              17887445563.447414
+            ],
+            "velocity_m_s": [
+              -9594.70764745716,
+              25931.33796021983,
+              11241.190603882991
+            ],
+            "GM": {
+              "value": 398600435544000.0,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "398600.435544",
+              "source_line": 42,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "399",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "399",
+                "3",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": "IAU_EARTH",
+              "model": "general PCK00011",
+              "body_to_j2000": [
+                [
+                  -0.9416892898556734,
+                  0.3364736328717559,
+                  0.0026030276987506567
+                ],
+                [
+                  -0.33647479191255186,
+                  -0.9416924733407406,
+                  -7.797657424713633e-06
+                ],
+                [
+                  0.002448627885689379,
+                  -0.0008831961737625521,
+                  0.9999966120872591
+                ]
+              ],
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "available_bench",
+                "model": "IGRF14",
+                "version": null,
+                "reason": "Instrumento validado separado; associação à cena pendente.",
+                "epoch": null,
+                "frame": null,
+                "domain": "Ver domínio e conversão de eixos da bancada IGRF14.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "AME2020 effective nuclear benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          },
+          {
+            "id": "sol:naif:301",
+            "naif_id": "301",
+            "name": "Lua",
+            "entity_kind": "physical_body",
+            "position_m": [
+              141666134603.85754,
+              41075916205.35465,
+              17787562053.0397
+            ],
+            "velocity_m_s": [
+              -9160.002895729092,
+              25114.764752419364,
+              10833.823908739369
+            ],
+            "GM": {
+              "value": 4902800104000.0,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "4902.800104",
+              "source_line": 50,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "301",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "301",
+                "3",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": "IAU_MOON",
+              "model": "general PCK00011",
+              "body_to_j2000": [
+                [
+                  0.9197432084210847,
+                  -0.392222667116923,
+                  0.015290845724699772
+                ],
+                [
+                  0.3686380699347073,
+                  0.8497457805873022,
+                  -0.37687939950187027
+                ],
+                [
+                  0.13482731161787284,
+                  0.35226905594128455,
+                  0.92613611757027
+                ]
+              ],
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "unavailable",
+                "model": null,
+                "version": null,
+                "reason": "Modelo de campo não adotado nesta candidata. Lua: campo crostal/externo não adotado.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "AME2020 effective nuclear benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          },
+          {
+            "id": "sol:naif:599",
+            "naif_id": "599",
+            "name": "Júpiter",
+            "entity_kind": "physical_body",
+            "position_m": [
+              -531356989811.89465,
+              537443713319.7435,
+              243304724942.26086
+            ],
+            "velocity_m_s": [
+              -9864.096006139429,
+              -7559.796157931543,
+              -3000.136908784328
+            ],
+            "GM": {
+              "value": 1.266865319003704e+17,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+              "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+              "raw_value_km3_s2": "126686531.9003704",
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+              "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+              "source_rows": [
+                {
+                  "line": 83,
+                  "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+                },
+                {
+                  "line": 150,
+                  "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+                }
+              ],
+              "source_resolution_m3_s2": 100.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "599",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "599",
+                "5",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+                "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": "IAU_JUPITER",
+              "model": "general PCK00011",
+              "body_to_j2000": [
+                [
+                  -0.5873533520429849,
+                  -0.8091990302468868,
+                  -0.01459346742098662
+                ],
+                [
+                  0.7341956920557889,
+                  -0.5251520071856098,
+                  -0.43031622687931054
+                ],
+                [
+                  0.3405476847823085,
+                  -0.26346213920869754,
+                  0.902560233775556
+                ]
+              ],
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "unavailable",
+                "model": null,
+                "version": null,
+                "reason": "Modelo de campo não adotado nesta candidata; JRM33 é apenas proposta de estudo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "AME2020 effective nuclear benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          }
+        ],
+        "provenance": {
+          "origin": "pinned geometric reference, not observations or an evolved experiment",
+          "kernel_sha256": {
+            "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+            "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+            "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+            "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+          },
+          "catalog_code_sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+        },
+        "uncertainty": null,
+        "uncertainty_reason": "Numerical agreement is not observational accuracy."
+      },
+      "initial_ssb_origin_m": [
+        -682961686.1834425,
+        -194062507.76470414,
+        -59119763.683327064
+      ],
+      "inertial_origin_velocity_m_s": [
+        0.9853287452846979,
+        -2.9350029553591717,
+        -1.2515832983468462
+      ],
+      "render_frame": "GALACTIC",
+      "j2000_to_render_frame": [
+        [
+          -0.054875539395742516,
+          -0.8734371047275961,
+          -0.4838349917700252
+        ],
+        [
+          0.49410945362774383,
+          -0.44482959429757496,
+          0.7469822486998919
+        ],
+        [
+          -0.8676661356833737,
+          -0.19807638961301985,
+          0.4559837945214199
+        ]
+      ],
+      "generation": {
+        "schema": 1,
+        "model_id": "cosmos2:reduced-sun-earth-moon-jupiter599-newton",
+        "model_version": "1.0.0-candidate",
+        "code_sha256": {
+          "solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+          "solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+          "solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+          "import_dispatch.py": "f634e5377379d34bcf543c3862e1e7790ac2f7598e1c47a2d9b028ca595085d7",
+          "session.py": "caaeaada0ceddf0c39ce4bc0ac4bce24504b9418bd93862fe3a660358718485d",
+          "body_registry.py": "20732fd25f24bd024aad3de96cfd355a3af66c6e0b2a8121b45b13fa43d8be7c",
+          "physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+          "solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+          "earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+          "geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+          "jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+          "jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28"
+        },
+        "runtime": {
+          "python": "3.12.10",
+          "rebound": "5.2.2"
+        },
+        "data_sha256": {
+          "canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+          "igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+          "earth_EOP_PCK": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+          "earth_EOP_receipt": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+          "JRM33_coefficients": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+          "Jupiter_orientation_receipt": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312",
+          "PCK00011": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "LSK": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+        }
+      },
+      "bodies": [
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+          "reference_id": "sol:naif:10",
+          "naif_id": "10",
+          "name": "Sol",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 1.327124400412533e+20,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "132712440041.253311",
+            "source_line": 49,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "source_position_m": [
+            -176817149.29512244,
+            -707414380.3156806,
+            -291488051.64201283
+          ],
+          "source_velocity_m_s": [
+            10.431637642443171,
+            4.199911992498089,
+            1.5769685448293278
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 1.0000000003108473,
+          "position": [
+            0.5061445368883201,
+            -0.5133518725509765,
+            -0.23236828795868575
+          ],
+          "velocity": [
+            2.593022743651121e-05,
+            1.9585424249015912e-05,
+            7.764407601744207e-06
+          ]
+        },
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:399",
+          "reference_id": "sol:naif:399",
+          "naif_id": "399",
+          "name": "Terra",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 398600435544000.0,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "398600.435544",
+            "source_line": 42,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "source_position_m": [
+            142010760173.79904,
+            41230953228.36009,
+            17887445563.447414
+          ],
+          "source_velocity_m_s": [
+            -9594.70764745716,
+            25931.33796021983,
+            11241.190603882991
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 3.0034896166779844e-06,
+          "position": [
+            142.69372185998247,
+            41.42501573612479,
+            17.94656532713074
+          ],
+          "velocity": [
+            -0.02634028846534006,
+            0.07118987994749824,
+            0.030860634140720503
+          ]
+        },
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:301",
+          "reference_id": "sol:naif:301",
+          "naif_id": "301",
+          "name": "Lua",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 4902800104000.0,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "4902.800104",
+            "source_line": 50,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "source_position_m": [
+            141666134603.85754,
+            41075916205.35465,
+            17787562053.0397
+          ],
+          "source_velocity_m_s": [
+            -9160.002895729092,
+            25114.764752419364,
+            10833.823908739369
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 3.694303340365078e-08,
+          "position": [
+            142.349096290041,
+            41.26997871311936,
+            17.846681816723027
+          ],
+          "velocity": [
+            -0.02514701888218768,
+            0.06894837702531485,
+            0.029742407839830474
+          ]
+        },
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:599",
+          "reference_id": "sol:naif:599",
+          "naif_id": "599",
+          "name": "Júpiter",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 1.266865319003704e+17,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+            "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+            "raw_value_km3_s2": "126686531.9003704",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+            "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+            "source_rows": [
+              {
+                "line": 83,
+                "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+              },
+              {
+                "line": 150,
+                "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 100.0
+          },
+          "source_position_m": [
+            -531356989811.89465,
+            537443713319.7435,
+            243304724942.26086
+          ],
+          "source_velocity_m_s": [
+            -9864.096006139429,
+            -7559.796157931543,
+            -3000.136908784328
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 0.0009545942482887844,
+          "position": [
+            -530.6740281257112,
+            537.6377758275082,
+            243.3638447059442
+          ],
+          "velocity": [
+            -0.02707976263302062,
+            -0.020743671479302665,
+            -0.008231974985410314
+          ]
+        }
+      ],
+      "initial_state_sha256": "43829d07408e24bc46db9e50940c43e8aece86acb1fc2ec9adbfa5b7703ede85"
+    },
+    "interventions": [
+      {
+        "revision": 1,
+        "time": 16.333333333333332,
+        "body": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+        "type": "set_mass",
+        "old_mass": 1.0000000003108473,
+        "new_mass": 1.0000000003108473,
+        "policy": "preserve_position_and_velocity",
+        "external_energy_delta": 0.0,
+        "external_momentum_delta": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "system_id": "abe2511b219246869f3f8d493e78a9f5",
+        "external_mass_delta": 0.0,
+        "external_angular_momentum_delta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "external_mass_delta_kg": 0.0,
+        "external_energy_delta_J": 0.0,
+        "external_momentum_delta_kg_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "external_angular_momentum_delta_kg_m2_s": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "revision": 2,
+        "time": 16.333333333333332,
+        "body": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+        "type": "set_mass",
+        "old_mass": 1.0000000003108473,
+        "new_mass": 1.0000000003108473,
+        "policy": "preserve_position_and_velocity",
+        "external_energy_delta": 0.0,
+        "external_momentum_delta": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "system_id": "abe2511b219246869f3f8d493e78a9f5",
+        "external_mass_delta": 0.0,
+        "external_angular_momentum_delta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "external_mass_delta_kg": 0.0,
+        "external_energy_delta_J": 0.0,
+        "external_momentum_delta_kg_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "external_angular_momentum_delta_kg_m2_s": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "revision": 3,
+        "time": 16.333333333333332,
+        "body": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+        "type": "set_mass",
+        "old_mass": 1.0000000003108473,
+        "new_mass": 1.0000000003108473,
+        "policy": "preserve_position_and_velocity",
+        "external_energy_delta": 0.0,
+        "external_momentum_delta": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "system_id": "abe2511b219246869f3f8d493e78a9f5",
+        "external_mass_delta": 0.0,
+        "external_angular_momentum_delta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "external_mass_delta_kg": 0.0,
+        "external_energy_delta_J": 0.0,
+        "external_momentum_delta_kg_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "external_angular_momentum_delta_kg_m2_s": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "navigation_before": {
+    "Anchor": "LabFrame",
+    "Position": [
+      0.0,
+      -987890981468.7184,
+      592734588881.2312
+    ],
+    "ReferenceFrame": "Root",
+    "Timestamp": "2026 OCT 11 12:00:00",
+    "Up": [
+      0.0,
+      0.5144957554275265,
+      0.8574929257125442
+    ]
+  },
+  "notice": "Sessão salva no armazenamento próprio da candidata.",
+  "physical_after": {
+    "system_id": "abe2511b219246869f3f8d493e78a9f5",
+    "edit_token": "7c231c2d9f2a4252a376bd3aee82f1e4",
+    "revision": 3,
+    "time": 16.333333333333332,
+    "paused": true,
+    "bodies": [
+      {
+        "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+        "mass": 1.0000000003108473,
+        "position": [
+          0.5065679462909468,
+          -0.5130318354902692,
+          -0.23224140521310213
+        ],
+        "velocity": [
+          2.591581890432978e-05,
+          1.960278817480963e-05,
+          7.772255575995723e-06
+        ],
+        "name": "Sol",
+        "reference_id": "sol:naif:10",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+        },
+        "scene_node": "LabBody_5d7de2e0524344761156612d",
+        "label_node": "LabLabel_5d7de2e0524344761156612d",
+        "spin_node": "LabSpin_5d7de2e0524344761156612d",
+        "shape_node": "LabShape_5d7de2e0524344761156612d",
+        "applied_GM_m3_s2": 1.327124400412533e+20,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:399",
+        "mass": 3.0034896166779844e-06,
+        "position": [
+          142.25778135827989,
+          42.58607528685744,
+          18.44987903281961
+        ],
+        "velocity": [
+          -0.027039831493687362,
+          0.07097965819818078,
+          0.030769170999207868
+        ],
+        "name": "Terra",
+        "reference_id": "sol:naif:399",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+        },
+        "scene_node": "LabBody_156b23bc97e8c1c0051654f3",
+        "label_node": "LabLabel_156b23bc97e8c1c0051654f3",
+        "spin_node": "LabSpin_156b23bc97e8c1c0051654f3",
+        "shape_node": "LabShape_156b23bc97e8c1c0051654f3",
+        "applied_GM_m3_s2": 398600435544000.0,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:301",
+        "mass": 3.694303340365078e-08,
+        "position": [
+          141.93489787231357,
+          42.3955492997141,
+          18.332444904295755
+        ],
+        "velocity": [
+          -0.02557449634493525,
+          0.06888011964788956,
+          0.029740541450176575
+        ],
+        "name": "Lua",
+        "reference_id": "sol:naif:301",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+        },
+        "scene_node": "LabBody_c96957fe70a068fb3b2405f5",
+        "label_node": "LabLabel_c96957fe70a068fb3b2405f5",
+        "spin_node": "LabSpin_c96957fe70a068fb3b2405f5",
+        "shape_node": "LabShape_c96957fe70a068fb3b2405f5",
+        "applied_GM_m3_s2": 4902800104000.0,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:599",
+        "mass": 0.0009545942482887844,
+        "position": [
+          -531.1161895560766,
+          537.2988193822084,
+          243.229324317932
+        ],
+        "velocity": [
+          -0.027062451199653215,
+          -0.02076119725567651,
+          -0.008239908404998369
+        ],
+        "name": "Júpiter",
+        "reference_id": "sol:naif:599",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+        },
+        "scene_node": "LabBody_d6925d1923ae74cf51345837",
+        "label_node": "LabLabel_d6925d1923ae74cf51345837",
+        "spin_node": "LabSpin_d6925d1923ae74cf51345837",
+        "shape_node": "LabShape_d6925d1923ae74cf51345837",
+        "applied_GM_m3_s2": 1.266865319003704e+17,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "atlas_initial": {
+      "schema": 2,
+      "kind": "solar_four_physical_centers",
+      "version": "1.0.0",
+      "branch_id": "19bc450c015f4bcaac761ab6eaf5153b",
+      "contract": {
+        "schema": 2,
+        "frame": "initial_subset_barycenter_inertial_axes_J2000",
+        "units": {
+          "system": "canonical",
+          "G": 1.0
+        },
+        "model": "newtonian_point_masses",
+        "collisions": "disabled",
+        "integrator": "IAS15",
+        "epsilon": 1e-09,
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "origin": "explicit geometric coordinate epoch",
+          "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+        },
+        "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for JPL ephemerides",
+        "jupiter_representation": "physical center599 and planet GM; no independent barycenter5 particle",
+        "excluded_influences": [
+          "demais planetas e luas, incluindo luas jovianas",
+          "asteroides e outros corpos menores",
+          "relatividade",
+          "multipolos e deformações de maré",
+          "campos EM e processos estelares",
+          "colisões"
+        ]
+      },
+      "physical_scale": {
+        "schema": 1,
+        "length_unit_m": 1000000000.0,
+        "nominal_GM_unit_m3_s2": 1.3271244e+20,
+        "G_m3_kg_s2": 6.6743e-11,
+        "G_standard_uncertainty": 1.5e-15,
+        "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+        "sources": [
+          "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+          "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+        ],
+        "time_unit_s": 2745.0115932913473,
+        "mass_unit_kg": 1.988409870698051e+30,
+        "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+        "velocity_unit_m_s": 364297.1863739823
+      },
+      "source": {
+        "model": "DE442s + original JUP365 planet599 subset",
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "origin": "explicit geometric coordinate epoch",
+          "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+        },
+        "frame": "J2000/ICRF",
+        "center_naif_id": "0",
+        "aberration": "NONE",
+        "provenance": {
+          "origin": "pinned geometric reference, not observations or an evolved experiment",
+          "kernel_sha256": {
+            "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+            "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+            "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+            "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+          },
+          "catalog_code_sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+        }
+      },
+      "reference_catalog": {
+        "schema": 1,
+        "kind": "solar_four_center_reference",
+        "version": "1.0.0",
+        "model": "DE442s + original JUP365 planet599 subset",
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "origin": "explicit geometric coordinate epoch",
+          "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+        },
+        "frame": "J2000/ICRF",
+        "center_naif_id": "0",
+        "aberration": "NONE",
+        "position_unit": "m",
+        "velocity_unit": "m/s",
+        "render_frame": "GALACTIC",
+        "j2000_to_render_frame": [
+          [
+            -0.054875539395742516,
+            -0.8734371047275961,
+            -0.4838349917700252
+          ],
+          [
+            0.49410945362774383,
+            -0.44482959429757496,
+            0.7469822486998919
+          ],
+          [
+            -0.8676661356833737,
+            -0.19807638961301985,
+            0.4559837945214199
+          ]
+        ],
+        "bodies": [
+          {
+            "id": "sol:naif:10",
+            "naif_id": "10",
+            "name": "Sol",
+            "entity_kind": "physical_body",
+            "position_m": [
+              -176817149.29512244,
+              -707414380.3156806,
+              -291488051.64201283
+            ],
+            "velocity_m_s": [
+              10.431637642443171,
+              4.199911992498089,
+              1.5769685448293278
+            ],
+            "GM": {
+              "value": 1.327124400412533e+20,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "132712440041.253311",
+              "source_line": 49,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "10",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "10",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": null,
+              "model": null,
+              "body_to_j2000": null,
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "unavailable",
+                "model": null,
+                "version": null,
+                "reason": "Campo solar e plasma não adotados nesta candidata.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "pp-I/CNO-I",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "pp-I/CNO-I and beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          },
+          {
+            "id": "sol:naif:399",
+            "naif_id": "399",
+            "name": "Terra",
+            "entity_kind": "physical_body",
+            "position_m": [
+              142010760173.79904,
+              41230953228.36009,
+              17887445563.447414
+            ],
+            "velocity_m_s": [
+              -9594.70764745716,
+              25931.33796021983,
+              11241.190603882991
+            ],
+            "GM": {
+              "value": 398600435544000.0,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "398600.435544",
+              "source_line": 42,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "399",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "399",
+                "3",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": "IAU_EARTH",
+              "model": "general PCK00011",
+              "body_to_j2000": [
+                [
+                  -0.9416892898556734,
+                  0.3364736328717559,
+                  0.0026030276987506567
+                ],
+                [
+                  -0.33647479191255186,
+                  -0.9416924733407406,
+                  -7.797657424713633e-06
+                ],
+                [
+                  0.002448627885689379,
+                  -0.0008831961737625521,
+                  0.9999966120872591
+                ]
+              ],
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "available_bench",
+                "model": "IGRF14",
+                "version": null,
+                "reason": "Instrumento validado separado; associação à cena pendente.",
+                "epoch": null,
+                "frame": null,
+                "domain": "Ver domínio e conversão de eixos da bancada IGRF14.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "AME2020 effective nuclear benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          },
+          {
+            "id": "sol:naif:301",
+            "naif_id": "301",
+            "name": "Lua",
+            "entity_kind": "physical_body",
+            "position_m": [
+              141666134603.85754,
+              41075916205.35465,
+              17787562053.0397
+            ],
+            "velocity_m_s": [
+              -9160.002895729092,
+              25114.764752419364,
+              10833.823908739369
+            ],
+            "GM": {
+              "value": 4902800104000.0,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "4902.800104",
+              "source_line": 50,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "301",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "301",
+                "3",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": "IAU_MOON",
+              "model": "general PCK00011",
+              "body_to_j2000": [
+                [
+                  0.9197432084210847,
+                  -0.392222667116923,
+                  0.015290845724699772
+                ],
+                [
+                  0.3686380699347073,
+                  0.8497457805873022,
+                  -0.37687939950187027
+                ],
+                [
+                  0.13482731161787284,
+                  0.35226905594128455,
+                  0.92613611757027
+                ]
+              ],
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "unavailable",
+                "model": null,
+                "version": null,
+                "reason": "Modelo de campo não adotado nesta candidata. Lua: campo crostal/externo não adotado.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "AME2020 effective nuclear benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          },
+          {
+            "id": "sol:naif:599",
+            "naif_id": "599",
+            "name": "Júpiter",
+            "entity_kind": "physical_body",
+            "position_m": [
+              -531356989811.89465,
+              537443713319.7435,
+              243304724942.26086
+            ],
+            "velocity_m_s": [
+              -9864.096006139429,
+              -7559.796157931543,
+              -3000.136908784328
+            ],
+            "GM": {
+              "value": 1.266865319003704e+17,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+              "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+              "raw_value_km3_s2": "126686531.9003704",
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+              "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+              "source_rows": [
+                {
+                  "line": 83,
+                  "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+                },
+                {
+                  "line": 150,
+                  "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+                }
+              ],
+              "source_resolution_m3_s2": 100.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "599",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "599",
+                "5",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+                "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": "IAU_JUPITER",
+              "model": "general PCK00011",
+              "body_to_j2000": [
+                [
+                  -0.5873533520429849,
+                  -0.8091990302468868,
+                  -0.01459346742098662
+                ],
+                [
+                  0.7341956920557889,
+                  -0.5251520071856098,
+                  -0.43031622687931054
+                ],
+                [
+                  0.3405476847823085,
+                  -0.26346213920869754,
+                  0.902560233775556
+                ]
+              ],
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "unavailable",
+                "model": null,
+                "version": null,
+                "reason": "Modelo de campo não adotado nesta candidata; JRM33 é apenas proposta de estudo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "AME2020 effective nuclear benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          }
+        ],
+        "provenance": {
+          "origin": "pinned geometric reference, not observations or an evolved experiment",
+          "kernel_sha256": {
+            "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+            "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+            "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+            "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+          },
+          "catalog_code_sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+        },
+        "uncertainty": null,
+        "uncertainty_reason": "Numerical agreement is not observational accuracy."
+      },
+      "initial_ssb_origin_m": [
+        -682961686.1834425,
+        -194062507.76470414,
+        -59119763.683327064
+      ],
+      "inertial_origin_velocity_m_s": [
+        0.9853287452846979,
+        -2.9350029553591717,
+        -1.2515832983468462
+      ],
+      "render_frame": "GALACTIC",
+      "j2000_to_render_frame": [
+        [
+          -0.054875539395742516,
+          -0.8734371047275961,
+          -0.4838349917700252
+        ],
+        [
+          0.49410945362774383,
+          -0.44482959429757496,
+          0.7469822486998919
+        ],
+        [
+          -0.8676661356833737,
+          -0.19807638961301985,
+          0.4559837945214199
+        ]
+      ],
+      "generation": {
+        "schema": 1,
+        "model_id": "cosmos2:reduced-sun-earth-moon-jupiter599-newton",
+        "model_version": "1.0.0-candidate",
+        "code_sha256": {
+          "solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+          "solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+          "solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+          "import_dispatch.py": "f634e5377379d34bcf543c3862e1e7790ac2f7598e1c47a2d9b028ca595085d7",
+          "session.py": "caaeaada0ceddf0c39ce4bc0ac4bce24504b9418bd93862fe3a660358718485d",
+          "body_registry.py": "20732fd25f24bd024aad3de96cfd355a3af66c6e0b2a8121b45b13fa43d8be7c",
+          "physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+          "solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+          "earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+          "geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+          "jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+          "jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28"
+        },
+        "runtime": {
+          "python": "3.12.10",
+          "rebound": "5.2.2"
+        },
+        "data_sha256": {
+          "canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+          "igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+          "earth_EOP_PCK": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+          "earth_EOP_receipt": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+          "JRM33_coefficients": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+          "Jupiter_orientation_receipt": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312",
+          "PCK00011": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "LSK": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+        }
+      },
+      "bodies": [
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+          "reference_id": "sol:naif:10",
+          "naif_id": "10",
+          "name": "Sol",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 1.327124400412533e+20,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "132712440041.253311",
+            "source_line": 49,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "source_position_m": [
+            -176817149.29512244,
+            -707414380.3156806,
+            -291488051.64201283
+          ],
+          "source_velocity_m_s": [
+            10.431637642443171,
+            4.199911992498089,
+            1.5769685448293278
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 1.0000000003108473,
+          "position": [
+            0.5061445368883201,
+            -0.5133518725509765,
+            -0.23236828795868575
+          ],
+          "velocity": [
+            2.593022743651121e-05,
+            1.9585424249015912e-05,
+            7.764407601744207e-06
+          ]
+        },
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:399",
+          "reference_id": "sol:naif:399",
+          "naif_id": "399",
+          "name": "Terra",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 398600435544000.0,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "398600.435544",
+            "source_line": 42,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "source_position_m": [
+            142010760173.79904,
+            41230953228.36009,
+            17887445563.447414
+          ],
+          "source_velocity_m_s": [
+            -9594.70764745716,
+            25931.33796021983,
+            11241.190603882991
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 3.0034896166779844e-06,
+          "position": [
+            142.69372185998247,
+            41.42501573612479,
+            17.94656532713074
+          ],
+          "velocity": [
+            -0.02634028846534006,
+            0.07118987994749824,
+            0.030860634140720503
+          ]
+        },
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:301",
+          "reference_id": "sol:naif:301",
+          "naif_id": "301",
+          "name": "Lua",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 4902800104000.0,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "4902.800104",
+            "source_line": 50,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "source_position_m": [
+            141666134603.85754,
+            41075916205.35465,
+            17787562053.0397
+          ],
+          "source_velocity_m_s": [
+            -9160.002895729092,
+            25114.764752419364,
+            10833.823908739369
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 3.694303340365078e-08,
+          "position": [
+            142.349096290041,
+            41.26997871311936,
+            17.846681816723027
+          ],
+          "velocity": [
+            -0.02514701888218768,
+            0.06894837702531485,
+            0.029742407839830474
+          ]
+        },
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:599",
+          "reference_id": "sol:naif:599",
+          "naif_id": "599",
+          "name": "Júpiter",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 1.266865319003704e+17,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+            "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+            "raw_value_km3_s2": "126686531.9003704",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+            "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+            "source_rows": [
+              {
+                "line": 83,
+                "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+              },
+              {
+                "line": 150,
+                "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 100.0
+          },
+          "source_position_m": [
+            -531356989811.89465,
+            537443713319.7435,
+            243304724942.26086
+          ],
+          "source_velocity_m_s": [
+            -9864.096006139429,
+            -7559.796157931543,
+            -3000.136908784328
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 0.0009545942482887844,
+          "position": [
+            -530.6740281257112,
+            537.6377758275082,
+            243.3638447059442
+          ],
+          "velocity": [
+            -0.02707976263302062,
+            -0.020743671479302665,
+            -0.008231974985410314
+          ]
+        }
+      ],
+      "initial_state_sha256": "43829d07408e24bc46db9e50940c43e8aece86acb1fc2ec9adbfa5b7703ede85"
+    },
+    "interventions": [
+      {
+        "revision": 1,
+        "time": 16.333333333333332,
+        "body": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+        "type": "set_mass",
+        "old_mass": 1.0000000003108473,
+        "new_mass": 1.0000000003108473,
+        "policy": "preserve_position_and_velocity",
+        "external_energy_delta": 0.0,
+        "external_momentum_delta": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "system_id": "abe2511b219246869f3f8d493e78a9f5",
+        "external_mass_delta": 0.0,
+        "external_angular_momentum_delta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "external_mass_delta_kg": 0.0,
+        "external_energy_delta_J": 0.0,
+        "external_momentum_delta_kg_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "external_angular_momentum_delta_kg_m2_s": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "revision": 2,
+        "time": 16.333333333333332,
+        "body": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+        "type": "set_mass",
+        "old_mass": 1.0000000003108473,
+        "new_mass": 1.0000000003108473,
+        "policy": "preserve_position_and_velocity",
+        "external_energy_delta": 0.0,
+        "external_momentum_delta": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "system_id": "abe2511b219246869f3f8d493e78a9f5",
+        "external_mass_delta": 0.0,
+        "external_angular_momentum_delta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "external_mass_delta_kg": 0.0,
+        "external_energy_delta_J": 0.0,
+        "external_momentum_delta_kg_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "external_angular_momentum_delta_kg_m2_s": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "revision": 3,
+        "time": 16.333333333333332,
+        "body": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+        "type": "set_mass",
+        "old_mass": 1.0000000003108473,
+        "new_mass": 1.0000000003108473,
+        "policy": "preserve_position_and_velocity",
+        "external_energy_delta": 0.0,
+        "external_momentum_delta": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "system_id": "abe2511b219246869f3f8d493e78a9f5",
+        "external_mass_delta": 0.0,
+        "external_angular_momentum_delta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "external_mass_delta_kg": 0.0,
+        "external_energy_delta_J": 0.0,
+        "external_momentum_delta_kg_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "external_angular_momentum_delta_kg_m2_s": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "capture": {
+    "path": "C:\\Users\\Ian\\cosmos2\\output\\orbits-session-preservation-20261121a\\saved-live-session.png",
+    "size": [
+      1440,
+      900
+    ],
+    "method": "Unedited Windows client-area capture",
+    "sha256": "64192ba6dcfdc8a8b58238c1d9662e5a8817d26f40ade3a8ebfaeefeb25168d9"
+  },
+  "source_manifest_sha256": "a1c587da97dc8215314b2137ce37600684f8f5e355e25cc7a59364d28c913b1d",
+  "script_sha256": "ad4c011a81a2d76487582d34288e16ba7531830170a0171cb99c3a47a9039512"
+}

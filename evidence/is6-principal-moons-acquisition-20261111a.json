@@ -1,0 +1,53 @@
+{
+  "completed": true,
+  "script_sha256": "fa6da54cf340a87a3794911db822b3591cdab2cbb9cc7b2f8356e9c5bfd4066b",
+  "files": {
+    "aa_checksums.txt": {
+      "path": "output/is6-principal-moons-acquisition-20261111a/aa_checksums.txt",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/aa_checksums.txt",
+      "bytes": 1847,
+      "sha256": "bcf1491e062427558d1a00692d8e78656082debbb1d96e034d1e5810597cfdba"
+    },
+    "jup365.cmt": {
+      "path": "output/is6-principal-moons-acquisition-20261111a/jup365.cmt",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+      "bytes": 69594,
+      "sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a"
+    },
+    "jup365.mrg": {
+      "path": "output/is6-principal-moons-acquisition-20261111a/jup365.mrg",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.mrg",
+      "bytes": 409,
+      "sha256": "e954b0291ac1ef2ad45bea296975ed63ef0db5a42c72afc5a770104c116096b1"
+    },
+    "jup365.bsp": {
+      "path": "output/is6-principal-moons-acquisition-20261111a/jup365.bsp",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp",
+      "bytes": 1136581632,
+      "sha256": "dbf016c01ba4d022154838000cf3f06962cf958ddc503a366f7fe8f81495c5cb",
+      "published_md5": "9dcee11a333945310db8b76eb695fc9c"
+    },
+    "sat441.cmt": {
+      "path": "output/is6-principal-moons-acquisition-20261111a/sat441.cmt",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.cmt",
+      "bytes": 67276,
+      "sha256": "a45d31f6039854593395b539a3fb61df8f83ab13fb621c3ce5d710ed35629882"
+    },
+    "sat441.mrg": {
+      "path": "output/is6-principal-moons-acquisition-20261111a/sat441.mrg",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.mrg",
+      "bytes": 406,
+      "sha256": "9e6c4d2d7d72437c73efffd631265909973cf44b1d1717a9f1ca79604fa5adb2"
+    },
+    "sat441.bsp": {
+      "path": "output/is6-principal-moons-acquisition-20261111a/sat441.bsp",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.bsp",
+      "bytes": 661592064,
+      "sha256": "d7e444a9ba7a52b8f448ff0747030789524d2f0c1212e4e2bd7f5fc3c96444d5",
+      "published_md5": "0d081d7e58504450cf2aa0b151a36b41"
+    }
+  },
+  "started_utc": "2026-11-11T16:39:17.641614+00:00",
+  "contract_sha256": "a4942e7c97009879e7e095589833e9b79be6c870d7719c5418479f1b486fc5ff",
+  "completed_utc": "2026-11-11T16:41:43.602735+00:00"
+}

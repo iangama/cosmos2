@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "candidate": "0.27.0",
+  "prepared": true,
+  "service_executed": false,
+  "native_executed": false,
+  "origins": [
+    {
+      "kind": "solar_sixteen_physical_centers",
+      "version": "0.1.0",
+      "count": 16,
+      "role": "Own point-mass dynamics, per-source gravity, checkpoint and parent/child branches"
+    },
+    {
+      "kind": "solar_four_physical_centers",
+      "version": "1.0.0",
+      "count": 4,
+      "role": "One common paused four-center phase across established magnetic, test-particle and nuclear instruments"
+    }
+  ],
+  "phase_policy": "Same confirmed Atlas epoch, two explicit scientific origins; each checkpoint retains its own population/frame/GM/IDs. Preserve the single common phase within the four-body group.",
+  "guard_fields": [
+    "system_id",
+    "edit_token",
+    "revision",
+    "expected_time",
+    "frame"
+  ],
+  "magnetic_admission": {
+    "sixteen": false,
+    "four": true
+  },
+  "nuclear_planetary_coupling": false,
+  "legacy_recipe": {
+    "body_cases": [
+      [
+        "399",
+        "proton"
+      ],
+      [
+        "599",
+        "electron"
+      ]
+    ],
+    "body_representation": "vector",
+    "jovian_degree": 13,
+    "particle_steps": 4,
+    "particle_speeds_m_s": {
+      "proton": 100000,
+      "electron": 1000000
+    },
+    "solar_knots": [
+      120,
+      121
+    ],
+    "solar_default": "0.17.2 accepted prescribed-density N14 configuration",
+    "native_wait_s": 30,
+    "solar_wait_s": 750,
+    "magnetic_points": {
+      "399": {
+        "latitude": -23.55,
+        "longitude": -46.63,
+        "altitude": 1000.0
+      },
+      "599": {
+        "radius": 107238000.0,
+        "latitude": 0.0,
+        "longitude": 0.0
+      }
+    },
+    "magnetic_points_units": {
+      "latitude": "degrees",
+      "longitude": "degrees",
+      "altitude": "m",
+      "radius": "m"
+    },
+    "solar_configuration": {
+      "parameters": {
+        "temperature_K": 15000000.0,
+        "density_kg_m3": 150000.0,
+        "hydrogen_fraction": 0.34,
+        "catalyst_fraction": 0.01,
+        "catalyst_seed": "n14",
+        "duration_s": 31557600000.0,
+        "volume_m3": 1.0
+      },
+      "acting": {
+        "strong": true,
+        "weak": true,
+        "electromagnetic": true
+      },
+      "channel_switches": {
+        "pp": true,
+        "dp": true,
+        "he3he3": true,
+        "c12pg": true,
+        "n13beta": true,
+        "c13pg": true,
+        "n14pg": true,
+        "o15beta": true,
+        "n15pa": true,
+        "he3alpha": true,
+        "be7ec": true,
+        "li7pa": true,
+        "be7p": true,
+        "b8beta2a": true,
+        "n15pg": true,
+        "o16pg": true,
+        "f17beta": true,
+        "o17pa": true
+      },
+      "mode": "prescribed_density",
+      "density_history": {
+        "kind": "exponential",
+        "ratio": 1.05
+      },
+      "include_coulomb": true,
+      "include_screening": true
+    }
+  },
+  "recipe_source": {
+    "path": "evidence/is6-integrated-journey-20261102e.json",
+    "sha256": "3931bca50b94db265c7c8f811b1529d286af21d1649e78a3c2c47db336e93abe"
+  },
+  "pending": [
+    "Prepare and verify service16->4->16 with exact restoration and stale-guard refusals",
+    "Pin particle/solar/layer service configurations and archives",
+    "Prepare own native launcher, full journey and original captures",
+    "Plan residency/transition performance before measuring"
+  ]
+}

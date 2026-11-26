@@ -1,0 +1,28 @@
+{
+  "prepared": true,
+  "accepted": false,
+  "promoted": false,
+  "source_sha256": {
+    "scripts/prepare-is6-dynamics16-registry.py": "8e0ff9e4a9914498603f6e776a47a57b92ceddfc343c9efcdd8fe7a6529d61d7",
+    "output/is6-principal-moons-navigation-product0.25.1/app/body_registry.py": "20732fd25f24bd024aad3de96cfd355a3af66c6e0b2a8121b45b13fa43d8be7c",
+    "output/is6-principal-moons-navigation-product0.25.1/app/import_dispatch.py": "f634e5377379d34bcf543c3862e1e7790ac2f7598e1c47a2d9b028ca595085d7",
+    "output/is6-dynamics16-staging/system16_import.py": "5c396785955b0d3500d5c99d99c994c8d3c2ddff1020bd870753f4afdfda4421",
+    "output/is6-dynamics16-staging/system16_frames.py": "2bd6d6e8545b5e9231c9c7e608ceacd46386ef75ef6b9185a6cd206d835f19d6",
+    "IS-6-DINAMICA16-INTERFACE-CONTRATO.md": "6b3b567b1fb21d03273f4b9b05b2993d426330c8cba147862ee48d631afb44ee",
+    "evidence/is6-dynamics16-audit-20261112b.json": "b37f7211c999dbccd8e896f8d9a6cd746a22707ce47138868e9cf4e5709aa553"
+  },
+  "files_sha256": {
+    "body_registry.py": "e763b3340338d94d5c1288e49951ed8f0b64c8fb50c95494093ca98afadb014d",
+    "import_dispatch.py": "16a9e09ab1ee63faec8033064be6bbea9af7859fc8e145b32f505d1b43c6cdd3",
+    "system16_frames.py": "2bd6d6e8545b5e9231c9c7e608ceacd46386ef75ef6b9185a6cd206d835f19d6",
+    "system16_import.py": "5c396785955b0d3500d5c99d99c994c8d3c2ddff1020bd870753f4afdfda4421"
+  },
+  "pending": [
+    "Session generation metadata and sixteen-body contribution reading",
+    "Dedicated UTC API",
+    "UI control and model/domain text",
+    "Service/persistence/legacy tests",
+    "Own native journey, visual and profile"
+  ],
+  "scope": "Staged source only; incomplete product, no service launched and owner app unchanged."
+}

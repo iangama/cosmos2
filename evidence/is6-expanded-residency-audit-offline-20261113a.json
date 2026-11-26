@@ -1,0 +1,70 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/expanded_residency_audit.py": "d81e06bf39c9fbea3bc99dfba1c8a57b65741325d4ba2c8e6072f315164b9ce8",
+    "scripts/expanded_residency_contract_v2.py": "7bc91797f3f69f0c1e280b4f248b2336c05e9147c94f37a0531f75f6d4f6fc23",
+    "scripts/collect_expanded_residency_v2.py": "aa06be04b6bd086759ce2f8b1785bc8d735a296490649863468d0696603a9f38",
+    "scripts/profile-expanded-residency.py": "88d6f3eba7b727f17a76b2fab7256a444609bf3f19808dd7c2eb5069f05564e7",
+    "scripts/audit-expanded-residency.py": "6096e2b34b36ef722793da0cb8b7152b00709af82b34f5c8f4ac1d2ebd13c075",
+    "scripts/run-expanded-residency.py": "6cc3b72d31560e3e204f1d9fb8f807bfb0f818278d17d5acaad13d633acda504",
+    "scripts/verify-expanded-residency-audit.py": "1de795c3dec6d3a45943843cf39c1f762a501fb3df9cb38bf1861d3cb1586fd5",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-B.md": "9a9e578d4be82e8b9b6da075aa696496805512d7defc96b42398ef10dc615028",
+    "evidence/is6-expanded-journey-native-20261113a.json": "973ee974ad054d8c55a6ceb417023e9ad0ee5bb3109c0202afb4dd212ea9dbdf",
+    "evidence/is6-expanded-instruments-service-20261113c.json": "99d3b46a9a961ed6086e073df5785994fc9862c597b7c4690d100fc5944707ad",
+    "evidence/is6-dynamics16-profile-20261112a.json": "c8e93f0eba634714218b6561201d7ce001c5a7c22367a88dced00606c3a45026"
+  },
+  "checks": [
+    "Actual simple-mesh reference_id schema and accepted spatial configuration",
+    "First66 complete samples; all boundary/excess records retained outside the selection",
+    "Preserved real native frame/CPU trace accepted as an offline fixture",
+    "All transition frames retained, including a1.25second stall"
+  ],
+  "refusals": [
+    {
+      "name": "mixed-spatial-and-pair-schema",
+      "error": "'reference_id'"
+    },
+    {
+      "name": "unsealed-mesh-configuration",
+      "error": "Simple mesh configuration differs"
+    },
+    {
+      "name": "Atlas-wrong-native-anchor",
+      "error": "Atlas Earth/epoch differs"
+    },
+    {
+      "name": "archived-edit-token-reuse",
+      "error": "Archived edit token was reused"
+    },
+    {
+      "name": "changed-archived-mass",
+      "error": "Archived orbital physics changed"
+    },
+    {
+      "name": "missing-postroll",
+      "error": "Stable phase has fewer than66 complete samples"
+    },
+    {
+      "name": "short-preroll",
+      "error": "First66 samples do not retain the three-sample pre-roll"
+    },
+    {
+      "name": "path-churn-inside-stable66",
+      "error": "Population/counter paths changed during stable66"
+    },
+    {
+      "name": "population-churn-inside-stable66",
+      "error": "Population/counter paths changed during stable66"
+    },
+    {
+      "name": "truncated-stage-trace",
+      "error": "Native CPU trace absent/truncated"
+    },
+    {
+      "name": "boolean-stage-count",
+      "error": "Invalid native stage count"
+    }
+  ],
+  "scope": "Synthetic offline boundary/coverage and preserved scientific/native fixtures; no new performance measurement."
+}

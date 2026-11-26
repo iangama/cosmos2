@@ -1,0 +1,15 @@
+{
+  "prepared": true,
+  "native_executed": false,
+  "candidate": "0.27.0",
+  "product_changed": false,
+  "source_sha256": {
+    "scripts/prepare-is6-expanded-native-launcher.py": "8a903232ae8af657012c8ccc5a657a2d45d1d75a3997d047f51bc6db4f650b02",
+    "scripts/launch-is6-dynamics16-candidate-v5.py": "b473a45634f892c596979708dd3a4c70c8c7112c32b51b858d9a720bfbeeb9cf",
+    "scripts/open-dynamics16-app.py": "10f60f069bea64156eb403ec2eaf092442f05df7eb70c6f61d0ad04137d89483",
+    "evidence/is6-expanded-instruments-service-20261113c.json": "99d3b46a9a961ed6086e073df5785994fc9862c597b7c4690d100fc5944707ad"
+  },
+  "launcher_sha256": "7f74e6411ee87ebab51273b99a0f3b044b94bd41aec3ce38939b27355d49c8c9",
+  "opener_sha256": "81856387d53e43851595f221b80d4f401b2beeb18441760ad3821292ef097a2d",
+  "scope": "Own gated launcher/opener only. No shortcuts changed or native acceptance."
+}

@@ -1,0 +1,101 @@
+"""Five-epoch independent service comparison of the new physical centers."""
+import argparse
+import csv
+import hashlib
+import io
+import json
+import math
+from pathlib import Path
+import sys
+import traceback
+import urllib.parse
+import urllib.request
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path[:0] = [str(ROOT / 'output/is6-planet-catalog-staging'),
+               str(ROOT / 'output/is6-spatial-import-product0.22.1/app')]
+import atlas
+import is6_planet_catalog as catalog
+
+EPOCHS = ['1995-01-01T00:00:00', '2000-01-01T12:00:00', '2026-10-11T12:00:00',
+          '2030-06-15T18:30:00', '2049-12-30T23:59:59']
+QUERIES = [('199', '0'), ('299', '0'), ('499', '4'), ('799', '7'), ('899', '8')]
+POSITION_LIMIT_M = 1.
+VELOCITY_LIMIT_M_S = .00001
+
+
+def sha(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--label', required=True)
+    label = parser.parse_args().label
+    if not label or len(label) > 20 or any(c not in 'abcdefghijklmnopqrstuvwxyz0123456789-' for c in label):
+        parser.error('Invalid label')
+    folder = ROOT / 'output' / f'is6-planet-catalog-horizons-{label}'
+    receipt = ROOT / 'evidence' / f'is6-planet-catalog-horizons-{label}.json'
+    if folder.exists() or receipt.exists():
+        raise FileExistsError('Preserve Horizons comparisons')
+    folder.mkdir()
+    result = dict(accepted=False, completed=False, queries=[],
+                  script_sha256=sha(Path(__file__)), catalogue_sha256=sha(Path(catalog.__file__)),
+                  data_sha256=catalog.DATA_SHA256, position_limit_m=POSITION_LIMIT_M,
+                  velocity_limit_m_s=VELOCITY_LIMIT_M_S,
+                  scope='Independent service and pipeline comparison; source observational uncertainty is separate')
+    try:
+        catalog.states(EPOCHS[2])
+        spice = atlas.SPICE
+        data = catalog._data()
+        for path in data['extra_spk']:
+            spice.furnsh(str(ROOT / path))
+        dates = [spice.unitim(spice.str2et(t), 'ET', 'JDTDB') for t in EPOCHS]
+        for target, center in QUERIES:
+            params = dict(
+                format='json', COMMAND=f"'{target}'", OBJ_DATA="'YES'", MAKE_EPHEM="'YES'",
+                EPHEM_TYPE="'VECTORS'", CENTER=f"'500@{center}'", REF_PLANE="'FRAME'",
+                REF_SYSTEM="'ICRF'", VEC_CORR="'NONE'", OUT_UNITS="'KM-S'", VEC_TABLE="'2'",
+                CSV_FORMAT="'YES'", TIME_TYPE="'TDB'", TIME_DIGITS="'FRACSEC'", TLIST_TYPE="'JD'",
+                TLIST="'" + ','.join(f'{date:.16f}' for date in dates) + "'"
+            )
+            url = 'https://ssd.jpl.nasa.gov/api/horizons.api?' + urllib.parse.urlencode(params)
+            print('Querying ' + target + '/' + center, flush=True)
+            with urllib.request.urlopen(url, timeout=60) as response:
+                raw = response.read()
+            raw_path = folder / f'{target}-relative-{center}.json'
+            raw_path.write_bytes(raw)
+            response = json.loads(raw)
+            if response.get('error'):
+                raise ValueError(response['error'])
+            text = response['result']
+            rows = list(csv.reader(io.StringIO(text.split('$$SOE')[1].split('$$EOE')[0].strip())))
+            assert len(rows) == len(EPOCHS)
+            entry = dict(target=target, center=center, query=params, url=url,
+                         header=text.split('$$SOE')[0], response=raw_path.relative_to(ROOT).as_posix(),
+                         response_sha256=sha(raw_path), cases=[])
+            for utc, row in zip(EPOCHS, rows, strict=True):
+                et = spice.unitim(float(row[0]), 'JDTDB', 'ET')
+                state, _ = spice.spkezr(target, et, 'J2000', 'NONE', center)
+                pe = math.dist(state[:3], [float(x) for x in row[2:5]]) * 1000
+                ve = math.dist(state[3:], [float(x) for x in row[5:8]]) * 1000
+                entry['cases'].append(dict(utc=utc, jd_tdb=float(row[0]), position_difference_m=pe,
+                                          velocity_difference_m_s=ve,
+                                          passed=pe <= POSITION_LIMIT_M and ve <= VELOCITY_LIMIT_M_S))
+            result['queries'].append(entry)
+            receipt.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
+        result['completed'] = True
+        result['accepted'] = all(c['passed'] for q in result['queries'] for c in q['cases'])
+    except Exception:
+        result['failure'] = traceback.format_exc()
+    finally:
+        if atlas.SPICE is not None:
+            atlas.SPICE.kclear()
+        receipt.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
+    print(json.dumps(dict(accepted=result['accepted'], completed=result['completed'],
+                          queries=len(result['queries']), failure=result.get('failure'))), flush=True)
+    return 0 if result['accepted'] else 1
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

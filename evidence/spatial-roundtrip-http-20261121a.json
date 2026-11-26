@@ -1,0 +1,53 @@
+{
+  "accepted": true,
+  "completed": true,
+  "native_user_flow_accepted": false,
+  "installed": false,
+  "checks": [
+    {
+      "name": "current-native-export-previews-and-imports-over-http",
+      "branch": "6ab96393799c426097fdd3ac4e7feb40",
+      "source_sha256": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985"
+    },
+    {
+      "name": "semantic-json-equivalence-does-not-bypass-exact-source-text-guard"
+    },
+    {
+      "name": "utf8-bom-is-preserved-in-source-hash-and-import"
+    },
+    {
+      "name": "legacy-schema1-remains-admitted-through-http",
+      "fixture": "Legacy wrapper reconstructed from unchanged native artifact/view for isolated compatibility testing."
+    },
+    {
+      "name": "unknown-format-and-extra-fields-refused-without-branch-creation"
+    },
+    {
+      "name": "restart-retains-valid-current-bom-and-legacy-imports",
+      "branches": 3
+    }
+  ],
+  "server_exits": [
+    {
+      "label": "first",
+      "exit_code": 0
+    },
+    {
+      "label": "restart",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "scripts/verify-spatial-roundtrip-http.py": "d43058016bd42860fddfe289f5bf37c85cc0a226605782e12fbc63ba994c1084",
+    "output/spatial-roundtrip-http-staging-v1/preparation.json": "df252dcec7d68d514db21713a1ea236329692168ad8998d932ed07942752b893"
+  },
+  "protected_sha256": {
+    "output/session.json": "4b7c23cbb8112a3153c789c585b61602ccdb34109f737848e75a574d614ed1da",
+    "Iniciar-Cosmos2.cmd": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4",
+    "Abrir-Planetas.cmd": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4",
+    "Abrir-Planetas-e-Luas.cmd": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4",
+    "config/local-working-product.json": "279e5610c7cc4146c20b72a1588d1f405d2ea0c2e4531e321933b08283ac82cf",
+    "output/original-flow-hotfix-product0.27.6/is6-spatial-import-service-records/exports/f6dee22dbd064d8686fe05629cc07092.json": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985"
+  },
+  "scope": "Real loopback HTTP on separate ports and isolated staging storage; exact file exported by native0.27.6, legacy/BOM compatibility, byte-exact preview guard, import persistence after restart, malformed format/fields refusal. No renderer or live owner-session commands, no native/scientific promotion."
+}

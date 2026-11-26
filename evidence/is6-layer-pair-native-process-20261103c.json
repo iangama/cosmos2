@@ -1,0 +1,61 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "evidence/is6-native-layer-pair-20261103c.json": "ca0278fd2ddccbd0a988814ec1ba6980aef645aeb80822d39472f993e490c2e9",
+    "scripts/audit-is6-pair-process.py": "e1bec99b22d1518bd5e8b99fc85667f66384097017bdd25035a80df3c13f1fb7",
+    "output/is6-host-pair-c-20261103.log": "2a38d963f79d8bc012bc31576fac72d02c4a7d451d9593a514c107d1004b5286",
+    "output/is6-spatial-product0.18.5/execution-logs/1793711019959931100/session.json": "27b4be5ea7637fff461e7020adbd173cab9cd3253e7c57f8a0692938d417e2f8",
+    "output/is6-spatial-product0.18.5/execution-logs/1793711019959931100/process-result.json": "0992090c6233f6d606cba90e0af041d6a797a801ee768f271f6a5d86e2ac2f2e"
+  },
+  "session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6SpatialCandidate": true,
+    "app": 28784,
+    "server": 22644,
+    "launcher": 14024,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-spatial-product0.18.5\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-spatial-product0.18.5\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Spatial-0.18.5-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-03T12:56:35Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-spatial-revision-f.py"
+  },
+  "process_result": {
+    "app_exit": 0,
+    "server_exit": 0
+  },
+  "pids_alive": {
+    "app": false,
+    "server": false,
+    "launcher": false
+  },
+  "remaining_project_engines": [],
+  "owner_sha256": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825",
+  "scope": "Own pair host exit only; no product promotion or broader milestone acceptance."
+}

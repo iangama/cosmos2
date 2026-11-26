@@ -1,0 +1,1267 @@
+{
+  "schema": 3,
+  "rebound": "5.2.2",
+  "binary": "8dd89ce96ece46adae486dd2597bc25b.bin",
+  "sha256": "b93b2352c31e5f97447838cca5f30fc35829920232a192a26db7a003b48cdcb8",
+  "initial_energy": -6.234998608693125e-07,
+  "revision": 0,
+  "interventions": [],
+  "fixture_count": null,
+  "fixture_sha256": "cea1d48c72034f460bdb681ebeed4087d7b8e07ce80bb9e192dfeb04154e0c73",
+  "fixture_source": null,
+  "contract": {
+    "schema": 2,
+    "frame": "initial_subset_barycenter_inertial_axes_J2000",
+    "units": {
+      "system": "canonical",
+      "G": 1.0
+    },
+    "model": "newtonian_point_masses",
+    "collisions": "disabled",
+    "integrator": "IAS15",
+    "epsilon": 1e-09,
+    "epoch": {
+      "utc": "2026-10-11T12:00:00.000Z",
+      "et_tdb_s": 844992069.1823514,
+      "origin": "explicit geometric coordinate epoch",
+      "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+    },
+    "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for JPL ephemerides",
+    "jupiter_representation": "physical center599 and planet GM; no independent barycenter5 particle",
+    "excluded_influences": [
+      "demais planetas e luas, incluindo luas jovianas",
+      "asteroides e outros corpos menores",
+      "relatividade",
+      "multipolos e deforma\u00e7\u00f5es de mar\u00e9",
+      "campos EM e processos estelares",
+      "colis\u00f5es"
+    ]
+  },
+  "body_count": 4,
+  "system_id": "766f4ae34f2b4acfa54a2d9ae5291ad8",
+  "registry": [
+    {
+      "id": "exp:e1e985a26bf846a2b880d414985ed62c:naif:10",
+      "name": "Sol",
+      "reference_id": "sol:naif:10",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "e1e985a26bf846a2b880d414985ed62c"
+      }
+    },
+    {
+      "id": "exp:e1e985a26bf846a2b880d414985ed62c:naif:399",
+      "name": "Terra",
+      "reference_id": "sol:naif:399",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "e1e985a26bf846a2b880d414985ed62c"
+      }
+    },
+    {
+      "id": "exp:e1e985a26bf846a2b880d414985ed62c:naif:301",
+      "name": "Lua",
+      "reference_id": "sol:naif:301",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "e1e985a26bf846a2b880d414985ed62c"
+      }
+    },
+    {
+      "id": "exp:e1e985a26bf846a2b880d414985ed62c:naif:599",
+      "name": "J\u00fapiter",
+      "reference_id": "sol:naif:599",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "e1e985a26bf846a2b880d414985ed62c"
+      }
+    }
+  ],
+  "issued_ids": [
+    "exp:e1e985a26bf846a2b880d414985ed62c:naif:10",
+    "exp:e1e985a26bf846a2b880d414985ed62c:naif:399",
+    "exp:e1e985a26bf846a2b880d414985ed62c:naif:301",
+    "exp:e1e985a26bf846a2b880d414985ed62c:naif:599"
+  ],
+  "body_attributes": {
+    "exp:e1e985a26bf846a2b880d414985ed62c:naif:10": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:e1e985a26bf846a2b880d414985ed62c:naif:399": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:e1e985a26bf846a2b880d414985ed62c:naif:301": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:e1e985a26bf846a2b880d414985ed62c:naif:599": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    }
+  },
+  "conservation_reference": {
+    "time": 0.0,
+    "total_mass": 1.0009576349917861,
+    "energy": -6.234998608693125e-07,
+    "kinetic_energy": 5.984905458784205e-07,
+    "potential_energy": -1.221990406747733e-06,
+    "momentum": [
+      2.6544225856826658e-21,
+      2.401718908547716e-21,
+      1.0348029463038376e-21
+    ],
+    "angular_momentum": [
+      0.0005947440298780276,
+      -0.010485915368345743,
+      0.024463744765263282
+    ],
+    "barycenter": [
+      3.792177224925054e-17,
+      4.4042711689187415e-17,
+      2.3124935860092644e-17
+    ],
+    "barycenter_velocity": [
+      2.6518830496801675e-21,
+      2.399421138905069e-21,
+      1.0338129308662791e-21
+    ],
+    "momentum_scale": 6.71570577017535e-05,
+    "angular_momentum_scale": 0.026622987418513756,
+    "policy": "initial_condition",
+    "active_ids": [
+      "exp:e1e985a26bf846a2b880d414985ed62c:naif:10",
+      "exp:e1e985a26bf846a2b880d414985ed62c:naif:399",
+      "exp:e1e985a26bf846a2b880d414985ed62c:naif:301",
+      "exp:e1e985a26bf846a2b880d414985ed62c:naif:599"
+    ],
+    "energy_reference_time": 0.0
+  },
+  "instruments": {
+    "schema": 1,
+    "revision": 0,
+    "probes": [],
+    "issued_ids": [],
+    "events": []
+  },
+  "field_layers": {
+    "schema": 1,
+    "revision": 0,
+    "settings": {
+      "center_mode": "fixed",
+      "center_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "body_id": null,
+      "shell_enabled": true,
+      "shell_radius_m": 20000000000.0,
+      "shell_count": 96,
+      "cut_enabled": true,
+      "cut_half_width_m": 30000000000.0,
+      "cut_resolution": 17,
+      "cut_orientation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cut_offset_m": 0.0,
+      "magnitude_scale": "log",
+      "potential_levels_J_kg": []
+    },
+    "events": []
+  },
+  "instrument_history": {
+    "schema": 1,
+    "revision": 0,
+    "recording": false,
+    "cadence_wall_s": 1.0,
+    "samples": [],
+    "dropped": 0,
+    "next_sequence": 0
+  },
+  "orbital_instruments": {
+    "schema": 1,
+    "revision": 0,
+    "definition": null,
+    "events": [],
+    "recording": false,
+    "cadence_wall_s": 1.0,
+    "samples": [],
+    "dropped": 0,
+    "next_sequence": 0
+  },
+  "gravity_effects": {},
+  "material_tides": null,
+  "test_particle_cloud": null,
+  "seed": {
+    "kind": "atlas_copy"
+  },
+  "topology_revision": 0,
+  "saved_generation": {
+    "schema": 1,
+    "model_id": "cosmos2:editable-newtonian-atlas_copy",
+    "model_version": "3.13.0",
+    "candidate_extension": {
+      "id": "is3-body-fields",
+      "version": "0.7.1",
+      "initial_format": "solar_four_physical_centers/1.0.0",
+      "code_sha256": {
+        "solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+        "solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+        "solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+        "import_dispatch.py": "16a9e09ab1ee63faec8033064be6bbea9af7859fc8e145b32f505d1b43c6cdd3",
+        "solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+        "earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+        "geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+        "jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+        "jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28",
+        "body_field_geometry.py": "17a257fe18708f640e3f79e43dac6d78c498dd2844a4633757498ebabfe1afc4",
+        "body_field_scene.py": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805",
+        "body_field_layer.py": "a56118896a743d904312f8bfe466bdc98c19675694e3a17ef7a07ee0df8de3a2",
+        "body_field_lines.py": "ddd0e266f6cc96a4cba64db773a3b801ed5e8ca8cd9b07b88efd92088c93f8f3",
+        "body_field_view.py": "274a3916769331b4518c0aa543acc00fe5f0531b380e76473fbfc101ebdd6933",
+        "body_field_maps.py": "8988d3c437b88c2a6c0db5210dd8710c5ccc7e35b8e2be9b693fe57216e8630f",
+        "body_field_map_geometry.py": "cfa807924eed8c8a06e1ee25f8eb8a759ce37b900bffe7e7a3f58fc619c560bd",
+        "body_field_map_layer.py": "17640635bf80047d537df0be650871d463b5802fb4818a3020210aadcfb7b154",
+        "body_field_points.py": "d054c5c72ef76cabe5cacfc6b78cb67f5b51387a60e2152ee3107127fbe8f169"
+      }
+    },
+    "code_sha256": {
+      "app/cloud_transport.py": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690",
+      "app/cloud_driver.py": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb",
+      "app/test_cloud.py": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826",
+      "app/resonant_angles.py": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0",
+      "app/orbital_instruments.py": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5",
+      "app/equilibrium_tide.py": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06",
+      "app/material_driver.py": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9",
+      "app/material_tides.py": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb",
+      "app/j2_field.py": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7",
+      "app/gravity_harmonics.py": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae",
+      "app/physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+      "app/session.py": "f842e6c55d838b4b091d38761101127a2f8b40f2c08f4476fa72af9624ea5f52",
+      "app/body_registry.py": "e763b3340338d94d5c1288e49951ed8f0b64c8fb50c95494093ca98afadb014d",
+      "app/body_attributes.py": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649",
+      "app/orbital_diagnostics.py": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59",
+      "app/gravity_experiments.py": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474",
+      "app/gravity_field.py": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5",
+      "app/gravity_instruments.py": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7",
+      "app/field_layers.py": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349",
+      "app/field_geometry.py": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55",
+      "app/field_sections.py": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e",
+      "app/instrument_history.py": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3",
+      "app/probe_comparison.py": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb",
+      "app/branch_store.py": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4",
+      "app/worker.py": "e992347907ab68eb981712db379a7a99de1eb3bb67e29af2876c457e511abe66"
+    },
+    "data_sha256": {
+      "data/science/canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+      "data/science/gravity-experiments.json": "98ddf2234b0b4b7703accdf264dde60bd95b43c1240557419cd38688e7c5dafd",
+      "data/science/igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+      "output/is3-earth-orientation-staging/earth_000101_270118_261022.bpc": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+      "evidence/is3-earth-orientation-acquisition-20261023.json": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+      "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+      "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+      "output/is3-body-points-product/app/jrm33-coefficients.json": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+      "evidence/is3-jupiter-orientation-acquisition-20261023b.json": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312"
+    },
+    "runtime": {
+      "python": "3.12.10",
+      "rebound": "5.2.2",
+      "numpy": "2.5.4"
+    }
+  },
+  "body_field_view": null,
+  "physical_scale": {
+    "schema": 1,
+    "length_unit_m": 1000000000.0,
+    "nominal_GM_unit_m3_s2": 1.3271244e+20,
+    "G_m3_kg_s2": 6.6743e-11,
+    "G_standard_uncertainty": 1.5e-15,
+    "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+    "sources": [
+      "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+      "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+    ],
+    "time_unit_s": 2745.0115932913473,
+    "mass_unit_kg": 1.988409870698051e+30,
+    "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+    "velocity_unit_m_s": 364297.1863739823
+  },
+  "atlas_initial": {
+    "schema": 2,
+    "kind": "solar_four_physical_centers",
+    "version": "1.0.0",
+    "branch_id": "e1e985a26bf846a2b880d414985ed62c",
+    "contract": {
+      "schema": 2,
+      "frame": "initial_subset_barycenter_inertial_axes_J2000",
+      "units": {
+        "system": "canonical",
+        "G": 1.0
+      },
+      "model": "newtonian_point_masses",
+      "collisions": "disabled",
+      "integrator": "IAS15",
+      "epsilon": 1e-09,
+      "epoch": {
+        "utc": "2026-10-11T12:00:00.000Z",
+        "et_tdb_s": 844992069.1823514,
+        "origin": "explicit geometric coordinate epoch",
+        "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+      },
+      "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for JPL ephemerides",
+      "jupiter_representation": "physical center599 and planet GM; no independent barycenter5 particle",
+      "excluded_influences": [
+        "demais planetas e luas, incluindo luas jovianas",
+        "asteroides e outros corpos menores",
+        "relatividade",
+        "multipolos e deforma\u00e7\u00f5es de mar\u00e9",
+        "campos EM e processos estelares",
+        "colis\u00f5es"
+      ]
+    },
+    "physical_scale": {
+      "schema": 1,
+      "length_unit_m": 1000000000.0,
+      "nominal_GM_unit_m3_s2": 1.3271244e+20,
+      "G_m3_kg_s2": 6.6743e-11,
+      "G_standard_uncertainty": 1.5e-15,
+      "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+      "sources": [
+        "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+        "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+      ],
+      "time_unit_s": 2745.0115932913473,
+      "mass_unit_kg": 1.988409870698051e+30,
+      "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+      "velocity_unit_m_s": 364297.1863739823
+    },
+    "source": {
+      "model": "DE442s + original JUP365 planet599 subset",
+      "epoch": {
+        "utc": "2026-10-11T12:00:00.000Z",
+        "et_tdb_s": 844992069.1823514,
+        "origin": "explicit geometric coordinate epoch",
+        "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+      },
+      "frame": "J2000/ICRF",
+      "center_naif_id": "0",
+      "aberration": "NONE",
+      "provenance": {
+        "origin": "pinned geometric reference, not observations or an evolved experiment",
+        "kernel_sha256": {
+          "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+          "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+          "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+        },
+        "catalog_code_sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+      }
+    },
+    "reference_catalog": {
+      "schema": 1,
+      "kind": "solar_four_center_reference",
+      "version": "1.0.0",
+      "model": "DE442s + original JUP365 planet599 subset",
+      "epoch": {
+        "utc": "2026-10-11T12:00:00.000Z",
+        "et_tdb_s": 844992069.1823514,
+        "origin": "explicit geometric coordinate epoch",
+        "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+      },
+      "frame": "J2000/ICRF",
+      "center_naif_id": "0",
+      "aberration": "NONE",
+      "position_unit": "m",
+      "velocity_unit": "m/s",
+      "render_frame": "GALACTIC",
+      "j2000_to_render_frame": [
+        [
+          -0.054875539395742516,
+          -0.8734371047275961,
+          -0.4838349917700252
+        ],
+        [
+          0.49410945362774383,
+          -0.44482959429757496,
+          0.7469822486998919
+        ],
+        [
+          -0.8676661356833737,
+          -0.19807638961301985,
+          0.4559837945214199
+        ]
+      ],
+      "bodies": [
+        {
+          "id": "sol:naif:10",
+          "naif_id": "10",
+          "name": "Sol",
+          "entity_kind": "physical_body",
+          "position_m": [
+            -176817149.29512244,
+            -707414380.3156806,
+            -291488051.64201283
+          ],
+          "velocity_m_s": [
+            10.431637642443171,
+            4.199911992498089,
+            1.5769685448293278
+          ],
+          "GM": {
+            "value": 1.327124400412533e+20,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "132712440041.253311",
+            "source_line": 49,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "state_provider": {
+            "kind": "geometric_spice_chain",
+            "target_naif_id": "10",
+            "center_naif_id": "0",
+            "frame": "J2000/ICRF",
+            "aberration": "NONE",
+            "chain_naif_ids": [
+              "10",
+              "0"
+            ],
+            "kernels_sha256": {
+              "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+              "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+              "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+            },
+            "application_coverage_utc": [
+              "1950-01-01T00:00:00Z",
+              "2050-12-31T23:59:59Z"
+            ],
+            "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+            "source_uncertainty": null,
+            "uncertainty_reason": "Observational uncertainty not propagated locally."
+          },
+          "coverage_et_s": [
+            [
+              -1577879958.8160586,
+              1609416068.1839058
+            ]
+          ],
+          "shape": {
+            "value": null,
+            "reason": "Geometria cient\u00edfica ainda n\u00e3o adotada para este cadastro; marcador gr\u00e1fico separado."
+          },
+          "rotation": {
+            "frame": null,
+            "model": null,
+            "body_to_j2000": null,
+            "precise_orientation": false,
+            "reason": "PCK geral; sem EOP/ITRF preciso e sem ado\u00e7\u00e3o das conven\u00e7\u00f5es magn\u00e9ticas JRM33."
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Newtonian point centers",
+              "version": null,
+              "reason": "Estado e GM dispon\u00edveis para uma c\u00f3pia din\u00e2mica reduzida.",
+              "epoch": {
+                "utc": "2026-10-11T12:00:00.000Z",
+                "et_tdb_s": 844992069.1823514,
+                "origin": "explicit geometric coordinate epoch",
+                "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+              },
+              "frame": "J2000/ICRF",
+              "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": [
+                "state",
+                "GM"
+              ]
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "version": null,
+              "reason": "Campo solar e plasma n\u00e3o adotados nesta candidata.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "pp-I/CNO-I",
+              "version": null,
+              "reason": "Bancada separada; sem invent\u00e1rio isot\u00f3pico ou resposta estrutural do corpo.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "pp-I/CNO-I and beta decay benches",
+              "version": null,
+              "reason": "Bancada separada; sem invent\u00e1rio isot\u00f3pico ou transporte de neutrinos.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            }
+          }
+        },
+        {
+          "id": "sol:naif:399",
+          "naif_id": "399",
+          "name": "Terra",
+          "entity_kind": "physical_body",
+          "position_m": [
+            142010760173.79904,
+            41230953228.36009,
+            17887445563.447414
+          ],
+          "velocity_m_s": [
+            -9594.70764745716,
+            25931.33796021983,
+            11241.190603882991
+          ],
+          "GM": {
+            "value": 398600435544000.0,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "398600.435544",
+            "source_line": 42,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "state_provider": {
+            "kind": "geometric_spice_chain",
+            "target_naif_id": "399",
+            "center_naif_id": "0",
+            "frame": "J2000/ICRF",
+            "aberration": "NONE",
+            "chain_naif_ids": [
+              "399",
+              "3",
+              "0"
+            ],
+            "kernels_sha256": {
+              "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+              "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+              "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+            },
+            "application_coverage_utc": [
+              "1950-01-01T00:00:00Z",
+              "2050-12-31T23:59:59Z"
+            ],
+            "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+            "source_uncertainty": null,
+            "uncertainty_reason": "Observational uncertainty not propagated locally."
+          },
+          "coverage_et_s": [
+            [
+              -1577879958.8160586,
+              1609416068.1839058
+            ]
+          ],
+          "shape": {
+            "value": null,
+            "reason": "Geometria cient\u00edfica ainda n\u00e3o adotada para este cadastro; marcador gr\u00e1fico separado."
+          },
+          "rotation": {
+            "frame": "IAU_EARTH",
+            "model": "general PCK00011",
+            "body_to_j2000": [
+              [
+                -0.9416892898556734,
+                0.3364736328717559,
+                0.0026030276987506567
+              ],
+              [
+                -0.33647479191255186,
+                -0.9416924733407406,
+                -7.797657424713633e-06
+              ],
+              [
+                0.002448627885689379,
+                -0.0008831961737625521,
+                0.9999966120872591
+              ]
+            ],
+            "precise_orientation": false,
+            "reason": "PCK geral; sem EOP/ITRF preciso e sem ado\u00e7\u00e3o das conven\u00e7\u00f5es magn\u00e9ticas JRM33."
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Newtonian point centers",
+              "version": null,
+              "reason": "Estado e GM dispon\u00edveis para uma c\u00f3pia din\u00e2mica reduzida.",
+              "epoch": {
+                "utc": "2026-10-11T12:00:00.000Z",
+                "et_tdb_s": 844992069.1823514,
+                "origin": "explicit geometric coordinate epoch",
+                "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+              },
+              "frame": "J2000/ICRF",
+              "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": [
+                "state",
+                "GM"
+              ]
+            },
+            "magnetism": {
+              "status": "available_bench",
+              "model": "IGRF14",
+              "version": null,
+              "reason": "Instrumento validado separado; associa\u00e7\u00e3o \u00e0 cena pendente.",
+              "epoch": null,
+              "frame": null,
+              "domain": "Ver dom\u00ednio e convers\u00e3o de eixos da bancada IGRF14.",
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "AME2020 effective nuclear benches",
+              "version": null,
+              "reason": "Bancada separada; sem invent\u00e1rio isot\u00f3pico ou resposta estrutural do corpo.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay benches",
+              "version": null,
+              "reason": "Bancada separada; sem invent\u00e1rio isot\u00f3pico ou transporte de neutrinos.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            }
+          }
+        },
+        {
+          "id": "sol:naif:301",
+          "naif_id": "301",
+          "name": "Lua",
+          "entity_kind": "physical_body",
+          "position_m": [
+            141666134603.85754,
+            41075916205.35465,
+            17787562053.0397
+          ],
+          "velocity_m_s": [
+            -9160.002895729092,
+            25114.764752419364,
+            10833.823908739369
+          ],
+          "GM": {
+            "value": 4902800104000.0,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "4902.800104",
+            "source_line": 50,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "state_provider": {
+            "kind": "geometric_spice_chain",
+            "target_naif_id": "301",
+            "center_naif_id": "0",
+            "frame": "J2000/ICRF",
+            "aberration": "NONE",
+            "chain_naif_ids": [
+              "301",
+              "3",
+              "0"
+            ],
+            "kernels_sha256": {
+              "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+              "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+              "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+            },
+            "application_coverage_utc": [
+              "1950-01-01T00:00:00Z",
+              "2050-12-31T23:59:59Z"
+            ],
+            "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+            "source_uncertainty": null,
+            "uncertainty_reason": "Observational uncertainty not propagated locally."
+          },
+          "coverage_et_s": [
+            [
+              -1577879958.8160586,
+              1609416068.1839058
+            ]
+          ],
+          "shape": {
+            "value": null,
+            "reason": "Geometria cient\u00edfica ainda n\u00e3o adotada para este cadastro; marcador gr\u00e1fico separado."
+          },
+          "rotation": {
+            "frame": "IAU_MOON",
+            "model": "general PCK00011",
+            "body_to_j2000": [
+              [
+                0.9197432084210847,
+                -0.392222667116923,
+                0.015290845724699772
+              ],
+              [
+                0.3686380699347073,
+                0.8497457805873022,
+                -0.37687939950187027
+              ],
+              [
+                0.13482731161787284,
+                0.35226905594128455,
+                0.92613611757027
+              ]
+            ],
+            "precise_orientation": false,
+            "reason": "PCK geral; sem EOP/ITRF preciso e sem ado\u00e7\u00e3o das conven\u00e7\u00f5es magn\u00e9ticas JRM33."
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Newtonian point centers",
+              "version": null,
+              "reason": "Estado e GM dispon\u00edveis para uma c\u00f3pia din\u00e2mica reduzida.",
+              "epoch": {
+                "utc": "2026-10-11T12:00:00.000Z",
+                "et_tdb_s": 844992069.1823514,
+                "origin": "explicit geometric coordinate epoch",
+                "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+              },
+              "frame": "J2000/ICRF",
+              "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": [
+                "state",
+                "GM"
+              ]
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "version": null,
+              "reason": "Modelo de campo n\u00e3o adotado nesta candidata. Lua: campo crostal/externo n\u00e3o adotado.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "AME2020 effective nuclear benches",
+              "version": null,
+              "reason": "Bancada separada; sem invent\u00e1rio isot\u00f3pico ou resposta estrutural do corpo.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay benches",
+              "version": null,
+              "reason": "Bancada separada; sem invent\u00e1rio isot\u00f3pico ou transporte de neutrinos.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            }
+          }
+        },
+        {
+          "id": "sol:naif:599",
+          "naif_id": "599",
+          "name": "J\u00fapiter",
+          "entity_kind": "physical_body",
+          "position_m": [
+            -531356989811.89465,
+            537443713319.7435,
+            243304724942.26086
+          ],
+          "velocity_m_s": [
+            -9864.096006139429,
+            -7559.796157931543,
+            -3000.136908784328
+          ],
+          "GM": {
+            "value": 1.266865319003704e+17,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+            "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+            "raw_value_km3_s2": "126686531.9003704",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+            "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+            "source_rows": [
+              {
+                "line": 83,
+                "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+              },
+              {
+                "line": 150,
+                "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 100.0
+          },
+          "state_provider": {
+            "kind": "geometric_spice_chain",
+            "target_naif_id": "599",
+            "center_naif_id": "0",
+            "frame": "J2000/ICRF",
+            "aberration": "NONE",
+            "chain_naif_ids": [
+              "599",
+              "5",
+              "0"
+            ],
+            "kernels_sha256": {
+              "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+              "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+              "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+              "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+            },
+            "application_coverage_utc": [
+              "1950-01-01T00:00:00Z",
+              "2050-12-31T23:59:59Z"
+            ],
+            "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+            "source_uncertainty": null,
+            "uncertainty_reason": "Observational uncertainty not propagated locally."
+          },
+          "coverage_et_s": [
+            [
+              -1577879958.8160586,
+              1609416068.1839058
+            ]
+          ],
+          "shape": {
+            "value": null,
+            "reason": "Geometria cient\u00edfica ainda n\u00e3o adotada para este cadastro; marcador gr\u00e1fico separado."
+          },
+          "rotation": {
+            "frame": "IAU_JUPITER",
+            "model": "general PCK00011",
+            "body_to_j2000": [
+              [
+                -0.5873533520429849,
+                -0.8091990302468868,
+                -0.01459346742098662
+              ],
+              [
+                0.7341956920557889,
+                -0.5251520071856098,
+                -0.43031622687931054
+              ],
+              [
+                0.3405476847823085,
+                -0.26346213920869754,
+                0.902560233775556
+              ]
+            ],
+            "precise_orientation": false,
+            "reason": "PCK geral; sem EOP/ITRF preciso e sem ado\u00e7\u00e3o das conven\u00e7\u00f5es magn\u00e9ticas JRM33."
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Newtonian point centers",
+              "version": null,
+              "reason": "Estado e GM dispon\u00edveis para uma c\u00f3pia din\u00e2mica reduzida.",
+              "epoch": {
+                "utc": "2026-10-11T12:00:00.000Z",
+                "et_tdb_s": 844992069.1823514,
+                "origin": "explicit geometric coordinate epoch",
+                "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+              },
+              "frame": "J2000/ICRF",
+              "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": [
+                "state",
+                "GM"
+              ]
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "version": null,
+              "reason": "Modelo de campo n\u00e3o adotado nesta candidata; JRM33 \u00e9 apenas proposta de estudo.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "AME2020 effective nuclear benches",
+              "version": null,
+              "reason": "Bancada separada; sem invent\u00e1rio isot\u00f3pico ou resposta estrutural do corpo.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay benches",
+              "version": null,
+              "reason": "Bancada separada; sem invent\u00e1rio isot\u00f3pico ou transporte de neutrinos.",
+              "epoch": null,
+              "frame": null,
+              "domain": null,
+              "provenance": "registered project bench/reference; no automatic coupling",
+              "dependencies": []
+            }
+          }
+        }
+      ],
+      "provenance": {
+        "origin": "pinned geometric reference, not observations or an evolved experiment",
+        "kernel_sha256": {
+          "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+          "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+          "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+        },
+        "catalog_code_sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+      },
+      "uncertainty": null,
+      "uncertainty_reason": "Numerical agreement is not observational accuracy."
+    },
+    "initial_ssb_origin_m": [
+      -682961686.1834425,
+      -194062507.76470414,
+      -59119763.683327064
+    ],
+    "inertial_origin_velocity_m_s": [
+      0.9853287452846979,
+      -2.9350029553591717,
+      -1.2515832983468462
+    ],
+    "render_frame": "GALACTIC",
+    "j2000_to_render_frame": [
+      [
+        -0.054875539395742516,
+        -0.8734371047275961,
+        -0.4838349917700252
+      ],
+      [
+        0.49410945362774383,
+        -0.44482959429757496,
+        0.7469822486998919
+      ],
+      [
+        -0.8676661356833737,
+        -0.19807638961301985,
+        0.4559837945214199
+      ]
+    ],
+    "generation": {
+      "schema": 1,
+      "model_id": "cosmos2:reduced-sun-earth-moon-jupiter599-newton",
+      "model_version": "1.0.0-candidate",
+      "code_sha256": {
+        "solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+        "solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+        "solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+        "import_dispatch.py": "16a9e09ab1ee63faec8033064be6bbea9af7859fc8e145b32f505d1b43c6cdd3",
+        "session.py": "f842e6c55d838b4b091d38761101127a2f8b40f2c08f4476fa72af9624ea5f52",
+        "body_registry.py": "e763b3340338d94d5c1288e49951ed8f0b64c8fb50c95494093ca98afadb014d",
+        "physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+        "solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+        "earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+        "geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+        "jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+        "jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28"
+      },
+      "runtime": {
+        "python": "3.12.10",
+        "rebound": "5.2.2"
+      },
+      "data_sha256": {
+        "canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+        "igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+        "earth_EOP_PCK": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+        "earth_EOP_receipt": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+        "JRM33_coefficients": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+        "Jupiter_orientation_receipt": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312",
+        "PCK00011": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "LSK": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+      }
+    },
+    "bodies": [
+      {
+        "id": "exp:e1e985a26bf846a2b880d414985ed62c:naif:10",
+        "reference_id": "sol:naif:10",
+        "naif_id": "10",
+        "name": "Sol",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 1.327124400412533e+20,
+          "unit": "m^3/s^2",
+          "uncertainty": null,
+          "origin": "JPL DE442 published model parameter, printed SI conversion",
+          "raw_value_km3_s2": "132712440041.253311",
+          "source_line": 49,
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+          "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+          "source_resolution_m3_s2": 1000.0
+        },
+        "source_position_m": [
+          -176817149.29512244,
+          -707414380.3156806,
+          -291488051.64201283
+        ],
+        "source_velocity_m_s": [
+          10.431637642443171,
+          4.199911992498089,
+          1.5769685448293278
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 1.0000000003108473,
+        "position": [
+          0.5061445368883201,
+          -0.5133518725509765,
+          -0.23236828795868575
+        ],
+        "velocity": [
+          2.593022743651121e-05,
+          1.9585424249015912e-05,
+          7.764407601744207e-06
+        ]
+      },
+      {
+        "id": "exp:e1e985a26bf846a2b880d414985ed62c:naif:399",
+        "reference_id": "sol:naif:399",
+        "naif_id": "399",
+        "name": "Terra",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 398600435544000.0,
+          "unit": "m^3/s^2",
+          "uncertainty": null,
+          "origin": "JPL DE442 published model parameter, printed SI conversion",
+          "raw_value_km3_s2": "398600.435544",
+          "source_line": 42,
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+          "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+          "source_resolution_m3_s2": 1000.0
+        },
+        "source_position_m": [
+          142010760173.79904,
+          41230953228.36009,
+          17887445563.447414
+        ],
+        "source_velocity_m_s": [
+          -9594.70764745716,
+          25931.33796021983,
+          11241.190603882991
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 3.0034896166779844e-06,
+        "position": [
+          142.69372185998247,
+          41.42501573612479,
+          17.94656532713074
+        ],
+        "velocity": [
+          -0.02634028846534006,
+          0.07118987994749824,
+          0.030860634140720503
+        ]
+      },
+      {
+        "id": "exp:e1e985a26bf846a2b880d414985ed62c:naif:301",
+        "reference_id": "sol:naif:301",
+        "naif_id": "301",
+        "name": "Lua",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 4902800104000.0,
+          "unit": "m^3/s^2",
+          "uncertainty": null,
+          "origin": "JPL DE442 published model parameter, printed SI conversion",
+          "raw_value_km3_s2": "4902.800104",
+          "source_line": 50,
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+          "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+          "source_resolution_m3_s2": 1000.0
+        },
+        "source_position_m": [
+          141666134603.85754,
+          41075916205.35465,
+          17787562053.0397
+        ],
+        "source_velocity_m_s": [
+          -9160.002895729092,
+          25114.764752419364,
+          10833.823908739369
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 3.694303340365078e-08,
+        "position": [
+          142.349096290041,
+          41.26997871311936,
+          17.846681816723027
+        ],
+        "velocity": [
+          -0.02514701888218768,
+          0.06894837702531485,
+          0.029742407839830474
+        ]
+      },
+      {
+        "id": "exp:e1e985a26bf846a2b880d414985ed62c:naif:599",
+        "reference_id": "sol:naif:599",
+        "naif_id": "599",
+        "name": "J\u00fapiter",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 1.266865319003704e+17,
+          "unit": "m^3/s^2",
+          "uncertainty": null,
+          "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+          "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+          "raw_value_km3_s2": "126686531.9003704",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+          "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+          "source_rows": [
+            {
+              "line": 83,
+              "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+            },
+            {
+              "line": 150,
+              "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 100.0
+        },
+        "source_position_m": [
+          -531356989811.89465,
+          537443713319.7435,
+          243304724942.26086
+        ],
+        "source_velocity_m_s": [
+          -9864.096006139429,
+          -7559.796157931543,
+          -3000.136908784328
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 0.0009545942482887844,
+        "position": [
+          -530.6740281257112,
+          537.6377758275082,
+          243.3638447059442
+        ],
+        "velocity": [
+          -0.02707976263302062,
+          -0.020743671479302665,
+          -0.008231974985410314
+        ]
+      }
+    ],
+    "initial_state_sha256": "cea1d48c72034f460bdb681ebeed4087d7b8e07ce80bb9e192dfeb04154e0c73"
+  },
+  "manifest_sha256": "863a290f8aa6c80fe5998247e09b8fef0555a1c0f1331a9391a2e71c2d32b9b7"
+}

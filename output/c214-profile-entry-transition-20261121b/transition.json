@@ -1,0 +1,31 @@
+{
+  "accepted": true,
+  "completed": true,
+  "entries": [
+    {
+      "path": "Iniciar-Cosmos2.cmd",
+      "profile_sha256": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4",
+      "archived": "output/c214-profile-entry-transition-20261121b/Iniciar-Cosmos2.cmd",
+      "current_delivery_sha256": "6a321726584ed00050f05402ba72f843be24401ee21ad9f091c62fa8cd32a41e"
+    },
+    {
+      "path": "Abrir-Planetas.cmd",
+      "profile_sha256": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4",
+      "archived": "output/c214-profile-entry-transition-20261121b/Abrir-Planetas.cmd",
+      "current_delivery_sha256": "6a321726584ed00050f05402ba72f843be24401ee21ad9f091c62fa8cd32a41e"
+    },
+    {
+      "path": "Abrir-Planetas-e-Luas.cmd",
+      "profile_sha256": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4",
+      "archived": "output/c214-profile-entry-transition-20261121b/Abrir-Planetas-e-Luas.cmd",
+      "current_delivery_sha256": "6a321726584ed00050f05402ba72f843be24401ee21ad9f091c62fa8cd32a41e"
+    },
+    {
+      "path": "config/local-working-product.json",
+      "profile_sha256": "c514e85d7338d1a919ae9d70b9bf004b923f4b32ee89caa3ce541a1d0ba62b1c",
+      "archived": "output/c214-profile-entry-transition-20261121b/config/local-working-product.json",
+      "current_delivery_sha256": "6887dfb8070d5ba4446750d4dd70e24140bc634d127d73e718fd796754ca9500"
+    }
+  ],
+  "scope": "Preserve exact pre-delivery original launcher and local-selection source bytes. These four operational files intentionally changed to select the accepted-backend local delivery. Scientific code/raw measurements unchanged."
+}

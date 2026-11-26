@@ -1,0 +1,1 @@
+{"accepted": false, "state": "failed", "failure": null, "cleanup_failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-native-c214-orbits.py\", line 254, in main\n    assert all(sha(ROOT / name) == seal for name, seal in sources.items())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"}

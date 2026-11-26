@@ -1,0 +1,55 @@
+{
+  "accepted": false,
+  "completed": true,
+  "native_user_flow_accepted": false,
+  "checks": [
+    {
+      "name": "filter-and-mouse-choice-emit-events-once",
+      "passed": true
+    },
+    {
+      "name": "keyboard-choice-and-escape-preserve-free-text",
+      "passed": true
+    },
+    {
+      "name": "no-match-explains-editing-and-does-not-reject-text",
+      "passed": false,
+      "error": "The input did not match the regular expression /Nenhuma sugestão/. Input:\n\n'Nenhuma sugestÃ£o. Confira a identificaÃ§Ã£o ou continue digitando.'\n"
+    },
+    {
+      "name": "input-keeps-caret-focus-and-direct-product-structure",
+      "passed": true
+    },
+    {
+      "name": "dynamic-product-input-is-enhanced",
+      "passed": true
+    },
+    {
+      "name": "select-opening-closes-editable-suggestions",
+      "passed": true
+    },
+    {
+      "name": "disabled-input-closes-open-suggestions",
+      "passed": true
+    },
+    {
+      "name": "large-list-explains-the-display-limit",
+      "passed": true
+    },
+    {
+      "name": "bottom-suggestions-fit-at-1",
+      "passed": true
+    },
+    {
+      "name": "bottom-suggestions-fit-at-1.5",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "scripts/verify-editable-options-ui.cjs": "75e3a5059ca55a86bd217df6aa5de0be3027cf0692ada52996c6320939a960ed",
+    "scripts/editable-options-ui/editable-options.css": "0e86da2e7d8ff334f35ad453cd915ccf044f64a9e963379aeeb23084880b11bf",
+    "scripts/editable-options-ui/editable-options.js": "fedbb3cc537dcdbf3ad48aa8b81493af2f9951fa67569c5c0ba4d6096af50a7d",
+    "scripts/editable-options-ui/option-controls.js": "5da97aa96e18f08c01fde7e5754adcf0832aa1dde2b71d5a4eb5bdd0e7e19050"
+  },
+  "scope": "Isolated browser checks of editable suggestions, events, form structure and existing select coordination. Native owner-entry delivery is separate."
+}

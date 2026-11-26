@@ -1,0 +1,13 @@
+{
+  "accepted": true,
+  "completed": true,
+  "destination": "/mnt/c/Users/Ian/cosmos2-github-snapshot-20261103",
+  "files": 2272,
+  "changed": [
+    "scripts/run-is6-k5-import-flow.py"
+  ],
+  "preserved_missing_sources": [],
+  "inventory_sha256": "3d55182693f112d802f20965c1a4bf4152a15898b7db21f606cb94001547777e",
+  "script_sha256": "33eff56d6cd8aeaf90280460ae796f6df2b566beb537c7dbd9c5c416499c9e5c",
+  "scope": "Partial source/evidence backup only; excludes runtimes, personal sessions, binary archives and most generated records. Does not install the product or constitute full reproducibility."
+}

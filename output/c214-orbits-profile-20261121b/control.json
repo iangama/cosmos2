@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "id": "013-cleanup",
+  "kind": "cleanup",
+  "window": null,
+  "recipe": null,
+  "expected_scenario": null
+}

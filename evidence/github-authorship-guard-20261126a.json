@@ -1,0 +1,17 @@
+{
+  "accepted": true,
+  "completed": true,
+  "positive_checks": [
+    "pending correct author and committer",
+    "history with correct identity",
+    "pre-push with correct history"
+  ],
+  "rejected_checks": [
+    "pending placeholder author",
+    "pending placeholder committer",
+    "history containing placeholder author",
+    "pre-push containing placeholder author"
+  ],
+  "script_sha256": "4fb6d42f23ad37ec38a5f2d89d985c04add9218f00f69e129a4d99e590d045bb",
+  "scope": "Disposable local Git repositories only; no simulator changes or runtime QA implied."
+}

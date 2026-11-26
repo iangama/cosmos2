@@ -1,0 +1,59 @@
+{
+  "completed": true,
+  "script_sha256": "ddba7c76e92d1241aecf0dbd7a87ff06874e2b7b84a7a442f18964e1d9965e2a",
+  "files": {
+    "aa_checksums.txt": {
+      "path": "output/is6-planet-catalog-acquisition-20261110a/aa_checksums.txt",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/aa_checksums.txt",
+      "bytes": 1847,
+      "sha256": "bcf1491e062427558d1a00692d8e78656082debbb1d96e034d1e5810597cfdba"
+    },
+    "mar099s.cmt": {
+      "path": "output/is6-planet-catalog-acquisition-20261110a/mar099s.cmt",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099s.cmt",
+      "bytes": 72577,
+      "sha256": "d39cf30469cf969992587ca8c92fef739033a6aa1c3d02f89323ed0b76ec16ea"
+    },
+    "mar099s.mrg": {
+      "path": "output/is6-planet-catalog-acquisition-20261110a/mar099s.mrg",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099s.mrg",
+      "bytes": 410,
+      "sha256": "cf68f8d0bb349dc85db6da141f62af2ad426b22847f919ded1668ddf6d18f591"
+    },
+    "mar099s.bsp": {
+      "path": "output/is6-planet-catalog-acquisition-20261110a/mar099s.bsp",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099s.bsp",
+      "bytes": 67594240,
+      "sha256": "997dc93ba640e476da7a494d2237dcdeb145e528db37be8ccee588c615e4e1ff",
+      "published_md5": "fd7302dfbaa0c63ce85b1e98923ee6a1"
+    },
+    "nep097.cmt": {
+      "path": "output/is6-planet-catalog-acquisition-20261110a/nep097.cmt",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.cmt",
+      "bytes": 68241,
+      "sha256": "2e8623de72f9d2ca66b85592af92dd2c8c314664239e795b87a39433166fb63f"
+    },
+    "nep097.mrg": {
+      "path": "output/is6-planet-catalog-acquisition-20261110a/nep097.mrg",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.mrg",
+      "bytes": 480,
+      "sha256": "c32e09c6457896e8986f8f04654d54d6bca0445a2d094b35a4b56a5ce1f2d81c"
+    },
+    "nep097.bsp": {
+      "path": "output/is6-planet-catalog-acquisition-20261110a/nep097.bsp",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp",
+      "bytes": 105262080,
+      "sha256": "5c1132fdc48c54e5d2e4eb663e1ed1a876911eae9433c203f29a5a1b5e1fa9b1",
+      "published_md5": "937e05462aac5e34cb5cfddae6c99199"
+    },
+    "ura182.bsp": {
+      "path": "output/is6-planet-catalog-acquisition-20261110a/ura182.bsp",
+      "url": "https://ssd.jpl.nasa.gov/ftp/eph/satellites/bsp/ura182.bsp",
+      "bytes": 698004480,
+      "sha256": "fd3275d760a8d7e9a7d58c1894196495fb41967d2507d0a986666a927fe88706",
+      "integrity_source": "Official JPL HTTPS download; local SHA256 recorded."
+    }
+  },
+  "started_utc": "2026-11-11T01:19:58.410863+00:00",
+  "completed_utc": "2026-11-11T01:21:13.563610+00:00"
+}

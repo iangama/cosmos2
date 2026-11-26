@@ -1,0 +1,13 @@
+{
+  "accepted": false,
+  "completed": true,
+  "pid": 35400,
+  "status_before": "stopped",
+  "threads_before": 1,
+  "cpu_s_before": 0.0,
+  "children_before": [],
+  "action": "Terminated only the owned stopped PowerShell test process; no thread resume or policy change.",
+  "shortcut_activated": false,
+  "termination_exit": 15,
+  "process_alive_after": false
+}

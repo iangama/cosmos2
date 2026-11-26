@@ -1,0 +1,13 @@
+VIGENTE13/11 — RESIDÊNCIA C INICIADA COM HISTÓRICO NATIVO
+PlanoC ACEITO2358fontes/29protegidos;preflightDschema6/30amostras ACEITO.
+ATIVO Windowsdestacado37580:run-expanded-residency-v3.py --label20261113c --plan-label20261113c.
+Conferir receipts host/profile/collector/audit20261113c e logsANtesdequalquerrepetição.
+Fontes/protegidos selados imutáveis. Duranteperfil:NÃObackup/navegação/download/testepesado.
+Cenários10×30s+60s/primeiros66PDH comhistórico100Hz nominal;quadros/transiçõesintegrais.
+A/Brecusadosnãoalterados;Dpermitepopulaçãovariávelporprovanativa,semGPUzeroatribuído.
+Novascoletasóaceitaapósauditorindependente,4handles0 e vistadodono restaurada.
+Se falhar,preservar fontes/ZIP/brutos;diagnósticoantesdenovarevisão.Semretentarapagandodados.
+Backupv19local8cd4df38/6600arquivos;observador/avançosposterioresaindafora.
+Telemetria23:03:04.528Z:57%5h/62%semanal disponíveis,consultaratual;checkpoint8%econtinuaratélimite.
+Semsubagentes/promoção;V1segue7/21,IS6incompleto,K5Arecusado.
+

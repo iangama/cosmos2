@@ -1,0 +1,84 @@
+{
+  "accepted": true,
+  "completed": true,
+  "candidate": "0.28.1",
+  "scope": "Agent inspection of four original framebuffer images; baseline eccentric orbit and clock graph at CSS zoom 100% and 150% only. No performance or other states visual acceptance.",
+  "captures": [
+    {
+      "path": "output/c214-orbits-native-20261114b/orbits-100.png",
+      "sha256": "7c7aaffe547f93206ecfc6b46295d6414683b624da33db5f713912ff881c819f",
+      "native_original": "user/screenshots/2026-11-14-13-30-58/Cosmos2 Â· mediÃ§Ã£o 1080p_000000.png",
+      "layout": {
+        "zoom": "1",
+        "scroll": 1920,
+        "client": 1920,
+        "canvas": {
+          "width": 1483,
+          "height": 538
+        },
+        "view": "orbits"
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/c214-orbits-native-20261114b/clocks-100.png",
+      "sha256": "f3640dd59d6197b8ab3d27596fb3076ffc8834f96eab4999649e4666bbd0ea59",
+      "native_original": "user/screenshots/2026-11-14-13-30-58/Cosmos2 Â· mediÃ§Ã£o 1080p_000001.png",
+      "layout": {
+        "zoom": "1",
+        "scroll": 1920,
+        "client": 1920,
+        "canvas": {
+          "width": 1483,
+          "height": 538
+        },
+        "view": "clocks"
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/c214-orbits-native-20261114b/orbits-150.png",
+      "sha256": "5d5ec23b86592fddd55ed8a23b0812a854f1a71bb95bb3404db70344dc0761d5",
+      "native_original": "user/screenshots/2026-11-14-13-30-58/Cosmos2 Â· mediÃ§Ã£o 1080p_000002.png",
+      "layout": {
+        "zoom": "1.5",
+        "scroll": 1903,
+        "client": 1903,
+        "canvas": {
+          "width": 856,
+          "height": 539
+        },
+        "view": "orbits"
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/c214-orbits-native-20261114b/clocks-150.png",
+      "sha256": "6f11d34ab93f9962f12b9a06d5cfbb5049f0be15fcf1f1529dfda91260f1e3f3",
+      "native_original": "user/screenshots/2026-11-14-13-30-58/Cosmos2 Â· mediÃ§Ã£o 1080p_000003.png",
+      "layout": {
+        "zoom": "1.5",
+        "scroll": 1903,
+        "client": 1903,
+        "canvas": {
+          "width": 856,
+          "height": 539
+        },
+        "view": "clocks"
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    }
+  ],
+  "checks": [
+    "Separate GR clock legend confirmed at 100%",
+    "Clock axis and help separated at 150%",
+    "Newton current point and coordinate separation segment visible",
+    "Source symbol enlargement identified; radius and coordinate units shown",
+    "No horizontal overflow; vertical scrolling remains available"
+  ],
+  "limitations": [
+    "At 150% timeline/readings require vertical scrolling",
+    "Nearly coincident orbital curves require the current-position markers and numeric readings",
+    "This is the native embedded CEF Canvas bench, not Atlas SceneGraph geometry"
+  ]
+}

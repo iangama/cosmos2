@@ -1,0 +1,34 @@
+{
+  "status": "candidate_not_installed_product_stays3.6",
+  "candidate_generation": "3.7.0",
+  "native_integration_pending": true,
+  "files_sha256": {
+    "output/c211-history-staging/app.js": "84bee26abc3780b54b6945a66496ce994c13a068e2801242ee93aced6c1bf989",
+    "output/c211-history-staging/body_attributes.py": "bb2ec1e9dc25588e8e44833d177011182ee51d3d5f2b3a1453a07793fb136731",
+    "output/c211-history-staging/field_layers.py": "26de805d9c1218212a65eb3d2bc658fcadd2b02ff1cc5522386d97a4a33cc557",
+    "output/c211-history-staging/gravity_instruments.py": "5407dbdb1176b601ad7505d116ec1f9762758448f95feff98f2a584615936848",
+    "output/c211-history-staging/index.html": "8ba2544dd674b4e3ccea88873fd18fe6f00e73f72a86ec2250087d73e14c1640",
+    "output/c211-history-staging/instrument-history.html": "43553e9a9e199e9a161ea1d1437045f56ee3398031a942885798ee1328f59fee",
+    "output/c211-history-staging/instrument-history.js": "45b2740b2dfaf2e9277561b128d42a5c4b0b1ff3075154467c0a65ffd06352e5",
+    "output/c211-history-staging/instrument_history.py": "9caef89525f8bce06d5306c4d01ce601e51bc32dcd297a7c86803a15c070ccaa",
+    "output/c211-history-staging/laboratory.py": "1c71d2f2d5faa0b24770f66746d8ad9d5cf4aa1b17a55a77b2bfcff853cfd603",
+    "output/c211-history-staging/probe_comparison.py": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb",
+    "output/c211-history-staging/server.py": "765478c1bea02edf757b27e4deaf97ffd659adb8e70267c9d67c14f677baa2ff",
+    "output/c211-history-staging/session.py": "058c108427cabef913c0e4065744c92a90e81f00baf8db23a0480accb97b35cd",
+    "output/c211-history-staging/style.css": "cb9959cb0351e05a79529afac1d0df516b96074d7ca9a24e79b236cb2c265a94",
+    "output/c211-history-staging/worker.py": "ec274eec99aecd78dbc7336c0f8634d427125a3eea3c72262db3d146dc1b80d4"
+  },
+  "evidence": [
+    "evidence/instrument-history-prototype-check.json",
+    "evidence/history-session-prototype-check.json",
+    "evidence/history-worker-prototype-check.json",
+    "evidence/single-body-ias15-check.json",
+    "evidence/single-body-session-check.json"
+  ],
+  "known_limits": [
+    "Single-body IAS15 warning diagnosed and resolved in candidate via INDIVIDUAL zero-force criterion; PRS23 remains unchanged for multiple masses. Scientific Session tests pass with zero warnings; native promotion remains pending.",
+    "Candidate code provenance still references installed3.6 through body_registry; promote generation3.7 and both new scientific module hashes only with native integration.",
+    "Graphs not yet exercised natively.",
+    "Product3.6 field performance acceptance remains pending; two formal attempts failed."
+  ]
+}

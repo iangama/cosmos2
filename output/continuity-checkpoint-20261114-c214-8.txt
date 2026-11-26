@@ -1,0 +1,11 @@
+BACKUP v23 LOCAL CONCLUÍDO — 8.567 arquivos, commit 787d70d3a124be598183d085ebcea050fb1d57c4; sem push.
+Recibos github-source-{sync,local}-20261114d.json e output/c214-followup-20261114b.json completos. Não repetir o driver.
+C2-14 nativo B e visual B aceitos; perfil ainda SEM medição. Preparação: scripts/prepare-c214-orbits-profile.py --label20261114a → evidence/c214-orbits-profile-preparation-20261114a.json, prepared true / accepted false por faltar coletor/controlador/auditor. Ler contrato de perfil e pending do recibo.
+Reaproveitamento nativo: profile-expanded-residency-v6.py linhas100–120 usa cosmos2BeginStageTrace+cosmos2BeginFrameCapture(120000), encerra ambos em uma chamada; adaptar sem repetir coleta F. Novas janelas precisam checar job/configuração/resultados da bancada CEF, animação contínua e vista, além da árvore/RAM/PDH.
+Últimos docs/passagem/preparação posteriores à seleção v23 devem entrar no próximo snapshot. A0.28.0 e B0.28.1 seladas e imutáveis; antiga0.27 reaberta/restaurada. V1 7/21, C2-14 incompleto, nenhum perfil novo coletado.
+
+C2-14 CHECKPOINT DE CONTINUIDADE
+{"timestamp": "2026-11-14T16:30:31.298Z", "five_hour_remaining": 7.0, "weekly_remaining": 23.0}
+CPU/serviço/HTTP aceitos. Nativo A20261114a:5grupos/4capturas/8saídas0/vista+favoritos restaurados, RECUSADO no selo final de output/session.json (descritor de PIDs muda legitimamente). Visual A recusado: legenda Newton no gráfico de relógios e eixo/ajuda em150%. Preservar A, todos os estágios e ZIPs.
+Revisão B: output/c214-orbits-ui-staging-v2 → candidata output/c214-orbits-product0.28.1. Scripts prepare-c214-orbits-product-v2.py, launch-c214-orbits-candidate-v2.py, verify-native-c214-orbits-v2.py. Contrato C2-14-ORBITAS-NATIVO-REVISAO-B-20261114.md. Python/dados idênticos HTTPB. Apenas legenda, espaço de eixo e marcador Newton atual mudaram. Descritor operacional excluído SOMENTE com prova A de restauração/8saídas0; demais protegidos/fontes preservados.
+Próximo: executar/conferir nativo B --label20261114b; checar recibos e processos antes de repetir, pois driver pode estar rodando em segundo plano. Depois inspecionar4PNG originais em100/150%, registrar visual independente. Perfil C2-14 ainda não executado; não repetir residência F nem CPU. Backupv23 pendente;v22anteriorC214. Sem push/promoção/subagentes.

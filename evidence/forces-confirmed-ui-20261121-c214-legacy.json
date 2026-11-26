@@ -1,0 +1,88 @@
+{
+  "accepted": true,
+  "completed": true,
+  "native_user_flow_accepted": false,
+  "scope": "Headless browser state/scale checks only, using real frozen default scientific responses and a memory-only HTTP adapter. No original launcher, owner session, renderer, scientific recomputation, persistence or performance acceptance.",
+  "product": "output/original-flow-hotfix-product0.28.3",
+  "source_sha256": {
+    "output/original-flow-hotfix-product0.28.3/app/ui/forces.html": "599bc000cb6f1f037304b17f8015b4dc6061ef2395fee775a06cee4d32b4ccaf",
+    "output/original-flow-hotfix-product0.28.3/app/ui/forces.css": "3b8f5d50b4b7aee802cee7265a88b79a54a9b2b57a7edb1cc1c1e72cf8b00be8",
+    "output/original-flow-hotfix-product0.28.3/app/ui/forces.js": "3abb720c2cbe33763022df25aaf33bd3f2bbb172faed2ea2c9533c5562ef33b1",
+    "output/original-flow-hotfix-product0.28.3/app/ui/geomagnetism.js": "598bae70fed268ae923b50b55086941403312e8500fd71a22787e951c12ccc9f",
+    "output/original-flow-hotfix-product0.28.3/app/ui/fusion.js": "32ab742c9f90c7b29809122cd47ef01983770aff1108f16ba0d2e2fd26734b1d",
+    "output/original-flow-hotfix-product0.28.3/app/ui/decays.js": "d9d29e3e2af599a4e636f59cae95d14924ca267c409d9cccd52d4a020209f8d8",
+    "scripts/verify-forces-confirmed-ui.cjs": "9d1e144f4648ecde2823d6492f5b8da7afa0cec4417486d2411da79c526ab7e5",
+    "output/forces-confirmed-ui-fixtures-20261120a/catalog.json": "084efb7a898d5c2b004964e9c5c8f9d211a9cdc771d897b150a38ad8d9a47afd",
+    "output/forces-confirmed-ui-fixtures-20261120a/decays.json": "837317223b1d69374cb8564ab5eccd4c80343ab3fffea777da47adc92f526706",
+    "output/forces-confirmed-ui-fixtures-20261120a/fusion.json": "b936667b07f51d0c2d668bee089f85ede1e53dc4cf7c7ab60bec58d1a4d5eb6f",
+    "output/forces-confirmed-ui-fixtures-20261120a/geomagnetic.json": "b4fe2611c229afe0ab4f6db00a7f261af4bf03deaa140ce6e023aa8d2d140044",
+    "output/forces-confirmed-ui-fixtures-20261120a/dipole.json": "5c634a73d777d04270594ea37b2686754e67abe26c06e5c48ec8012594a444c3",
+    "output/forces-confirmed-ui-fixtures-20261120a/binary.json": "79b598ee3ec46e6b349c86e65b119e8c86eeb558001b7a4c1dab054e22f0d4f5",
+    "output/forces-confirmed-ui-fixtures-20261120a/cno.json": "76f2e4717b713925c5dcdc42c42647a9cd96c5a6847e30ae88ce012ccccf92f5",
+    "output/forces-confirmed-ui-fixtures-20261120a/relativity.json": "e610ac054d9b11a42cb22dd882cbd9980455493fffbf51f486edf6e0531f3c61",
+    "output/forces-confirmed-ui-fixtures-20261120a/gravity.json": "58f117e97531fee7922edf763c9cefaa3c93b6145aae0fbdc717d3c3c0bbe1f4",
+    "output/forces-confirmed-ui-fixtures-20261120a/electromagnetic.json": "d136d744a954e572b3ed2084b6ac93041d44959956bf1d8c6c24f7958e18ef8f",
+    "output/forces-confirmed-ui-fixtures-20261120a/strong.json": "921c5e2d56165a5553e8f10db0bdbcc59c4ffa34f0984d7b1c037f98ca23e24a",
+    "output/forces-confirmed-ui-fixtures-20261120a/weak.json": "8f70c435c70f30ad1255e5cbb10777d257bf1eefeeb3494c178755851cd81432",
+    "output/forces-confirmed-ui-fixtures-20261120a/stellar.json": "e4a95530f1aa7c95de670afa2a22b57b63f0a344b0cc12f3124e2aa6e1bf6909"
+  },
+  "checks": [
+    {
+      "name": "rejected-scenario-keeps-confirmed-drawing-and-notice",
+      "passed": true
+    },
+    {
+      "name": "save-and-export-after-rejection-use-confirmed-result",
+      "passed": true
+    },
+    {
+      "name": "restore-confirmed-conditions-without-recalculation",
+      "passed": true
+    },
+    {
+      "name": "successful-retry-publishes-the-new-result",
+      "passed": true
+    },
+    {
+      "name": "editing-a-field-does-not-mutate-confirmed-data",
+      "passed": true
+    },
+    {
+      "name": "save-load-recalculates-and-reports-generation",
+      "passed": true
+    },
+    {
+      "name": "all-twelve-default-scenarios-remain-renderable",
+      "passed": true
+    },
+    {
+      "name": "fusion-failed-choice-preserves-visible-curves",
+      "passed": true
+    },
+    {
+      "name": "decays-failed-choice-preserves-visible-curves",
+      "passed": true
+    },
+    {
+      "name": "shared-scale-1",
+      "passed": true
+    },
+    {
+      "name": "shared-scale-1.25",
+      "passed": true
+    },
+    {
+      "name": "shared-scale-1.5",
+      "passed": true
+    }
+  ],
+  "captures": [
+    "output/forces-confirmed-ui-20261121-c214-legacy/scale-1.png",
+    "output/forces-confirmed-ui-20261121-c214-legacy/scale-1-25.png",
+    "output/forces-confirmed-ui-20261121-c214-legacy/scale-1-5.png"
+  ],
+  "unexpected_requests": [],
+  "passed": 12,
+  "failed": 0,
+  "expected_existing_defects": false
+}

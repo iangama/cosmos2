@@ -1,0 +1,41 @@
+{
+  "accepted": false,
+  "reviewed": true,
+  "native": "evidence/is6-planet-catalog-native-20261110a.json",
+  "native_sha256": "7ca3b754430fc2c7cca812f17d995f7879a84c525a3835044e65be2756d448a1",
+  "captures": [
+    {
+      "path": "output/is6-planet-catalog-native-20261110a/catalog-1.png",
+      "sha256": "07529a51bd78a492c319e5609aeb6d0da596ab09f4d60f7e5495b41c9d14dee5",
+      "scale": 1,
+      "bounds": {
+        "scroll": 1920,
+        "width": 1920
+      }
+    },
+    {
+      "path": "output/is6-planet-catalog-native-20261110a/catalog-1-5.png",
+      "sha256": "8a3b0d6e38f7d780e699c27fe1f298f1c7ce4bc4e07935282d231dcee96d96b3",
+      "scale": 1.5,
+      "bounds": {
+        "scroll": 1903,
+        "width": 1903
+      }
+    }
+  ],
+  "issues": [
+    {
+      "control": "catalog-utc",
+      "finding": "The native datetime-local control renders 10/11/2026 12:00 PM while the reference epoch is 2026-10-11T12:00:00Z; the Portuguese reader can interpret a different date."
+    },
+    {
+      "control": "catalog-properties",
+      "finding": "Shape and rotation origins are displayed in English."
+    }
+  ],
+  "positive_checks": [
+    "Ten scientific identities and export passed the native functional verifier.",
+    "The inspected 100% and 150% screenshots preserve readable values and wrap the export path."
+  ],
+  "scope": "Visual review of the CEF captures for candidate 0.23.0"
+}

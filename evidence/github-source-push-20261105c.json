@@ -1,0 +1,13 @@
+{
+  "accepted": true,
+  "completed": true,
+  "repository": "https://github.com/iangama/cosmos2",
+  "commit": "aa1b330d7ad7ce7b1db6a6b77f820e044367c5ce",
+  "remote_head": "aa1b330d7ad7ce7b1db6a6b77f820e044367c5ce",
+  "verified_by": "git ls-remote origin refs/heads/main",
+  "sync": "evidence/github-source-sync-20261105c.json",
+  "files": 3544,
+  "changed": 84,
+  "whitespace_check_exit": 0,
+  "scope": "Partial source and evidence backup through P3. Does not yet include prepared P4, runtimes, owner sessions or binary archives."
+}

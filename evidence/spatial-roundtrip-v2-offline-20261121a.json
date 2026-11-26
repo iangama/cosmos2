@@ -1,0 +1,57 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checks": [
+    {
+      "name": "current-native-export-preserves-exact-bytes-science-view-and-policy",
+      "passed": true
+    },
+    {
+      "name": "current-import-gets-new-local-identity-and-complete-origin",
+      "passed": true,
+      "branch": "e9105b8c3f2240f5964e2a1c1e83bf6b"
+    },
+    {
+      "name": "save-export-reimport-preserves-both-generations-of-origin",
+      "passed": true
+    },
+    {
+      "name": "legacy-schema1-retains-the-original-importer-and-generation",
+      "passed": true,
+      "fixture": "Legacy envelope reconstructed only in this isolated test from unchanged native artifact/view."
+    },
+    {
+      "name": "recomputed-outer-seals-do-not-admit-a-forged-source-hash",
+      "passed": true
+    },
+    {
+      "name": "recomputed-outer-seals-do-not-change-the-import-policy",
+      "passed": true
+    },
+    {
+      "name": "writer-failure-preserves-existing-save-and-exports",
+      "passed": true
+    },
+    {
+      "name": "export-byte-budget-failure-does-not-create-an-unimportable-export",
+      "passed": true,
+      "fault_injection": "Source/export byte limit temporarily reduced to1 in this isolated process."
+    },
+    {
+      "name": "nested-origin-budget-is-enforced",
+      "passed": true,
+      "fault_injection": "Validation entered at the configured maximum depth."
+    }
+  ],
+  "source_file": "output/original-flow-hotfix-product0.27.6/is6-spatial-import-service-records/exports/f6dee22dbd064d8686fe05629cc07092.json",
+  "source_sha256": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985",
+  "source_sha256_files": {
+    "scripts/verify-spatial-roundtrip-v2.py": "29c2094324e43a5f9d034df1ee9bfe60012a966f050de7b1256577c6b31182bd",
+    "scripts/spatial-roundtrip-v2/is6_spatial_import_v2.py": "8fc454ff040c89c16ec9a7be26fa1ee2b1629fa673c4894ce233ae7bb880ac39",
+    "scripts/spatial-roundtrip-v2/is6_spatial_import_store_v2.py": "acf9fc13bab965121bd9c070bb3ec90df32bf6b31c3f2b096415518ba2fe060e",
+    "scripts/spatial-roundtrip-v2/is6_spatial_import_laboratory_v2.py": "372a7bcac785ef3c6d483a9503e11f18551a396dff0090890637bde8fcae097f",
+    "scripts/spatial-roundtrip-v2/CONTRATO.txt": "f2bcd7f1f549453b1791a113a3b14874610aa556c63ffd49f9c72fb9c503a9e0"
+  },
+  "scope": "CPU-only versioned importer/store tests against the exact file exported by native0.27.6. No renderer, live application, API or native acceptance. Legacy model/import/store/laboratory modules remain unchanged. Writer/byte/depth failures are explicit isolated fault injections.",
+  "parent_python_unchanged": 139
+}

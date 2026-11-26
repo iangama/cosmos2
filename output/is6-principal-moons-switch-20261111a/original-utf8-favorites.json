@@ -1,0 +1,38 @@
+{
+  "payload": {
+    "schema": 1,
+    "views": [
+      {
+        "id": "def083fc62f64fdb9a9bd9b6fe292cbc",
+        "name": "Vista anterior à troca",
+        "view": {
+          "schema": 1,
+          "target": "Jupiter",
+          "mode": "orbit",
+          "utc": "2026-10-11T12:00:00.000",
+          "et": 844992069.1823514,
+          "paused": true,
+          "rate": 1,
+          "navigation": {
+            "Anchor": "Jupiter",
+            "ReferenceFrame": "Root",
+            "Position": [
+              289184938.6468506,
+              -28732630.24963379,
+              -171080732.8215332
+            ],
+            "Up": [
+              0.5048304122194073,
+              -0.05015857893893959,
+              0.861760043084622
+            ],
+            "Yaw": 0,
+            "Pitch": 0
+          },
+          "free_anchor_render_m": null
+        }
+      }
+    ]
+  },
+  "sha256": "d4409a05b710453cb0fddf58cdb62bbf52f8c3e3ec7979de4a1a81da0a2efa18"
+}

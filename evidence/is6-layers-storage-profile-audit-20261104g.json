@@ -1,0 +1,8 @@
+{
+  "accepted": false,
+  "profile": "evidence/is6-layers-storage-profile-20261104g.json",
+  "profile_sha256": "562b9cbfb61dadc2e768e9492cc86b7bcbc0b0ba7248d729cbe9671eacea8033",
+  "auditor_sha256": "94f17fa0c1a9b83335213a6190a1b8587e190f22ccfbf948bc54d7efdfa53951",
+  "runs": [],
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\audit-is6-layers-storage-profile-v2.py\", line 92, in main\n    peak=audit_gpu(json.loads(gpu_path.read_text(encoding='utf-8-sig')),r['session'],r['engine_sha256'],row);gpu_peak=max(gpu_peak,peak)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\is6_pair_profile_support.py\", line 87, in audit_gpu\n    assert {p['pid'] for p in sample['ram']['processes']} == owned\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

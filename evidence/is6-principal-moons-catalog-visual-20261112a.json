@@ -1,0 +1,36 @@
+{
+  "accepted": true,
+  "completed": true,
+  "candidate": "0.25.1",
+  "reviewed_utc": "2026-11-12T02:20:02.061551+00:00",
+  "native_receipt": "evidence/is6-principal-moons-catalog-native-20261111a.json",
+  "native_receipt_sha256": "0b8257a5934f27790aa40b85e22a3356b30861454aa25a52a071b71fb5b44279",
+  "captures": [
+    {
+      "path": "output/is6-principal-moons-catalog-native-20261111a/catalog-1.png",
+      "sha256": "0c88b31598c5b2ac0d7644b09dc65edecd9cd961bdd6aa66c39fd23f749dc560",
+      "UI_scale": 1.0,
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "output/is6-principal-moons-catalog-native-20261111a/catalog-1.5.png",
+      "sha256": "4d0dfac601ef84fa3fa3c731c942de5bfeac9184ef5b7f8ec5087a614aed7503",
+      "UI_scale": 1.5,
+      "resolution": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "method": "Inspeção direta dos dois PNG de página CEF existentes; nenhum pixel editado.",
+  "checks": [
+    "Titã e época2000 confirmados, unidades SI e identificação SAT441/606→6→0 legíveis.",
+    "Cinco fichas presentes: posição, velocidade, GM, semieixos e orientação.",
+    "Escala100% sem cortes; escala150% com rolagem vertical e sem sobreposição/horizontal indevida.",
+    "Consulta e exportação visíveis; limitação de incerteza desconhecida preservada."
+  ],
+  "scope": "Presentation of the opaque catalog page at two scales only. Native globe rendering and performance have separate receipts."
+}

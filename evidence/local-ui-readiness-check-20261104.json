@@ -1,0 +1,68 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-native-ui-readiness-v2.py": "2def1a9b46d6a561fa49c6846d13cdee8e4ff4a5da7eff8b5590482863ce1f88",
+    "scripts/native_ui_readiness.py": "47d41957b61da6640a6dc669bda6df786c6ef6ae3419d2a0e9dc778a41775531",
+    "scripts/wait-local-ui.py": "21035858ea78bf5a8c1918920e2f72cbae4a3fca1d6369e7fadcd93402137324"
+  },
+  "checks": [
+    {
+      "case": "Delayed HTTP listener",
+      "result": {
+        "ready": true,
+        "health_url": "http://127.0.0.1:54842/health",
+        "ui_url": "http://127.0.0.1:54842/",
+        "health": {
+          "application": "cosmos2",
+          "protocol": 1
+        },
+        "checked_root_page": true,
+        "attempts": 1,
+        "elapsed_s": 0.5159999999959837
+      }
+    },
+    {
+      "case": "Wrong service",
+      "refused": true,
+      "error": "O servidor local não ficou pronto: ValueError: The local service is not the expected Cosmos2 UI"
+    },
+    {
+      "case": "Boolean protocol",
+      "refused": true,
+      "error": "O servidor local não ficou pronto: ValueError: The local service is not the expected Cosmos2 UI"
+    },
+    {
+      "case": "Root page still loading",
+      "refused": true,
+      "error": "O servidor local não ficou pronto: ValueError: The local Cosmos2 page is not ready"
+    },
+    {
+      "case": "Server exited",
+      "refused": true,
+      "elapsed_s": 0.07800000000133878,
+      "error": "O servidor local encerrou antes de a interface ficar pronta."
+    },
+    {
+      "case": "Server exits after health",
+      "refused": true,
+      "error": "O servidor local encerrou durante a abertura."
+    },
+    {
+      "case": "Immediate ready UI",
+      "result": {
+        "ready": true,
+        "health_url": "http://127.0.0.1:54842/health",
+        "ui_url": "http://127.0.0.1:54842/",
+        "health": {
+          "application": "cosmos2",
+          "protocol": 1
+        },
+        "checked_root_page": true,
+        "attempts": 1,
+        "elapsed_s": 0.0
+      }
+    }
+  ],
+  "scope": "Local HTTP readiness and owned-child guard only; separate native launch verification remains required."
+}

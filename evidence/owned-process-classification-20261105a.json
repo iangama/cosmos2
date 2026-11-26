@@ -1,0 +1,36 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-owned-process-classification.py": "159d3e36f353363b8f55b912d05634118b953f05a2ab09d495fcad4cc2a29d5a",
+    "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+    "IS-6-GPU-IDENTIDADE-PROCESSOS.md": "ecf5f20e1574e1f6f51a126a99f9a95265e0070c3a978e8a704cf2a8939f0cae"
+  },
+  "owned": [
+    1,
+    2,
+    3
+  ],
+  "excluded_old_parent": [
+    4
+  ],
+  "refusals": [
+    {
+      "case": "Missing root",
+      "error": "Owned scope root missing from Windows snapshot"
+    },
+    {
+      "case": "Parent changed after snapshot",
+      "error": "Candidate parent changed after Windows snapshot"
+    },
+    {
+      "case": "Candidate disappeared",
+      "error": "Unresolved candidate in owned snapshot: pid=2 parent=1"
+    },
+    {
+      "case": "Root cycle",
+      "error": "Cycle in confirmed owned parent identities"
+    }
+  ],
+  "scope": "CPU synthetic ownership classification only; no native process enumeration, GPU sampling or performance acceptance."
+}

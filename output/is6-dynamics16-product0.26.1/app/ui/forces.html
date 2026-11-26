@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cosmos2 · Forças fundamentais</title>
+<link rel="stylesheet" href="forces.css">
+<body>
+<header><a href="/" class="brand">COSMOS<span>2</span></a><div><b>Forças fundamentais</b><small>Experimentos, campos e processos</small></div><a class="back" href="/">Voltar ao Atlas ↗</a></header>
+<main>
+  <aside>
+    <p class="eyebrow">ESCOLHA O PALCO</p>
+    <h1>O que faz o<br>universo mudar?</h1>
+    <div id="scenarios" class="scenario-list"></div>
+    <p><a href="/nuclei.html" style="font-size:12px">Acervo nuclear · massas e ligação ↗</a></p>
+    <section><h2>Atuação e visualização</h2><p class="muted">Atuação altera a evolução. Referência mostra o campo ou processo que seria produzido.</p><div id="controls"></div></section>
+    <section><h2>Efeitos neste palco</h2><p class="muted">Escolha as contribuições aplicadas. A referência completa permanece disponível.</p><div id="effects"></div></section>
+    <section><h2>Condições do experimento</h2><form id="parameters"></form><button id="calculate" class="primary">Aplicar condições</button><button id="fusion-conditions" hidden>Usar condições de comparação</button><p id="fusion-conditions-note" class="muted" hidden>Aplica 300 MK, 10²² m⁻³, razão 1 e uma duração específica para esta mistura. Consulte os valores nos campos.</p></section>
+    <div class="actions"><button id="save-forces">Salvar</button><button id="load-forces">Retomar</button><button id="export-forces">Exportar dados</button></div>
+  </aside>
+  <article>
+    <p id="restoration-note" class="restoration-note" hidden role="status"></p>
+    <div class="scene-heading"><div><p class="eyebrow" id="regime">BANCADA CIENTÍFICA</p><h2 id="scene-title">Preparando cálculo…</h2></div><span id="mode-badge">Referência ativa</span></div>
+    <label id="network-control" hidden>Visualização da região <select id="network-view"><option value="curves">Composição ao longo do tempo</option><option value="reactions">Rede de reações e taxas</option></select></label>
+    <label id="binary-control" hidden>Referencial da vista <select id="binary-view"><option value="rotating">Girante com as fontes</option><option value="inertial">Inercial no baricentro</option></select></label>
+    <div id="em-controls" hidden><label>Campo de referência na vista <select id="em-field"><option value="magnetic">Magnético B</option><option value="electric">Elétrico E</option><option value="both">Elétrico e magnético</option></select></label><button id="measure-particle">Medir a partícula</button></div>
+    <div id="dipole-controls" hidden><label>Vista <select id="dipole-view"><option value="spatial">Trajetória e campos 3D</option><option value="curves">Campo, pitch e energia</option></select></label><label>Campo de referência <select id="dipole-field"><option value="magnetic">Magnético B</option><option value="gravity">Gravitacional g</option><option value="both">B e g</option></select></label><button id="measure-dipole">Medir a partícula</button></div>
+    <div id="geomagnetic-controls" hidden><label>Vista <select id="geomagnetic-view"><option value="globe">Globo e vetores 3D</option><option value="map">Mapa geográfico</option></select></label><label>Modelo na vista <select id="geomagnetic-model"><option value="full">IGRF14 completo</option><option value="dipole">Dipolo do IGRF · grau1</option></select></label><label>Mapa da grandeza <select id="geomagnetic-component"><option value="F_nT">Intensidade total F / nT</option><option value="H_nT">Intensidade horizontal H / nT</option><option value="X_nT">Componente norte X / nT</option><option value="Y_nT">Componente leste Y / nT</option><option value="Z_nT">Componente para baixo Z / nT</option><option value="D_deg">Declinação D / graus</option><option value="I_deg">Inclinação I / graus</option></select></label><button id="center-geomagnetic">Centralizar sonda</button></div>
+    <div id="viewport"><canvas id="science-view" aria-label="Visualização científica do experimento"></canvas><div class="view-help" id="view-help">Arraste para orbitar · roda para aproximar · clique num vetor para medir</div><output id="probe"></output></div>
+    <div id="probe-panel" hidden aria-label="Medições da sonda geomagnética"></div>
+    <div class="timeline"><button id="animate" aria-label="Reproduzir trajetória">▶</button><input id="time-index" type="range" min="0" max="240" value="240" aria-label="Instante da visualização"><output id="time-label">—</output></div>
+    <div id="curve-legend" aria-label="Curvas e medições por espécie"></div>
+    <div id="network-probes" aria-label="Medir as espécies da rede"></div>
+    <div class="legend"><span class="actual-dot"></span>Resultado calculado <span id="reference-entry"><span class="reference-dot"></span>Referência com atuação ligada</span> <span id="scale-label"></span><label id="axis-control">Escala das curvas <select id="chart-axis"><option value="linear">Linear</option><option value="log">Logarítmica</option></select></label><label id="framing-control" hidden>Enquadramento <select id="framing"><option value="focus">Região do desvio</option><option value="whole">Trajetória completa</option></select></label></div>
+    <div id="measurements" class="measurements"></div>
+    <div id="channel-readings"></div>
+    <details open><summary>Modelo e alcance científico</summary><p id="model"></p><p id="domain" class="muted"></p><p id="dependencies" class="muted"></p><div id="sources"></div></details>
+    <p class="status" id="force-status" role="status">Carregando os cenários locais…</p>
+  </article>
+</main>
+<script src="geomagnetism.js"></script><script src="fusion.js"></script><script src="decays.js"></script><script src="forces.js"></script>
+</body>
+</html>

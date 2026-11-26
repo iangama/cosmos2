@@ -1,0 +1,31 @@
+{
+  "accepted": true,
+  "completed": true,
+  "destination": "/mnt/c/Users/Ian/cosmos2-github-snapshot-20261103",
+  "files": 2951,
+  "changed": [
+    "IS-6-IMPORTACAO-ESPACIAL-K5D-ARMAZENAMENTO-RESULTADO-20261104.md",
+    "IS-6-IMPORTACAO-ESPACIAL-K5D-SERVICO-RESULTADO-20261104.md",
+    "LEIA-PRIMEIRO.md",
+    "README.md",
+    "evidence/github-source-sync-20261104m.json",
+    "evidence/is6-spatial-import-service-20261104c.json",
+    "evidence/is6-spatial-import-service-20261104c2.json",
+    "evidence/is6-spatial-import-store-20261104b-r2.json",
+    "evidence/local-ui-native-startup-20261104d-owned-ps-closed.json",
+    "evidence/local-ui-native-startup-20261104d.json",
+    "evidence/local-ui-powershell-probe-20261104d.json",
+    "output/is6-spatial-import-staging/is6_spatial_import_laboratory.py",
+    "output/is6-spatial-import-staging/is6_spatial_import_scene.py",
+    "output/is6-spatial-import-store-20261104b/expected-before-reopen.json",
+    "output/local-ui-native-startup-20261104d/original-entry.cmd",
+    "scripts/probe-powershell-startup.py",
+    "scripts/run-native-ui-startup-check-v3.py",
+    "scripts/verify-is6-spatial-import-service-v2.py",
+    "scripts/verify-is6-spatial-import-service.py"
+  ],
+  "preserved_missing_sources": [],
+  "inventory_sha256": "d402c9e5918387acf15876444ed421462e24f6c2cdb4ffdd37d03a47ee2da885",
+  "script_sha256": "55ea9e4472a93048b0f0d2a5e697573f3b2f0e258c39e3654e36f4caca780b17",
+  "scope": "Partial source/evidence backup only; excludes runtimes, personal sessions, binary archives and most generated records. Does not install the product or constitute full reproducibility."
+}

@@ -1,0 +1,539 @@
+BACKUPv18 LOCAL CONCLUÍDO:416fb28670dfd707111e6744571f2dcae524a2f6;6492arquivos;recibos20261113b.Sem push.
+Cópia encerrada;finisher recusou whitespace de logs brutos/EOF;bytes preservados e commitLOCAL conferido.
+Próximo:contrato de residência0.27.0;coletor/executor/auditor ainda não implementados.
+Última telemetria lida12:28:44.383Z:1%5h/85%semanal disponíveis;consultar atual antes de trabalhar.
+
+VIGENTE13/11 —PERCURSO0.27.0 FUNCIONAL/VISUAL E REABERTURA ACEITOS
+Ler IS-6-PERCURSO-AMPLIADO16-RESULTADO-20261113.md e resultado dos instrumentos.
+ServiçoC9etapas/13recusas/7workerszero. JornadaA5grupos/11recusas/32seleções/20PNG.
+DriverWSLoriginal20680 terminou143;verificadorseguiu. Recovery retém6handles,2verificadoreszero,
+4saídaszero SEM repetirjornada. Recibo is6-expanded-journey-native-host-recovery-20261113a ACEITO.
+Reabertura5grupos/5recusas/14PNG/18arquivos byteidênticos/4saídaszero ACEITA.
+Visual34PNGrevistos: evidence/is6-expanded-journey-visual-20261113a.json ACEITO.
+App0.27.0aberto34836;conferiroutput/session.json eprocessos,reposição vista/época/favoritos passou.
+Produto byteidêntico0.26.2;atalhosanteriorespreservados;sem promoção.
+PRÓXIMO EXATO:IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-CONTRATO.md. Dezjanelas previstas;
+coletor/executor/driver/auditor próprios AINDA NÃO IMPLEMENTADOS. Nenhuma coleta nova preparada.
+Não repetir jornadas/perfis0.26.2/CPU30dias aceitos. K5Aoriginalcontinua recusado.
+Backupv18 PREPARADO scripts/sync-github-source-snapshot-v18.py;será iniciadoagora --label20261113b.
+Conferirreceipt/processo ANTESderepetir. Durantecópia,NÃOeditarfontesselecionadas.
+DepoiscommitLOCAL+recibo,sem push. Último backupconcluído51643bb/v16,6324arquivos.
+Telemetria2026-11-13T12:25:59.432Z:10%5h/86%semanal disponíveis;checkpoint8%econtinuaratélimite real.
+Sem subagentes;V1segue7/21;IS6incompleto. Receiptsnativereopen/host20261113a encerrados, NÃO repetir.
+
+VIGENTE13/11 —SERVIÇOS0.27.0 ACEITOS;JORNADA NATIVA A EM EXECUÇÃO
+ServiçoC evidence/is6-expanded-instruments-service-20261113c.json ACEITO9etapas/13recusas/7workerszero.
+Ler IS-6-PERCURSO-AMPLIADO16-INSTRUMENTOS-RESULTADO-20261113.md. A/B recusados por adaptador,preservados.
+Lançador/opener próprios gerados;produto0.27.0 permanece byteidêntico0.26.2 e sem promoção.
+ATIVO: .tooling/python/Scripts/python.exe -Xutf8 scripts/run-is6-expanded-journey-native.py
+--label20261113a --service-label20261113c. Conferir native-host/native receipts e output/session.json.
+Tool exec26173. Não repetir jornadas;ver output/is6-expanded-journey-native-host-20261113a/journey.log.
+Contrato IS-6-PERCURSO-AMPLIADO16-NATIVO-CONTRATO.md. Driver mantém4handles,fecha4x0 e reabre
+janela0.27.0/vista inicial. Capturas originais precisam de inspeção direta após conclusão.
+Depois:reabertura dos checkpoints/instrumentos em processos novos,guardas/câmera/limpeza;
+plano próprio de residência/transições só após funcional/visual. NÃO repetir perfis0.26/CPU30dias.
+Backupv17 PREPARADO scripts/sync-github-source-snapshot-v17.py;não executado.
+Último backupv16recuperado51643bb70a3953fff64efb111bc9f432c489c5e1;6324arquivos;recibos20261113a.
+Avanços atuais ainda fora dobackup.Não editar fontes selecionadas enquanto cópia ativa.Nenhum push.
+Telemetria2026-11-13T12:12:55.588Z:58%5h/93%semanal disponíveis;consultar atual;checkpoint8%econtinuar.
+Sem subagentes;V1segue7/21,IS6incompleto,K5Aoriginal recusado.
+
+VIGENTE13/11 —SERVIÇOS DOS INSTRUMENTOS0.27.0 EM EXECUÇÃO C
+Executando scripts/verify-is6-expanded-instruments-service-v3.py --label20261113c.
+Conferir evidence/is6-expanded-instruments-service-20261113c.json e processo/log antes de repetir.
+Partículas Terra/próton e Júpiter/elétron:workers reais,restauração/futuro64passos exatos ACEITOS.
+Camadas:ciência/Store reais,4visibilidades,ramos/filhos/exportação ACEITOS no parcial.
+Zona solar18canais:checkpoint/ramos/exportação passaram;recálculo semfraca/restauração/reabertura ainda emcurso.
+A recusou leitura crua sem scientific_generation;B comparou envelope mutável(sequence/tempo de publicação).
+A/B/executores/ZIP preservados. C usa workerreal earth_field/jupiter_field e cápsula pausada fixada,
+exigindo igualdade física atual exata. Produto0.27.0 permanece byteidêntico0.26.2.
+Próximo:confirmar reciboC COMPLETO; só então preparar lançador com
+python3 scripts/prepare-is6-expanded-native-launcher.py --label20261113a --service-label20261113c.
+Contrato nativo e verify-native-is6-expanded-journey.py/run-is6-expanded-journey-native.py PREPARADOS,
+NÃO EXECUTADOS;revisar antes de rodar. Lançador ainda não gerado;nenhuma janela atual válida.
+NÃO repetir perfil0.26.2/CPU30dias. Backupv16recuperado51643bb,6324arquivos;avançosnovos fora do backup.
+Telemetria2026-11-13T12:12:55.588Z:58%5h/93%semanal disponíveis;salvar8%econtinuaratélimite real.
+Sem push/sem subagentes;V1segue7/21,IS6incompleto,K5Arecusado.
+
+VIGENTE13/11 —BACKUPv16 RECUPERADO LOCAL:51643bb70a3953fff64efb111bc9f432c489c5e1;6324arquivos;recibos20261113a. Sem push.
+Falha20261112c preservada; nenhuma cópia ativa. App0.26.2 já encerrado;PIDs antigos reciclados.
+Próximo:serviços reais de partículas/camadas/zona solar0.27.0;depois nativo.
+Telemetria atual2026-11-13T12:00:51.977Z:98%5h/100%semanal disponíveis.
+Sem subagentes;V1segue7/21;IS6incompleto;K5Arecusado.
+
+VIGENTE —0.26.2 ACEITA;0.27.0 PREPARADA E ADMISSÃO INICIAL ACEITA
+App0.26.2 mantém33392,conferiroutput/session.json;Abrir-Dinamica16.cmd testado.
+0.27.0 emoutput/is6-expanded-journey-product0.27.0,arquivosapp byteidênticos
+à0.26.2; namespace próprio/inventário com configsJ0AE fixadas. NÃO trocar appainda.
+ServiçoB ACEITO16→4→16:arquivo/ramo16,IGRF/JRM/gravidade/maré4 sem mutação,
+restore16 exato/4recusas. FalhaA:auxiliar Worker.call(name) colidiu comcampo
+name do ramo; V2 só adapta protocolo. Fontes/recibosA/B preservados.
+HTTP B ACEITO:24recusas/5percursos incluindo restore16 após cópias legadas;
+renderer/Atlas/bancadas substituídos,worker/handler reais. NÃO é aceite nativo.
+Ler IS-6-PERCURSO-AMPLIADO16-SERVICO-20261112.md, contrato e journey-inventory.json.
+PRÓXIMO EXATO:preparar/verificar serviços REAIS de partícula,camadas e zona
+solar em storage temporário próprio; configs fixadas no inventário. Preservar
+fase4 comum/IDs/GM/época entre instrumentos e origem16 separada. Depois
+lançador próprio/jornada nativa. Não acoplar campos/nuclear aos16 por inferência.
+BACKUPv16 FINISHER iniciado a seguir:python3 scripts/finish-is6-expanded-backup.py.
+Veroutput/is6-expanded-backup-20261112c-progress.json/PID/recibossync-localc
+antes de repetir; fazcópia+commitLOCAL e atualizaeste topo automaticamente.
+Não editar fontes selecionadas enquanto state=copying. V15 já concluído7f358f0.
+Telemetria2026-11-12T16:57:13.823Z:72%5h/1%semanal; salvar e continuar até
+limite real. Nenhum push/sem subagentes. V1segue7/21;IS6incompleto;K5Arecusado.
+
+HISTÓRICO DA ENTREGA0.26.2:
+BACKUPv15 LOCAL CONCLUÍDO:7f358f0cd1005f2ccd5de59cfd2582a99df894d4,
+6086arquivos,845novos/alterados,recibossync/local20261112b. Nenhum push.
+Preparador0.27 emexecução a seguir; eventual avanço posterior não está nov15.
+Perfil20261112a CONCLUÍDO/AUDITADO V2:18.053quadros,zero>100ms,max21,1836ms,
+RAM1,252819GiB/WDDM3,017479GiB; taxas≥0,999699 da solicitada;4saídaszero.
+AuditorA recusa só tipo de count (4517.0);V2 preparado antes da análise,
+mantém valorintegral/finito e todos limites. NÃO REPETIR COLETA.
+Appnovo33392: checkpoint16 restaurado exatamente viaCEF,3leituras×15fontes,
+posiçãoerro0; checkpoint/favoritos intactos/nós limpos/vista restaurada.
+Abrir-Dinamica16.cmd TESTADO/reutiliza janela. Conferiroutput/session.json.
+Ler IS-6-DINAMICA16-PERFIL-RESULTADO-20261112.md;0.25.1 e atalhos preservados.
+PRÓXIMO:IS-6-PERCURSO-AMPLIADO16-CONTRATO.md. Preparar0.27.0 isolada para
+percursoAtlas16/dinâmica16 e instrumentos4 no domínio próprio; serviço primeiro.
+Contrato novo APENAS; nenhum executor0.27 foi preparado/executado.
+BACKUPv15 será iniciado agora --label20261112b; conferirreceipt/processo
+antes de repetir. NÃO EDITAR fontes selecionadas durantecópia. DepoiscommitLOCAL
+e recibo. Nenhum push. Último backup concluído ainda év14/1fcd247.
+Telemetria2026-11-12T16:47:58.224Z:99%5h/5%semanal; janela5h renovou.
+O dono informou5%semanal e mandou usar conforme conveniente. Priorizar
+backup/passagem e continuar trabalho autorizado até limite real. Sem subagentes.
+V1segue7/21;IS6incompleto;K5Aoriginal recusado.
+
+CHECKPOINT ANTERIOR —2026-11-12T11:56:24.952Z:16%5h/8%SEMANAL
+Checkpoint salvo; CONTINUAR até limite real. Não confundir8% com parada.
+PerfilA emexec38963:1janela concluída,2emcoleta,semfalha. Conferir recibo
+is6-dynamics16-profile-20261112a,output/...-host/closure.json eprocesso.
+NÃO REPETIR/NÃO navegar/testes pesados/backup/downloads durante perfil.
+Apósdriver:auditorA pode recusar somente count nativo double4517.0;
+auditor-v2 preparado previamente mantéminteirofinito e todoslimites.
+Executar auditor-v2 --label20261112a sem repetir coleta; conferir4saídaszero,
+appnovo/vista restaurada. Depois verify-native-is6-dynamics16-reopen.py
+--label20261112a --profile-label20261112a (PREPARADO/NÃOEXECUTADO).
+Criar/testar Abrir-Dinamica16.cmd, resultado atualizado, backupLOCALv15
+sync-github-source-snapshot-v15.py --label20261112b,commitlocal/recibos.
+NÃO editar arquivos selecionados enquanto backup copia. Nenhum push.
+Fontes candidatas/conversores/contratos/executores já usados CONGELADOS.
+V1segue7/21;IS6incompleto;K5Aoriginal recusado. Sem subagentes.
+
+ATUAL — 12/11, DINÂMICA16:0.26.2 NATIVO/VISUAL ACEITOS, PERFIL EM CURSO
+MAIS RECENTE: jornadaD ACEITA combinada aos16casos100%C,32seleções/câmeras/
+leituras15fontes,8recusas/edição/restauração/legado3/4. VisualB ACEITO após
+inspeção direta6PNG(C2+D4). Resultado IS-6-DINAMICA16-INTERFACE-RESULTADO-20261112.md.
+PERFIL A INICIADO: run-is6-dynamics16-profile.py --label20261112a
+--plan-label20261112a; tool38963. Plano2313fontes. NÃO REPETIR/NÃO navegar,
+rodar testes pesados,backup oudownloads durante coleta. Host conserva4handles,
+fecha4x0 e reabre0.26.2 na vista inicial; conferir closure/recibo/processo.
+AuditorA tem assert de tipo Pythonint para count, mas trace nativo serializa
+inteiros emdouble (4517.0 no perfil antigo). Auditor-v2 PREPARADO antes de
+analisar dados novos, aceita SOMENTEdouble finito/positivo/integral; mesmos
+limites de quadros/RAM/WDDM/taxa. DeixarA registrarrecusa, depois rodarV2
+sem repetir coleta; recibo de preparação próprio preservado.
+Apósperfil:conferir4saídaszero/reabertura/auditorV2; native GUIrestorecheckpoint16
+em appnovo/limpeza,novo Abrir-Dinamica16.cmd e backup LOCALv15.
+Backupv15 PREPARADO:NÃOEXECUTADO sync-github-source-snapshot-v15.py. Último év14.
+Última telemetria2026-11-12T11:51:52.997Z:28%5h/10%semanal; consultar atual.
+
+0.26.1: jornadaB funcionalACEITA,32seleções/câmeras/leituras combinadasA/B
+100/150,480contribuições,8recusas preservamfase/câmera, ediçãoSI/restore/legado3/4.
+Erro nativo máximo0,48828125mm. A100 passou; A parou ao tentar clicar painel
+oculto em150; diagnósticoB confirmou alternância de layout, sem bug de coordenadas.
+Visual0.26.1: seisPNG TODOS inspecionados; texto extenso empurrava leituras em150
+e rótulo deTitã era ocluído. NÃO considerar aceito visualmente. Fontes preservadas.
+0.26.2 muda SOMENTE3arquivosUI: resumo+detalhes recolhidos, câmera/rótulo fora
+dos marcadores. TODOS osPython byteidênticos à0.26.1/serviçoC. SwitchE4saídaszero,
+admissão nativaD ACEITA16/posiçõeserro0/leitor15; app0.26.2aberto.
+JornadaC parou ao lerPNG nativo ainda em gravação (SyntaxError);16seleções100
+passaram/2PNG copiados. C/executor/fontes preservados. JornadaD INICIADA:
+verify-native-is6-dynamics16-v4.py --label20261112d; reusa16casos100 deC,
+recapturaTitã100 e cobre16em150+restante; esperaPNG aceitandoSyntaxError transitório.
+Conferir receipt evidence/is6-dynamics16-native-20261112d.json antes de repetir.
+Próximo: confirmarD, inspecionar6PNG ORIGINAIS deC2+D4 e registrar visual; só depois
+selar plano e executar perfil próprio. NÃO repetir A/B ou CPU30dias já aceitos.
+Perfil preparado/NÃO EXECUTADO: profile-is6-dynamics16.py,
+audit-is6-dynamics16-profile.py,run-is6-dynamics16-profile.py,open-dynamics16-app.py.
+Ler IS-6-DINAMICA16-PERFIL-CONTRATO.md e V2. Quatrojanelas30+60s,66PDH,
+pausado/sistema0,1/Terra1/Titã10. Coletor/auditor novos aceitam só avanço do tempo
+mantendo flags/identidades/bytes; regressãoofflineA19recusasACEITA, NÃO medidaGPU.
+Falta builder do plano+recibo visual antes da execução. Backupv14 não cobreavanço.
+Última telemetria lida2026-11-12T11:46:42.219Z:39%5h/12%semanal; reler atual.
+Sem subagentes/nenhum push;V1segue7/21;IS6incompleto;K5Aoriginalrecusado.
+
+HISTÓRICO DA RETOMADA0.26.0:
+VIGENTE:0.26.0 abriu no switchC,4saídaszero e vista restaurada. Admissão
+nativaA criou16/posiçõeserro0, mas leitura recusou "Comando desconhecido" no
+Laboratory. Candidata0.26.0 e seus recibos ficam preservados/SEM aceite nativo.
+Revisão isolada0.26.1 muda SOMENTE laboratory.py e metadado de versão do
+dynamics16_runtime. ServiçoC ACEITO com37recusas+16rotas pelo Laboratory real;
+HTTP C ACEITO24recusas/4percursos. ServiçoB falhou pelo fixture de teste sem
+cloud_supported (não por erro adicional do produto); B/executor preservados.
+Launcher-v4/switch-v4 exigem serviço+HTTP C antes da abertura.
+SwitchD INICIADO --label20261112d; conferir recibo e output/session.json.
+Favorito temporárioB foi removido com recibo de cleanup; demais conservados.
+Próximo: admissão nativa0.26.1, depois jornada/capturas/perfil próprios.
+
+Serviço ACEITO: evidence/is6-dynamics16-service-20261112a.json. 121estados/30dias
+idênticos à série IAS15 B aceita; 16leituras/240contribuições, erro máximo
+1,110223e-16m/s²;36recusas. Checkpoints6h/1dia/30dias exatos, origem separada,
+ramos/filho/intervenção/exportação, processo worker novo, pausa/clock e legado3/4.
+HTTP ACEITO: evidence/is6-dynamics16-http-20261112a.json;24recusas sem mudança,
+4percursos, handler real/worker real com renderer substituído. Não é aceite nativo.
+Produto isolado output/is6-dynamics16-product0.26.0; fontes executadas congeladas.
+Preparador e refinamento estático pré-execução registrados no build-manifest.
+Switch A20261112a RECUSADO: registro0.25.1 obsoleto, serviço/janela já fechados
+antes da troca. Nenhum processo antigo fechado pelo teste; recuperação abriu0.24.
+Switch B RECUSADO após4saídaszero: launcher mantinha assert0.25.1; produto
+intacto, recuperação0.24 aberta. FontesA/B preservadas. Revisão launcher-v2
+verifica0.26.0. Switch C INICIADO:switch-is6-dynamics16-candidate-v2.py
+--label20261112c; conferir recibo/processo/output/session antes de repetir.
+ApósC aceita, remover SOMENTE favorito temporário47d2e011fe2f4be9b3ade85cb9e3e08b
+que B deixou no navigation da candidata16; conservar favoritos do dono.
+Próximo: confirmar4saídaszero/restauração vista; jornada nativa100/150,
+16seleções/câmeras/contribuições, recusas transacionais, geometria max(1mm,8ULP),
+capturas originais/inspeção; depois receita+fontes seladas e perfil próprio.
+0.25.1 preservada; nenhum atalho alterado. Backupv14 NÃO inclui avanço atual.
+Telemetria lida nesta sessão:84%5h/19%semanal disponíveis; timestamp do
+evento2026-11-12T11:28:00.672Z. Consultar evento atual para decisões de cota.
+V1segue7/21;IS6incompleto;K5Aoriginal recusado. Sem subagentes/nenhum push.
+
+HISTÓRICO: parser/IDs16 preparados por scripts/prepare-is6-dynamics16-registry.py em output/is6-dynamics16-ui-staging (4módulos, sintaxe conferida; nenhum serviço/UI executado). Ler IS-6-DINAMICA16-INTERFACE-CONTRATO.md e backend-preparation.json. Faltam geraçãoSession/leitura16/APIUTC/UI e todos os testes de serviço. Estes arquivos novos são posteriores ao backupv14; fonte raiz persiste, não alegar inclusão no commit.
+Telemetria2026-11-12T02:54:41.458Z:3%5h/22%semanal;continuar até limite real.
+
+BACKUPv14 LOCAL CONCLUÍDO: 1fcd24785363a5824dc7ad82511545dd8d947e9c; recibos20261112a, 5243arquivos. Nenhum push.
+Checkpoint8% salvo emoutput/handoff-archive/cota-20261112a-8.txt. Continuar até limite real.
+
+VIGENTE —12/11UTC, CAMADAS0.25.1 E CPU16 CONCLUÍDOS
+App0.25.1 aberto:engine37808/server12048/launcher52700;conferiroutput/session.json.
+Abrir-Planetas-e-Luas.cmd abre/reutiliza a janela. Vista/época do dono repostas.
+Perfilcomposto20261112a ACEITO:18.070quadros/zero>100ms/240comandos100%/
+max19,1212ms/RAM1,25169GiB/WDDM3,02412GiB. 9arquivos persistidos byteidênticos;
+4saídaszero/reabertura. NÃO REPETIR perfil. JornadasA/B20confirmações,11recusas,
+23PNG100/150 todos inspecionados,3ciclos4saídaszero incluindo perfil.
+Resultado IS-6-LUAS-CAMADAS-RESULTADO-20261112.md;recibosis6-moons-layers-*.
+
+CPU16: system16_import.py e system16_frames.py emoutput/is6-dynamics16-staging.
+A/20261112a RECUSADA velocidade18,24µm/s/transform20,33µm/s. Fontes e dados
+congelados. Diagnósticos numerics/frame20261112a explicam arredondamento.
+B/20261112b ACEITA+AUDITOR:121instantes30dias×16,erro0,136424m/6,41159µm/s,
+refinamento0,029104m,120pareserro6,7211e-12m/s²,5épocas/25recusas+4frames.
+Mesmos limites10m/1e-5m/s; ODE SI incremental eorigem inercial separada.
+A transformaçãoabsoluta deA não foi aceita;B testa interface de origemseparada.
+Ler IS-6-DINAMICA16-RESULTADO-20261112.md e IS-6-DINAMICA16-COORDENADAS-V2.md.
+Não editar conversor/executores/auditores/contratos jáexecutados.
+
+PRÓXIMO CONCRETO: construir candidata0.26.0 isolada a partirde0.25.1 para
+botão de cópia16. CPUaceito não éUIaceita. Copiar fontes congeladas;
+import_dispatch precisa ramo explícito schema3 solar_sixteen_physical_centers;
+body_registry.ID_PATTERN só permite10/399/301/599 e precisa16IDs exatos,
+sem admitir baricentros. Session.import_atlas é genérico, mas solar_reading
+exigekind4 e precisa rota própria/extension para16 (source.epoch já existe
+no novo pacote). UI solar.js oculta painelparaqualquerkindexceto4. Criar
+controle e informação próprios; manter caminho3/4, camposIGRF/JRM e bancadas
+no seu domínio atual. Não acoplar EM/nuclear aos16por inferência.
+Preparar contratoUI+serviço/persistência antes de trocar app. Depois nativo,
+capturas revistas eperfil próprio. Manter0.25.1aberta durante preparação.
+
+BACKUPv14 pronto e será executado --label20261112a;conferirrecibo/processo
+antes de repetir. Nenhum push público. Não editar arquivos durante cópia.
+Telemetria2026-11-12T02:50:21.042Z:11%5h/23%semanal disponíveis.
+Checkpoint8%salva econtinuaatélimite real. K5A original recusado;V1segue7/21,
+IS6incompleto. Histórico abaixo contém estados antigos. Sem subagentes.
+
+ATIVO — PERFIL COMPOSTO0.25.1,20261112a
+JornadasA/B CONCLUÍDAS/ACEITAS:13+7confirmações,11recusas,2ciclos4saídaszero.
+23capturasA16/B7 todas inspecionadas; visual20261112aaceito,6regiõesRGB
+iguais100/150. Catálogo16 intacto; favorito/época restaurados/appaberto.
+Planois6-moons-layers-profile-plan-20261112a selado2192fontes/4janelas.
+Driver scripts/run-is6-moons-layers-profile.py --label20261112a --plan-label20261112a
+INICIADO. Verificar recibo/processo/log antes de agir; NÃO REPETIR.
+Mede Terra/Júpiter estáticos evisibilidade2Hz,30+60s,66PDH/240comandos,
+rastreio interno e registrosimportados byteidênticos. Entrada inerte durante
+medida. Não navegar ou executar testes pesados/backup/downloads durante perfil.
+Driver conserva4handles reais,fecha4x0,auditae reabre0.25.1 na vista inicial.
+Apóscoleta:conferir auditor/recibo/4x0,reabertura e atualizarresultado/backupv14.
+V14 preparado/nãoexecutado:scripts/sync-github-source-snapshot-v14.py.
+
+Próxima construção independente:IS-6-DINAMICA16-CONTRATO.md (ainda sem
+execução/importador/UI). Expandir cópia dinâmica para16,GMsfísicossem5/6,
+formato próprio/legado3/4preservado,CPU30diasIAS15/DOP853 antes de cena.
+K5Aoriginal segue recusado/causaaberta. V1segue7/21;IS6incompleto.
+
+ATIVO — 12/11UTC, JORNADA DAS CAMADAS NA0.25.1
+ContratoIS-6-LUAS-CAMADAS-CONTRATO.md. Driver emexec61113:
+scripts/run-is6-moons-layers-verification.py --label20261112a --restart-label20261112b.
+Primeira faseA ACEITA:13confirmações/11recusas/16PNGoriginais,Atlas16intacto,
+2paresatuaisverificados,2importações. ProcessoA4saídaszero.
+CapturasA01–16já inspecionadas diretamente, sem edição. FaseB/reabertura
+em curso; conferircycle receipt,logs/output/session antes de agir.
+NÃO duplicar jornadas. Driver restaura favorito/época e mantém app aberto.
+Perfil composto próprio: scripts/profile-is6-moons-layers.py,
+audit-is6-moons-layers-profile.py,run-is6-moons-layers-profile.py eprepare...plan.py
+PREPARADOS/NÃO EXECUTADOS. ApósB aceita+7capturasB revistas, criarreceipt
+visual23 e selar plano; só então medir4janelas30+60s/66PDH/240comandos.
+K5A original recusado/causaaberta; esta medida é da cena16expandida.
+Backupv14 preparado,não executado; inclui novosreceipts/capturas/records.
+Não mudar os scripts/contrato jáexecutados. V1segue7/21;IS6incompleto.
+
+VIGENTE — 12/11UTC,0.25.1 CONCLUÍDA NO ESCOPO PRÓPRIO
+App aberto (confirmado pelo opener); sessãooutput/session.json.
+Perfil15janelas20261111a ACEITO:67.798quadros/zero>100ms/RAM1,603GiB/
+WDDM3,041GiB. Não repetir. Jornada/catálogo16/reabertura passaram;
+4saídaszero; atalhoAbrir-Planetas-e-Luas.cmd reutiliza a janela.
+Catálogo:duas capturas100/150 inspecionadas; novo recibo visual20261112a.
+Driverresult.json completo,todas5etapaszero. BackupLOCALv13/5092arquivos,
+commit18702c03f1df278733b8e6ecb92c17f20abbf8da,nenhum push.
+Resultado atualizado emIS-6-LUAS-NAVEGACAO-RESULTADO-20261111.md.
+Próximo: contrato próprio de percurso/persistência das camadas na cena16,
+verificação nativa e visual, depois perfil composto com fontes seladas.
+K5A recusado580,569ms/causa em aberto; novo ensaio não apaga essa recusa.
+V1segue7/21;IS6incompleto. Sem subagentes.
+Telemetria2026-11-12T02:18:32.658Z:97%5h/36%semanal disponíveis.
+Checkpoint8% salva e continua até esgotamento real. Histórico abaixo
+contém estados antigos; este cabeçalho prevalece.
+
+BACKUP LOCAL CONCLUÍDO:18702c03f1df278733b8e6ecb92c17f20abbf8da;recibos20261111d. Nenhum push.
+
+ATUALIZAÇÃO AUTOMÁTICA DOS TESTES LOCAIS
+Consultar output/is6-moons-completion-20261111a/result.json e logs.
+Resultados de subprocessos:[{"name": "profile-audit", "exit": 0, "log": "output/is6-moons-completion-20261111a/profile-audit.log"}, {"name": "journey", "exit": 0, "log": "output/is6-moons-completion-20261111a/journey.log"}, {"name": "catalog-page", "exit": 0, "log": "output/is6-moons-completion-20261111a/catalog-page.log"}, {"name": "reopen", "exit": 0, "log": "output/is6-moons-completion-20261111a/reopen.log"}]
+Sessão atual:{"app": 24944, "server": 47696, "launcher": 38884, "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-principal-moons-navigation-product0.25.1\\app\\server.py"}
+Não repetir perfil15janelas20261111a. Ler seu auditor e recusas, se houver.
+As duas capturas do catálogo ainda exigem revisão visual humana.
+Atalho novo Abrir-Planetas-e-Luas.cmd; versão0.24 e atalho anterior preservados.
+Backupv13 label20261111d será executado a seguir; ver recibo/resultado antes de repetir.
+V1segue7/21;IS6incompleto;K5Arecusado;nenhum push.
+
+CHECKPOINT:2026-11-11T21:49:57.471Z,restam7%5h/38%semanal.
+Driver local complete-is6-principal-moons-checks.py em curso, aguarda perfil65152.
+Consultar output/is6-moons-completion-20261111a/result.json; não duplicar as etapas.
+Não editar arquivos enquanto driver estiver no passo source-backup.
+Ao retomar:conferir logs, duas imagens do catálogo16 e resultado do backupv13.
+
+ATUALIZAÇÃO VIGENTE — PERFIL15JANELAS EM CURSO
+0.25.1 ABERTA:engine31952/server14404; conferir launcher emoutput/session.json.
+TrocaB aceita,4saídaszero dohostanterior, vistaJúpiter restaurada.
+NativeB CONCLUÍDO/ACEITO:5épocas×16posições/15rotações,45semieixos,
+15visitas,12capturas,4vistas novas6luas,favoritos/clock/cópias3/4corpos.
+Máximos0,48828125mm/1,11e-16/0,36748mm. VisualB aceito após inspeção12PNG.
+Nenhuma imagem foi editada. Pixels amostrados do globo iguais100/150.
+
+PERFIL EM CURSO: scripts/profile-is6-principal-moons-navigation.py
+--label20261111a. Tool session65152, conferir processo/recibo antes de agir. Plano2270fontes seladas,
+ZIP486MiB,15destinos/30+60s/66PDH. Auditor separado
+scripts/audit-is6-principal-moons-navigation-profile.py. NÃO REPETIR perfil,
+não mudar app/navegar/rodarbackup oudownloads durante janelas. Entrada
+inerte temporária,restaurada automaticamente ao final. App permanece aberto.
+Depois auditar, fazer complementoUI (busca/árvore/voosuave/retorno/
+cancelamento/exportação16/fichas e página catálogo16), ciclo0.25.1 quatro
+saídaszero/reabertura, novo opener/atalho para0.25.1 (atalhoatualaponta0.24),
+resultado ebackupLOCALv13. Não modificar0.24/0.25.0/0.25.1 jáexecutadas.
+Telemetria2026-11-11T21:35:14.505Z:38%5h/43%semanal. Checkpoint8% salva,
+continua até limite real. V1segue7/21;IS6incompleto;K5Arecusado. Sem subagentes.
+
+ATUALIZAÇÃO VIGENTE — CANDIDATA16CORPOS0.25.1 EM TROCA
+Telemetria2026-11-11T21:30:24.514Z:57%5h /46%semanal.
+Backupv12/20261111c CONCLUÍDO4492arquivos, commitLOCALb917ad65b8715b4622917182aed5cf11d4a9f994.
+A primeira execução do snapshot parou porquePASSAGEM-COTA.txt foi atualizada
+durante a cópia; mesmafonte foi reexecutada com arquivos estáveis. Nenhum push.
+Enquanto backup estiver em curso NÃO EDITAR os arquivos selecionados.
+
+DADOS16: CPU5épocas/25recusas/freshprocess/poolSPICE aceitos. DadosB:
+6recortes,206épocas cada,1236casos relativos bitabit eSSBdiferença0.
+HorizonsA completo6consultas retornoujup365_merged/sat441l. JD impresso
+arredondado causou até40,29µs na avaliação. Diagnóstico reusou os6raws,
+ET=(Decimal(TLIST)-2451545)*86400. FormalB aceito30vetores,desvio≤0,466µm/
+5,41e-12m/s. Nomes dos pacotes permanecem distintos, sem alegar identidade.
+IS-6-LUAS-HORIZONS-TEMPO-20261111.md e receiptsB registram ajuste;A preservado.
+
+MAPAS6: aquisição is6-principal-moons-visuals-20261111a concluída, todos
+pixels decodificados,sem avisos:Io4096×2048JPG,Europa4096×2048TIF,
+Ganimedes1800×900JPG,Calisto1800×900TIF,Encélado8192×4096JPG,
+Titã4040×2020TIF. Total~44,5MB. Fonte primáriaUSGS deTitã retornou403;
+descriçãoCopiada doLua upstream é metadado, não confirmação observacional.
+
+CENA0.25.0 montada:16corpos/15destinos,ficha/catálogo ampliados,6globosnovos.
+ETCPU exato e10bodies anteriores iguais. Fontes/staging congelados apósuso.
+Primeira troca abriuapp16232/server48804 e fechou0.24 com4x0, mas rejeitou
+favorito temporário porque helper gravouUTF8/servidor liaCP1252. Recuperação
+reescreveu só envelope temporário emASCII e restaurouJúpiter; receipt
+switch-recovery-20261111a. NativeA recusou antes dos casos pelo mesmo arquivo.
+Não apagar recibosA/switchA ou mudar candidata0.25.0 executada.
+
+REVISÃO0.25.1: nova staging-v2 eproduto0.25.1. moon_navigation lêUTF8 ou
+CP1252 só quando SHAconfere,escreveUTF8 explicitamente. CPUfavorites5casos
+aceitos (inclui bytes ambíguosÃ©,emoji eUnicode),corrupção recusada/semrewrite
+na leitura. Scripts revise-is6-principal-moons-favorites.py,
+verify-is6-principal-moons-favorites.py e prepare...navigation-product-v2.py.
+Mudanças noapppacket sómoon_navigation.py+planet_scene.json(perfil).
+Switchhelper-v2 usa envelopeASCII e permite origem0.24/0.25.0/0.25.1.
+Troca para0.25.1 EM CURSO: scripts/switch-is6-principal-moons-candidate-v2.py
+--label20261111b. Conferir receipt eoutput/session.json antes de nova ação.
+Depois: verify-native-is6-principal-moons-navigation-v2.py --label20261111b.
+Receita16posições/15rotações×5épocas,45semieixos,15visitas,4vistas6luas,
+12capturas100/150,favoritos/clock/cópias3/4corpos; preserva app aberto.
+ArquivoSTAGEbase é output/is6-principal-moons-navigation-staging-v2.
+Perfil ainda NÃO PREPARADO/EXECUTADO: contratoIS-6-LUAS-NAVEGACAO-CONTRATO.md
+exige15janelas30+60s,1920×1080/UI100, limites antigos,66PDH/rastreio. Após
+aceitesfuncional/visual preparar receita15 eexecutar uma vez. Conservar0.24.
+Novo atalhoAbrir-Planetas.cmd aponta0.24; atualizá-lo para nova candidata só
+após sua validação, preservando fontes executadas por revisão própria.
+
+Próximobackupv13 precisa incluir newstaging/produtos0.25,mapas,novasfontes,
+receiptsHorizons/switch/favorites/native,capturas. Sem envio remoto público.
+K5Asegue recusado/causa aberta; V1segue7/21/IS6incompleto. Sem subagentes.
+
+COMPLEMENTO: scripts/verify-is6-principal-moons-horizons.py preparado, NÃO EXECUTADO. Usa fontes completas/JD impresso, classifica modelo por cabeçalho e não presume família retornada. Próxima execução após backup/retomada, --label20261111a.
+
+CHECKPOINT DE COTA — 2026-11-11T16:45:38.989Z:6%5h /54%semanal
+Continuar até esgotamento real;6% é checkpoint, não parada.
+CPU16corpos CONCLUÍDO/ACEITO:5épocas,25recusas,pool restaurado,ET exato,
+reabertura idêntica,10registros anteriores iguais/protegidos intocados.
+Recibois6-principal-moons-verification-20261111a.json. Ler resultado em
+IS-6-LUAS-DADOS-RESULTADO-20261111.md. Próxima ciência: comparação externa
+com modelos identificados; depois cena/mapas/UI/perfis próprios das6luas.
+Backupv12 complementar preparado e prestes a executar --label20261111c.
+Conferir receipt evidence/github-source-sync-20261111c.json e processo antes
+de relançar. Depois commitLOCAL e recibo local. Não enviar ao remoto público.
+App0.24 aberto em Júpiter, engine22312/server35940/launcher27948; manter.
+Atualização anterior abaixo detalha dados, recusaA e backupv11.
+
+ATUALIZAÇÃO MAIS RECENTE — LUAS EM VERIFICAÇÃOCPU
+App0.24 aberto em Júpiter, engine22312/server35940/launcher27948.
+Perfil0.24 aceito40.686quadros/zero>100ms/4x0/reabertura; NÃO REPETIR.
+Backup LOCALv11 concluído4455arquivos, commit1137da4d36770fa27ed8dddc84027a3165035257,
+recibosgithub-source-sync/local-20261111b. Nenhum push.
+Aquisição de luas20261111a CONCLUÍDA, MD5JUP365/SAT441 publicados iguais.
+PreparaçãoA recusou teste adicional de identidade do centro físico599.
+CorrelaçãoB:1em206épocas difere14,21pm/2,83e-14m/s; preservadosA e fontes.
+IS-6-LUAS-CENTRO-COMPATIBILIDADE-20261111.md explica a revisão préviav2.
+Data-v2/20261111b ACEITO:6recortes,206épocas cada,1236comparações, estados
+relativos bitabit/SSBdiferença0 e10centros anteriores inalterados. Recortes
+somam32.379.904bytes (conferir soma no recibo); centrosplanetários compatíveis
+no orçamentoSI anterior, sem alegar identidade entre produtos distintos.
+Modelo16corpos preparado em output/is6-principal-moons-model-20261111a,
+modulois6_principal_moons_catalog.py SHAde3c37996011f197bd92210bc4ee3a15daf8833ece471043ed00eb6238083c93.
+VerificadorCPU scripts/verify-is6-principal-moons-catalog.py --label20261111a
+em curso; conferir receipt antes de repetir. Próximo: conferirCPU, registrar
+resultado e backup LOCALv12 complementar. Depois comparaçãoexterna/cenaUI
+própria de luas. NÃO mudar app0.24 nem promover novos dados sem esses passos.
+Telemetria2026-11-11T16:44:52.793Z:10%5h /54%semanal. Salvar em8% e continuar
+até limite real, não parar no checkpoint. Sem subagentes.
+
+COSMOS2 — 11/11/2026, NAVEGAÇÃO0.24.0 ACEITA NO ESCOPO PRÓPRIO
+Telemetria2026-11-11T16:39:19.827Z:24%5h /57%semanal.
+App ABERTO em Júpiter após teste do novo Abrir-Planetas.cmd. Engine22312,
+server35940, launcher27948; obter wrapper no registro is6-planet-navigation-open-*.json.
+Ciclo anterior terminou4saídaszero. Atalho reutiliza janela e abre separado
+da sessão de testes. Iniciar-Cosmos2.cmd/produto3.13/sessão protegidos.
+
+ACEITES0.24: funcional combinado native-20261111d referenciaA/C; visual
+20261111a com12capturas100/150. Posições50/rotações45, erros máx0,4883mm/
+1,11e-16;27semieixos máx0,3675mm.6texturas usadas conferidas. Jornada extra
+is6-planet-journey-native-20261111a passou busca9/voo suave/retorno/cancelar/
+visita direta/exportação10corpos/fichaNetuno7propriedades. Reabertura no
+is6-planet-navigation-reopen-20261111a aceito,4x0 e restauração vista/época.
+
+PERFIL CONCLUÍDO/AUDITADO: is6-planet-navigation-profile[-audit]-20261111a.
+9janelas30+60s,1920×1080/UI100, Atlas pausado, recursos já consultados,
+céu ativo/exposição3,7, vistaoverview.40.686intervalos,zero>100ms,máximo
+31,0514ms,medianasmáx13,331ms,p95máx14,147/p99máx14,637ms.RAM1,53862GiB,
+WDDM3,02166GiB.9coletores66amostras/preflight3/contexto passaram.2196fontes
+seladas, executor/auditor congelados. NÃO repetir perfil. Leitura completa
+IS-6-NAVEGACAO-RESULTADO-20261111.md. Candidata isolada/sem promoção.
+
+ATIVO — LUAS: IS-6-LUAS-PRINCIPAIS-CONTRATO.md. Alvos501/502/503/504/602/606.
+Downloader acquire-is6-principal-moons-kernels.py --label20261111a EM CURSO,
+tool session19743. Verificar evidence/is6-principal-moons-acquisition-20261111a.json
+antes de relançar. BaixaJUP365~1,1GiB eSAT441~631MiB maiscomentários/receita/
+MD5publicado. As bases locaisJUP348/SAT459 só continham os centros e grupos
+deirregulares. FontesNAIF consultadas em11/11. Pacotesnovos incluemDE440;
+NÃO carregar esses segmentos sobreDE442s. Extrair só6alvos.
+Scripts prepare-is6-principal-moons-data.py e prepare-is6-principal-moons-catalog.py
+PREPARADOS/NÃO EXECUTADOS. Após aquisição: primeirodata com label20261111a,
+203+épocas/limites+vizinhos, igualdadebitabit/SSB≤1mm/1µm/s,10centrosanteriores
+inalterados e centro físico planetário igual ao pacote original. Depois
+catalog:16corpos,7luas,10registros anteriores iguais. Falta verificadorCPU
+5épocas/recusas/reabertura/poolSPICE, comparação externa, cena/UI e perfil.
+Preservar0.24 e app aberto enquanto prepara dados. Não atribuir camposnovos
+ou dinâmica acoplada; sóreferência na primeira etapa.
+
+BACKUP LOCAL: v11 preparado, ainda não executado; revisarnovosarquivos e
+sincronizar depois das novas evidências. Último commit03bf36f46cfb692d7a12d7ac55fbe5e6386ff1fb,
+4115arquivos. Checkout cosmos2-github-snapshot-20261103. Gitstatus em tool
+session84519 pode ainda estar ativo. Nenhum push. Remoto conhecido público2ad84bb.
+K5A recusado/causa aberta; P4 mantémaceite; V1segue7/21/IS6incompleto.
+
+DETALHES DOS DADOS E HISTÓRICO DA0.23.0
+
+CATÁLOGO: expansão independente prevista no PLANO-INTEGRACAO-SISTEMA-SOLAR.md.
+Contrato ativo IS-6-CATALOGO-OITO-PLANETAS-CONTRATO.md. Sol, oito centros
+físicos199/299/399/499/599/699/799/899 eLua301. Janela comumUTC01/01/1995
+00h–30/12/2049 23:59:59. Estados geométricos SSB/J2000/NONE em SI, formas e
+rotaçõesIAU gerais PCK00011; GM físico por fonte, incertezas explícitas.
+DE442s + centros JUP365/SAT441 existentes + MAR099s/URA182/NEP097 adquiridos.
+Fontes completas em output/is6-planet-catalog-acquisition-20261110a.
+MD5 publicadosMAR/NEP conferidos; SHA256URA registrado. Total~871MB.
+Subconjuntos em output/is6-planet-catalog-data-20261110a, total~19,4MB.
+Recibo is6-planet-catalog-data-20261110a.json aceito:203épocas porcentro,
+609comparações, igualdadebitabit e cadeiaSSB com diferença0 nos6componentes.
+Manifesto output/is6-planet-catalog-model-20261110a/catalog-data.json,
+SHA256fd040559c9e35ccb7a5a154241a20e6a912968284bef8db44f3a0182c1fb13c2.
+Módulo output/is6-planet-catalog-staging/is6_planet_catalog.py.
+CPU evidence/is6-planet-catalog-verification-20261110a.json aceito,
+5épocas/10corpos/8planetas/16recusas/reabertura, poolSPICE restaurado.
+
+HORIZONS: preservar verificadoresoriginais/v2 e seus recibosA/B recusados.
+A falhou no início exato por arredondamentoJD:−24,76573µs além da borda do
+subconjunto. V2 usa fontes completas para avaliar a época impressa, mas
+supôs3famílias de modelos iguais. Cabeçalhos refutaram essa suposição.
+V3/C concluiu usando as5respostas preservadas. Campo explícito
+same_model_comparisons_accepted=true somente paraMAR099/Mars499→4:
+5épocas, máximo1,56nm/3,41e−13m/s, limites originais1m/1e−5m/s.
+Mercúrio/Vênus DE442 vsDE441 diferem até187,894m/210,509m;
+Urano URA182 vsura184_merged até12,72µm; Netuno NEP097 vsnep098_merged até
+241,781m/0,00664135m/s. Registrar diferenças de modelos; o aceiteCPU próprio
+não transfere igualdade externa a essas4comparações.
+
+CANDIDATA0.23.0: cópia isolada da0.22.1, cinco arquivos novos/alterados
+is6_planet_catalog.py, server.py, ui/content.html, ui/planet-catalog.html/js.
+Página alcançável pelo link em Dados e fontes; GET/api/planet-reference?utc=,
+POST/api/planet-reference/export. Exporta estado consultado e fontes.
+Interface consulta dados; navegação3D dos8planetas e perfis próprios pendentes.
+Ajustes antes da primeira execução nativa normalizam segundosdatetime-local
+zero e quebram textos longos. Manifesto sela estas fontes no preflight.
+Novo launcher scripts/launch-is6-planet-catalog-candidate.py usa hostPython
+HTTPgate já existente. Nenhuma candidata promovida.
+
+K5: IS-6-DIAGNOSTICO-K5-RESULTADO-20261110.md registra diagnóstico único
+instrumentado A. Plano sela1859fontes;3janelasTerraPDH/JúpiterPDH/Júpiteroff,
+30+60s,13.553intervalos,zero>100ms/zero longtasksCEF, máximo27,2125ms.
+362consultasCEF terminaram, máximo6,777ms. Quatro saídaszero, hashes de
+sessão/atalho/checkpoints iguais. Pausaoriginal semreprodução; causa aberta.
+CorrelaçãoK5A em evidence/is6-k5-hitch-correlation-20261110a.json, logs exatos
+1793897449417504900. Chavebruta1265 equivaleordinalauditado1264,580,568612ms,
+horárioestimado16:46:34,683–35,263UTC05/11. MemóriaGPU estável nas amostras.
+K5A formal0.21.1 continua recusado; auditorparou na janela2. Preservar fontes,
+planos, quadros e auditor-v4. Perfil futuro exige hipótese/alteração/controle
+previamente documentados. Evitar repetição para obter resultado favorável.
+
+P4 espacial0.22.1 aceito:18.059quadros/240comandos/zero>100ms/4x0,
+RAM1,12961GiB/somaWDDM3,01709GiB. Documento
+IS-6-IMPORTACAO-ESPACIAL-PERFIL-P4-20261105.md. K5funcional/visualW aceitos,
+perfil pendente. V1 segue7/21; IS6 incompleto. Retomar construção autorizada.
+
+BACKUP: checkout irmão cosmos2-github-snapshot-20261103, commitLOCAL
+ eed68fcb6f43ac329abf89f14697cb0aa7a8cfba,3610arquivos. Sync20261105e foi
+conferido e commitado localmente. Remoto público continua2ad84bb, sem envio
+novo nesta retomada. Trabalho novo precisa de snapshot local complementar.
+Preservar README-B23-original.txt herdados. Backup parcial omite runtimes,
+user,ZIPs e fontesbinárias grandes; manter essa limitação explícita.
+
+PythonWindows .tooling/python/Scripts/python.exe. WSL semrebound/psutil.
+PS-File continua suspenso; coletoresPDH e hostsPython atuais são os aceitos.
+Telemetria usa relógio da sessão; relógio Windows observado~5min atrás do
+clock da ferramenta. Capturas/Horizons usam a época do próprio provedor.

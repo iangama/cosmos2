@@ -1,0 +1,156 @@
+{
+  "body_cases": [
+    [
+      "399",
+      "proton"
+    ],
+    [
+      "599",
+      "electron"
+    ]
+  ],
+  "body_representation": "vector",
+  "jovian_degree": 13,
+  "particle_steps": 4,
+  "particle_speeds_m_s": {
+    "proton": 100000,
+    "electron": 1000000
+  },
+  "solar_knots": [
+    120,
+    121
+  ],
+  "solar_default": "0.17.2 accepted prescribed-density N14 configuration",
+  "native_wait_s": 30,
+  "solar_wait_s": 750,
+  "magnetic_points": {
+    "399": {
+      "latitude": -23.55,
+      "longitude": -46.63,
+      "altitude": 1000.0
+    },
+    "599": {
+      "radius": 107238000.0,
+      "latitude": 0.0,
+      "longitude": 0.0
+    }
+  },
+  "magnetic_points_units": {
+    "latitude": "degrees",
+    "longitude": "degrees",
+    "altitude": "m",
+    "radius": "m"
+  },
+  "solar_configuration": {
+    "parameters": {
+      "temperature_K": 15000000.0,
+      "density_kg_m3": 150000.0,
+      "hydrogen_fraction": 0.34,
+      "catalyst_fraction": 0.01,
+      "catalyst_seed": "n14",
+      "duration_s": 31557600000.0,
+      "volume_m3": 1.0
+    },
+    "acting": {
+      "strong": true,
+      "weak": true,
+      "electromagnetic": true
+    },
+    "channel_switches": {
+      "pp": true,
+      "dp": true,
+      "he3he3": true,
+      "c12pg": true,
+      "n13beta": true,
+      "c13pg": true,
+      "n14pg": true,
+      "o15beta": true,
+      "n15pa": true,
+      "he3alpha": true,
+      "be7ec": true,
+      "li7pa": true,
+      "be7p": true,
+      "b8beta2a": true,
+      "n15pg": true,
+      "o16pg": true,
+      "f17beta": true,
+      "o17pa": true
+    },
+    "mode": "prescribed_density",
+    "density_history": {
+      "kind": "exponential",
+      "ratio": 1.05
+    },
+    "include_coulomb": true,
+    "include_screening": true
+  },
+  "utc": "2026-10-11T12:00:00Z",
+  "particle_pitch_deg": 60.0,
+  "particle_steps_per_command": 64,
+  "spatial_configuration": {
+    "inner_radius_boundary_units": 1.0,
+    "outer_radius_boundary_units": 8.0,
+    "radial_count": 65,
+    "azimuth_sectors": 96,
+    "orientation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertical_amplification": 200.0
+  },
+  "layer_configuration": {
+    "inner_radius_boundary_units": 1.0,
+    "outer_radius_boundary_units": 3.0,
+    "radial_count": 65,
+    "azimuth_sectors": 96,
+    "orientation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vertical_amplification": 200.0
+  },
+  "layer_visibilities": [
+    {
+      "spatial": true,
+      "magnetic": true
+    },
+    {
+      "spatial": false,
+      "magnetic": true
+    },
+    {
+      "spatial": true,
+      "magnetic": false
+    },
+    {
+      "spatial": false,
+      "magnetic": false
+    }
+  ]
+}

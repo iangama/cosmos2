@@ -1,0 +1,161 @@
+{
+  "accepted": true,
+  "completed": true,
+  "refusals": [
+    {
+      "name": "busy",
+      "error": "Timelike worker is not complete and idle"
+    },
+    {
+      "name": "failed",
+      "error": "Timelike worker is not complete and idle"
+    },
+    {
+      "name": "foreign_job",
+      "error": "Published job differs"
+    },
+    {
+      "name": "worker_error",
+      "error": "Timelike worker is not complete and idle"
+    },
+    {
+      "name": "unpublished",
+      "error": "Published job differs"
+    },
+    {
+      "name": "different_configuration",
+      "error": "Published configuration differs"
+    },
+    {
+      "name": "mass",
+      "error": "Benchmark parameters differ"
+    },
+    {
+      "name": "orbit_kind",
+      "error": "Benchmark parameters differ"
+    },
+    {
+      "name": "hidden_reference",
+      "error": "Benchmark operators/visibility differ"
+    },
+    {
+      "name": "clock_off",
+      "error": "Benchmark operators/visibility differ"
+    },
+    {
+      "name": "orbit_off",
+      "error": "Benchmark operators/visibility differ"
+    },
+    {
+      "name": "ui_url",
+      "error": "Native CEF bench absent, pending, hidden or faulted"
+    },
+    {
+      "name": "ui_pending",
+      "error": "Native CEF bench absent, pending, hidden or faulted"
+    },
+    {
+      "name": "ui_hidden",
+      "error": "Native CEF bench absent, pending, hidden or faulted"
+    },
+    {
+      "name": "ui_error",
+      "error": "Native CEF bench absent, pending, hidden or faulted"
+    },
+    {
+      "name": "ui_playing",
+      "error": "Native animation/timeline differs"
+    },
+    {
+      "name": "ui_view",
+      "error": "Native CEF view/zoom/dimensions differ"
+    },
+    {
+      "name": "ui_zoom",
+      "error": "Native CEF view/zoom/dimensions differ"
+    },
+    {
+      "name": "ui_width",
+      "error": "Native CEF view/zoom/dimensions differ"
+    },
+    {
+      "name": "ui_height",
+      "error": "Native CEF view/zoom/dimensions differ"
+    },
+    {
+      "name": "ui_index",
+      "error": "Native animation/timeline differs"
+    },
+    {
+      "name": "ui_max",
+      "error": "Native animation/timeline differs"
+    },
+    {
+      "name": "ui_profile",
+      "error": "Animation observer has no progress"
+    },
+    {
+      "name": "ui_physics_sha256",
+      "error": "CEF shows another scientific result"
+    },
+    {
+      "name": "wrong_reading",
+      "error": "Displayed instant/readings differ from published data"
+    },
+    {
+      "name": "clipped_viewport",
+      "error": "Viewport not fully presented"
+    },
+    {
+      "name": "cadence_0.84",
+      "error": "C2-14 raw cadence outside sealed bounds"
+    },
+    {
+      "name": "cadence_1.16",
+      "error": "C2-14 raw cadence outside sealed bounds"
+    },
+    {
+      "name": "cadence_0.1",
+      "error": "Continuous sample cadence/UTC changed"
+    },
+    {
+      "name": "cadence_2",
+      "error": "Continuous sample cadence/UTC changed"
+    },
+    {
+      "name": "overlong_raw_sample",
+      "error": "Raw sample timing exceeds1Hz budget"
+    },
+    {
+      "name": "truncated",
+      "error": "Native frame data invalid or truncated"
+    },
+    {
+      "name": "invalid",
+      "error": "Native frame data invalid or truncated"
+    },
+    {
+      "name": "wrong_size",
+      "error": "Framebuffer dimensions differ"
+    },
+    {
+      "name": "single_stall",
+      "error": "Stable frame limits exceeded"
+    },
+    {
+      "name": "nan_frame",
+      "error": "Invalid native frame duration"
+    },
+    {
+      "name": "stopped_animation",
+      "error": "Animation did not advance continuously through repeated full paths"
+    }
+  ],
+  "groups": 5,
+  "source_sha256": {
+    "scripts/verify-c214-profile-admission.py": "1dd3616c8720becf8c1eb3f9af7ce7d41195e8ae9db30aecdafe4e218264a88b",
+    "scripts/c214_profile_contract.py": "ea1cc1485f198c795d4c5a0491c17d17791ee628a64bb2392dc9dbb0e84650ba",
+    "output/c214-profile-admission-fixture-20261114a/export.json": "69415976c4199ef9674835084c4c692bd908fb0e95e50af7067241d33d598ba0"
+  },
+  "scope": "Offline profile identity/timing/playback/frame admission only; no new native performance acceptance"
+}

@@ -1,0 +1,15 @@
+{
+  "accepted": true,
+  "completed": true,
+  "commit": "03bf36f46cfb692d7a12d7ac55fbe5e6386ff1fb",
+  "files": 4115,
+  "changed": 508,
+  "destination": "/mnt/c/Users/Ian/cosmos2-github-snapshot-20261103",
+  "sync": "evidence/github-source-sync-20261111a.json",
+  "mode": "local commit",
+  "whitespace_checked_files": 446,
+  "whitespace_excluded": {
+    "output/is6-planet-catalog-verification-20261110a/changed-catalog-data.json": "Intentional trailing-space corruption fixture, checked by its inventory SHA256."
+  },
+  "scope": "Partial local source and evidence snapshot; curated SPK subsets included, full source kernels and runtimes retained in the main project"
+}

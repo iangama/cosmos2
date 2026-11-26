@@ -1,0 +1,644 @@
+(I) FileSystem           Set temporary path ${TEMPORARY} to 'C:\Users\Ian\AppData\Local\Temp\'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\AppData\Local\Temp\naif0012.tls'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\AppData\Local\Temp\geophysical.ker'
+(W) TransformationM.ager Kameleon module needed for transformations with dynamic frames
+(D) Lua                  Creating Lua state
+(D) Lua                  Open libraries
+(D) Lua                  Registering strict code
+(D) Lua                  Sandboxing Lua state
+(D) Lua                  Creating Lua state
+(D) Lua                  Open libraries
+(D) Lua                  Registering strict code
+(D) Lua                  Sandboxing Lua state
+(D) main                 Registering ${BIN} to 'C:\Users\Ian\cosmos2\.runtime-is4-stream\bin'
+(D) CommandlineParser    (Nameless argument: )
+(D) CommandlineParser    (--file:  cosmos2.cfg)
+(D) CommandlineParser    (--bypassLauncher:  cosmos2.cfg)
+(I) main                 Configuration Path 'C:\Users\Ian\cosmos2\.runtime-is4-stream\cosmos2.cfg'
+(D) main                 Loading configuration from disk
+(D) Lua                  Creating Lua state
+(D) Lua                  Open libraries
+(D) Lua                  Registering strict code
+(D) Lua                  Sandboxing Lua state
+(D) Lua                  Creating Lua state
+(D) Lua                  Open libraries
+(D) Lua                  Registering strict code
+(D) Configuration        Registering path '${ASSETS}': ${DATA}/assets
+(D) Configuration        Registering path '${CACHE}': C:/Users/Ian/cosmos2/output/cache
+(D) Configuration        Registering path '${CONFIG}': ${BASE}/config
+(D) Configuration        Registering path '${COSMOS2}': C:/Users/Ian/cosmos2
+(D) Configuration        Registering path '${DATA}': ${BASE}/data
+(D) Configuration        Registering path '${DOCUMENTATION}': ${BASE}/documentation
+(D) Configuration        Registering path '${FONTS}': ${DATA}/fonts
+(D) Configuration        Registering path '${GLOBEBROWSING}': ${USER}/globebrowsing
+(D) Configuration        Registering path '${LOGS}': C:/Users/Ian/cosmos2/output/logs
+(D) Configuration        Registering path '${MODULES}': ${BASE}/modules
+(D) Configuration        Registering path '${PROFILES}': ${DATA}/profiles
+(D) Configuration        Registering path '${RECORDINGS}': ${USER}/recordings
+(D) Configuration        Registering path '${SCREENSHOTS}': ${USER}/screenshots
+(D) Configuration        Registering path '${SCRIPTS}': ${BASE}/scripts
+(D) Configuration        Registering path '${SHADERS}': ${BASE}/shaders
+(D) Configuration        Registering path '${SYNC}': C:/Users/Ian/cosmos2/data/sync
+(D) Configuration        Registering path '${SYNC_DYNAMIC}': ${SYNC}/dynamically_downloaded
+(D) Configuration        Registering path '${TASKS}': ${DATA}/tasks
+(D) Configuration        Registering path '${TEMPORARY}': ${BASE}/temp
+(D) Configuration        Registering path '${USER}': C:/Users/Ian/cosmos2/user
+(D) Configuration        Registering path '${USER_ASSETS}': ${USER}/data/assets
+(D) Configuration        Registering path '${USER_CONFIG}': ${USER}/config
+(D) Configuration        Registering path '${USER_PROFILES}': ${USER}/data/profiles
+(D) Configuration        Registering path '${USER_SHOWCOMPOSER}': ${USER}/showcomposer
+(D) Configuration        Registering path '${USER_SHOWCOMPOSER_PROJECTS}': ${USER}/showcomposer/projects
+(D) Configuration        Registering path '${USER_SHOWCOMPOSER_UPLOADS}': ${USER}/showcomposer/uploads
+(D) Configuration        Registering path '${USER_WEBPANELS}': ${USER}/webpanels
+(D) Configuration        Registering path '${WEB}': ${DATA}/web
+(W) main                 Cannot save remembered profile when starting a profile that is not in the data/profiles or user/data/profiles folder.
+(I) main                 SGCT Configuration file: C:\Users\Ian\cosmos2\config\window-1080.json
+(D) main                 Creating SGCT Engine
+(D) main                 Parsing commandline arguments
+(D) main                 Loading cluster information
+(I) SGCT                 Number of nodes: 1
+(I) SGCT                 	Node (0) address: localhost [20401]
+(D) main                 Setting callbacks
+(I) SGCT                 SGCT version: 4.0.0
+(D) SGCT                 Validating cluster configuration
+(D) SGCT                 Initiating network API
+(D) SGCT                 Getting host info
+(D) SGCT                 Detected local addresses:
+(D) SGCT                   pc
+(D) SGCT                   192.168.15.6
+(D) SGCT                   172.21.160.1
+(D) SGCT                   pc
+(D) SGCT                   127.0.0.1
+(D) SGCT                   localhost
+(D) SGCT                 Matching ip address to find node in configuration
+(D) SGCT                 Running in cluster mode as node 0
+(I) SGCT                 This computer is the network server
+(D) SGCT                 Cluster sync: loose
+(I) SGCT                 Using GLFW version 3.4.0
+(D) SGCT                 Number of screencapture threads is set to 6
+(I) SGCT                 OpenGL version 4.6.0 core profile
+(I) SGCT                 Vendor: ATI Technologies Inc.
+(I) SGCT                 Renderer: AMD Radeon RX 7600
+(I) SGCT                 Calling initialization callback
+(D) main                 Initializing OpenSpace Engine started
+(D) SystemCapabili...WMI Begin initializing WMI
+(D) SystemCapabili...WMI IWbemLocator object successfully created
+(D) SystemCapabili...WMI Connected to ROOT\CIMV2 WMI namespace
+(D) SystemCapabili...WMI WMI successfully initialized
+(I) OpenSpace Version    0.22.0
+(I) Commit               HEAD@8b2778b
+(D) ModuleEngine         Registered module 'Base'
+(D) ModuleEngine         Registered module 'WebBrowser'
+(D) ModuleEngine         Registered module 'Debugging'
+(D) ModuleEngine         Registered module 'Spout'
+(D) ModuleEngine         Registered module 'Atmosphere'
+(D) ModuleEngine         Registered module 'CefWebGui'
+(D) ModuleEngine         Registered module 'DigitalUniverse'
+(D) ModuleEngine         Registered module 'Galaxy'
+(D) ModuleEngine         Registered module 'GlobeBrowsing'
+(D) ModuleEngine         Registered module 'Space'
+(D) ModuleEngine         Registered module 'SpacecraftInstruments'
+(D) ModuleEngine         Registered module 'Sync'
+(D) ModuleEngine         Registered module 'Volume'
+(D) ModuleEngine         Registered module 'WebGui'
+(D) OpenSpaceModule      Registering module path '${MODULE_BASE}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\base
+(D) WebBrowser           CEF using web helper executable: C:\Users\Ian\cosmos2\.runtime-is4-stream\bin\OpenSpace_Helper.exe
+(D) CefHost              Initializing CEF...
+(D) CefHost              Disabling sandbox for CEF
+(D) CefHost              Remote WebBrowser debugging available on http://localhost:8088
+(D) CefHost              Initializing CEF... done
+(D) WebBrowser           Starting CEF... done
+(D) OpenSpaceModule      Registering module path '${MODULE_DEBUGGING}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\debugging
+(D) OpenSpaceModule      Registering module path '${MODULE_ATMOSPHERE}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\atmosphere
+(D) OpenSpaceModule      Registering module path '${MODULE_CEFWEBGUI}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\cefwebgui
+(D) OpenSpaceModule      Registering module path '${MODULE_DIGITALUNIVERSE}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\digitaluniverse
+(D) OpenSpaceModule      Registering module path '${MODULE_GALAXY}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\galaxy
+(D) OpenSpaceModule      Registering module path '${MODULE_GLOBEBROWSING}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\globebrowsing
+(D) OpenSpaceModule      Registering module path '${MODULE_SPACE}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\space
+(D) OpenSpaceModule      Registering module path '${MODULE_SPACECRAFTINSTRUMENTS}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\spacecraftinstruments
+(D) OpenSpaceModule      Registering module path '${MODULE_VOLUME}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\volume
+(D) OpenSpaceModule      Registering module path '${MODULE_WEBGUI}' -> C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\webgui
+(D) OpenSpaceEngine      Registering Lua libraries
+(I) OpenSpaceEngine      Loading profile 'C:/Users/Ian/cosmos2/output/is6-principal-moons-navigation-staging-v2/atlas.profile'
+(D) ScriptEngine         Adding base library
+(D) ScriptEngine         Initializing Lua state
+(D) ScriptEngine         Create openspace base library
+(D) ScriptEngine         Add OpenSpace modules
+(D) main                 Initializing OpenSpace Engine finished
+(D) main                 Initializing OpenGL in OpenSpace Engine started
+(D) OpenSpaceEngine      Adding OpenGL capabilities components
+(D) OpenSpaceEngine      Detecting capabilities
+(I) SystemCapabili...CPU Operating System: Windows 10/11
+(I) SystemCapabili...CPU CPU: AMD Ryzen 5 5600 6-Core Processor              
+(I) SystemCapabili...CPU Cores: 12
+(I) SystemCapabili...CPU Cache line size: 64
+(I) SystemCapabili...CPU L2 Associativity: 6
+(I) SystemCapabili...CPU Cache size: 512 KB
+(I) SystemCapabili...CPU Extensions: sse3 mwait fpu vme de pse tsc msr pae mce cx8 apic Unknown1 sep mtrr pge mca cmov pat pse36 clflush Unknown2 ds acpi mmx fxsr sse sse2 ht
+(I) SystemCapabili...CPU Main Memory: 32690 MB
+(I) SystemCapabili..enGL OpenGL Version: 4.6
+(I) SystemCapabili..enGL OpenGL Compiler: ATI Technologies Inc.
+(I) SystemCapabili..enGL OpenGL Renderer: AMD Radeon RX 7600
+(I) SystemCapabili..enGL GPU Vendor: AMD/ATI
+(I) SystemCapabili..enGL GLEW Version: 0.0
+(I) SystemCapabili..enGL GPU Name: AMD Radeon RX 7600 
+(I) SystemCapabili..enGL GPU Driver Version: 32.0.32015.7029 
+(I) SystemCapabili..enGL GPU Driver Date: 2026-10-18
+(I) SystemCapabili..enGL GPU RAM: 4095 MB
+(I) SystemCapabili..enGL Max Texture Size: 16384
+(I) SystemCapabili..enGL Max 3D Texture Size: 8192
+(I) SystemCapabili..enGL Num of Texture Units: 32
+(I) SystemCapabili..enGL FBO Color Attachments: 8
+(I) SystemCapabili..enGL Extensions: GL_AMD_blend_minmax_factor, GL_AMD_conservative_depth, GL_AMD_debug_output, GL_AMD_depth_clamp_separate, GL_AMD_gpu_shader_half_float, GL_AMD_gpu_shader_int16, GL_AMD_gpu_shader_int64, GL_AMD_multi_draw_indirect, GL_AMD_pinned_memory, GL_AMD_query_buffer_object, GL_AMD_sample_positions, GL_AMD_seamless_cubemap_per_texture, GL_AMD_shader_trinary_minmax, GL_AMD_texture_cube_map_array, GL_AMD_vertex_shader_layer, GL_AMD_vertex_shader_viewport_index, GL_ARB_ES2_compatibility, GL_ARB_ES3_1_compatibility, GL_ARB_ES3_2_compatibility, GL_ARB_ES3_compatibility, GL_ARB_arrays_of_arrays, GL_ARB_base_instance, GL_ARB_bindless_texture, GL_ARB_blend_func_extended, GL_ARB_buffer_storage, GL_ARB_clear_buffer_object, GL_ARB_clear_texture, GL_ARB_clip_control, GL_ARB_color_buffer_float, GL_ARB_compressed_texture_pixel_storage, GL_ARB_compute_shader, GL_ARB_conditional_render_inverted, GL_ARB_conservative_depth, GL_ARB_copy_buffer, GL_ARB_copy_image, GL_ARB_cull_distance, GL_ARB_debug_output, GL_ARB_depth_buffer_float, GL_ARB_depth_clamp, GL_ARB_depth_texture, GL_ARB_derivative_control, GL_ARB_direct_state_access, GL_ARB_draw_buffers, GL_ARB_draw_buffers_blend, GL_ARB_draw_elements_base_vertex, GL_ARB_draw_indirect, GL_ARB_draw_instanced, GL_ARB_enhanced_layouts, GL_ARB_explicit_attrib_location, GL_ARB_explicit_uniform_location, GL_ARB_fragment_coord_conventions, GL_ARB_fragment_layer_viewport, GL_ARB_fragment_program, GL_ARB_fragment_program_shadow, GL_ARB_fragment_shader, GL_ARB_fragment_shader_interlock, GL_ARB_framebuffer_no_attachments, GL_ARB_framebuffer_object, GL_ARB_framebuffer_sRGB, GL_ARB_geometry_shader4, GL_ARB_get_program_binary, GL_ARB_get_texture_sub_image, GL_ARB_gl_spirv, GL_ARB_gpu_shader5, GL_ARB_gpu_shader_fp64, GL_ARB_gpu_shader_int64, GL_ARB_half_float_pixel, GL_ARB_half_float_vertex, GL_ARB_indirect_parameters, GL_ARB_instanced_arrays, GL_ARB_internalformat_query, GL_ARB_internalformat_query2, GL_ARB_invalidate_subdata, GL_ARB_map_buffer_range, GL_ARB_multi_bind, GL_ARB_multi_draw_indirect, GL_ARB_multisample, GL_ARB_multitexture, GL_ARB_occlusion_query, GL_ARB_occlusion_query2, GL_ARB_parallel_shader_compile, GL_ARB_pipeline_statistics_query, GL_ARB_pixel_buffer_object, GL_ARB_point_parameters, GL_ARB_point_sprite, GL_ARB_polygon_offset_clamp, GL_ARB_post_depth_coverage, GL_ARB_program_interface_query, GL_ARB_provoking_vertex, GL_ARB_query_buffer_object, GL_ARB_robustness, GL_ARB_sample_locations, GL_ARB_sample_shading, GL_ARB_sampler_objects, GL_ARB_seamless_cube_map, GL_ARB_seamless_cubemap_per_texture, GL_ARB_separate_shader_objects, GL_ARB_shader_atomic_counter_ops, GL_ARB_shader_atomic_counters, GL_ARB_shader_ballot, GL_ARB_shader_bit_encoding, GL_ARB_shader_clock, GL_ARB_shader_draw_parameters, GL_ARB_shader_group_vote, GL_ARB_shader_image_load_store, GL_ARB_shader_image_size, GL_ARB_shader_objects, GL_ARB_shader_precision, GL_ARB_shader_stencil_export, GL_ARB_shader_storage_buffer_object, GL_ARB_shader_subroutine, GL_ARB_shader_texture_image_samples, GL_ARB_shader_texture_lod, GL_ARB_shader_viewport_layer_array, GL_ARB_shading_language_100, GL_ARB_shading_language_420pack, GL_ARB_shading_language_packing, GL_ARB_shadow, GL_ARB_shadow_ambient, GL_ARB_sparse_buffer, GL_ARB_sparse_texture, GL_ARB_spirv_extensions, GL_ARB_stencil_texturing, GL_ARB_sync, GL_ARB_tessellation_shader, GL_ARB_texture_barrier, GL_ARB_texture_border_clamp, GL_ARB_texture_buffer_object, GL_ARB_texture_buffer_object_rgb32, GL_ARB_texture_buffer_range, GL_ARB_texture_compression, GL_ARB_texture_compression_bptc, GL_ARB_texture_compression_rgtc, GL_ARB_texture_cube_map, GL_ARB_texture_cube_map_array, GL_ARB_texture_env_add, GL_ARB_texture_env_combine, GL_ARB_texture_env_crossbar, GL_ARB_texture_env_dot3, GL_ARB_texture_filter_anisotropic, GL_ARB_texture_filter_minmax, GL_ARB_texture_float, GL_ARB_texture_gather, GL_ARB_texture_mirror_clamp_to_edge, GL_ARB_texture_mirrored_repeat, GL_ARB_texture_multisample, GL_ARB_texture_multisample_no_array, GL_ARB_texture_non_power_of_two, GL_ARB_texture_query_levels, GL_ARB_texture_query_lod, GL_ARB_texture_rectangle, GL_ARB_texture_rg, GL_ARB_texture_rgb10_a2ui, GL_ARB_texture_stencil8, GL_ARB_texture_storage, GL_ARB_texture_storage_multisample, GL_ARB_texture_swizzle, GL_ARB_texture_view, GL_ARB_timer_query, GL_ARB_transform_feedback, GL_ARB_transform_feedback2, GL_ARB_transform_feedback3, GL_ARB_transform_feedback_instanced, GL_ARB_transform_feedback_overflow_query, GL_ARB_transpose_matrix, GL_ARB_uniform_buffer_object, GL_ARB_vertex_array_bgra, GL_ARB_vertex_array_object, GL_ARB_vertex_attrib_64bit, GL_ARB_vertex_attrib_binding, GL_ARB_vertex_buffer_object, GL_ARB_vertex_program, GL_ARB_vertex_shader, GL_ARB_vertex_type_10f_11f_11f_rev, GL_ARB_vertex_type_2_10_10_10_rev, GL_ARB_viewport_array, GL_ARB_window_pos, GL_ATI_draw_buffers, GL_ATI_fragment_shader, GL_ATI_meminfo, GL_ATI_separate_stencil, GL_ATI_shader_texture_lod, GL_ATI_texture_env_combine3, GL_ATI_texture_float, GL_ATI_texture_mirror_once, GL_EXT_abgr, GL_EXT_bgra, GL_EXT_bindable_uniform, GL_EXT_blend_color, GL_EXT_blend_equation_separate, GL_EXT_blend_func_separate, GL_EXT_blend_minmax, GL_EXT_blend_subtract, GL_EXT_compiled_vertex_array, GL_EXT_copy_buffer, GL_EXT_copy_texture, GL_EXT_debug_label, GL_EXT_depth_bounds_test, GL_EXT_direct_state_access, GL_EXT_draw_buffers2, GL_EXT_draw_instanced, GL_EXT_draw_range_elements, GL_EXT_fog_coord, GL_EXT_fragment_shading_rate, GL_EXT_fragment_shading_rate_attachment, GL_EXT_fragment_shading_rate_primitive, GL_EXT_framebuffer_blit, GL_EXT_framebuffer_multisample, GL_EXT_framebuffer_object, GL_EXT_framebuffer_sRGB, GL_EXT_geometry_shader4, GL_EXT_gpu_program_parameters, GL_EXT_gpu_shader4, GL_EXT_memory_object, GL_EXT_memory_object_win32, GL_EXT_mesh_shader, GL_EXT_multi_draw_arrays, GL_EXT_nonuniform_qualifier, GL_EXT_packed_depth_stencil, GL_EXT_packed_float, GL_EXT_packed_pixels, GL_EXT_pixel_buffer_object, GL_EXT_point_parameters, GL_EXT_polygon_offset_clamp, GL_EXT_provoking_vertex, GL_EXT_rescale_normal, GL_EXT_secondary_color, GL_EXT_semaphore, GL_EXT_semaphore_win32, GL_EXT_separate_specular_color, GL_EXT_shader_image_load_formatted, GL_EXT_shader_image_load_store, GL_EXT_shader_integer_mix, GL_EXT_shadow_funcs, GL_EXT_stencil_wrap, GL_EXT_subtexture, GL_EXT_texture, GL_EXT_texture3D, GL_EXT_texture_array, GL_EXT_texture_buffer_object, GL_EXT_texture_compression_bptc, GL_EXT_texture_compression_latc, GL_EXT_texture_compression_rgtc, GL_EXT_texture_compression_s3tc, GL_EXT_texture_cube_map, GL_EXT_texture_edge_clamp, GL_EXT_texture_env_add, GL_EXT_texture_env_combine, GL_EXT_texture_env_dot3, GL_EXT_texture_filter_anisotropic, GL_EXT_texture_integer, GL_EXT_texture_lod, GL_EXT_texture_lod_bias, GL_EXT_texture_mirror_clamp, GL_EXT_texture_object, GL_EXT_texture_rectangle, GL_EXT_texture_sRGB, GL_EXT_texture_sRGB_R8, GL_EXT_texture_sRGB_RG8, GL_EXT_texture_sRGB_decode, GL_EXT_texture_shadow_lod, GL_EXT_texture_shared_exponent, GL_EXT_texture_snorm, GL_EXT_texture_storage, GL_EXT_texture_swizzle, GL_EXT_timer_query, GL_EXT_transform_feedback, GL_EXT_vertex_array, GL_EXT_vertex_array_bgra, GL_EXT_vertex_attrib_64bit, GL_IBM_texture_mirrored_repeat, GL_KHR_blend_equation_advanced, GL_KHR_blend_equation_advanced_coherent, GL_KHR_context_flush_control, GL_KHR_debug, GL_KHR_no_error, GL_KHR_parallel_shader_compile, GL_KHR_robust_buffer_access_behavior, GL_KHR_robustness, GL_KHR_shader_subgroup, GL_KHR_texture_compression_astc_ldr, GL_NV_blend_square, GL_NV_conditional_render, GL_NV_copy_image, GL_NV_depth_buffer_float, GL_NV_float_buffer, GL_NV_fog_distance, GL_NV_half_float, GL_NV_mesh_shader, GL_NV_primitive_restart, GL_NV_shader_atomic_int64, GL_NV_texgen_reflection, GL_NV_texture_barrier, GL_NV_timeline_semaphore, GL_OES_EGL_image, GL_OVR_multiview, GL_OVR_multiview2, GL_S3_s3tc, GL_SGIS_generate_mipmap, GL_SGIS_texture_edge_clamp, GL_SGIS_texture_lod, GL_SUN_multi_draw_arrays, WGL_EXT_swap_control
+
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\temp'
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\shaders'
+(D) OpenSpaceEngine      Registering font 'C:\Users\Ian\cosmos2\.runtime-is4-stream\data\fonts\Inconsolata\Inconsolata-Regular.ttf' with key 'Console'
+(D) OpenSpaceEngine      Registering font 'C:\Users\Ian\cosmos2\.runtime-is4-stream\data\fonts\Roboto\Roboto-Regular.ttf' with key 'Light'
+(D) OpenSpaceEngine      Registering font 'C:\Users\Ian\cosmos2\.runtime-is4-stream\data\fonts\Roboto\Roboto-Regular.ttf' with key 'Loading'
+(D) OpenSpaceEngine      Registering font 'C:\Users\Ian\cosmos2\.runtime-is4-stream\data\fonts\Bitstream-Vera-Sans-Mono\VeraMono.ttf' with key 'Mono'
+(D) FontRenderer         Creating default FontRenderer
+(D) FontRenderer         Writing default vertex shader to 'C:\Users\Ian\cosmos2\.runtime-is4-stream\temp\defaultfontrenderer_vs.glsl'
+(D) FontRenderer         Writing default fragment shader to 'C:\Users\Ian\cosmos2\.runtime-is4-stream\temp\defaultfontrenderer_fs.glsl'
+(D) FontRenderer         Compile default font shader
+(D) FontRenderer         Link default font shader
+(D) FontRenderer         Creating default projection FontRenderer
+(D) FontRenderer         Writing default vertex shader to 'C:\Users\Ian\cosmos2\.runtime-is4-stream\temp\projectionfontrenderer_vs.glsl'
+(D) FontRenderer         Writing default fragment shader to 'C:\Users\Ian\cosmos2\.runtime-is4-stream\temp\projectionfontrenderer_fs.glsl'
+(D) FontRenderer         Compile projection font shader
+(D) FontRenderer         Link projection font shader
+(D) OpenSpaceEngine      Initializing Rendering Engine
+(D) FramebufferRenderer  Initializing FramebufferRenderer
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\shaders\framebuffer'
+(D) SGCT                 HFOV changed to 70 for window 0
+(I) RenderEngine         Initializing Log
+(I) RenderEngine         Finished initializing GL
+(D) ModuleEngine         Initializing OpenGL of modules
+(D) ModuleEngine         Initializing OpenGL of module 'Base'
+(D) ModuleEngine         Initializing OpenGL of module 'WebBrowser'
+(D) ModuleEngine         Initializing OpenGL of module 'Debugging'
+(D) ModuleEngine         Initializing OpenGL of module 'Spout'
+(D) ModuleEngine         Initializing OpenGL of module 'Atmosphere'
+(D) ModuleEngine         Initializing OpenGL of module 'CefWebGui'
+(D) ModuleEngine         Initializing OpenGL of module 'DigitalUniverse'
+(D) ModuleEngine         Initializing OpenGL of module 'Galaxy'
+(D) ModuleEngine         Initializing OpenGL of module 'GlobeBrowsing'
+(D) ModuleEngine         Initializing OpenGL of module 'Space'
+(D) ModuleEngine         Initializing OpenGL of module 'SpacecraftInstruments'
+(D) ModuleEngine         Initializing OpenGL of module 'Sync'
+(D) ModuleEngine         Initializing OpenGL of module 'Volume'
+(D) ModuleEngine         Initializing OpenGL of module 'WebGui'
+(D) ModuleEngine         Finished initializing OpenGL of modules
+(D) WebBrowser           Loading GUI from ''
+(D) WebGUI:RenderHandler Initializing CEF GL environment...
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\cefwebgui\shaders'
+(D) WebGUI:RenderHandler Initializing CEF GL environment... done
+(D) WebBrowser:Eve..dler Setting browser instance
+(D) MemoryAwareTileCache Resetting tile cache size
+(I) MemoryAwareTileCache Tile cache size was reset
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\shaders\core'
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\shaders\powerscaling'
+(I) OpenSpaceEngine      Finished initializing OpenGL
+(D) main                 Initializing OpenGL in OpenSpace Engine finished
+(D) SGCT                 1920x1080 texture generated for window 527
+(D) SGCT                 Targets initialized successfully for window 0
+(D) SGCT                 Created 1920x1080 buffers: FBO id=6  RBO Depth buffer id=1
+(D) SGCT                 Window 0: FBO initiated successfully. Number of samples: 1
+(D) SGCT                 Generating 1920x1080x3 PBO: 0
+(I) main                 Starting rendering loop
+(D) Asset                Initializing asset 'C:\Users\Ian\cosmos2\user\data\assets\cosmos2\atlas.asset'
+(D) Asset                Initializing asset 'C:\Users\Ian\cosmos2\.runtime-is4-stream\data\assets\default_keybindings.asset'
+(D) Asset                Initializing asset 'C:\Users\Ian\cosmos2\.runtime-is4-stream\data\assets\actions\default_actions.asset'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2\data\spice\naif0012.tls'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2\data\spice\pck00011.tpc'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2\data\spice\de442s.bsp'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2\data\spice\saturn-center-sat441.bsp'
+(D) SceneGraphNode       Successfully created ephemeris for 'Sun'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Sun'
+(D) SceneGraphNode       Initializing: Sun
+(D) SceneGraphNode       Finished initializing: Sun
+(D) SceneGraphNode       Successfully created ephemeris for 'Earth'
+(D) SceneGraphNode       Successfully created rotation for 'Earth'
+(D) Layer                Initializing tile provider for layer: 'NASA Blue Marble'
+(D) Layer                Initializing tile provider for layer: 'Luzes noturnas'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Earth'
+(D) SceneGraphNode       Initializing: Earth
+(D) SceneGraphNode       Finished initializing: Earth
+(D) SceneGraphNode       Successfully created ephemeris for 'Moon'
+(D) SceneGraphNode       Successfully created rotation for 'Moon'
+(D) Layer                Initializing tile provider for layer: 'LRO WAC'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Moon'
+(D) SceneGraphNode       Initializing: Moon
+(D) SceneGraphNode       Finished initializing: Moon
+(D) SceneGraphNode       Successfully created ephemeris for 'Saturn'
+(D) SceneGraphNode       Successfully created rotation for 'Saturn'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace — época não confirmada'
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\data\textures'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Saturn'
+(D) SceneGraphNode       Initializing: Saturn
+(D) SceneGraphNode       Finished initializing: Saturn
+(D) SceneGraphNode       Successfully created ephemeris for 'CosmosFreeAnchor'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'CosmosFreeAnchor'
+(D) SceneGraphNode       Initializing: CosmosFreeAnchor
+(D) SceneGraphNode       Finished initializing: CosmosFreeAnchor
+(D) SceneGraphNode       Successfully created SceneGraphNode 'MilkyWaySky'
+(D) SceneGraphNode       Initializing: MilkyWaySky
+(D) CEF BrowserInstance  Loading URL 'http://127.0.0.1:4700/'
+(D) SceneGraphNode       Finished initializing: MilkyWaySky
+(D) Asset                Initializing asset 'C:\Users\Ian\cosmos2\user\data\assets\cosmos2\atmosphere.asset'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'EarthAtmosphere'
+(D) SceneGraphNode       Initializing: EarthAtmosphere
+(D) SceneGraphNode       Finished initializing: EarthAtmosphere
+(D) Asset                Initializing asset 'C:\Users\Ian\cosmos2\user\data\assets\cosmos2\galaxy.asset'
+(D) SceneGraphNode       Successfully created ephemeris for 'MilkyWayVolume'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'MilkyWayVolume'
+(D) SceneGraphNode       Initializing: MilkyWayVolume
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\data\galaxy'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'CatalogStars'
+(D) SceneGraphNode       Initializing: CatalogStars
+(D) SceneGraphNode       Finished initializing: CatalogStars
+(D) Asset                Initializing asset 'C:\Users\Ian\cosmos2\output\is6-planet-navigation-staging\planet_scene.asset'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2/output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-planet-catalog-data-20261110a/center-499.bsp'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-planet-catalog-data-20261110a/center-799.bsp'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-planet-catalog-data-20261110a/center-899.bsp'
+(D) SceneGraphNode       Successfully created ephemeris for 'Mercury'
+(D) SceneGraphNode       Successfully created rotation for 'Mercury'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Mercury'
+(D) SceneGraphNode       Initializing: Mercury
+(D) SceneGraphNode       Finished initializing: Mercury
+(D) SceneGraphNode       Successfully created ephemeris for 'Venus'
+(D) SceneGraphNode       Successfully created rotation for 'Venus'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Venus'
+(D) SceneGraphNode       Initializing: Venus
+(D) SceneGraphNode       Finished initializing: Venus
+(D) SceneGraphNode       Successfully created ephemeris for 'Mars'
+(D) SceneGraphNode       Successfully created rotation for 'Mars'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Mars'
+(D) SceneGraphNode       Initializing: Mars
+(D) SceneGraphNode       Finished initializing: Mars
+(D) SceneGraphNode       Successfully created ephemeris for 'Jupiter'
+(D) SceneGraphNode       Successfully created rotation for 'Jupiter'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Jupiter'
+(D) SceneGraphNode       Initializing: Jupiter
+(D) SceneGraphNode       Finished initializing: Jupiter
+(D) SceneGraphNode       Successfully created ephemeris for 'Uranus'
+(D) SceneGraphNode       Successfully created rotation for 'Uranus'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Uranus'
+(D) SceneGraphNode       Initializing: Uranus
+(D) SceneGraphNode       Finished initializing: Uranus
+(D) SceneGraphNode       Successfully created ephemeris for 'Neptune'
+(D) SceneGraphNode       Successfully created rotation for 'Neptune'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Neptune'
+(D) SceneGraphNode       Initializing: Neptune
+(D) SceneGraphNode       Finished initializing: Neptune
+(D) Asset                Initializing asset 'C:\Users\Ian\cosmos2\output\is6-principal-moons-navigation-staging\moon_scene.asset'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-501.bsp'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-502.bsp'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-503.bsp'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-504.bsp'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-602.bsp'
+(I) SpiceManager         Loading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-606.bsp'
+(D) SceneGraphNode       Successfully created ephemeris for 'Io'
+(D) SceneGraphNode       Successfully created rotation for 'Io'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Io'
+(D) SceneGraphNode       Initializing: Io
+(D) SceneGraphNode       Finished initializing: Io
+(D) SceneGraphNode       Successfully created ephemeris for 'Europa'
+(D) SceneGraphNode       Successfully created rotation for 'Europa'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Europa'
+(D) SceneGraphNode       Initializing: Europa
+(D) SceneGraphNode       Finished initializing: Europa
+(D) SceneGraphNode       Successfully created ephemeris for 'Ganymede'
+(D) SceneGraphNode       Successfully created rotation for 'Ganymede'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Ganymede'
+(D) SceneGraphNode       Initializing: Ganymede
+(D) SceneGraphNode       Finished initializing: Ganymede
+(D) SceneGraphNode       Successfully created ephemeris for 'Callisto'
+(D) SceneGraphNode       Successfully created rotation for 'Callisto'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Callisto'
+(D) SceneGraphNode       Initializing: Callisto
+(D) SceneGraphNode       Finished initializing: Callisto
+(D) SceneGraphNode       Successfully created ephemeris for 'Enceladus'
+(D) SceneGraphNode       Successfully created rotation for 'Enceladus'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Enceladus'
+(D) SceneGraphNode       Initializing: Enceladus
+(D) SceneGraphNode       Finished initializing: Enceladus
+(D) SceneGraphNode       Successfully created ephemeris for 'Titan'
+(D) SceneGraphNode       Successfully created rotation for 'Titan'
+(D) Layer                Initializing tile provider for layer: 'Mapa visual OpenSpace'
+(D) SceneGraphNode       Successfully created SceneGraphNode 'Titan'
+(D) SceneGraphNode       Initializing: Titan
+(D) SceneGraphNode       Finished initializing: Titan
+(I) RenderableGalaxy     Cached file 'C:\Users\Ian\cosmos2\output\cache\points.off\2892368114\points.off' used for galaxy point file 'C:\Users\Ian\cosmos2\data\galaxy\points.off'
+(D) SceneGraphNode       Finished initializing: MilkyWayVolume
+(D) SceneGraphNode       Initializing GL: Sun
+(D) SceneGraphNode       Finished initializating GL: Sun
+(D) SceneGraphNode       Initializing GL: Earth
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\globebrowsing\shaders'
+(D) SceneGraphNode       Finished initializating GL: Earth
+(D) SceneGraphNode       Initializing GL: Moon
+(D) SceneGraphNode       Finished initializating GL: Moon
+(D) SceneGraphNode       Initializing GL: Saturn
+(D) RingsComponent       Loaded forwards scattering texture from 'C:\Users\Ian\cosmos2\data\textures\saturn-rings-forward.png'
+(D) RingsComponent       Loaded backwards scattering texture from 'C:\Users\Ian\cosmos2\data\textures\saturn-rings-back.png'
+(D) RingsComponent       Loaded unlit texture from 'C:\Users\Ian\cosmos2\data\textures\saturn-rings-unlit.png'
+(D) RingsComponent       Loaded color texture from 'C:\Users\Ian\cosmos2\data\textures\saturn-rings-color.png'
+(D) RingsComponent       Loaded transparency texture from 'C:\Users\Ian\cosmos2\data\textures\saturn-rings-trans.png'
+(D) SceneGraphNode       Finished initializating GL: Saturn
+(D) SceneGraphNode       Initializing GL: CosmosFreeAnchor
+(D) SceneGraphNode       Finished initializating GL: CosmosFreeAnchor
+(D) SceneGraphNode       Initializing GL: MilkyWaySky
+(D) Sphere               Creating object
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\base\shaders'
+(D) TextureComponent     Loaded texture from 'C:\Users\Ian\cosmos2\data\textures\milkyway.jpg'
+(D) SceneGraphNode       Finished initializating GL: MilkyWaySky
+(D) SceneGraphNode       Initializing GL: EarthAtmosphere
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\atmosphere\shaders'
+(D) AtmosphereDefe..ster Starting precalculations for scattering effects
+(D) AtmosphereDefe..ster Ended precalculations for Atmosphere effects
+(D) SceneGraphNode       Finished initializating GL: EarthAtmosphere
+(D) SceneGraphNode       Initializing GL: CatalogStars
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\space\shaders'
+(I) DataLoader           Cached file C:\Users\Ian\cosmos2\output\cache\stars.speck\1877409585\stars.speck used for file C:\Users\Ian\cosmos2\data\galaxy\stars.speck
+(D) RenderableStars      Loaded texture from 'C:\Users\Ian\cosmos2\data\galaxy\glare.png'
+(D) RenderableStars      Loaded texture from 'C:\Users\Ian\cosmos2\data\galaxy\halo.png'
+(D) SceneGraphNode       Finished initializating GL: CatalogStars
+(D) SceneGraphNode       Initializing GL: Mercury
+(D) SceneGraphNode       Finished initializating GL: Mercury
+(D) SceneGraphNode       Initializing GL: Venus
+(D) SceneGraphNode       Finished initializating GL: Venus
+(D) SceneGraphNode       Initializing GL: Mars
+(D) SceneGraphNode       Finished initializating GL: Mars
+(D) SceneGraphNode       Initializing GL: Jupiter
+(D) SceneGraphNode       Finished initializating GL: Jupiter
+(D) SceneGraphNode       Initializing GL: Uranus
+(D) SceneGraphNode       Finished initializating GL: Uranus
+(D) SceneGraphNode       Initializing GL: Neptune
+(D) SceneGraphNode       Finished initializating GL: Neptune
+(D) SceneGraphNode       Initializing GL: Io
+(D) SceneGraphNode       Finished initializating GL: Io
+(D) SceneGraphNode       Initializing GL: Europa
+(D) SceneGraphNode       Finished initializating GL: Europa
+(D) SceneGraphNode       Initializing GL: Ganymede
+(D) SceneGraphNode       Finished initializating GL: Ganymede
+(D) SceneGraphNode       Initializing GL: Callisto
+(D) SceneGraphNode       Finished initializating GL: Callisto
+(D) SceneGraphNode       Initializing GL: Enceladus
+(D) SceneGraphNode       Finished initializating GL: Enceladus
+(D) SceneGraphNode       Initializing GL: Titan
+(D) SceneGraphNode       Finished initializating GL: Titan
+(D) SceneGraphNode       Initializing GL: MilkyWayVolume
+(D) FileSystem           Started watching 'C:\Users\Ian\cosmos2\.runtime-is4-stream\modules\galaxy\shaders'
+(D) RenderableGalaxy     Loaded texture from 'C:\Users\Ian\cosmos2\data\galaxy\halo.png'
+(D) SceneGraphNode       Finished initializating GL: MilkyWayVolume
+(D) RenderableStars      Regenerating data
+(D) RenderableStars      Reloading Color Texture
+(D) RenderableStars      Loaded texture 'C:\Users\Ian\cosmos2\data\galaxy\colorbv.cmap'
+(D) RenderableStars      Reloading Other Data Color Texture
+(D) RenderableStars      Loaded texture 'C:\Users\Ian\cosmos2\data\galaxy\viridis.cmap'
+(I) OpenSpaceEngine      Running Global initialization scripts
+(D) Lua                  Creating Lua state
+(D) Lua                  Open libraries
+(D) Lua                  Registering strict code
+(D) ScriptEngine         Create openspace base library
+(D) ScriptEngine         Add OpenSpace modules
+(D) Lua                  Creating Lua state
+(D) Lua                  Open libraries
+(D) Lua                  Registering strict code
+(D) Lua                  Sandboxing Lua state
+(I) TimeManager          Added keybindings for specified delta time steps
+[2026-11-14 13:29:39] [connect] WebSocket Connection iostream transport v13 "Python/3.12 websockets/15.0.1" / 101
+(D) WebSocket            onOpen: WebSocket opened. Client: 127.0.0.1:38598
+(D) ScriptEngine         Using asynchronous script log file 'C:\Users\Ian\cosmos2\output\logs\ScriptLog.txt'
+(W) CEF BrowserInstance  Provided browser URL is empty
+(D) CEF BrowserInstance  Loading URL 'http://127.0.0.1:4700/'
+(W) Logging              Number of Warnings: 1
+(D) WebSocket            onClose: WebSocket closing. Client: 127.0.0.1:38598
+[2026-11-14 13:29:39] [disconnect] Disconnect close local:[1000] remote:[1000]
+(D) WebSocket            Destroying socket connection
+[2026-11-14 13:29:40] [connect] WebSocket Connection iostream transport v13 "Python/3.12 websockets/15.0.1" / 101
+(D) WebSocket            onOpen: WebSocket opened. Client: 127.0.0.1:59590
+[2026-11-14 13:29:40] [connect] WebSocket Connection iostream transport v13 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" / 101
+(D) WebSocket            onOpen: WebSocket opened. Client: 127.0.0.1:64454
+(W) PathNavigator        No camera path is playing
+(W) Logging              Number of Warnings: 1
+(D) WebSocket            onClose: WebSocket closing. Client: 127.0.0.1:64454
+[2026-11-14 13:30:48] [disconnect] Disconnect close local:[1001] remote:[1001]
+(D) WebSocket            Destroying socket connection
+[2026-11-14 13:30:48] [connect] WebSocket Connection iostream transport v13 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" / 101
+(D) WebSocket            onOpen: WebSocket opened. Client: 127.0.0.1:25025
+[2026-11-14 13:30:48] [connect] WebSocket Connection iostream transport v13 "Python/3.12 websockets/15.0.1" / 101
+(D) WebSocket            onOpen: WebSocket opened. Client: 127.0.0.1:25281
+(I) main                 Ending rendering loop
+(D) Asset                Deinitializing asset 'C:\Users\Ian\cosmos2\output\is6-principal-moons-navigation-staging\moon_scene.asset'
+(D) SceneGraphNode       Deinitializing GL: Titan
+(D) SceneGraphNode       Finished deinitializing GL: Titan
+(D) SceneGraphNode       Deinitializing: Titan
+(D) SceneGraphNode       Finished deinitializing: Titan
+(D) SceneGraphNode       Deinitializing GL: Enceladus
+(D) SceneGraphNode       Finished deinitializing GL: Enceladus
+(D) SceneGraphNode       Deinitializing: Enceladus
+(D) SceneGraphNode       Finished deinitializing: Enceladus
+(D) SceneGraphNode       Deinitializing GL: Callisto
+(D) SceneGraphNode       Finished deinitializing GL: Callisto
+(D) SceneGraphNode       Deinitializing: Callisto
+(D) SceneGraphNode       Finished deinitializing: Callisto
+(D) SceneGraphNode       Deinitializing GL: Ganymede
+(D) SceneGraphNode       Finished deinitializing GL: Ganymede
+(D) SceneGraphNode       Deinitializing: Ganymede
+(D) SceneGraphNode       Finished deinitializing: Ganymede
+(D) SceneGraphNode       Deinitializing GL: Europa
+(D) SceneGraphNode       Finished deinitializing GL: Europa
+(D) SceneGraphNode       Deinitializing: Europa
+(D) SceneGraphNode       Finished deinitializing: Europa
+(D) SceneGraphNode       Deinitializing GL: Io
+(D) SceneGraphNode       Finished deinitializing GL: Io
+(D) SceneGraphNode       Deinitializing: Io
+(D) SceneGraphNode       Finished deinitializing: Io
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-501.bsp'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-502.bsp'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-503.bsp'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-504.bsp'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-602.bsp'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-principal-moons-data-20261111b/moon-606.bsp'
+(D) Asset                Deinitializing asset 'C:\Users\Ian\cosmos2\output\is6-planet-navigation-staging\planet_scene.asset'
+(D) SceneGraphNode       Deinitializing GL: Neptune
+(D) SceneGraphNode       Finished deinitializing GL: Neptune
+(D) SceneGraphNode       Deinitializing: Neptune
+(D) SceneGraphNode       Finished deinitializing: Neptune
+(D) SceneGraphNode       Deinitializing GL: Uranus
+(D) SceneGraphNode       Finished deinitializing GL: Uranus
+(D) SceneGraphNode       Deinitializing: Uranus
+(D) SceneGraphNode       Finished deinitializing: Uranus
+(D) SceneGraphNode       Deinitializing GL: Jupiter
+(D) SceneGraphNode       Finished deinitializing GL: Jupiter
+(D) SceneGraphNode       Deinitializing: Jupiter
+(D) SceneGraphNode       Finished deinitializing: Jupiter
+(D) SceneGraphNode       Deinitializing GL: Mars
+(D) SceneGraphNode       Finished deinitializing GL: Mars
+(D) SceneGraphNode       Deinitializing: Mars
+(D) SceneGraphNode       Finished deinitializing: Mars
+(D) SceneGraphNode       Deinitializing GL: Venus
+(D) SceneGraphNode       Finished deinitializing GL: Venus
+(D) SceneGraphNode       Deinitializing: Venus
+(D) SceneGraphNode       Finished deinitializing: Venus
+(D) SceneGraphNode       Deinitializing GL: Mercury
+(D) SceneGraphNode       Finished deinitializing GL: Mercury
+(D) SceneGraphNode       Deinitializing: Mercury
+(D) SceneGraphNode       Finished deinitializing: Mercury
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2/output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-planet-catalog-data-20261110a/center-499.bsp'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-planet-catalog-data-20261110a/center-799.bsp'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2/output/is6-planet-catalog-data-20261110a/center-899.bsp'
+(D) Asset                Deinitializing asset 'C:\Users\Ian\cosmos2\user\data\assets\cosmos2\galaxy.asset'
+(D) SceneGraphNode       Deinitializing GL: CatalogStars
+(D) SceneGraphNode       Finished deinitializing GL: CatalogStars
+(D) SceneGraphNode       Deinitializing: CatalogStars
+(D) SceneGraphNode       Finished deinitializing: CatalogStars
+(D) SceneGraphNode       Deinitializing GL: MilkyWayVolume
+(D) SceneGraphNode       Finished deinitializing GL: MilkyWayVolume
+(D) SceneGraphNode       Deinitializing: MilkyWayVolume
+(D) SceneGraphNode       Finished deinitializing: MilkyWayVolume
+(D) Asset                Deinitializing asset 'C:\Users\Ian\cosmos2\user\data\assets\cosmos2\atmosphere.asset'
+(D) SceneGraphNode       Deinitializing GL: EarthAtmosphere
+(D) SceneGraphNode       Finished deinitializing GL: EarthAtmosphere
+(D) SceneGraphNode       Deinitializing: EarthAtmosphere
+(D) SceneGraphNode       Finished deinitializing: EarthAtmosphere
+(D) Asset                Deinitializing asset 'C:\Users\Ian\cosmos2\user\data\assets\cosmos2\atlas.asset'
+(D) SceneGraphNode       Deinitializing GL: MilkyWaySky
+(D) SceneGraphNode       Finished deinitializing GL: MilkyWaySky
+(D) SceneGraphNode       Deinitializing: MilkyWaySky
+(D) SceneGraphNode       Finished deinitializing: MilkyWaySky
+(D) SceneGraphNode       Deinitializing GL: CosmosFreeAnchor
+(D) SceneGraphNode       Finished deinitializing GL: CosmosFreeAnchor
+(D) SceneGraphNode       Deinitializing: CosmosFreeAnchor
+(D) SceneGraphNode       Finished deinitializing: CosmosFreeAnchor
+(D) SceneGraphNode       Deinitializing GL: Saturn
+(D) SceneGraphNode       Finished deinitializing GL: Saturn
+(D) SceneGraphNode       Deinitializing: Saturn
+(D) SceneGraphNode       Finished deinitializing: Saturn
+(D) SceneGraphNode       Deinitializing GL: Moon
+(D) SceneGraphNode       Finished deinitializing GL: Moon
+(D) SceneGraphNode       Deinitializing: Moon
+(D) SceneGraphNode       Finished deinitializing: Moon
+(D) SceneGraphNode       Deinitializing GL: Earth
+(D) SceneGraphNode       Finished deinitializing GL: Earth
+(D) SceneGraphNode       Deinitializing: Earth
+(D) SceneGraphNode       Finished deinitializing: Earth
+(D) SceneGraphNode       Deinitializing GL: Sun
+(D) SceneGraphNode       Finished deinitializing GL: Sun
+(D) SceneGraphNode       Deinitializing: Sun
+(D) SceneGraphNode       Finished deinitializing: Sun
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2\data\spice\saturn-center-sat441.bsp'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2\data\spice\de442s.bsp'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2\data\spice\pck00011.tpc'
+(I) SpiceManager         Unloading SPICE kernel 'C:\Users\Ian\cosmos2\data\spice\naif0012.tls'
+(D) Asset                Deinitializing asset 'C:\Users\Ian\cosmos2\.runtime-is4-stream\data\assets\default_keybindings.asset'
+(D) Asset                Deinitializing asset 'C:\Users\Ian\cosmos2\.runtime-is4-stream\data\assets\actions\default_actions.asset'
+(I) Scene                Clearing current scene graph
+(D) CEF BrowserInstance  Force closing browser
+(D) WebBrowser           Number of browsers stored: 0
+(D) WebBrowser:Eve..dler Setting browser instance
+(I) FramebufferRenderer  Deinitializing FramebufferRenderer
+(D) ModuleEngine         Deinitializing OpenGL of modules
+(D) ModuleEngine         Deinitializing OpenGL of module 'WebGui'
+(D) ModuleEngine         Deinitializing OpenGL of module 'Volume'
+(D) ModuleEngine         Deinitializing OpenGL of module 'Sync'
+(D) ModuleEngine         Deinitializing OpenGL of module 'SpacecraftInstruments'
+(D) ModuleEngine         Deinitializing OpenGL of module 'Space'
+(D) ModuleEngine         Deinitializing OpenGL of module 'GlobeBrowsing'
+(D) ModuleEngine         Deinitializing OpenGL of module 'Galaxy'
+(D) ModuleEngine         Deinitializing OpenGL of module 'DigitalUniverse'
+(D) ModuleEngine         Deinitializing OpenGL of module 'CefWebGui'
+(D) ModuleEngine         Deinitializing OpenGL of module 'Atmosphere'
+(D) ModuleEngine         Deinitializing OpenGL of module 'Spout'
+(D) ModuleEngine         Deinitializing OpenGL of module 'Debugging'
+(D) ModuleEngine         Deinitializing OpenGL of module 'WebBrowser'
+(D) ModuleEngine         Deinitializing OpenGL of module 'Base'
+(D) ModuleEngine         Finished deinitializing OpenGL of modules
+(D) WebSocket            onClose: WebSocket closing. Client: 127.0.0.1:25025
+[2026-11-14 13:30:49] [disconnect] Disconnect close local:[1001] remote:[1001]
+(D) ModuleEngine         Deinitializing modules
+(D) ModuleEngine         Deinitializing module 'WebGui'
+(D) ModuleEngine         Deinitializing module 'Volume'
+(D) ModuleEngine         Deinitializing module 'Sync'
+(D) ModuleEngine         Deinitializing module 'SpacecraftInstruments'
+(D) ModuleEngine         Deinitializing module 'Space'
+(D) ModuleEngine         Deinitializing module 'GlobeBrowsing'
+(D) ModuleEngine         Deinitializing module 'Galaxy'
+(D) ModuleEngine         Deinitializing module 'DigitalUniverse'
+(D) ModuleEngine         Deinitializing module 'CefWebGui'
+(D) ModuleEngine         Deinitializing module 'Atmosphere'
+(D) ModuleEngine         Deinitializing module 'Spout'
+(D) ModuleEngine         Deinitializing module 'Debugging'
+(D) ModuleEngine         Deinitializing module 'WebBrowser'
+(D) ModuleEngine         Deinitializing module 'Base'
+(D) ModuleEngine         Finished deinitializing modules
+(D) ModuleEngine         Destroying module 'WebGui'
+(D) ModuleEngine         Destroying module 'Volume'
+(D) ModuleEngine         Destroying module 'Sync'
+(D) ModuleEngine         Destroying module 'SpacecraftInstruments'
+(D) ModuleEngine         Destroying module 'Space'
+(D) ModuleEngine         Destroying module 'GlobeBrowsing'
+(D) ModuleEngine         Destroying module 'Galaxy'
+(D) ModuleEngine         Destroying module 'DigitalUniverse'
+(D) ModuleEngine         Destroying module 'CefWebGui'
+(D) ModuleEngine         Destroying module 'Atmosphere'
+(D) ModuleEngine         Destroying module 'Spout'
+(D) ModuleEngine         Destroying module 'Debugging'
+(D) ModuleEngine         Destroying module 'WebBrowser'
+(D) ModuleEngine         Destroying module 'Base'
+(D) ModuleEngine         Finished destroying modules
+(D) Globals              Destroying 'Profile'
+(D) Globals              Destroying 'ScriptScheduler'
+(D) Globals              Destroying 'ScriptEngine'
+(D) Globals              Destroying 'ScreenSpace Root Owner'
+(D) Globals              Destroying 'Root Owner'
+(D) Globals              Destroying 'SessionRecordingHandler'
+(D) Globals              Destroying 'NavigationHandler'
+(D) Globals              Destroying 'KeyframeRecordingHandler'
+(D) Globals              Destroying 'KeybindingManager'
+(D) Globals              Destroying 'InteractionHandler'
+(D) Globals              Destorying 'ActionManager'
+(D) Globals              Destroying 'Configuration'
+(D) Globals              Destroying 'WindowDelegate'
+(D) Globals              Destroying 'VersionChecker'
+(D) Globals              Destroying 'TimeManager'
+(D) Globals              Destroying 'ScreenSpaceRenderables'
+(D) Globals              Destroying 'RenderEngine'
+(D) Globals              Destroying 'RaycasterManager'
+(D) Globals              Destroying 'ParallelPeer'
+(D) Globals              Destroying 'ModuleEngine'
+(D) Globals              Destroying 'MissionManager'
+(D) Globals              Destroying 'LuaConsole'
+(D) Globals              Destroying 'DownloadManager'
+(D) Globals              Destroying 'DeferredcasterManager'
+(D) Globals              Destroying 'Dashboard'
+(D) Globals              Destroying 'FontManager'
+(D) Globals              Destroying 'DownloadEventEngine'
+(D) Globals              Destroying 'EventEngine'
+(D) Globals              Destroying 'OpenSpaceEngine'
+(D) Globals              Destroying 'Server'
+(D) WebSocket            Destroying socket connection
+(D) WebSocket            onClose: WebSocket closing. Client: 127.0.0.1:59590
+[2026-11-14 13:30:50] [disconnect] Disconnect close local:[1006,End of File] remote:[1006]
+(D) WebSocket            Destroying socket connection
+(D) WebSocket            Destroying socket connection
+(D) WebSocket            onClose: WebSocket closing. Client: 127.0.0.1:25281
+[2026-11-14 13:30:50] [disconnect] Disconnect close local:[1006,End of File] remote:[1006]
+(D) Globals              Destroying 'SyncEngine'
+(D) Globals              Destroying 'MemoryManager'
+(D) main                 Destroying SGCT Engine
+(D) SystemCapabili...WMI Deinitializing WMI

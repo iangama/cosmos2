@@ -1,0 +1,672 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checks": [
+    {
+      "name": "mouse-species-selection-and-original-reaction-form",
+      "scale": "1"
+    },
+    {
+      "name": "selected-species-reaches-separation-model",
+      "scale": "1",
+      "separation_title": "Separações de C-12"
+    },
+    {
+      "name": "dynamic-product-suggestions-preserve-quantity-and-removal",
+      "scale": "1"
+    },
+    {
+      "name": "mouse-species-selection-and-original-reaction-form",
+      "scale": "1.5"
+    },
+    {
+      "name": "selected-species-reaches-separation-model",
+      "scale": "1.5",
+      "separation_title": "Separações de C-12"
+    },
+    {
+      "name": "dynamic-product-suggestions-preserve-quantity-and-removal",
+      "scale": "1.5"
+    }
+  ],
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\editable-options-native-20261120a\\species-suggestions-1.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "4003471192c0537b52cf2c731fbfdebea22eed7df86cbb435816dbb54ffe39c7"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\editable-options-native-20261120a\\species-suggestions-1-5.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "912f9c49b8d50ce9aa7500ae9526287e9c7156e7724a497d31c225609afa8baf"
+    }
+  ],
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1\"][aria-disabled=\"false\"]",
+      "x": 1321,
+      "y": 730
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#type-filter-choice",
+      "x": 178,
+      "y": 363
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"planet\"][aria-disabled=\"false\"]",
+      "x": 178,
+      "y": 449
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#type-filter-choice",
+      "x": 178,
+      "y": 363
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"all\"][aria-disabled=\"false\"]",
+      "x": 178,
+      "y": 411
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#forces",
+      "x": 435,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "a[href=\"/nuclei.html\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "a[href=\"/nuclei.html\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a[href=\"/nuclei.html\"]",
+      "x": 120,
+      "y": 846
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#nuclear-energy-link"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#nuclear-energy-link"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#nuclear-energy-link"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#nuclear-energy-link",
+      "x": 149,
+      "y": 812
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#energy-target",
+      "x": 149,
+      "y": 517
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 3
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": ".c2-suggestions-list [data-suggestion-value=\"C-12\"]",
+      "x": 144,
+      "y": 641
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#energy-target",
+      "x": 149,
+      "y": 517
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 3
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": ".c2-suggestions-list [data-suggestion-value=\"H-3\"]",
+      "x": 149,
+      "y": 566
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#calculate-energy"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#calculate-energy",
+      "x": 149,
+      "y": 779
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#separation-species"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#separation-species",
+      "x": 149,
+      "y": 800
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 3
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": ".c2-suggestions-list [data-suggestion-value=\"C-12\"]",
+      "x": 144,
+      "y": 517
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#calculate-separation",
+      "x": 110,
+      "y": 852
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#add-product",
+      "x": 88,
+      "y": 454
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#energy-products>.product-row:last-child input",
+      "x": 100,
+      "y": 450
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 2
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": ".c2-suggestions-list [data-suggestion-value=\"He-4\"]",
+      "x": 146,
+      "y": 539
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#energy-products>.product-row:last-child button",
+      "x": 257,
+      "y": 450
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.brand",
+      "x": 99,
+      "y": 40
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1.5\"][aria-disabled=\"false\"]",
+      "x": 1321,
+      "y": 806
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#type-filter-choice",
+      "x": 269,
+      "y": 444
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"planet\"][aria-disabled=\"false\"]",
+      "x": 269,
+      "y": 554
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#type-filter-choice",
+      "x": 269,
+      "y": 444
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"all\"][aria-disabled=\"false\"]",
+      "x": 269,
+      "y": 506
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#forces",
+      "x": 552,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "a[href=\"/nuclei.html\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "a[href=\"/nuclei.html\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "a[href=\"/nuclei.html\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "a[href=\"/nuclei.html\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "a[href=\"/nuclei.html\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "a[href=\"/nuclei.html\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a[href=\"/nuclei.html\"]",
+      "x": 174,
+      "y": 875
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#nuclear-energy-link"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#nuclear-energy-link"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#nuclear-energy-link"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#nuclear-energy-link"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#nuclear-energy-link"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#nuclear-energy-link"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#nuclear-energy-link"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#nuclear-energy-link",
+      "x": 219,
+      "y": 872
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#energy-target",
+      "x": 219,
+      "y": 766
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 3
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": ".c2-suggestions-list [data-suggestion-value=\"C-12\"]",
+      "x": 214,
+      "y": 319
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#energy-target",
+      "x": 219,
+      "y": 766
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 3
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": ".c2-suggestions-list [data-suggestion-value=\"H-3\"]",
+      "x": 219,
+      "y": 829
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#calculate-energy"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#calculate-energy"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#calculate-energy"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#calculate-energy"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#calculate-energy",
+      "x": 219,
+      "y": 841
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#separation-species"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#separation-species"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#separation-species",
+      "x": 219,
+      "y": 808
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 3
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": ".c2-suggestions-list [data-suggestion-value=\"C-12\"]",
+      "x": 214,
+      "y": 361
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#calculate-separation",
+      "x": 159,
+      "y": 886
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#add-product",
+      "x": 126,
+      "y": 293
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#energy-products>.product-row:last-child input",
+      "x": 145,
+      "y": 288
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 2
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": ".c2-suggestions-list [data-suggestion-value=\"He-4\"]",
+      "x": 213,
+      "y": 402
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#energy-products>.product-row:last-child button",
+      "x": 382,
+      "y": 288
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.brand",
+      "x": 148,
+      "y": 61
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1141,
+      "y": 824
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1\"][aria-disabled=\"false\"]",
+      "x": 1264,
+      "y": 674
+    }
+  ],
+  "session": {
+    "app": 13912,
+    "server": 32736,
+    "launcher": 2832,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.5-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\gravity-sessions",
+    "started": "2026-11-21T01:34:49Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.5",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "manifest_sha256": "2aecc376d36394e06cb8e8903ca91693ad357b1e4f6da12c2623872a8d3dcba5",
+  "saved_session_sha256": "d2b11c83b6bfd3c3851a23c01b1a47407900d053c8cd427b434ef78abd766ded",
+  "source_sha256": {
+    "scripts/verify-native-editable-options.py": "ae393256d30c40c8ffb0d8c6b466f5a05722dde08a505c248cb2736eefef60d1",
+    "scripts/ordinary_option_input_v2.py": "734d806673ec38da370371896faf40a63d7debfc59589cdf4bc04bc1e113dafb",
+    "scripts/ordinary_native_input_v8.py": "afad669eb6cdeeb45581e34d2f5fae89e9aed798e88fa4f0030921637922d811",
+    "scripts/cef_page_v2.py": "6e6899c8d557ca9b444aeebfd454a5a9ed43eb9b7abc371a871ddd1f94f41cbe"
+  },
+  "scope": "Original shortcut/header/nuclear links. Windows mouse, typing and wheel select species, apply the original reaction form, query separation and add/remove a product. DOM/HTTP observe only. No Save/Export, scientific promotion or full product acceptance.",
+  "step": "a.brand",
+  "physical_phase_preserved": true
+}

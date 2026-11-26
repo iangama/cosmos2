@@ -1,0 +1,33 @@
+{
+  "accepted": true,
+  "completed": true,
+  "destination": "/mnt/c/Users/Ian/cosmos2-github-snapshot-20261103",
+  "files": 2894,
+  "changed": [
+    "LEIA-PRIMEIRO.md",
+    "evidence/cosmos2-ui-startup-20261104b.png",
+    "evidence/is6-profile-preparation-closed-20261104o.json",
+    "evidence/is6-ui-startup-diagnostic-20261104.json",
+    "evidence/local-ui-native-startup-20261104a.json",
+    "evidence/local-ui-native-startup-20261104b.json",
+    "evidence/local-ui-powershell-stopped-20261104.json",
+    "evidence/local-ui-readiness-check-20261104.json",
+    "output/local-ui-native-startup-20261104a/original-entry.cmd",
+    "output/local-ui-native-startup-20261104b/original-entry.cmd",
+    "scripts/bootstrap-native-ui-v2.py",
+    "scripts/launch-is6-layers-import-candidate-v3.py",
+    "scripts/native_ui_readiness.py",
+    "scripts/run-native-ui-startup-check-v2.py",
+    "scripts/run-native-ui-startup-check.py",
+    "scripts/start-cosmos2-v2.ps1",
+    "scripts/start-is6-layers-import-background-v3.py",
+    "scripts/sync-github-source-snapshot-v3.py",
+    "scripts/verify-native-ui-readiness-v2.py",
+    "scripts/verify-native-ui-readiness.py",
+    "scripts/wait-local-ui.py"
+  ],
+  "preserved_missing_sources": [],
+  "inventory_sha256": "f71fc7337adff1edf569a6886e2b22a446607cddf49ac3dc0047bed148d2501c",
+  "script_sha256": "b66b28001a2b2f224d952779d21158ef8735b518813bfb7236ca1fb3f1f64e83",
+  "scope": "Partial source/evidence backup only; excludes runtimes, personal sessions, binary archives and most generated records. Does not install the product or constitute full reproducibility."
+}

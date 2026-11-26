@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "adjustment": "CODATA 2022",
+  "source": "https://physics.nist.gov/cuu/pdf/wall_2022.pdf",
+  "verified_on": "2026-10-21",
+  "acquisition": "Values transcribed from the NIST CODATA 2022 table inspected through web search. No original download hash is claimed.",
+  "scope": "Reference charge and mass only. Selecting a species fills form fields; positions, fields and velocities remain user hypotheses in the classical nonrelativistic model.",
+  "species": {
+    "electron": {"name": "Elétron", "charge_C": -1.602176634e-19, "charge_standard_uncertainty_C": 0, "mass_kg": 9.1093837139e-31, "mass_standard_uncertainty_kg": 2.8e-40},
+    "proton": {"name": "Próton", "charge_C": 1.602176634e-19, "charge_standard_uncertainty_C": 0, "mass_kg": 1.67262192595e-27, "mass_standard_uncertainty_kg": 5.2e-37}
+  }
+}

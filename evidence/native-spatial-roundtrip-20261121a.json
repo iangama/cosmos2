@@ -1,0 +1,209 @@
+{
+  "accepted": false,
+  "completed": true,
+  "defect_reproduced": true,
+  "session": {
+    "app": 39904,
+    "server": 32628,
+    "launcher": 37000,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.6-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.6\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.6\\gravity-sessions",
+    "started": "2026-11-21T08:59:44Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.6",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#experiment",
+      "x": 321,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-spatial",
+      "x": 656,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-load-saved",
+      "x": 196,
+      "y": 751
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-export",
+      "x": 196,
+      "y": 731
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-leave",
+      "x": 196,
+      "y": 758
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-import-section>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-import-section>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-import-section>summary",
+      "x": 196,
+      "y": 210
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-import-file",
+      "x": 196,
+      "y": 346
+    },
+    {
+      "input": "Windows file dialog",
+      "action": "opened",
+      "title": "Abrir"
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 78,
+      "ctrl": false,
+      "alt": true,
+      "scancode": 49,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 143
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click native dialog button",
+      "label": "&Abrir",
+      "button_id": 1,
+      "x": 791,
+      "y": 502
+    },
+    {
+      "input": "Windows file dialog",
+      "action": "chose existing file",
+      "file_name": "f6dee22dbd064d8686fe05629cc07092.json"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-import-preview",
+      "x": 118,
+      "y": 510
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-error",
+      "x": 196,
+      "y": 197
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-panel-close",
+      "x": 321,
+      "y": 130
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#atlas",
+      "x": 240,
+      "y": 62
+    }
+  ],
+  "captures": [],
+  "script_sha256": "82838e8b9023e739e7cf36117b1d7525f56636f3194297f6cd88bce584dca100",
+  "manifest_sha256": "484fabda4caf14735d230a720a952dcc44efde6820a3aa97544336836eece036",
+  "scope": "Original Mesh panel: restore saved mesh, export with its actual button, close, choose that newly exported file in Windows and request origin preview. Genuine Windows input; DOM/HTTP observe. No API command injection or file rewriting. A refusal is recorded as a defect, not acceptance of roundtrip.",
+  "saved_before_sha256": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985",
+  "step": "#atlas",
+  "export": {
+    "path": "output/original-flow-hotfix-product0.27.6/is6-spatial-import-service-records/exports/f6dee22dbd064d8686fe05629cc07092.json",
+    "sha256": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985",
+    "bytes": 875845,
+    "schema": 2,
+    "kind": "is6_spatial_body_mesh_checkpoint_with_origin"
+  },
+  "preview": null,
+  "error": "Known spatial-only checkpoint required",
+  "capture": {
+    "path": "C:\\Users\\Ian\\cosmos2\\output\\native-spatial-roundtrip-20261121a\\current-export-preview-result.png",
+    "size": [
+      1440,
+      900
+    ],
+    "method": "Unedited Windows client-area capture",
+    "sha256": "b035a2a05ee98bafb99e7d5031a7dd7ce28d2c9e91cb85866ce95675a0d43765"
+  },
+  "physical_phase_preserved": true
+}

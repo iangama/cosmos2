@@ -1,0 +1,13 @@
+{
+  "accepted": true,
+  "completed": true,
+  "files": 11245,
+  "changed": [
+    "evidence/github-source-sync-20261120d.json",
+    "scripts/append-source-backup-receipt.py"
+  ],
+  "inventory_before_sha256": "5fb39560750baf5c06857ffcd583d2c5b9976213865899d9383709a43508f0d6",
+  "inventory_sha256": "8419089517f80e86acb13a7093b684b166d5fc5550bd4f8505179ef7de49b081",
+  "script_sha256": "9f7d28233ce2f637bdad248777f22f8098992bb9c09c2fb9c599fdbec6900ea6",
+  "scope": "Append the completed copy receipt and this script only. Existing entries retained without rerunning scientific drivers or rehashing unchanged source cohorts. Local snapshot only, no publication."
+}

@@ -1,0 +1,76 @@
+{
+  "accepted": false,
+  "completed": true,
+  "kind": "Agent inspection of original native framebuffer",
+  "captures": [
+    {
+      "path": "output/c214-orbits-native-20261114a/orbits-100.png",
+      "sha256": "78217669929aa281cb8ca07dc4f1a56408362173690cfb4480c6fc008a39aeb8",
+      "native_original": "user/screenshots/2026-11-14-13-29-07/Cosmos2 Â· mediÃ§Ã£o 1080p_000000.png",
+      "layout": {
+        "zoom": "1",
+        "scroll": 1920,
+        "client": 1920,
+        "canvas": {
+          "width": 1483,
+          "height": 538
+        },
+        "view": "orbits"
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/c214-orbits-native-20261114a/clocks-100.png",
+      "sha256": "a1691766371eec9e7291f809a8d5420e483520d6bd1a60ff616a84a8c4b6e8c7",
+      "native_original": "user/screenshots/2026-11-14-13-29-07/Cosmos2 Â· mediÃ§Ã£o 1080p_000001.png",
+      "layout": {
+        "zoom": "1",
+        "scroll": 1920,
+        "client": 1920,
+        "canvas": {
+          "width": 1483,
+          "height": 538
+        },
+        "view": "clocks"
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/c214-orbits-native-20261114a/orbits-150.png",
+      "sha256": "a56f279969ac5cd33856262fa9f7c930328ca2ab4b3c8aa367e4ad0feec13a29",
+      "native_original": "user/screenshots/2026-11-14-13-29-07/Cosmos2 Â· mediÃ§Ã£o 1080p_000002.png",
+      "layout": {
+        "zoom": "1.5",
+        "scroll": 1903,
+        "client": 1903,
+        "canvas": {
+          "width": 856,
+          "height": 539
+        },
+        "view": "orbits"
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/c214-orbits-native-20261114a/clocks-150.png",
+      "sha256": "8bcc2e763e5677779ff2880fed170120d2e9660b8b68d17803132ff31ba7e470",
+      "native_original": "user/screenshots/2026-11-14-13-29-07/Cosmos2 Â· mediÃ§Ã£o 1080p_000003.png",
+      "layout": {
+        "zoom": "1.5",
+        "scroll": 1903,
+        "client": 1903,
+        "canvas": {
+          "width": 856,
+          "height": 539
+        },
+        "view": "clocks"
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    }
+  ],
+  "issues": [
+    "Clock view legend incorrectly says Newton",
+    "Horizontal axis label overlaps help at 150%"
+  ],
+  "next_candidate": "0.28.1"
+}

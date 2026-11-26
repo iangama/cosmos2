@@ -1,0 +1,1278 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-c214-orbits-numerics.py": "2faeccb3b2c96672c91a3b4e174567f697cf4f00278b672c7ab4fe754da23dee",
+    "output/c214-orbits-staging/timelike_orbits.py": "fb742a77da5ea3c111987a8ebecad3c8a047aa7309a7b1c0e2707856405a8270",
+    "C2-14-ORBITAS-CONTRATO-20261114.md": "c604bfb87240ce8634d96535be14d15d8d3d40d08f049ea40011bd4385253804",
+    "C2-14-ORBITAS-PREPARACAO-20261114.md": "fc1b99b1dc3bf22ca7e0d53d20907040fe7fbce4ea6577ae96e6c3f08efea7c9"
+  },
+  "cases": [
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 1000.0,
+        "eccentricity": 0.05,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 6.311551803387894,
+        "coordinate": 6.31627895031616,
+        "advance": 0.009446039832545586,
+        "quadrature_error": {
+          "proper": 7.007230133194096e-14,
+          "coordinate": 7.012478320880271e-14,
+          "advance": 1.0487210913618468e-16
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 9.06739960893077e-15,
+        "coordinate_period_relative_error": 8.881784197001252e-16,
+        "proper_period_relative_error": 1.5543122344752192e-15
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.009446039832554654,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 6.316278950316166,
+        "cycle_period_proper_scaled": 6.3115518033879034,
+        "radial_period_coordinate_scaled": 6.316278950316166,
+        "radial_period_proper_scaled": 6.3115518033879034,
+        "accumulated_clock_lag_scaled": 0.0047271469282623565,
+        "average_proper_over_coordinate": 0.9992515930715781,
+        "maximum_radial_invariant_residual": 2.7755575615628914e-16,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 8.881784197001252e-16
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 1937,
+        "wall_seconds": 0.03546500000084052,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3857,
+        "wall_seconds": 0.06180889999814099,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "aaa967a64c4899f0af7de522f81f45d779c01e3f9e7c57d41f5633a185067b03",
+      "refined_sha256": "f5d9279dc04b24bdfce4650620e8c211e8056b16af56fd4a400a0239fa026e1f"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 10000.0,
+        "eccentricity": 0.05,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 6.307293051419779,
+        "coordinate": 6.307764968857757,
+        "advance": 0.0009426899360838834,
+        "quadrature_error": {
+          "proper": 7.002501968812743e-14,
+          "coordinate": 7.003025902365756e-14,
+          "advance": 1.0465960721227445e-17
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 1.175491995408784e-15,
+        "coordinate_period_relative_error": 0.0,
+        "proper_period_relative_error": 0.0
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.0009426899360827079,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 6.307764968857757,
+        "cycle_period_proper_scaled": 6.307293051419779,
+        "radial_period_coordinate_scaled": 6.307764968857757,
+        "radial_period_proper_scaled": 6.307293051419779,
+        "accumulated_clock_lag_scaled": 0.0004719174379779279,
+        "average_proper_over_coordinate": 0.9999251846826399,
+        "maximum_radial_invariant_residual": 2.220446049250313e-16,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 8.881784197001252e-16
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 1937,
+        "wall_seconds": 0.03558580000026268,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3857,
+        "wall_seconds": 0.06801780000023427,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "d66d4a0b8413404828d854de353f6bc0fbfccca47530378c02ecc0ac044b678d",
+      "refined_sha256": "2fa9a61c3ee196811e740f1d0eacd726c6983fc92d455e28faaa9a8f603dd0db"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 1000000.0,
+        "eccentricity": 0.05,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 6.306825816825223,
+        "coordinate": 6.306830535124594,
+        "advance": 9.42479916951807e-06,
+        "quadrature_error": {
+          "proper": 7.001983233924444e-14,
+          "coordinate": 7.001988472293827e-14,
+          "advance": 1.0463629040467015e-19
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 1.1572223417694559e-14,
+        "coordinate_period_relative_error": 2.4424906541753444e-15,
+        "proper_period_relative_error": 2.4424906541753444e-15
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 9.424799181090293e-06,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 6.30683053512461,
+        "cycle_period_proper_scaled": 6.306825816825239,
+        "radial_period_coordinate_scaled": 6.30683053512461,
+        "radial_period_proper_scaled": 6.306825816825239,
+        "accumulated_clock_lag_scaled": 4.718299370818001e-06,
+        "average_proper_over_coordinate": 0.9999992518747183,
+        "maximum_radial_invariant_residual": 3.885780586188048e-16,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 8.881784197001252e-16
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 1937,
+        "wall_seconds": 0.03359699999782606,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3857,
+        "wall_seconds": 0.07087840000167489,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "8bb90b6771bfe25177f2f89ef278e91b799a23c8628feea67f6a077d65e7dffb",
+      "refined_sha256": "2f60456f9c379d2d867ce1e97b88021cb4d3d60b2a8531ce6815186dd8a91b71"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 100000000.0,
+        "eccentricity": 0.05,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 6.306821145705216,
+        "coordinate": 6.306821192888122,
+        "advance": 9.424778172856341e-08,
+        "quadrature_error": {
+          "proper": 7.001978047832875e-14,
+          "coordinate": 7.001978100772435e-14,
+          "advance": 1.0463605729489723e-21
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 1.0952737824907128e-14,
+        "coordinate_period_relative_error": 1.3322676295501878e-15,
+        "proper_period_relative_error": 1.3322676295501878e-15
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 9.424779268130123e-08,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 6.306821192888131,
+        "cycle_period_proper_scaled": 6.306821145705224,
+        "radial_period_coordinate_scaled": 6.306821192888131,
+        "radial_period_proper_scaled": 6.306821145705224,
+        "accumulated_clock_lag_scaled": 4.71829062269667e-08,
+        "average_proper_over_coordinate": 0.9999999925187499,
+        "maximum_radial_invariant_residual": 2.220446049250313e-16,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 1.3233858453531866e-13
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 1937,
+        "wall_seconds": 0.036704899997857865,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3857,
+        "wall_seconds": 0.06146989999979269,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "5e5a7cb65a153aa3dabbfb72afbc0d177422ce914b9a6d8dea72cf52d6547d33",
+      "refined_sha256": "7f109559ddd9548fe226723019854f415ed41486eb1963743a1bd4bf0f591186"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 1000.0,
+        "eccentricity": 0.2,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 6.684769179967202,
+        "coordinate": 6.6895876093634445,
+        "advance": 0.009446084344280561,
+        "quadrature_error": {
+          "proper": 7.421589256511983e-14,
+          "coordinate": 7.426931414572172e-14,
+          "advance": 1.0487260331571503e-16
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 4.683753385137379e-17,
+        "coordinate_period_relative_error": 5.551115123125783e-16,
+        "proper_period_relative_error": 6.661338147750939e-16
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.009446084344280514,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 6.689587609363441,
+        "cycle_period_proper_scaled": 6.684769179967198,
+        "radial_period_coordinate_scaled": 6.689587609363441,
+        "radial_period_proper_scaled": 6.684769179967198,
+        "accumulated_clock_lag_scaled": 0.0048184293962430964,
+        "average_proper_over_coordinate": 0.9992797120424137,
+        "maximum_radial_invariant_residual": 7.771561172376096e-16,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 8.881784197001252e-16
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 1937,
+        "wall_seconds": 0.03379810000114958,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3857,
+        "wall_seconds": 0.06998730000123032,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "f398e83469fe6bd3836811c172e136f9e3930c92398344431132538734788f8e",
+      "refined_sha256": "c24562d3ba7d4ce8cbba62fa9ad5d592a66e5acdcbd5457f52fde5600351cb4e"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 10000.0,
+        "eccentricity": 0.2,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 6.680428113837474,
+        "coordinate": 6.680909158519948,
+        "advance": 0.0009426903782018644,
+        "quadrature_error": {
+          "proper": 7.416767321532203e-14,
+          "coordinate": 7.417300720599117e-14,
+          "advance": 1.0465965629723067e-17
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 4.3672747709888604e-15,
+        "coordinate_period_relative_error": 1.2212453270876722e-15,
+        "proper_period_relative_error": 1.2212453270876722e-15
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.0009426903781974971,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 6.68090915851994,
+        "cycle_period_proper_scaled": 6.680428113837466,
+        "radial_period_coordinate_scaled": 6.68090915851994,
+        "radial_period_proper_scaled": 6.680428113837466,
+        "accumulated_clock_lag_scaled": 0.00048104468247440823,
+        "average_proper_over_coordinate": 0.9999279971226879,
+        "maximum_radial_invariant_residual": 7.216449660063518e-16,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 8.881784197001252e-16
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 1937,
+        "wall_seconds": 0.03249929999947199,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3857,
+        "wall_seconds": 0.05944259999887436,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "020a56db41bed4d3885ff6a3ae913e58fcef42fd406fac3e06361e3e10b24990",
+      "refined_sha256": "1cf498af72bd8b8eda2ac22c45775d152e8e8496fbe8f560bdfc30e5e8a55026"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 1000000.0,
+        "eccentricity": 0.2,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 6.679951841667458,
+        "coordinate": 6.679956651238169,
+        "advance": 9.424799213697047e-06,
+        "quadrature_error": {
+          "proper": 7.416240013516439e-14,
+          "coordinate": 7.416239611997194e-14,
+          "advance": 1.0463629089515532e-19
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 2.4086872633163198e-15,
+        "coordinate_period_relative_error": 6.661338147750939e-16,
+        "proper_period_relative_error": 6.661338147750939e-16
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 9.42479921128836e-06,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 6.6799566512381645,
+        "cycle_period_proper_scaled": 6.679951841667454,
+        "radial_period_coordinate_scaled": 6.6799566512381645,
+        "radial_period_proper_scaled": 6.679951841667454,
+        "accumulated_clock_lag_scaled": 4.809570710757381e-06,
+        "average_proper_over_coordinate": 0.9999992799997123,
+        "maximum_radial_invariant_residual": 5.551115123125783e-16,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 8.881784197001252e-16
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 1937,
+        "wall_seconds": 0.031311999999161344,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3857,
+        "wall_seconds": 0.06166049999956158,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "de7332d2259d53726f30cabc2e29ee7a3610ea9f73ae5523626d024a22c71e0b",
+      "refined_sha256": "9273031b1335348486022fbbf93977e1336408d2455ee0b43d39cdc6752ba756"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 100000000.0,
+        "eccentricity": 0.2,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 6.679947080188662,
+        "coordinate": 6.679947128284281,
+        "advance": 9.424778173298127e-08,
+        "quadrature_error": {
+          "proper": 7.41622953733707e-14,
+          "coordinate": 7.416235891581299e-14,
+          "advance": 1.0463605729980203e-21
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 3.842892608151043e-15,
+        "coordinate_period_relative_error": 6.661338147750939e-16,
+        "proper_period_relative_error": 4.440892098500626e-16
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 9.424778557587388e-08,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 6.679947128284286,
+        "cycle_period_proper_scaled": 6.679947080188666,
+        "radial_period_coordinate_scaled": 6.679947128284286,
+        "radial_period_proper_scaled": 6.679947080188666,
+        "accumulated_clock_lag_scaled": 4.809561951583302e-08,
+        "average_proper_over_coordinate": 0.9999999928,
+        "maximum_radial_invariant_residual": 4.440892098500626e-16,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 6.821210263296962e-13
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 1937,
+        "wall_seconds": 0.029593499999464257,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3857,
+        "wall_seconds": 0.05573690000164788,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "4aafb60b3cf61f08000ddec17a069d0634be5b35293d932bb78de46259429844",
+      "refined_sha256": "b80b2fa871eece08f4f296b2345c858a84d37dc30d56e8b0df80b8d64016c93d"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 1000.0,
+        "eccentricity": 0.6,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 12.277751435001004,
+        "coordinate": 12.283650894412574,
+        "advance": 0.00944646417782707,
+        "quadrature_error": {
+          "proper": 1.3614435550591242e-13,
+          "coordinate": 1.3676704714049352e-13,
+          "advance": 1.0487682031520363e-16
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 9.087522401252102e-14,
+        "coordinate_period_relative_error": 1.1324274851176597e-14,
+        "proper_period_relative_error": 1.1102230246251565e-14
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.009446464177917946,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 12.283650894412435,
+        "cycle_period_proper_scaled": 12.277751435000868,
+        "radial_period_coordinate_scaled": 12.283650894412435,
+        "radial_period_proper_scaled": 12.277751435000868,
+        "accumulated_clock_lag_scaled": 0.005899459411568551,
+        "average_proper_over_coordinate": 0.9995197307818108,
+        "maximum_radial_invariant_residual": 8.228417947009348e-13,
+        "maximum_metric_residual": 8.881784197001252e-16,
+        "maximum_time_inverse_residual": 1.7763568394002505e-15
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 2216,
+        "wall_seconds": 0.035865099998773076,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3998,
+        "wall_seconds": 0.06344140000146581,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "211aa35a3e629995555351480624c9701fe4c911a2d52c323e674c6b62da929f",
+      "refined_sha256": "23d5ccb1546d0b66f372a4ffb8a7dc3c507b508ec919bfbffd3f83039e320187"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 10000.0,
+        "eccentricity": 0.6,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 12.272435497828932,
+        "coordinate": 12.273024636006472,
+        "advance": 0.0009426941509419752,
+        "quadrature_error": {
+          "proper": 1.3640577990252118e-13,
+          "coordinate": 1.3588444398283596e-13,
+          "advance": 1.0466007515552436e-17
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 8.645850962246682e-14,
+        "coordinate_period_relative_error": 1.0436096431476471e-14,
+        "proper_period_relative_error": 1.0436096431476471e-14
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.0009426941510284337,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 12.273024636006344,
+        "cycle_period_proper_scaled": 12.272435497828804,
+        "radial_period_coordinate_scaled": 12.273024636006344,
+        "radial_period_proper_scaled": 12.272435497828804,
+        "accumulated_clock_lag_scaled": 0.0005891381775409383,
+        "average_proper_over_coordinate": 0.9999519973115826,
+        "maximum_radial_invariant_residual": 8.609224444455776e-13,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 1.7763568394002505e-15
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 2216,
+        "wall_seconds": 0.04026010000234237,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3998,
+        "wall_seconds": 0.06255529999907594,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "c349dfcaa11f44fd0456a48e6593d60430b13efc2078150bf258769d93743454",
+      "refined_sha256": "4ec0c89b852767cb55657c81d0a5776e53c90ef62030d55f68cff990465cd7b7"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 1000000.0,
+        "eccentricity": 0.6,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 12.271852193585964,
+        "coordinate": 12.271858084081142,
+        "advance": 9.424799590690995e-06,
+        "quadrature_error": {
+          "proper": 1.3575498466707417e-13,
+          "coordinate": 1.3578735174660343e-13,
+          "advance": 1.0463629508062894e-19
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 8.156196462032021e-14,
+        "coordinate_period_relative_error": 1.0658141036401503e-14,
+        "proper_period_relative_error": 1.0880185641326534e-14
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 9.42479967225296e-06,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 12.27185808408101,
+        "cycle_period_proper_scaled": 12.271852193585831,
+        "radial_period_coordinate_scaled": 12.27185808408101,
+        "radial_period_proper_scaled": 12.271852193585831,
+        "accumulated_clock_lag_scaled": 5.890495179039571e-06,
+        "average_proper_over_coordinate": 0.9999995199997312,
+        "maximum_radial_invariant_residual": 8.584799537914023e-13,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 1.7763568394002505e-15
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 2216,
+        "wall_seconds": 0.0375982000005024,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3998,
+        "wall_seconds": 0.06001299999843468,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "d70b0605341c06081ee0fb8f01ef3936f5ac17c51729fa2ea2539326978ee7f9",
+      "refined_sha256": "27a12204b34737a385ab3fa0aee9a0f1a1392a35e60ffdfa3a35b727432a3f48"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 100000000.0,
+        "eccentricity": 0.6,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 12.271846361989994,
+        "coordinate": 12.271846420894855,
+        "advance": 9.424778177068038e-08,
+        "quadrature_error": {
+          "proper": 1.36103569404352e-13,
+          "coordinate": 1.3630848080677698e-13,
+          "advance": 1.0463605734165646e-21
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 8.107671601492025e-14,
+        "coordinate_period_relative_error": 1.1435297153639112e-14,
+        "proper_period_relative_error": 1.1546319456101628e-14
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 9.424786284739639e-08,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 12.271846420894715,
+        "cycle_period_proper_scaled": 12.271846361989851,
+        "radial_period_coordinate_scaled": 12.271846420894715,
+        "radial_period_proper_scaled": 12.271846361989851,
+        "accumulated_clock_lag_scaled": 5.8904863150163036e-08,
+        "average_proper_over_coordinate": 0.9999999951999999,
+        "maximum_radial_invariant_residual": 8.587575095475586e-13,
+        "maximum_metric_residual": 3.3306690738754696e-16,
+        "maximum_time_inverse_residual": 0.0
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 2216,
+        "wall_seconds": 0.0361187999988033,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 3998,
+        "wall_seconds": 0.05700029999934486,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "f4f93aec377135d2c7a8c4b0227bb21e3e3bc4379cefa1d646b47b72c0f9df69",
+      "refined_sha256": "de828cf1b8c1f90d4db0e62f7c65a24b72e6128b820726e37398644581f17d47"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 1000.0,
+        "eccentricity": 0.8,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 29.096693310323506,
+        "coordinate": 29.104556382632822,
+        "advance": 0.009446796532289975,
+        "quadrature_error": {
+          "proper": 1.0485613087658968e-12,
+          "coordinate": 1.0518189584645817e-12,
+          "advance": 1.0488051019097416e-16
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 2.349179878402552e-13,
+        "coordinate_period_relative_error": 1.8960388814548423e-12,
+        "proper_period_relative_error": 1.89637194836223e-12
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.009446796532524893,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 29.104556382577638,
+        "cycle_period_proper_scaled": 29.09669331026833,
+        "radial_period_coordinate_scaled": 29.104556382577638,
+        "radial_period_proper_scaled": 29.09669331026833,
+        "accumulated_clock_lag_scaled": 0.007863072309310066,
+        "average_proper_over_coordinate": 0.999729833631341,
+        "maximum_radial_invariant_residual": 2.9776459076202855e-12,
+        "maximum_metric_residual": 2.886579864025407e-15,
+        "maximum_time_inverse_residual": 3.552713678800501e-15
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 2567,
+        "wall_seconds": 0.03980290000254172,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 4475,
+        "wall_seconds": 0.07217749999836087,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "de099defeaf57435bfd6be1059ec97e3253c6846e49722b2f7161ab9623e14f8",
+      "refined_sha256": "afb528a96cfa3ff4e9f420393e5ebdb1fc4d7f95ea3b8f6150dc2326a56ce773"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 10000.0,
+        "eccentricity": 0.8,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 29.089606448955866,
+        "coordinate": 29.09039193785203,
+        "advance": 0.0009426974520895833,
+        "quadrature_error": {
+          "proper": 1.0477726330005765e-12,
+          "coordinate": 1.0471670956581502e-12,
+          "advance": 1.0466044165653257e-17
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 3.451098998588642e-13,
+        "coordinate_period_relative_error": 1.9340085088970227e-12,
+        "proper_period_relative_error": 1.9341195311994852e-12
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.0009426974524346932,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 29.09039193779577,
+        "cycle_period_proper_scaled": 29.089606448899602,
+        "radial_period_coordinate_scaled": 29.09039193779577,
+        "radial_period_proper_scaled": 29.089606448899602,
+        "accumulated_clock_lag_scaled": 0.0007854888961665989,
+        "average_proper_over_coordinate": 0.999972998339182,
+        "maximum_radial_invariant_residual": 2.4261703757133546e-12,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 3.552713678800501e-15
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 2567,
+        "wall_seconds": 0.04088739999860991,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 4487,
+        "wall_seconds": 0.06631079999715439,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "9f0e646699171ca956de7e144e55efedb4480ec1b1adb40eb79cb8a48edf0495",
+      "refined_sha256": "41e3925be5211608cad0fe41495b257b38651f64d722345260e2ddb67fc0ce84"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 1000000.0,
+        "eccentricity": 0.8,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 29.088828720572227,
+        "coordinate": 29.088836574562933,
+        "advance": 9.424799920560697e-06,
+        "quadrature_error": {
+          "proper": 1.0469239531036354e-12,
+          "coordinate": 1.0483780148595174e-12,
+          "advance": 1.0463629874291831e-19
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 2.2775589567254877e-13,
+        "coordinate_period_relative_error": 1.9132473383365323e-12,
+        "proper_period_relative_error": 1.9132473383365323e-12
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 9.424800148316592e-06,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 29.08883657450728,
+        "cycle_period_proper_scaled": 29.088828720516574,
+        "radial_period_coordinate_scaled": 29.08883657450728,
+        "radial_period_proper_scaled": 29.088828720516574,
+        "accumulated_clock_lag_scaled": 7.853990705341063e-06,
+        "average_proper_over_coordinate": 0.999999729999834,
+        "maximum_radial_invariant_residual": 3.814615290309575e-12,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 3.552713678800501e-15
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 2567,
+        "wall_seconds": 0.03965590000007069,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 4487,
+        "wall_seconds": 0.06673940000109724,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "c8ef056027a801ead34cc1a3a0b53c39fc3fdb32163a904e67784bc13d4e72fa",
+      "refined_sha256": "2e586119d38a9afecf8aa9fc1cca6598258239c91a73e577a7b005d1559af934"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 100000000.0,
+        "eccentricity": 0.8,
+        "radial_cycles": 1,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 29.08882094511199,
+        "coordinate": 29.0888210236518,
+        "advance": 9.424778180366712e-08,
+        "quadrature_error": {
+          "proper": 1.0502919655837542e-12,
+          "coordinate": 1.0459646735736724e-12,
+          "advance": 1.0463605737827911e-21
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 2.1693502748382066e-13,
+        "coordinate_period_relative_error": 1.9122481376143696e-12,
+        "proper_period_relative_error": 1.9124701822192947e-12
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 9.42479987386946e-08,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 29.088821023596175,
+        "cycle_period_proper_scaled": 29.08882094505636,
+        "radial_period_coordinate_scaled": 29.088821023596175,
+        "radial_period_proper_scaled": 29.08882094505636,
+        "accumulated_clock_lag_scaled": 7.853981724686487e-08,
+        "average_proper_over_coordinate": 0.9999999973,
+        "maximum_radial_invariant_residual": 3.8152814241243505e-12,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 0.0
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 2567,
+        "wall_seconds": 0.03868960000181687,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 4487,
+        "wall_seconds": 0.06948290000218549,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "035338eec96164c0e45f8156bc8b769ca1f936014dabd49a89f28b463dcd9b20",
+      "refined_sha256": "f2985ebdab8aa06c62cd24565ae9709b060bd7fc67d838767c2b85389615ae00"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 10000.0,
+        "eccentricity": 0.2,
+        "radial_cycles": 8,
+        "output_samples": 1025,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 6.680428113837474,
+        "coordinate": 6.680909158519948,
+        "advance": 0.0009426903782018644,
+        "quadrature_error": {
+          "proper": 7.416767321532203e-14,
+          "coordinate": 7.417300720599117e-14,
+          "advance": 1.0465965629723067e-17
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 7.361732751176575e-17,
+        "coordinate_period_relative_error": 4.440892098500626e-16,
+        "proper_period_relative_error": 4.440892098500626e-16
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.000942690378201938,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 6.680909158519945,
+        "cycle_period_proper_scaled": 6.680428113837471,
+        "radial_period_coordinate_scaled": 6.680909158519945,
+        "radial_period_proper_scaled": 6.680428113837471,
+        "accumulated_clock_lag_scaled": 0.0038483574597952693,
+        "average_proper_over_coordinate": 0.9999279971226879,
+        "maximum_radial_invariant_residual": 7.216449660063518e-16,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 7.105427357601002e-15
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 15377,
+        "wall_seconds": 0.2439472999976715,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 30737,
+        "wall_seconds": 0.40270999999847845,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "a640759a14db21efd638684e06ee76a473f3963181aeae7af5a55808aee87dda",
+      "refined_sha256": "73aaa96f8849155d37ce163d48041accbc44442be94297988ec6ddd402da9323"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 10000.0,
+        "eccentricity": 0.8,
+        "radial_cycles": 16,
+        "output_samples": 4097,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 29.089606448955866,
+        "coordinate": 29.09039193785203,
+        "advance": 0.0009426974520895833,
+        "quadrature_error": {
+          "proper": 1.0477726330005765e-12,
+          "coordinate": 1.0471670956581502e-12,
+          "advance": 1.0466044165653257e-17
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 1.7208982719743582e-12,
+        "coordinate_period_relative_error": 3.7262637420099054e-11,
+        "proper_period_relative_error": 3.726330355391383e-11
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.0009426974538104815,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 29.090391938936012,
+        "cycle_period_proper_scaled": 29.08960645003984,
+        "radial_period_coordinate_scaled": 29.090391938936012,
+        "radial_period_proper_scaled": 29.08960645003984,
+        "accumulated_clock_lag_scaled": 0.012567822338721916,
+        "average_proper_over_coordinate": 0.999972998339183,
+        "maximum_radial_invariant_residual": 1.1931594601222173e-11,
+        "maximum_metric_residual": 1.5543122344752192e-15,
+        "maximum_time_inverse_residual": 5.684341886080802e-14
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 40841,
+        "wall_seconds": 0.645201300001645,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 71657,
+        "wall_seconds": 1.0794395999982953,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "7f905f41d0d92ecadb4bc3fb2642b9eaf09f0d06938959d07831e91978288ef2",
+      "refined_sha256": "30b32216edf15de9d5f7dcefce76cbb8ff9b708365c03ebef5f682faf41ffa69"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 100000000.0,
+        "eccentricity": 0.05,
+        "radial_cycles": 16,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": 1
+      },
+      "expected": {
+        "proper": 6.306821145705216,
+        "coordinate": 6.306821192888122,
+        "advance": 9.424778172856341e-08,
+        "quadrature_error": {
+          "proper": 7.001978047832875e-14,
+          "coordinate": 7.001978100772435e-14,
+          "advance": 1.0463605729489723e-21
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 8.288202565806752e-15,
+        "coordinate_period_relative_error": 2.220446049250313e-16,
+        "proper_period_relative_error": 0.0
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 9.424779001676598e-08,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 6.306821192888123,
+        "cycle_period_proper_scaled": 6.306821145705216,
+        "radial_period_coordinate_scaled": 6.306821192888123,
+        "radial_period_proper_scaled": 6.306821145705216,
+        "accumulated_clock_lag_scaled": 7.549264996314659e-07,
+        "average_proper_over_coordinate": 0.9999999925187499,
+        "maximum_radial_invariant_residual": 3.3306690738754696e-16,
+        "maximum_metric_residual": 4.440892098500626e-16,
+        "maximum_time_inverse_residual": 9.947598300641403e-14
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 30737,
+        "wall_seconds": 0.3768089000004693,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 61457,
+        "wall_seconds": 0.6875686999992467,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "e7462d07139e859d6d485b0b9142f188c886d3134444c8c48ba8843f5bf4aca6",
+      "refined_sha256": "6562c88a1d4e863c0742dd0e965540257be59348d30d0b10678b37d6599f4903"
+    },
+    {
+      "recipe": {
+        "mu_m3_s2": 1.3271244e+21,
+        "semi_latus_rectum_rs": 1000.0,
+        "eccentricity": 0.6,
+        "radial_cycles": 2,
+        "output_samples": 257,
+        "source_radius_rs": 1.0,
+        "orientation": -1
+      },
+      "expected": {
+        "proper": 12.277751435001004,
+        "coordinate": 12.283650894412574,
+        "advance": 0.00944646417782707,
+        "quadrature_error": {
+          "proper": 1.3614435550591242e-13,
+          "coordinate": 1.3676704714049352e-13,
+          "advance": 1.0487682031520363e-16
+        }
+      },
+      "errors": {
+        "precession_absolute_error_rad": 1.5571224865063016e-13,
+        "coordinate_period_relative_error": 1.7541523789077473e-14,
+        "proper_period_relative_error": 1.7319479184152442e-14
+      },
+      "measurements": {
+        "apsidal_advance_rad_per_cycle": 0.009446464177982783,
+        "apsidal_defined": true,
+        "period_kind": "radial libration",
+        "cycle_period_coordinate_scaled": 12.283650894412359,
+        "cycle_period_proper_scaled": 12.277751435000791,
+        "radial_period_coordinate_scaled": 12.283650894412359,
+        "radial_period_proper_scaled": 12.277751435000791,
+        "accumulated_clock_lag_scaled": 0.011798918823137177,
+        "average_proper_over_coordinate": 0.9995197307818108,
+        "maximum_radial_invariant_residual": 8.353318037279678e-13,
+        "maximum_metric_residual": 1.1102230246251565e-15,
+        "maximum_time_inverse_residual": 3.552713678800501e-15
+      },
+      "solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": false,
+        "rhs_calls": 4427,
+        "wall_seconds": 0.06643160000021453,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "refined_solver": {
+        "method": "DOP853 proper-time IVP",
+        "refined": true,
+        "rhs_calls": 7991,
+        "wall_seconds": 0.10591639999984181,
+        "maximum_rhs": 300000,
+        "maximum_seconds": 15.0
+      },
+      "base_sha256": "52855e15313742cbd7b5fcd32cc469cb4dab2e38a1b95d418301be6b14cf82af",
+      "refined_sha256": "9c598e82ad9083767035517a88043d1b4a9c8960a1de3de2b7795cbafe40eadf"
+    }
+  ],
+  "refusals": [
+    {
+      "name": "mu_m3_s2=True",
+      "error": "Número finito obrigatório: mu_m3_s2"
+    },
+    {
+      "name": "mu_m3_s2=0",
+      "error": "GM fora do domínio adotado."
+    },
+    {
+      "name": "mu_m3_s2=nan",
+      "error": "Número finito obrigatório: mu_m3_s2"
+    },
+    {
+      "name": "mu_m3_s2=inf",
+      "error": "Número finito obrigatório: mu_m3_s2"
+    },
+    {
+      "name": "semi_latus_rectum_rs=999",
+      "error": "Semilatus rectum fora do campo fraco adotado."
+    },
+    {
+      "name": "semi_latus_rectum_rs=1000000000.0",
+      "error": "Semilatus rectum fora do campo fraco adotado."
+    },
+    {
+      "name": "eccentricity=0.001",
+      "error": "Usar círculo ou excentricidade entre 0,05 e 0,8."
+    },
+    {
+      "name": "eccentricity=-0.1",
+      "error": "Usar círculo ou excentricidade entre 0,05 e 0,8."
+    },
+    {
+      "name": "eccentricity=0.9",
+      "error": "Usar círculo ou excentricidade entre 0,05 e 0,8."
+    },
+    {
+      "name": "source_radius_rs=0.99",
+      "error": "Órbita fora do domínio exterior da fonte."
+    },
+    {
+      "name": "source_radius_rs=100000000.0",
+      "error": "Órbita fora do domínio exterior da fonte."
+    },
+    {
+      "name": "radial_cycles=True",
+      "error": "Inteiro fora do orçamento: radial_cycles"
+    },
+    {
+      "name": "radial_cycles=0",
+      "error": "Inteiro fora do orçamento: radial_cycles"
+    },
+    {
+      "name": "radial_cycles=17",
+      "error": "Inteiro fora do orçamento: radial_cycles"
+    },
+    {
+      "name": "output_samples=256",
+      "error": "Inteiro fora do orçamento: output_samples"
+    },
+    {
+      "name": "output_samples=4098",
+      "error": "Inteiro fora do orçamento: output_samples"
+    },
+    {
+      "name": "orientation=True",
+      "error": "Orientação deve ser+1 ou-1."
+    },
+    {
+      "name": "orientation=0",
+      "error": "Orientação deve ser+1 ou-1."
+    },
+    {
+      "name": "unknown-field",
+      "error": "Parâmetro desconhecido."
+    },
+    {
+      "name": "non-object",
+      "error": "Objeto de parâmetros obrigatório."
+    },
+    {
+      "name": "RHS-budget",
+      "error": "Orçamento de órbita excedido; resultado incompleto recusado."
+    },
+    {
+      "name": "wall-budget",
+      "error": "Orçamento de órbita excedido; resultado incompleto recusado."
+    },
+    {
+      "name": "cancelled",
+      "error": "Cálculo cancelado sem resultado parcial publicado."
+    }
+  ],
+  "checks": [
+    "Closed Kepler reference versus independent Cartesian Newton IVP on the same coordinate grid",
+    "Circular clock and phase; no fabricated radial period or apsidal measurement",
+    "Mass scaling preserves dimensionless trajectories/clocks; physical lengths and times scale by10",
+    "Reversed angular direction mirrors the orbit and preserves the physical advance"
+  ],
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "platform": "win32",
+  "scope": "Native CPU science only. No service, UI, persistence or scene/performance acceptance.",
+  "wall_seconds": 5.788837099997181
+}

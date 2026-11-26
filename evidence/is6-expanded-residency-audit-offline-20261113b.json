@@ -1,0 +1,83 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/expanded_residency_audit_v2.py": "4a57bf72ef0ca4e7b2eba7f03bc4a891e39f06b302cc735f3a261c4c78e5b864",
+    "scripts/expanded_residency_contract_v2.py": "7bc91797f3f69f0c1e280b4f248b2336c05e9147c94f37a0531f75f6d4f6fc23",
+    "scripts/collect_expanded_residency_v3.py": "dcc62df41aec12ac7cd9289fc018c523c12d178e84f01e7670ba102c63334625",
+    "scripts/profile-expanded-residency-v2.py": "38f6c4c0fcfee119c9a919c8415f570d851548d8701d4dc90dd621cf68967fbf",
+    "scripts/audit-expanded-residency-v2.py": "1d8d379fa6372472a875e69c6e9ea6e340a712f378b8b2d3e80b2931ce0cc87b",
+    "scripts/run-expanded-residency-v2.py": "df6a053e0c6e33d700b43412757a4dc8e3cd0a7e83b99a68d20c1db566ba5ac4",
+    "scripts/verify-expanded-residency-audit-v2.py": "ef2b1fe7ea6378feea307a8b2c4e1af494480d8b8b9bb450ca272bd9899f0944",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-B.md": "9a9e578d4be82e8b9b6da075aa696496805512d7defc96b42398ef10dc615028",
+    "evidence/is6-expanded-journey-native-20261113a.json": "973ee974ad054d8c55a6ceb417023e9ad0ee5bb3109c0202afb4dd212ea9dbdf",
+    "evidence/is6-expanded-instruments-service-20261113c.json": "99d3b46a9a961ed6086e073df5785994fc9862c597b7c4690d100fc5944707ad",
+    "evidence/is6-dynamics16-profile-20261112a.json": "c8e93f0eba634714218b6561201d7ce001c5a7c22367a88dced00606c3a45026",
+    "scripts/expanded_residency_projection.py": "79b29cb6621ff82758aae0028e733465233b4ea3aa3ef497f4e89fec94647db5",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-C.md": "79d5d76482da2c89cc144d56fff38dfdb9d6511eeed68099a00aa9fd61e18e82",
+    "evidence/is6-expanded-residency-collector-20261113a.json": "81b7c23b642100a9a64b2ad970cd55ff4d151ea90d77f5c82bb5386c8880d570",
+    "evidence/is6-expanded-residency-host-20261113a.json": "4231f1207058522bce5f587a65520c898cfa6a4bfd8edb70053adf80021217e7"
+  },
+  "checks": [
+    "Actual simple-mesh reference_id schema and accepted spatial configuration",
+    "First66 complete samples; all boundary/excess records retained outside the selection",
+    "Preserved real native frame/CPU trace accepted as an offline fixture",
+    "All transition frames retained, including a1.25second stall",
+    "Unprojectable transition retained as raw API evidence; stable/warmup refused"
+  ],
+  "refusals": [
+    {
+      "name": "mixed-spatial-and-pair-schema",
+      "error": "'reference_id'"
+    },
+    {
+      "name": "unsealed-mesh-configuration",
+      "error": "Simple mesh configuration differs"
+    },
+    {
+      "name": "Atlas-wrong-native-anchor",
+      "error": "Atlas Earth/epoch differs"
+    },
+    {
+      "name": "archived-edit-token-reuse",
+      "error": "Archived edit token was reused"
+    },
+    {
+      "name": "changed-archived-mass",
+      "error": "Archived orbital physics changed"
+    },
+    {
+      "name": "missing-postroll",
+      "error": "Stable phase has fewer than66 complete samples"
+    },
+    {
+      "name": "short-preroll",
+      "error": "First66 samples do not retain the three-sample pre-roll"
+    },
+    {
+      "name": "path-churn-inside-stable66",
+      "error": "Population/counter paths changed during stable66"
+    },
+    {
+      "name": "population-churn-inside-stable66",
+      "error": "Population/counter paths changed during stable66"
+    },
+    {
+      "name": "truncated-stage-trace",
+      "error": "Native CPU trace absent/truncated"
+    },
+    {
+      "name": "boolean-stage-count",
+      "error": "Invalid native stage count"
+    },
+    {
+      "name": "incomplete-stable-envelope",
+      "error": "Incomplete scientific scenario outside a transition"
+    },
+    {
+      "name": "incomplete-warmup-envelope",
+      "error": "Incomplete scientific scenario outside a transition"
+    }
+  ],
+  "scope": "Synthetic offline boundary/coverage and preserved scientific/native fixtures; no new performance measurement."
+}

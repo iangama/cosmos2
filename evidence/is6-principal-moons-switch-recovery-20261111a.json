@@ -1,0 +1,8 @@
+{
+  "accepted": true,
+  "reason": "Switch helper wrote UTF8, old server read using system locale; ASCII envelope preserves payload semantics",
+  "original_sha256": "9849d95b4a94fa383806a2f74029ae79a7e088a8c0ccdcac534af8117299b50e",
+  "restored_target": "Jupiter",
+  "restored_et": 844992069.1823514,
+  "app_kept_open": true
+}

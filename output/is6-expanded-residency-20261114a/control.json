@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "id": "003-stable",
+  "kind": "stable",
+  "window": "atlas_earth",
+  "recipe": {
+    "name": "atlas_earth",
+    "mode": "atlas",
+    "instrument": null,
+    "body": "399"
+  },
+  "expected_scenario": {
+    "mode": "atlas",
+    "renderer_confirmed": true,
+    "physics": null,
+    "modules": {
+      "spatial": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "guard": {
+          "session_id": "2af80bf33b5c4956bc5119c468a9f8ea",
+          "artifact_id": null,
+          "revision": 0
+        },
+        "artifact": null,
+        "scene": null
+      },
+      "layers": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "guard": {
+          "session_id": "fa189e86ad714675bbfe35e7e16289e7",
+          "artifact_id": null,
+          "revision": 0
+        },
+        "artifact": null,
+        "scene": null
+      },
+      "particles": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false
+      },
+      "solar-zone": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "playing": false,
+        "scene": null,
+        "worker": null
+      }
+    },
+    "atlas_epoch_et_tdb_s": 844992069.1823514,
+    "atlas_anchor": "Earth"
+  }
+}

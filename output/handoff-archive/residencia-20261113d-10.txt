@@ -1,0 +1,14 @@
+CHECKPOINT2026-11-13T23:22:01.059Z —10%5h/54%semanal disponíveis.
+RESIDÊNCIAD ATIVA:4janelascompletas;próton(5ª)stable35amostras,total473,coletorVÁLIDO.
+Windowsdestacado37408/Host4 (verpidreal norecibo). Não repetir,nãoeditarfontes/protegidos.
+run-expanded-residency-v4.py --label20261113d --plan-label20261113d.
+Conferirhost/profile/collector/audit20261113d ANTESdetrabalhar. Driverfecha4x0/reabrevistadodono.
+Mesmo semagent,processoWindowsdestacadopodeconcluir ensaio;conferirreceiptsprimeiroapósretomada.
+Durantecoletasembackup/download/navegação/testepesado. Apósfim,auditoriaindependentee4exits0obrigatórios.
+A/B/Crecusadosintocados.RevisãoE IPC:1000writes/74561reads/1.87MB UTF8/JSONmalformadorecusado.
+Historyschema6:identidadesretidas/saídasinalizada+0+FILETIME;preflightE30/1birth1exitACEITO.
+PlanoD2370fontes/29protegidos;produto científico0.27byteidêntico0.26.2.
+Backupv19local8cd4df38/6600arquivos;avançosHistory/IPC/perfisC/Daindafora.Backupv20depoisdaauditoria.
+Próximoexato:confirmarfimD,analisarauditor/host,nãoatestarperfseapenasexecutorcompletou;
+sefalha,preservarecidenciaantesdenovarevisão.Semsubagentes/promoção;V1segue7/21,IS6incompleto,K5Arecusado.
+

@@ -1,0 +1,886 @@
+{
+  "schema": 4,
+  "label": "is6k5-20261105k5a-pre",
+  "ownership_method": "Toolhelp snapshot plus GetProcessTimes parent identity",
+  "ownership_generation": {
+    "id": "cosmos2:toolhelp-creation-time-ownership",
+    "version": "0.1.0",
+    "source_sha256": {
+      "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+      "IS-6-GPU-IDENTIDADE-PROCESSOS.md": "ecf5f20e1574e1f6f51a126a99f9a95265e0070c3a978e8a704cf2a8939f0cae"
+    }
+  },
+  "valid": true,
+  "failure": null,
+  "generation": {
+    "schema": 1,
+    "id": "cosmos2:windows-pdh-owned-gpu-bytes",
+    "version": "0.2.0",
+    "source_sha256": {
+      "scripts/windows_gpu_pdh_v2.py": "9a35ebdcc93ca30c748bf64b7e849b567150d2711f615d8c22af38d284564924",
+      "IS-6-GPU-PDH-PYTHON-CONTRATO.md": "b32b9e2bbdb3ba8981ba0041eb5b6ba809e339bf8837357b971f0cb35b6784a1",
+      "IS-6-GPU-PDH-PYTHON-TEMPO.md": "83490234ad9b949dd031812fe356594e9e8a0654625f8b300016827292791e1e"
+    }
+  },
+  "collector_sha256": "c807127e2236b914071c86447cbc5b2cddc0c82db7008a17854293ac3504761b",
+  "source_sha256": {
+    "scripts/collect_gpu_pdh_v3.py": "c807127e2236b914071c86447cbc5b2cddc0c82db7008a17854293ac3504761b",
+    "scripts/windows_gpu_pdh_v2.py": "9a35ebdcc93ca30c748bf64b7e849b567150d2711f615d8c22af38d284564924",
+    "scripts/gpu_pdh_audit_v3.py": "a08d153e3e1ddc7d0314b2f51cba349a1bab9fb0caf2fd0650e235a6f559c903",
+    "scripts/gpu_pdh_audit_v2.py": "8b1b9d0fe63c8c15cfd11af71c3e0799b3b8906c062cc0e6352e93ff5fdd5fe1",
+    "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+    "IS-6-GPU-IDENTIDADE-PROCESSOS.md": "ecf5f20e1574e1f6f51a126a99f9a95265e0070c3a978e8a704cf2a8939f0cae",
+    "IS-6-GPU-PDH-PYTHON-CONTRATO.md": "b32b9e2bbdb3ba8981ba0041eb5b6ba809e339bf8837357b971f0cb35b6784a1",
+    "IS-6-GPU-PDH-PYTHON-TEMPO.md": "83490234ad9b949dd031812fe356594e9e8a0654625f8b300016827292791e1e"
+  },
+  "requested_samples": 3,
+  "expected_mode": "experiment",
+  "expected_worker": "paused",
+  "samples": [
+    {
+      "utc": "2026-11-05T16:44:00.043027+00:00",
+      "query_filetime": 134383598400430270,
+      "query_utc_filetime": 134383706400430270,
+      "time_basis": "PDH local FILETIME converted by LocalFileTimeToFileTime",
+      "local_to_utc_seconds": 10800.0,
+      "call_started_utc": "2026-11-05T16:44:00.043027+00:00",
+      "call_finished_utc": "2026-11-05T16:44:00.043027+00:00",
+      "raw_counter_samples": [
+        {
+          "path": "\\gpu adapter memory(luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 4800086016,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598400430270,
+          "formatted_bytes": 4800086016,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu adapter memory(luid_0x00000000_0x0000eb95_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 0,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598400430270,
+          "formatted_bytes": 0,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 3114610688,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598400430270,
+          "formatted_bytes": 3114610688,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 22736896,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598400430270,
+          "formatted_bytes": 22736896,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 68403200,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598400430270,
+          "formatted_bytes": 68403200,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 30150656,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598400430270,
+          "formatted_bytes": 30150656,
+          "format": 5120
+        }
+      ],
+      "monotonic_offset_s": 0.0,
+      "scenario": {
+        "mode": "experiment",
+        "renderer_confirmed": true,
+        "paused": true,
+        "fixture_count": null,
+        "revision": 0,
+        "requested_rate": 1.0,
+        "physical_time": 0.0
+      },
+      "products": [
+        {
+          "pid": 3808,
+          "instance": "pid_3808_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 3114610688
+        },
+        {
+          "pid": 3808,
+          "instance": "pid_3808_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "shared usage",
+          "bytes": 22736896
+        },
+        {
+          "pid": 39156,
+          "instance": "pid_39156_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 68403200
+        },
+        {
+          "pid": 39156,
+          "instance": "pid_39156_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "shared usage",
+          "bytes": 30150656
+        }
+      ],
+      "adapters": [
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 4800086016
+        },
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000eb95_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 0
+        }
+      ],
+      "product_dedicated_sum_bytes": 3183013888,
+      "product_dedicated_plus_shared_sum_bytes": 3235901440
+    },
+    {
+      "utc": "2026-11-05T16:44:01.046989+00:00",
+      "query_filetime": 134383598410469899,
+      "query_utc_filetime": 134383706410469899,
+      "time_basis": "PDH local FILETIME converted by LocalFileTimeToFileTime",
+      "local_to_utc_seconds": 10800.0,
+      "call_started_utc": "2026-11-05T16:44:01.046989+00:00",
+      "call_finished_utc": "2026-11-05T16:44:01.046989+00:00",
+      "raw_counter_samples": [
+        {
+          "path": "\\gpu adapter memory(luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 4800086016,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598410469899,
+          "formatted_bytes": 4800086016,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu adapter memory(luid_0x00000000_0x0000eb95_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 0,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598410469899,
+          "formatted_bytes": 0,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 3114610688,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598410469899,
+          "formatted_bytes": 3114610688,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 22736896,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598410469899,
+          "formatted_bytes": 22736896,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 68403200,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598410469899,
+          "formatted_bytes": 68403200,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 30150656,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598410469899,
+          "formatted_bytes": 30150656,
+          "format": 5120
+        }
+      ],
+      "monotonic_offset_s": 1.0,
+      "scenario": {
+        "mode": "experiment",
+        "renderer_confirmed": true,
+        "paused": true,
+        "fixture_count": null,
+        "revision": 0,
+        "requested_rate": 1.0,
+        "physical_time": 0.0
+      },
+      "products": [
+        {
+          "pid": 3808,
+          "instance": "pid_3808_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 3114610688
+        },
+        {
+          "pid": 3808,
+          "instance": "pid_3808_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "shared usage",
+          "bytes": 22736896
+        },
+        {
+          "pid": 39156,
+          "instance": "pid_39156_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 68403200
+        },
+        {
+          "pid": 39156,
+          "instance": "pid_39156_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "shared usage",
+          "bytes": 30150656
+        }
+      ],
+      "adapters": [
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 4800086016
+        },
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000eb95_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 0
+        }
+      ],
+      "product_dedicated_sum_bytes": 3183013888,
+      "product_dedicated_plus_shared_sum_bytes": 3235901440
+    },
+    {
+      "utc": "2026-11-05T16:44:02.034037+00:00",
+      "query_filetime": 134383598420340377,
+      "query_utc_filetime": 134383706420340377,
+      "time_basis": "PDH local FILETIME converted by LocalFileTimeToFileTime",
+      "local_to_utc_seconds": 10800.0,
+      "call_started_utc": "2026-11-05T16:44:02.034037+00:00",
+      "call_finished_utc": "2026-11-05T16:44:02.034037+00:00",
+      "raw_counter_samples": [
+        {
+          "path": "\\gpu adapter memory(luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 4800086016,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598420340377,
+          "formatted_bytes": 4800086016,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu adapter memory(luid_0x00000000_0x0000eb95_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 0,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598420340377,
+          "formatted_bytes": 0,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 3114610688,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598420340377,
+          "formatted_bytes": 3114610688,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 22736896,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598420340377,
+          "formatted_bytes": 22736896,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 68403200,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598420340377,
+          "formatted_bytes": 68403200,
+          "format": 5120
+        },
+        {
+          "path": "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage",
+          "raw_api_status": 0,
+          "formatted_api_status": 0,
+          "raw_status": 0,
+          "formatted_status": 0,
+          "raw_type": 65792,
+          "formatted_type": 65792,
+          "raw_first_value": 30150656,
+          "raw_second_value": 0,
+          "raw_multi_count": 1,
+          "raw_timestamp_filetime": 134383598420340377,
+          "formatted_bytes": 30150656,
+          "format": 5120
+        }
+      ],
+      "monotonic_offset_s": 2.0,
+      "scenario": {
+        "mode": "experiment",
+        "renderer_confirmed": true,
+        "paused": true,
+        "fixture_count": null,
+        "revision": 0,
+        "requested_rate": 1.0,
+        "physical_time": 0.0
+      },
+      "products": [
+        {
+          "pid": 3808,
+          "instance": "pid_3808_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 3114610688
+        },
+        {
+          "pid": 3808,
+          "instance": "pid_3808_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "shared usage",
+          "bytes": 22736896
+        },
+        {
+          "pid": 39156,
+          "instance": "pid_39156_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 68403200
+        },
+        {
+          "pid": 39156,
+          "instance": "pid_39156_luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "shared usage",
+          "bytes": 30150656
+        }
+      ],
+      "adapters": [
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 4800086016
+        },
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000eb95_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 0
+        }
+      ],
+      "product_dedicated_sum_bytes": 3183013888,
+      "product_dedicated_plus_shared_sum_bytes": 3235901440
+    }
+  ],
+  "method": "Windows PDH ctypes; selected owned byte gauges",
+  "runtime": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "psutil": "7.2.2",
+    "pointer_bits": 64
+  },
+  "scope": "Windows WDDM memory sum per owned process. Shared allocations may be counted more than once. No zero assignment for unexposed processes; any invalid selected value or identity/path change refuses the whole collection.",
+  "session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 3808,
+    "server": 31132,
+    "launcher": 30372,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-layers-product0.21.1\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-layers-product0.21.1\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Layers-0.21.1-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-05T16:43:07Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-layers-import-candidate-v3.py"
+  },
+  "engine_sha256": "9fdd461956028f8197e48149cc342096bc8b1181bd67f06bfbd9dde48c63f96d",
+  "engine_started_unix": 1793896987.4437366,
+  "scenario_before": {
+    "mode": "experiment",
+    "renderer_confirmed": true,
+    "paused": true,
+    "fixture_count": null,
+    "revision": 0,
+    "requested_rate": 1.0,
+    "physical_time": 0.0
+  },
+  "inventory_before": [
+    {
+      "pid": 3808,
+      "parent": 30372,
+      "name": "OpenSpace.exe",
+      "created_filetime": 134383705874437366,
+      "started_unix": 1793896987.4437366,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+      "scope_root": true
+    },
+    {
+      "pid": 10044,
+      "parent": 28208,
+      "name": "python.exe",
+      "created_filetime": 134383706330861781,
+      "started_unix": 1793897033.086178,
+      "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383706330205876
+    },
+    {
+      "pid": 21072,
+      "parent": 3808,
+      "name": "OpenSpace_Helper.exe",
+      "created_filetime": 134383705905474351,
+      "started_unix": 1793896990.547435,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705874437366
+    },
+    {
+      "pid": 28208,
+      "parent": 36124,
+      "name": "python.exe",
+      "created_filetime": 134383706330205876,
+      "started_unix": 1793897033.0205877,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705723808629
+    },
+    {
+      "pid": 30700,
+      "parent": 3808,
+      "name": "OpenSpace_Helper.exe",
+      "created_filetime": 134383705899865232,
+      "started_unix": 1793896989.9865232,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705874437366
+    },
+    {
+      "pid": 31132,
+      "parent": 30372,
+      "name": "python.exe",
+      "created_filetime": 134383705723638116,
+      "started_unix": 1793896972.3638115,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+      "scope_root": true
+    },
+    {
+      "pid": 33872,
+      "parent": 3808,
+      "name": "OpenSpace_Helper.exe",
+      "created_filetime": 134383705898760400,
+      "started_unix": 1793896989.87604,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705874437366
+    },
+    {
+      "pid": 36124,
+      "parent": 31132,
+      "name": "python.exe",
+      "created_filetime": 134383705723808629,
+      "started_unix": 1793896972.380863,
+      "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705723638116
+    },
+    {
+      "pid": 36972,
+      "parent": 3808,
+      "name": "OpenSpace_Helper.exe",
+      "created_filetime": 134383705906534687,
+      "started_unix": 1793896990.6534686,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705874437366
+    },
+    {
+      "pid": 39156,
+      "parent": 3808,
+      "name": "OpenSpace_Helper.exe",
+      "created_filetime": 134383705897577193,
+      "started_unix": 1793896989.7577193,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705874437366
+    }
+  ],
+  "excluded_old_parent_links_before": [],
+  "owned_processes": [
+    3808,
+    10044,
+    21072,
+    28208,
+    30700,
+    31132,
+    33872,
+    36124,
+    36972,
+    39156
+  ],
+  "configured_counter_paths": [
+    "\\gpu adapter memory(luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+    "\\gpu adapter memory(luid_0x00000000_0x0000eb95_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage",
+    "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage"
+  ],
+  "counter_metadata": {
+    "\\gpu adapter memory(luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Adapter Memory(luid_0x00000000_0x0000CDB9_phys_0)\\Dedicated Usage",
+      "instance": "luid_0x00000000_0x0000cdb9_phys_0",
+      "pid": null,
+      "object": "GPU Adapter Memory",
+      "counter": "dedicated usage",
+      "path": "\\\\PC\\GPU Adapter Memory(luid_0x00000000_0x0000CDB9_phys_0)\\Dedicated Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu adapter memory(luid_0x00000000_0x0000eb95_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Adapter Memory(luid_0x00000000_0x0000EB95_phys_0)\\Dedicated Usage",
+      "instance": "luid_0x00000000_0x0000eb95_phys_0",
+      "pid": null,
+      "object": "GPU Adapter Memory",
+      "counter": "dedicated usage",
+      "path": "\\\\PC\\GPU Adapter Memory(luid_0x00000000_0x0000EB95_phys_0)\\Dedicated Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_3808_luid_0x00000000_0x0000CDB9_phys_0)\\Dedicated Usage",
+      "instance": "pid_3808_luid_0x00000000_0x0000cdb9_phys_0",
+      "pid": 3808,
+      "object": "GPU Process Memory",
+      "counter": "dedicated usage",
+      "path": "\\\\PC\\GPU Process Memory(pid_3808_luid_0x00000000_0x0000CDB9_phys_0)\\Dedicated Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_3808_luid_0x00000000_0x0000CDB9_phys_0)\\Shared Usage",
+      "instance": "pid_3808_luid_0x00000000_0x0000cdb9_phys_0",
+      "pid": 3808,
+      "object": "GPU Process Memory",
+      "counter": "shared usage",
+      "path": "\\\\PC\\GPU Process Memory(pid_3808_luid_0x00000000_0x0000CDB9_phys_0)\\Shared Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_39156_luid_0x00000000_0x0000CDB9_phys_0)\\Dedicated Usage",
+      "instance": "pid_39156_luid_0x00000000_0x0000cdb9_phys_0",
+      "pid": 39156,
+      "object": "GPU Process Memory",
+      "counter": "dedicated usage",
+      "path": "\\\\PC\\GPU Process Memory(pid_39156_luid_0x00000000_0x0000CDB9_phys_0)\\Dedicated Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    },
+    "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_39156_luid_0x00000000_0x0000CDB9_phys_0)\\Shared Usage",
+      "instance": "pid_39156_luid_0x00000000_0x0000cdb9_phys_0",
+      "pid": 39156,
+      "object": "GPU Process Memory",
+      "counter": "shared usage",
+      "path": "\\\\PC\\GPU Process Memory(pid_39156_luid_0x00000000_0x0000CDB9_phys_0)\\Shared Usage",
+      "kind": 65792,
+      "scale": 0,
+      "default_scale": 0
+    }
+  },
+  "owned_gpu_processes": [
+    3808,
+    39156
+  ],
+  "owned_without_exposed_gpu_counter": [
+    10044,
+    21072,
+    28208,
+    30700,
+    31132,
+    33872,
+    36124,
+    36972
+  ],
+  "counter_paths_after": [
+    "\\gpu adapter memory(luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+    "\\gpu adapter memory(luid_0x00000000_0x0000eb95_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_3808_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage",
+    "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\dedicated usage",
+    "\\gpu process memory(pid_39156_luid_0x00000000_0x0000cdb9_phys_0)\\shared usage"
+  ],
+  "inventory_after": [
+    {
+      "pid": 3808,
+      "parent": 30372,
+      "name": "OpenSpace.exe",
+      "created_filetime": 134383705874437366,
+      "started_unix": 1793896987.4437366,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+      "scope_root": true
+    },
+    {
+      "pid": 10044,
+      "parent": 28208,
+      "name": "python.exe",
+      "created_filetime": 134383706330861781,
+      "started_unix": 1793897033.086178,
+      "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383706330205876
+    },
+    {
+      "pid": 21072,
+      "parent": 3808,
+      "name": "OpenSpace_Helper.exe",
+      "created_filetime": 134383705905474351,
+      "started_unix": 1793896990.547435,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705874437366
+    },
+    {
+      "pid": 28208,
+      "parent": 36124,
+      "name": "python.exe",
+      "created_filetime": 134383706330205876,
+      "started_unix": 1793897033.0205877,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705723808629
+    },
+    {
+      "pid": 30700,
+      "parent": 3808,
+      "name": "OpenSpace_Helper.exe",
+      "created_filetime": 134383705899865232,
+      "started_unix": 1793896989.9865232,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705874437366
+    },
+    {
+      "pid": 31132,
+      "parent": 30372,
+      "name": "python.exe",
+      "created_filetime": 134383705723638116,
+      "started_unix": 1793896972.3638115,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+      "scope_root": true
+    },
+    {
+      "pid": 33872,
+      "parent": 3808,
+      "name": "OpenSpace_Helper.exe",
+      "created_filetime": 134383705898760400,
+      "started_unix": 1793896989.87604,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705874437366
+    },
+    {
+      "pid": 36124,
+      "parent": 31132,
+      "name": "python.exe",
+      "created_filetime": 134383705723808629,
+      "started_unix": 1793896972.380863,
+      "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705723638116
+    },
+    {
+      "pid": 36972,
+      "parent": 3808,
+      "name": "OpenSpace_Helper.exe",
+      "created_filetime": 134383705906534687,
+      "started_unix": 1793896990.6534686,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705874437366
+    },
+    {
+      "pid": 39156,
+      "parent": 3808,
+      "name": "OpenSpace_Helper.exe",
+      "created_filetime": 134383705897577193,
+      "started_unix": 1793896989.7577193,
+      "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+      "scope_root": false,
+      "parent_created_filetime": 134383705874437366
+    }
+  ],
+  "excluded_old_parent_links_after": [],
+  "scenario_after": {
+    "mode": "experiment",
+    "renderer_confirmed": true,
+    "paused": true,
+    "fixture_count": null,
+    "revision": 0,
+    "requested_rate": 1.0,
+    "physical_time": 0.0
+  },
+  "audit": {
+    "samples": 3,
+    "paths": 6,
+    "owned_processes": 10,
+    "peak_dedicated_plus_shared_bytes": 3235901440,
+    "scope": "WDDM sum per process; shared allocations can be counted more than once."
+  }
+}

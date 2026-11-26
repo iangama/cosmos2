@@ -1,0 +1,10 @@
+{
+  "accepted": true,
+  "local_only": true,
+  "commit": "416fb28670dfd707111e6744571f2dcae524a2f6",
+  "files": 6492,
+  "sync_receipt_sha256": "545b419af11b1f1f321e35e54884124f16e36ea5216c90585fa7fa5f3187b02a",
+  "finisher_failure_preserved": "output/is6-expanded-backup-20261113b-progress.json",
+  "explanation": "Generic whitespace check rejected raw engine-log padding and a documentation EOF. Preserved copied bytes and accepted sync inventory; committed locally without rewriting evidence.",
+  "scope": "Partial source/evidence backup only; no push."
+}

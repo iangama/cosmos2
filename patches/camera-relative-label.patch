@@ -1,0 +1,32 @@
+--- a/modules/base/rendering/renderablelabel.cpp
++++ b/modules/base/rendering/renderablelabel.cpp
+@@ -385,7 +385,11 @@
+         fadeInVariable = computeFadeFactor(distanceNodeToCamera);
+     }
+ 
+-    const glm::dmat4 modelMatrix = glm::dmat4(1.0);
++    // Construct glyph vertices near the camera before converting to float.
++    // Absolute positions (e.g. 1e14 m) erase glyph spacing in a small scene.
++    const glm::dmat4 modelMatrix = glm::translate(
++        glm::dmat4(1.0), data.camera.position()
++    );
+     const glm::dmat4 modelViewProjectionTransform =
+         calcModelViewProjectionTransform(data, modelMatrix);
+ 
+@@ -431,13 +435,14 @@
+         .mvpMatrix = modelViewProjectionMatrix,
+         .orthoRight = orthoRight,
+         .orthoUp = orthoUp,
+-        .cameraPos = data.camera.position(),
++        .cameraPos = glm::dvec3(0.0),
+         .cameraLookUp = data.camera.lookUpVectorWorldSpace()
+     };
+ 
+     // We don't use SPICE rotation and scale
+     const glm::vec3 transformedPos = glm::vec3(
+-        _transformationMatrix * glm::dvec4(data.modelTransform.translation, 1.0)
++        _transformationMatrix * glm::dvec4(data.modelTransform.translation, 1.0) -
++        glm::dvec4(data.camera.position(), 0.0)
+     );
+ 
+     glm::vec4 textColor = glm::vec4(glm::vec3(_color), fadeInVariable * opacity());

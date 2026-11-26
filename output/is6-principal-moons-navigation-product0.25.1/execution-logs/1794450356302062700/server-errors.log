@@ -1,0 +1,288 @@
+127.0.0.1 - - [11/Nov/2026 23:22:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:22:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /is4-particle.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /is5-zone.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /is6-spatial.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /is6-layers.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /planet-definitions.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /stellar-reference.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /navigation.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /body-editor.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /gravity-harmonics.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /material-tides.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /body-attributes.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /orbit-editor.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /gravity-experiences.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /gravity-probe.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /gravity-instruments.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /gravity-fields.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /instrument-history.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /orbital-instruments.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /branches.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /test-cloud.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /solar.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /jupiter-field.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /solar-tide.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /earth-field.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /body-field-vector.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /body-field-map.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /is4-particle.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /is5-zone.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /stellar-reference.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /is6-spatial.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /is6-layers.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /api/navigation/favorites HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:31] "GET /api/laboratory/experiments HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:32] code 404, message File not found
+127.0.0.1 - - [11/Nov/2026 23:23:32] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [11/Nov/2026 23:23:32] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:32] "GET /api/navigation/display HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:32] "POST /api/navigation/restore HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:32] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:32] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:33] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:33] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:33] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:33] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:33] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:34] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:34] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:34] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:34] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:35] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:35] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:35] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:35] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:36] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:36] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:36] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:36] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:37] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:37] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:37] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:37] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:38] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:38] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:38] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:38] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:39] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:39] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:39] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:39] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:40] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:40] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:40] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:41] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:41] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:41] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:41] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:42] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:42] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:42] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:42] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:43] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:43] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:43] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:43] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:44] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:44] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:44] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:45] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:45] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:45] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:45] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:46] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:46] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:46] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:46] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:47] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:47] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:47] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:47] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:48] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:48] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:48] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:48] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:49] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:49] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:49] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:49] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:50] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:50] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:50] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:50] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:51] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:51] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:51] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:51] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:52] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:52] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:52] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:52] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:53] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:53] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:54] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:54] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:54] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:54] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:55] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:55] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:55] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:55] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:56] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:56] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:56] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:56] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:57] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:57] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:57] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:57] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:58] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:58] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:58] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:58] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:59] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:59] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:59] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:23:59] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /is4-particle.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /is5-zone.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /stellar-reference.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /is6-spatial.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /is6-layers.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /planet-definitions.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /navigation.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /body-editor.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /body-attributes.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /gravity-harmonics.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /material-tides.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /orbit-editor.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /gravity-experiences.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /gravity-probe.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /gravity-instruments.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /gravity-fields.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /orbital-instruments.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /instrument-history.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /branches.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /test-cloud.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /solar.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /solar-tide.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /earth-field.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /jupiter-field.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /body-field-vector.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /body-field-map.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /is4-particle.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /is5-zone.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /stellar-reference.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /is6-spatial.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /is6-layers.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /api/navigation/favorites HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:00] "GET /api/laboratory/experiments HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:01] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:01] "GET /api/navigation/display HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:01] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:01] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:02] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:02] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:02] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:02] "POST /api/solar/experiment HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:08] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:09] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:10] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:15] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:16] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:22] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:22] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:23] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:28] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:29] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:35] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:35] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:36] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:36] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:42] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:42] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:49] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:49] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:50] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:55] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:24:56] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:01] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:02] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:15] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:15] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:17] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:22] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:31] "POST /api/layers/cancel HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:31] "POST /api/layers/command HTTP/1.1" 400 -
+127.0.0.1 - - [11/Nov/2026 23:25:31] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:31] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:31] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:37] "POST /api/layers/import-preview HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:40] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:40] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:48] "POST /api/layers/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:51] "POST /api/command HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:51] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:51] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:51] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:52] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:52] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:53] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:53] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [11/Nov/2026 23:25:54] "GET /api/navigation/state HTTP/1.1" 503 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51585)
+Traceback (most recent call last):
+  File "C:\Users\Ian\cosmos2\output\is6-principal-moons-navigation-product0.25.1\app\server.py", line 99, in do_GET
+    try:return self.json_response(NAVIGATION.status() if self.path.endswith('/state') else {'views':NAVIGATION.favorites()})
+                                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\is6-principal-moons-navigation-product0.25.1\app\moon_navigation.py", line 106, in status
+    s=self._read()
+      ^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\is6-principal-moons-navigation-product0.25.1\app\moon_navigation.py", line 90, in _read
+    value=self.atlas._lua('local n=openspace.navigation.getNavigationState("Root"); return {navigation=n,anchor_position=openspace.worldPosition(n.Anchor),et=openspace.time.currentTime(),utc=openspace.time.UTC(),paused=openspace.time.isPaused(),rate=openspace.time.deltaTime(),flying=openspace.navigation.isFlying(),positions={'+POSITION_QUERY+'},rotations={'+ROTATION_QUERY+'}}')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\is6-principal-moons-navigation-product0.25.1\app\atlas.py", line 113, in _lua
+    response=json.loads(self.connection.recv(timeout=5))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\.tooling\python\Lib\site-packages\websockets\sync\connection.py", line 336, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\Ian\cosmos2\output\is6-principal-moons-navigation-product0.25.1\app\server.py", line 35, in __init__
+    super().__init__(*args, directory=str(Path(__file__).parent / "ui"), **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\Ian\cosmos2\output\is6-principal-moons-navigation-product0.25.1\app\server.py", line 100, in do_GET
+    except Exception as error:return self.json_response({'ok':False,'error':str(error)},503)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\is6-principal-moons-navigation-product0.25.1\app\server.py", line 47, in json_response
+    self.wfile.write(body)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+----------------------------------------
+127.0.0.1 - - [11/Nov/2026 23:25:55] "POST /api/shutdown HTTP/1.1" 200 -

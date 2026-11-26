@@ -1,0 +1,22 @@
+{
+  "accepted": false,
+  "completed": true,
+  "candidate": "0.20.0",
+  "reason": "Salvar referências e Restaurar salva sem classe de botão: texto claro sobre fundo branco nos dois controles; contraste insuficiente.",
+  "reviewed": [
+    {
+      "path": "output/is6-layers-storage-native-20261104c/cosmos2-is6-storage-20261104c-399-storage-150.png",
+      "sha256": "a340f21470073cbbd697a0664c5e0977dbb1bc22d88b924a4c21fe2a4e6f873a"
+    },
+    {
+      "path": "output/is6-layers-storage-native-20261104c/cosmos2-is6-storage-20261104c-599-storage-150.png",
+      "sha256": "e0dc227e70079fa2fbf48c3d8f63bc529c5c98c330b0a97607447aeea0146f4b"
+    }
+  ],
+  "functional_receipts": [
+    "evidence/is6-layers-storage-native-20261104c.json",
+    "evidence/is6-layers-storage-native-20261104d.json"
+  ],
+  "replacement": "0.20.1",
+  "scope": "Visual refusal; no complete twelve-image visual acceptance, no performance transfer or promotion."
+}

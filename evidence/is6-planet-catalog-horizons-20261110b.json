@@ -1,0 +1,356 @@
+{
+  "accepted": false,
+  "completed": true,
+  "queries": [
+    {
+      "target": "199",
+      "center": "0",
+      "query": {
+        "format": "json",
+        "COMMAND": "'199'",
+        "OBJ_DATA": "'YES'",
+        "MAKE_EPHEM": "'YES'",
+        "EPHEM_TYPE": "'VECTORS'",
+        "CENTER": "'500@0'",
+        "REF_PLANE": "'FRAME'",
+        "REF_SYSTEM": "'ICRF'",
+        "VEC_CORR": "'NONE'",
+        "OUT_UNITS": "'KM-S'",
+        "VEC_TABLE": "'2'",
+        "CSV_FORMAT": "'YES'",
+        "TIME_TYPE": "'TDB'",
+        "TIME_DIGITS": "'FRACSEC'",
+        "TLIST_TYPE": "'JD'",
+        "TLIST": "'2449718.5007081474177539,2451545.0007428694516420,2461325.0008007218129933,2462668.2716340804472566,2469806.5007891654968262'"
+      },
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27199%27&OBJ_DATA=%27YES%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%400%27&REF_PLANE=%27FRAME%27&REF_SYSTEM=%27ICRF%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&VEC_TABLE=%272%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&TIME_DIGITS=%27FRACSEC%27&TLIST_TYPE=%27JD%27&TLIST=%272449718.5007081474177539%2C2451545.0007428694516420%2C2461325.0008007218129933%2C2462668.2716340804472566%2C2469806.5007891654968262%27",
+      "header": "*******************************************************************************\n Revised: April 12, 2021             Mercury                            199 / 1\n\n PHYSICAL DATA (updated 2024-Mar-04):\n  Vol. Mean Radius (km) =  2439.4+-0.1    Density (g cm^-3)     = 5.427\n  Mass x10^23 (kg)      =     3.302       Volume (x10^10 km^3)  = 6.085  \n  Sidereal rot. period  =    58.6463 d    Sid. rot. rate (rad/s)= 0.00000124001\n  Mean solar day        =   175.9421 d    Core radius (km)      = ~1600 \n  Geometric Albedo      =     0.106       Surface emissivity    = 0.77+-0.06\n  GM (km^3/s^2)         = 22031.86855     Equatorial radius, Re = 2440.53 km\n  GM 1-sigma (km^3/s^2) =                 Mass ratio (Sun/plnt) = 6023682\n  Mom. of Inertia       =     0.33        Equ. gravity  m/s^2   = 3.701     \n  Atmos. pressure (bar) = < 5x10^-15      Max. angular diam.    = 11.0\"   \n  Mean Temperature (K)  = 440             Visual mag. V(1,0)    = -0.42 \n  Obliquity to orbit[1] =  2.11' +/- 0.1' Hill's sphere rad. Rp = 94.4 \n  Sidereal orb. per.    =  0.2408467 y    Mean Orbit vel.  km/s = 47.362 \n  Sidereal orb. per.    = 87.969257  d    Escape vel. km/s      =  4.435\n                                 Perihelion  Aphelion    Mean\n  Solar Constant (W/m^2)         14462       6278        9126\n  Maximum Planetary IR (W/m^2)   12700       5500        8000\n  Minimum Planetary IR (W/m^2)   6           6           6\n*******************************************************************************\n\n\n*******************************************************************************\nEphemeris / API_USER Tue Nov 10 17:27:41 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Mercury (199)                   {source: DE441}\nCenter body name: Solar System Barycenter (0)     {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1995-Jan-01 00:01:01.1839 TDB\nStop  time      : A.D. 2049-Dec-31 00:01:08.1839 TDB\nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : (undefined)\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nReference frame : ICRF\n*******************************************************************************\n            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n",
+      "local_model": "DE442",
+      "horizons_model": "DE441",
+      "comparison_kind": "cross_model_difference",
+      "response": "output/is6-planet-catalog-horizons-20261110b/199-relative-0.json",
+      "response_sha256": "50223fa40e625dcfcff94a234ef93cf17603ea6dbad9cd107631f387745438f4",
+      "cases": [
+        {
+          "utc": "1995-01-01T00:00:00",
+          "jd_tdb": 2449718.500708147,
+          "position_difference_m": 187.89431863879776,
+          "velocity_difference_m_s": 1.038121714042295e-06,
+          "passed": false
+        },
+        {
+          "utc": "2000-01-01T12:00:00",
+          "jd_tdb": 2451545.000742869,
+          "position_difference_m": 185.23500440288277,
+          "velocity_difference_m_s": 1.728477048611673e-06,
+          "passed": false
+        },
+        {
+          "utc": "2026-10-11T12:00:00",
+          "jd_tdb": 2461325.000800722,
+          "position_difference_m": 168.93108969593035,
+          "velocity_difference_m_s": 5.139723923093653e-06,
+          "passed": false
+        },
+        {
+          "utc": "2030-06-15T18:30:00",
+          "jd_tdb": 2462668.27163408,
+          "position_difference_m": 156.25736288632032,
+          "velocity_difference_m_s": 9.800627113040331e-06,
+          "passed": false
+        },
+        {
+          "utc": "2049-12-30T23:59:59",
+          "jd_tdb": 2469806.500789165,
+          "position_difference_m": 185.33603616417366,
+          "velocity_difference_m_s": 1.4588961741242807e-05,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "target": "299",
+      "center": "0",
+      "query": {
+        "format": "json",
+        "COMMAND": "'299'",
+        "OBJ_DATA": "'YES'",
+        "MAKE_EPHEM": "'YES'",
+        "EPHEM_TYPE": "'VECTORS'",
+        "CENTER": "'500@0'",
+        "REF_PLANE": "'FRAME'",
+        "REF_SYSTEM": "'ICRF'",
+        "VEC_CORR": "'NONE'",
+        "OUT_UNITS": "'KM-S'",
+        "VEC_TABLE": "'2'",
+        "CSV_FORMAT": "'YES'",
+        "TIME_TYPE": "'TDB'",
+        "TIME_DIGITS": "'FRACSEC'",
+        "TLIST_TYPE": "'JD'",
+        "TLIST": "'2449718.5007081474177539,2451545.0007428694516420,2461325.0008007218129933,2462668.2716340804472566,2469806.5007891654968262'"
+      },
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27299%27&OBJ_DATA=%27YES%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%400%27&REF_PLANE=%27FRAME%27&REF_SYSTEM=%27ICRF%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&VEC_TABLE=%272%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&TIME_DIGITS=%27FRACSEC%27&TLIST_TYPE=%27JD%27&TLIST=%272449718.5007081474177539%2C2451545.0007428694516420%2C2461325.0008007218129933%2C2462668.2716340804472566%2C2469806.5007891654968262%27",
+      "header": "*******************************************************************************\n Revised: April 12, 2021                Venus                           299 / 2\n \n PHYSICAL DATA (updated 2020-Oct-19):\n  Vol. Mean Radius (km) =  6051.84+-0.01 Density (g/cm^3)      =  5.204\n  Mass x10^23 (kg)      =    48.685      Volume (x10^10 km^3)  = 92.843\n  Sidereal rot. period  =   243.018484 d Sid. Rot. Rate (rad/s)= -0.00000029924\n  Mean solar day        =   116.7490 d   Equ. gravity  m/s^2   =  8.870\n  Mom. of Inertia       =     0.33       Core radius (km)      = ~3200\n  Geometric Albedo      =     0.65       Potential Love # k2   = ~0.25\n  GM (km^3/s^2)         = 324858.592     Equatorial Radius, Re = 6051.893 km\n  GM 1-sigma (km^3/s^2) =    +-0.006     Mass ratio (Sun/Venus)= 408523.72\n  Atmos. pressure (bar) =  90            Max. angular diam.    =   60.2\"\n  Mean Temperature (K)  = 735            Visual mag. V(1,0)    =   -4.40\n  Obliquity to orbit    = 177.3 deg      Hill's sphere rad.,Rp =  167.1\n  Sidereal orb. per., y =   0.61519726   Orbit speed, km/s     =   35.021\n  Sidereal orb. per., d = 224.70079922   Escape speed, km/s    =   10.361\n                                 Perihelion  Aphelion    Mean\n  Solar Constant (W/m^2)         2759         2614       2650\n  Maximum Planetary IR (W/m^2)    153         153         153\n  Minimum Planetary IR (W/m^2)    153         153         153\n*******************************************************************************\n\n\n*******************************************************************************\nEphemeris / API_USER Tue Nov 10 17:27:42 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Venus (299)                     {source: DE441}\nCenter body name: Solar System Barycenter (0)     {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1995-Jan-01 00:01:01.1839 TDB\nStop  time      : A.D. 2049-Dec-31 00:01:08.1839 TDB\nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : (undefined)\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nReference frame : ICRF\n*******************************************************************************\n            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n",
+      "local_model": "DE442",
+      "horizons_model": "DE441",
+      "comparison_kind": "cross_model_difference",
+      "response": "output/is6-planet-catalog-horizons-20261110b/299-relative-0.json",
+      "response_sha256": "9e48fe3266e2610db676f505ce0b99645102d7d773d12dd4c5269c8be02f2739",
+      "cases": [
+        {
+          "utc": "1995-01-01T00:00:00",
+          "jd_tdb": 2449718.500708147,
+          "position_difference_m": 186.5078335762469,
+          "velocity_difference_m_s": 1.0712300131139983e-06,
+          "passed": false
+        },
+        {
+          "utc": "2000-01-01T12:00:00",
+          "jd_tdb": 2451545.000742869,
+          "position_difference_m": 184.21096599118746,
+          "velocity_difference_m_s": 1.2792990597442513e-06,
+          "passed": false
+        },
+        {
+          "utc": "2026-10-11T12:00:00",
+          "jd_tdb": 2461325.000800722,
+          "position_difference_m": 162.41658856305258,
+          "velocity_difference_m_s": 3.6375264407617648e-06,
+          "passed": false
+        },
+        {
+          "utc": "2030-06-15T18:30:00",
+          "jd_tdb": 2462668.27163408,
+          "position_difference_m": 161.12020888719644,
+          "velocity_difference_m_s": 4.276705985670424e-06,
+          "passed": false
+        },
+        {
+          "utc": "2049-12-30T23:59:59",
+          "jd_tdb": 2469806.500789165,
+          "position_difference_m": 210.50911294762108,
+          "velocity_difference_m_s": 5.969434672983547e-06,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "target": "499",
+      "center": "4",
+      "query": {
+        "format": "json",
+        "COMMAND": "'499'",
+        "OBJ_DATA": "'YES'",
+        "MAKE_EPHEM": "'YES'",
+        "EPHEM_TYPE": "'VECTORS'",
+        "CENTER": "'500@4'",
+        "REF_PLANE": "'FRAME'",
+        "REF_SYSTEM": "'ICRF'",
+        "VEC_CORR": "'NONE'",
+        "OUT_UNITS": "'KM-S'",
+        "VEC_TABLE": "'2'",
+        "CSV_FORMAT": "'YES'",
+        "TIME_TYPE": "'TDB'",
+        "TIME_DIGITS": "'FRACSEC'",
+        "TLIST_TYPE": "'JD'",
+        "TLIST": "'2449718.5007081474177539,2451545.0007428694516420,2461325.0008007218129933,2462668.2716340804472566,2469806.5007891654968262'"
+      },
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27499%27&OBJ_DATA=%27YES%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%404%27&REF_PLANE=%27FRAME%27&REF_SYSTEM=%27ICRF%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&VEC_TABLE=%272%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&TIME_DIGITS=%27FRACSEC%27&TLIST_TYPE=%27JD%27&TLIST=%272449718.5007081474177539%2C2451545.0007428694516420%2C2461325.0008007218129933%2C2462668.2716340804472566%2C2469806.5007891654968262%27",
+      "header": "*******************************************************************************\n Revised: June 02, 2025                 Mars                            499 / 4\n \n PHYSICAL DATA (updated 2025-Jun-02):\n  Vol. mean radius (km) = 3389.92+-0.04   Density (g/cm^3)      =  3.933(5+-4)\n  Mass x10^23 (kg)      =    6.4171       Flattening, f         =  1/169.779\n  Volume (x10^10 km^3)  =   16.318        Equatorial radius (km)=  3396.19\n  Sidereal rot. period  =   24.622962 hr  Sid. rot. rate, rad/s =  0.0000708822 \n  Mean solar day (sol)  =   88775.24415 s Polar gravity m/s^2   =  3.758\n  Core radius (km)      = ~1700           Equ. gravity  m/s^2   =  3.71\n  Geometric Albedo      =    0.150                                              \n\n  GM (km^3/s^2)         = 42828.375662    Mass ratio (Sun/Mars) = 3098703.59\n  GM 1-sigma (km^3/s^2) = +- 0.00028      Mass of atmosphere, kg= ~ 2.5 x 10^16\n  Mean temperature (K)  =  210            Atmos. pressure (bar) =    0.0056 \n  Obliquity to orbit    =   25.19 deg     Max. angular diam.    =  17.9\"\n  Mean sidereal orb per =    1.88081578 y Visual mag. V(1,0)    =  -1.52\n  Mean sidereal orb per =  686.98 d       Orbital speed,  km/s  =  24.13\n  Hill's sphere rad. Rp =  319.8          Escape speed, km/s    =   5.027\n                                 Perihelion  Aphelion    Mean\n  Solar Constant (W/m^2)         717         493         589\n  Maximum Planetary IR (W/m^2)   470         315         390\n  Minimum Planetary IR (W/m^2)    30          30          30\n*******************************************************************************\n\n\n*******************************************************************************\nEphemeris / API_USER Tue Nov 10 17:27:42 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Mars (499)                      {source: mar099}\nCenter body name: Mars Barycenter (4)             {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1995-Jan-01 00:01:01.1839 TDB\nStop  time      : A.D. 2049-Dec-31 00:01:08.1839 TDB\nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : (undefined)\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nReference frame : ICRF\n*******************************************************************************\n            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n",
+      "local_model": "MAR099",
+      "horizons_model": "mar099",
+      "comparison_kind": "same_model_agreement",
+      "response": "output/is6-planet-catalog-horizons-20261110b/499-relative-4.json",
+      "response_sha256": "6008b96d74e0578357edbf7a9d36851802c6c4d6474d8a01135be3b0dffc8be0",
+      "cases": [
+        {
+          "utc": "1995-01-01T00:00:00",
+          "jd_tdb": 2449718.500708147,
+          "position_difference_m": 1.3270733045915322e-09,
+          "velocity_difference_m_s": 3.1341216257081337e-13,
+          "passed": true
+        },
+        {
+          "utc": "2000-01-01T12:00:00",
+          "jd_tdb": 2451545.000742869,
+          "position_difference_m": 1.4931680736353502e-09,
+          "velocity_difference_m_s": 3.178657299708623e-13,
+          "passed": true
+        },
+        {
+          "utc": "2026-10-11T12:00:00",
+          "jd_tdb": 2461325.000800722,
+          "position_difference_m": 2.710505431213761e-17,
+          "velocity_difference_m_s": 3.3087224502121107e-21,
+          "passed": true
+        },
+        {
+          "utc": "2030-06-15T18:30:00",
+          "jd_tdb": 2462668.27163408,
+          "position_difference_m": 1.5592877703266825e-09,
+          "velocity_difference_m_s": 3.4072097256487534e-13,
+          "passed": true
+        },
+        {
+          "utc": "2049-12-30T23:59:59",
+          "jd_tdb": 2469806.500789165,
+          "position_difference_m": 1.5034849810526069e-09,
+          "velocity_difference_m_s": 3.1508677287060136e-13,
+          "passed": true
+        }
+      ],
+      "comparison_kernel": {
+        "path": "output/is6-planet-catalog-acquisition-20261110a/mar099s.bsp",
+        "sha256": "997dc93ba640e476da7a494d2237dcdeb145e528db37be8ccee588c615e4e1ff"
+      }
+    },
+    {
+      "target": "799",
+      "center": "7",
+      "query": {
+        "format": "json",
+        "COMMAND": "'799'",
+        "OBJ_DATA": "'YES'",
+        "MAKE_EPHEM": "'YES'",
+        "EPHEM_TYPE": "'VECTORS'",
+        "CENTER": "'500@7'",
+        "REF_PLANE": "'FRAME'",
+        "REF_SYSTEM": "'ICRF'",
+        "VEC_CORR": "'NONE'",
+        "OUT_UNITS": "'KM-S'",
+        "VEC_TABLE": "'2'",
+        "CSV_FORMAT": "'YES'",
+        "TIME_TYPE": "'TDB'",
+        "TIME_DIGITS": "'FRACSEC'",
+        "TLIST_TYPE": "'JD'",
+        "TLIST": "'2449718.5007081474177539,2451545.0007428694516420,2461325.0008007218129933,2462668.2716340804472566,2469806.5007891654968262'"
+      },
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27799%27&OBJ_DATA=%27YES%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%407%27&REF_PLANE=%27FRAME%27&REF_SYSTEM=%27ICRF%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&VEC_TABLE=%272%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&TIME_DIGITS=%27FRACSEC%27&TLIST_TYPE=%27JD%27&TLIST=%272449718.5007081474177539%2C2451545.0007428694516420%2C2461325.0008007218129933%2C2462668.2716340804472566%2C2469806.5007891654968262%27",
+      "header": "*******************************************************************************\n Revised: September 25, 2025           Uranus                               799\n \n PHYSICAL DATA:\n  Mass x10^24 (kg)      = 86.813          Density (g/cm^3)       =  1.271\n  Equat. radius (1 bar) = 25559+-4 km     Polar radius (km)      = 24973+-20\n  Vol. Mean Radius (km) = 25362+-12       Flattening             =  0.02293\n  Geometric Albedo      = 0.51\n  Sid. rot. period (III)= 17.24+-0.01 h   Sid. rot. rate (rad/s) = -0.000101237\n  Mean solar day, h     =~17.24           Rocky core mass (Mc/M) =  0.0012        \n  GM (km^3/s^2)         = 5793950.6103    GM 1-sigma (km^3/s^2)  = +-4.3 \n  Equ. grav, ge (m/s^2) =  8.87           Pol. grav, gp (m/s^2)  =   9.19+-0.02\n  Visual magnitude V(1,0)= -7.11\n  Vis. mag. (opposition)=  +5.52          Obliquity to orbit     = 97.77 deg\n  Sidereal orbit period = 84.0120465 y    Sidereal orbit period  = 30685.4 d\n  Mean daily motion     = 0.01176904 dg/d Mean orbit velocity    =  6.8 km/s\n  Atmos. temp. (1 bar)  =  76+-2 K        Escape speed, km/s     =  21.3           \n  Aroche(ice)/Rp        =  2.20           Hill's sphere rad., Rp = 2700\n                                 Perihelion   Aphelion    Mean\n  Solar Constant (W/m^2)         4.09         3.39        3.71\n  Maximum Planetary IR (W/m^2)   0.72         0.55        0.63\n  Minimum Planetary IR (W/m^2)   0.72         0.55        0.63\n*******************************************************************************\n\n\n*******************************************************************************\nEphemeris / API_USER Tue Nov 10 17:30:15 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Uranus (799)                    {source: ura184_merged}\nCenter body name: Uranus Barycenter (7)           {source: ura184_merged}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1995-Jan-01 00:01:01.1839 TDB\nStop  time      : A.D. 2049-Dec-31 00:01:08.1839 TDB\nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : (undefined)\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nReference frame : ICRF\n*******************************************************************************\n            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n",
+      "local_model": "URA182",
+      "horizons_model": "ura184_merged",
+      "comparison_kind": "cross_model_difference",
+      "response": "output/is6-planet-catalog-horizons-20261110b/799-relative-7.json",
+      "response_sha256": "775553be03a0f72f266c1371844a9eeaee48a98c07e5b207a6177044fcb43da9",
+      "cases": [
+        {
+          "utc": "1995-01-01T00:00:00",
+          "jd_tdb": 2449718.500708147,
+          "position_difference_m": 8.648485116221055e-06,
+          "velocity_difference_m_s": 1.6875194799884208e-10,
+          "passed": true
+        },
+        {
+          "utc": "2000-01-01T12:00:00",
+          "jd_tdb": 2451545.000742869,
+          "position_difference_m": 1.0338119984761623e-05,
+          "velocity_difference_m_s": 1.4886538581677565e-10,
+          "passed": true
+        },
+        {
+          "utc": "2026-10-11T12:00:00",
+          "jd_tdb": 2461325.000800722,
+          "position_difference_m": 0.0,
+          "velocity_difference_m_s": 2.7315991768260556e-17,
+          "passed": true
+        },
+        {
+          "utc": "2030-06-15T18:30:00",
+          "jd_tdb": 2462668.27163408,
+          "position_difference_m": 1.2899877778053013e-06,
+          "velocity_difference_m_s": 7.168588741807931e-11,
+          "passed": true
+        },
+        {
+          "utc": "2049-12-30T23:59:59",
+          "jd_tdb": 2469806.500789165,
+          "position_difference_m": 1.2719084259733857e-05,
+          "velocity_difference_m_s": 1.1869107551802177e-10,
+          "passed": true
+        }
+      ],
+      "comparison_kernel": {
+        "path": "output/is6-planet-catalog-acquisition-20261110a/ura182.bsp",
+        "sha256": "fd3275d760a8d7e9a7d58c1894196495fb41967d2507d0a986666a927fe88706"
+      }
+    },
+    {
+      "target": "899",
+      "center": "8",
+      "query": {
+        "format": "json",
+        "COMMAND": "'899'",
+        "OBJ_DATA": "'YES'",
+        "MAKE_EPHEM": "'YES'",
+        "EPHEM_TYPE": "'VECTORS'",
+        "CENTER": "'500@8'",
+        "REF_PLANE": "'FRAME'",
+        "REF_SYSTEM": "'ICRF'",
+        "VEC_CORR": "'NONE'",
+        "OUT_UNITS": "'KM-S'",
+        "VEC_TABLE": "'2'",
+        "CSV_FORMAT": "'YES'",
+        "TIME_TYPE": "'TDB'",
+        "TIME_DIGITS": "'FRACSEC'",
+        "TLIST_TYPE": "'JD'",
+        "TLIST": "'2449718.5007081474177539,2451545.0007428694516420,2461325.0008007218129933,2462668.2716340804472566,2469806.5007891654968262'"
+      },
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27899%27&OBJ_DATA=%27YES%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%408%27&REF_PLANE=%27FRAME%27&REF_SYSTEM=%27ICRF%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&VEC_TABLE=%272%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&TIME_DIGITS=%27FRACSEC%27&TLIST_TYPE=%27JD%27&TLIST=%272449718.5007081474177539%2C2451545.0007428694516420%2C2461325.0008007218129933%2C2462668.2716340804472566%2C2469806.5007891654968262%27",
+      "header": "*******************************************************************************\n Revised: July 08, 2026               Neptune                               899\n \n PHYSICAL DATA:\n  Mass x10^24 (kg)      = 102.409         Density (g/cm^3)       =  1.638\n  Equat. radius (1 bar) = 24766+-15 km    Volume, 10^10 km^3     = 6254     \n  Vol. mean radius (km) = 24624+-21       Polar radius (km)      = 24342+-30\n  Geometric Albedo      = 0.41            Flattening             =  0.0171\n  Sid. rot. period (III)= 16.11+-0.01 hr  Sid. rot. rate (rad/s) =  0.000108338 \n  Mean solar day, h     =~16.11 h         \n  GM (km^3/s^2)         = 6835099.97      GM 1-sigma (km^3/s^2)  = +-10 \n  Equ. grav, ge (m/s^2) = 11.15           Pol. grav, gp (m/s^2)  = 11.41+-0.03\n  Visual magnitude V(1,0)= -6.87\n  Vis. mag. (opposition)=  +7.84          Obliquity to orbit     = 28.32 deg\n  Sidereal orbit period = 164.788501027 y Sidereal orbit period  = 60189 d\n  Mean daily motion     = 0.006020076dg/d Mean orbit velocity    =  5.43 km/s \n  Atmos. temp. (1 bar)  =  72+-2 K        Escape speed (1 bar)  =  23.5 km/s     \n  Aroche(ice)/Rp        =  2.98           Hill's sphere rad., Rp = 4700\n                                 Perihelion  Aphelion    Mean\n  Solar Constant (W/m^2)         1.54        1.49        1.51\n  Maximum Planetary IR (W/m^2)   0.52        0.52        0.52\n  Minimum Planetary IR (W/m^2)   0.52        0.52        0.52\n*******************************************************************************\n\n\n*******************************************************************************\nEphemeris / API_USER Tue Nov 10 17:30:17 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Neptune (899)                   {source: nep098_merged}\nCenter body name: Neptune Barycenter (8)          {source: nep098_merged}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1995-Jan-01 00:01:01.1839 TDB\nStop  time      : A.D. 2049-Dec-31 00:01:08.1839 TDB\nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : (undefined)\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nReference frame : ICRF\n*******************************************************************************\n            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n",
+      "local_model": "NEP097",
+      "horizons_model": "nep098_merged",
+      "comparison_kind": "cross_model_difference",
+      "response": "output/is6-planet-catalog-horizons-20261110b/899-relative-8.json",
+      "response_sha256": "6658f9abacbf1df103f6eb58af54aace2ce4245d186ee5715bfd5a13a848c5f6",
+      "cases": [
+        {
+          "utc": "1995-01-01T00:00:00",
+          "jd_tdb": 2449718.500708147,
+          "position_difference_m": 24.751537443815636,
+          "velocity_difference_m_s": 0.0001778734215000667,
+          "passed": false
+        },
+        {
+          "utc": "2000-01-01T12:00:00",
+          "jd_tdb": 2451545.000742869,
+          "position_difference_m": 50.973354424927756,
+          "velocity_difference_m_s": 0.0036247580034566686,
+          "passed": false
+        },
+        {
+          "utc": "2026-10-11T12:00:00",
+          "jd_tdb": 2461325.000800722,
+          "position_difference_m": 89.37825806341075,
+          "velocity_difference_m_s": 0.006641348116179515,
+          "passed": false
+        },
+        {
+          "utc": "2030-06-15T18:30:00",
+          "jd_tdb": 2462668.27163408,
+          "position_difference_m": 241.78119738297156,
+          "velocity_difference_m_s": 0.0019844286447012337,
+          "passed": false
+        },
+        {
+          "utc": "2049-12-30T23:59:59",
+          "jd_tdb": 2469806.500789165,
+          "position_difference_m": 45.86293856517438,
+          "velocity_difference_m_s": 0.0007206452098563874,
+          "passed": false
+        }
+      ],
+      "comparison_kernel": {
+        "path": "output/is6-planet-catalog-acquisition-20261110a/nep097.bsp",
+        "sha256": "5c1132fdc48c54e5d2e4eb663e1ed1a876911eae9433c203f29a5a1b5e1fa9b1"
+      }
+    }
+  ],
+  "script_sha256": "5b1ac4b2ee617817a2119f1d6e649d6af19deef06e46431a932bcbec3f0bbf04",
+  "catalogue_sha256": "8543d08ed528bdfbe40943ba046bd70235444f74ccd455c503fab8c6505798db",
+  "data_sha256": "fd040559c9e35ccb7a5a154241a20e6a912968284bef8db44f3a0182c1fb13c2",
+  "position_limit_m": 1.0,
+  "velocity_limit_m_s": 1e-05,
+  "scope": "Same-model service agreement and separately recorded cross-model differences",
+  "timestamp_basis": "Printed Horizons JD converted to ET, evaluated in full original source coverage",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-is6-planet-catalog-horizons-v2.py\", line 116, in main\n    assert {q['target'] for q in compatible} == {'499', '799', '899'}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

@@ -1,0 +1,2804 @@
+{
+  "accepted": true,
+  "completed": true,
+  "session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 11944,
+    "server": 31424,
+    "launcher": 7624,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-expanded-journey-product0.27.0\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-expanded-journey-product0.27.0\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-ExpandedJourney-0.27.0-unpromoted",
+    "solarInitialFormat": "solar_sixteen_physical_centers/0.1.0",
+    "started": "2026-11-13T12:16:18Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-expanded-journey-candidate.py",
+    "is6PlanetCatalogCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "is6ExpandedJourneyCandidate": true
+  },
+  "source_sha256": {
+    "output/is6-expanded-journey-product0.27.0/app/artifacts.py": "d01d6048c15756cdd373a60217ed5650dc8fb38536f936f5eff7ea3695347775",
+    "output/is6-expanded-journey-product0.27.0/app/atlas.py": "218fac6e9aad5aa71bf589ea86b8ef6af91fb1e8d56af0402972cada2d60f1c2",
+    "output/is6-expanded-journey-product0.27.0/app/atlas_import.py": "5cd4e78d7976b292ceb0ed637d7a255687abb16e7d907313e11c9e42c719b6cf",
+    "output/is6-expanded-journey-product0.27.0/app/atlas_properties.py": "c7748a866e5be67326e776a8b0805cb8b80fc1fff8b8566f7b095bb97963a900",
+    "output/is6-expanded-journey-product0.27.0/app/binary_gravity.py": "cf5a4c3f29141fb64fc1c20ad1e53375ea465765c9f403e600adae6bbcd41936",
+    "output/is6-expanded-journey-product0.27.0/app/body_attributes.py": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649",
+    "output/is6-expanded-journey-product0.27.0/app/body_field_geometry.py": "17a257fe18708f640e3f79e43dac6d78c498dd2844a4633757498ebabfe1afc4",
+    "output/is6-expanded-journey-product0.27.0/app/body_field_layer.py": "a56118896a743d904312f8bfe466bdc98c19675694e3a17ef7a07ee0df8de3a2",
+    "output/is6-expanded-journey-product0.27.0/app/body_field_lines.py": "ddd0e266f6cc96a4cba64db773a3b801ed5e8ca8cd9b07b88efd92088c93f8f3",
+    "output/is6-expanded-journey-product0.27.0/app/body_field_maps.py": "8988d3c437b88c2a6c0db5210dd8710c5ccc7e35b8e2be9b693fe57216e8630f",
+    "output/is6-expanded-journey-product0.27.0/app/body_field_map_geometry.py": "cfa807924eed8c8a06e1ee25f8eb8a759ce37b900bffe7e7a3f58fc619c560bd",
+    "output/is6-expanded-journey-product0.27.0/app/body_field_map_layer.py": "17640635bf80047d537df0be650871d463b5802fb4818a3020210aadcfb7b154",
+    "output/is6-expanded-journey-product0.27.0/app/body_field_points.py": "d054c5c72ef76cabe5cacfc6b78cb67f5b51387a60e2152ee3107127fbe8f169",
+    "output/is6-expanded-journey-product0.27.0/app/body_field_scene.py": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805",
+    "output/is6-expanded-journey-product0.27.0/app/body_field_view.py": "274a3916769331b4518c0aa543acc00fe5f0531b380e76473fbfc101ebdd6933",
+    "output/is6-expanded-journey-product0.27.0/app/body_registry.py": "e763b3340338d94d5c1288e49951ed8f0b64c8fb50c95494093ca98afadb014d",
+    "output/is6-expanded-journey-product0.27.0/app/branch_store.py": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4",
+    "output/is6-expanded-journey-product0.27.0/app/cloud_bridge.py": "cfa4b8b7bda7ad44bdb8ed27b024a4a52a3c7bf8381a23f98f5a83a695a7ef9c",
+    "output/is6-expanded-journey-product0.27.0/app/cloud_driver.py": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb",
+    "output/is6-expanded-journey-product0.27.0/app/cloud_scene.py": "f372b7542e05ca19500482401f98b5cb0f566203994482400eb451acd0235b3f",
+    "output/is6-expanded-journey-product0.27.0/app/cloud_transport.py": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690",
+    "output/is6-expanded-journey-product0.27.0/app/cno.py": "1ffe541ea8b182154dad3359960d2e5ad80c8a9b40477fb6061659759a4f56b7",
+    "output/is6-expanded-journey-product0.27.0/app/constants.json": "642b0cf9f09d72408b7bfc2e0a256b681a85ba0afc4ff251555f0d31facec0da",
+    "output/is6-expanded-journey-product0.27.0/app/decays.py": "cfaad568c3f8493f6ec9a8da3fa69ab83c1188f278939fd30701c9457f550c21",
+    "output/is6-expanded-journey-product0.27.0/app/dipole.py": "df2149713070beb150d3da755e2118efd2238b84fee097d157e124f3bac0b231",
+    "output/is6-expanded-journey-product0.27.0/app/dynamics16_runtime.py": "e3d8738bcf00424bbad29b48840145f88f890897ee2a8e76a421476fb2554d90",
+    "output/is6-expanded-journey-product0.27.0/app/earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+    "output/is6-expanded-journey-product0.27.0/app/equilibrium_tide.py": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06",
+    "output/is6-expanded-journey-product0.27.0/app/field_geometry.py": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55",
+    "output/is6-expanded-journey-product0.27.0/app/field_layers.py": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349",
+    "output/is6-expanded-journey-product0.27.0/app/field_scene.py": "f055b600cd015733e72414692902f171dcd275343923f6b361eb0d0659afac27",
+    "output/is6-expanded-journey-product0.27.0/app/field_sections.py": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e",
+    "output/is6-expanded-journey-product0.27.0/app/forces.py": "8a5696fd943c2327fee7a71788d8bcf6e8cfc5a1396cc656595dfede375a8c30",
+    "output/is6-expanded-journey-product0.27.0/app/fusion.py": "c44fcae2f1ee24dcc2b7c762898c5832df70986df655e5abd1165eb46df5070d",
+    "output/is6-expanded-journey-product0.27.0/app/geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+    "output/is6-expanded-journey-product0.27.0/app/gravity_experiments.py": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474",
+    "output/is6-expanded-journey-product0.27.0/app/gravity_field.py": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5",
+    "output/is6-expanded-journey-product0.27.0/app/gravity_harmonics.py": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae",
+    "output/is6-expanded-journey-product0.27.0/app/gravity_instruments.py": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7",
+    "output/is6-expanded-journey-product0.27.0/app/import_dispatch.py": "16a9e09ab1ee63faec8033064be6bbea9af7859fc8e145b32f505d1b43c6cdd3",
+    "output/is6-expanded-journey-product0.27.0/app/instrument_history.py": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3",
+    "output/is6-expanded-journey-product0.27.0/app/instrument_scene.py": "3f5450ba5c78987c8f0d504e437e46a0c15ac36c1d8967fc988e53b4d130638b",
+    "output/is6-expanded-journey-product0.27.0/app/is4_body_snapshot.py": "43338578a784579b19cc032888ac8fb516322b5bebf0fd9c4346e2375ee1e1d0",
+    "output/is6-expanded-journey-product0.27.0/app/is4_client.py": "4dba32d86ffa0d98e1576d756c7b58b8bda7edc0e0ee6bd1f42b2b0540b0b24f",
+    "output/is6-expanded-journey-product0.27.0/app/is4_domains.py": "aee58f0313741fec29b65d55d2bead0343976e20e4aef27bc5eaf93ca46751f0",
+    "output/is6-expanded-journey-product0.27.0/app/is4_experiment.py": "5905195365284b5f83294b5c7e416870cc852f3b33585deb6dcaf13f5291ffd5",
+    "output/is6-expanded-journey-product0.27.0/app/is4_laboratory.py": "659789a013cc08b412de67f2b9afa065924567dcf51cc2a1d03bbf8f377edc2d",
+    "output/is6-expanded-journey-product0.27.0/app/is4_particles.py": "0eebc49fae538ac9211024ba554fe33ab8ccf4eaa7850eb771345b07d663e56b",
+    "output/is6-expanded-journey-product0.27.0/app/is4_particle_scene.py": "912df8d5265079c4bb997af27b36849ca54aa63fe5047f2ecbea6ae53f68dd3a",
+    "output/is6-expanded-journey-product0.27.0/app/is4_product_store.py": "82885d6e7e211ea3342a6b738ed54d9badeb5382d786a2dcc52c5b4dd07429c6",
+    "output/is6-expanded-journey-product0.27.0/app/is4_stream_scene.py": "123ed9308fe42fbef7790004976d5be86df3ebceff22bf6b5258ab3a9c5dc712",
+    "output/is6-expanded-journey-product0.27.0/app/is4_trajectory_transport.py": "913c18d2bf2c84d998803fb078853fc385f6e5da009759076788981a33d39b72",
+    "output/is6-expanded-journey-product0.27.0/app/is4_values.py": "3f0c824510506a0a4e23e3b85cbda9aa5d642b67b7f13058faef623890bd155c",
+    "output/is6-expanded-journey-product0.27.0/app/is4_wind_diagnostics.py": "a1de7ae2b0ea389f59728799e7134c6759087b3dba802ec7630fc800beae7e1f",
+    "output/is6-expanded-journey-product0.27.0/app/is4_wind_field.py": "187a5946ef60e41e2b31de28464c43c6eb5e6327e15e37019316cb367d14b2d1",
+    "output/is6-expanded-journey-product0.27.0/app/is4_wind_reading.py": "e6854954aafe280b109689b7174e6bed20ba4a2cc7ef61bd8c9ae879e9d57628",
+    "output/is6-expanded-journey-product0.27.0/app/is4_wind_snapshot.py": "5e34940f911212757cf55e91ea5200e1be2d44150dbabd7fb03a28573ffb30ae",
+    "output/is6-expanded-journey-product0.27.0/app/is4_worker.py": "966d66d2a0b52e05790f521f653d3ec65b8a48c8ed763ed723cb092da5bcf51a",
+    "output/is6-expanded-journey-product0.27.0/app/is5_artifact.py": "85713e1ed1249af3a1577987e34734409cdee4b2c637564d307b13e202b1588e",
+    "output/is6-expanded-journey-product0.27.0/app/is5_client.py": "0b0a90356a31ab298862a11e31aad127b35a2fff11802a1c553c8ceac4f070cd",
+    "output/is6-expanded-journey-product0.27.0/app/is5_cno2_artifact.py": "61f66deddf6140e27bcc94993acd002ecb8773adf0512f4b5d81b27f9e2be0c7",
+    "output/is6-expanded-journey-product0.27.0/app/is5_cno2_client.py": "10843570c3d7a368e50bf6b1e017b2270bd375f89e72b85e4dc00aff7e5856e8",
+    "output/is6-expanded-journey-product0.27.0/app/is5_cno2_worker.py": "dbbc2a94119073742af707d8c3d5a323fd2f15e3d56247a8f61e27b31b743a7c",
+    "output/is6-expanded-journey-product0.27.0/app/is5_compression_artifact.py": "3950d2dbdf2f257af30f9c31447cedd800ba9061b209c19d62226727a419b517",
+    "output/is6-expanded-journey-product0.27.0/app/is5_compression_calculate.py": "bd0744851892fcec7d8c168111c29a1a8329d64d97ea6b53d1329805e17199ad",
+    "output/is6-expanded-journey-product0.27.0/app/is5_compression_client.py": "1c3776a824a64e68891cec758eb062fb25755f1ab65178cc9dfbcdc1cdd3a2e6",
+    "output/is6-expanded-journey-product0.27.0/app/is5_compression_process.py": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8",
+    "output/is6-expanded-journey-product0.27.0/app/is5_compression_worker.py": "d55fbf0e489284d974f6c944c7d2ea7e627e3058e8f61b78b2baef9cfabc548e",
+    "output/is6-expanded-journey-product0.27.0/app/is5_core.py": "d0f2e96496f902c3b9ccbfb859fecab77f41d9a9e74897dabccfafd9aa01dd29",
+    "output/is6-expanded-journey-product0.27.0/app/is5_coulomb_artifact.py": "ca921a0b2434143b67b3eccea82a864360a457d62362f04e3a5723a9b443cc5b",
+    "output/is6-expanded-journey-product0.27.0/app/is5_coulomb_calculate.py": "5c39b3c95c7a6cdd458e778092bb361a901f4a251e21f5fcb5fd4355186b2114",
+    "output/is6-expanded-journey-product0.27.0/app/is5_coulomb_client.py": "5761b775c5eb75e71cad3f5ec59d8ba0566ee7dc967fd4fb6b2e47f696914490",
+    "output/is6-expanded-journey-product0.27.0/app/is5_coulomb_process.py": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8",
+    "output/is6-expanded-journey-product0.27.0/app/is5_coulomb_worker.py": "6ee49110f005f4602d76d85b10da2e27696786190f4755b963b3854f2cc18f3e",
+    "output/is6-expanded-journey-product0.27.0/app/is5_laboratory.py": "be542ea69943e28f899aba8edee7d5443115823e939cbffca7f42aeb7318b5a2",
+    "output/is6-expanded-journey-product0.27.0/app/is5_pp2_artifact.py": "7ff6af08f000abda872ae005571a787794c15aec74d98a536deaf6a5888f48a1",
+    "output/is6-expanded-journey-product0.27.0/app/is5_pp2_client.py": "8134a47c22aff5f31ed1298513326142fdd1d6240ff0c49ec87a91999b74485e",
+    "output/is6-expanded-journey-product0.27.0/app/is5_pp2_worker.py": "881f58ca79b6077de2a10af1a490f763e0cc69e19090026d16bfeceac5f2f2bd",
+    "output/is6-expanded-journey-product0.27.0/app/is5_pp3_artifact.py": "4ecafa39037becfa676c6ec9156b8c7ff8e1abc77e04cd14c08113e2a4c857e0",
+    "output/is6-expanded-journey-product0.27.0/app/is5_pp3_client.py": "d60f2b9c6436c3ff5f9001e1b834659d043973000ea284dae04290c7f21789d0",
+    "output/is6-expanded-journey-product0.27.0/app/is5_pp3_worker.py": "b1915a1a2739207d28644d8a91b5eeac6dc207c99cafbbbbe06b2f0a5b930691",
+    "output/is6-expanded-journey-product0.27.0/app/is5_reference_browser.py": "63b77f1713e08e460ab82db3bf755092e874c3c836046351fdb9d67da406b746",
+    "output/is6-expanded-journey-product0.27.0/app/is5_reference_cno.py": "00d409e2b649e41c1f03d66edc6c744b7c2eff9132273b82408e4ca2b83dc41c",
+    "output/is6-expanded-journey-product0.27.0/app/is5_reference_manifest.py": "b11dfef5443e2e43531489dabb61302e55d976310dfe633534494504cb14a035",
+    "output/is6-expanded-journey-product0.27.0/app/is5_reference_pp.py": "9ac515e8c40b3b8bf23b548d7cc585c4b7b2ab2b55c6f25a02a249956921fd84",
+    "output/is6-expanded-journey-product0.27.0/app/is5_solar_source.py": "44114fd4f946a6ac91c62723899be497a1587412232ee30cfc3a0e26abc4ed02",
+    "output/is6-expanded-journey-product0.27.0/app/is5_thermal_artifact.py": "57a084cf52af93d69e9bf487b66c42c9f9432667fe9fc73d637ea90c348d160c",
+    "output/is6-expanded-journey-product0.27.0/app/is5_thermal_client.py": "ef5f36afc6c54a3f57c7fff244ea5d707818fb534ad8b7d5cf98cb02b146273a",
+    "output/is6-expanded-journey-product0.27.0/app/is5_thermal_worker.py": "6b5c138f20c690ffe88012dd1eebf1cfefde5d8b5831b41e351942366e959630",
+    "output/is6-expanded-journey-product0.27.0/app/is5_worker.py": "55bd92c7c45c946f43d89f649db5042c524742189254f3d214d9fffa21fd51ee",
+    "output/is6-expanded-journey-product0.27.0/app/is6_laboratory.py": "696d75341a301fd34a7fd6a54cf5a09e106defe701a54c4de5f9a66fa3420e2d",
+    "output/is6-expanded-journey-product0.27.0/app/is6_layers_checkpoint_v2.py": "8d05595b50b47971c7f953109baf0d8dc9a7016602d9140434c0966f26db25ab",
+    "output/is6-expanded-journey-product0.27.0/app/is6_layers_import_store_v2.py": "4e13e0f4c4e12ddb40cf108797f103f50dc5589a7cf247c10e9ecf0f1e74ccea",
+    "output/is6-expanded-journey-product0.27.0/app/is6_layers_laboratory.py": "6d1ff837e0a45842c290be70bc3069029825de1a3fe25f47e6065e638d460527",
+    "output/is6-expanded-journey-product0.27.0/app/is6_layers_migration.py": "e510751b7a79ccb1e7a73c3e5ef53bfa114dd91d8e128d9f884ca1b29f396a4d",
+    "output/is6-expanded-journey-product0.27.0/app/is6_layers_saved_scene.py": "2f682d1db0349905f391de69efef3d1b9b20cd5621d13b3ed284ab793b8a195a",
+    "output/is6-expanded-journey-product0.27.0/app/is6_layers_scene.py": "dec60d7ac7bd33cd8f4435e5915d6590357f0bcb517c752cfdf39eed0165712a",
+    "output/is6-expanded-journey-product0.27.0/app/is6_layers_store.py": "44cfd158824b5d545e8f1d5ea1823d086119745946a3be69c3f0bf526a9ee631",
+    "output/is6-expanded-journey-product0.27.0/app/is6_layer_contract.py": "f721b43a55a5e4dd2bfedce262bba85ce099573cc039736a62b677cb9b5f1ce2",
+    "output/is6-expanded-journey-product0.27.0/app/is6_planet_catalog.py": "8543d08ed528bdfbe40943ba046bd70235444f74ccd455c503fab8c6505798db",
+    "output/is6-expanded-journey-product0.27.0/app/is6_planet_catalog_v2.py": "9fa3ebef663402dc076daacdbe0249a13e684fe76ad8cf3f98b2842471a38aca",
+    "output/is6-expanded-journey-product0.27.0/app/is6_principal_moons_catalog.py": "de3c37996011f197bd92210bc4ee3a15daf8833ece471043ed00eb6238083c93",
+    "output/is6-expanded-journey-product0.27.0/app/is6_product_scene.py": "9facb179adad2699c198821d3e4f936b4241deb4bcf650d86b73593e528e25e6",
+    "output/is6-expanded-journey-product0.27.0/app/is6_spatial_import.py": "632ec6a3221df0dca3f7c22acabccf0b51209852347156611d7a51ac5b886086",
+    "output/is6-expanded-journey-product0.27.0/app/is6_spatial_import_laboratory.py": "5a68f68a5da56d057cd7632dfce495de67e47b157a2df4bc16121dc54b619dea",
+    "output/is6-expanded-journey-product0.27.0/app/is6_spatial_import_scene.py": "5fd201379a07028ac03b5692e406221aa8996a151fee96fa42bf11876acb20c1",
+    "output/is6-expanded-journey-product0.27.0/app/is6_spatial_import_store.py": "91aa6b9855db546e8fe408d3bdba907d63ff5b5fb9fd0ec3755eb6907170cefe",
+    "output/is6-expanded-journey-product0.27.0/app/j2_field.py": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7",
+    "output/is6-expanded-journey-product0.27.0/app/jrm33-coefficients.json": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+    "output/is6-expanded-journey-product0.27.0/app/jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28",
+    "output/is6-expanded-journey-product0.27.0/app/jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+    "output/is6-expanded-journey-product0.27.0/app/laboratory.py": "886fd556413bd24689e785a768c8ab5efbe621a9f84d80fd155fa59c85fcc711",
+    "output/is6-expanded-journey-product0.27.0/app/material_driver.py": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9",
+    "output/is6-expanded-journey-product0.27.0/app/material_tides.py": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb",
+    "output/is6-expanded-journey-product0.27.0/app/moon_atlas.py": "1d4a93597d2925977656a27d63f43885966cabd81d1678fe02c78d37502884e7",
+    "output/is6-expanded-journey-product0.27.0/app/moon_navigation.py": "810cfd68d5c4c621873e4316d1824a3c2b0213d8270da1f002e4cd8c6e065ae2",
+    "output/is6-expanded-journey-product0.27.0/app/navigation.py": "fefa696249d460e5b966a436eb68bc6007f48a7496d5ee3622b24e402865ae51",
+    "output/is6-expanded-journey-product0.27.0/app/nuclear_energies.py": "5b850fedba33905c6e7ba3ba5b05d40704285eeea00f0db077c30341eeac2d5c",
+    "output/is6-expanded-journey-product0.27.0/app/nuclei.py": "10ad5c228582bb6c59384ec05dd7533584afcdd50d9d316e8f47d322aa94ac3e",
+    "output/is6-expanded-journey-product0.27.0/app/orbital_diagnostics.py": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59",
+    "output/is6-expanded-journey-product0.27.0/app/orbital_instruments.py": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5",
+    "output/is6-expanded-journey-product0.27.0/app/orbit_scene.py": "f382a770e4de1a575cf882d281ae7591f10727ff7bb225bf748729ba37d3de9d",
+    "output/is6-expanded-journey-product0.27.0/app/packages.py": "289267c353687f0ba5c6df53dedae90a084264e3669e7d3314784f54ed9e87aa",
+    "output/is6-expanded-journey-product0.27.0/app/physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+    "output/is6-expanded-journey-product0.27.0/app/planet_atlas.py": "65f764fe663165c8efa84d66edc1c30fd13ce1a759dff6c6f5a1efae1dcb458a",
+    "output/is6-expanded-journey-product0.27.0/app/planet_navigation.py": "00797d36ca7cbda9874692e8d2a1ac08ba80e99922cd91f1e7e55cec7623a899",
+    "output/is6-expanded-journey-product0.27.0/app/planet_scene.json": "988dabae2a6053750eea096a20bd5c4bd99401f1229545e32bad38b5d0c00d1c",
+    "output/is6-expanded-journey-product0.27.0/app/probe_comparison.py": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb",
+    "output/is6-expanded-journey-product0.27.0/app/reference-manifest.json": "5ee84d0068e4a4877cb9a897a032812d541de1c8ec16582e8197307baf39af19",
+    "output/is6-expanded-journey-product0.27.0/app/relativity.py": "50637a4e9c02e2c70341423eb4ec1fcb8dd6bc4cbb719baff6061bcae12373bf",
+    "output/is6-expanded-journey-product0.27.0/app/resonant_angles.py": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0",
+    "output/is6-expanded-journey-product0.27.0/app/science_contracts.py": "2b46b66b1f5f589b4e14c6a5adb24e741c39b4cee8f2c1e9f669c2fe9e9a5e91",
+    "output/is6-expanded-journey-product0.27.0/app/server.py": "f1a2dd9e796639e1479719924eaa444d896e6bf8fb9c556b4f003eb6bcff16d8",
+    "output/is6-expanded-journey-product0.27.0/app/session.py": "f842e6c55d838b4b091d38761101127a2f8b40f2c08f4476fa72af9624ea5f52",
+    "output/is6-expanded-journey-product0.27.0/app/solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+    "output/is6-expanded-journey-product0.27.0/app/solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+    "output/is6-expanded-journey-product0.27.0/app/solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+    "output/is6-expanded-journey-product0.27.0/app/solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+    "output/is6-expanded-journey-product0.27.0/app/stellar.py": "c5e4ce10987fb6935785cbf0d44967a28df6e5a7d4c3a0d138866f8a51b8f166",
+    "output/is6-expanded-journey-product0.27.0/app/system16_frames.py": "2bd6d6e8545b5e9231c9c7e608ceacd46386ef75ef6b9185a6cd206d835f19d6",
+    "output/is6-expanded-journey-product0.27.0/app/system16_import.py": "5c396785955b0d3500d5c99d99c994c8d3c2ddff1020bd870753f4afdfda4421",
+    "output/is6-expanded-journey-product0.27.0/app/test_cloud.py": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826",
+    "output/is6-expanded-journey-product0.27.0/app/worker.py": "e992347907ab68eb981712db379a7a99de1eb3bb67e29af2876c457e511abe66",
+    "output/is6-expanded-journey-product0.27.0/app/references/AAG21.json": "d0df2fb698f3cd1bcded07fd0238d84fb91deee632152d50af9af361d9bf8fad",
+    "output/is6-expanded-journey-product0.27.0/app/references/AGSS09-ideal-EOS-Age1.json": "5ffa4972b0e52fbf56796f710c9d7ed99d19b162eb1db5a2501c54b97c6aa142",
+    "output/is6-expanded-journey-product0.27.0/app/references/AGSS09.json": "27249fde184ba8f5fbbeebfd944be33afbad1beedf77eb648144012c28c2deae",
+    "output/is6-expanded-journey-product0.27.0/app/references/B23-metadata-original.json": "bff47fd4295c07c1da0a255beadd61a049a88aaa6e21b9b5a6ee74212abed15f",
+    "output/is6-expanded-journey-product0.27.0/app/references/C11.json": "1fc77007ac474289021b0262b09d76f6ab2b09c038e95fb025e0fff32d4b97dc",
+    "output/is6-expanded-journey-product0.27.0/app/references/GS98-ideal-EOS-Age1.json": "d692f63e45297828e3e2e35aaab00174a468e1d3fae3792ccc3540d91a3ae0c0",
+    "output/is6-expanded-journey-product0.27.0/app/references/GS98.json": "8b4205361e0420411c81c394bec2a102848910987b5e8cbfc5f129053e9df895",
+    "output/is6-expanded-journey-product0.27.0/app/references/MB22m.json": "31f25f8b9ba3fd66cecaee032acfdb8b05c577647eb54ba815514db5dccdaf4e",
+    "output/is6-expanded-journey-product0.27.0/app/references/MB22p.json": "f827f7f96277f7ed0a50d4d74e15a554571a3d24d8f34ff87ade1f999837efca",
+    "output/is6-expanded-journey-product0.27.0/app/references/README-B23-original.txt": "6a7131a68db7e5753b77b7ddf61b833894a1603130c3734fa029e3a6133d5e4f",
+    "output/is6-expanded-journey-product0.27.0/app/ui/app.js": "4ab22e3e6b831032e9aa6fc136f93df49c5c31dcd6a87cb67375ce27446d5fae",
+    "output/is6-expanded-journey-product0.27.0/app/ui/body-attributes.js": "e2a6d3b2596c43386438a705ff3b177df12f296cffc47c414cfc69e9f0e2e3c0",
+    "output/is6-expanded-journey-product0.27.0/app/ui/body-editor.js": "047a8b8a6593ab70723b66383d2edc09e95f439afec6f1693635789b59933364",
+    "output/is6-expanded-journey-product0.27.0/app/ui/body-field-map.js": "4f3e28018da5e03409b22964f20bdfefad03672b7f7f7b315c625fc1e672c57f",
+    "output/is6-expanded-journey-product0.27.0/app/ui/body-field-vector.js": "6111db1df2e3aeda9707570e84422e91edc8c6903cfa2300eff0c34d5f07ca27",
+    "output/is6-expanded-journey-product0.27.0/app/ui/branches.js": "054286ff6a7b20cf793e14644df8254544d1b56235aadbb251990a9ca28ea997",
+    "output/is6-expanded-journey-product0.27.0/app/ui/content.css": "f9879319e0f7ae78a44591f9ab5ece5a73d624dc8d24d591b92a86c90475681b",
+    "output/is6-expanded-journey-product0.27.0/app/ui/content.html": "a97283124623540d7ce7b85eb0d152083623c724287fe711e2ac14fc7f3cfb11",
+    "output/is6-expanded-journey-product0.27.0/app/ui/content.js": "e23ce95d39e66b6a32a65b25b1fd2bcf80d302392f42fd0668f842588ef41643",
+    "output/is6-expanded-journey-product0.27.0/app/ui/decays.js": "d9d29e3e2af599a4e636f59cae95d14924ca267c409d9cccd52d4a020209f8d8",
+    "output/is6-expanded-journey-product0.27.0/app/ui/earth-field.js": "ad7994a929eed6870c47a18ddce97350496117795b059172fae065cddd96e06c",
+    "output/is6-expanded-journey-product0.27.0/app/ui/forces.css": "461308d6e50cff1d45f832ae6d3a11883021751674f3b4aee487c1a101d0dfac",
+    "output/is6-expanded-journey-product0.27.0/app/ui/forces.html": "933bc14341f4f6b2058c020f589fca063f4ba601e50796e60c6b626d931f2bbf",
+    "output/is6-expanded-journey-product0.27.0/app/ui/forces.js": "092c456b5bfe76305f32ea4b0bd427012b9460b952e2186a0baf552290848f1c",
+    "output/is6-expanded-journey-product0.27.0/app/ui/fusion.js": "32ab742c9f90c7b29809122cd47ef01983770aff1108f16ba0d2e2fd26734b1d",
+    "output/is6-expanded-journey-product0.27.0/app/ui/geomagnetism.js": "598bae70fed268ae923b50b55086941403312e8500fd71a22787e951c12ccc9f",
+    "output/is6-expanded-journey-product0.27.0/app/ui/gravity-experiences.js": "6ac356af3e98f95dd6d2d61e5c595ba792c5e8be9fc8585076694d7f36975398",
+    "output/is6-expanded-journey-product0.27.0/app/ui/gravity-fields.js": "8b6b2d2f1a64ec782c557d58164e2f4b159e0895124a95bbd7851ec5c4dac97e",
+    "output/is6-expanded-journey-product0.27.0/app/ui/gravity-harmonics.js": "837e3b4eb2997e9b130155674c90e80cc92fa779e2bd1a426844daccaa0f45cc",
+    "output/is6-expanded-journey-product0.27.0/app/ui/gravity-instruments.js": "0ec9022849bfe78ee2570b17ecc0c105b44d8d4ef9baf5774d167fec686ae7f3",
+    "output/is6-expanded-journey-product0.27.0/app/ui/gravity-probe.js": "2a79aef0f81a0130ff7d4cb7de3d78a15339432e07788456cba3820c95ea0484",
+    "output/is6-expanded-journey-product0.27.0/app/ui/index.html": "d55013471ca00fa1b901bb053d24ed39838ddedbe2309baaf4deca102aa673bd",
+    "output/is6-expanded-journey-product0.27.0/app/ui/instrument-history.js": "d9368a341afe7b2738f27c2050b3ff177ecef2ca55397ed338e18089f7d9fe9c",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is4-panel.fragment.html": "5402619b772dac20adf19e06ca4422bb28fbfeddd97367a21295369769bee9f9",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is4-particle.css": "a1f832c1a2b7395863846520e08ddfb8e464428c5d1a4e7787a8aaa824b55792",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is4-particle.js": "7adcf6b0b20a28e31e2604f36ba889c4e76ee6b761446234f3027cf360cd4522",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is4-setup.fragment.html": "e05d9e71b578ffb0e3b20ac84c533e2501e995f151c106ba6275b35c89d77b5e",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is4-wind-setup.fragment.html": "99758cde5721a6513f20bba5c0448034ffbef600b21bf7e3907b0762b4bf8ce8",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is5-zone-panel.html": "160c44a738147e5a894dfc91ee066db73fb056c9523f46b7d5f9c68e39bebf95",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is5-zone.css": "97a7a8ee5c1aab3527b622f5bd678a6947baf7c23f526c328e585cb38ca7122b",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is5-zone.js": "46a1f748db43e04a8ef895c06842d66663f83bc30f9e5fbe2c64e3b995e5a1a2",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is6-layers-panel.html": "f76ff6b04ab74e56db942d1d04dbc76871975406623a8508838364d8bb4dcfdb",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is6-layers.css": "c61a1c9a6a06ccbeb0c10535d5a1500ff3eba1af5e87ff9635428c0865b3f24d",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is6-layers.js": "3a98a6cee7f6dcbe9a7aeb7bf43f83ee2eeb1188b390f0627dc700d1dd8b1534",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is6-spatial-panel.html": "e2f77c99858440882c0d7758cd6e0abd57c9cd352a04c04638606a898f068454",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is6-spatial.css": "6954227d672b81c57972e25c146e2d0f12bd2d1ee03013c42709270a92a82aef",
+    "output/is6-expanded-journey-product0.27.0/app/ui/is6-spatial.js": "ef34b77461e692cf6d2fabbbd12afc9c63c488bc68039fae4a9a553f0ed2c047",
+    "output/is6-expanded-journey-product0.27.0/app/ui/jupiter-field.js": "a60901311af45084ebdeaa0668ad25af9d419c04a7a40fcf75b87ff35e2b4aee",
+    "output/is6-expanded-journey-product0.27.0/app/ui/material-tides.js": "1b287b9bb54fe50f1764d91463b694be2f9c3a7d5baac85a792a6324abf7c701",
+    "output/is6-expanded-journey-product0.27.0/app/ui/navigation.js": "f498e128a987c83fa5966f38dccc1467165a910cddf7336c07b3f793415accaf",
+    "output/is6-expanded-journey-product0.27.0/app/ui/nuclear-energy.css": "d1ad0ec936e8111818ad56aed0f30a3c95efe0e319d21c5b2c927b71c85617c2",
+    "output/is6-expanded-journey-product0.27.0/app/ui/nuclear-energy.html": "4b655211cfab257512ad959f5f8010ed497b65dc5c20ec18dcea29daef378ae2",
+    "output/is6-expanded-journey-product0.27.0/app/ui/nuclear-energy.js": "068d86f6b70875533674026c90f9da030da7475aef6a5f2f43cb3e36bc36e27f",
+    "output/is6-expanded-journey-product0.27.0/app/ui/nuclei.css": "3b79851b22aa981e38354ec4a4ece469fc4dbbee8f338aff5ea040d6b07c2547",
+    "output/is6-expanded-journey-product0.27.0/app/ui/nuclei.html": "e0975e132f969941a0855b9e1486cca4b284628303214c889cd1d828000687a5",
+    "output/is6-expanded-journey-product0.27.0/app/ui/nuclei.js": "66f80c499117e28f1bce18612260a1cf5fc690d7598008b63e2002bd99712cdd",
+    "output/is6-expanded-journey-product0.27.0/app/ui/orbit-editor.js": "43003e3c442d3dc61cd1c5ed19ec151913bbcd6bbee16240cc1a0e98808a6776",
+    "output/is6-expanded-journey-product0.27.0/app/ui/orbital-instruments.js": "1c8cd58875423234b0b8e066b217dc90cbe45a81b463a9475344413526a813bc",
+    "output/is6-expanded-journey-product0.27.0/app/ui/planet-catalog.html": "9e1d95753d771abef263c1038424488bfdc045cd734e521f02f970b6fe3817e7",
+    "output/is6-expanded-journey-product0.27.0/app/ui/planet-catalog.js": "70aabedd3729a98f4b705780e4a4d5da2d684afed52cd62303c47c05c83772e3",
+    "output/is6-expanded-journey-product0.27.0/app/ui/planet-definitions.js": "e366e8b380bd29692dacf621377bee8d88218348e00c1368315530114ccc5c35",
+    "output/is6-expanded-journey-product0.27.0/app/ui/solar-tide.js": "a47ab6a75f64a382ad711939cf3c8c70166dc9a56dec4f66e79b74fe86c98e03",
+    "output/is6-expanded-journey-product0.27.0/app/ui/solar.js": "0990ee5dc0d4f3624576702fbae34e7d60d7d6b15b90c1ff17548b57bc527831",
+    "output/is6-expanded-journey-product0.27.0/app/ui/stellar-reference-panel.html": "03e5cd370255d795157314f1774257f4c253be1bc2ff2d3736a2e0c922daaac2",
+    "output/is6-expanded-journey-product0.27.0/app/ui/stellar-reference.css": "846af8965445a164fa2bbb5e6ebb898a6733634d0f3e6c51a21747dc77267563",
+    "output/is6-expanded-journey-product0.27.0/app/ui/stellar-reference.js": "899fdfcc099889bd005da0aa388210d2a516b5b70a16e9e27174430cb4a11a5e",
+    "output/is6-expanded-journey-product0.27.0/app/ui/style.css": "d6e31cde789bcc781e241ed95d02c2a15556d5e4e23d01756445e0ce7ba0281e",
+    "output/is6-expanded-journey-product0.27.0/app/ui/test-cloud.js": "1f3611ac8304d49351d975316f90a627530de849ef3f2cab9aef4a0873655740",
+    "scripts/verify-native-is6-expanded-journey.py": "2441f8a72f15a5dc549eaae854fafdf6c2309dbb3d3dcb48aa85f7969137a9ba",
+    "evidence/is6-expanded-instruments-service-20261113c.json": "99d3b46a9a961ed6086e073df5785994fc9862c597b7c4690d100fc5944707ad",
+    "output/is6-expanded-journey-product0.27.0/build-manifest.json": "21eeb291d72045cd9bc90ca2ae09ead371c8de0e89b9fd856c2088d17308791d",
+    "output/is6-expanded-journey-product0.27.0/journey-inventory.json": "795cd04a3be7afcfd8ebcc77afd26633d6df8996c258be7405273981d4c997c3",
+    "scripts/cef_page_v2.py": "6e6899c8d557ca9b444aeebfd454a5a9ed43eb9b7abc371a871ddd1f94f41cbe",
+    "scripts/benchmark-body-points-native.py": "0b7c2ba5f4a5ef432a6d6a0027aa90e241764a89b016fcbbb1bbbd42d8b35f20",
+    "scripts/verify-native-solar-integration.py": "72fe8df358ca857613787ccf147f76e42b13c2fa052f6c1ffa42aa7d9cdd8c16",
+    "scripts/engine-command.py": "7debaa7db61a44b304a130684e9c5aab061c8ab6987c7b85dadc15513f7120e1",
+    "scripts/run-is6-expanded-journey-native.py": "a74ebccb08af3a85466d1ad53953ad859b9a7218420d828e6dbcfd0fb0db3e05",
+    "scripts/launch-is6-expanded-journey-candidate.py": "7f74e6411ee87ebab51273b99a0f3b044b94bd41aec3ce38939b27355d49c8c9",
+    "scripts/is6_owned_profile_host.py": "9e225ea614c2b35270213d38f7a77ae561be4a5a3dd280187a65c6b5f2df7588",
+    "IS-6-PERCURSO-AMPLIADO16-NATIVO-CONTRATO.md": "5a3204911d2d5c6b0a0d4a09a0dfd6e087a12c8bc55df10a6bc03208b30ae48a",
+    "scripts/verify-native-is6-expanded-reopen.py": "dbdca63167bb5e3d02e13aaddcdee232f243a0940090acc6403f957f0a3b4d4c",
+    "evidence/is6-expanded-journey-native-20261113a.json": "973ee974ad054d8c55a6ceb417023e9ad0ee5bb3109c0202afb4dd212ea9dbdf",
+    "evidence/is6-expanded-journey-native-host-recovery-20261113a.json": "cc9025c39b9b591e28f3632098c08b3f81ed3301f0bcc1bca98fba8f3222aafe",
+    "scripts/run-is6-expanded-reopen.py": "70b638b295976fbd885042135c9ce112ac7e3a0891a599872feefe08e5646c8b"
+  },
+  "archive_sha256": "8bf86ea93c7b0e9a36994770ef56440ebee399188836c42324d5f17c05ef610e",
+  "stored_sha256": {
+    "output/is6-expanded-journey-product0.27.0/gravity-sessions/latest.json": "08f02ef4bf42f24e2231c76ea7f108d54747018ba3733f900ecb404f96e23817",
+    "output/is6-expanded-journey-product0.27.0/gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/branch.json": "9136a71ce685f9db4ac8825517122de0910f0fc56bf73b1563db067a25f71506",
+    "output/is6-expanded-journey-product0.27.0/gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/latest.json": "c17d1445842efe76b3ebd2505eff104106e7fae5b4c8e0d03c0b62bebea6e315",
+    "output/is6-expanded-journey-product0.27.0/gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/branch.json": "4524384fc43da24011573758a56a2e350b1cc7e9b95a45604624ff945e69ba7e",
+    "output/is6-expanded-journey-product0.27.0/gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/latest.json": "6161761a649ae5078c776b6264e551f34c020fb35c72daf373feead59ee061b1",
+    "output/is6-expanded-journey-product0.27.0/gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/branch.json": "882edc1c38b43a5c22e0541f6fe1f42eba0b0510129aa03bc1d987b005f32f31",
+    "output/is6-expanded-journey-product0.27.0/gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/latest.json": "2476c507043ad5807a6e646e30119006eceac433dfe2d5bf226bab75dd229fe2",
+    "output/is6-expanded-journey-product0.27.0/particle-checkpoints/saved.json": "803ca08ad8158e1067551eadf8b373cb9544f0e3e9918a1b53c6c773479a2d16",
+    "output/is6-expanded-journey-product0.27.0/particle-checkpoints/branches/3ea8665c689048aa9e1fa7c2d06c5449.json": "852b8c6391a56cec6fd9d56c44b338cac34ccf3cb6c83d666847dab313177a23",
+    "output/is6-expanded-journey-product0.27.0/particle-checkpoints/branches/b9c53b8d220648bc996aabcf566ed169.json": "e4630346e9c3efa927337d34d625a240ea16af0fbccbace7f8313a0b2d0083bf",
+    "output/is6-expanded-journey-product0.27.0/layer-checkpoints/latest.json": "0ff12dde3d34d3077edea00aece3b654a140308c4d34fb5adb26ff891207f982",
+    "output/is6-expanded-journey-product0.27.0/layer-checkpoints/branches/1aecd25eb473477d9eab82da8829f0aa.json": "949a22866a259920e91a564937a35b025274acfc44dbefd0af054a5795469d18",
+    "output/is6-expanded-journey-product0.27.0/layer-checkpoints/branches/3e41e18bc73f40f5b81e98baee4a294b.json": "aaeb245b5a03b46a9e959daa3bf8153f2780c911b4d1fe03a14995e703301e25",
+    "output/is6-expanded-journey-product0.27.0/layer-checkpoints/exports/074696b5dc8141e1915156576f922b70.json": "68b42dd3a070889242eb0a8752cfe2c755d6926bc0c2288fe15adaf6169ba383",
+    "output/is6-expanded-journey-product0.27.0/layer-checkpoints/exports/40fdb9138f714b088ff75dbef9a02cb8.json": "482c4465ef043dea816d7bcd5f0b7e695fd9dfbf8b61cd162a2c0121bc75522b",
+    "output/is6-expanded-journey-product0.27.0/solar-zone-checkpoints/saved.json": "a7e3a96fb55889b6a1d903b5f2533b2a402c98294f48329e5998353902b4c678",
+    "output/is6-expanded-journey-product0.27.0/solar-zone-checkpoints/branches/0cfbd5275a0f499f807ae94a378f6512.json": "74f0044287d374991f3f59ed5c08cc700746963fa5209ad4c5bafce34444d908",
+    "output/is6-expanded-journey-product0.27.0/solar-zone-checkpoints/exports/3b6ff33f48d84e148eb765af36e8378b.json": "0b9cd711b67b196d0e3c31b6136b0260c5233d368c10511a980fa2fac7ef2e47"
+  },
+  "protected_sha256": {
+    "user/sessions/latest.json": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825",
+    "user/navigation/favorites.json": "ae655fc73c34d0682ba651db5cc3ea4c3238ad43994cac3e14a60cdc6b25d209",
+    "Iniciar-Cosmos2.cmd": "70cc2461c931ee6b4c1c211faf9a5bfe05455be1c240c17e3e16e3c7e69eccb8",
+    "Abrir-Dinamica16.cmd": "4367a1ca8f866f71da284d1d6d671b1dee9ac1f0acac5a9a365c8b4aa65ae3c0",
+    "Abrir-Planetas-e-Luas.cmd": "f8ff5fbd6c313d3b61fb80b425f622abf889c2675a0a7f3b4a9704574fd74d6c",
+    "output/is6-dynamics16-product0.26.2/navigation/favorites.json": "ae655fc73c34d0682ba651db5cc3ea4c3238ad43994cac3e14a60cdc6b25d209"
+  },
+  "steps": [
+    "New process exact16 and archived4 branch with renewed edit identities",
+    "Archived layer and particle 399 restore/guards/native cleanup on same live4",
+    "Archived layer and particle 599 restore/guards/native cleanup on same live4",
+    "Archived nuclear18 exact artifact/sample/source; live4 preserved",
+    "Return16 exact; original checkpoints/branches/exports byte-identical"
+  ],
+  "captures": [
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/01-checkpoint16-new-process-100.png",
+      "sha256": "2774517c1dd60afb4c105d1632c328c3339dffca2eda473e5fb3b160f5c7b17e",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000000.png",
+      "name": "checkpoint16-new-process",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/02-checkpoint16-new-process-150.png",
+      "sha256": "238f4e67adc65c8aa0b8177f19fda9f8f0425d4ee8d451bc993042aff7b2b928",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000001.png",
+      "name": "checkpoint16-new-process",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/03-archived-layers-399-100.png",
+      "sha256": "c347fa8e81b7c62281d4d9704cc6183affd6bec44fea9e79a0266c08b945a0ea",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000002.png",
+      "name": "archived-layers-399",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/04-archived-layers-399-150.png",
+      "sha256": "8b0706f84c88069d71363228d567e97574171cc6b233ece6d645cbcd21f355a6",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000003.png",
+      "name": "archived-layers-399",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/05-archived-particle-399-100.png",
+      "sha256": "0939d076b6a97d9c136d52d2e5abb5c8664ad538d89c57c236977f173ac6d9a4",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000004.png",
+      "name": "archived-particle-399",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/06-archived-particle-399-150.png",
+      "sha256": "923dba3a62db84286e2974ee4f56bee43f8de9ede29392d5099f84a88248ab46",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000005.png",
+      "name": "archived-particle-399",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/07-archived-layers-599-100.png",
+      "sha256": "774e9195266b40af41663d5bf525f6bb1e90e442a0da4303854a071f84bf7101",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000006.png",
+      "name": "archived-layers-599",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/08-archived-layers-599-150.png",
+      "sha256": "7699ca137edecf4d8686958e63ff16038c1e14ea65a061739a0430f772802b07",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000007.png",
+      "name": "archived-layers-599",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/09-archived-particle-599-100.png",
+      "sha256": "ec2d87816971c2f171bd06d57c269d9ac3a9de6598007256c243974b744a4167",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000008.png",
+      "name": "archived-particle-599",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/10-archived-particle-599-150.png",
+      "sha256": "b2b670b36327d351f168c955872d8d03ddff56552e83573b78d8e4f474e65b15",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000009.png",
+      "name": "archived-particle-599",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/11-archived-nuclear18-100.png",
+      "sha256": "d0b49ea584f04a3c3dcc7bab20b2551231e5bf51d0d06ba90c03643ba714e332",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000010.png",
+      "name": "archived-nuclear18",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/12-archived-nuclear18-150.png",
+      "sha256": "61e0cb732ee4cf4eecb8b405d0a9c97cd721790d2b03c224433e9e9d164946c2",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000011.png",
+      "name": "archived-nuclear18",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/13-final16-after-reopened-instruments-100.png",
+      "sha256": "ede9a0d331229d322e8b2df86e1afb70600a78b696f2620e287a6729e5754556",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000012.png",
+      "name": "final16-after-reopened-instruments",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/14-final16-after-reopened-instruments-150.png",
+      "sha256": "8171bc827a971cae0e159db9e27be304453864e476e06a2705da126bf5bf87d8",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000013.png",
+      "name": "final16-after-reopened-instruments",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    }
+  ],
+  "cleanups": [
+    {
+      "nodes": {
+        "IS6MagneticFrame_972abc2f4e9c4dd592793983d77bba5b": false,
+        "IS6MagneticFrame_972abc2f4e9c4dd592793983d77bba5b_0": false,
+        "IS6MagneticFrame_972abc2f4e9c4dd592793983d77bba5b_1": false,
+        "IS6MagneticFrame_972abc2f4e9c4dd592793983d77bba5b_2": false,
+        "IS6MagneticFrame_972abc2f4e9c4dd592793983d77bba5b_basis": false,
+        "IS6MagneticFrame_972abc2f4e9c4dd592793983d77bba5b_display_probe": false,
+        "IS6MagneticFrame_972abc2f4e9c4dd592793983d77bba5b_probe": false,
+        "IS6SpatialFocus_284d89d13f9d46e6bd8ec090137cf272": false,
+        "IS6SpatialFrame_284d89d13f9d46e6bd8ec090137cf272": false,
+        "IS6SpatialWire_284d89d13f9d46e6bd8ec090137cf272": false
+      },
+      "before": {
+        "camera": {
+          "Anchor": "LabFrame",
+          "Position": [
+            0.0,
+            -988234943220.9554,
+            592940965932.5732
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.0,
+            0.5144957554275265,
+            0.8574929257125442
+          ]
+        },
+        "flags": {
+          "LabBarycenter": false,
+          "LabBody_1c3d9e86e229a67f94a74940": true,
+          "LabBody_4abdef4710e5d8b7db9138a6": true,
+          "LabBody_654e23b1253a6ceb280114ea": true,
+          "LabBody_876e11efd20678013cef1385": true,
+          "LabGrid": true,
+          "LabLabel_1c3d9e86e229a67f94a74940": true,
+          "LabLabel_4abdef4710e5d8b7db9138a6": true,
+          "LabLabel_654e23b1253a6ceb280114ea": true,
+          "LabLabel_876e11efd20678013cef1385": false,
+          "LabProbe": false
+        }
+      },
+      "after": {
+        "camera": {
+          "Anchor": "LabFrame",
+          "Position": [
+            0.0,
+            -988234943220.9554,
+            592940965932.5732
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.0,
+            0.5144957554275265,
+            0.8574929257125442
+          ]
+        },
+        "flags": {
+          "LabBarycenter": false,
+          "LabBody_1c3d9e86e229a67f94a74940": true,
+          "LabBody_4abdef4710e5d8b7db9138a6": true,
+          "LabBody_654e23b1253a6ceb280114ea": true,
+          "LabBody_876e11efd20678013cef1385": true,
+          "LabGrid": true,
+          "LabLabel_1c3d9e86e229a67f94a74940": true,
+          "LabLabel_4abdef4710e5d8b7db9138a6": true,
+          "LabLabel_654e23b1253a6ceb280114ea": true,
+          "LabLabel_876e11efd20678013cef1385": false,
+          "LabProbe": false
+        }
+      }
+    },
+    {
+      "nodes": {
+        "LabIS4StreamFocus_3b1a4812ea104fe282a755813b0210de": false,
+        "LabIS4StreamFrame_3b1a4812ea104fe282a755813b0210de": false,
+        "LabIS4StreamTrail_3b1a4812ea104fe282a755813b0210de": false
+      },
+      "before": {
+        "camera": {
+          "Anchor": "LabFrame",
+          "Position": [
+            0.0,
+            -988234943220.9554,
+            592940965932.5732
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.0,
+            0.5144957554275265,
+            0.8574929257125442
+          ]
+        },
+        "flags": {
+          "LabBarycenter": false,
+          "LabBody_1c3d9e86e229a67f94a74940": true,
+          "LabBody_4abdef4710e5d8b7db9138a6": true,
+          "LabBody_654e23b1253a6ceb280114ea": true,
+          "LabBody_876e11efd20678013cef1385": true,
+          "LabGrid": true,
+          "LabLabel_1c3d9e86e229a67f94a74940": true,
+          "LabLabel_4abdef4710e5d8b7db9138a6": true,
+          "LabLabel_654e23b1253a6ceb280114ea": true,
+          "LabLabel_876e11efd20678013cef1385": false,
+          "LabProbe": false
+        }
+      },
+      "after": {
+        "camera": {
+          "Anchor": "LabFrame",
+          "Position": [
+            0.0,
+            -988234943220.9554,
+            592940965932.5732
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.0,
+            0.5144957554275265,
+            0.8574929257125442
+          ]
+        },
+        "flags": {
+          "LabBarycenter": false,
+          "LabBody_1c3d9e86e229a67f94a74940": true,
+          "LabBody_4abdef4710e5d8b7db9138a6": true,
+          "LabBody_654e23b1253a6ceb280114ea": true,
+          "LabBody_876e11efd20678013cef1385": true,
+          "LabGrid": true,
+          "LabLabel_1c3d9e86e229a67f94a74940": true,
+          "LabLabel_4abdef4710e5d8b7db9138a6": true,
+          "LabLabel_654e23b1253a6ceb280114ea": true,
+          "LabLabel_876e11efd20678013cef1385": false,
+          "LabProbe": false
+        }
+      }
+    },
+    {
+      "nodes": {
+        "IS6MagneticFrame_579ed0fef9434edf93a08175baf054f1": false,
+        "IS6MagneticFrame_579ed0fef9434edf93a08175baf054f1_0": false,
+        "IS6MagneticFrame_579ed0fef9434edf93a08175baf054f1_1": false,
+        "IS6MagneticFrame_579ed0fef9434edf93a08175baf054f1_2": false,
+        "IS6MagneticFrame_579ed0fef9434edf93a08175baf054f1_basis": false,
+        "IS6MagneticFrame_579ed0fef9434edf93a08175baf054f1_display_probe": false,
+        "IS6MagneticFrame_579ed0fef9434edf93a08175baf054f1_probe": false,
+        "IS6SpatialFocus_8c144214e1e94ad29ed10d1a0d7c1497": false,
+        "IS6SpatialFrame_8c144214e1e94ad29ed10d1a0d7c1497": false,
+        "IS6SpatialWire_8c144214e1e94ad29ed10d1a0d7c1497": false
+      },
+      "before": {
+        "camera": {
+          "Anchor": "LabFrame",
+          "Position": [
+            0.0,
+            -988234943220.9554,
+            592940965932.5732
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.0,
+            0.5144957554275265,
+            0.8574929257125442
+          ]
+        },
+        "flags": {
+          "LabBarycenter": false,
+          "LabBody_1c3d9e86e229a67f94a74940": true,
+          "LabBody_4abdef4710e5d8b7db9138a6": true,
+          "LabBody_654e23b1253a6ceb280114ea": true,
+          "LabBody_876e11efd20678013cef1385": true,
+          "LabGrid": true,
+          "LabLabel_1c3d9e86e229a67f94a74940": true,
+          "LabLabel_4abdef4710e5d8b7db9138a6": true,
+          "LabLabel_654e23b1253a6ceb280114ea": true,
+          "LabLabel_876e11efd20678013cef1385": false,
+          "LabProbe": false
+        }
+      },
+      "after": {
+        "camera": {
+          "Anchor": "LabFrame",
+          "Position": [
+            0.0,
+            -988234943220.9554,
+            592940965932.5732
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.0,
+            0.5144957554275265,
+            0.8574929257125442
+          ]
+        },
+        "flags": {
+          "LabBarycenter": false,
+          "LabBody_1c3d9e86e229a67f94a74940": true,
+          "LabBody_4abdef4710e5d8b7db9138a6": true,
+          "LabBody_654e23b1253a6ceb280114ea": true,
+          "LabBody_876e11efd20678013cef1385": true,
+          "LabGrid": true,
+          "LabLabel_1c3d9e86e229a67f94a74940": true,
+          "LabLabel_4abdef4710e5d8b7db9138a6": true,
+          "LabLabel_654e23b1253a6ceb280114ea": true,
+          "LabLabel_876e11efd20678013cef1385": false,
+          "LabProbe": false
+        }
+      }
+    },
+    {
+      "nodes": {
+        "LabIS4StreamFocus_8f2636d1c6e5499a86a92be866db62e9": false,
+        "LabIS4StreamFrame_8f2636d1c6e5499a86a92be866db62e9": false,
+        "LabIS4StreamTrail_8f2636d1c6e5499a86a92be866db62e9": false
+      },
+      "before": {
+        "camera": {
+          "Anchor": "LabFrame",
+          "Position": [
+            0.0,
+            -988234943220.9554,
+            592940965932.5732
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.0,
+            0.5144957554275265,
+            0.8574929257125442
+          ]
+        },
+        "flags": {
+          "LabBarycenter": false,
+          "LabBody_1c3d9e86e229a67f94a74940": true,
+          "LabBody_4abdef4710e5d8b7db9138a6": true,
+          "LabBody_654e23b1253a6ceb280114ea": true,
+          "LabBody_876e11efd20678013cef1385": true,
+          "LabGrid": true,
+          "LabLabel_1c3d9e86e229a67f94a74940": true,
+          "LabLabel_4abdef4710e5d8b7db9138a6": true,
+          "LabLabel_654e23b1253a6ceb280114ea": true,
+          "LabLabel_876e11efd20678013cef1385": false,
+          "LabProbe": false
+        }
+      },
+      "after": {
+        "camera": {
+          "Anchor": "LabFrame",
+          "Position": [
+            0.0,
+            -988234943220.9554,
+            592940965932.5732
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.0,
+            0.5144957554275265,
+            0.8574929257125442
+          ]
+        },
+        "flags": {
+          "LabBarycenter": false,
+          "LabBody_1c3d9e86e229a67f94a74940": true,
+          "LabBody_4abdef4710e5d8b7db9138a6": true,
+          "LabBody_654e23b1253a6ceb280114ea": true,
+          "LabBody_876e11efd20678013cef1385": true,
+          "LabGrid": true,
+          "LabLabel_1c3d9e86e229a67f94a74940": true,
+          "LabLabel_4abdef4710e5d8b7db9138a6": true,
+          "LabLabel_654e23b1253a6ceb280114ea": true,
+          "LabLabel_876e11efd20678013cef1385": false,
+          "LabProbe": false
+        }
+      }
+    },
+    {
+      "nodes": {
+        "IS5Sun_3d8671db24e047baaef2dd2325c0de8a": false,
+        "IS5Sun_3d8671db24e047baaef2dd2325c0de8a_Label": false
+      },
+      "before": {
+        "camera": {
+          "Anchor": "LabFrame",
+          "Position": [
+            0.0,
+            -988234943220.9554,
+            592940965932.5732
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.0,
+            0.5144957554275265,
+            0.8574929257125442
+          ]
+        },
+        "flags": {
+          "LabBarycenter": false,
+          "LabBody_1c3d9e86e229a67f94a74940": true,
+          "LabBody_4abdef4710e5d8b7db9138a6": true,
+          "LabBody_654e23b1253a6ceb280114ea": true,
+          "LabBody_876e11efd20678013cef1385": true,
+          "LabGrid": true,
+          "LabLabel_1c3d9e86e229a67f94a74940": true,
+          "LabLabel_4abdef4710e5d8b7db9138a6": true,
+          "LabLabel_654e23b1253a6ceb280114ea": true,
+          "LabLabel_876e11efd20678013cef1385": false,
+          "LabProbe": false
+        }
+      },
+      "after": {
+        "camera": {
+          "Anchor": "LabFrame",
+          "Position": [
+            0.0,
+            -988234943220.9554,
+            592940965932.5732
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.0,
+            0.5144957554275265,
+            0.8574929257125442
+          ]
+        },
+        "flags": {
+          "LabBarycenter": false,
+          "LabBody_1c3d9e86e229a67f94a74940": true,
+          "LabBody_4abdef4710e5d8b7db9138a6": true,
+          "LabBody_654e23b1253a6ceb280114ea": true,
+          "LabBody_876e11efd20678013cef1385": true,
+          "LabGrid": true,
+          "LabLabel_1c3d9e86e229a67f94a74940": true,
+          "LabLabel_4abdef4710e5d8b7db9138a6": true,
+          "LabLabel_654e23b1253a6ceb280114ea": true,
+          "LabLabel_876e11efd20678013cef1385": false,
+          "LabProbe": false
+        }
+      }
+    }
+  ],
+  "refusals": [
+    {
+      "name": "Old layer guard 399",
+      "error": "A vista de camadas mudou; atualize a leitura."
+    },
+    {
+      "name": "Old particle guard 399",
+      "error": "A partícula mudou; atualize a leitura."
+    },
+    {
+      "name": "Old layer guard 599",
+      "error": "A vista de camadas mudou; atualize a leitura."
+    },
+    {
+      "name": "Old particle guard 599",
+      "error": "A partícula mudou; atualize a leitura."
+    },
+    {
+      "name": "Old live4 guard after16 restore",
+      "error": "Sistema reiniciado ou restaurado; carregue novamente o estado do editor."
+    }
+  ],
+  "page_errors": [],
+  "scope": "New native process, archived16 and one restored live4 phase across archived layers, particles and nuclear zone; stored files stay byte-identical. Visual review and own residency remain separate.",
+  "original_navigation": {
+    "anchor_position": [
+      -52460133554.45178,
+      65189715232.14355,
+      -123228420558.91933
+    ],
+    "et": 844992069.1823514,
+    "flying": false,
+    "navigation": {
+      "Anchor": "Earth",
+      "Position": [
+        17674090.6536026,
+        -1566585.506652832,
+        18170644.716644287
+      ],
+      "ReferenceFrame": "Root",
+      "Timestamp": "2026 OCT 11 12:00:00",
+      "Up": [
+        -0.7126743196161899,
+        0.06316960130825156,
+        0.698645056971104
+      ]
+    },
+    "paused": true,
+    "positions": {
+      "Callisto": [
+        -559858344349.2941,
+        -319950858080.99335,
+        465418542243.82996
+      ],
+      "Earth": [
+        -52460133554.45178,
+        65189715232.14355,
+        -123228420558.91933
+      ],
+      "Enceladus": [
+        -340639248412.83026,
+        601357525117.5382,
+        -1229482047469.5222
+      ],
+      "Europa": [
+        -557546801580.5856,
+        -320108531946.26044,
+        465972306449.2487
+      ],
+      "Ganymede": [
+        -557460613646.5912,
+        -320326546787.20184,
+        466348724496.3609
+      ],
+      "Io": [
+        -558361144283.3588,
+        -319800138687.60394,
+        465358021469.8888
+      ],
+      "Jupiter": [
+        -557984119078.4662,
+        -319875070314.36285,
+        465528567368.0093
+      ],
+      "Mars": [
+        -233102478841.73984,
+        -22811202625.337154,
+        4364691699.680344
+      ],
+      "Mercury": [
+        57161611843.65614,
+        15034269262.92884,
+        -30080305673.800117
+      ],
+      "Moon": [
+        -52257479814.476135,
+        65013786326.90584,
+        -122944236710.70308
+      ],
+      "Neptune": [
+        -443930328946.8205,
+        2089488642171.6042,
+        -3925924123615.9204
+      ],
+      "Saturn": [
+        -340544572820.6532,
+        601505287801.9176,
+        -1229644203811.2605
+      ],
+      "Sun": [
+        768617023.694856,
+        9575426.481165487,
+        160626511.21933022
+      ],
+      "Titan": [
+        -339540860244.10345,
+        601984636478.198,
+        -1229139656270.2922
+      ],
+      "Uranus": [
+        -2641404139129.656,
+        363806187944.3068,
+        -1158956618305.057
+      ],
+      "Venus": [
+        -23583735990.61218,
+        45528091228.82829,
+        -95370850753.93481
+      ]
+    },
+    "rate": 1,
+    "rotations": {
+      "Callisto": {
+        "1": 0.9962040028843343,
+        "2": 0.02570142787550911,
+        "3": 0.08316863136056216,
+        "4": 0.05833201691856041,
+        "5": 0.5120797087838587,
+        "6": -0.8569549274343727,
+        "7": -0.06461393378708563,
+        "8": 0.8585533230131943,
+        "9": 0.508636639560659
+      },
+      "Earth": {
+        "1": 0.34438054393302303,
+        "2": -0.3137945537555819,
+        "3": 0.8848361537560105,
+        "4": 0.8044722965756864,
+        "5": 0.5844877519037266,
+        "6": -0.10582245469071286,
+        "7": -0.4839693843649984,
+        "8": 0.7482693672120106,
+        "9": 0.45372523523549113
+      },
+      "Enceladus": {
+        "1": 0.34141025465667335,
+        "2": 0.6000651784150118,
+        "3": -0.7234368111100135,
+        "4": -0.7624334624746691,
+        "5": -0.27330816813380543,
+        "6": -0.5865133080589311,
+        "7": -0.5496674024482009,
+        "8": 0.7518140906401685,
+        "9": 0.3641995604071263
+      },
+      "Europa": {
+        "1": -0.6726856180695493,
+        "2": 0.34296733274642993,
+        "3": -0.6556427898720367,
+        "4": -0.7370309993890573,
+        "5": -0.3889173106896786,
+        "6": 0.552746444027888,
+        "7": -0.06541685701679228,
+        "8": 0.8550536439982623,
+        "9": 0.5143966375311343
+      },
+      "Ganymede": {
+        "1": -0.5273587653503968,
+        "2": 0.4070699581950258,
+        "3": -0.7457793116889238,
+        "4": -0.8476828029037775,
+        "5": -0.31166369183134085,
+        "6": 0.42930130311385484,
+        "7": -0.05767667006077942,
+        "8": 0.858580102453556,
+        "9": 0.5094247828694057
+      },
+      "Io": {
+        "1": 0.896887588665579,
+        "2": -0.17783271160294736,
+        "3": 0.40492984575304614,
+        "4": 0.43821151653809604,
+        "5": 0.48092125092914684,
+        "6": -0.7593980624008245,
+        "7": -0.05969355133533871,
+        "8": 0.8585396188229681,
+        "9": 0.509260643325486
+      },
+      "Jupiter": {
+        "1": -0.7738113138273751,
+        "2": -0.36242574032835617,
+        "3": 0.5194840068184912,
+        "4": 0.6305646839171478,
+        "5": -0.36303127760385423,
+        "6": 0.6860003432052935,
+        "7": -0.06003523956159901,
+        "8": 0.8584030954212339,
+        "9": 0.5094505822766575
+      },
+      "Mars": {
+        "1": -0.8945161087840934,
+        "2": -0.023889954536814167,
+        "3": -0.44639690993329295,
+        "4": -0.4436311875438332,
+        "5": -0.07556541590673582,
+        "6": 0.89301804984966,
+        "7": -0.05506632877005396,
+        "8": 0.996854622295082,
+        "9": 0.05699615289401011
+      },
+      "Mercury": {
+        "1": 0.9740766987915155,
+        "2": -0.0759771206234674,
+        "3": 0.213077596225389,
+        "4": 0.22536469987961927,
+        "5": 0.4076515921672708,
+        "6": -0.8848903499596196,
+        "7": -0.01963000049903052,
+        "8": 0.9099712394055408,
+        "9": 0.41420647814242595
+      },
+      "Moon": {
+        "1": -0.43768774437082586,
+        "2": 0.39118629951755307,
+        "3": -0.8095694642816895,
+        "4": -0.8911161597115724,
+        "5": -0.30865426702987636,
+        "6": 0.33263273041772196,
+        "7": -0.11975570269710611,
+        "8": 0.867009701510896,
+        "9": 0.4836866228846002
+      },
+      "Neptune": {
+        "1": 0.9766198923628429,
+        "2": -0.21237404851249686,
+        "3": 0.033329406829410546,
+        "4": 0.058721465938700396,
+        "5": 0.1144012602456671,
+        "6": -0.9916976056703036,
+        "7": 0.20679790927182667,
+        "8": 0.9704687605341114,
+        "9": 0.12419746192328773
+      },
+      "Saturn": {
+        "1": -0.2193284479083138,
+        "2": 0.2910319937545448,
+        "3": -0.9312332739702681,
+        "4": -0.8062487435423145,
+        "5": -0.5915554040439553,
+        "6": 0.0050167203262170695,
+        "7": -0.5494160495240096,
+        "8": 0.7519059665660641,
+        "9": 0.3643891079159528
+      },
+      "Titan": {
+        "1": -0.8218983599528239,
+        "2": -0.40810392026944076,
+        "3": -0.3974094565653566,
+        "4": -0.1516850205883236,
+        "5": -0.5156703259279988,
+        "6": 0.8432530874455374,
+        "7": -0.5490671547597598,
+        "8": 0.7533493911977531,
+        "9": 0.36192534360831485
+      },
+      "Uranus": {
+        "1": 0.20576514005720092,
+        "2": -0.9111157789947473,
+        "3": -0.3571116693753304,
+        "4": 0.18643187522901006,
+        "5": 0.39473385946632245,
+        "6": -0.8996823528831808,
+        "7": 0.9606788553079717,
+        "8": 0.11854626716019459,
+        "9": 0.25108349110713835
+      },
+      "Venus": {
+        "1": -0.9724100332098287,
+        "2": 0.007817349690340425,
+        "3": -0.23314719890377944,
+        "4": -0.2066230238378089,
+        "5": -0.4927906013878225,
+        "6": 0.8452599299647111,
+        "7": -0.1082850559079131,
+        "8": 0.8701128158047363,
+        "9": 0.48080976949243975
+      }
+    },
+    "utc": "2026-10-11T12:00:00.000",
+    "camera": {
+      "position_render_m": [
+        -52442459463.79818,
+        65188148646.636894,
+        -123210249914.20268
+      ],
+      "forward": [
+        -0.6959166398798782,
+        0.06168424408596839,
+        -0.7154684370186031
+      ],
+      "up": [
+        -0.71267431961619,
+        0.06316960130825158,
+        0.6986450569711041
+      ]
+    },
+    "occluded_targets": [],
+    "effective_rate": 0.0,
+    "mode": "orbit",
+    "target": "Earth",
+    "boundary": null,
+    "return_available": true
+  },
+  "original_favorites": [
+    {
+      "id": "e723c4d73e2347cba604525259ea3541",
+      "name": "Retorno do host de reabertura ampliada",
+      "view": {
+        "schema": 1,
+        "target": "Earth",
+        "mode": "orbit",
+        "utc": "2026-10-11T12:00:00.000",
+        "et": 844992069.1823514,
+        "paused": true,
+        "rate": 1,
+        "navigation": {
+          "Anchor": "Earth",
+          "ReferenceFrame": "Root",
+          "Position": [
+            17674090.6536026,
+            -1566585.506652832,
+            18170644.716644287
+          ],
+          "Up": [
+            -0.71267431961619,
+            0.06316960130825157,
+            0.6986450569711041
+          ],
+          "Yaw": 0,
+          "Pitch": 0
+        },
+        "free_anchor_render_m": null
+      }
+    }
+  ],
+  "geometry16": {
+    "bodies": 16,
+    "maximum_error_m": 0.00048828125,
+    "maximum_budget_m": 0.00390625
+  },
+  "common_live_phase4": {
+    "type": "snapshot",
+    "sequence": 0,
+    "paused": true,
+    "requested_rate": 1.0,
+    "effective_rate": 0.0,
+    "integration_yielded": false,
+    "integration_budget_ms": 40,
+    "integration_notice": null,
+    "experiment_horizon_reached": false,
+    "compute_ms": 0,
+    "time": 0.0,
+    "units": "canonical",
+    "G": 1.0,
+    "physical_scale": {
+      "schema": 1,
+      "length_unit_m": 1000000000.0,
+      "nominal_GM_unit_m3_s2": 1.3271244e+20,
+      "G_m3_kg_s2": 6.6743e-11,
+      "G_standard_uncertainty": 1.5e-15,
+      "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+      "sources": [
+        "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+        "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+      ],
+      "time_unit_s": 2745.0115932913473,
+      "mass_unit_kg": 1.988409870698051e+30,
+      "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+      "velocity_unit_m_s": 364297.1863739823
+    },
+    "integrator": "IAS15",
+    "epsilon": 1e-09,
+    "energy_error": 0.0,
+    "energy_error_absolute": 0.0,
+    "bodies": [
+      {
+        "id": "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:10",
+        "mass": 1.0000000003108473,
+        "position": [
+          0.5061445368883201,
+          -0.5133518725509765,
+          -0.23236828795868575
+        ],
+        "velocity": [
+          2.593022743651121e-05,
+          1.9585424249015912e-05,
+          7.764407601744207e-06
+        ],
+        "name": "Sol",
+        "reference_id": "sol:naif:10",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "d6c94fb1981a4257a1c2c648ff9bbd53"
+        },
+        "scene_node": "LabBody_4abdef4710e5d8b7db9138a6",
+        "label_node": "LabLabel_4abdef4710e5d8b7db9138a6",
+        "spin_node": "LabSpin_4abdef4710e5d8b7db9138a6",
+        "shape_node": "LabShape_4abdef4710e5d8b7db9138a6",
+        "applied_GM_m3_s2": 1.327124400412533e+20,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "id": "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:399",
+        "mass": 3.0034896166779844e-06,
+        "position": [
+          142.69372185998247,
+          41.42501573612479,
+          17.94656532713074
+        ],
+        "velocity": [
+          -0.02634028846534006,
+          0.07118987994749824,
+          0.030860634140720503
+        ],
+        "name": "Terra",
+        "reference_id": "sol:naif:399",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "d6c94fb1981a4257a1c2c648ff9bbd53"
+        },
+        "scene_node": "LabBody_1c3d9e86e229a67f94a74940",
+        "label_node": "LabLabel_1c3d9e86e229a67f94a74940",
+        "spin_node": "LabSpin_1c3d9e86e229a67f94a74940",
+        "shape_node": "LabShape_1c3d9e86e229a67f94a74940",
+        "applied_GM_m3_s2": 398600435544000.0,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "id": "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:301",
+        "mass": 3.694303340365078e-08,
+        "position": [
+          142.349096290041,
+          41.26997871311936,
+          17.846681816723027
+        ],
+        "velocity": [
+          -0.02514701888218768,
+          0.06894837702531485,
+          0.029742407839830474
+        ],
+        "name": "Lua",
+        "reference_id": "sol:naif:301",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "d6c94fb1981a4257a1c2c648ff9bbd53"
+        },
+        "scene_node": "LabBody_876e11efd20678013cef1385",
+        "label_node": "LabLabel_876e11efd20678013cef1385",
+        "spin_node": "LabSpin_876e11efd20678013cef1385",
+        "shape_node": "LabShape_876e11efd20678013cef1385",
+        "applied_GM_m3_s2": 4902800104000.0,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "id": "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:599",
+        "mass": 0.0009545942482887844,
+        "position": [
+          -530.6740281257112,
+          537.6377758275082,
+          243.3638447059442
+        ],
+        "velocity": [
+          -0.02707976263302062,
+          -0.020743671479302665,
+          -0.008231974985410314
+        ],
+        "name": "Júpiter",
+        "reference_id": "sol:naif:599",
+        "origin": {
+          "kind": "atlas_copy",
+          "source_branch_id": "d6c94fb1981a4257a1c2c648ff9bbd53"
+        },
+        "scene_node": "LabBody_654e23b1253a6ceb280114ea",
+        "label_node": "LabLabel_654e23b1253a6ceb280114ea",
+        "spin_node": "LabSpin_654e23b1253a6ceb280114ea",
+        "shape_node": "LabShape_654e23b1253a6ceb280114ea",
+        "applied_GM_m3_s2": 1.266865319003704e+17,
+        "attributes": {
+          "radius_m": null,
+          "radius_origin": {
+            "kind": "unknown"
+          },
+          "angular_velocity_rad_s": null,
+          "spin_origin": {
+            "kind": "unknown"
+          },
+          "orientation_reference_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orientation_epoch_model_time": 0.0,
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "contract": {
+      "schema": 2,
+      "frame": "initial_subset_barycenter_inertial_axes_J2000",
+      "units": {
+        "system": "canonical",
+        "G": 1.0
+      },
+      "model": "newtonian_point_masses",
+      "collisions": "disabled",
+      "integrator": "IAS15",
+      "epsilon": 1e-09,
+      "epoch": {
+        "utc": "2026-10-11T12:00:00.000Z",
+        "et_tdb_s": 844992069.1823514,
+        "origin": "explicit geometric coordinate epoch",
+        "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+      },
+      "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for JPL ephemerides",
+      "jupiter_representation": "physical center599 and planet GM; no independent barycenter5 particle",
+      "excluded_influences": [
+        "demais planetas e luas, incluindo luas jovianas",
+        "asteroides e outros corpos menores",
+        "relatividade",
+        "multipolos e deformações de maré",
+        "campos EM e processos estelares",
+        "colisões"
+      ]
+    },
+    "revision": 0,
+    "fixture_count": null,
+    "fixture_sha256": "0c5d6cb7d6bbc6aa3bbafecaca11011ab05020fadbfa8b95c696d593f34af5a9",
+    "interventions": [],
+    "system_id": "fe941811a69742f4997c8944f826ac75",
+    "edit_token": "981781f223a04ff2a98f1e33d25a02fb",
+    "origin_kind": "atlas_copy",
+    "scientific_generation": {
+      "schema": 1,
+      "model_id": "cosmos2:editable-newtonian-atlas_copy",
+      "model_version": "3.13.0",
+      "candidate_extension": {
+        "id": "is3-body-fields",
+        "version": "0.7.1",
+        "initial_format": "solar_four_physical_centers/1.0.0",
+        "code_sha256": {
+          "solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+          "solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+          "solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+          "import_dispatch.py": "16a9e09ab1ee63faec8033064be6bbea9af7859fc8e145b32f505d1b43c6cdd3",
+          "solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+          "earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+          "geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+          "jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+          "jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28",
+          "body_field_geometry.py": "17a257fe18708f640e3f79e43dac6d78c498dd2844a4633757498ebabfe1afc4",
+          "body_field_scene.py": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805",
+          "body_field_layer.py": "a56118896a743d904312f8bfe466bdc98c19675694e3a17ef7a07ee0df8de3a2",
+          "body_field_lines.py": "ddd0e266f6cc96a4cba64db773a3b801ed5e8ca8cd9b07b88efd92088c93f8f3",
+          "body_field_view.py": "274a3916769331b4518c0aa543acc00fe5f0531b380e76473fbfc101ebdd6933",
+          "body_field_maps.py": "8988d3c437b88c2a6c0db5210dd8710c5ccc7e35b8e2be9b693fe57216e8630f",
+          "body_field_map_geometry.py": "cfa807924eed8c8a06e1ee25f8eb8a759ce37b900bffe7e7a3f58fc619c560bd",
+          "body_field_map_layer.py": "17640635bf80047d537df0be650871d463b5802fb4818a3020210aadcfb7b154",
+          "body_field_points.py": "d054c5c72ef76cabe5cacfc6b78cb67f5b51387a60e2152ee3107127fbe8f169"
+        }
+      },
+      "code_sha256": {
+        "app/cloud_transport.py": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690",
+        "app/cloud_driver.py": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb",
+        "app/test_cloud.py": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826",
+        "app/resonant_angles.py": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0",
+        "app/orbital_instruments.py": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5",
+        "app/equilibrium_tide.py": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06",
+        "app/material_driver.py": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9",
+        "app/material_tides.py": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb",
+        "app/j2_field.py": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7",
+        "app/gravity_harmonics.py": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae",
+        "app/physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+        "app/session.py": "f842e6c55d838b4b091d38761101127a2f8b40f2c08f4476fa72af9624ea5f52",
+        "app/body_registry.py": "e763b3340338d94d5c1288e49951ed8f0b64c8fb50c95494093ca98afadb014d",
+        "app/body_attributes.py": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649",
+        "app/orbital_diagnostics.py": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59",
+        "app/gravity_experiments.py": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474",
+        "app/gravity_field.py": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5",
+        "app/gravity_instruments.py": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7",
+        "app/field_layers.py": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349",
+        "app/field_geometry.py": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55",
+        "app/field_sections.py": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e",
+        "app/instrument_history.py": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3",
+        "app/probe_comparison.py": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb",
+        "app/branch_store.py": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4",
+        "app/worker.py": "e992347907ab68eb981712db379a7a99de1eb3bb67e29af2876c457e511abe66"
+      },
+      "data_sha256": {
+        "data/science/canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+        "data/science/gravity-experiments.json": "98ddf2234b0b4b7703accdf264dde60bd95b43c1240557419cd38688e7c5dafd",
+        "data/science/igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+        "output/is3-earth-orientation-staging/earth_000101_270118_261022.bpc": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+        "evidence/is3-earth-orientation-acquisition-20261023.json": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+        "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+        "output/is3-body-points-product/app/jrm33-coefficients.json": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+        "evidence/is3-jupiter-orientation-acquisition-20261023b.json": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312"
+      },
+      "runtime": {
+        "python": "3.12.10",
+        "rebound": "5.2.2",
+        "numpy": "2.5.4"
+      }
+    },
+    "topology_revision": 0,
+    "instruments": {
+      "schema": 1,
+      "revision": 0,
+      "probes": [],
+      "maximum_probes": 16
+    },
+    "field_layers": {
+      "schema": 1,
+      "revision": 0,
+      "settings": {
+        "center_mode": "fixed",
+        "center_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "body_id": null,
+        "shell_enabled": true,
+        "shell_radius_m": 20000000000.0,
+        "shell_count": 96,
+        "cut_enabled": true,
+        "cut_half_width_m": 30000000000.0,
+        "cut_resolution": 17,
+        "cut_orientation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cut_offset_m": 0.0,
+        "magnitude_scale": "log",
+        "potential_levels_J_kg": []
+      }
+    },
+    "instrument_history": {
+      "schema": 1,
+      "revision": 0,
+      "recording": false,
+      "cadence_wall_s": 1.0,
+      "dropped": 0,
+      "next_sequence": 0,
+      "sample_count": 0,
+      "maximum_samples": 128,
+      "first_time": null,
+      "last_time": null,
+      "cadence_policy": "wall cadence at confirmed worker snapshots; actual physical timestamps retained; no integrator substep or interpolation"
+    },
+    "orbital_instruments": {
+      "schema": 1,
+      "revision": 0,
+      "definition": null,
+      "recording": false,
+      "cadence_wall_s": 1.0,
+      "dropped": 0,
+      "next_sequence": 0,
+      "sample_count": 0,
+      "maximum_samples": 128,
+      "latest": null,
+      "policy": "Ângulos críticos osculantes em plano inercial fixo, com primário explícito. Razão de períodos e arco amostrado não provam ressonância ou captura permanente. Leituras passivas, sem força adicional ou reinício do integrador."
+    },
+    "branches": {
+      "maximum_branches": 32,
+      "active_id": "branch:66b6e6c958bc4b54ae4984a40e79ebbd",
+      "branches": [
+        {
+          "id": "branch:66b6e6c958bc4b54ae4984a40e79ebbd",
+          "name": "Fase4 comum aos instrumentos",
+          "parent_id": null,
+          "created_utc": "2026-11-13T12:11:05.306806+00:00",
+          "system_id": "fe941811a69742f4997c8944f826ac75",
+          "time": 0.0,
+          "revision": 0,
+          "frame": "initial_subset_barycenter_inertial_axes_J2000",
+          "record_sha256": "1d8b85b338a1f44484fd53c4eecc40c26687b922ce8b80e1517aa9374d4863d8"
+        },
+        {
+          "id": "branch:71b55f4e5f3c47adbe59ad17e3079746",
+          "name": "Filho16 ampliado",
+          "parent_id": "branch:be496cb08b424c83b50c17858b29dcbf",
+          "created_utc": "2026-11-13T12:11:02.973634+00:00",
+          "system_id": "2ad694b6f482460eb9461fa925a26541",
+          "time": 0.5333333333333333,
+          "revision": 0,
+          "frame": "initial_subset_barycenter_inertial_axes_J2000",
+          "record_sha256": "39c9e5398c97cb68f5e6417937d8dd0f3158f8e832f85c8024032d630eed0f2e"
+        },
+        {
+          "id": "branch:be496cb08b424c83b50c17858b29dcbf",
+          "name": "Origem16 ampliada",
+          "parent_id": null,
+          "created_utc": "2026-11-13T12:11:01.929342+00:00",
+          "system_id": "2ad694b6f482460eb9461fa925a26541",
+          "time": 0.0,
+          "revision": 0,
+          "frame": "initial_subset_barycenter_inertial_axes_J2000",
+          "record_sha256": "b6fdef7dda17eda51246e22423885badbae90f3e31c0e975bac9c2ecbaa34eeb"
+        }
+      ]
+    },
+    "body_field_view": {
+      "schema": 1,
+      "system_id": "fe941811a69742f4997c8944f826ac75",
+      "fixture_sha256": "0c5d6cb7d6bbc6aa3bbafecaca11011ab05020fadbfa8b95c696d593f34af5a9",
+      "configuration": {
+        "selected_body_id": "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:399",
+        "representation": "vector",
+        "earth": [
+          -23.55,
+          -46.63,
+          1000
+        ],
+        "jupiter": [
+          107238000,
+          0,
+          0,
+          13
+        ]
+      },
+      "layer": null
+    },
+    "numerical_policy": {
+      "ias15_adaptive_mode": "PRS23",
+      "single_body_policy": "INDIVIDUAL error criterion for exactly one active mass with zero force; PRS23 for multiple masses",
+      "probe_backreaction": false
+    },
+    "integration_boundary": {
+      "minimum_separation_m": 0.001,
+      "policy": "pause near point-mass singularity; no collision response or merger"
+    },
+    "population_contract": {
+      "active_ids": [
+        "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:10",
+        "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:399",
+        "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:301",
+        "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:599"
+      ],
+      "active_mass_count": 4,
+      "all_active_masses_gravitate": true,
+      "source_initial_population_preserved": true
+    },
+    "gravity_effects": {},
+    "material_tides": null,
+    "test_particle_cloud": null,
+    "dynamics16": null,
+    "atlas_initial": {
+      "schema": 2,
+      "kind": "solar_four_physical_centers",
+      "version": "1.0.0",
+      "branch_id": "d6c94fb1981a4257a1c2c648ff9bbd53",
+      "contract": {
+        "schema": 2,
+        "frame": "initial_subset_barycenter_inertial_axes_J2000",
+        "units": {
+          "system": "canonical",
+          "G": 1.0
+        },
+        "model": "newtonian_point_masses",
+        "collisions": "disabled",
+        "integrator": "IAS15",
+        "epsilon": 1e-09,
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "origin": "explicit geometric coordinate epoch",
+          "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+        },
+        "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for JPL ephemerides",
+        "jupiter_representation": "physical center599 and planet GM; no independent barycenter5 particle",
+        "excluded_influences": [
+          "demais planetas e luas, incluindo luas jovianas",
+          "asteroides e outros corpos menores",
+          "relatividade",
+          "multipolos e deformações de maré",
+          "campos EM e processos estelares",
+          "colisões"
+        ]
+      },
+      "physical_scale": {
+        "schema": 1,
+        "length_unit_m": 1000000000.0,
+        "nominal_GM_unit_m3_s2": 1.3271244e+20,
+        "G_m3_kg_s2": 6.6743e-11,
+        "G_standard_uncertainty": 1.5e-15,
+        "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+        "sources": [
+          "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+          "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+        ],
+        "time_unit_s": 2745.0115932913473,
+        "mass_unit_kg": 1.988409870698051e+30,
+        "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+        "velocity_unit_m_s": 364297.1863739823
+      },
+      "source": {
+        "model": "DE442s + original JUP365 planet599 subset",
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "origin": "explicit geometric coordinate epoch",
+          "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+        },
+        "frame": "J2000/ICRF",
+        "center_naif_id": "0",
+        "aberration": "NONE",
+        "provenance": {
+          "origin": "pinned geometric reference, not observations or an evolved experiment",
+          "kernel_sha256": {
+            "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+            "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+            "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+            "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+          },
+          "catalog_code_sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+        }
+      },
+      "reference_catalog": {
+        "schema": 1,
+        "kind": "solar_four_center_reference",
+        "version": "1.0.0",
+        "model": "DE442s + original JUP365 planet599 subset",
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "origin": "explicit geometric coordinate epoch",
+          "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+        },
+        "frame": "J2000/ICRF",
+        "center_naif_id": "0",
+        "aberration": "NONE",
+        "position_unit": "m",
+        "velocity_unit": "m/s",
+        "render_frame": "GALACTIC",
+        "j2000_to_render_frame": [
+          [
+            -0.054875539395742516,
+            -0.8734371047275961,
+            -0.4838349917700252
+          ],
+          [
+            0.49410945362774383,
+            -0.44482959429757496,
+            0.7469822486998919
+          ],
+          [
+            -0.8676661356833737,
+            -0.19807638961301985,
+            0.4559837945214199
+          ]
+        ],
+        "bodies": [
+          {
+            "id": "sol:naif:10",
+            "naif_id": "10",
+            "name": "Sol",
+            "entity_kind": "physical_body",
+            "position_m": [
+              -176817149.29512244,
+              -707414380.3156806,
+              -291488051.64201283
+            ],
+            "velocity_m_s": [
+              10.431637642443171,
+              4.199911992498089,
+              1.5769685448293278
+            ],
+            "GM": {
+              "value": 1.327124400412533e+20,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "132712440041.253311",
+              "source_line": 49,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "10",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "10",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": null,
+              "model": null,
+              "body_to_j2000": null,
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "unavailable",
+                "model": null,
+                "version": null,
+                "reason": "Campo solar e plasma não adotados nesta candidata.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "pp-I/CNO-I",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "pp-I/CNO-I and beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          },
+          {
+            "id": "sol:naif:399",
+            "naif_id": "399",
+            "name": "Terra",
+            "entity_kind": "physical_body",
+            "position_m": [
+              142010760173.79904,
+              41230953228.36009,
+              17887445563.447414
+            ],
+            "velocity_m_s": [
+              -9594.70764745716,
+              25931.33796021983,
+              11241.190603882991
+            ],
+            "GM": {
+              "value": 398600435544000.0,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "398600.435544",
+              "source_line": 42,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "399",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "399",
+                "3",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": "IAU_EARTH",
+              "model": "general PCK00011",
+              "body_to_j2000": [
+                [
+                  -0.9416892898556734,
+                  0.3364736328717559,
+                  0.0026030276987506567
+                ],
+                [
+                  -0.33647479191255186,
+                  -0.9416924733407406,
+                  -7.797657424713633e-06
+                ],
+                [
+                  0.002448627885689379,
+                  -0.0008831961737625521,
+                  0.9999966120872591
+                ]
+              ],
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "available_bench",
+                "model": "IGRF14",
+                "version": null,
+                "reason": "Instrumento validado separado; associação à cena pendente.",
+                "epoch": null,
+                "frame": null,
+                "domain": "Ver domínio e conversão de eixos da bancada IGRF14.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "AME2020 effective nuclear benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          },
+          {
+            "id": "sol:naif:301",
+            "naif_id": "301",
+            "name": "Lua",
+            "entity_kind": "physical_body",
+            "position_m": [
+              141666134603.85754,
+              41075916205.35465,
+              17787562053.0397
+            ],
+            "velocity_m_s": [
+              -9160.002895729092,
+              25114.764752419364,
+              10833.823908739369
+            ],
+            "GM": {
+              "value": 4902800104000.0,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "4902.800104",
+              "source_line": 50,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "301",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "301",
+                "3",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": "IAU_MOON",
+              "model": "general PCK00011",
+              "body_to_j2000": [
+                [
+                  0.9197432084210847,
+                  -0.392222667116923,
+                  0.015290845724699772
+                ],
+                [
+                  0.3686380699347073,
+                  0.8497457805873022,
+                  -0.37687939950187027
+                ],
+                [
+                  0.13482731161787284,
+                  0.35226905594128455,
+                  0.92613611757027
+                ]
+              ],
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "unavailable",
+                "model": null,
+                "version": null,
+                "reason": "Modelo de campo não adotado nesta candidata. Lua: campo crostal/externo não adotado.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "AME2020 effective nuclear benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          },
+          {
+            "id": "sol:naif:599",
+            "naif_id": "599",
+            "name": "Júpiter",
+            "entity_kind": "physical_body",
+            "position_m": [
+              -531356989811.89465,
+              537443713319.7435,
+              243304724942.26086
+            ],
+            "velocity_m_s": [
+              -9864.096006139429,
+              -7559.796157931543,
+              -3000.136908784328
+            ],
+            "GM": {
+              "value": 1.266865319003704e+17,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+              "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+              "raw_value_km3_s2": "126686531.9003704",
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+              "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+              "source_rows": [
+                {
+                  "line": 83,
+                  "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+                },
+                {
+                  "line": 150,
+                  "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+                }
+              ],
+              "source_resolution_m3_s2": 100.0
+            },
+            "state_provider": {
+              "kind": "geometric_spice_chain",
+              "target_naif_id": "599",
+              "center_naif_id": "0",
+              "frame": "J2000/ICRF",
+              "aberration": "NONE",
+              "chain_naif_ids": [
+                "599",
+                "5",
+                "0"
+              ],
+              "kernels_sha256": {
+                "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+                "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+              },
+              "application_coverage_utc": [
+                "1950-01-01T00:00:00Z",
+                "2050-12-31T23:59:59Z"
+              ],
+              "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+              "source_uncertainty": null,
+              "uncertainty_reason": "Observational uncertainty not propagated locally."
+            },
+            "coverage_et_s": [
+              [
+                -1577879958.8160586,
+                1609416068.1839058
+              ]
+            ],
+            "shape": {
+              "value": null,
+              "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+            },
+            "rotation": {
+              "frame": "IAU_JUPITER",
+              "model": "general PCK00011",
+              "body_to_j2000": [
+                [
+                  -0.5873533520429849,
+                  -0.8091990302468868,
+                  -0.01459346742098662
+                ],
+                [
+                  0.7341956920557889,
+                  -0.5251520071856098,
+                  -0.43031622687931054
+                ],
+                [
+                  0.3405476847823085,
+                  -0.26346213920869754,
+                  0.902560233775556
+                ]
+              ],
+              "precise_orientation": false,
+              "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+            },
+            "capabilities": {
+              "gravity": {
+                "status": "available_reference",
+                "model": "Newtonian point centers",
+                "version": null,
+                "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                "epoch": {
+                  "utc": "2026-10-11T12:00:00.000Z",
+                  "et_tdb_s": 844992069.1823514,
+                  "origin": "explicit geometric coordinate epoch",
+                  "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                },
+                "frame": "J2000/ICRF",
+                "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": [
+                  "state",
+                  "GM"
+                ]
+              },
+              "magnetism": {
+                "status": "unavailable",
+                "model": null,
+                "version": null,
+                "reason": "Modelo de campo não adotado nesta candidata; JRM33 é apenas proposta de estudo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "strong_processes": {
+                "status": "available_bench",
+                "model": "AME2020 effective nuclear benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              },
+              "weak_processes": {
+                "status": "available_bench",
+                "model": "beta decay benches",
+                "version": null,
+                "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                "epoch": null,
+                "frame": null,
+                "domain": null,
+                "provenance": "registered project bench/reference; no automatic coupling",
+                "dependencies": []
+              }
+            }
+          }
+        ],
+        "provenance": {
+          "origin": "pinned geometric reference, not observations or an evolved experiment",
+          "kernel_sha256": {
+            "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+            "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+            "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+            "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+          },
+          "catalog_code_sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+        },
+        "uncertainty": null,
+        "uncertainty_reason": "Numerical agreement is not observational accuracy."
+      },
+      "initial_ssb_origin_m": [
+        -682961686.1834425,
+        -194062507.76470414,
+        -59119763.683327064
+      ],
+      "inertial_origin_velocity_m_s": [
+        0.9853287452846979,
+        -2.9350029553591717,
+        -1.2515832983468462
+      ],
+      "render_frame": "GALACTIC",
+      "j2000_to_render_frame": [
+        [
+          -0.054875539395742516,
+          -0.8734371047275961,
+          -0.4838349917700252
+        ],
+        [
+          0.49410945362774383,
+          -0.44482959429757496,
+          0.7469822486998919
+        ],
+        [
+          -0.8676661356833737,
+          -0.19807638961301985,
+          0.4559837945214199
+        ]
+      ],
+      "generation": {
+        "schema": 1,
+        "model_id": "cosmos2:reduced-sun-earth-moon-jupiter599-newton",
+        "model_version": "1.0.0-candidate",
+        "code_sha256": {
+          "solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+          "solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+          "solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+          "import_dispatch.py": "f634e5377379d34bcf543c3862e1e7790ac2f7598e1c47a2d9b028ca595085d7",
+          "session.py": "caaeaada0ceddf0c39ce4bc0ac4bce24504b9418bd93862fe3a660358718485d",
+          "body_registry.py": "20732fd25f24bd024aad3de96cfd355a3af66c6e0b2a8121b45b13fa43d8be7c",
+          "physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+          "solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+          "earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+          "geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+          "jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+          "jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28"
+        },
+        "runtime": {
+          "python": "3.12.10",
+          "rebound": "5.2.2"
+        },
+        "data_sha256": {
+          "canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+          "igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+          "earth_EOP_PCK": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+          "earth_EOP_receipt": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+          "JRM33_coefficients": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+          "Jupiter_orientation_receipt": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312",
+          "PCK00011": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "LSK": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+        }
+      },
+      "bodies": [
+        {
+          "id": "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:10",
+          "reference_id": "sol:naif:10",
+          "naif_id": "10",
+          "name": "Sol",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 1.327124400412533e+20,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "132712440041.253311",
+            "source_line": 49,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "source_position_m": [
+            -176817149.29512244,
+            -707414380.3156806,
+            -291488051.64201283
+          ],
+          "source_velocity_m_s": [
+            10.431637642443171,
+            4.199911992498089,
+            1.5769685448293278
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 1.0000000003108473,
+          "position": [
+            0.5061445368883201,
+            -0.5133518725509765,
+            -0.23236828795868575
+          ],
+          "velocity": [
+            2.593022743651121e-05,
+            1.9585424249015912e-05,
+            7.764407601744207e-06
+          ]
+        },
+        {
+          "id": "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:399",
+          "reference_id": "sol:naif:399",
+          "naif_id": "399",
+          "name": "Terra",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 398600435544000.0,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "398600.435544",
+            "source_line": 42,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "source_position_m": [
+            142010760173.79904,
+            41230953228.36009,
+            17887445563.447414
+          ],
+          "source_velocity_m_s": [
+            -9594.70764745716,
+            25931.33796021983,
+            11241.190603882991
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 3.0034896166779844e-06,
+          "position": [
+            142.69372185998247,
+            41.42501573612479,
+            17.94656532713074
+          ],
+          "velocity": [
+            -0.02634028846534006,
+            0.07118987994749824,
+            0.030860634140720503
+          ]
+        },
+        {
+          "id": "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:301",
+          "reference_id": "sol:naif:301",
+          "naif_id": "301",
+          "name": "Lua",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 4902800104000.0,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "4902.800104",
+            "source_line": 50,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "source_position_m": [
+            141666134603.85754,
+            41075916205.35465,
+            17787562053.0397
+          ],
+          "source_velocity_m_s": [
+            -9160.002895729092,
+            25114.764752419364,
+            10833.823908739369
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 3.694303340365078e-08,
+          "position": [
+            142.349096290041,
+            41.26997871311936,
+            17.846681816723027
+          ],
+          "velocity": [
+            -0.02514701888218768,
+            0.06894837702531485,
+            0.029742407839830474
+          ]
+        },
+        {
+          "id": "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:599",
+          "reference_id": "sol:naif:599",
+          "naif_id": "599",
+          "name": "Júpiter",
+          "entity_kind": "physical_body",
+          "source_GM": {
+            "value": 1.266865319003704e+17,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+            "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+            "raw_value_km3_s2": "126686531.9003704",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+            "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+            "source_rows": [
+              {
+                "line": 83,
+                "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+              },
+              {
+                "line": 150,
+                "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 100.0
+          },
+          "source_position_m": [
+            -531356989811.89465,
+            537443713319.7435,
+            243304724942.26086
+          ],
+          "source_velocity_m_s": [
+            -9864.096006139429,
+            -7559.796157931543,
+            -3000.136908784328
+          ],
+          "source_uncertainty": {
+            "position_m": null,
+            "velocity_m_s": null
+          },
+          "shape_reference": null,
+          "reference_properties": [],
+          "mass": 0.0009545942482887844,
+          "position": [
+            -530.6740281257112,
+            537.6377758275082,
+            243.3638447059442
+          ],
+          "velocity": [
+            -0.02707976263302062,
+            -0.020743671479302665,
+            -0.008231974985410314
+          ]
+        }
+      ],
+      "initial_state_sha256": "0c5d6cb7d6bbc6aa3bbafecaca11011ab05020fadbfa8b95c696d593f34af5a9"
+    },
+    "restoration": {
+      "status": "same_generation",
+      "saved_generation": {
+        "schema": 1,
+        "model_id": "cosmos2:editable-newtonian-atlas_copy",
+        "model_version": "3.13.0",
+        "candidate_extension": {
+          "id": "is3-body-fields",
+          "version": "0.7.1",
+          "initial_format": "solar_four_physical_centers/1.0.0",
+          "code_sha256": {
+            "solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+            "solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+            "solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+            "import_dispatch.py": "16a9e09ab1ee63faec8033064be6bbea9af7859fc8e145b32f505d1b43c6cdd3",
+            "solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+            "earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+            "geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+            "jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+            "jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28",
+            "body_field_geometry.py": "17a257fe18708f640e3f79e43dac6d78c498dd2844a4633757498ebabfe1afc4",
+            "body_field_scene.py": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805",
+            "body_field_layer.py": "a56118896a743d904312f8bfe466bdc98c19675694e3a17ef7a07ee0df8de3a2",
+            "body_field_lines.py": "ddd0e266f6cc96a4cba64db773a3b801ed5e8ca8cd9b07b88efd92088c93f8f3",
+            "body_field_view.py": "274a3916769331b4518c0aa543acc00fe5f0531b380e76473fbfc101ebdd6933",
+            "body_field_maps.py": "8988d3c437b88c2a6c0db5210dd8710c5ccc7e35b8e2be9b693fe57216e8630f",
+            "body_field_map_geometry.py": "cfa807924eed8c8a06e1ee25f8eb8a759ce37b900bffe7e7a3f58fc619c560bd",
+            "body_field_map_layer.py": "17640635bf80047d537df0be650871d463b5802fb4818a3020210aadcfb7b154",
+            "body_field_points.py": "d054c5c72ef76cabe5cacfc6b78cb67f5b51387a60e2152ee3107127fbe8f169"
+          }
+        },
+        "code_sha256": {
+          "app/cloud_transport.py": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690",
+          "app/cloud_driver.py": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb",
+          "app/test_cloud.py": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826",
+          "app/resonant_angles.py": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0",
+          "app/orbital_instruments.py": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5",
+          "app/equilibrium_tide.py": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06",
+          "app/material_driver.py": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9",
+          "app/material_tides.py": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb",
+          "app/j2_field.py": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7",
+          "app/gravity_harmonics.py": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae",
+          "app/physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+          "app/session.py": "f842e6c55d838b4b091d38761101127a2f8b40f2c08f4476fa72af9624ea5f52",
+          "app/body_registry.py": "e763b3340338d94d5c1288e49951ed8f0b64c8fb50c95494093ca98afadb014d",
+          "app/body_attributes.py": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649",
+          "app/orbital_diagnostics.py": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59",
+          "app/gravity_experiments.py": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474",
+          "app/gravity_field.py": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5",
+          "app/gravity_instruments.py": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7",
+          "app/field_layers.py": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349",
+          "app/field_geometry.py": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55",
+          "app/field_sections.py": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e",
+          "app/instrument_history.py": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3",
+          "app/probe_comparison.py": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb",
+          "app/branch_store.py": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4",
+          "app/worker.py": "e992347907ab68eb981712db379a7a99de1eb3bb67e29af2876c457e511abe66"
+        },
+        "data_sha256": {
+          "data/science/canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+          "data/science/gravity-experiments.json": "98ddf2234b0b4b7703accdf264dde60bd95b43c1240557419cd38688e7c5dafd",
+          "data/science/igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+          "output/is3-earth-orientation-staging/earth_000101_270118_261022.bpc": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+          "evidence/is3-earth-orientation-acquisition-20261023.json": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+          "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+          "output/is3-body-points-product/app/jrm33-coefficients.json": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+          "evidence/is3-jupiter-orientation-acquisition-20261023b.json": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312"
+        },
+        "runtime": {
+          "python": "3.12.10",
+          "rebound": "5.2.2",
+          "numpy": "2.5.4"
+        }
+      },
+      "current_generation": {
+        "schema": 1,
+        "model_id": "cosmos2:editable-newtonian-atlas_copy",
+        "model_version": "3.13.0",
+        "candidate_extension": {
+          "id": "is3-body-fields",
+          "version": "0.7.1",
+          "initial_format": "solar_four_physical_centers/1.0.0",
+          "code_sha256": {
+            "solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+            "solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+            "solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+            "import_dispatch.py": "16a9e09ab1ee63faec8033064be6bbea9af7859fc8e145b32f505d1b43c6cdd3",
+            "solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+            "earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+            "geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+            "jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+            "jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28",
+            "body_field_geometry.py": "17a257fe18708f640e3f79e43dac6d78c498dd2844a4633757498ebabfe1afc4",
+            "body_field_scene.py": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805",
+            "body_field_layer.py": "a56118896a743d904312f8bfe466bdc98c19675694e3a17ef7a07ee0df8de3a2",
+            "body_field_lines.py": "ddd0e266f6cc96a4cba64db773a3b801ed5e8ca8cd9b07b88efd92088c93f8f3",
+            "body_field_view.py": "274a3916769331b4518c0aa543acc00fe5f0531b380e76473fbfc101ebdd6933",
+            "body_field_maps.py": "8988d3c437b88c2a6c0db5210dd8710c5ccc7e35b8e2be9b693fe57216e8630f",
+            "body_field_map_geometry.py": "cfa807924eed8c8a06e1ee25f8eb8a759ce37b900bffe7e7a3f58fc619c560bd",
+            "body_field_map_layer.py": "17640635bf80047d537df0be650871d463b5802fb4818a3020210aadcfb7b154",
+            "body_field_points.py": "d054c5c72ef76cabe5cacfc6b78cb67f5b51387a60e2152ee3107127fbe8f169"
+          }
+        },
+        "code_sha256": {
+          "app/cloud_transport.py": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690",
+          "app/cloud_driver.py": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb",
+          "app/test_cloud.py": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826",
+          "app/resonant_angles.py": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0",
+          "app/orbital_instruments.py": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5",
+          "app/equilibrium_tide.py": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06",
+          "app/material_driver.py": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9",
+          "app/material_tides.py": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb",
+          "app/j2_field.py": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7",
+          "app/gravity_harmonics.py": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae",
+          "app/physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+          "app/session.py": "f842e6c55d838b4b091d38761101127a2f8b40f2c08f4476fa72af9624ea5f52",
+          "app/body_registry.py": "e763b3340338d94d5c1288e49951ed8f0b64c8fb50c95494093ca98afadb014d",
+          "app/body_attributes.py": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649",
+          "app/orbital_diagnostics.py": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59",
+          "app/gravity_experiments.py": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474",
+          "app/gravity_field.py": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5",
+          "app/gravity_instruments.py": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7",
+          "app/field_layers.py": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349",
+          "app/field_geometry.py": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55",
+          "app/field_sections.py": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e",
+          "app/instrument_history.py": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3",
+          "app/probe_comparison.py": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb",
+          "app/branch_store.py": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4",
+          "app/worker.py": "e992347907ab68eb981712db379a7a99de1eb3bb67e29af2876c457e511abe66"
+        },
+        "data_sha256": {
+          "data/science/canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+          "data/science/gravity-experiments.json": "98ddf2234b0b4b7703accdf264dde60bd95b43c1240557419cd38688e7c5dafd",
+          "data/science/igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+          "output/is3-earth-orientation-staging/earth_000101_270118_261022.bpc": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+          "evidence/is3-earth-orientation-acquisition-20261023.json": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+          "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+          "output/is3-body-points-product/app/jrm33-coefficients.json": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+          "evidence/is3-jupiter-orientation-acquisition-20261023b.json": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312"
+        },
+        "runtime": {
+          "python": "3.12.10",
+          "rebound": "5.2.2",
+          "numpy": "2.5.4"
+        }
+      }
+    },
+    "conservation": {
+      "scope": "translational Newtonian centers; kinematic spin/internal energy excluded",
+      "reference": {
+        "time": 0.0,
+        "total_mass": 1.0009576349917861,
+        "energy": -6.234998608693125e-07,
+        "kinetic_energy": 5.984905458784205e-07,
+        "potential_energy": -1.221990406747733e-06,
+        "momentum": [
+          2.6544225856826658e-21,
+          2.401718908547716e-21,
+          1.0348029463038376e-21
+        ],
+        "angular_momentum": [
+          0.0005947440298780276,
+          -0.010485915368345743,
+          0.024463744765263282
+        ],
+        "barycenter": [
+          3.792177224925054e-17,
+          4.4042711689187415e-17,
+          2.3124935860092644e-17
+        ],
+        "barycenter_velocity": [
+          2.6518830496801675e-21,
+          2.399421138905069e-21,
+          1.0338129308662791e-21
+        ],
+        "momentum_scale": 6.71570577017535e-05,
+        "angular_momentum_scale": 0.026622987418513756,
+        "policy": "initial_condition",
+        "active_ids": [
+          "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:10",
+          "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:399",
+          "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:301",
+          "exp:d6c94fb1981a4257a1c2c648ff9bbd53:naif:599"
+        ],
+        "energy_reference_time": 0.0
+      },
+      "current": {
+        "time": 0.0,
+        "total_mass": 1.0009576349917861,
+        "energy": -6.234998608693125e-07,
+        "kinetic_energy": 5.984905458784205e-07,
+        "potential_energy": -1.221990406747733e-06,
+        "momentum": [
+          2.6544225856826658e-21,
+          2.401718908547716e-21,
+          1.0348029463038376e-21
+        ],
+        "angular_momentum": [
+          0.0005947440298780276,
+          -0.010485915368345743,
+          0.024463744765263282
+        ],
+        "barycenter": [
+          3.792177224925054e-17,
+          4.4042711689187415e-17,
+          2.3124935860092644e-17
+        ],
+        "barycenter_velocity": [
+          2.6518830496801675e-21,
+          2.399421138905069e-21,
+          1.0338129308662791e-21
+        ],
+        "momentum_scale": 6.71570577017535e-05,
+        "angular_momentum_scale": 0.026622987418513756
+      },
+      "SI": {
+        "total_mass_kg": 1.9903140415682445e+30,
+        "energy_J": -1.6453333673453207e+35,
+        "kinetic_energy_J": 1.5793371049057545e+35,
+        "potential_energy_J": -3.224670472251075e+35,
+        "momentum_kg_m_s": [
+          1922789719094296.0,
+          1739738220439479.0,
+          749582405293538.2
+        ],
+        "angular_momentum_kg_m2_s": [
+          4.308159945256339e+41,
+          -7.595704758653846e+42,
+          1.7720854689419287e+43
+        ],
+        "barycenter_m": [
+          3.7921772249250536e-08,
+          4.4042711689187414e-08,
+          2.3124935860092643e-08
+        ],
+        "barycenter_velocity_m_s": [
+          9.660735335913404e-16,
+          8.7410236982937275e-16,
+          3.7661514195162574e-16
+        ],
+        "expected_barycenter_m": [
+          3.7921772249250536e-08,
+          4.4042711689187414e-08,
+          2.3124935860092643e-08
+        ],
+        "barycenter_drift_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "energy_error_absolute_J": 0.0,
+        "momentum_error_norm_kg_m_s": 0.0,
+        "angular_momentum_error_norm_kg_m2_s": 0.0,
+        "barycenter_drift_norm_m": 0.0
+      },
+      "momentum_error_normalized": 0.0,
+      "angular_momentum_error_normalized": 0.0
+    },
+    "history_evaluation_ms": 0.0006999998731771484
+  },
+  "stored_unchanged": true,
+  "owner_view_restored": true
+}

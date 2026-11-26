@@ -1,0 +1,13 @@
+{
+  "accepted": true,
+  "completed": true,
+  "files": 11865,
+  "changed": [
+    "evidence/github-source-sync-20261121a.json",
+    "evidence/native-spatial-roundtrip-20261121a.json",
+    "output/native-spatial-roundtrip-20261121a/current-export-preview-result.png"
+  ],
+  "inventory_sha256": "5918f7f240d14544f687099cbd3ff78b3d0dd7e6f306a2e32f186569c6e30f3e",
+  "script_sha256": "9f87a1dcd31f59d9e8409a264ed33c104c9208a96c6121421caf9fb6fb9f031c",
+  "scope": "Incremental append only. Existing inventoried helper source is verified and retained; completed diagnostic evidence added if available. No private session or Windows home-directory image, no scientific rerun or publication."
+}

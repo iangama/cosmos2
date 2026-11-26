@@ -1,0 +1,9 @@
+{
+  "prepared": true,
+  "executed": false,
+  "base_sha256": "4fca6eed71ab2dff18c1a6f1dac0c9757f05964b68e8929956a828e052055454",
+  "target_sha256": "d6ded364dc4d9a0f2f752143ad3f8b155f6a9ef85f7b9d6f3ab4369059366b10",
+  "failed_receipt_sha256": "f428708380bfb082243df73ffcf07e961fa66540a4934f4648789f670cb21565",
+  "product_changed": false,
+  "change": "Use real orbital worker earth_field/jupiter_field readings with matching scientific_generation for particle admission; compare independent raw reading exactly."
+}

@@ -1,0 +1,14 @@
+{
+  "accepted": true,
+  "completed": true,
+  "destination": "/mnt/c/Users/Ian/cosmos2-github-snapshot-20261103",
+  "files": 2271,
+  "changed": [
+    "IS-6-COEXISTENCIA-MIGRACAO-NATIVA-K5-CONTRATO.md",
+    "scripts/verify-native-is6-layers-import.py"
+  ],
+  "preserved_missing_sources": [],
+  "inventory_sha256": "f6d0f9d33061e5287246b8c38de1268b5f008d60f35b0266b3eaada461f3654a",
+  "script_sha256": "33eff56d6cd8aeaf90280460ae796f6df2b566beb537c7dbd9c5c416499c9e5c",
+  "scope": "Partial source/evidence backup only; excludes runtimes, personal sessions, binary archives and most generated records. Does not install the product or constitute full reproducibility."
+}

@@ -1,0 +1,108 @@
+{
+  "accepted": false,
+  "completed": true,
+  "native_user_flow_accepted": false,
+  "scope": "Isolated page DOM/keyboard/layout regression checks. No native renderer or original owner-entry acceptance.",
+  "source_sha256": {
+    "scripts/verify-option-controls-ui-v3.cjs": "2e4cb2bd5c38fd64082cc117ffd5ec5bcf2696e0a66cc7d153de52bc41f93cc1",
+    "output/original-flow-hotfix-product0.27.4/app/ui/index.html": "ee25faec857370966b4e386ab5970f66035787cfc73c1c121d53b3e69f374df7",
+    "output/original-flow-hotfix-product0.27.4/app/ui/forces.html": "8bf132c61ed40d9d3f3a47164478e09a8b0c7c7898340a14e3242ca85f29ac11",
+    "output/original-flow-hotfix-product0.27.4/app/ui/forces.js": "4d9366d91d340dea97bc0feeae0816e7373cd831c0d5aa45cf7cf1e207353c94",
+    "output/original-flow-hotfix-product0.27.4/app/ui/option-controls.css": "5f497f6332c2efcc909393ebe43ef5d9add9f63cbc2e473921f4577a4a72a938",
+    "output/original-flow-hotfix-product0.27.4/app/ui/option-controls.js": "4b60e20b8c5e10904626d145ead595b44361f8cd6f1a0c3925c7d4fbdf8afe47"
+  },
+  "checks": [
+    {
+      "name": "mouse-opens-readable-options-and-selects-once",
+      "passed": true
+    },
+    {
+      "name": "same-option-does-not-trigger-recalculation",
+      "passed": true
+    },
+    {
+      "name": "escape-cancels-without-changing-selection",
+      "passed": true
+    },
+    {
+      "name": "keyboard-skips-disabled-and-hidden-options",
+      "passed": true
+    },
+    {
+      "name": "disabled-choice-remains-inert",
+      "passed": true
+    },
+    {
+      "name": "fieldset-disabled-closes-an-open-popup",
+      "passed": true
+    },
+    {
+      "name": "dynamic-options-and-programmatic-value-stay-readable",
+      "passed": true
+    },
+    {
+      "name": "empty-options-explain-the-state",
+      "passed": true
+    },
+    {
+      "name": "typing-finds-accented-option",
+      "passed": true
+    },
+    {
+      "name": "label-click-opens-the-correct-control",
+      "passed": true
+    },
+    {
+      "name": "form-data-retains-only-original-fields",
+      "passed": true
+    },
+    {
+      "name": "bottom-popup-fits-and-clicks-at-1",
+      "passed": true
+    },
+    {
+      "name": "bottom-popup-fits-and-clicks-at-1.25",
+      "passed": true
+    },
+    {
+      "name": "bottom-popup-fits-and-clicks-at-1.5",
+      "passed": true
+    },
+    {
+      "name": "long-list-scroll-reaches-the-last-option",
+      "passed": true
+    },
+    {
+      "name": "actual-forces-form-keeps-parameter-names-and-change-events",
+      "passed": false,
+      "error": "false == true",
+      "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at /mnt/c/Users/Ian/cosmos2/scripts/verify-option-controls-ui-v3.cjs:108:3\n    at async test (/mnt/c/Users/Ian/cosmos2/scripts/verify-option-controls-ui-v3.cjs:38:55)\n    at async main (/mnt/c/Users/Ian/cosmos2/scripts/verify-option-controls-ui-v3.cjs:102:2)",
+      "errors": []
+    },
+    {
+      "name": "forces-legend-control-keeps-a-single-grid-row",
+      "passed": false,
+      "error": "locator.click: Timeout 2500ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#chart-axis-choice')\u001b[22m\n\u001b[2m    - locator resolved to <span tabindex=\"0\" role=\"combobox\" aria-expanded=\"false\" aria-disabled=\"false\" id=\"chart-axis-choice\" aria-haspopup=\"listbox\" class=\"c2-choice-trigger\" aria-controls=\"c2-options-list\" aria-label=\"Escala das curvas: Linear\">…</span>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    4 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+      "stack": "locator.click: Timeout 2500ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#chart-axis-choice')\u001b[22m\n\u001b[2m    - locator resolved to <span tabindex=\"0\" role=\"combobox\" aria-expanded=\"false\" aria-disabled=\"false\" id=\"chart-axis-choice\" aria-haspopup=\"listbox\" class=\"c2-choice-trigger\" aria-controls=\"c2-options-list\" aria-label=\"Escala das curvas: Linear\">…</span>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    4 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n    at choose (/mnt/c/Users/Ian/cosmos2/scripts/verify-option-controls-ui-v3.cjs:42:74)\n    at /mnt/c/Users/Ian/cosmos2/scripts/verify-option-controls-ui-v3.cjs:114:9\n    at async test (/mnt/c/Users/Ian/cosmos2/scripts/verify-option-controls-ui-v3.cjs:38:55)\n    at async main (/mnt/c/Users/Ian/cosmos2/scripts/verify-option-controls-ui-v3.cjs:111:2)",
+      "errors": []
+    },
+    {
+      "name": "data-page-inherits-the-selected-interface-scale",
+      "passed": true
+    }
+  ],
+  "captures": [
+    {
+      "path": "output/option-controls-ui-20261120c/popup-1.png",
+      "sha256": "7257e512ded13f27dc2bc62add319e4d55d146a8cb390b484bcb5eb11f7c84ef"
+    },
+    {
+      "path": "output/option-controls-ui-20261120c/popup-1.25.png",
+      "sha256": "ca5fdef269f0a8557320a4dc022e6193704ad9b646f296d1dba528156f87c1ee"
+    },
+    {
+      "path": "output/option-controls-ui-20261120c/popup-1.5.png",
+      "sha256": "59d699fe9f8084e49d493b0b483b695c83403178b18ab7475b4259f575e00032"
+    }
+  ]
+}

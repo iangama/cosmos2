@@ -1,0 +1,393 @@
+{
+  "accepted": true,
+  "completed": true,
+  "files": [
+    {
+      "relative": "gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/118f49e4043249c18399885f06f17a31.bin",
+      "sha256": "4bf770d8cc9c0ed1467864391421bd69d19dfd44086e176521e55391721bc86a"
+    },
+    {
+      "relative": "gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/branch.json",
+      "sha256": "9136a71ce685f9db4ac8825517122de0910f0fc56bf73b1563db067a25f71506"
+    },
+    {
+      "relative": "gravity-sessions/branches/66b6e6c958bc4b54ae4984a40e79ebbd/latest.json",
+      "sha256": "c17d1445842efe76b3ebd2505eff104106e7fae5b4c8e0d03c0b62bebea6e315"
+    },
+    {
+      "relative": "gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/1011378199274b588c2e0614d3460aca.bin",
+      "sha256": "9195be01b504e35696200e996e891cf62ababd8088c296521160ddef7004b3d1"
+    },
+    {
+      "relative": "gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/branch.json",
+      "sha256": "4524384fc43da24011573758a56a2e350b1cc7e9b95a45604624ff945e69ba7e"
+    },
+    {
+      "relative": "gravity-sessions/branches/71b55f4e5f3c47adbe59ad17e3079746/latest.json",
+      "sha256": "6161761a649ae5078c776b6264e551f34c020fb35c72daf373feead59ee061b1"
+    },
+    {
+      "relative": "gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/9464f433a70f48ed9bcf74693b8d6d31.bin",
+      "sha256": "d1536c178dda1d5d497c4a4dabd3f66c35a2cb47d7bcf38de5fe0ee7cceb4d69"
+    },
+    {
+      "relative": "gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/branch.json",
+      "sha256": "882edc1c38b43a5c22e0541f6fe1f42eba0b0510129aa03bc1d987b005f32f31"
+    },
+    {
+      "relative": "gravity-sessions/branches/be496cb08b424c83b50c17858b29dcbf/latest.json",
+      "sha256": "2476c507043ad5807a6e646e30119006eceac433dfe2d5bf226bab75dd229fe2"
+    },
+    {
+      "relative": "gravity-sessions/ce44ba90f8b045c8b433624431dfbd02.bin",
+      "sha256": "cba5dfda2668067a0f68dab23cd20ed160116a7bd0482060b1f0e1270e7daa0c"
+    },
+    {
+      "relative": "gravity-sessions/e4fffb4bb5d24c058a357bb42cc73872.bin",
+      "sha256": "d1536c178dda1d5d497c4a4dabd3f66c35a2cb47d7bcf38de5fe0ee7cceb4d69"
+    },
+    {
+      "relative": "gravity-sessions/latest.json",
+      "sha256": "4ac1044062b35ee43fb1b0f06c3b80da1316e51a1e901d3c5d0cb1617b1f3a2c"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/exports/089e05948dba4b688d95927f71bfc84f.json",
+      "sha256": "6c3cc8df1e1d2f4c4a43ca3d210100c6a506d63c468c16151ca7cdb858693c5c"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/exports/0db7a8400d4d4922ab62c4e1ff68abdf.json",
+      "sha256": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/exports/0fc6b39c528c4fc587d0d1313c63e2d6.json",
+      "sha256": "b84ec74a0b55de7f0eeeaf3034a819e23680ff4f3e48e09a528687fa7ce09fe4"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/exports/3579c564081b4b19b55b7778a8681f8b.json",
+      "sha256": "e973d1a1d6e0f5a490db84eae44434a522070f4e93000b5e4a8ff31340cd63a9"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/exports/834c4caa4eaa4112a9d30a9cc6514e53.json",
+      "sha256": "492926e53131a55d96bd094bc8718e47287247697be3342e35ffcf56870bfe83"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/exports/c301b9efcab2452c8704efab13081cd1.json",
+      "sha256": "9944c3ebe3315be5fcbbd953652520544947fc139eec96edb0b434501b54b0d5"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/binding.json",
+      "sha256": "aacf0eb5bf332cc4e33140b1c8a90a693e850cb0491c3767a81fee55a75386e5"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/420b0c10c287487db23ef22a0a163c63/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/binding.json",
+      "sha256": "b29b19e438b9237c03ad871c946cd1c1ca0193b06f067b89ba0b92699e845853"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/5df09ea3522b46518b98516bf75a04a1/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/binding.json",
+      "sha256": "2a833c51ac537601866044440c35231a49bfb30daa28fc604c5e4b49696ccde0"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/657e6de232c14d9cb46e9e8bada87173/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/binding.json",
+      "sha256": "5deec17c889f751c0d53d7e9026aa0b49aff22e8882c9760e4cd0bf42cdff462"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/66bb29a2b81f49abb00757936df0604a/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/binding.json",
+      "sha256": "260864dd04b2ed318df4273ea4a6794dccc66f6404f75f05a1f734260008abf0"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/b7f3cacd9005491a90990b6f15abd76f/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/binding.json",
+      "sha256": "33e4b1b6ffd0285773c3aadbb77a5d82da515d9aeed6165b983d053525c619ff"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/b9f43138d8774035ab0530b2626e60dd/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/binding.json",
+      "sha256": "d8275f496afce097f89e2202db3d22848fd07802deb4c22064e40b629bab3781"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/previews/d1b2f3534ea3404fb7cee0aa931d0976/wire.speck",
+      "sha256": "3e5326f2cc09c928379891dc3b9adc5ef4f4bd3f9cbdd00482db8861e519b6ab"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/saved.json",
+      "sha256": "842e9d76340b2b656a9838d1d529ed63de46053bca56b8358b453ebcd3ae5985"
+    },
+    {
+      "relative": "is6-spatial-import-service-records/writer.lock",
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+    },
+    {
+      "relative": "layer-checkpoints/branches/1aecd25eb473477d9eab82da8829f0aa.json",
+      "sha256": "949a22866a259920e91a564937a35b025274acfc44dbefd0af054a5795469d18"
+    },
+    {
+      "relative": "layer-checkpoints/branches/3e41e18bc73f40f5b81e98baee4a294b.json",
+      "sha256": "aaeb245b5a03b46a9e959daa3bf8153f2780c911b4d1fe03a14995e703301e25"
+    },
+    {
+      "relative": "layer-checkpoints/exports/074696b5dc8141e1915156576f922b70.json",
+      "sha256": "68b42dd3a070889242eb0a8752cfe2c755d6926bc0c2288fe15adaf6169ba383"
+    },
+    {
+      "relative": "layer-checkpoints/exports/40fdb9138f714b088ff75dbef9a02cb8.json",
+      "sha256": "482c4465ef043dea816d7bcd5f0b7e695fd9dfbf8b61cd162a2c0121bc75522b"
+    },
+    {
+      "relative": "layer-checkpoints/exports/64af0f5f95934640af8f0c74cdc033a3.json",
+      "sha256": "c0b9a951ac363b658ee389c440502744faac6be2292b1a6563e57aac7228f7a8"
+    },
+    {
+      "relative": "layer-checkpoints/exports/73c06dcfa44b4e15a224f8f0a47c05fd.json",
+      "sha256": "0a10ce8bf1131328687967f5ebe315b51a472c1a8a0ec4acf4e09f9b1c211a17"
+    },
+    {
+      "relative": "layer-checkpoints/exports/7a966d797b5b4aab85411e564e07e66d.json",
+      "sha256": "09adbd4f1adb2c2bbc98a209a3426c2b71e8045e3df73c959bccfcc3aecf287c"
+    },
+    {
+      "relative": "layer-checkpoints/exports/9fd00dd025414da7a13858b43d554ff9.json",
+      "sha256": "77c32ed59b81fe391051ba476906e8554a8052fc63afacb302d4ea495e73ac51"
+    },
+    {
+      "relative": "layer-checkpoints/exports/a77d47756bb444eda42d2c43140fe66e.json",
+      "sha256": "a526753d86c4f4c9280f3a3b59d1e6edc1940672f6e4a5b931506ba86d6ac456"
+    },
+    {
+      "relative": "layer-checkpoints/exports/c4fe2707543a4494864b79d9e3e4a54c.json",
+      "sha256": "b02bb3f7af081f5e280c98b2858200ee0e13c3e8d523b80fc3d0fd7c7cb328a8"
+    },
+    {
+      "relative": "layer-checkpoints/latest.json",
+      "sha256": "c95cb70f0610f5f57a3772ed7867e7e11bb39deb74e0a17fb931996f867c7fa5"
+    },
+    {
+      "relative": "layer-previews/570cfda2ce6a4863afcfefe65d54555e/binding.json",
+      "sha256": "1ce04d6c174bbf836cf71eda588865b74b48748adeb53dfe2540d2a9b244948b"
+    },
+    {
+      "relative": "layer-previews/570cfda2ce6a4863afcfefe65d54555e/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "layer-previews/570cfda2ce6a4863afcfefe65d54555e/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "relative": "layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/binding.json",
+      "sha256": "aa503653deb7a26f5896f2e4def66a8a24361355d4e6b9e361208342a21d5b39"
+    },
+    {
+      "relative": "layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "layer-previews/93fce4bf0b414002bdd9919fa8f90ff2/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "relative": "layer-previews/cc42e1f46b0044069cf61d9e69799786/binding.json",
+      "sha256": "39d132b6f059416f2fe51a9b582e890a07875d61f6427cdc9f3f01a7bd0d52ef"
+    },
+    {
+      "relative": "layer-previews/cc42e1f46b0044069cf61d9e69799786/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "layer-previews/cc42e1f46b0044069cf61d9e69799786/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "relative": "layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/binding.json",
+      "sha256": "68eb1a2a135f76a654a0debd6ac0cfb888c2a854b37fe01978ceae7faf6976b0"
+    },
+    {
+      "relative": "layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "layer-previews/cd83fb48cc29448ba22d55fee6dafe4a/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "relative": "layer-previews/d078e64eb0064f3995938fa090021d74/binding.json",
+      "sha256": "02c3290ddfc72f7e1fa36482ce3dd72bfb78b9a9c8aa51ae8e49178bd8d199ea"
+    },
+    {
+      "relative": "layer-previews/d078e64eb0064f3995938fa090021d74/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "layer-previews/d078e64eb0064f3995938fa090021d74/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "relative": "layer-previews/eaed756948a94dffa9921c677a245d85/binding.json",
+      "sha256": "416ec04783ea3111e0b4f3cfcc7bbf97178735abf781836893533c47c4b20cb1"
+    },
+    {
+      "relative": "layer-previews/eaed756948a94dffa9921c677a245d85/wire.names",
+      "sha256": "f3c5fa3abc519e8bcf4853b222950122c45f6194a4e8f4d5c1d01042d51ab0be"
+    },
+    {
+      "relative": "layer-previews/eaed756948a94dffa9921c677a245d85/wire.speck",
+      "sha256": "efa3015f94ddbc36c5417c8cea3750e8266f978b5606b04722f712dd124a0bd4"
+    },
+    {
+      "relative": "navigation/favorites.json",
+      "sha256": "ae655fc73c34d0682ba651db5cc3ea4c3238ad43994cac3e14a60cdc6b25d209"
+    },
+    {
+      "relative": "particle-checkpoints/branches/3ea8665c689048aa9e1fa7c2d06c5449.json",
+      "sha256": "852b8c6391a56cec6fd9d56c44b338cac34ccf3cb6c83d666847dab313177a23"
+    },
+    {
+      "relative": "particle-checkpoints/branches/b9c53b8d220648bc996aabcf566ed169.json",
+      "sha256": "e4630346e9c3efa927337d34d625a240ea16af0fbccbace7f8313a0b2d0083bf"
+    },
+    {
+      "relative": "particle-checkpoints/saved.json",
+      "sha256": "803ca08ad8158e1067551eadf8b373cb9544f0e3e9918a1b53c6c773479a2d16"
+    },
+    {
+      "relative": "solar-zone-checkpoints/branches/0cfbd5275a0f499f807ae94a378f6512.json",
+      "sha256": "74f0044287d374991f3f59ed5c08cc700746963fa5209ad4c5bafce34444d908"
+    },
+    {
+      "relative": "solar-zone-checkpoints/exports/3b6ff33f48d84e148eb765af36e8378b.json",
+      "sha256": "0b9cd711b67b196d0e3c31b6136b0260c5233d368c10511a980fa2fac7ef2e47"
+    },
+    {
+      "relative": "solar-zone-checkpoints/saved.json",
+      "sha256": "a7e3a96fb55889b6a1d903b5f2533b2a402c98294f48329e5998353902b4c678"
+    },
+    {
+      "relative": "user/exports/cosmos2-forces-gravity-20261120T202934Z-6fa3f66c.json",
+      "sha256": "cdd3f071a59578e4fd5d1f12e6cdff012ba0483d148077a9fc09883d22b87dc0"
+    },
+    {
+      "relative": "user/exports/cosmos2-forces-gravity-20261120T202948Z-a2e2ecb1.json",
+      "sha256": "40f4412a038a2fcfa5e20b763f565d57535d54702a18a30d202b249fea8a1dd0"
+    },
+    {
+      "relative": "user/exports/cosmos2-forces-strong-20261120T195919Z-f9d093b6.json",
+      "sha256": "b8ebc4329a2562e5d5709ab3541d5f4d495a613bffaf2fb3f790c0e442189831"
+    },
+    {
+      "relative": "user/forces/latest.json",
+      "sha256": "902a90b8eb6399cf68a0419f19920213d6bbbc5980c332ef2fbe392c70596eaf"
+    }
+  ],
+  "scope": "Preserve idle Atlas context and all mutable product files; normal Windows shutdown, then local revision selection. No scientific promotion. Native mouse acceptance remains pending.",
+  "session": {
+    "app": 2372,
+    "server": 21812,
+    "launcher": 33768,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.3-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.3\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.3\\gravity-sessions",
+    "started": "2026-11-21T01:09:50Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.3",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "context": {
+    "et": 844992069.1823514,
+    "navigation": {
+      "Anchor": "Earth",
+      "Position": [
+        17674090.6536026,
+        -1566585.506652832,
+        18170644.716644287
+      ],
+      "ReferenceFrame": "Root",
+      "Timestamp": "2026 OCT 11 12:00:00",
+      "Up": [
+        -0.7126743196161897,
+        0.06316960130824945,
+        0.6986450569711036
+      ]
+    },
+    "paused": true,
+    "rate": 0.0,
+    "utc": "2026-10-11T12:00:00.000"
+  },
+  "app_exit": 0,
+  "close_actions": [
+    {
+      "input": "Windows keyboard",
+      "key": 115,
+      "ctrl": false,
+      "alt": true,
+      "scancode": 62,
+      "extended": false
+    }
+  ],
+  "process_result": "output/local-product-launches/1795223385446998100/process-result.json",
+  "selection_sha256": "08857928c44350ab09b3699691a6b8ecad52ab610e27c586c7640c1e12cfb68f",
+  "source_manifest_sha256": "dec68c1903ccf743574c68cf884c45be97bc684dd53ad10fcb0dbc93403ba8ea",
+  "target_manifest_sha256": "f2e60877e7b4b99a81423e22d9596728d4141481734a655f8768c9c6bc2d9191",
+  "script_sha256": "8ab7ec6c52170a7376242344d6ac532a64902689d250d52104c316541c6b1f44"
+}

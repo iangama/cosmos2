@@ -1,0 +1,169 @@
+diff --git a/src/font/font.cpp b/src/font/font.cpp
+index 615a15ec..0042df5a 100644
+--- a/src/font/font.cpp
++++ b/src/font/font.cpp
+@@ -26,6 +26,7 @@
+ #include <ghoul/font/font.h>
+ 
+ #include <ghoul/font/fonterrors.h>
++#include <ghoul/font/utf8.h>
+ #include <ghoul/format.h>
+ #include <ghoul/freetype.h>
+ #include <ghoul/logging/logmanager.h>
+@@ -205,8 +206,7 @@ glm::vec2 Font::boundingBox(std::string_view text) {
+         const std::string_view line = extractLine(text);
+ 
+         float width = 0.f;
+-        for (const char c : line) {
+-            wchar_t character = c;
++        for (wchar_t character : decodeFontUtf8(line)) {
+             if (character == wchar_t('\t')) {
+                 character = wchar_t(' ');
+             }
+@@ -286,10 +286,10 @@ void Font::loadGlyphs(std::vector<wchar_t> characters) {
+     loadFace(_name, _pointSize * HighResolutionFactor, libraryHighRes, faceHighRes);
+ 
+     // Check for invalid glyph codes first
+-    for (wchar_t& charcode : characters) {
++    for (const wchar_t charcode : characters) {
+         const FT_UInt glyphIndex = FT_Get_Char_Index(face, charcode);
+         if (glyphIndex == 0) {
+-            // Invalid glyph; replace with a space
++            // Invalid glyph; use space metrics under the original lookup key
+             LWARNINGC(
+                 "Font",
+                 std::format(
+@@ -297,7 +297,7 @@ void Font::loadGlyphs(std::vector<wchar_t> characters) {
+                 )
+             );
+ 
+-            charcode = ' ';
++            // Preserve the requested key so a missing glyph is cached once.
+         }
+     }
+ 
+@@ -325,7 +325,8 @@ void Font::loadGlyphs(std::vector<wchar_t> characters) {
+         unsigned int width = 0;
+         unsigned int height = 0;
+ 
+-        const FT_UInt glyphIndex = FT_Get_Char_Index(face, charcode);
++        FT_UInt glyphIndex = FT_Get_Char_Index(face, charcode);
++        if (glyphIndex == 0) { glyphIndex = FT_Get_Char_Index(face, ' '); }
+         ghoul_assert(glyphIndex != 0, "Glyph index not found");
+ 
+         const FT_Error error = FT_Load_Glyph(face, glyphIndex, FT_LOAD_FORCE_AUTOHINT);
+diff --git a/src/font/fontrenderer.cpp b/src/font/fontrenderer.cpp
+index b663d67e..3a7c5ed4 100644
+--- a/src/font/fontrenderer.cpp
++++ b/src/font/fontrenderer.cpp
+@@ -27,6 +27,7 @@
+ 
+ #include <ghoul/filesystem/filesystem.h>
+ #include <ghoul/font/font.h>
++#include <ghoul/font/utf8.h>
+ #include <ghoul/format.h>
+ #include <ghoul/logging/logmanager.h>
+ #include <ghoul/misc/assert.h>
+@@ -475,11 +476,12 @@ FontRenderer::BoundingBoxInformation FontRenderer::render(Font& font,
+     glm::vec2 movingPos = pos;
+     do {
+         const std::string_view line = extractLine(text);
++        const std::vector<wchar_t> characters = decodeFontUtf8(line);
+         movingPos.x = pos.x;
+         float width = 0.f;
+         float height = 0.f;
+-        for (size_t j = 0; j < line.size(); j++) {
+-            wchar_t character = line[j];
++        for (size_t j = 0; j < characters.size(); j++) {
++            wchar_t character = characters[j];
+             if (character == wchar_t('\t')) {
+                 character = wchar_t(' ');
+             }
+@@ -489,7 +491,7 @@ FontRenderer::BoundingBoxInformation FontRenderer::render(Font& font,
+ 
+             const Font::Glyph* glyph = font.glyph(character);
+             if (j > 0) {
+-                movingPos.x += glyph->kerning(line[j - 1]);
++                movingPos.x += glyph->kerning(characters[j - 1]);
+             }
+ 
+             const float x0 = movingPos.x + glyph->leftBearing;
+@@ -597,17 +599,18 @@ FontRenderer::BoundingBoxInformation FontRenderer::render(Font& font,
+     float heightInPixels = 0.f;
+     do {
+         const std::string_view line = extractLine(text);
++        const std::vector<wchar_t> characters = decodeFontUtf8(line);
+         float width = 0.f;
+         float height = 0.f;
+-        for (size_t j = 0; j < line.size(); j++) {
+-            wchar_t character = line[j];
++        for (size_t j = 0; j < characters.size(); j++) {
++            wchar_t character = characters[j];
+             if (character == wchar_t('\t')) {
+                 character = wchar_t(' ');
+             }
+ 
+             const Font::Glyph* glyph = font.glyph(character);
+             if (j > 0) {
+-                movingPos.x += glyph->kerning(line[j - 1]);
++                movingPos.x += glyph->kerning(characters[j - 1]);
+             }
+ 
+             const float x0 = movingPos.x + glyph->leftBearing;
+diff --git a/include/ghoul/font/utf8.h b/include/ghoul/font/utf8.h
+new file mode 100644
+--- /dev/null
++++ b/include/ghoul/font/utf8.h
+@@ -0,0 +1,52 @@
++// Cosmos2 local adaptation: decode UTF-8 before passing glyph IDs to FreeType.
++#pragma once
++#include <cstdint>
++#include <limits>
++#include <string_view>
++#include <vector>
++
++namespace ghoul::fontrendering {
++inline std::vector<wchar_t> decodeFontUtf8(std::string_view text) {
++    std::vector<wchar_t> result;
++    result.reserve(text.size());
++    for (size_t i = 0; i < text.size();) {
++        const auto lead = static_cast<unsigned char>(text[i]);
++        uint32_t value = lead;
++        size_t count = 1;
++        uint32_t minimum = 0;
++        if (lead >= 0xC2 && lead <= 0xDF) {
++            count = 2; value = lead & 0x1F; minimum = 0x80;
++        }
++        else if (lead >= 0xE0 && lead <= 0xEF) {
++            count = 3; value = lead & 0x0F; minimum = 0x800;
++        }
++        else if (lead >= 0xF0 && lead <= 0xF4) {
++            count = 4; value = lead & 0x07; minimum = 0x10000;
++        }
++        else if (lead >= 0x80) {
++            result.push_back(static_cast<wchar_t>(0xFFFD)); ++i; continue;
++        }
++        bool valid = i + count <= text.size();
++        for (size_t j = 1; valid && j < count; j++) {
++            const auto continuation = static_cast<unsigned char>(text[i + j]);
++            valid = (continuation & 0xC0) == 0x80;
++            value = (value << 6) | (continuation & 0x3F);
++        }
++        valid = valid && value >= minimum && value <= 0x10FFFF &&
++            !(value >= 0xD800 && value <= 0xDFFF);
++        if (!valid) {
++            result.push_back(static_cast<wchar_t>(0xFFFD)); ++i; continue;
++        }
++        // The existing Windows glyph API uses 16-bit wchar_t. A non-BMP scalar
++        // occupies one replacement glyph rather than two unpaired surrogates.
++        if (value > static_cast<uint32_t>(std::numeric_limits<wchar_t>::max()) ||
++            value == 0xFFFF)
++        {
++            value = 0xFFFD;
++        }
++        result.push_back(static_cast<wchar_t>(value));
++        i += count;
++    }
++    return result;
++}
++}

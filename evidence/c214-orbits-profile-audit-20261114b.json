@@ -1,0 +1,6 @@
+{
+  "accepted": false,
+  "completed": false,
+  "label": "20261114b",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\audit-c214-orbits-profile-v2.py\", line 116, in main\n    c.require(sha(data) == collected['data_sha256'] and sha(folder/'process-history.jsonl') == collected['process_history_sha256'], 'Raw native files differ')\n              ^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\audit-c214-orbits-profile-v2.py\", line 16, in <lambda>\n    sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()\n                                   ^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pathlib.py\", line 1019, in read_bytes\n    with self.open(mode='rb') as f:\n         ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Ian\\\\cosmos2\\\\output\\\\c214-orbits-profile-20261114b\\\\memory.jsonl'\n"
+}

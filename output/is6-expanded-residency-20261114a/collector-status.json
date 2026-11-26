@@ -1,0 +1,7 @@
+{
+  "schema": 7,
+  "collector_pid": 26080,
+  "samples": 40,
+  "valid": false,
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\collect_expanded_residency_v6.py\", line 145, in main\n    contract.gpu_row(row, session)\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\expanded_residency_contract_v3.py\", line 144, in gpu_row\n    known = history_audit.row(row, session)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\expanded_residency_history_audit.py\", line 61, in row\n    base.require(memory['read_started_filetime'] <= end['exited_filetime'], 'RAM was read after the process ended')\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\expanded_residency_contract_v2.py\", line 28, in require\n    raise ValueError(message)\nValueError: RAM was read after the process ended\n"
+}

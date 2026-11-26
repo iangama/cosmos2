@@ -1,0 +1,105 @@
+--- cloud-approved/renderablepointcloud.cpp
++++ em-cloud-candidate/renderablepointcloud.cpp
+@@ -48,6 +48,7 @@
+ #include <cstdint>
+ #include <cstring>
+ #include <fstream>
++#include <set>
+ #include <stdexcept>
+ #include <utility>
+ #include <variant>
+@@ -343,6 +344,10 @@
+             std::string frame;
+             int count;
+             double timeUnitS;
++            // Explicit scientific binding for the separate SI EM receiver.
++            // Omission preserves the original gravitational population contract.
++            std::optional<std::string> model;
++            std::optional<double> lengthUnitM;
+         };
+         // Opt-in local confirmed stream; legacy file datasets retain their behavior.
+         std::optional<ConfirmedCloud> confirmedCloud;
+@@ -675,6 +680,9 @@
+ 
+     if (p.confirmedCloud.has_value()) {
+         const auto& c = *p.confirmedCloud;
++        _cloudModel = c.model.value_or("massless_central_ias15_v1");
++        _cloudLengthUnit = c.lengthUnitM.value_or(1e9);
++        _cloudIsEM = _cloudModel == "SI_prescribed_EM_test_cloud_boris_v2";
+         const auto validId = [](const std::string& s) {
+             return s.size() == 32 && std::all_of(s.begin(), s.end(), [](char x) {
+                 return (x >= '0' && x <= '9') || (x >= 'a' && x <= 'f');
+@@ -683,7 +691,10 @@
+         if (p.file.has_value() || !validId(c.systemId) || !validId(c.editToken) ||
+             !validId(c.cloudId) || c.sourceId.empty() || c.sourceId.size() > 100 ||
+             c.frame.empty() || c.frame.size() > 128 || c.count < 1 || c.count > 10000 ||
+-            !std::isfinite(c.timeUnitS) || c.timeUnitS <= 0.0)
++            !std::isfinite(c.timeUnitS) || c.timeUnitS <= 0.0 ||
++            (_cloudIsEM && (c.timeUnitS != 1.0 || _cloudLengthUnit != 1.0)) ||
++            (!_cloudIsEM && (_cloudModel != "massless_central_ias15_v1" ||
++                             _cloudLengthUnit != 1e9)))
+         {
+             throw std::runtime_error("Invalid confirmed-cloud population binding");
+         }
+@@ -1485,7 +1496,16 @@
+         if (n == 0 || n > 32768 || 12 + n > bytes.size()) {
+             throw std::runtime_error("Invalid cloud header size");
+         }
+-        const auto m = nlohmann::json::parse(bytes.data() + 12, bytes.data() + 12 + n);
++        std::set<std::string> parsedKeys;
++        const auto checkedKey = [&parsedKeys](int depth, nlohmann::json::parse_event_t event,
++                                             nlohmann::json& parsed) {
++            if (depth > 2) { throw std::runtime_error("Cloud metadata must be flat"); }
++            if (event == nlohmann::json::parse_event_t::key &&
++                !parsedKeys.insert(parsed.get<std::string>()).second)
++            { throw std::runtime_error("Duplicate cloud metadata key"); }
++            return true;
++        };
++        const auto m = nlohmann::json::parse(bytes.data() + 12, bytes.data() + 12 + n, checkedKey);
+         const std::vector<std::string> keys = { "schema", "model", "system_id", "edit_token",
+             "cloud_id", "source_id", "sequence", "time_model", "time_s", "time_unit_s",
+             "length_unit_m", "frame", "count", "positions", "payload_sha256", "payload_crc32" };
+@@ -1493,7 +1513,7 @@
+             !std::all_of(keys.begin(), keys.end(), [&m](const std::string& k) { return m.contains(k); }))
+         { throw std::runtime_error("Invalid cloud metadata keys"); }
+         if (!m.at("schema").is_number_unsigned() || m.at("schema") != 2 ||
+-            m.at("model") != "massless_central_ias15_v1" || m.at("system_id") != _cloudSystem ||
++            m.at("model") != _cloudModel || m.at("system_id") != _cloudSystem ||
+             m.at("edit_token") != _cloudEdit || m.at("cloud_id") != _cloudId ||
+             m.at("source_id") != _cloudSource || m.at("frame") != _cloudFrame ||
+             !m.at("count").is_number_unsigned() || m.at("count") != _cloudCount ||
+@@ -1509,7 +1529,7 @@
+         }
+         const double time = m.at("time_model").get<double>();
+         if (time < _cloudTime || m.at("time_unit_s").get<double>() != _cloudTimeUnit ||
+-            m.at("length_unit_m").get<double>() != 1e9 ||
++            m.at("length_unit_m").get<double>() != _cloudLengthUnit ||
+             m.at("time_s").get<double>() != time * _cloudTimeUnit)
+         { throw std::runtime_error("Cloud clock or SI scale mismatch"); }
+         const char* payload = bytes.data() + 12 + n;
+@@ -1528,7 +1548,9 @@
+             glm::dvec3 position;
+             std::memcpy(&position[0], payload + static_cast<size_t>(i) * 24, 24);
+             if (!std::isfinite(position.x) || !std::isfinite(position.y) ||
+-                !std::isfinite(position.z) || glm::length(position) > 1e17)
++                !std::isfinite(position.z) || (_cloudIsEM ?
++                    std::max({ std::abs(position.x), std::abs(position.y), std::abs(position.z) }) > 1e17 :
++                    glm::length(position) > 1e17))
+             { throw std::runtime_error("Cloud point outside finite SI domain"); }
+             entries[i].position = glm::vec3(position);
+             maximumError = std::max(maximumError, glm::length(glm::dvec3(entries[i].position) - position));
+--- cloud-approved/renderablepointcloud.h
++++ em-cloud-candidate/renderablepointcloud.h
+@@ -243,9 +243,11 @@
+ 
+     bool _confirmedCloud = false;
+     std::filesystem::path _cloudFile;
+-    std::string _cloudSystem, _cloudEdit, _cloudId, _cloudSource, _cloudFrame;
++    std::string _cloudSystem, _cloudEdit, _cloudId, _cloudSource, _cloudFrame, _cloudModel;
+     unsigned int _cloudCount = 0;
+     double _cloudTimeUnit = 0.0;
++    double _cloudLengthUnit = 0.0;
++    bool _cloudIsEM = false;
+     std::int64_t _cloudSequence = -1;
+     double _cloudTime = -1.0;
+     std::optional<std::filesystem::file_time_type> _cloudLastWrite;

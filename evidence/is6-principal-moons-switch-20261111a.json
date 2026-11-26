@@ -1,0 +1,331 @@
+{
+  "completed": false,
+  "accepted": false,
+  "script_sha256": "982125a4208e18b85e2d9ebf3d8799abc90120ebef79e29f20fdbfefa683e172",
+  "launcher_sha256": "ba123dcca45480e53bc4d39d3a454094a3929bc3752da6eb83e103aa37c4c893",
+  "previous_session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 22312,
+    "server": 35940,
+    "launcher": 27948,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-planet-navigation-product0.24.0\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-planet-navigation-product0.24.0\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Spatial-Import-0.24.0-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-11T16:33:23Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-planet-navigation-candidate.py",
+    "is6PlanetCatalogCandidate": true,
+    "is6PlanetNavigationCandidate": true
+  },
+  "previous_navigation": {
+    "anchor_position": [
+      -557984119078.4662,
+      -319875070314.36285,
+      465528567368.0093
+    ],
+    "et": 844992069.1823514,
+    "flying": false,
+    "navigation": {
+      "Anchor": "Jupiter",
+      "Position": [
+        289184938.6468506,
+        -28732630.24963379,
+        -171080732.8215332
+      ],
+      "ReferenceFrame": "Root",
+      "Timestamp": "2026 OCT 11 12:00:00",
+      "Up": [
+        0.5048304122194074,
+        -0.0501585789389396,
+        0.8617600430846222
+      ]
+    },
+    "paused": true,
+    "positions": {
+      "Earth": [
+        -52460133554.45178,
+        65189715232.14355,
+        -123228420558.91933
+      ],
+      "Jupiter": [
+        -557984119078.4662,
+        -319875070314.36285,
+        465528567368.0093
+      ],
+      "Mars": [
+        -233102478841.73984,
+        -22811202625.337154,
+        4364691699.680344
+      ],
+      "Mercury": [
+        57161611843.65614,
+        15034269262.92884,
+        -30080305673.800117
+      ],
+      "Moon": [
+        -52257479814.476135,
+        65013786326.90584,
+        -122944236710.70308
+      ],
+      "Neptune": [
+        -443930328946.8205,
+        2089488642171.6042,
+        -3925924123615.9204
+      ],
+      "Saturn": [
+        -340544572820.6532,
+        601505287801.9176,
+        -1229644203811.2605
+      ],
+      "Sun": [
+        768617023.694856,
+        9575426.481165487,
+        160626511.21933022
+      ],
+      "Uranus": [
+        -2641404139129.656,
+        363806187944.3068,
+        -1158956618305.057
+      ],
+      "Venus": [
+        -23583735990.61218,
+        45528091228.82829,
+        -95370850753.93481
+      ]
+    },
+    "rate": 1,
+    "rotations": {
+      "Earth": {
+        "1": 0.34438054393302303,
+        "2": -0.3137945537555819,
+        "3": 0.8848361537560105,
+        "4": 0.8044722965756864,
+        "5": 0.5844877519037266,
+        "6": -0.10582245469071286,
+        "7": -0.4839693843649984,
+        "8": 0.7482693672120106,
+        "9": 0.45372523523549113
+      },
+      "Jupiter": {
+        "1": -0.7738113138273751,
+        "2": -0.36242574032835617,
+        "3": 0.5194840068184912,
+        "4": 0.6305646839171478,
+        "5": -0.36303127760385423,
+        "6": 0.6860003432052935,
+        "7": -0.06003523956159901,
+        "8": 0.8584030954212339,
+        "9": 0.5094505822766575
+      },
+      "Mars": {
+        "1": -0.8945161087840934,
+        "2": -0.023889954536814167,
+        "3": -0.44639690993329295,
+        "4": -0.4436311875438332,
+        "5": -0.07556541590673582,
+        "6": 0.89301804984966,
+        "7": -0.05506632877005396,
+        "8": 0.996854622295082,
+        "9": 0.05699615289401011
+      },
+      "Mercury": {
+        "1": 0.9740766987915155,
+        "2": -0.0759771206234674,
+        "3": 0.213077596225389,
+        "4": 0.22536469987961927,
+        "5": 0.4076515921672708,
+        "6": -0.8848903499596196,
+        "7": -0.01963000049903052,
+        "8": 0.9099712394055408,
+        "9": 0.41420647814242595
+      },
+      "Moon": {
+        "1": -0.43768774437082586,
+        "2": 0.39118629951755307,
+        "3": -0.8095694642816895,
+        "4": -0.8911161597115724,
+        "5": -0.30865426702987636,
+        "6": 0.33263273041772196,
+        "7": -0.11975570269710611,
+        "8": 0.867009701510896,
+        "9": 0.4836866228846002
+      },
+      "Neptune": {
+        "1": 0.9766198923628429,
+        "2": -0.21237404851249686,
+        "3": 0.033329406829410546,
+        "4": 0.058721465938700396,
+        "5": 0.1144012602456671,
+        "6": -0.9916976056703036,
+        "7": 0.20679790927182667,
+        "8": 0.9704687605341114,
+        "9": 0.12419746192328773
+      },
+      "Saturn": {
+        "1": -0.2193284479083138,
+        "2": 0.2910319937545448,
+        "3": -0.9312332739702681,
+        "4": -0.8062487435423145,
+        "5": -0.5915554040439553,
+        "6": 0.0050167203262170695,
+        "7": -0.5494160495240096,
+        "8": 0.7519059665660641,
+        "9": 0.3643891079159528
+      },
+      "Uranus": {
+        "1": 0.20576514005720092,
+        "2": -0.9111157789947473,
+        "3": -0.3571116693753304,
+        "4": 0.18643187522901006,
+        "5": 0.39473385946632245,
+        "6": -0.8996823528831808,
+        "7": 0.9606788553079717,
+        "8": 0.11854626716019459,
+        "9": 0.25108349110713835
+      },
+      "Venus": {
+        "1": -0.9724100332098287,
+        "2": 0.007817349690340425,
+        "3": -0.23314719890377944,
+        "4": -0.2066230238378089,
+        "5": -0.4927906013878225,
+        "6": 0.8452599299647111,
+        "7": -0.1082850559079131,
+        "8": 0.8701128158047363,
+        "9": 0.48080976949243975
+      }
+    },
+    "utc": "2026-10-11T12:00:00.000",
+    "camera": {
+      "position_render_m": [
+        -557694934139.8193,
+        -319903802944.6125,
+        465357486635.18774
+      ],
+      "forward": [
+        -0.8575376878404128,
+        0.08520261610143437,
+        0.507316102782861
+      ],
+      "up": [
+        0.5048304122194072,
+        -0.05015857893893957,
+        0.8617600430846221
+      ]
+    },
+    "occluded_targets": [],
+    "effective_rate": 0.0,
+    "mode": "orbit",
+    "target": "Jupiter",
+    "boundary": null,
+    "return_available": true
+  },
+  "view": {
+    "schema": 1,
+    "target": "Jupiter",
+    "mode": "orbit",
+    "utc": "2026-10-11T12:00:00.000",
+    "et": 844992069.1823514,
+    "paused": true,
+    "rate": 1,
+    "navigation": {
+      "Anchor": "Jupiter",
+      "ReferenceFrame": "Root",
+      "Position": [
+        289184938.6468506,
+        -28732630.24963379,
+        -171080732.8215332
+      ],
+      "Up": [
+        0.5048304122194073,
+        -0.05015857893893959,
+        0.861760043084622
+      ],
+      "Yaw": 0,
+      "Pitch": 0
+    },
+    "free_anchor_render_m": null
+  },
+  "previous_ui_scale": "1",
+  "previous_exits": {
+    "launcher_wrapper_exit": 0,
+    "engine_exit": 0,
+    "server_exit": 0,
+    "launcher_exit": 0
+  },
+  "new_launcher_wrapper_pid": 50424,
+  "new_session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 16232,
+    "server": 48804,
+    "launcher": 12016,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-principal-moons-navigation-product0.25.0\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-principal-moons-navigation-product0.25.0\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Principal-Moons-0.25.0-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-11T21:20:39Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-principal-moons-candidate.py",
+    "is6PlanetCatalogCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true
+  },
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-native-solar-integration.py\", line 38, in post\n    response = urllib.request.urlopen(request, timeout=70)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py\", line 521, in open\n    response = meth(req, response)\n               ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py\", line 630, in http_response\n    response = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py\", line 492, in _call_chain\n    result = func(*args)\n             ^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py\", line 639, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\nurllib.error.HTTPError: HTTP Error 400: Bad Request\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\switch-is6-principal-moons-candidate.py\", line 83, in main\n    restored=h.post('/api/navigation/restore',dict(id=temporary_id))['navigation']\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-native-solar-integration.py\", line 40, in post\n    assert error.code == expected, (error.code, error.read().decode())\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: (400, '{\"ok\": false, \"error\": \"Integridade dos favoritos inválida.\"}')\n"
+}

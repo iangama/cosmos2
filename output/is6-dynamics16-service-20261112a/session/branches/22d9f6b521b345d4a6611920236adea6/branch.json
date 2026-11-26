@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "id": "branch:22d9f6b521b345d4a6611920236adea6",
+  "name": "Din\u00e2mica16 original",
+  "parent_id": null,
+  "parent_sha256": null,
+  "created_utc": "2026-11-12T11:28:02.144124+00:00",
+  "checkpoint_manifest_sha256": "aba920cdd5c2948135d3bc5b9001f08d32a17788efbf1b5379580fe6b7305e77",
+  "system_id": "673dd130807c405c98615b80d230206e",
+  "time": 944.2583070813621,
+  "revision": 0,
+  "fixture_sha256": "1197c995c112883c5f4afbd9c5709dd436f7aae03fa0f66567e30abde78267b8",
+  "frame": "initial_subset_barycenter_inertial_axes_J2000",
+  "record_sha256": "892398a7ed82e953637baa77b55da165e3ffb89eabe124d1e64cf6b555f45d1e"
+}

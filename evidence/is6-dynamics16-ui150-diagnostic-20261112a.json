@@ -1,0 +1,57 @@
+{
+  "completed": false,
+  "previous_scale": "1",
+  "coordinates": {
+    "x": 0,
+    "y": 0,
+    "z": 1.5,
+    "viewport": [
+      1920,
+      1080
+    ],
+    "screen": [
+      1920,
+      1080
+    ],
+    "dpr": 1,
+    "atRect": "",
+    "atTimesZoom": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  },
+  "camera_before": {
+    "Anchor": "LabFrame",
+    "Position": [
+      0.0,
+      -5818259840488.814,
+      3490955904293.2886
+    ],
+    "ReferenceFrame": "Root",
+    "Timestamp": "2026 OCT 11 12:00:00",
+    "Up": [
+      0.0,
+      0.5144957554275262,
+      0.8574929257125444
+    ]
+  },
+  "camera_after_v2_click": {
+    "Anchor": "LabFrame",
+    "Position": [
+      0.0,
+      -5818259840488.814,
+      3490955904293.2886
+    ],
+    "ReferenceFrame": "Root",
+    "Timestamp": "2026 OCT 11 12:00:00",
+    "Up": [
+      0.0,
+      0.5144957554275262,
+      0.8574929257125444
+    ]
+  },
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\diagnose-is6-dynamics16-ui150.py\", line 30, in <module>\n    page.wait_for_function('$(\"notice\").textContent.includes(\"Corpo selecionado\")',timeout=5000)\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\cef_page_v2.py\", line 40, in wait_for_function\n    raise TimeoutError(expression)\nTimeoutError: (() => {try {return Boolean($(\"notice\").textContent.includes(\"Corpo selecionado\"));}catch {return false;}})()\n"
+}

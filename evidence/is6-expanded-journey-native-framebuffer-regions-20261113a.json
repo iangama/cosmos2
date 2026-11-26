@@ -1,0 +1,138 @@
+{
+  "completed": true,
+  "source_receipt_sha256": "973ee974ad054d8c55a6ceb417023e9ad0ee5bb3109c0202afb4dd212ea9dbdf",
+  "all_regions_byte_identical": false,
+  "regions": [
+    {
+      "name": "atlas16",
+      "region": [
+        750,
+        650,
+        1150,
+        800
+      ],
+      "RGB_byte_identical": true,
+      "changed_pixels": 0,
+      "RGB_sha256_100": "06284dab886857f162f2c023f6b6e6415f7f98d8a00c536d080573b9d8e99a03",
+      "RGB_sha256_150": "06284dab886857f162f2c023f6b6e6415f7f98d8a00c536d080573b9d8e99a03"
+    },
+    {
+      "name": "dynamics16",
+      "region": [
+        900,
+        500,
+        1020,
+        580
+      ],
+      "RGB_byte_identical": true,
+      "changed_pixels": 0,
+      "RGB_sha256_100": "b7c5740075494e688fed81ba47aa6d7b6e35151d424d4ea442fd6653f7414907",
+      "RGB_sha256_150": "b7c5740075494e688fed81ba47aa6d7b6e35151d424d4ea442fd6653f7414907"
+    },
+    {
+      "name": "mesh-399",
+      "region": [
+        600,
+        400,
+        1400,
+        850
+      ],
+      "RGB_byte_identical": false,
+      "changed_pixels": 19,
+      "RGB_sha256_100": "24dc5b4057262f18c508dfb371d4ca173cf219b12f5e9fa98e62a2948e268773",
+      "RGB_sha256_150": "eb14d69ff41eacffbad21cb2f10d275ae0c9ebd497b1d0da816eebe189afa901"
+    },
+    {
+      "name": "layers-399",
+      "region": [
+        600,
+        400,
+        1400,
+        850
+      ],
+      "RGB_byte_identical": true,
+      "changed_pixels": 0,
+      "RGB_sha256_100": "d1160e20c9b84d7d57d780159647698fda3ebf054e15ee22c9f87f00eff7dfac",
+      "RGB_sha256_150": "d1160e20c9b84d7d57d780159647698fda3ebf054e15ee22c9f87f00eff7dfac"
+    },
+    {
+      "name": "particle-399",
+      "region": [
+        800,
+        350,
+        1100,
+        800
+      ],
+      "RGB_byte_identical": true,
+      "changed_pixels": 0,
+      "RGB_sha256_100": "1d2da50002c7164d0aa5fdb4c1296a0b726f147fa7aa9ddf22fc236d34a5d22f",
+      "RGB_sha256_150": "1d2da50002c7164d0aa5fdb4c1296a0b726f147fa7aa9ddf22fc236d34a5d22f"
+    },
+    {
+      "name": "mesh-599",
+      "region": [
+        600,
+        400,
+        1400,
+        850
+      ],
+      "RGB_byte_identical": true,
+      "changed_pixels": 0,
+      "RGB_sha256_100": "c9fe9cd1f954932588593978f8ec7a11ed17a027b7d79837332dea65e345d42a",
+      "RGB_sha256_150": "c9fe9cd1f954932588593978f8ec7a11ed17a027b7d79837332dea65e345d42a"
+    },
+    {
+      "name": "layers-599",
+      "region": [
+        600,
+        400,
+        1400,
+        850
+      ],
+      "RGB_byte_identical": true,
+      "changed_pixels": 0,
+      "RGB_sha256_100": "f7d3b77a94706c14c6e3c9f6db723da3fceb74594c33954b943496e06e2939bf",
+      "RGB_sha256_150": "f7d3b77a94706c14c6e3c9f6db723da3fceb74594c33954b943496e06e2939bf"
+    },
+    {
+      "name": "particle-599",
+      "region": [
+        800,
+        350,
+        1100,
+        800
+      ],
+      "RGB_byte_identical": true,
+      "changed_pixels": 0,
+      "RGB_sha256_100": "ee742f29631016cc9606dd140251881eb9007faf5382cf5d1ba99ba318de2895",
+      "RGB_sha256_150": "ee742f29631016cc9606dd140251881eb9007faf5382cf5d1ba99ba318de2895"
+    },
+    {
+      "name": "nuclear18",
+      "region": [
+        800,
+        350,
+        1100,
+        800
+      ],
+      "RGB_byte_identical": true,
+      "changed_pixels": 0,
+      "RGB_sha256_100": "9f982fb2bec4595bad65c8d2a04617eb5d8c73aacc58613e8a1c090db519153e",
+      "RGB_sha256_150": "9f982fb2bec4595bad65c8d2a04617eb5d8c73aacc58613e8a1c090db519153e"
+    },
+    {
+      "name": "restored16",
+      "region": [
+        900,
+        500,
+        1020,
+        580
+      ],
+      "RGB_byte_identical": true,
+      "changed_pixels": 0,
+      "RGB_sha256_100": "b7c5740075494e688fed81ba47aa6d7b6e35151d424d4ea442fd6653f7414907",
+      "RGB_sha256_150": "b7c5740075494e688fed81ba47aa6d7b6e35151d424d4ea442fd6653f7414907"
+    }
+  ],
+  "scope": "Read-only comparison of original framebuffer interior regions outside UI panels. Post-capture inspection aid, no bitmap editing or numerical/performance acceptance."
+}

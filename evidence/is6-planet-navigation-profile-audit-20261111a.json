@@ -1,0 +1,112 @@
+{
+  "accepted": true,
+  "completed": true,
+  "runs": [
+    {
+      "index": 1,
+      "target": "Mercury",
+      "frames": 4521,
+      "median_ms": 13.317899778485298,
+      "p95_ms": 14.127800241112709,
+      "p99_ms": 14.609759859740736,
+      "over_100ms": 0,
+      "interval_s": 60.29908529482782,
+      "GPU_peak_GiB": 3.0216598510742188
+    },
+    {
+      "index": 2,
+      "target": "Venus",
+      "frames": 4522,
+      "median_ms": 13.3305499330163,
+      "p95_ms": 14.145625242963433,
+      "p99_ms": 14.577149329707026,
+      "over_100ms": 0,
+      "interval_s": 60.313596554566175,
+      "GPU_peak_GiB": 3.0214157104492188
+    },
+    {
+      "index": 3,
+      "target": "Earth",
+      "frames": 4520,
+      "median_ms": 13.303800020366907,
+      "p95_ms": 14.136859960854053,
+      "p99_ms": 14.636216871440414,
+      "over_100ms": 0,
+      "interval_s": 60.2871598796919,
+      "GPU_peak_GiB": 3.0214157104492188
+    },
+    {
+      "index": 4,
+      "target": "Moon",
+      "frames": 4517,
+      "median_ms": 13.309200294315815,
+      "p95_ms": 14.115799963474272,
+      "p99_ms": 14.604379869997501,
+      "over_100ms": 0,
+      "interval_s": 60.24794459436089,
+      "GPU_peak_GiB": 3.0216598510742188
+    },
+    {
+      "index": 5,
+      "target": "Mars",
+      "frames": 4520,
+      "median_ms": 13.306500390172005,
+      "p95_ms": 14.086675364524126,
+      "p99_ms": 14.561167759820824,
+      "over_100ms": 0,
+      "interval_s": 60.28880784061039,
+      "GPU_peak_GiB": 3.0214157104492188
+    },
+    {
+      "index": 6,
+      "target": "Jupiter",
+      "frames": 4521,
+      "median_ms": 13.296600431203842,
+      "p95_ms": 14.095799997448921,
+      "p99_ms": 14.5395802333951,
+      "over_100ms": 0,
+      "interval_s": 60.30084024183452,
+      "GPU_peak_GiB": 3.0214157104492188
+    },
+    {
+      "index": 7,
+      "target": "Saturn",
+      "frames": 4529,
+      "median_ms": 13.298500329256058,
+      "p95_ms": 14.092100225389002,
+      "p99_ms": 14.577999860048296,
+      "over_100ms": 0,
+      "interval_s": 60.40837112721056,
+      "GPU_peak_GiB": 3.0214157104492188
+    },
+    {
+      "index": 8,
+      "target": "Uranus",
+      "frames": 4520,
+      "median_ms": 13.298150151968002,
+      "p95_ms": 14.118430390954018,
+      "p99_ms": 14.593552751466634,
+      "over_100ms": 0,
+      "interval_s": 60.28690237272531,
+      "GPU_peak_GiB": 3.0214157104492188
+    },
+    {
+      "index": 9,
+      "target": "Neptune",
+      "frames": 4516,
+      "median_ms": 13.291499577462673,
+      "p95_ms": 14.121375046670437,
+      "p99_ms": 14.556865114718676,
+      "over_100ms": 0,
+      "interval_s": 60.234553130343556,
+      "GPU_peak_GiB": 3.0214157104492188
+    }
+  ],
+  "source": "evidence/is6-planet-navigation-profile-20261111a.json",
+  "source_sha256": "3cdd2eb6a19b0145bccf8ca6b991c331de6212eedd7bafca3a6459a29db0204c",
+  "auditor_sha256": "bd5df92db88412d84ccb178133b5bce79ab548b04c3bbb2bf4a4c1be5542c6a1",
+  "frames": 40686,
+  "RAM_peak_GiB": 1.5386161804199219,
+  "GPU_peak_GiB": 3.0216598510742188,
+  "scope": "One cached static overview per destination; attached app remains open. Own profile only, no cold startup, K5 transfer, promotion or complete IS6 acceptance."
+}

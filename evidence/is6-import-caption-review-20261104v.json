@@ -1,0 +1,43 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "evidence/is6-import-caption-diagnostic-20261104v.json": "b2cc062e912c2e5617ec2474b3251a77915ef27938eadb45cac71166d3a5672d",
+    "output/is6-layers-product0.21.1/app/body_field_scene.py": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805",
+    "evidence/cosmos2-is6-caption-v-engine-before.png": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d",
+    "evidence/cosmos2-is6-caption-v-printwindow.png": "aaa46215b9a3099ac64d3b3ec4d5a8054b3da41f968dedfdeb7e53250aaca51e",
+    "evidence/cosmos2-is6-caption-v-cef.png": "4cfd86e587b418944ad0664c0644631f4f98013b6dac27f937b4eb2216a182c6",
+    "evidence/cosmos2-is6-caption-v-engine-after.png": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d"
+  },
+  "findings": [
+    "Engine framebuffer before CEF capture visibly contains the full caption and full import notice.",
+    "PrintWindow from the same view contains the scene but loses almost all UI panels and text.",
+    "CEF surface visibly contains the full caption and import notice, without the native scene.",
+    "Engine framebuffer PNGs before and after CEF capture are identical bytes; the capture did not change the native image in this comparison.",
+    "The cyan spherical outline with spatial=false belongs to the magnetic reference_grid, constructed by body_field_scene.prepare and controlled with magnetic nodes; it is distinct from the spatial wire.",
+    "This comparison establishes a capture-method discrepancy; it does not establish the internal Windows/CEF cause or retroactively accept earlier incomplete PrintWindow images."
+  ],
+  "captures": [
+    {
+      "method": "Engine framebuffer before CEF capture",
+      "path": "evidence/cosmos2-is6-caption-v-engine-before.png",
+      "sha256": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d"
+    },
+    {
+      "method": "PrintWindow",
+      "path": "evidence/cosmos2-is6-caption-v-printwindow.png",
+      "sha256": "aaa46215b9a3099ac64d3b3ec4d5a8054b3da41f968dedfdeb7e53250aaca51e"
+    },
+    {
+      "method": "CEF surface",
+      "path": "evidence/cosmos2-is6-caption-v-cef.png",
+      "sha256": "4cfd86e587b418944ad0664c0644631f4f98013b6dac27f937b4eb2216a182c6"
+    },
+    {
+      "method": "Engine framebuffer after CEF capture",
+      "path": "evidence/cosmos2-is6-caption-v-engine-after.png",
+      "sha256": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d"
+    }
+  ],
+  "scope": "Manual diagnostic image comparison only; not the K5 visual cut, performance or product acceptance."
+}

@@ -1,0 +1,11 @@
+{
+  "accepted": true,
+  "completed": true,
+  "revision": "v31",
+  "files": 13061,
+  "verified_staged_blobs": 636,
+  "verified_raw_bytes": 66907076,
+  "commit": "351c2c48d85f2bc91a83ec11b7790b2de3a1b46d",
+  "inventory_sha256": "571d6f5818656957c857c41619a636b458ba01bb098b8ded12659a48dd32a356",
+  "scope": "Local source and raw scientific-profile evidence backup. Exact copied paths and raw Git blobs verified; historical CRLF noise left unstaged. No private owner sessions, runtimes, ZIP or push."
+}

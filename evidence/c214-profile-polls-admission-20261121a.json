@@ -1,0 +1,27 @@
+{
+  "accepted": true,
+  "completed": true,
+  "original_admission": {
+    "polls": 49,
+    "maximum_gap_s": 0.033850299994810484,
+    "maximum_duration_s": 0.018013599998084828,
+    "first_poll_s": 0.012624499999219552
+  },
+  "refusals": [
+    "discarded-initial-poll",
+    "failed-initial-poll",
+    "forged-gap-summary",
+    "overlong-initial-poll",
+    "forged-maximum",
+    "unfiltered-slow-poll",
+    "overlapping-native-witness",
+    "dropped-final-poll"
+  ],
+  "source_sha256": {
+    "scripts/verify-c214-profile-polls-admission.py": "a2f7e40a66dafa8c1762cdfe4eb246667b215dee4b4c55091762955dffdeb658",
+    "scripts/c214_profile_history_v3.py": "a8ceeba9447fbcb4a6f75b61f63da47c1eac3e5bedbd17436f088c8804afe4e6",
+    "evidence/c214-history-bootstrap-20261121a.json": "70dfefe4712bb6e50716e101e3002d27e30d7d6cbc5508495443920c14b6b6b9",
+    "output/c214-history-bootstrap-20261121a/process-polls.jsonl": "043a4e41afefd8c4590bb5565ca724292edb9a75967c7c6fbe5bd4557b261c9d"
+  },
+  "scope": "Regression admission only. Uses actual short diagnostic raw polls and explicitly mutated refusal cases; no frames, gauges, product or C2-14 performance acceptance."
+}

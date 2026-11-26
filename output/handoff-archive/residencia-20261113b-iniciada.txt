@@ -1,0 +1,18 @@
+VIGENTE 13/11 — RESIDÊNCIA B INICIADA; A RECUSADO E PRESERVADO
+EnsaioA20261113a:102PDH completos,103ªlinha falhou na entrada16 por atlas_initial ausente
+na publicação intermediária. Auditor/hostA recusados,4handles saíramzero. NÃO repetirA.
+Diagnóstico próprio: evidence/is6-expanded-residency-diagnosis-20261113a.json,sem aceitegeral.
+Retorno do dono conferido:owner-return-20261113a ACEITO:campos exatos,Updelta1.665e-15≤1e-12.
+Produto não mudou. Ler revisãoC IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-C.md.
+Coletor3 preserva respostas cruas;projeção indisponível permitida SOMENTE prepare/transition/cleanup,
+sem descartar GPU/RAM/processos/quadros. Estável/aquecimento exigem projeção completa.
+Novasfontes13recusas offlineB ACEITAS;preflightC3amostras/8processos ACEITO.
+PlanoB evidence/is6-expanded-residency-plan-20261113b.json ACEITO:2343fontes/29protegidos.
+ATIVO run-expanded-residency-v2.py --label20261113b --plan-label20261113b,Windowsdestacado25712.
+Conferir output/is6-expanded-residency-detached-20261113b.json/hostreceipt para PIDreal;
+conferir profile/collector/audit/host20261113b ANTES de repetir. OriginalA+fontes/ZIP intocados.
+Durante coleta sem backup/download/navegação/testepesado. Fontes seladas/protegidos imutáveis.
+Após resultado,registrar diagnóstico e próximo passo;backupv19 ainda não preparado.
+Telemetria17:34:39.118Z:15%5h/71%semanal disponíveis,consultaratual,salvar8%econtinuaratélimite.
+Sem push/subagentes/promoção.V1segue7/21,IS6incompleto,K5Arecusado.Backup416fb28/6492arquivos.
+

@@ -1,0 +1,8 @@
+{
+  "accepted": false,
+  "profile": "evidence/is6-dynamics16-profile-20261112a.json",
+  "profile_sha256": "c8e93f0eba634714218b6561201d7ce001c5a7c22367a88dced00606c3a45026",
+  "auditor_sha256": "1cba904f54a5c85348140df93dfae51409a719a7cb47734e9f3dc4af9ce7b7dc",
+  "runs": [],
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\audit-is6-dynamics16-profile.py\", line 51, in main\n    assert type(item['count']) is int and item['count']>0\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

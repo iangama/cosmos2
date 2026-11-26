@@ -1,0 +1,24 @@
+{
+  "accepted": false,
+  "completed": false,
+  "profile_sha256": "349e6d4250ad1b0237b6e93efe7e418afe009b7c4c69eff7924fb36be25f8bf4",
+  "raw_sha256": "cd621e32479abc5c389df9d71f87e5bd4c8c36cc0e7a47e3ce3a9612df977f62",
+  "complete_memory_rows": 102,
+  "failed_index": 102,
+  "first_window": "atlas_earth",
+  "first_window_frames": {
+    "frames": 4508,
+    "excluded_initial_intervals": 1,
+    "interval_s": 60.1401827968657,
+    "median_ms": 13.316350057721138,
+    "p95_ms": 14.666830142959952,
+    "p99_ms": 15.206644749268891,
+    "maximum_ms": 27.12639980018139,
+    "over_100ms": 0
+  },
+  "peaks_bytes": {
+    "GPU_bytes": 3233247232,
+    "RAM_bytes": 1109200896
+  },
+  "scope": "Diagnosis only of the refused original experiment; no general residence acceptance. Sources/rows are unchanged."
+}

@@ -1,0 +1,566 @@
+ATUALIZAÇÃO22:47UTC:WORKER ACEITO8grupos/21recusas. Congelar estágioworker,
+receita/contrato/verificador. Report IS-5-COMPRESSAO-WORKER-RESULTADO-20261029.md.
+Verificação da ponte iniciada:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/verify-is5-compression-bridge.py --label 20261029a
+Conferir receipt is5-compression-bridge-20261029a e sessãoexec retornada.
+Não editar draftponte/teste/contratoproduto/fontes até terminar. Aceite desse
+teste é só protocolo/transações comworkerreal e CENA SIMULADA. Não aceitaCEF.
+Receita produto agoraexige tambémbridgeAacceptedtrue. Nãoexecutada ainda.
+Launcher0.17 preparado/ASTok,NÃOexecutado. Nenhumhostativo.
+Últimacota69%5h/1%semanal22:45:02.035UTC,continuaraté0real.
+
+# Cosmos2 — leia primeiro
+
+Construção contínua autorizada, sem delegar. Ler AGENTS.md. Preservar
+Cosmos/Revenant,instalado3.13 e todas as fontes/evidências aceitas.
+
+Estado29/10 17:28UTC: compressãoB ACEITA3casos/4controles/13recusas.
+evidence/is5-compression-20261029b.json; solver lento/verificador/contratos
+congelados. Afalse preservada. Report IS-5-COMPRESSAO-EVOLUCAO-RESULTADO-20261029.md.
+FiguraPNG/SVG gerada; PNG visto e aceito emrecibo visual separado.
+EOSfastA ACEITA12fixtures+21estados interiores/7029comparações/6recusas,
+erro máximo7.179e−14. Congelar EOSfast/thermaljet/verificador/contrato.
+
+EvoluçãofastA ACEITA3casos/4controles/8recusas, meta caso0≤60s atingida:
+50.7114723s vs172.586711s. Conferir reportresultado atualizado.
+Estágio trabalhador construído (6arquivos), SEMACEITE:
+output/is5-compression-worker-staging; preparation-manifest.json.
+Receita prepare-is5-compression-worker.py executada, corefast e reciboA
+exatos; fontesworker/receita imutáveis a partir dos testes novos.
+Verificador emexec60924:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/verify-is5-compression-worker-artifact.py --label 20261029a
+Não editar worker/receita/teste/fontes enquanto roda. Grupos1–4 passaram (criação/prazo/histórias+EOS/adulterações):
+state0.1213104s,create52.3566141s,timeout0.472973s. Restantes emexec.
+Depois de aceito: contrato IS-5-COMPRESSAO-PRODUTO-CONTRATO.md preparado.
+Rascunhos semaceite em output/is5-compression-product-staging:
+is5_laboratory.py com Clientcandidato/canceltransação/commit ebranchparent;
+ui/index.html,panel,JS com formulário movido setup/painel (IDs únicos),
+história/razão,ρ/V/work/ΔE e unidades globais,botões cancelar.
+AST e node--check passaram; NÃO testar como se já fosse candidata aceita.
+Receita scripts/prepare-is5-compression-product.py preparada,NÃOexecutada:
+exige workeraceito+0160nativo/visual/perfilB,gera0.17 isolada/manifest.
+Nomes receipts0160 conferidos e corretos. Launcher scripts/launch-is5-compression-candidate.py preparado/ASTok,
+NÃOexecutado; exige manifest+fontes exatos e mutex/owner nativos.
+Verificador verify-is5-compression-bridge.py preparado/ASTok,NÃOexecutado:
+exige workerA aceito,testa Clientreal/cancel/commit com cenas simuladas;
+NÃOaceita HTTP/CEF/native/visual. Semverifier CEF/perfis próprios ainda. Ponte precisa verificação real de cancelamento,
+fonte/visibilidade/sonda/cenário preservados,nopublicação tardia ebranches.
+Nenhum produto0.17 criado;nenhumhostativo.
+Produtos0150/0160/perfis eciênciaCoulombanteriores aceitos imutáveis.
+C2-20/IS5 continuam parciais,semhydro/estrutura/transportecalibrados.
+
+Cota real2026-10-29T22:38:39.667Z:79%5h/2%semanal (janela5h renovada).
+Passagem salva no8%; continuar até0%real dequalquerjanela ou bloqueio/plano
+concluído. Helper python3 ../cosmos/scripts/check-codex-quota.py.
+Detalhes anteriores em PASSAGEM-20261028-IS5-COULOMB.txt.
+
+Draftponte:cancelrota deve ignorarmutexSOURCE_COMMANDS (receitaprevê),
+Clientcandidato separado,quitsingleowner/esperarsaída antesclose,
+branch_parent mantido na ponte ao trocar Client emconfigure/restart.
+AST,nodecheck,HTML528IDsúnicos eJSreferênciasliteraisexistentes passaram.
+Sem teste real da ponte ainda; não declarar aceiteporchecagensestáticas.
+
+
+ESTADO ANTERIOR PRESERVADO
+# Cosmos2 — leia primeiro
+
+Construção contínua autorizada, sem delegar. Ler AGENTS.md. Preservar
+Cosmos/Revenant,instalado3.13 e todas as fontes/evidências aceitas.
+
+Estado29/10 17:28UTC: compressãoB ACEITA3casos/4controles/13recusas.
+evidence/is5-compression-20261029b.json; solver lento/verificador/contratos
+congelados. Afalse preservada. Report IS-5-COMPRESSAO-EVOLUCAO-RESULTADO-20261029.md.
+FiguraPNG/SVG gerada; PNG visto e aceito emrecibo visual separado.
+EOSfastA ACEITA12fixtures+21estados interiores/7029comparações/6recusas,
+erro máximo7.179e−14. Congelar EOSfast/thermaljet/verificador/contrato.
+
+EvoluçãofastA ACEITA3casos/4controles/8recusas, meta caso0≤60s atingida:
+50.7114723s vs172.586711s. Conferir reportresultado atualizado.
+Estágio trabalhador construído (6arquivos), SEMACEITE:
+output/is5-compression-worker-staging; preparation-manifest.json.
+Receita prepare-is5-compression-worker.py executada, corefast e reciboA
+exatos; fontesworker/receita imutáveis a partir dos testes novos.
+Verificador emexec60924:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/verify-is5-compression-worker-artifact.py --label 20261029a
+Não editar worker/receita/teste/fontes enquanto roda. Grupos1–4 passaram (criação/prazo/histórias+EOS/adulterações):
+state0.1213104s,create52.3566141s,timeout0.472973s. Restantes emexec.
+Depois de aceito: contrato IS-5-COMPRESSAO-PRODUTO-CONTRATO.md preparado.
+Rascunhos semaceite em output/is5-compression-product-staging:
+is5_laboratory.py com Clientcandidato/canceltransação/commit ebranchparent;
+ui/index.html,panel,JS com formulário movido setup/painel (IDs únicos),
+história/razão,ρ/V/work/ΔE e unidades globais,botões cancelar.
+AST e node--check passaram; NÃO testar como se já fosse candidata aceita.
+Receita scripts/prepare-is5-compression-product.py preparada,NÃOexecutada:
+exige workeraceito+0160nativo/visual/perfilB,gera0.17 isolada/manifest.
+Nomes receipts0160 conferidos e corretos. Launcher scripts/launch-is5-compression-candidate.py preparado/ASTok,
+NÃOexecutado; exige manifest+fontes exatos e mutex/owner nativos.
+Verificador verify-is5-compression-bridge.py preparado/ASTok,NÃOexecutado:
+exige workerA aceito,testa Clientreal/cancel/commit com cenas simuladas;
+NÃOaceita HTTP/CEF/native/visual. Semverifier CEF/perfis próprios ainda. Ponte precisa verificação real de cancelamento,
+fonte/visibilidade/sonda/cenário preservados,nopublicação tardia ebranches.
+Nenhum produto0.17 criado;nenhumhostativo.
+Produtos0150/0160/perfis eciênciaCoulombanteriores aceitos imutáveis.
+C2-20/IS5 continuam parciais,semhydro/estrutura/transportecalibrados.
+
+Cota real2026-10-29T22:38:39.667Z:79%5h/2%semanal (janela5h renovada).
+Passagem salva no8%; continuar até0%real dequalquerjanela ou bloqueio/plano
+concluído. Helper python3 ../cosmos/scripts/check-codex-quota.py.
+Detalhes anteriores em PASSAGEM-20261028-IS5-COULOMB.txt.
+
+Draftponte:cancelrota deve ignorarmutexSOURCE_COMMANDS (receitaprevê),
+Clientcandidato separado,quitsingleowner/esperarsaída antesclose,
+branch_parent mantido na ponte ao trocar Client emconfigure/restart.
+AST,nodecheck,HTML528IDsúnicos eJSreferênciasliteraisexistentes passaram.
+Sem teste real da ponte ainda; não declarar aceiteporchecagensestáticas.
+
+
+ESTADO ANTERIOR PRESERVADO
+# Cosmos2 — leia primeiro
+
+Construção contínua autorizada, sem delegar. Ler AGENTS.md. Preservar
+Cosmos/Revenant,instalado3.13 e todas as fontes/evidências aceitas.
+
+Estado29/10 17:28UTC: compressãoB ACEITA3casos/4controles/13recusas.
+evidence/is5-compression-20261029b.json; solver lento/verificador/contratos
+congelados. Afalse preservada. Report IS-5-COMPRESSAO-EVOLUCAO-RESULTADO-20261029.md.
+FiguraPNG/SVG gerada; PNG visto e aceito emrecibo visual separado.
+EOSfastA ACEITA12fixtures+21estados interiores/7029comparações/6recusas,
+erro máximo7.179e−14. Congelar EOSfast/thermaljet/verificador/contrato.
+
+EvoluçãofastA ACEITA3casos/4controles/8recusas, meta caso0≤60s atingida:
+50.7114723s vs172.586711s. Conferir reportresultado atualizado.
+Estágio trabalhador construído (6arquivos), SEMACEITE:
+output/is5-compression-worker-staging; preparation-manifest.json.
+Receita prepare-is5-compression-worker.py executada, corefast e reciboA
+exatos; fontesworker/receita imutáveis a partir dos testes novos.
+Verificador emexec60924:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/verify-is5-compression-worker-artifact.py --label 20261029a
+Não editar worker/receita/teste/fontes enquanto roda. Dois grupos passaram:
+state0.1213104s,create52.3566141s,timeout0.472973s. Restantes emexec.
+Depois de aceito: contrato IS-5-COMPRESSAO-PRODUTO-CONTRATO.md preparado.
+Rascunhos semaceite em output/is5-compression-product-staging:
+is5_laboratory.py com Clientcandidato/canceltransação/commit ebranchparent;
+ui/index.html,panel,JS com formulário movido setup/painel (IDs únicos),
+história/razão,ρ/V/work/ΔE e unidades globais,botões cancelar.
+AST e node--check passaram; NÃO testar como se já fosse candidata aceita.
+Receita scripts/prepare-is5-compression-product.py preparada,NÃOexecutada:
+exige workeraceito+0160nativo/visual/perfilB,gera0.17 isolada/manifest.
+Nomes receipts0160 conferidos e corretos. Sem launcher0.17/verifier
+CEF/perfis próprios ainda. Ponte precisa verificação real de cancelamento,
+fonte/visibilidade/sonda/cenário preservados,nopublicação tardia ebranches.
+Nenhum produto0.17 criado;nenhumhostativo.
+Produtos0150/0160/perfis eciênciaCoulombanteriores aceitos imutáveis.
+C2-20/IS5 continuam parciais,semhydro/estrutura/transportecalibrados.
+
+Cota real2026-10-29T22:38:39.667Z:79%5h/2%semanal (janela5h renovada).
+Passagem salva no8%; continuar até0%real dequalquerjanela ou bloqueio/plano
+concluído. Helper python3 ../cosmos/scripts/check-codex-quota.py.
+Detalhes anteriores em PASSAGEM-20261028-IS5-COULOMB.txt.
+
+Draftponte:cancelrota deve ignorarmutexSOURCE_COMMANDS (receitaprevê),
+Clientcandidato separado,quitsingleowner/esperarsaída antesclose,
+branch_parent mantido na ponte ao trocar Client emconfigure/restart.
+AST,nodecheck,HTML528IDsúnicos eJSreferênciasliteraisexistentes passaram.
+Sem teste real da ponte ainda; não declarar aceiteporchecagensestáticas.
+
+
+ESTADO ANTERIOR PRESERVADO
+# Cosmos2 — leia primeiro
+
+Construção contínua autorizada, sem delegar. Ler AGENTS.md. Preservar
+Cosmos/Revenant,instalado3.13 e todas as fontes/evidências aceitas.
+
+Estado29/10 17:28UTC: compressãoB ACEITA3casos/4controles/13recusas.
+evidence/is5-compression-20261029b.json; solver lento/verificador/contratos
+congelados. Afalse preservada. Report IS-5-COMPRESSAO-EVOLUCAO-RESULTADO-20261029.md.
+FiguraPNG/SVG gerada; PNG visto e aceito emrecibo visual separado.
+EOSfastA ACEITA12fixtures+21estados interiores/7029comparações/6recusas,
+erro máximo7.179e−14. Congelar EOSfast/thermaljet/verificador/contrato.
+
+EvoluçãofastA ACEITA3casos/4controles/8recusas, meta caso0≤60s atingida:
+50.7114723s vs172.586711s. Conferir reportresultado atualizado.
+Estágio trabalhador construído (6arquivos), SEMACEITE:
+output/is5-compression-worker-staging; preparation-manifest.json.
+Receita prepare-is5-compression-worker.py executada, corefast e reciboA
+exatos; fontesworker/receita imutáveis a partir dos testes novos.
+Verificador emexec60924:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/verify-is5-compression-worker-artifact.py --label 20261029a
+Não editar worker/receita/teste/fontes enquanto roda. Dois grupos passaram:
+state0.1213104s,create52.3566141s,timeout0.472973s. Restantes emexec.
+Depois de aceito: contrato IS-5-COMPRESSAO-PRODUTO-CONTRATO.md preparado.
+Rascunhos semaceite em output/is5-compression-product-staging:
+is5_laboratory.py com Clientcandidato/canceltransação/commit ebranchparent;
+ui/index.html,panel,JS com formulário movido setup/painel (IDs únicos),
+história/razão,ρ/V/work/ΔE e unidades globais,botões cancelar.
+AST e node--check passaram; NÃO testar como se já fosse candidata aceita.
+Receita scripts/prepare-is5-compression-product.py preparada,NÃOexecutada:
+exige workeraceito+0160nativo/visual/perfilB,gera0.17 isolada/manifest.
+Antes executar conferir nomesexatos receipts0160. Sem launcher0.17/verifier
+CEF/perfis próprios ainda. Ponte precisa verificação real de cancelamento,
+fonte/visibilidade/sonda/cenário preservados,nopublicação tardia ebranches.
+Nenhum produto0.17 criado;nenhumhostativo.
+Produtos0150/0160/perfis eciênciaCoulombanteriores aceitos imutáveis.
+C2-20/IS5 continuam parciais,semhydro/estrutura/transportecalibrados.
+
+Cota real2026-10-29T22:37:31.507Z:84%5h/3%semanal (janela5h renovada).
+Passagem salva no8%; continuar até0%real dequalquerjanela ou bloqueio/plano
+concluído. Helper python3 ../cosmos/scripts/check-codex-quota.py.
+Detalhes anteriores em PASSAGEM-20261028-IS5-COULOMB.txt.
+
+
+ESTADO ANTERIOR PRESERVADO
+# Cosmos2 — leia primeiro
+
+Construção contínua autorizada, sem delegar. Ler AGENTS.md. Preservar
+Cosmos/Revenant,instalado3.13 e todas as fontes/evidências aceitas.
+
+Estado29/10 17:28UTC: compressãoB ACEITA3casos/4controles/13recusas.
+evidence/is5-compression-20261029b.json; solver lento/verificador/contratos
+congelados. Afalse preservada. Report IS-5-COMPRESSAO-EVOLUCAO-RESULTADO-20261029.md.
+FiguraPNG/SVG gerada; PNG visto e aceito emrecibo visual separado.
+EOSfastA ACEITA12fixtures+21estados interiores/7029comparações/6recusas,
+erro máximo7.179e−14. Congelar EOSfast/thermaljet/verificador/contrato.
+
+EvoluçãofastA ACEITA3casos/4controles/8recusas, meta caso0≤60s atingida:
+50.7114723s vs172.586711s. Conferir reportresultado atualizado.
+Estágio trabalhador construído (6arquivos), SEMACEITE:
+output/is5-compression-worker-staging; preparation-manifest.json.
+Receita prepare-is5-compression-worker.py executada, corefast e reciboA
+exatos; fontesworker/receita imutáveis a partir dos testes novos.
+Próximo preparar verify-is5-compression-worker-artifact.py segundo contrato,
+basear testes no V2 Coulomb sem alterar V2, incluirρ/V/E/W/unidades e curvas.
+Nenhum produto0.17 criado;nenhumhostativo.
+Produtos0150/0160/perfis eciênciaCoulombanteriores aceitos imutáveis.
+C2-20/IS5 continuam parciais,semhydro/estrutura/transportecalibrados.
+
+Cota real2026-10-29T22:32:34.683Z:100%5h/6%semanal (janela5h renovada).
+Passagem salva no8%; continuar até0%real dequalquerjanela ou bloqueio/plano
+concluído. Helper python3 ../cosmos/scripts/check-codex-quota.py.
+Detalhes anteriores em PASSAGEM-20261028-IS5-COULOMB.txt.
+
+
+ESTADO ANTERIOR PRESERVADO
+# Cosmos2 — leia primeiro
+
+Construção contínua autorizada, sem delegar. Ler AGENTS.md. Preservar
+Cosmos/Revenant,instalado3.13 e todas as fontes/evidências aceitas.
+
+Estado29/10 17:28UTC: compressãoB ACEITA3casos/4controles/13recusas.
+evidence/is5-compression-20261029b.json; solver lento/verificador/contratos
+congelados. Afalse preservada. Report IS-5-COMPRESSAO-EVOLUCAO-RESULTADO-20261029.md.
+FiguraPNG/SVG gerada; PNG visto e aceito emrecibo visual separado.
+EOSfastA ACEITA12fixtures+21estados interiores/7029comparações/6recusas,
+erro máximo7.179e−14. Congelar EOSfast/thermaljet/verificador/contrato.
+
+EMEXEC85185:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/verify-is5-compression-fast.py --label 20261029a
+Conferir saída/receipt antes de repetir. NÃOeditar fontes/teste/contratos.
+Exige3casos contraRadau/BDF-E/refine e4controles+8recusas. Meta caso0≤60s
+separada de aceite numérico; sem testeCPU concorrente durante medição.
+Se passar,consolidar números/report e construir trabalhador pelo
+scripts/prepare-is5-compression-worker.py (receita já adaptada parafast).
+Contrato IS-5-COMPRESSAO-WORKER-CONTRATO.md; exige aceites próprios antes
+produto. Nenhum workercompressão ou produto0.17 criado. Nenhumhostativo.
+Produtos0150/0160/perfis eciênciaCoulombanteriores aceitos imutáveis.
+C2-20/IS5 continuam parciais,semhydro/estrutura/transportecalibrados.
+
+Cota real17:27:21.623UTC:4%5h/6%semanal. Passagem salva no8%,continuar
+até0% real,sem inferência por contexto/tokens/tempo. Helper
+python3 ../cosmos/scripts/check-codex-quota.py. Não declarar esgotado antes0.
+
+Detalhes anteriores preservados em PASSAGEM-20261028-IS5-COULOMB.txt.
+
+
+ESTADO ANTERIOR PRESERVADO
+# Cosmos2 — leia primeiro
+
+Construção contínua autorizada. Não delegar. Preservar Cosmos, Revenant,
+instalado 3.13, candidatas/evidências aceitas e sessões do dono.
+Ler AGENTS.md. Estado ativo abaixo substitui as atualizações históricas.
+
+Em execução: sessão exec11384, Windows Python:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/verify-is5-compression.py --label20261029b
+Conferir evidence/is5-compression-20261029b.json e saída da sessão antes de
+qualquer repetição. Caso0 completo Radau/BDF-E/refinado, errosT≤8.422e−15.
+Três casos principais completos, Radau/BDF-E/refinado. Caso1erroT≤6.404e−15;
+ciclo caso2erroT/BDF5.572e−10 e W/E0/BDF5.743e−10, balanço4.534e−13.
+Restam quatro controles e treze recusas. Ainda acceptedfalse/completedfalse. Não editar solver,
+verificador, contratos e fontes da execução enquanto ela roda.
+A anterior false: adaptador do teste passou rho NumPy à API escalar Python.
+Somente retorno float de rho/rate/V no teste foi corrigido para B; referências
+completas são repetidas. A, ZIP e caso0 anteriores preservados.
+
+Aceites congelados: derivadas cross evidence/is5-eos-cross-20261029a.json
+(12 estados/240mp50/720FD/8recusas/102fontes); ciência Coulomb de28/10;
+workerV2; produtos0.15.0 e0.16.0 e seus perfis aceitos. Nenhuma promoção.
+Perfil0160A segue false por quadro124.367699ms/causa desconhecida; B aceito.
+Nenhum host nativo aberto. C2-20/IS5 permanecem parciais.
+
+Próximo imediato após compressãoB aceita: rodar plot-is5-compression.py,
+inspecionar PNG e registrar aceite visual separado; consolidar relatório.
+Antes de usar evolução no produto, otimização isolada em preparação:
+IS-5-COMPRESSAO-OTIMIZACAO-CONTRATO.md e
+output/is5-compression-fast-staging/{is5_thermal_jet,is5_eos_fast,is5_compression_fast}.py.
+Mesmo Helmholtz e guardas, gradiente completo e somente linha térmica da
+Hessiana; checagem de geração antes/depois da integração. Nenhuma mudança
+nos módulos aceitos ou no solver lento em execução.
+Verificadores preparados/AST ok, NÃO executados nem aceitos:
+1.verify-is5-eos-fast.py --label20261029a exige compressãoB aceita;
+  compara12fixtures completas+21estados interiores, P/U/Cv/U_Y/mu/P_T/U_lnrho,
+  tolerância5e−12,6recusas.
+2.verify-is5-compression-fast.py --label20261029a exige EOSfastA aceita;
+  compara3casos contra Radau/BDF-E/refinados e4controles arquivados,
+  Y≤1e−10,T≤1e−9,W/E0≤1e−9,mesmos balanços+8recusas.
+  Medição sem outro testeCPU concorrente; meta caso0≤60s separada do aceite.
+Não editar fontes durante as verificações novas. Se falhar preservar e
+investigar antes de repetir. Nada otimizado aceito até recibos true.
+
+Worker compressão só contratado/preparado, nenhum estágio construído:
+IS-5-COMPRESSAO-WORKER-CONTRATO.md, prepare-is5-compression-worker.py.
+Receita adaptada para is5_compression_fast/estágiofast/recibo científico
+is5-compression-fast-20261029a; exige aceite e generationid otimizado.
+ASTok, NÃOexecutada; não construir antes dos dois aceitesfast. Orçamento600s cálculo/660s transporte, JobObject,
+Python base-S, unidades globaisJ/counts, density_history,kind próprio.
+Nenhum produto0.17 criado. Sem hydro, estrutura estelar ou transporte.
+
+Cota real em2026-10-29T17:23:02.573Z:8%5h/7%semanal. Checkpoint de8%
+obriga salvar passagem, NÃO parar; continuar até0%,bloqueio real ou plano
+concluído. Consultar helper ../cosmos/scripts/check-codex-quota.py antes de
+alegar esgotamento; não usar tokens/contexto/tempo como substituto.
+Passagem: PASSAGEM-20261028-IS5-COULOMB.txt; histórico emRETOMADA-20261023.txt.
+
+Preflight matplotlib3.11.2/numpy2.5.4 ok via WindowsPython escalado.
+Uma execução sandbox falhou WSLvsock; rerun require_escalated funcionou.
+
+
+HISTÓRICO PRESERVADO ABAIXO
+ATIVO29/10apósrenovação: perfil0160B EMEXEC83912:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/benchmark-is5-reference-native.py --label20261029b
+Launcher88052/appWindows30740/server35852. Mesmosfontes/limites/hardware,
+contratoreprodução arquivadoantesexecução. NÃOeditar app/benchmark/auditor/
+fontes,semtestesCPUconcorrentes. Ao completar auditar --label20261029b e
+aguardarlauncherengine_exit0/logs. SeBfalhar,investigar antes de repetir.
+Afalsequadro124.367699msna4offset19.117415s;causanãoestabelecida.
+Novaquotareal100%5h/21%semana16:22:58.973UTC;sem esgotamentoatual.
+MESA docs primárias energia arquivadas emoutput/is5-compression-research-
+20261029,acquisition.json registraURL/UTC/SHA. Próximociclo dP/dT/dUdlrho
+apósresolverperfil0160;somentecontrato/derivação,nenhumcódigonovo.
+
+RETOMADA29/10 16:22:58.973UTC: NOVAcota100%5h/21%semana. Anterior1%stale
+nãofoiusadacomoesgotamento. Perfil0160A completou4janelas MAS auditorAfalse:
+quadro124.367699ms na4,offset19.117415s,p99=14.453280ms. Fontes todasiguais;
+semcausaestabelecida/logevento/GPU2.989929GiB estável. A/ZIPpreservados.
+B23produtoaindasemaceiteperfil. Contratoreprodução registrado; UMArepetiçãoB
+4janelas mesmasfontes/limites,nãoreutilizarA,nãoremoverpico. SeBfalhar,
+investigar antesrepetir.NovoB inícionesta retomada,conferirsessão/recibo.
+
+CHECKPOINT6%5h/22%semana,telemetriareal29/10/2026 09:29:44.554UTC.
+PASSAGEMsalva,CONTINUARaté0. Perfil0160Aexec45650:2janelascompletas,
+terceira aquecendo(zonaativa/consultaaberta),semfalha. Launcher78004,
+app28580/server33656. Nãoeditarfontes/nemtestarCPUenquantomede. Roteiro
+fechaHOSTnormal. Próximoauditar --label20261029a quando completedtrue,
+aguardarlauncherengine_exit0/logs e atualizarreport/perfil. Nãoalegaraceite
+antesaudit. Cota0nãoautoriza novasetapas;teste local jáagendado termina
+comcleanup automático,retomadaconfere resultados antesrepetir.
+NovoIS-5-COMPRESSAO-CONTRATO-PREVIO.md salvo,semimplementação/semaceite:
+próximoEOSdP/dT,dU/dlnrho,12estadosmp50/FD;depoisvolume/trabalhoexternos.
+
+PASSAGEMCOSMOS2 —29/10/2026,última cota real9%5h/23%semana09:26:25.449UTC.
+CONTINUARaté0;8%écheckpoint,nãoparada.Nenhumapromoção. Semsubagentes.
+
+ATIVO: perfil0.16A EMEXEC45650:
+.tooling/python/Scripts/python.exe -X utf8 -u scripts/benchmark-is5-reference-native.py --label20261029a
+Launcher78004/appWindows28580/server33656. Primeira janela completa,segunda
+emcaptura,semfalha.4janelas zonaausente/ativapausada×consultaaberta/fechada.
+Roteiroencerrahostpor toggleShutdown nofinally;aguardar engine_exit0/logs.
+NÃOeditar app0160/benchmark/auditor/fontes/contratos enquantoexecuta.
+SemoutrostestesCPU nasmedições. Ao completar,auditar:
+scripts/audit-is5-reference-profile.py --label20261029a
+Auditor aindaNÃOexecutado;conferirrecibos antesrepetir. Sequota0antes,fila
+localjáautorizadatermina+fecha hostautomaticamente;próxima retomadaconfere
+recibo/log/launcher antesreabrir. Não alegar aceiteperfilsem auditor.
+
+CEF/visual0160B ACEITOS3grupos/6recusas/9PNG/zeroJS. Últimacapturaconfirma
+consultaaberta sobrezonaativa,artifact/source/view/orbitidênticos.Preserve
+172appfiles+manifest emoutput/is5-reference-product0.16.0,receita/launcher/
+revisão/teste/recibos. NativeAtrue MAS visualAfalse:CSSbloquiava nav enquanto
+zonaativa;testenãoexigia painelaberto. A/ZIP eCSS/manifestantes preservados.
+BSÓCSS:botãoreadonlyexceção+painelopaco,eassert deabertura reforçado.
+ReportIS-5-REFERENCIAS-SOLARES-PRODUTO-RESULTADO-20261029.md,perfilpendente.
+LoaderB23ACEITO12006linhas/713intervalos/23recusas. Congelarcore/manifest/
+dados8arquivos/pack/verifier/contrato produto. SemnovoEOS,calibração ou
+inicializaçãoSolar;intervalosIDEAIS A≥1 não incluemCoulomb/ionizaçãodesconhecida.
+
+0150CoulombACEITA no recorteciência/worker/CEFvisualC/perfilC:
+4janelas4848sondas,p99max14.55728ms/zero>100ms/RAM1.230175GiB/
+GPU3.001648GiB/rateMin.964820. Nenhumapromoção. App/benchmark/auditor/testes/
+contratos/fontes/ZIPs/recibosaceitos imutáveis. A/Bperfilreprovados preservados.
+ReportIS-5-COULOMB-PRODUTO-RESULTADO-20261029.md,hosts fecharamnormalmente.
+Ciênciaagregada5recibos/91fontes eworkerV2B8grupos/17recusas intactos.
+
+PRÓXIMOCIÊNCIA apósperfil0160: IS-5-COMPRESSAO-CONTRATO-PREVIO.md criado,
+nenhumcódigoainda. PrimeirodP/dT,dU/dlnrho consistentesEOS,mp50/FD12estados;
+depoiscontratarODE devolume/densidadeprescritos+trabalho−P dV/energiaVU,
+sem hidrostática/gravidadedinâmica/transportecalculados. Referência primária
+MESA docs energia consultada; ainda semarquivoHTMLlocal.Mantémcomposição
+no balanço. NãoexecutartestesCPU enquanto perfil0160 estiver medindo.
+
+LerLEIA/AGENTS/fimRETOMADA apenas,nãoredescobrirhistórico.Cosmos/Revenant/
+instalado3.13/aceitosanteriores intactos.C2-20/IS5parciais. Quota:
+python3 ../cosmos/scripts/check-codex-quota.py;statusstalenãoprovaesgotamento.
+
+HISTÓRICO ANTERIOR
+RETOMADA29/10 08:24UTC: telemetria NOVA95%5h/36%semana (08:24:28.787Z).
+Cota antiga1% foi classificada stale, não esgotada. Correção candidata0150:
+index.html embutia painel0140; agora substituído pelo painel Coulomb próprio,
+receita atualizada. CEF A/ZIP continuam reprovados/preservados. Launcher vivo
+Windows18276/app29236/server30760, candidata própria. Teste CEF B EMEXEC18317:
+verify-native-is5-coulomb.py --label20261029b, recibo/ZIP já criados, zero
+page_errors na inicialização. NÃO editar app/receita/teste durante execução.
+Roteiro encerra host por toggleShutdown no finally. Ciência/worker intocados.
+Preparar contrato/perfil próprios enquanto CEF calcula; medir somente após
+aceites funcional+visual e sem outras cargasCPU concorrentes.
+
+COSMOS2 — passagem científica28/10/2026, trabalho em andamento
+CHECKPOINT7%5h/38%semana29/10 02:31:00.943UTC,PASSAGEMSALVA,CONTINUARaté0.
+WorkerV2BACEITO. CEF0150A47602encerrouREPROVADOinicializaçãoJSantescriarzona,
+0checks/0PNG,reciboevidence/is5-native-coulomb-20261029a.json+ZIPapp/testes.
+Shutdownnormal solicitadopeloroteiro;conferirlauncher12877/logs.
+PRÓXIMOdiagnosticarpage_errors,nãorerodarciência/workeraceitos.Nãomarcar
+interface/perfilaceitos.Nãoeditarestágioscientíficos/V2aceitos.
+MAISATUAL29/10 02:29UTC: WORKERV2ACEITOis5-coulomb-worker-artifact-20261029b,
+8grupos/17recusas. State0.112s/create44.259s/deadline0.418s/quit0.081s/
+32branchesstartup3.823s;corruption/reloadnewprocess/Windowslocks/ownerdeath
+passaram. PRESERVARV2/teste/fontesaceitas. ReportWORKER-RESULTADO-20261029.
+Candidataoutput/is5-coulomb-zone-product0.15.0CRIADAsemalterar0140,
+syntaxPython/JSpassou. LauncherEMEXEC12877. Aguardarbootstrap,entãorodar
+verify-native-is5-coulomb.py --label20261029a,AINDA NÃOEXECUTADO.
+CEFscriptfechaHOSTnormal(toggleShutdown)nofinal,launcherarquivalogs.
+SemaceiteCEF/visual/perfil. Nãoeditarapp/testesduranteexec.
+Últimacota13%5h/39%semana29/10 02:29:11.901UTC,continuaraté0.
+ATIVO29/10UTC: ciênciaagregadaaceita;workerA20261029aREPROVADOtimeout240s,
+nenhumgrupoaceito,ZIP/fontesAintactos. Diagnóstico:venvlauncher+Pythonreal,
+semthreadvigilânciareprodução40–50s;faulthandlerinstrumentadoteveAV
+(diagnósticosemaceite). Nãomudarciênciapararesolverprocessos.
+NOVOV2 output/is5-coulomb-worker-v2-staging,pythonbase-S+site-packages
+fixados(memageraçãoaceita),JobObjectKILL_ON_JOB_CLOSE,PIDreply==PopenPID,
+stdinauxDEVNULL. Smokeready/quitpassou.Oprimeirosmokebasepegoubibliotecas
+erradasegenRECUSOU,antes-S;preservadodiagnóstico.
+TesteV2 iniciado verify-is5-coulomb-worker-artifact-v2.py --label20261029b,
+conferirreciboevidence/is5-coulomb-worker-artifact-20261029b.json antesrepetir.
+NÃOeditarfontesV2duranteexec. Candidata0.15.0AINDASEMcriação,contrato
+IS-5-COULOMB-PRODUTO-CONTRATO.mdpreparado. Cotaúltima46%5h/44%semana
+29/10 02:18:32.750UTC. Nenhumhostnovo,instalado3.13/0140intactos.
+Bexec26943ACEITO controles3/7recusas,reusou5casosA+3controles/hashiguais.
+CIÊNCIAAGREGADAACEITAis5-coulomb-science-20261028a,91fontes/5recibos.
+ReportIS-5-COULOMB-REDE-RESULTADO-20261028.md. Acontinuafalsepedidode
+testeweakoffmalformado;nenhumafontecientíficaalterada.Agoraworkerautorizado
+pelocontrato,emstagingpróprio.Nenhumhostnovo/nenhumapromoção.
+RETOMADA29/10UTC(28/10local): NOVAtelemetria100%5h/53%semana,
+observada01:59:50.426Z. Aexec91814encerroufalse;5casosPASSARAMincluindo
+100kyr15→15.154164MK,Terr6.534e-13/energiamax2.591e-15.
+FalhouANTESdeEMoff: pedidoTESTEweakoffmapaparcialrecusado. Só3controlesA
+passaram(idealprescrito/idealtérmico/alloff),não4. Modelofonteinalterado.
+AuditorBcorrigidoANTESexec: exigeA5casos/3controles+falhaValueErrorswitches
+exata;weakoff eEMoff passammapascompletos. B EMEXEC26943,label20261028b.
+Conferirreciboevidence/is5-coulomb-evolution-controls-20261028b.json
+antesrepetircasos. AceiteagregadotérmicopendenteB.
+
+ÚLTIMALEITURA28/10 21:52:06.365UTC:2%5h/53%semana,AINDA NÃOesgotada.
+EvoluçãoA aindaexec91814,caso3térmicoO16 apósRadau completo aguardando
+BDF/refine;casos0/1/2completos. AuditorB preparado,nãoexecutado.
+Nenhuma fonte científica mudou desde os aceites. Handoff8%abaixo preservado.
+
+CHECKPOINT8%5h/54%semana observado28/10 21:49:18.880UTC.
+Passagem salva no limiar;NÃOesgotada,CONTINUARaté0.
+Atualmaisimportante: evoluçãoA segueexec91814,casos0/1/2completos.
+Caso1térmicoN14 BDFTerr5.340e-15/Yerr1.943e-16,energia9.672e-16;
+caso2O16prescritoYerr5.551e-16;casos3/4+controlespendentes.
+BUGDETESTEidentificadoantesAterminar: A supõeEMoff⇒composição/Tconstantes,
+masgateACEITO pp=forte+fraca,EMoffpermitepp. NÃOalterarmodelo.
+DeixarAconcluir,preservarfalha. PreparadosANTESB:
+IS-5-COULOMB-EVOLUCAO-CONTROLE-B.md e
+scripts/audit-is5-coulomb-evolution-controls.py --label20261028b
+AINDA NÃOEXECUTADO. ExigeAcom5casoscompletos/4controlesanteriores,
+falhaEXATAesperadaEMoff efontes/15JSONshaiguais;senão pararparadiagnóstico.
+BAUDITAEMoff(ppativo,Dcresce,Hcai,νpp),Coulombsemscreening,6tipos+hot
+recusaintegral,reusa5casosválidossemrepetirintegracões;Apermanecefalse.
+Nenhumaceiteagregadoevoluçãoainda. SóapósBpassarworkerconformecontrato.
+
+Autorização contínua até5h OU semanal0/bloqueio real/plano concluído/parada.
+NÃOdelegar. ≤8%salvarcheckpoint eCONTINUARaté0. Cotahelper:
+python3 ../cosmos/scripts/check-codex-quota.py. ÚltimaOK15%5h/55%semana,
+observada21:46:35.665UTC. Nãoinferirtelemetria porcontexto/tokens/tempo.
+PreservarCosmos/Revenant/instalado3.13/candidatas/owner/todosaceitos.
+Nenhumhost nativo aberto nesta retomada; output/session.json histórico.
+
+CONCLUÍDO fundação Coulomb/FD:
+is5-coulomb-foundation-20261028b ACEITO9respostasFD/12EOSHHe/12pares/
+21recusas/206fontesanteriores intactas. Model output/is5-coulomb-staging/
+is5_coulomb.py+refs PRESERVAR. A falhouescaladerivadas→0, χe preciso;
+Bdefineescalasprevistasnocontrato,SEMmudarmodelo. ZIP/reciboA preservados.
+DHclássico recusaSolCNO fora acoplamento/degenerescência/difração.
+Não substituir ne→kTχe e chamar issoEOSgeral. Report
+IS-5-COULOMB-FUNDACAO-RESULTADO-20261028.md.
+
+CONCLUÍDO EOSmisturaPC clássico:
+output/is5-coulomb-mixture-staging/is5_jet.py/is5_coulomb_mixture.py e
+contratos/licenças/fontestestes PRESERVAR. ReceitaB ACEITA
+is5-coulomb-mixture-20261028b:12estados,ii/ie/ee/mix,FortranCTFalinhado
+5.402e-7rel/mp50dps4.637e-14/Maxwell1.476e-9/13recusas.
+Auditoria is5-coulomb-mixture-composition-20261028a ACEITA96gradientes
+em6estadoserro1.379e-9,3traçosFe26 positivos recusados(1e-8..1e-30).
+Resíduo negativo raw1e-30 preservado,semclamp. Tracezero ausentenãolimita.
+
+IMPORTANTEA MISTURA: comparaçãoA REPROVADA Cv_ie≈1e-4>5e-5.
+Fortranoriginal usaCTF=.2513,Python/MESAexpressãocompleta.
+Bcria Fortran CTF-aligned modificandoSÓconstante,modeloPythoninalterado.
+Brutooriginalem12casosmax1.272e-4 AINDAfalha5e-5;NÃOocultar.
+IS-5-COULOMB-MISTURA-REFERENCIA-B.mdantesB ebuildrecipe registrados.
+Autores eos22.fcompleto96740bytes viaHTTPpúblicoapósTLSfalhou;
+TLSnãodesabilitado. OriginaisMESA26.4.1+LGPL/GPL emresearch/staging.
+NãoinstalouMESA,nãoalegarSkye completo. Íonsclássicos/PCpolarizável
+aproximadoparadegenerescênciaparcial,semionizaçãoparcial/MHD/hidro.
+ReportIS-5-COULOMB-MISTURA-RESULTADO-20261028.md.
+FiguraPNG/SVG output/is5-coulomb-mixture-figure-20261028a/
+pressure-components.*,20séries/12fixtures,visualACEITOrecibo
+is5-coulomb-mixture-visual-review-20261028a. Semrerodarmodelo.
+
+CONCLUÍDO SCREENING NUMÉRICO, NÃO evolução:
+output/is5-coulomb-network-staging/is5_coulomb_network.py PRESERVAR,
+is5-coulomb-screening-20261028a ACEITO52pares(13×4estados),6recusas,
+h erro8.951e-15mp/8.315e-11diferençafusão virtualA/Zconservados.
+ppcompostoZ2,nãodfinalbeta;ee cancelaeh,masparticipaU.
+ECBe7+4beta mantêmfatoradicional1,leiSFII/gates/taxasnuas/Q intactos.
+ReportIS-5-COULOMB-SCREENING-RESULTADO-20261028.md.
+
+ATIVO TESTE EVOLUÇÃO:
+exec91814 .tooling/python/Scripts/python.exe -Xutf8 -u
+scripts/verify-is5-coulomb-evolution.py --label20261028a.
+Folder output/is5-coulomb-evolution-20261028a;ZIPfontesjácriado.
+Nãoalterarmodelo/script/fontesduranteexecnemrepetiraceitesinalterados.
+5casos N14prescrito1000yr/N14térmico1000yr/O16prescrito1000yr/
+O16térmico1000yr/N14térmico100kyr. Radau+BDF emUcominversãoEOS+refine;
+depoislímitesecontrolesideal/off/Coulombsemscreening ehotrecusaintegral.
+Caso0 COMPLETOpassouYBDF1.943e-16/119.403s,3artefatosJSONpreservados.
+Caso1RADAU completoTfinal15001082.3548K/42.357s,BDFUemexec.
+AINDASEMACEITE científicoevolução. Conferirrecibo
+evidence/is5-coulomb-evolution-20261028a.json+logsantesrepetirqualquercoisa.
+Mesmo que passe,agregarcomscreening/fontesiguais antesworker.
+
+PRÓXIMO após evoluçãoaceita:
+IS-5-COULOMB-WORKER-CONTRATO.md jáescrito,SEMworkerimplementado.
+Usaroutput/is5-coulomb-worker-staging próprio,configuration
+parameters/acting/channel_switches/mode/include_coulomb/include_screening;
+checkpoint/protocolopróprios,modos prescribed/isochoric.
+ManterfonteSolararquivada/selado/recompute/newprocess/32ramos/locks/16MiB.
+LATÊNCIA medidaparaRadau~42s(2879RHS);NÃOherdarclienttimeout35s.
+ActororiginalSolarLaboratory emapp/is5_laboratory.py temFuturetimeout90s
+ethreadprópria/busypublico;cliente35s. Precisaprotegeratomicidade seestourar
+prazo,nãodeixarerroaparentecompublicaçãotardia. Contratoworkerexigeisso.
+Possíveldesenhoaindanãocódigo:calcular emsubprocessoauxiliarcomprazo
+explícito,terminarantesackfalha,preservarrunanterior;atenderstate/quit
+enquantocalcula;cliente correlacionarepliesporID efimsemórfãos.
+Sódepoisworkeraceito candidata0.15.0isoladade0140+CEF/visual/perfilpróprios.
+NENHUMworker/UI/host novo;reportsglobais27marcoscontinuamúltimaanálise,
+C2-20parcial,nãomarcarcompletoporciênciaisolada.

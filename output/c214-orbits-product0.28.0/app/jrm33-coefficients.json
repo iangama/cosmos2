@@ -1,0 +1,7722 @@
+{
+  "schema": 1,
+  "model": "JRM33",
+  "source_url": "https://pds-ppi.igpp.ucla.edu/data/JNO-J-3-FGM-CAL-V1.0/DATA/MODEL/JRM33.MOD",
+  "source_sha256": "1960a025ea38d8ee604fb69882b95484df55c31c2e5ba3d1c1ebd011af7170be",
+  "reference_radius_m": 71492000.0,
+  "coordinate_frame": "right_handed_System_III_1965",
+  "longitude": "east",
+  "normalization": "Schmidt semi-normalized without Condon-Shortley phase",
+  "coefficient_unit": "nT",
+  "coefficient_epoch_decimal_year": 2019.0,
+  "secular_variation_adopted": false,
+  "source_header": " 30  1  JUPITER RJ= 71,492. rcore=0.8, r=[2.,2.5], I30 E1, 620ev, Jun 28, 2021",
+  "internal_coefficients": [
+    {
+      "kind": "g",
+      "n": 1,
+      "m": 0,
+      "value_nT": 410993.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 1,
+      "m": 1,
+      "value_nT": -71305.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 1,
+      "m": 1,
+      "value_nT": 20958.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 1.0
+    },
+    {
+      "kind": "g",
+      "n": 2,
+      "m": 0,
+      "value_nT": 11796.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 2,
+      "m": 1,
+      "value_nT": -56972.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 2,
+      "m": 2,
+      "value_nT": 48250.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 2,
+      "m": 1,
+      "value_nT": -42549.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 2,
+      "m": 2,
+      "value_nT": 20221.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.06821
+    },
+    {
+      "kind": "g",
+      "n": 3,
+      "m": 0,
+      "value_nT": 2799.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 3,
+      "m": 1,
+      "value_nT": -37488.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 3,
+      "m": 2,
+      "value_nT": 15396.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 3,
+      "m": 3,
+      "value_nT": -1489.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 3,
+      "m": 1,
+      "value_nT": -32890.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 3,
+      "m": 2,
+      "value_nT": 42518.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 3,
+      "m": 3,
+      "value_nT": -27397.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.06068
+    },
+    {
+      "kind": "g",
+      "n": 4,
+      "m": 0,
+      "value_nT": -34402.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 4,
+      "m": 1,
+      "value_nT": -8080.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 4,
+      "m": 2,
+      "value_nT": -2440.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 4,
+      "m": 3,
+      "value_nT": -10848.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 4,
+      "m": 4,
+      "value_nT": -17919.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 4,
+      "m": 1,
+      "value_nT": 32452.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 4,
+      "m": 2,
+      "value_nT": 27438.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 4,
+      "m": 3,
+      "value_nT": -501.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 4,
+      "m": 4,
+      "value_nT": -1325.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.05018
+    },
+    {
+      "kind": "g",
+      "n": 5,
+      "m": 0,
+      "value_nT": -18265.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 5,
+      "m": 1,
+      "value_nT": 4221.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 5,
+      "m": 2,
+      "value_nT": 16599.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 5,
+      "m": 3,
+      "value_nT": -17345.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 5,
+      "m": 4,
+      "value_nT": -2544.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 5,
+      "m": 5,
+      "value_nT": -4987.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 5,
+      "m": 1,
+      "value_nT": 45363.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 5,
+      "m": 2,
+      "value_nT": -826.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 5,
+      "m": 3,
+      "value_nT": 6000.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 5,
+      "m": 4,
+      "value_nT": 10568.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 5,
+      "m": 5,
+      "value_nT": 10091.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.05619
+    },
+    {
+      "kind": "g",
+      "n": 6,
+      "m": 0,
+      "value_nT": -20968.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 6,
+      "m": 1,
+      "value_nT": 9887.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 6,
+      "m": 2,
+      "value_nT": 12192.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 6,
+      "m": 3,
+      "value_nT": -12548.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 6,
+      "m": 4,
+      "value_nT": 2742.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 6,
+      "m": 5,
+      "value_nT": 1557.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 6,
+      "m": 6,
+      "value_nT": 8018.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 6,
+      "m": 1,
+      "value_nT": 14016.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 6,
+      "m": 2,
+      "value_nT": -10119.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 6,
+      "m": 3,
+      "value_nT": -294.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 6,
+      "m": 4,
+      "value_nT": 13948.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 6,
+      "m": 5,
+      "value_nT": -3686.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 6,
+      "m": 6,
+      "value_nT": 4783.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.02905
+    },
+    {
+      "kind": "g",
+      "n": 7,
+      "m": 0,
+      "value_nT": 59.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 7,
+      "m": 1,
+      "value_nT": 5366.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 7,
+      "m": 2,
+      "value_nT": -7099.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 7,
+      "m": 3,
+      "value_nT": -1533.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 7,
+      "m": 4,
+      "value_nT": -7055.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 7,
+      "m": 5,
+      "value_nT": 3060.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 7,
+      "m": 6,
+      "value_nT": -2488.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 7,
+      "m": 7,
+      "value_nT": 3700.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 7,
+      "m": 1,
+      "value_nT": -7654.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 7,
+      "m": 2,
+      "value_nT": -11398.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 7,
+      "m": 3,
+      "value_nT": 2171.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 7,
+      "m": 4,
+      "value_nT": 5301.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 7,
+      "m": 5,
+      "value_nT": -6618.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 7,
+      "m": 6,
+      "value_nT": -1933.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 7,
+      "m": 7,
+      "value_nT": -5802.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.01062
+    },
+    {
+      "kind": "g",
+      "n": 8,
+      "m": 0,
+      "value_nT": 10849.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 8,
+      "m": 1,
+      "value_nT": 1323.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 8,
+      "m": 2,
+      "value_nT": -6952.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 8,
+      "m": 3,
+      "value_nT": -95.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 8,
+      "m": 4,
+      "value_nT": -4746.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 8,
+      "m": 5,
+      "value_nT": -1301.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 8,
+      "m": 6,
+      "value_nT": -4284.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 8,
+      "m": 7,
+      "value_nT": -1436.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 8,
+      "m": 8,
+      "value_nT": -3024.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 8,
+      "m": 1,
+      "value_nT": -2297.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 8,
+      "m": 2,
+      "value_nT": -12833.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 8,
+      "m": 3,
+      "value_nT": 10019.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 8,
+      "m": 4,
+      "value_nT": -1725.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 8,
+      "m": 5,
+      "value_nT": 2387.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 8,
+      "m": 6,
+      "value_nT": -3237.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 8,
+      "m": 7,
+      "value_nT": 906.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 8,
+      "m": 8,
+      "value_nT": -3178.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.01347
+    },
+    {
+      "kind": "g",
+      "n": 9,
+      "m": 0,
+      "value_nT": 8914.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 9,
+      "m": 1,
+      "value_nT": -3506.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 9,
+      "m": 2,
+      "value_nT": 288.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 9,
+      "m": 3,
+      "value_nT": 773.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 9,
+      "m": 4,
+      "value_nT": 3592.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 9,
+      "m": 5,
+      "value_nT": -3170.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 9,
+      "m": 6,
+      "value_nT": 1406.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 9,
+      "m": 7,
+      "value_nT": -1526.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 9,
+      "m": 8,
+      "value_nT": 1313.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 9,
+      "m": 9,
+      "value_nT": -2314.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 9,
+      "m": 1,
+      "value_nT": -7899.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 9,
+      "m": 2,
+      "value_nT": -1328.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 9,
+      "m": 3,
+      "value_nT": 6566.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 9,
+      "m": 4,
+      "value_nT": -1275.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 9,
+      "m": 5,
+      "value_nT": 3617.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 9,
+      "m": 6,
+      "value_nT": -194.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 9,
+      "m": 7,
+      "value_nT": 1960.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 9,
+      "m": 8,
+      "value_nT": 956.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 9,
+      "m": 9,
+      "value_nT": 1831.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00736
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 0,
+      "value_nT": -2516.5,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 1,
+      "value_nT": 1883.2,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 2,
+      "value_nT": 2836.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 3,
+      "value_nT": 4259.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 4,
+      "value_nT": 3776.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 5,
+      "value_nT": 764.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 6,
+      "value_nT": 2112.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 7,
+      "value_nT": 724.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 8,
+      "value_nT": 2496.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 9,
+      "value_nT": 840.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 10,
+      "m": 10,
+      "value_nT": 1179.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 10,
+      "m": 1,
+      "value_nT": -5689.8,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 10,
+      "m": 2,
+      "value_nT": 5570.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 10,
+      "m": 3,
+      "value_nT": -2541.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 10,
+      "m": 4,
+      "value_nT": -1795.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 10,
+      "m": 5,
+      "value_nT": -217.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 10,
+      "m": 6,
+      "value_nT": -628.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 10,
+      "m": 7,
+      "value_nT": -1619.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 10,
+      "m": 8,
+      "value_nT": 454.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 10,
+      "m": 9,
+      "value_nT": -840.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 10,
+      "m": 10,
+      "value_nT": 1581.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00453
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 0,
+      "value_nT": 1311.6,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 1,
+      "value_nT": 3056.9,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 2,
+      "value_nT": -2060.6,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 3,
+      "value_nT": 3550.1,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 4,
+      "value_nT": 589.7,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 5,
+      "value_nT": 194.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 6,
+      "value_nT": -1073.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 7,
+      "value_nT": -521.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 8,
+      "value_nT": 685.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 9,
+      "value_nT": 350.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 10,
+      "value_nT": -326.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 11,
+      "m": 11,
+      "value_nT": 1088.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 1,
+      "value_nT": 549.1,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 2,
+      "value_nT": 4527.6,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 3,
+      "value_nT": -4223.0,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 4,
+      "value_nT": -2761.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 5,
+      "value_nT": -476.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 6,
+      "value_nT": -2714.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 7,
+      "value_nT": -1349.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 8,
+      "value_nT": -1649.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 9,
+      "value_nT": -1471.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 10,
+      "value_nT": -583.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 11,
+      "m": 11,
+      "value_nT": -499.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00319
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 0,
+      "value_nT": 2300.5,
+      "resolution_diagonal": 0.95,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 1,
+      "value_nT": 1688.4,
+      "resolution_diagonal": 0.95,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 2,
+      "value_nT": -291.7,
+      "resolution_diagonal": 0.96,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 3,
+      "value_nT": 483.2,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 4,
+      "value_nT": -581.9,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 5,
+      "value_nT": -818.4,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 6,
+      "value_nT": -1095.6,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 7,
+      "value_nT": -1987.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 8,
+      "value_nT": 484.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 9,
+      "value_nT": -1473.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 10,
+      "value_nT": -666.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 11,
+      "value_nT": -755.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 12,
+      "m": 12,
+      "value_nT": -220.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 1,
+      "value_nT": 4204.2,
+      "resolution_diagonal": 0.96,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 2,
+      "value_nT": 2228.0,
+      "resolution_diagonal": 0.96,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 3,
+      "value_nT": -1901.1,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 4,
+      "value_nT": -1271.2,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 5,
+      "value_nT": 1073.4,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 6,
+      "value_nT": -1111.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 7,
+      "value_nT": 872.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 8,
+      "value_nT": -837.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 9,
+      "value_nT": -462.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 10,
+      "value_nT": -22.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 11,
+      "value_nT": 110.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 12,
+      "m": 12,
+      "value_nT": -712.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00188
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 0,
+      "value_nT": 751.5,
+      "resolution_diagonal": 0.9,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 1,
+      "value_nT": -456.4,
+      "resolution_diagonal": 0.9,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 2,
+      "value_nT": 1160.4,
+      "resolution_diagonal": 0.91,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 3,
+      "value_nT": -2307.8,
+      "resolution_diagonal": 0.93,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 4,
+      "value_nT": -77.1,
+      "resolution_diagonal": 0.94,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 5,
+      "value_nT": -16.9,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 6,
+      "value_nT": 594.8,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 7,
+      "value_nT": -950.7,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 8,
+      "value_nT": 1042.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 9,
+      "value_nT": -641.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 10,
+      "value_nT": 41.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 11,
+      "value_nT": -229.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 12,
+      "value_nT": -40.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 13,
+      "m": 13,
+      "value_nT": -287.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 1,
+      "value_nT": 4125.6,
+      "resolution_diagonal": 0.91,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 2,
+      "value_nT": -44.0,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 3,
+      "value_nT": -455.4,
+      "resolution_diagonal": 0.93,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 4,
+      "value_nT": 2160.6,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 5,
+      "value_nT": 255.4,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 6,
+      "value_nT": 1105.1,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 7,
+      "value_nT": 1214.2,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 8,
+      "value_nT": 196.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 9,
+      "value_nT": -207.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 10,
+      "value_nT": 1195.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 11,
+      "value_nT": 472.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 12,
+      "value_nT": 721.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 13,
+      "m": 13,
+      "value_nT": 51.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.0015
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 0,
+      "value_nT": 1164.6,
+      "resolution_diagonal": 0.83,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 1,
+      "value_nT": -2478.0,
+      "resolution_diagonal": 0.83,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 2,
+      "value_nT": 907.7,
+      "resolution_diagonal": 0.85,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 3,
+      "value_nT": -1280.7,
+      "resolution_diagonal": 0.87,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 4,
+      "value_nT": 148.5,
+      "resolution_diagonal": 0.87,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 5,
+      "value_nT": 1468.8,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 6,
+      "value_nT": -8.1,
+      "resolution_diagonal": 0.94,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 7,
+      "value_nT": 604.5,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 8,
+      "value_nT": 787.2,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 9,
+      "value_nT": 327.7,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 10,
+      "value_nT": 111.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 11,
+      "value_nT": 245.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 12,
+      "value_nT": 127.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 13,
+      "value_nT": 425.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 14,
+      "m": 14,
+      "value_nT": 6.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 1,
+      "value_nT": -847.8,
+      "resolution_diagonal": 0.84,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 2,
+      "value_nT": -124.9,
+      "resolution_diagonal": 0.85,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 3,
+      "value_nT": 108.8,
+      "resolution_diagonal": 0.87,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 4,
+      "value_nT": 1456.2,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 5,
+      "value_nT": -1284.6,
+      "resolution_diagonal": 0.93,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 6,
+      "value_nT": 896.5,
+      "resolution_diagonal": 0.95,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 7,
+      "value_nT": 237.0,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 8,
+      "value_nT": 225.8,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 9,
+      "value_nT": -80.9,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 10,
+      "value_nT": 696.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 11,
+      "value_nT": 326.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 12,
+      "value_nT": 225.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 13,
+      "value_nT": 71.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 14,
+      "m": 14,
+      "value_nT": 124.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00084
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 0,
+      "value_nT": 469.4,
+      "resolution_diagonal": 0.77,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 1,
+      "value_nT": -1929.2,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 2,
+      "value_nT": -38.7,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 3,
+      "value_nT": -815.9,
+      "resolution_diagonal": 0.79,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 4,
+      "value_nT": -775.7,
+      "resolution_diagonal": 0.79,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 5,
+      "value_nT": 31.0,
+      "resolution_diagonal": 0.85,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 6,
+      "value_nT": -149.9,
+      "resolution_diagonal": 0.87,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 7,
+      "value_nT": 318.2,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 8,
+      "value_nT": -298.3,
+      "resolution_diagonal": 0.96,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 9,
+      "value_nT": -149.3,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 10,
+      "value_nT": 241.4,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 11,
+      "value_nT": -69.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 12,
+      "value_nT": 367.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 13,
+      "value_nT": -22.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 14,
+      "value_nT": 91.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 15,
+      "m": 15,
+      "value_nT": -43.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 1,
+      "value_nT": -1146.4,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 2,
+      "value_nT": -580.4,
+      "resolution_diagonal": 0.79,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 3,
+      "value_nT": 527.3,
+      "resolution_diagonal": 0.8,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 4,
+      "value_nT": 120.0,
+      "resolution_diagonal": 0.85,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 5,
+      "value_nT": -478.9,
+      "resolution_diagonal": 0.85,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 6,
+      "value_nT": 148.4,
+      "resolution_diagonal": 0.89,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 7,
+      "value_nT": 45.7,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 8,
+      "value_nT": -882.5,
+      "resolution_diagonal": 0.95,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 9,
+      "value_nT": -206.6,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 10,
+      "value_nT": -74.9,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 11,
+      "value_nT": 51.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 12,
+      "value_nT": 36.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 13,
+      "value_nT": -44.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 14,
+      "value_nT": -285.9,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 15,
+      "m": 15,
+      "value_nT": 135.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.0004
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 0,
+      "value_nT": -809.2,
+      "resolution_diagonal": 0.76,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 1,
+      "value_nT": -888.9,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 2,
+      "value_nT": -604.0,
+      "resolution_diagonal": 0.76,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 3,
+      "value_nT": -339.1,
+      "resolution_diagonal": 0.76,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 4,
+      "value_nT": -350.6,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 5,
+      "value_nT": -503.8,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 6,
+      "value_nT": -235.5,
+      "resolution_diagonal": 0.8,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 7,
+      "value_nT": 9.0,
+      "resolution_diagonal": 0.85,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 8,
+      "value_nT": -498.7,
+      "resolution_diagonal": 0.89,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 9,
+      "value_nT": -283.2,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 10,
+      "value_nT": -50.9,
+      "resolution_diagonal": 0.96,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 11,
+      "value_nT": -515.2,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 12,
+      "value_nT": -255.3,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 13,
+      "value_nT": 15.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 14,
+      "value_nT": -24.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 15,
+      "value_nT": -176.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 16,
+      "m": 16,
+      "value_nT": 49.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 1,
+      "value_nT": -932.8,
+      "resolution_diagonal": 0.76,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 2,
+      "value_nT": -608.1,
+      "resolution_diagonal": 0.76,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 3,
+      "value_nT": 510.2,
+      "resolution_diagonal": 0.76,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 4,
+      "value_nT": -587.4,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 5,
+      "value_nT": -39.4,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 6,
+      "value_nT": 358.1,
+      "resolution_diagonal": 0.81,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 7,
+      "value_nT": 279.8,
+      "resolution_diagonal": 0.84,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 8,
+      "value_nT": 244.5,
+      "resolution_diagonal": 0.88,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 9,
+      "value_nT": 487.3,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 10,
+      "value_nT": 366.7,
+      "resolution_diagonal": 0.96,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 11,
+      "value_nT": 93.9,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 12,
+      "value_nT": 282.8,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 13,
+      "value_nT": -267.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 14,
+      "value_nT": 39.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 15,
+      "value_nT": -213.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 16,
+      "m": 16,
+      "value_nT": 32.4,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00028
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 0,
+      "value_nT": -1238.7,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 1,
+      "value_nT": -190.2,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 2,
+      "value_nT": -101.5,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 3,
+      "value_nT": -58.0,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 4,
+      "value_nT": 10.0,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 5,
+      "value_nT": -525.9,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 6,
+      "value_nT": 468.4,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 7,
+      "value_nT": 88.1,
+      "resolution_diagonal": 0.77,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 8,
+      "value_nT": -385.1,
+      "resolution_diagonal": 0.8,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 9,
+      "value_nT": 77.6,
+      "resolution_diagonal": 0.84,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 10,
+      "value_nT": 75.7,
+      "resolution_diagonal": 0.89,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 11,
+      "value_nT": -148.9,
+      "resolution_diagonal": 0.93,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 12,
+      "value_nT": 201.8,
+      "resolution_diagonal": 0.96,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 13,
+      "value_nT": 61.7,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 14,
+      "value_nT": -243.6,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 15,
+      "value_nT": 168.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 16,
+      "value_nT": -42.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 17,
+      "m": 17,
+      "value_nT": 7.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 1,
+      "value_nT": -209.2,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 2,
+      "value_nT": -15.8,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 3,
+      "value_nT": 54.4,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 4,
+      "value_nT": 308.7,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 5,
+      "value_nT": 722.0,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 6,
+      "value_nT": 233.3,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 7,
+      "value_nT": -82.1,
+      "resolution_diagonal": 0.76,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 8,
+      "value_nT": 221.5,
+      "resolution_diagonal": 0.8,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 9,
+      "value_nT": 488.6,
+      "resolution_diagonal": 0.84,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 10,
+      "value_nT": 206.3,
+      "resolution_diagonal": 0.89,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 11,
+      "value_nT": 176.7,
+      "resolution_diagonal": 0.93,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 12,
+      "value_nT": 353.4,
+      "resolution_diagonal": 0.96,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 13,
+      "value_nT": 204.8,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 14,
+      "value_nT": -29.5,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 15,
+      "value_nT": 12.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 16,
+      "value_nT": -89.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 17,
+      "m": 17,
+      "value_nT": -166.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00019
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 0,
+      "value_nT": -796.0,
+      "resolution_diagonal": 0.69,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 1,
+      "value_nT": 443.6,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 2,
+      "value_nT": 266.9,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 3,
+      "value_nT": 391.2,
+      "resolution_diagonal": 0.72,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 4,
+      "value_nT": 366.2,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 5,
+      "value_nT": 175.8,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 6,
+      "value_nT": 512.5,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 7,
+      "value_nT": 151.0,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 8,
+      "value_nT": 214.9,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 9,
+      "value_nT": 243.4,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 10,
+      "value_nT": 337.5,
+      "resolution_diagonal": 0.79,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 11,
+      "value_nT": -10.2,
+      "resolution_diagonal": 0.84,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 12,
+      "value_nT": -34.9,
+      "resolution_diagonal": 0.89,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 13,
+      "value_nT": 161.2,
+      "resolution_diagonal": 0.94,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 14,
+      "value_nT": 222.3,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 15,
+      "value_nT": -119.6,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 16,
+      "value_nT": 28.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 17,
+      "value_nT": 132.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 18,
+      "m": 18,
+      "value_nT": -180.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 1,
+      "value_nT": 670.9,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 2,
+      "value_nT": -176.1,
+      "resolution_diagonal": 0.72,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 3,
+      "value_nT": -340.3,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 4,
+      "value_nT": 37.0,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 5,
+      "value_nT": 304.3,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 6,
+      "value_nT": -348.8,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 7,
+      "value_nT": -291.9,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 8,
+      "value_nT": 165.6,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 9,
+      "value_nT": 360.9,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 10,
+      "value_nT": -119.0,
+      "resolution_diagonal": 0.79,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 11,
+      "value_nT": 100.1,
+      "resolution_diagonal": 0.84,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 12,
+      "value_nT": 26.9,
+      "resolution_diagonal": 0.89,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 13,
+      "value_nT": 1.0,
+      "resolution_diagonal": 0.94,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 14,
+      "value_nT": -60.2,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 15,
+      "value_nT": 66.5,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 16,
+      "value_nT": 277.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 17,
+      "value_nT": 29.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 18,
+      "m": 18,
+      "value_nT": 15.3,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00017
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 0,
+      "value_nT": -493.7,
+      "resolution_diagonal": 0.63,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 1,
+      "value_nT": 486.7,
+      "resolution_diagonal": 0.62,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 2,
+      "value_nT": -62.0,
+      "resolution_diagonal": 0.66,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 3,
+      "value_nT": 539.2,
+      "resolution_diagonal": 0.67,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 4,
+      "value_nT": 187.4,
+      "resolution_diagonal": 0.68,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 5,
+      "value_nT": 136.8,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 6,
+      "value_nT": -9.4,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 7,
+      "value_nT": -581.2,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 8,
+      "value_nT": 291.8,
+      "resolution_diagonal": 0.72,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 9,
+      "value_nT": -198.1,
+      "resolution_diagonal": 0.72,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 10,
+      "value_nT": 95.5,
+      "resolution_diagonal": 0.72,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 11,
+      "value_nT": -372.6,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 12,
+      "value_nT": 190.7,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 13,
+      "value_nT": -119.6,
+      "resolution_diagonal": 0.84,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 14,
+      "value_nT": -11.9,
+      "resolution_diagonal": 0.9,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 15,
+      "value_nT": 74.4,
+      "resolution_diagonal": 0.95,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 16,
+      "value_nT": -391.4,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 17,
+      "value_nT": -33.1,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 18,
+      "value_nT": -118.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 19,
+      "m": 19,
+      "value_nT": -57.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 1,
+      "value_nT": 85.8,
+      "resolution_diagonal": 0.65,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 2,
+      "value_nT": -412.1,
+      "resolution_diagonal": 0.64,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 3,
+      "value_nT": -502.0,
+      "resolution_diagonal": 0.66,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 4,
+      "value_nT": -425.1,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 5,
+      "value_nT": -232.2,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 6,
+      "value_nT": -477.0,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 7,
+      "value_nT": -463.5,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 8,
+      "value_nT": 73.6,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 9,
+      "value_nT": -228.3,
+      "resolution_diagonal": 0.72,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 10,
+      "value_nT": -96.8,
+      "resolution_diagonal": 0.72,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 11,
+      "value_nT": -256.0,
+      "resolution_diagonal": 0.75,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 12,
+      "value_nT": -228.0,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 13,
+      "value_nT": 119.3,
+      "resolution_diagonal": 0.85,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 14,
+      "value_nT": -76.9,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 15,
+      "value_nT": -319.8,
+      "resolution_diagonal": 0.95,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 16,
+      "value_nT": -284.0,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 17,
+      "value_nT": 197.9,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 18,
+      "value_nT": -239.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 19,
+      "m": 19,
+      "value_nT": 302.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00019
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 0,
+      "value_nT": -319.9,
+      "resolution_diagonal": 0.56,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 1,
+      "value_nT": 113.6,
+      "resolution_diagonal": 0.56,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 2,
+      "value_nT": -262.2,
+      "resolution_diagonal": 0.58,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 3,
+      "value_nT": 94.2,
+      "resolution_diagonal": 0.6,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 4,
+      "value_nT": -306.7,
+      "resolution_diagonal": 0.62,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 5,
+      "value_nT": -139.2,
+      "resolution_diagonal": 0.63,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 6,
+      "value_nT": -291.5,
+      "resolution_diagonal": 0.63,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 7,
+      "value_nT": -716.6,
+      "resolution_diagonal": 0.68,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 8,
+      "value_nT": 55.5,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 9,
+      "value_nT": -219.0,
+      "resolution_diagonal": 0.72,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 10,
+      "value_nT": -165.1,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 11,
+      "value_nT": -206.6,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 12,
+      "value_nT": -115.7,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 13,
+      "value_nT": -117.5,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 14,
+      "value_nT": -56.9,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 15,
+      "value_nT": -6.9,
+      "resolution_diagonal": 0.86,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 16,
+      "value_nT": 31.4,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 17,
+      "value_nT": -146.9,
+      "resolution_diagonal": 0.96,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 18,
+      "value_nT": 453.7,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 19,
+      "value_nT": -256.5,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 20,
+      "m": 20,
+      "value_nT": 424.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 1,
+      "value_nT": -297.6,
+      "resolution_diagonal": 0.57,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 2,
+      "value_nT": -13.7,
+      "resolution_diagonal": 0.58,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 3,
+      "value_nT": -118.4,
+      "resolution_diagonal": 0.6,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 4,
+      "value_nT": 105.6,
+      "resolution_diagonal": 0.61,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 5,
+      "value_nT": 101.9,
+      "resolution_diagonal": 0.62,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 6,
+      "value_nT": 45.3,
+      "resolution_diagonal": 0.65,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 7,
+      "value_nT": -213.0,
+      "resolution_diagonal": 0.67,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 8,
+      "value_nT": 372.5,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 9,
+      "value_nT": -382.8,
+      "resolution_diagonal": 0.72,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 10,
+      "value_nT": 154.2,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 11,
+      "value_nT": -290.3,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 12,
+      "value_nT": 17.1,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 13,
+      "value_nT": 6.7,
+      "resolution_diagonal": 0.74,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 14,
+      "value_nT": 13.2,
+      "resolution_diagonal": 0.8,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 15,
+      "value_nT": -49.3,
+      "resolution_diagonal": 0.85,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 16,
+      "value_nT": -32.2,
+      "resolution_diagonal": 0.91,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 17,
+      "value_nT": -152.8,
+      "resolution_diagonal": 0.95,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 18,
+      "value_nT": 62.2,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 19,
+      "value_nT": 8.5,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 20,
+      "m": 20,
+      "value_nT": 35.0,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00013
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 0,
+      "value_nT": -71.5,
+      "resolution_diagonal": 0.5,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 1,
+      "value_nT": -157.0,
+      "resolution_diagonal": 0.51,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 2,
+      "value_nT": -127.9,
+      "resolution_diagonal": 0.52,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 3,
+      "value_nT": -73.9,
+      "resolution_diagonal": 0.53,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 4,
+      "value_nT": -98.0,
+      "resolution_diagonal": 0.57,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 5,
+      "value_nT": 222.1,
+      "resolution_diagonal": 0.57,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 6,
+      "value_nT": -299.3,
+      "resolution_diagonal": 0.58,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 7,
+      "value_nT": -124.8,
+      "resolution_diagonal": 0.61,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 8,
+      "value_nT": 155.6,
+      "resolution_diagonal": 0.61,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 9,
+      "value_nT": 61.0,
+      "resolution_diagonal": 0.64,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 10,
+      "value_nT": -137.5,
+      "resolution_diagonal": 0.68,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 11,
+      "value_nT": -52.1,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 12,
+      "value_nT": -177.1,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 13,
+      "value_nT": -51.6,
+      "resolution_diagonal": 0.69,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 14,
+      "value_nT": 44.3,
+      "resolution_diagonal": 0.69,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 15,
+      "value_nT": 35.7,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 16,
+      "value_nT": -365.8,
+      "resolution_diagonal": 0.8,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 17,
+      "value_nT": 91.4,
+      "resolution_diagonal": 0.85,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 18,
+      "value_nT": -200.6,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 19,
+      "value_nT": 28.0,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 20,
+      "value_nT": -113.8,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 21,
+      "m": 21,
+      "value_nT": 16.7,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 1,
+      "value_nT": -155.8,
+      "resolution_diagonal": 0.51,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 2,
+      "value_nT": 312.3,
+      "resolution_diagonal": 0.53,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 3,
+      "value_nT": 291.1,
+      "resolution_diagonal": 0.54,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 4,
+      "value_nT": 207.9,
+      "resolution_diagonal": 0.54,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 5,
+      "value_nT": 165.8,
+      "resolution_diagonal": 0.58,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 6,
+      "value_nT": 291.2,
+      "resolution_diagonal": 0.59,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 7,
+      "value_nT": 198.8,
+      "resolution_diagonal": 0.61,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 8,
+      "value_nT": 442.1,
+      "resolution_diagonal": 0.64,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 9,
+      "value_nT": -104.0,
+      "resolution_diagonal": 0.64,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 10,
+      "value_nT": 209.6,
+      "resolution_diagonal": 0.67,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 11,
+      "value_nT": -45.0,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 12,
+      "value_nT": -139.6,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 13,
+      "value_nT": 229.4,
+      "resolution_diagonal": 0.69,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 14,
+      "value_nT": -59.8,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 15,
+      "value_nT": -30.0,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 16,
+      "value_nT": -182.0,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 17,
+      "value_nT": 162.1,
+      "resolution_diagonal": 0.85,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 18,
+      "value_nT": 131.7,
+      "resolution_diagonal": 0.93,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 19,
+      "value_nT": -356.9,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 20,
+      "value_nT": 379.5,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 21,
+      "m": 21,
+      "value_nT": -318.6,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": 0.00011
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 0,
+      "value_nT": -48.6,
+      "resolution_diagonal": 0.45,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 1,
+      "value_nT": -197.9,
+      "resolution_diagonal": 0.45,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 2,
+      "value_nT": -16.4,
+      "resolution_diagonal": 0.46,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 3,
+      "value_nT": 84.0,
+      "resolution_diagonal": 0.47,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 4,
+      "value_nT": 155.6,
+      "resolution_diagonal": 0.48,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 5,
+      "value_nT": 194.9,
+      "resolution_diagonal": 0.51,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 6,
+      "value_nT": -91.6,
+      "resolution_diagonal": 0.52,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 7,
+      "value_nT": 55.5,
+      "resolution_diagonal": 0.54,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 8,
+      "value_nT": 183.6,
+      "resolution_diagonal": 0.56,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 9,
+      "value_nT": 43.1,
+      "resolution_diagonal": 0.58,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 10,
+      "value_nT": -16.4,
+      "resolution_diagonal": 0.61,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 11,
+      "value_nT": -149.6,
+      "resolution_diagonal": 0.63,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 12,
+      "value_nT": 33.1,
+      "resolution_diagonal": 0.64,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 13,
+      "value_nT": -39.4,
+      "resolution_diagonal": 0.67,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 14,
+      "value_nT": 123.4,
+      "resolution_diagonal": 0.67,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 15,
+      "value_nT": -62.2,
+      "resolution_diagonal": 0.67,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 16,
+      "value_nT": -74.9,
+      "resolution_diagonal": 0.68,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 17,
+      "value_nT": -28.0,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 18,
+      "value_nT": 142.1,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 19,
+      "value_nT": 147.2,
+      "resolution_diagonal": 0.87,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 20,
+      "value_nT": -307.5,
+      "resolution_diagonal": 0.93,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 21,
+      "value_nT": 228.2,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 22,
+      "m": 22,
+      "value_nT": -365.4,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 1,
+      "value_nT": -52.5,
+      "resolution_diagonal": 0.46,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 2,
+      "value_nT": 180.6,
+      "resolution_diagonal": 0.45,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 3,
+      "value_nT": 182.5,
+      "resolution_diagonal": 0.46,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 4,
+      "value_nT": -69.5,
+      "resolution_diagonal": 0.49,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 5,
+      "value_nT": -24.5,
+      "resolution_diagonal": 0.52,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 6,
+      "value_nT": 93.2,
+      "resolution_diagonal": 0.53,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 7,
+      "value_nT": 188.1,
+      "resolution_diagonal": 0.55,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 8,
+      "value_nT": 54.5,
+      "resolution_diagonal": 0.58,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 9,
+      "value_nT": -68.5,
+      "resolution_diagonal": 0.59,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 10,
+      "value_nT": 93.8,
+      "resolution_diagonal": 0.6,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 11,
+      "value_nT": -87.3,
+      "resolution_diagonal": 0.63,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 12,
+      "value_nT": -175.3,
+      "resolution_diagonal": 0.66,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 13,
+      "value_nT": 202.4,
+      "resolution_diagonal": 0.67,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 14,
+      "value_nT": -49.8,
+      "resolution_diagonal": 0.67,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 15,
+      "value_nT": -129.2,
+      "resolution_diagonal": 0.67,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 16,
+      "value_nT": -241.1,
+      "resolution_diagonal": 0.68,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 17,
+      "value_nT": -63.6,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 18,
+      "value_nT": 68.4,
+      "resolution_diagonal": 0.79,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 19,
+      "value_nT": 168.1,
+      "resolution_diagonal": 0.88,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 20,
+      "value_nT": -160.0,
+      "resolution_diagonal": 0.93,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 21,
+      "value_nT": 62.6,
+      "resolution_diagonal": 0.98,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 22,
+      "m": 22,
+      "value_nT": -117.5,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": 6e-05
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 0,
+      "value_nT": -53.7,
+      "resolution_diagonal": 0.42,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 1,
+      "value_nT": -120.7,
+      "resolution_diagonal": 0.42,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 2,
+      "value_nT": 23.0,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 3,
+      "value_nT": 53.9,
+      "resolution_diagonal": 0.41,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 4,
+      "value_nT": -25.8,
+      "resolution_diagonal": 0.42,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 5,
+      "value_nT": -185.5,
+      "resolution_diagonal": 0.43,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 6,
+      "value_nT": 65.2,
+      "resolution_diagonal": 0.43,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 7,
+      "value_nT": -45.7,
+      "resolution_diagonal": 0.46,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 8,
+      "value_nT": -22.3,
+      "resolution_diagonal": 0.48,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 9,
+      "value_nT": -34.5,
+      "resolution_diagonal": 0.52,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 10,
+      "value_nT": 10.4,
+      "resolution_diagonal": 0.54,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 11,
+      "value_nT": -158.9,
+      "resolution_diagonal": 0.55,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 12,
+      "value_nT": -15.6,
+      "resolution_diagonal": 0.58,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 13,
+      "value_nT": -59.4,
+      "resolution_diagonal": 0.61,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 14,
+      "value_nT": 122.2,
+      "resolution_diagonal": 0.65,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 15,
+      "value_nT": -119.5,
+      "resolution_diagonal": 0.66,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 16,
+      "value_nT": -18.3,
+      "resolution_diagonal": 0.65,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 17,
+      "value_nT": 108.2,
+      "resolution_diagonal": 0.65,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 18,
+      "value_nT": -35.6,
+      "resolution_diagonal": 0.66,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 19,
+      "value_nT": -94.6,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 20,
+      "value_nT": 147.0,
+      "resolution_diagonal": 0.78,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 21,
+      "value_nT": -88.5,
+      "resolution_diagonal": 0.88,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 22,
+      "value_nT": 199.1,
+      "resolution_diagonal": 0.95,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 23,
+      "m": 23,
+      "value_nT": -121.6,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 1,
+      "value_nT": 52.8,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 2,
+      "value_nT": -2.1,
+      "resolution_diagonal": 0.41,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 3,
+      "value_nT": -51.9,
+      "resolution_diagonal": 0.41,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 4,
+      "value_nT": -92.9,
+      "resolution_diagonal": 0.41,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 5,
+      "value_nT": -7.9,
+      "resolution_diagonal": 0.42,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 6,
+      "value_nT": 21.1,
+      "resolution_diagonal": 0.43,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 7,
+      "value_nT": 16.4,
+      "resolution_diagonal": 0.46,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 8,
+      "value_nT": -51.3,
+      "resolution_diagonal": 0.5,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 9,
+      "value_nT": -135.8,
+      "resolution_diagonal": 0.53,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 10,
+      "value_nT": 56.1,
+      "resolution_diagonal": 0.52,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 11,
+      "value_nT": -172.6,
+      "resolution_diagonal": 0.55,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 12,
+      "value_nT": 40.8,
+      "resolution_diagonal": 0.58,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 13,
+      "value_nT": 21.3,
+      "resolution_diagonal": 0.61,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 14,
+      "value_nT": 19.6,
+      "resolution_diagonal": 0.65,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 15,
+      "value_nT": -63.1,
+      "resolution_diagonal": 0.66,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 16,
+      "value_nT": -135.9,
+      "resolution_diagonal": 0.66,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 17,
+      "value_nT": -3.1,
+      "resolution_diagonal": 0.65,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 18,
+      "value_nT": 55.9,
+      "resolution_diagonal": 0.66,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 19,
+      "value_nT": -63.5,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 20,
+      "value_nT": -6.3,
+      "resolution_diagonal": 0.79,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 21,
+      "value_nT": 188.1,
+      "resolution_diagonal": 0.89,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 22,
+      "value_nT": -119.3,
+      "resolution_diagonal": 0.95,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 23,
+      "m": 23,
+      "value_nT": 313.2,
+      "resolution_diagonal": 0.99,
+      "normalized_Lowes_amplitude": 3e-05
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 0,
+      "value_nT": 128.5,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 1,
+      "value_nT": -31.9,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 2,
+      "value_nT": 38.5,
+      "resolution_diagonal": 0.38,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 3,
+      "value_nT": -80.7,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 4,
+      "value_nT": -118.6,
+      "resolution_diagonal": 0.38,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 5,
+      "value_nT": -177.4,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 6,
+      "value_nT": 44.8,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 7,
+      "value_nT": -26.8,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 8,
+      "value_nT": -153.3,
+      "resolution_diagonal": 0.37,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 9,
+      "value_nT": 7.6,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 10,
+      "value_nT": -49.6,
+      "resolution_diagonal": 0.44,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 11,
+      "value_nT": -48.7,
+      "resolution_diagonal": 0.47,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 12,
+      "value_nT": -122.1,
+      "resolution_diagonal": 0.51,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 13,
+      "value_nT": -1.7,
+      "resolution_diagonal": 0.5,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 14,
+      "value_nT": 40.1,
+      "resolution_diagonal": 0.52,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 15,
+      "value_nT": -57.1,
+      "resolution_diagonal": 0.58,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 16,
+      "value_nT": -82.7,
+      "resolution_diagonal": 0.62,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 17,
+      "value_nT": 170.5,
+      "resolution_diagonal": 0.64,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 18,
+      "value_nT": -109.1,
+      "resolution_diagonal": 0.64,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 19,
+      "value_nT": 28.0,
+      "resolution_diagonal": 0.63,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 20,
+      "value_nT": -45.5,
+      "resolution_diagonal": 0.64,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 21,
+      "value_nT": -42.1,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 22,
+      "value_nT": 16.4,
+      "resolution_diagonal": 0.8,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 23,
+      "value_nT": -42.7,
+      "resolution_diagonal": 0.9,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 24,
+      "m": 24,
+      "value_nT": 174.8,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 1,
+      "value_nT": 59.4,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 2,
+      "value_nT": -45.4,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 3,
+      "value_nT": -76.0,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 4,
+      "value_nT": 13.9,
+      "resolution_diagonal": 0.38,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 5,
+      "value_nT": 26.5,
+      "resolution_diagonal": 0.38,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 6,
+      "value_nT": 63.0,
+      "resolution_diagonal": 0.38,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 7,
+      "value_nT": 9.1,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 8,
+      "value_nT": 29.6,
+      "resolution_diagonal": 0.41,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 9,
+      "value_nT": -7.6,
+      "resolution_diagonal": 0.41,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 10,
+      "value_nT": 38.3,
+      "resolution_diagonal": 0.42,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 11,
+      "value_nT": -81.6,
+      "resolution_diagonal": 0.47,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 12,
+      "value_nT": 63.3,
+      "resolution_diagonal": 0.5,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 13,
+      "value_nT": 40.0,
+      "resolution_diagonal": 0.52,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 14,
+      "value_nT": 50.3,
+      "resolution_diagonal": 0.52,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 15,
+      "value_nT": -52.5,
+      "resolution_diagonal": 0.57,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 16,
+      "value_nT": -88.2,
+      "resolution_diagonal": 0.63,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 17,
+      "value_nT": 99.9,
+      "resolution_diagonal": 0.65,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 18,
+      "value_nT": 59.3,
+      "resolution_diagonal": 0.64,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 19,
+      "value_nT": -52.2,
+      "resolution_diagonal": 0.63,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 20,
+      "value_nT": 106.4,
+      "resolution_diagonal": 0.64,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 21,
+      "value_nT": -62.1,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 22,
+      "value_nT": 34.6,
+      "resolution_diagonal": 0.8,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 23,
+      "value_nT": -171.1,
+      "resolution_diagonal": 0.9,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 24,
+      "m": 24,
+      "value_nT": 43.5,
+      "resolution_diagonal": 0.97,
+      "normalized_Lowes_amplitude": 2e-05
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 0,
+      "value_nT": 203.0,
+      "resolution_diagonal": 0.33,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 1,
+      "value_nT": 42.3,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 2,
+      "value_nT": 17.1,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 3,
+      "value_nT": -79.5,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 4,
+      "value_nT": -1.5,
+      "resolution_diagonal": 0.34,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 5,
+      "value_nT": 31.4,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 6,
+      "value_nT": 18.8,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 7,
+      "value_nT": 21.5,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 8,
+      "value_nT": -94.6,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 9,
+      "value_nT": 35.0,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 10,
+      "value_nT": -60.6,
+      "resolution_diagonal": 0.36,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 11,
+      "value_nT": -11.7,
+      "resolution_diagonal": 0.37,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 12,
+      "value_nT": -84.7,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 13,
+      "value_nT": 60.1,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 14,
+      "value_nT": 5.8,
+      "resolution_diagonal": 0.43,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 15,
+      "value_nT": -4.9,
+      "resolution_diagonal": 0.47,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 16,
+      "value_nT": 25.9,
+      "resolution_diagonal": 0.48,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 17,
+      "value_nT": 117.3,
+      "resolution_diagonal": 0.49,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 18,
+      "value_nT": 9.2,
+      "resolution_diagonal": 0.56,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 19,
+      "value_nT": 99.6,
+      "resolution_diagonal": 0.62,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 20,
+      "value_nT": -126.2,
+      "resolution_diagonal": 0.6,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 21,
+      "value_nT": 34.2,
+      "resolution_diagonal": 0.6,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 22,
+      "value_nT": 25.9,
+      "resolution_diagonal": 0.62,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 23,
+      "value_nT": 23.7,
+      "resolution_diagonal": 0.7,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 24,
+      "value_nT": 89.8,
+      "resolution_diagonal": 0.82,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 25,
+      "m": 25,
+      "value_nT": 63.2,
+      "resolution_diagonal": 0.93,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 1,
+      "value_nT": -6.2,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 2,
+      "value_nT": -62.4,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 3,
+      "value_nT": -17.5,
+      "resolution_diagonal": 0.34,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 4,
+      "value_nT": 72.8,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 5,
+      "value_nT": -6.1,
+      "resolution_diagonal": 0.34,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 6,
+      "value_nT": -12.2,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 7,
+      "value_nT": 28.2,
+      "resolution_diagonal": 0.36,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 8,
+      "value_nT": -18.0,
+      "resolution_diagonal": 0.36,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 9,
+      "value_nT": 122.4,
+      "resolution_diagonal": 0.36,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 10,
+      "value_nT": -33.4,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 11,
+      "value_nT": 24.0,
+      "resolution_diagonal": 0.38,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 12,
+      "value_nT": 19.7,
+      "resolution_diagonal": 0.38,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 13,
+      "value_nT": 70.6,
+      "resolution_diagonal": 0.42,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 14,
+      "value_nT": 62.2,
+      "resolution_diagonal": 0.44,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 15,
+      "value_nT": -60.1,
+      "resolution_diagonal": 0.47,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 16,
+      "value_nT": -54.4,
+      "resolution_diagonal": 0.48,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 17,
+      "value_nT": 54.0,
+      "resolution_diagonal": 0.49,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 18,
+      "value_nT": -48.5,
+      "resolution_diagonal": 0.57,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 19,
+      "value_nT": 45.4,
+      "resolution_diagonal": 0.61,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 20,
+      "value_nT": 24.9,
+      "resolution_diagonal": 0.61,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 21,
+      "value_nT": -77.3,
+      "resolution_diagonal": 0.6,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 22,
+      "value_nT": 36.9,
+      "resolution_diagonal": 0.62,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 23,
+      "value_nT": 4.8,
+      "resolution_diagonal": 0.71,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 24,
+      "value_nT": 85.7,
+      "resolution_diagonal": 0.8,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 25,
+      "m": 25,
+      "value_nT": -262.0,
+      "resolution_diagonal": 0.92,
+      "normalized_Lowes_amplitude": 2e-05
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 0,
+      "value_nT": 42.0,
+      "resolution_diagonal": 0.29,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 1,
+      "value_nT": 69.7,
+      "resolution_diagonal": 0.31,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 2,
+      "value_nT": -12.6,
+      "resolution_diagonal": 0.29,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 3,
+      "value_nT": -7.0,
+      "resolution_diagonal": 0.31,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 4,
+      "value_nT": 58.4,
+      "resolution_diagonal": 0.31,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 5,
+      "value_nT": 71.8,
+      "resolution_diagonal": 0.3,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 6,
+      "value_nT": 30.1,
+      "resolution_diagonal": 0.3,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 7,
+      "value_nT": 24.8,
+      "resolution_diagonal": 0.31,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 8,
+      "value_nT": 0.7,
+      "resolution_diagonal": 0.31,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 9,
+      "value_nT": 8.7,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 10,
+      "value_nT": 10.8,
+      "resolution_diagonal": 0.33,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 11,
+      "value_nT": -21.4,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 12,
+      "value_nT": -0.1,
+      "resolution_diagonal": 0.33,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 13,
+      "value_nT": 27.6,
+      "resolution_diagonal": 0.33,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 14,
+      "value_nT": 17.1,
+      "resolution_diagonal": 0.37,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 15,
+      "value_nT": 23.1,
+      "resolution_diagonal": 0.37,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 16,
+      "value_nT": 59.9,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 17,
+      "value_nT": 89.4,
+      "resolution_diagonal": 0.41,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 18,
+      "value_nT": 40.0,
+      "resolution_diagonal": 0.43,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 19,
+      "value_nT": -30.5,
+      "resolution_diagonal": 0.46,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 20,
+      "value_nT": -42.5,
+      "resolution_diagonal": 0.49,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 21,
+      "value_nT": 29.0,
+      "resolution_diagonal": 0.55,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 22,
+      "value_nT": -21.3,
+      "resolution_diagonal": 0.58,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 23,
+      "value_nT": 5.1,
+      "resolution_diagonal": 0.55,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 24,
+      "value_nT": -205.5,
+      "resolution_diagonal": 0.6,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 25,
+      "value_nT": 60.1,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 26,
+      "m": 26,
+      "value_nT": -142.3,
+      "resolution_diagonal": 0.81,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 1,
+      "value_nT": 5.1,
+      "resolution_diagonal": 0.28,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 2,
+      "value_nT": -50.8,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 3,
+      "value_nT": 9.5,
+      "resolution_diagonal": 0.29,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 4,
+      "value_nT": 33.9,
+      "resolution_diagonal": 0.3,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 5,
+      "value_nT": -7.2,
+      "resolution_diagonal": 0.31,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 6,
+      "value_nT": -73.0,
+      "resolution_diagonal": 0.3,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 7,
+      "value_nT": -12.9,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 8,
+      "value_nT": -48.1,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 9,
+      "value_nT": 55.4,
+      "resolution_diagonal": 0.31,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 10,
+      "value_nT": -60.8,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 11,
+      "value_nT": 39.0,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 12,
+      "value_nT": 46.9,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 13,
+      "value_nT": 43.8,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 14,
+      "value_nT": 29.2,
+      "resolution_diagonal": 0.36,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 15,
+      "value_nT": -1.9,
+      "resolution_diagonal": 0.38,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 16,
+      "value_nT": 5.8,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 17,
+      "value_nT": 36.0,
+      "resolution_diagonal": 0.41,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 18,
+      "value_nT": -113.8,
+      "resolution_diagonal": 0.43,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 19,
+      "value_nT": 29.2,
+      "resolution_diagonal": 0.46,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 20,
+      "value_nT": -22.9,
+      "resolution_diagonal": 0.51,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 21,
+      "value_nT": -10.0,
+      "resolution_diagonal": 0.55,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 22,
+      "value_nT": -23.4,
+      "resolution_diagonal": 0.56,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 23,
+      "value_nT": -30.5,
+      "resolution_diagonal": 0.55,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 24,
+      "value_nT": 66.7,
+      "resolution_diagonal": 0.57,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 25,
+      "value_nT": 126.9,
+      "resolution_diagonal": 0.73,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 26,
+      "m": 26,
+      "value_nT": -43.3,
+      "resolution_diagonal": 0.82,
+      "normalized_Lowes_amplitude": 1e-05
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 0,
+      "value_nT": -97.3,
+      "resolution_diagonal": 0.25,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 1,
+      "value_nT": 29.4,
+      "resolution_diagonal": 0.26,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 2,
+      "value_nT": -17.8,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 3,
+      "value_nT": 30.4,
+      "resolution_diagonal": 0.25,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 4,
+      "value_nT": 23.1,
+      "resolution_diagonal": 0.24,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 5,
+      "value_nT": 16.1,
+      "resolution_diagonal": 0.26,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 6,
+      "value_nT": 13.1,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 7,
+      "value_nT": 8.6,
+      "resolution_diagonal": 0.25,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 8,
+      "value_nT": 28.3,
+      "resolution_diagonal": 0.26,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 9,
+      "value_nT": -14.0,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 10,
+      "value_nT": 52.4,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 11,
+      "value_nT": 10.3,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 12,
+      "value_nT": 17.4,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 13,
+      "value_nT": -33.2,
+      "resolution_diagonal": 0.28,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 14,
+      "value_nT": 12.0,
+      "resolution_diagonal": 0.28,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 15,
+      "value_nT": 22.1,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 16,
+      "value_nT": 15.7,
+      "resolution_diagonal": 0.28,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 17,
+      "value_nT": 42.5,
+      "resolution_diagonal": 0.33,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 18,
+      "value_nT": 18.8,
+      "resolution_diagonal": 0.34,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 19,
+      "value_nT": -62.5,
+      "resolution_diagonal": 0.37,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 20,
+      "value_nT": -23.7,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 21,
+      "value_nT": 15.4,
+      "resolution_diagonal": 0.42,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 22,
+      "value_nT": -38.5,
+      "resolution_diagonal": 0.46,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 23,
+      "value_nT": -10.2,
+      "resolution_diagonal": 0.5,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 24,
+      "value_nT": -106.4,
+      "resolution_diagonal": 0.5,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 25,
+      "value_nT": -25.5,
+      "resolution_diagonal": 0.52,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 26,
+      "value_nT": -2.6,
+      "resolution_diagonal": 0.56,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 27,
+      "m": 27,
+      "value_nT": -86.8,
+      "resolution_diagonal": 0.65,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 1,
+      "value_nT": 23.2,
+      "resolution_diagonal": 0.24,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 2,
+      "value_nT": 8.1,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 3,
+      "value_nT": 16.8,
+      "resolution_diagonal": 0.24,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 4,
+      "value_nT": -44.1,
+      "resolution_diagonal": 0.26,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 5,
+      "value_nT": 6.2,
+      "resolution_diagonal": 0.26,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 6,
+      "value_nT": -17.0,
+      "resolution_diagonal": 0.26,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 7,
+      "value_nT": -30.2,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 8,
+      "value_nT": 0.7,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 9,
+      "value_nT": -45.5,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 10,
+      "value_nT": -18.1,
+      "resolution_diagonal": 0.26,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 11,
+      "value_nT": 13.2,
+      "resolution_diagonal": 0.28,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 12,
+      "value_nT": 31.8,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 13,
+      "value_nT": 20.7,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 14,
+      "value_nT": -14.4,
+      "resolution_diagonal": 0.28,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 15,
+      "value_nT": 30.7,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 16,
+      "value_nT": 41.0,
+      "resolution_diagonal": 0.28,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 17,
+      "value_nT": 23.0,
+      "resolution_diagonal": 0.34,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 18,
+      "value_nT": -56.4,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 19,
+      "value_nT": 1.6,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 20,
+      "value_nT": -14.7,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 21,
+      "value_nT": -16.3,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 22,
+      "value_nT": -31.1,
+      "resolution_diagonal": 0.46,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 23,
+      "value_nT": -32.5,
+      "resolution_diagonal": 0.51,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 24,
+      "value_nT": -49.2,
+      "resolution_diagonal": 0.5,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 25,
+      "value_nT": 79.7,
+      "resolution_diagonal": 0.51,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 26,
+      "value_nT": -45.3,
+      "resolution_diagonal": 0.56,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 27,
+      "m": 27,
+      "value_nT": 35.8,
+      "resolution_diagonal": 0.6,
+      "normalized_Lowes_amplitude": 1e-05
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 0,
+      "value_nT": -66.8,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 1,
+      "value_nT": -19.6,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 2,
+      "value_nT": -3.9,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 3,
+      "value_nT": 27.8,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 4,
+      "value_nT": -9.3,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 5,
+      "value_nT": -6.2,
+      "resolution_diagonal": 0.19,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 6,
+      "value_nT": -12.2,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 7,
+      "value_nT": -6.2,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 8,
+      "value_nT": 16.7,
+      "resolution_diagonal": 0.21,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 9,
+      "value_nT": -9.1,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 10,
+      "value_nT": 17.8,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 11,
+      "value_nT": 34.2,
+      "resolution_diagonal": 0.21,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 12,
+      "value_nT": -0.4,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 13,
+      "value_nT": -30.6,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 14,
+      "value_nT": -3.2,
+      "resolution_diagonal": 0.24,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 15,
+      "value_nT": 2.9,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 16,
+      "value_nT": 1.7,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 17,
+      "value_nT": -19.7,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 18,
+      "value_nT": 2.2,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 19,
+      "value_nT": 16.7,
+      "resolution_diagonal": 0.25,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 20,
+      "value_nT": -20.5,
+      "resolution_diagonal": 0.3,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 21,
+      "value_nT": -3.5,
+      "resolution_diagonal": 0.33,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 22,
+      "value_nT": 9.8,
+      "resolution_diagonal": 0.37,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 23,
+      "value_nT": 7.6,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 24,
+      "value_nT": 12.8,
+      "resolution_diagonal": 0.43,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 25,
+      "value_nT": -35.4,
+      "resolution_diagonal": 0.44,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 26,
+      "value_nT": 43.7,
+      "resolution_diagonal": 0.45,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 27,
+      "value_nT": 10.5,
+      "resolution_diagonal": 0.42,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 28,
+      "m": 28,
+      "value_nT": -23.6,
+      "resolution_diagonal": 0.55,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 1,
+      "value_nT": -9.5,
+      "resolution_diagonal": 0.21,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 2,
+      "value_nT": 37.4,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 3,
+      "value_nT": 14.0,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 4,
+      "value_nT": -46.1,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 5,
+      "value_nT": -2.3,
+      "resolution_diagonal": 0.21,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 6,
+      "value_nT": 34.7,
+      "resolution_diagonal": 0.18,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 7,
+      "value_nT": -6.7,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 8,
+      "value_nT": 21.6,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 9,
+      "value_nT": -33.1,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 10,
+      "value_nT": 16.6,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 11,
+      "value_nT": -0.5,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 12,
+      "value_nT": -20.5,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 13,
+      "value_nT": -3.9,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 14,
+      "value_nT": -16.5,
+      "resolution_diagonal": 0.24,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 15,
+      "value_nT": 14.5,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 16,
+      "value_nT": 20.4,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 17,
+      "value_nT": -14.2,
+      "resolution_diagonal": 0.22,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 18,
+      "value_nT": 15.7,
+      "resolution_diagonal": 0.24,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 19,
+      "value_nT": -12.9,
+      "resolution_diagonal": 0.25,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 20,
+      "value_nT": -11.8,
+      "resolution_diagonal": 0.28,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 21,
+      "value_nT": -42.8,
+      "resolution_diagonal": 0.33,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 22,
+      "value_nT": -8.6,
+      "resolution_diagonal": 0.36,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 23,
+      "value_nT": 27.4,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 24,
+      "value_nT": -67.5,
+      "resolution_diagonal": 0.43,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 25,
+      "value_nT": -2.2,
+      "resolution_diagonal": 0.44,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 26,
+      "value_nT": -19.2,
+      "resolution_diagonal": 0.44,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 27,
+      "value_nT": 28.9,
+      "resolution_diagonal": 0.47,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 28,
+      "m": 28,
+      "value_nT": 79.4,
+      "resolution_diagonal": 0.55,
+      "normalized_Lowes_amplitude": 0.0
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 0,
+      "value_nT": 15.3,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 1,
+      "value_nT": -22.2,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 2,
+      "value_nT": 8.2,
+      "resolution_diagonal": 0.14,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 3,
+      "value_nT": 5.4,
+      "resolution_diagonal": 0.15,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 4,
+      "value_nT": -10.1,
+      "resolution_diagonal": 0.14,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 5,
+      "value_nT": -4.4,
+      "resolution_diagonal": 0.15,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 6,
+      "value_nT": -13.1,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 7,
+      "value_nT": -6.5,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 8,
+      "value_nT": 3.0,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 9,
+      "value_nT": 4.2,
+      "resolution_diagonal": 0.14,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 10,
+      "value_nT": -19.7,
+      "resolution_diagonal": 0.15,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 11,
+      "value_nT": 13.2,
+      "resolution_diagonal": 0.15,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 12,
+      "value_nT": 1.2,
+      "resolution_diagonal": 0.15,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 13,
+      "value_nT": 6.9,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 14,
+      "value_nT": -7.7,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 15,
+      "value_nT": -1.8,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 16,
+      "value_nT": 6.1,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 17,
+      "value_nT": -27.1,
+      "resolution_diagonal": 0.18,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 18,
+      "value_nT": -11.2,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 19,
+      "value_nT": 40.6,
+      "resolution_diagonal": 0.18,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 20,
+      "value_nT": 8.1,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 21,
+      "value_nT": -14.3,
+      "resolution_diagonal": 0.19,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 22,
+      "value_nT": 23.9,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 23,
+      "value_nT": 11.5,
+      "resolution_diagonal": 0.3,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 24,
+      "value_nT": 2.0,
+      "resolution_diagonal": 0.32,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 25,
+      "value_nT": -9.8,
+      "resolution_diagonal": 0.35,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 26,
+      "value_nT": 5.2,
+      "resolution_diagonal": 0.39,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 27,
+      "value_nT": 4.1,
+      "resolution_diagonal": 0.38,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 28,
+      "value_nT": 42.8,
+      "resolution_diagonal": 0.37,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 29,
+      "m": 29,
+      "value_nT": 5.3,
+      "resolution_diagonal": 0.42,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 1,
+      "value_nT": -23.6,
+      "resolution_diagonal": 0.15,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 2,
+      "value_nT": 13.4,
+      "resolution_diagonal": 0.18,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 3,
+      "value_nT": 0.8,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 4,
+      "value_nT": 9.2,
+      "resolution_diagonal": 0.18,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 5,
+      "value_nT": -9.7,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 6,
+      "value_nT": 17.2,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 7,
+      "value_nT": 11.0,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 8,
+      "value_nT": 4.0,
+      "resolution_diagonal": 0.15,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 9,
+      "value_nT": 14.7,
+      "resolution_diagonal": 0.14,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 10,
+      "value_nT": 13.9,
+      "resolution_diagonal": 0.14,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 11,
+      "value_nT": -2.4,
+      "resolution_diagonal": 0.15,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 12,
+      "value_nT": -28.1,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 13,
+      "value_nT": -21.7,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 14,
+      "value_nT": 1.6,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 15,
+      "value_nT": 1.5,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 16,
+      "value_nT": -9.8,
+      "resolution_diagonal": 0.18,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 17,
+      "value_nT": -21.9,
+      "resolution_diagonal": 0.19,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 18,
+      "value_nT": 26.9,
+      "resolution_diagonal": 0.19,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 19,
+      "value_nT": -15.6,
+      "resolution_diagonal": 0.18,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 20,
+      "value_nT": -12.6,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 21,
+      "value_nT": -28.6,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 22,
+      "value_nT": 8.0,
+      "resolution_diagonal": 0.24,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 23,
+      "value_nT": 25.6,
+      "resolution_diagonal": 0.28,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 24,
+      "value_nT": -11.0,
+      "resolution_diagonal": 0.31,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 25,
+      "value_nT": -10.3,
+      "resolution_diagonal": 0.36,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 26,
+      "value_nT": -17.9,
+      "resolution_diagonal": 0.4,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 27,
+      "value_nT": 2.0,
+      "resolution_diagonal": 0.38,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 28,
+      "value_nT": 5.8,
+      "resolution_diagonal": 0.37,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 29,
+      "m": 29,
+      "value_nT": 40.6,
+      "resolution_diagonal": 0.44,
+      "normalized_Lowes_amplitude": 0.0
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 0,
+      "value_nT": 32.2,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 1,
+      "value_nT": -0.1,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 2,
+      "value_nT": 8.0,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 3,
+      "value_nT": -12.8,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 4,
+      "value_nT": -0.8,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 5,
+      "value_nT": -4.6,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 6,
+      "value_nT": -3.2,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 7,
+      "value_nT": 0.8,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 8,
+      "value_nT": -5.9,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 9,
+      "value_nT": 4.4,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 10,
+      "value_nT": -14.3,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 11,
+      "value_nT": -9.4,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 12,
+      "value_nT": 8.0,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 13,
+      "value_nT": 16.1,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 14,
+      "value_nT": -3.3,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 15,
+      "value_nT": 3.6,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 16,
+      "value_nT": 3.7,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 17,
+      "value_nT": 1.0,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 18,
+      "value_nT": -10.9,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 19,
+      "value_nT": 4.3,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 20,
+      "value_nT": 21.2,
+      "resolution_diagonal": 0.13,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 21,
+      "value_nT": -5.4,
+      "resolution_diagonal": 0.14,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 22,
+      "value_nT": 0.7,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 23,
+      "value_nT": -5.2,
+      "resolution_diagonal": 0.13,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 24,
+      "value_nT": -13.0,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 25,
+      "value_nT": 5.0,
+      "resolution_diagonal": 0.21,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 26,
+      "value_nT": -19.2,
+      "resolution_diagonal": 0.2,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 27,
+      "value_nT": -14.3,
+      "resolution_diagonal": 0.25,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 28,
+      "value_nT": 32.1,
+      "resolution_diagonal": 0.34,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 29,
+      "value_nT": 28.0,
+      "resolution_diagonal": 0.29,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "g",
+      "n": 30,
+      "m": 30,
+      "value_nT": 26.9,
+      "resolution_diagonal": 0.19,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 1,
+      "value_nT": -1.0,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 2,
+      "value_nT": -10.2,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 3,
+      "value_nT": -8.8,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 4,
+      "value_nT": 29.1,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 5,
+      "value_nT": -2.4,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 6,
+      "value_nT": -10.4,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 7,
+      "value_nT": 6.7,
+      "resolution_diagonal": 0.09,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 8,
+      "value_nT": -4.9,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 9,
+      "value_nT": 16.9,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 10,
+      "value_nT": 2.3,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 11,
+      "value_nT": -1.6,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 12,
+      "value_nT": -3.2,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 13,
+      "value_nT": -14.0,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 14,
+      "value_nT": 8.2,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 15,
+      "value_nT": 0.5,
+      "resolution_diagonal": 0.1,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 16,
+      "value_nT": -9.8,
+      "resolution_diagonal": 0.11,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 17,
+      "value_nT": -4.4,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 18,
+      "value_nT": 6.2,
+      "resolution_diagonal": 0.13,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 19,
+      "value_nT": -5.8,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 20,
+      "value_nT": -4.7,
+      "resolution_diagonal": 0.14,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 21,
+      "value_nT": 0.1,
+      "resolution_diagonal": 0.13,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 22,
+      "value_nT": 10.2,
+      "resolution_diagonal": 0.12,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 23,
+      "value_nT": -3.4,
+      "resolution_diagonal": 0.13,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 24,
+      "value_nT": 9.9,
+      "resolution_diagonal": 0.16,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 25,
+      "value_nT": -2.5,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 26,
+      "value_nT": -11.7,
+      "resolution_diagonal": 0.23,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 27,
+      "value_nT": -10.5,
+      "resolution_diagonal": 0.25,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 28,
+      "value_nT": -21.5,
+      "resolution_diagonal": 0.34,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 29,
+      "value_nT": 14.6,
+      "resolution_diagonal": 0.27,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "h",
+      "n": 30,
+      "m": 30,
+      "value_nT": 38.3,
+      "resolution_diagonal": 0.17,
+      "normalized_Lowes_amplitude": 0.0
+    }
+  ],
+  "separate_external_coefficients": [
+    {
+      "kind": "G",
+      "n": 1,
+      "m": 0,
+      "value_nT": -213.8,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "G",
+      "n": 1,
+      "m": 1,
+      "value_nT": 12.1,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    },
+    {
+      "kind": "H",
+      "n": 1,
+      "m": 1,
+      "value_nT": -3.2,
+      "resolution_diagonal": 1.0,
+      "normalized_Lowes_amplitude": null
+    }
+  ]
+}

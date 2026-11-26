@@ -1,0 +1,58 @@
+ATUALIZAÇÃO02/11/2026 17:06UTC — JORNADA J0A EM EXECUÇÃO.
+Cota real17:05:09Z:8%cincohoras/39%semanal restantes(checkpoint,nãoparada).
+Continuar até0%;nãoconfundircontexto/tokens comcota. Janelaanteriorterminou/
+renovou antesdaretomada16:28Z. Semsubagentes.
+
+ATIVO: jornada sequencial emcandidataisolada0.18.3:
+scripts/verify-native-is6-integrated-journey-v2.py --label20261102a,
+via scripts/run-is6-verification-background-v5.py --kind journey --label20261102a.
+Driveroutput/is6-journey-20261102a-driver.json/.log/-errors.log,PID34316.
+Hostdestacado start-is6-spatial-background-v2.py --labelintegrated-a,
+app21600/server14832,bootstrap0. Conferiroutput/session.json/processos/recibo
+antesdeagir.Nãoeditarfontes emexecução. Recibo:
+evidence/is6-integrated-journey-20261102a.json,saídas/ZIPemoutput/is6-integrated-journey-20261102a.
+Roteiro: mesmacópiasolarpausada,malhaTerra/Júpiter,IGRF14/JRM33vetor,
+próton/elétron4passos,save/load,zonasolarN14padrão,nó120/save/load/ramo/export,
+visualizaçãoindependente,recalcularfracadesligada/restaurar.10PNG100/150%
+precisamrevisãovisualprópria. Esperanuclearaté750s,históriaexpo×1,05.
+Testa também recusasdedisputadacena e_closepúblico. NÃOaceitamúltiplas
+camadas,persistênciacomposta,migraçãoouperfilconjunto.
+
+NOVO0.18.3: somenteserver.py/is6_laboratory.pydiferemde0.18.2.
+ContratoIS-6-PRODUTO-REVISAO-D.md. EncerramentoativoAem0.18.2confirmou
+app0/server1(todosPIDsencerraram3,688s). Motivo:ConnectionClosedErrorao
+restaurarcâmeraapósmotorencerrar.0.18.3tratatransporteindisponívelSÓno
+teardowninterno,sempreamortecererrosdedeixarvista;servidortentatodoscloses.
+_closeagorarecusadopelointerfacepública,semencerraractor.
+ACEITOS0.18.3: serviçoE4grupos/11recusas;evidence/is6-active-shutdown-20261102b.json,
+app0/server0,todosPIDsencerraram3,36s,donoíntegro. Semperfil/visualpróprios
+0.18.3: ciência,renderer/UIbyteiguaisà0.18.2;provasantigasmantêmseuescopo.
+
+PERFIL0.18.2 C ACEITO:
+evidence/is6-spatial-profile-20261102c.json /is6-spatial-profile-audit-20261102c.json.
+4janelas,18016quadros,p95máximo14,01ms,p99máximo14,38ms,zero>100ms.
+120sondas+120visibilidades2Hz,100% concluídas,272amostrasexatasauditadas.
+PicoRAM1,1263GiB/GPU3,0158GiB.66amostrasGPU/janela,scope/schema3,caminhos
+próprios/status0/inventáriosconferidos. App/server0/0.
+Arecusado:GPUexternoPID16244inválido. Brecusado:helperPID41716extraemRAM
+umaamostra,nãopresentenoinventárioGPUantes/depois.A/Bpreservados,sem mistura.
+Coletornovo collect-is6-gpu-memory-scoped.ps1;smokeB3amostras/6caminhosaceito.
+Benchmark/auditorv2,driver-v3congeladosapósexecução;CusaasmêmesfontesB.
+
+Aceitesfuncionais0.18.2preservados:serviçoD4grupos/10recusas,cacheA20consultas
++invalidação,nativoF5grupos/10recusas/9PNG/zeroJS,visualF9PNG100/150%/3planos,
+persistênciaB7de7novo host/fase,visualpersistênciaB2PNG150%fonte/ramos/export.
+0.18.0/0.18.1/0.18.2,todosestágios/evidênciasexecutadascongelados.
+
+PRÓXIMO:concluirjornadaJ0A,conferirrecibo/falhas/limpeza/appserverexits,
+inspecionar10PNGseproduzidos,registrarrevisãovisualsemconfundircomperfil.
+Resolverfalhasemrevisão,semalterarfontesexecutadas. Depoisconsolidarrecibo
+limitadodaprimeiramalha+encerramentoe atualizar relatório
+IS-6-MALHA-PRODUTO-RESULTADO-20261102.md,járegistraCaceitoe0.18.3.
+GuiaIS-6-MALHA-USO-CANDIDATA.md aindaexplica0.18.2/apontadorlauncherC;
+atualizarapósscope0.18.3consolidado. Contratosencerramento/jornadaemarquivos
+IS-6-ENCERRAMENTO-ATIVO-CONTRATO.md /IS-6-PERCURSO-INTEGRADO-CONTRATO-PREVIO.md.
+Ainda faltaIS6conjunta:múltiplascamadas,persistênciacomposta,catálogo/extensõesGR.
+Sem promoção;instalado3.13/cosmos/revenant/sessõesdono preservados.
+SHA dono ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825.
+AGENTS.mdgoverna.Histórico1706preservado.

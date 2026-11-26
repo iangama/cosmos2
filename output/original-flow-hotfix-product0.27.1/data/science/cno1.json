@@ -1,0 +1,482 @@
+{
+  "schema": 1,
+  "pynucastro": "3.1.0",
+  "network": "CNO-I forward six-channel cycle",
+  "rates": {
+    "c12pg": {
+      "fname": "C12_p_to_N13_reaclib",
+      "reactants": [
+        "p",
+        "c12"
+      ],
+      "products": [
+        "n13"
+      ],
+      "Q_MeV": 1.943,
+      "source": {
+        "Label": "ls09",
+        "Author": "He)<sup>13</sup>N reaction</sup6<>",
+        "Title": "Science in China G: Physics an",
+        "Publisher": "2010",
+        "Year": "https://doi.org/10.1007/s11433-010-0128-8"
+      },
+      "sets": [
+        [
+          17.1482,
+          0.0,
+          -13.692,
+          -0.230881,
+          4.44362,
+          -3.15898,
+          -0.666667
+        ],
+        [
+          17.5428,
+          -3.77849,
+          -5.10735,
+          -2.24111,
+          0.148883,
+          0.0,
+          -1.5
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "cno1-c12pg-reaclib.txt",
+      "sha256": "1b8653d0404b230dddb913aefbe07a7745912e1d27b91891b36b430939b43cf3",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 1.5038456249085353e-19,
+        "15000000.0": 3.588946025929763e-16,
+        "20000000.0": 4.8172113637155004e-14,
+        "30000000.0": 2.229607505495764e-11
+      },
+      "verified_citation": {
+        "author": "ZhiHong Li et al.",
+        "title": "Determination of the 12C(p, gamma)13N reaction rates from the 12C(7Li,6He)13N reaction",
+        "journal": "Science China Physics, Mechanics & Astronomy53,658-663(2010)",
+        "doi": "10.1007/s11433-010-0128-8",
+        "url": "https://link.springer.com/article/10.1007/s11433-010-0128-8"
+      }
+    },
+    "n13beta": {
+      "fname": "N13_to_C13_beta_pos_reaclib",
+      "reactants": [
+        "n13"
+      ],
+      "products": [
+        "c13"
+      ],
+      "Q_MeV": 2.22,
+      "source": {
+        "Label": "wc12",
+        "Author": "J. K. Tuli",
+        "Title": "Weak rates from the Nuclear Wallet Cards",
+        "Publisher": "National Nuclear Data Center",
+        "Year": "2012",
+        "URL": "https://www.nndc.bnl.gov/"
+      },
+      "sets": [
+        [
+          -6.7601,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "beta_pos",
+      "raw_file": "cno1-n13beta-reaclib.txt",
+      "sha256": "297ccb6ee49a60eb66589f40371baa80b00cd9ff77e5e64bc363c5f3af03b024",
+      "units": "s^-1",
+      "reference_rates": {
+        "10000000.0": 0.001159113256783153,
+        "15000000.0": 0.001159113256783153,
+        "20000000.0": 0.001159113256783153,
+        "30000000.0": 0.001159113256783153
+      },
+      "nubase2020_decay_constant_s": 0.0011593028609465552,
+      "decay_source": "NUBASE2020 via pinned pynucastro; REACLIB wc12 retained as an explicit comparison basis."
+    },
+    "c13pg": {
+      "fname": "C13_p_to_N14_reaclib",
+      "reactants": [
+        "p",
+        "c13"
+      ],
+      "products": [
+        "n14"
+      ],
+      "Q_MeV": 7.551,
+      "source": {
+        "Label": "nacr",
+        "Author": "Angulo C.",
+        "Title": "A compilation of charged-particle induced thermonuclear reaction rates",
+        "Publisher": "Nuclear Physics, A656, 3-183",
+        "Year": "1999",
+        "URL": "https://doi.org/10.1016/S0375-9474(99)00030-5"
+      },
+      "sets": [
+        [
+          18.5155,
+          0.0,
+          -13.72,
+          -0.450018,
+          3.70823,
+          -1.70545,
+          -0.666667
+        ],
+        [
+          13.9637,
+          -5.78147,
+          0.0,
+          -0.196703,
+          0.142126,
+          -0.0238912,
+          -1.5
+        ],
+        [
+          15.1825,
+          -13.5543,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.5
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "cno1-c13pg-reaclib.txt",
+      "sha256": "91f2274b622f134ab03e879b390e295f5c1d4388093d0b168c3d549e70565011",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 4.91096383672278e-19,
+        "15000000.0": 1.179735736154855e-15,
+        "20000000.0": 1.5867825890467678e-13,
+        "30000000.0": 7.338031827694034e-11
+      }
+    },
+    "n14pg": {
+      "fname": "N14_p_to_O15_reaclib",
+      "reactants": [
+        "p",
+        "n14"
+      ],
+      "products": [
+        "o15"
+      ],
+      "Q_MeV": 7.2968,
+      "source": {
+        "Label": "im05",
+        "Author": "G. Imbriani et al",
+        "Title": "S-factor of <sup>14</sup>N(p,&gamma;)<sup>15</sup>O",
+        "Publisher": "European Physics Journal A 25,",
+        "Year": "2005",
+        "URL": "https://link.springer.com/article/10.1140/epja/i2005-10138-7"
+      },
+      "sets": [
+        [
+          6.73578,
+          -4.891,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0682
+        ],
+        [
+          7.65444,
+          -2.998,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.5
+        ],
+        [
+          20.1169,
+          0.0,
+          -15.193,
+          -4.63975,
+          9.73458,
+          -9.55051,
+          0.333333
+        ],
+        [
+          17.01,
+          0.0,
+          -15.193,
+          -0.161954,
+          -7.52123,
+          -0.987565,
+          -0.666667
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "cno1-n14pg-reaclib.txt",
+      "sha256": "7517209a1f423a8aad9f8082a6754e12c162b49373f21388aa60b499eb8a7e37",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 1.2248549838864085e-22,
+        "15000000.0": 6.918312793865137e-19,
+        "20000000.0": 1.5867409724927747e-16,
+        "30000000.0": 1.416655077954945e-13
+      }
+    },
+    "o15beta": {
+      "fname": "O15_to_N15_beta_pos_reaclib",
+      "reactants": [
+        "o15"
+      ],
+      "products": [
+        "n15"
+      ],
+      "Q_MeV": 2.7536,
+      "source": {
+        "Label": "wc12",
+        "Author": "J. K. Tuli",
+        "Title": "Weak rates from the Nuclear Wallet Cards",
+        "Publisher": "National Nuclear Data Center",
+        "Year": "2012",
+        "URL": "https://www.nndc.bnl.gov/"
+      },
+      "sets": [
+        [
+          -5.17053,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "beta_pos",
+      "raw_file": "cno1-o15beta-reaclib.txt",
+      "sha256": "422675859e49a881aac9ab576cd8509b45ec591279dd14ed962d833feb4cefa4",
+      "units": "s^-1",
+      "reference_rates": {
+        "10000000.0": 0.005681556796002065,
+        "15000000.0": 0.005681556796002065,
+        "20000000.0": 0.005681556796002065,
+        "30000000.0": 0.005681556796002065
+      },
+      "nubase2020_decay_constant_s": 0.0056691736096702704,
+      "decay_source": "NUBASE2020 via pinned pynucastro; REACLIB wc12 retained as an explicit comparison basis."
+    },
+    "n15pa": {
+      "fname": "N15_p_to_He4_C12_reaclib",
+      "reactants": [
+        "p",
+        "n15"
+      ],
+      "products": [
+        "he4",
+        "c12"
+      ],
+      "Q_MeV": 4.966,
+      "source": {
+        "Label": "nacr",
+        "Author": "Angulo C.",
+        "Title": "A compilation of charged-particle induced thermonuclear reaction rates",
+        "Publisher": "Nuclear Physics, A656, 3-183",
+        "Year": "1999",
+        "URL": "https://doi.org/10.1016/S0375-9474(99)00030-5"
+      },
+      "sets": [
+        [
+          27.4764,
+          0.0,
+          -15.253,
+          1.59318,
+          2.4479,
+          -2.19708,
+          -0.666667
+        ],
+        [
+          -6.57522,
+          -1.1638,
+          0.0,
+          22.7105,
+          -2.90707,
+          0.205754,
+          -1.5
+        ],
+        [
+          20.8972,
+          -7.406,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.5
+        ],
+        [
+          -4.87347,
+          -2.02117,
+          0.0,
+          30.8497,
+          -8.50433,
+          -1.54426,
+          -1.5
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "cno1-n15pa-reaclib.txt",
+      "sha256": "bc5e0dc2fe22dccb86a5bf89dd1564361bf734c532fe04d823f6309a5f51adc2",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 4.7664015059414226e-18,
+        "15000000.0": 2.9806381066854014e-14,
+        "20000000.0": 7.397049830746416e-12,
+        "30000000.0": 7.469182074996986e-09
+      }
+    }
+  },
+  "nuclides": {
+    "p": {
+      "A": 1,
+      "Z": 1,
+      "atomic_mass_MeV": 938.7830734839999,
+      "half_life_NUBASE_s": "stable"
+    },
+    "he4": {
+      "A": 4,
+      "Z": 2,
+      "atomic_mass_MeV": 3728.40132555,
+      "half_life_NUBASE_s": "stable"
+    },
+    "c12": {
+      "A": 12,
+      "Z": 6,
+      "atomic_mass_MeV": 11177.92922904,
+      "half_life_NUBASE_s": "stable"
+    },
+    "n13": {
+      "A": 13,
+      "Z": 7,
+      "atomic_mass_MeV": 12114.76881146,
+      "half_life_NUBASE_s": 597.9
+    },
+    "c13": {
+      "A": 13,
+      "Z": 6,
+      "atomic_mass_MeV": 12112.54834076,
+      "half_life_NUBASE_s": "stable"
+    },
+    "n14": {
+      "A": 14,
+      "Z": 7,
+      "atomic_mass_MeV": 13043.780850680001,
+      "half_life_NUBASE_s": "stable"
+    },
+    "o15": {
+      "A": 15,
+      "Z": 8,
+      "atomic_mass_MeV": 13975.2671363,
+      "half_life_NUBASE_s": 122.266
+    },
+    "n15": {
+      "A": 15,
+      "Z": 7,
+      "atomic_mass_MeV": 13972.5129744,
+      "half_life_NUBASE_s": "stable"
+    }
+  },
+  "upstream_derivative_references": [
+    {
+      "T_K": 10000000.0,
+      "rho_g_cm3": 150,
+      "mass_fractions": {
+        "p": 0.35,
+        "he4": 0.64,
+        "c12": 0.0016666666666666668,
+        "n13": 0.0016666666666666668,
+        "c13": 0.0016666666666666668,
+        "n14": 0.0016666666666666668,
+        "o15": 0.0016666666666666668,
+        "n15": 0.0016666666666666668
+      },
+      "ydot_mol_g_s": {
+        "p": -3.220678484908244e-20,
+        "he4": 2.78040087846583e-20,
+        "c12": 2.6707454683162492e-20,
+        "c13": 1.486042636901445e-07,
+        "n13": -1.4860426369014672e-07,
+        "n14": 3.3046908941984803e-21,
+        "n15": 6.312840884446461e-07,
+        "o15": -6.31284088444674e-07
+      },
+      "basis": "Original REACLIB coefficients, including wc12 weak channels; conventional molar normalization."
+    },
+    {
+      "T_K": 15000000.0,
+      "rho_g_cm3": 150,
+      "mass_fractions": {
+        "p": 0.35,
+        "he4": 0.64,
+        "c12": 0.0016666666666666668,
+        "n13": 0.0016666666666666668,
+        "c13": 0.0016666666666666668,
+        "n14": 0.0016666666666666668,
+        "o15": 0.0016666666666666668,
+        "n15": 0.0016666666666666668
+      },
+      "ydot_mol_g_s": {
+        "p": -1.8443234897273502e-16,
+        "he4": 1.7387055622331508e-16,
+        "c12": 1.712536164127413e-16,
+        "c13": 1.4860426368220727e-07,
+        "n13": -1.4860426368753087e-07,
+        "n14": 7.936205047853819e-18,
+        "n15": 6.312840882708034e-07,
+        "o15": -6.312840884446696e-07
+      },
+      "basis": "Original REACLIB coefficients, including wc12 weak channels; conventional molar normalization."
+    },
+    {
+      "T_K": 30000000.0,
+      "rho_g_cm3": 150,
+      "mass_fractions": {
+        "p": 0.35,
+        "he4": 0.64,
+        "c12": 0.0016666666666666668,
+        "n13": 0.0016666666666666668,
+        "c13": 0.0016666666666666668,
+        "n14": 0.0016666666666666668,
+        "o15": 0.0016666666666666668,
+        "n15": 0.0016666666666666668
+      },
+      "ydot_mol_g_s": {
+        "p": -4.4227595715917686e-11,
+        "he4": 4.357022877081575e-11,
+        "c12": 4.340765322354002e-11,
+        "c13": 1.486037697841594e-07,
+        "n13": -1.4860410111460053e-07,
+        "n14": 4.930205789787611e-13,
+        "n15": 6.312405182159031e-07,
+        "o15": -6.312840875592645e-07
+      },
+      "basis": "Original REACLIB coefficients, including wc12 weak channels; conventional molar normalization."
+    }
+  ],
+  "neutrino_mean_MeV": {
+    "n13beta": 0.706,
+    "o15beta": 0.996
+  },
+  "neutrino_source": {
+    "url": "https://arxiv.org/abs/hep-ph/0108148",
+    "doi": "10.1103/PhysRevC.65.025801",
+    "table": "I",
+    "scope": "Fixed solar-profile means; not spectra recalculated from T."
+  },
+  "domain": "10-30 MK; fixed T/rho; unscreened CNO-I forward network only. No CNO-II/III, hot-CNO, reverse reactions, transport or thermal/hydrostatic evolution.",
+  "uncertainties": "Rate fit/mass/half-life uncertainties absent from extraction; numerical tolerances are separate."
+}

@@ -1,0 +1,2 @@
+http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/mars/textures/2/normalMap.png
+http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/mars/textures/3/mars.png

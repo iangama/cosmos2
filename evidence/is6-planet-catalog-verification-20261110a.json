@@ -1,0 +1,114 @@
+{
+  "accepted": true,
+  "completed": true,
+  "cases": [
+    {
+      "utc": "1995-01-01T00:00:00Z",
+      "bodies": 10,
+      "planets": 8,
+      "path": "output/is6-planet-catalog-verification-20261110a/epoch-1.json",
+      "sha256": "99c6502ff3e9c681f0df3806fe08a2d5de6cb06e04729b430ec7a2aba5297c45"
+    },
+    {
+      "utc": "2000-01-01T12:00:00Z",
+      "bodies": 10,
+      "planets": 8,
+      "path": "output/is6-planet-catalog-verification-20261110a/epoch-2.json",
+      "sha256": "a4b62192afdfe9b554ea3545595961af2ffb4b3b914ce9459813733bc7d4ebc3"
+    },
+    {
+      "utc": "2026-10-11T12:00:00Z",
+      "bodies": 10,
+      "planets": 8,
+      "path": "output/is6-planet-catalog-verification-20261110a/epoch-3.json",
+      "sha256": "96e082f548761423be277281dfac2e7efe78227a9cdb990f187acd94a858e89d"
+    },
+    {
+      "utc": "2030-06-15T18:30:00Z",
+      "bodies": 10,
+      "planets": 8,
+      "path": "output/is6-planet-catalog-verification-20261110a/epoch-4.json",
+      "sha256": "f14a2d1bf169dc85622413f32a7ff027115a0e89fc0b52eece84b17dd8fe8baa"
+    },
+    {
+      "utc": "2049-12-30T23:59:59Z",
+      "bodies": 10,
+      "planets": 8,
+      "path": "output/is6-planet-catalog-verification-20261110a/epoch-5.json",
+      "sha256": "461fc6362578dea6fe31f77700f165119507d75af8c7cd8605e9a75ab9560508"
+    }
+  ],
+  "refusals": [
+    {
+      "input": "None",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "True",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "False",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "0",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "1.0",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "nan",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "inf",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "[]",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "{}",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "''",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "'1994-12-31T23:59:59Z'",
+      "error": "Catálogo ampliado disponível de 01/01/1995 a 30/12/2049."
+    },
+    {
+      "input": "'2049-12-31T00:00:00Z'",
+      "error": "Catálogo ampliado disponível de 01/01/1995 a 30/12/2049."
+    },
+    {
+      "input": "'2026-02-30T12:00:00Z'",
+      "error": "Data/hora UTC inválida."
+    },
+    {
+      "input": "'2026-10-11T12:00:00+03:00'",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "'2026-10-11'",
+      "error": "Informe uma época UTC no formato AAAA-MM-DDTHH:MM:SS."
+    },
+    {
+      "input": "changed data after warm cache",
+      "error": "Metadados do catálogo diferem da geração fixada."
+    }
+  ],
+  "script_sha256": "80514ed5d16fc08e4a82310d9fed53472202b148d5ba1cb5f82a05f02dd3ef17",
+  "module_sha256": "8543d08ed528bdfbe40943ba046bd70235444f74ccd455c503fab8c6505798db",
+  "data_sha256": "fd040559c9e35ccb7a5a154241a20e6a912968284bef8db44f3a0182c1fb13c2",
+  "scope": "CPU reference catalogue verification",
+  "fresh_interpreter_equal": true,
+  "kernel_pool_restored": true,
+  "protected_unchanged": true
+}

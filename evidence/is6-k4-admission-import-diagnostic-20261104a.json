@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-is6-layers-service-admission-k4.py": "e87e2fb38e0607ecdee2f11b2ef2922449475b001cd229ca9ff1a6383fb5a258"
+  },
+  "failure": "Import before test setup: the verifier retained APP 0.18.5, which has no is6_layer_contract.py. No actor/native/store operations ran.",
+  "replacement": "scripts/verify-is6-layers-service-admission-k4-v2.py"
+}

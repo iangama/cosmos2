@@ -1,0 +1,35 @@
+{
+  "schema": 4,
+  "label": "is6p-20261105p1-pre",
+  "valid": false,
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\collect_gpu_pdh_v2.py\", line 116, in main\n    inventory_before=inventory(session))\n                     ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\collect_gpu_pdh_v2.py\", line 61, in inventory\n    process = psutil.Process(pid)\n              ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Lib\\site-packages\\psutil\\__init__.py\", line 314, in __init__\n    self._init(pid)\n  File \"C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Lib\\site-packages\\psutil\\__init__.py\", line 360, in _init\n    raise NoSuchProcess(pid, msg=msg) from None\npsutil.NoSuchProcess: process PID not found (pid=8864)\n",
+  "generation": {
+    "schema": 1,
+    "id": "cosmos2:windows-pdh-owned-gpu-bytes",
+    "version": "0.2.0",
+    "source_sha256": {
+      "scripts/windows_gpu_pdh_v2.py": "9a35ebdcc93ca30c748bf64b7e849b567150d2711f615d8c22af38d284564924",
+      "IS-6-GPU-PDH-PYTHON-CONTRATO.md": "b32b9e2bbdb3ba8981ba0041eb5b6ba809e339bf8837357b971f0cb35b6784a1",
+      "IS-6-GPU-PDH-PYTHON-TEMPO.md": "83490234ad9b949dd031812fe356594e9e8a0654625f8b300016827292791e1e"
+    }
+  },
+  "collector_sha256": "08f084de158bd0f71c0bf141f06f62e564d2cc09834e90cfeab6abba699e6ee8",
+  "source_sha256": {
+    "scripts/collect_gpu_pdh_v2.py": "08f084de158bd0f71c0bf141f06f62e564d2cc09834e90cfeab6abba699e6ee8",
+    "scripts/windows_gpu_pdh_v2.py": "9a35ebdcc93ca30c748bf64b7e849b567150d2711f615d8c22af38d284564924",
+    "scripts/gpu_pdh_audit_v2.py": "8b1b9d0fe63c8c15cfd11af71c3e0799b3b8906c062cc0e6352e93ff5fdd5fe1",
+    "IS-6-GPU-PDH-PYTHON-CONTRATO.md": "b32b9e2bbdb3ba8981ba0041eb5b6ba809e339bf8837357b971f0cb35b6784a1",
+    "IS-6-GPU-PDH-PYTHON-TEMPO.md": "83490234ad9b949dd031812fe356594e9e8a0654625f8b300016827292791e1e"
+  },
+  "requested_samples": 3,
+  "expected_mode": "experiment",
+  "expected_worker": "paused",
+  "samples": [],
+  "method": "Windows PDH ctypes; selected owned byte gauges",
+  "runtime": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "psutil": "7.2.2",
+    "pointer_bits": 64
+  },
+  "scope": "Windows WDDM memory sum per owned process. Shared allocations may be counted more than once. No zero assignment for unexposed processes; any invalid selected value or identity/path change refuses the whole collection."
+}

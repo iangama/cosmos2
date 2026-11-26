@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "completed": false,
+  "source_sha256": {
+    "evidence/is6-layers-storage-native-20261104e.json": "f0fed4a3533b8be1766e452be33b76d173a7f22a19dae33d60b3d3917e0a96d6",
+    "scripts/audit-is6-layers-storage-process-v2.py": "23192dcc7d6cc5be182b0c2982c2ebddf72edc0a68a440598d198725db4c0a93"
+  },
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\audit-is6-layers-storage-process-v2.py\", line 41, in main\n    assert initial['bootstrap_exit'] == 0 and lines[-1]['engine_exit'] == 0\n                                              ~~~~~~~~~^^^^^^^^^^^^^^^\nKeyError: 'engine_exit'\n"
+}

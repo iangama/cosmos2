@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "completed": false,
+  "profile": "evidence/is6-spatial-import-profile-20261105p3.json",
+  "profile_sha256": "92aa205f8be3b6d02ffdc9452525199767d3bbaedaaa6b5c3da5ce2c5c3374be",
+  "auditor_sha256": "24fd863b94a9eb13f38cd3d96359542d4e8c7fa3114875f321749737ce058f2f",
+  "runs": [],
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\audit-is6-spatial-import-profile-v2.py\", line 45, in main\n    assert r['completed'] and not r.get('failure') and not r.get('cleanup_failure') and not r['page_errors']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

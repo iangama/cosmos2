@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.25)
+project(Cosmos2EMCloud LANGUAGES CXX)
+find_package(OpenMP REQUIRED)
+add_library(cosmos2_em_cloud SHARED cloud_kernel.cpp)
+target_compile_features(cosmos2_em_cloud PRIVATE cxx_std_17)
+target_compile_options(cosmos2_em_cloud PRIVATE /O2 /fp:strict /arch:AVX2 /W4 /WX)
+target_link_libraries(cosmos2_em_cloud PRIVATE OpenMP::OpenMP_CXX)
+set_target_properties(cosmos2_em_cloud PROPERTIES MSVC_RUNTIME_LIBRARY MultiThreadedDLL)

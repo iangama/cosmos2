@@ -1,0 +1,14 @@
+LEAPSECONDS_KERNEL    = /kernels/gen/lsk/naif0012.tls
+SPK_KERNEL            = jup365.bsp
+
+   BEGIN_TIME         = 1600 JAN 10 00:00:00.000 TDB
+   END_TIME           = 2200 JAN 10 00:00:00.000 TDB
+
+SOURCE_SPK_KERNEL     = jup365.bsp.ssd
+   INCLUDE_COMMENTS   = yes
+
+SOURCE_SPK_KERNEL     = /ftp/pub/naif/generic_kernels/spk/planets/de440.bsp
+   INCLUDE_COMMENTS   = yes
+   BODIES             = 5, 10, 3, 399
+
+

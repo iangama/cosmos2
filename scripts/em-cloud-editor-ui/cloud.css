@@ -1,0 +1,6 @@
+@import url('style.css');
+.open-view{flex:1;min-height:120px}
+#source-count{color:#ffd184;margin:16px 0}
+#particle-reading{margin:18px 0;color:#ffd184}
+#probe-reading{margin:18px 0}
+#cloud-source-form button{font-size:14px}

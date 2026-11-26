@@ -1,0 +1,14 @@
+{
+  "accepted": true,
+  "completed": true,
+  "revision": "v34",
+  "inventory_before_sha256": "ddb53a6f16b35212e0e1d5279a40f273df2713163bbfe48ca84a907800d70d9f",
+  "selected_sha256": {
+    "C2-14-MAPAS-CONTRATO-20261121.md": "94543fdbc20a591150822e5d1265509afe19cc10ab61e91a82538b72292b7183",
+    "LEIA-PRIMEIRO.md": "dce44b20948edd3c87d6795531b9b67a05d54817caba55d185b415a7fce951b4",
+    "PASSAGEM-CURADORIA-20261121.txt": "dce44b20948edd3c87d6795531b9b67a05d54817caba55d185b415a7fce951b4",
+    "output/continuity-checkpoint-20261121-lente.txt": "dce44b20948edd3c87d6795531b9b67a05d54817caba55d185b415a7fce951b4",
+    "evidence/github-source-local-20261121e.json": "4dc0c227a09737538f34e7fe6ffd991700b3f634801930cd8f853bb37b3e22db"
+  },
+  "scope": "Pre-data map contract, completed local v33 receipt and continuity only. No scientific runs, private state or push."
+}

@@ -1,0 +1,22 @@
+{
+  "accepted": true,
+  "completed": true,
+  "local_only": true,
+  "push": false,
+  "revision": 23,
+  "appendix": true,
+  "previous_commit": "787d70d3a124be598183d085ebcea050fb1d57c4",
+  "commit": "de76cc6853b14900e01fdeb6b6fa373e27c7a5b5",
+  "files": 8573,
+  "appended": [
+    "LEIA-PRIMEIRO.md",
+    "output/continuity-checkpoint-20261114-c214-8.txt",
+    "C2-14-ORBITAS-INTEGRACAO-RESULTADO-20261114.md",
+    "C2-14-ORBITAS-PERFIL-CONTRATO-20261114.md",
+    "evidence/c214-orbits-visual-20261114b.json",
+    "evidence/c214-orbits-profile-preparation-20261114a.json",
+    "scripts/prepare-c214-orbits-profile.py",
+    "scripts/finalize-c214-orbits-handoff-backup.py"
+  ],
+  "scope": "Final handoff and profile preparation only; no performance measurements"
+}

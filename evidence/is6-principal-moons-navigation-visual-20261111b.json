@@ -1,0 +1,256 @@
+{
+  "accepted": true,
+  "completed": true,
+  "candidate": "0.25.1",
+  "native_receipt": "evidence/is6-principal-moons-navigation-native-20261111b.json",
+  "native_receipt_sha256": "207d70d2004ad1b535b29746f9a755fd6f3390ba2054450876fd81f971ae2bde",
+  "captures": [
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/io-100.png",
+      "sha256": "082c242b418d68d538dd7189e1d8876e0ee122640635fe77b456f1b1a64966a3",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000000.png",
+      "target": "Io",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Io",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Io",
+        "anchor": "Io",
+        "limitation": "Mapa visual fixo OpenSpace: 4096 × 2048 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/io-150.png",
+      "sha256": "0e861ea18cee29906b616dc001ec2fa8169bda0f0b5dfbdebff19740b2f6d72a",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000001.png",
+      "target": "Io",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Io",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Io",
+        "anchor": "Io",
+        "limitation": "Mapa visual fixo OpenSpace: 4096 × 2048 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/europa-100.png",
+      "sha256": "7d32dcc3dafad4dfe09cad55e0a25882c808f0266ce5121164ffc27bfcf52e32",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000002.png",
+      "target": "Europa",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Europa",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Europa",
+        "anchor": "Europa",
+        "limitation": "Mapa visual fixo OpenSpace: 4096 × 2048 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/europa-150.png",
+      "sha256": "821292366ed106059de7234be59769756598c45984ab28a91e3d5440ab24b002",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000003.png",
+      "target": "Europa",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Europa",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Europa",
+        "anchor": "Europa",
+        "limitation": "Mapa visual fixo OpenSpace: 4096 × 2048 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/ganymede-100.png",
+      "sha256": "e448d6549f0f1b1260035afde5a2c2fb41d7abf05a13655c3335bc27618ae7fa",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000004.png",
+      "target": "Ganymede",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Ganimedes",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Ganymede",
+        "anchor": "Ganymede",
+        "limitation": "Mapa visual fixo OpenSpace: 1800 × 900 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/ganymede-150.png",
+      "sha256": "532b80da275860fd06e10419333eb652f7cf47622feee7ffcae5b03777559509",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000005.png",
+      "target": "Ganymede",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Ganimedes",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Ganymede",
+        "anchor": "Ganymede",
+        "limitation": "Mapa visual fixo OpenSpace: 1800 × 900 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/callisto-100.png",
+      "sha256": "aea636b8162ab67d406422e8c8cf5d6c4c0141681a8e376be81321cb301ebb9c",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000006.png",
+      "target": "Callisto",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Calisto",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Callisto",
+        "anchor": "Callisto",
+        "limitation": "Mapa visual fixo OpenSpace: 1800 × 900 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/callisto-150.png",
+      "sha256": "504e03b97807e507601e981f31d7d52846c527baae5db155533eda1f40686b15",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000007.png",
+      "target": "Callisto",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Calisto",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Callisto",
+        "anchor": "Callisto",
+        "limitation": "Mapa visual fixo OpenSpace: 1800 × 900 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/enceladus-100.png",
+      "sha256": "6a46609b2a4c230fb85165808c8ce3109d24d037667a49825bf46e51ac29bd78",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000008.png",
+      "target": "Enceladus",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Encélado",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Enceladus",
+        "anchor": "Enceladus",
+        "limitation": "Mapa visual fixo OpenSpace: 8192 × 4096 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/enceladus-150.png",
+      "sha256": "7225206aacd14263e6f6f9579cd90f752984f6b7ba3c96471c10b5d809d440d4",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000009.png",
+      "target": "Enceladus",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Encélado",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Enceladus",
+        "anchor": "Enceladus",
+        "limitation": "Mapa visual fixo OpenSpace: 8192 × 4096 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/titan-100.png",
+      "sha256": "8f41e9fdb063bed5540063a1b2808daa53e4f527ff3de0f7d65e2787fca0360c",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000010.png",
+      "target": "Titan",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Titã",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Titan",
+        "anchor": "Titan",
+        "limitation": "Mapa visual fixo OpenSpace: 4040 × 2020 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-principal-moons-navigation-native-20261111b/titan-150.png",
+      "sha256": "b1037bcdf6fb5771d2562d1fe320891fa0f5b779a845707a4a3192df875b62f7",
+      "native_original": "user/screenshots/2026-11-11-18-25-32/Cosmos2 Â· mediÃ§Ã£o 1080p_000011.png",
+      "target": "Titan",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Titã",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Titan",
+        "anchor": "Titan",
+        "limitation": "Mapa visual fixo OpenSpace: 4040 × 2020 pixels. Época de aquisição desconhecida."
+      }
+    }
+  ],
+  "method": "Inspeção direta das12capturas nativas sem edição, seis luas em100/150%.",
+  "checks": [
+    "Mapas presentes, contornos íntegros e nomes/maior semieixo/fontes legíveis.",
+    "Ficha ampliada acessível pelo seletor Ver ficha/Ver catálogo e rolagem vertical.",
+    "Mapas fixos e época desconhecida declarados; exposição visual sem fotometria."
+  ],
+  "scope": "Presentation of six fixed moon maps only; no terrain, atmosphere, plumes, photometric calibration or own performance acceptance."
+}

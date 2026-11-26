@@ -1,0 +1,10 @@
+{
+  "accepted": true,
+  "local_only": true,
+  "commit": "51643bb70a3953fff64efb111bc9f432c489c5e1",
+  "files": 6324,
+  "sync_receipt_sha256": "5767a3be088598de4373ada67f110f5336ddaa9b38310dcf0b41da335d499fe7",
+  "recovery_of": "output/is6-expanded-backup-20261112c-progress.json",
+  "original_failure_preserved": true,
+  "scope": "Partial local source/evidence snapshot, no push."
+}

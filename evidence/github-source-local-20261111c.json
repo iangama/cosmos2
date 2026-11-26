@@ -1,0 +1,8 @@
+{
+  "accepted": true,
+  "local_only": true,
+  "commit": "b917ad65b8715b4622917182aed5cf11d4a9f994",
+  "files": 4492,
+  "sync_receipt_sha256": "abb4f7ae4ff3e51b636e04004947d25e28f1bf38c6e28e5c7e29059b8961695e",
+  "scope": "Partial local source/evidence snapshot, excludes full original satellite kernels and runtimes; no push."
+}

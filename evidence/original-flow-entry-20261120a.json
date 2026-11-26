@@ -1,0 +1,32 @@
+{
+  "completed": true,
+  "accepted": true,
+  "original_entry": "Iniciar-Cosmos2.cmd",
+  "started_utc": "2026-11-20T16:32:31.122350+00:00",
+  "shortcut_sha256": "70cc2461c931ee6b4c1c211faf9a5bfe05455be1c240c17e3e16e3c7e69eccb8",
+  "observer_sha256": "c2465cc1f668fe72bafac3c091274f0b8764c108fe984e081384f415704c566f",
+  "input_method": "Windows ShellExecute of the existing .cmd, then ordinary Windows input",
+  "scope": "Original-entry baseline observation only; no claim that the feature is corrected.",
+  "session": {
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\app\\server.py",
+    "runtimeVariant": "cloud",
+    "server": 33988,
+    "coldCache": false,
+    "started": "2026-11-20T16:32:35.0162213Z",
+    "runtimeSelectionReason": "approved-C211-engine-and-app-hashes",
+    "app": 19724,
+    "cache": null,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-cloud",
+    "cloudCandidate": false,
+    "offline": false
+  },
+  "capture": {
+    "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-native-20261120a\\original-Iniciar-Cosmos2.png",
+    "size": [
+      1440,
+      900
+    ],
+    "method": "Unedited Windows client-area capture",
+    "sha256": "6e93ab6dc4e422a4f1bcc12d4aacf91a371adc1db933b30438e030bd5383e9c1"
+  }
+}

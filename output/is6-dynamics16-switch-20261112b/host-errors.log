@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Ian\cosmos2\scripts\launch-is6-dynamics16-candidate.py", line 98, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\Ian\cosmos2\scripts\launch-is6-dynamics16-candidate.py", line 27, in main
+    assert manifest['promoted'] is False and manifest['candidate']=='0.25.1'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

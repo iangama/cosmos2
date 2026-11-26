@@ -1,0 +1,241 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checks": [
+    {
+      "name": "native-file-dialog-cancels-without-selection"
+    },
+    {
+      "name": "native-file-dialog-selects-real-export",
+      "file_name": "074696b5dc8141e1915156576f922b70.json",
+      "bytes": 1788350
+    },
+    {
+      "name": "export-preview-and-cancel-preserve-branches-and-scene",
+      "branches": 2
+    }
+  ],
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-reference-import-20261121a\\c-windows-file-dialog.png",
+      "method": "Unedited Windows file-dialog capture without focus changes",
+      "size": [
+        960,
+        540
+      ],
+      "sha256": "5ddda9ea4dea17691099ff132b1d3be109313212994255585bd7a78176bd8221"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-reference-import-20261121a\\c-layers-export-preview.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "cfd4b021b7dee04a9c521e695bd1737ecd2fe96d62b84da5da0a9e86cca7a7f9"
+    }
+  ],
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-layers",
+      "x": 743,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-file",
+      "x": 196,
+      "y": 688
+    },
+    {
+      "input": "Windows file dialog",
+      "action": "opened",
+      "title": "Abrir"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click native dialog button",
+      "label": "Cancelar",
+      "x": 891,
+      "y": 502
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-file",
+      "x": 196,
+      "y": 688
+    },
+    {
+      "input": "Windows file dialog",
+      "action": "opened",
+      "title": "Abrir"
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 78,
+      "ctrl": false,
+      "alt": true,
+      "scancode": 49,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 126
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click native dialog button",
+      "label": "&Abrir",
+      "x": 791,
+      "y": 502
+    },
+    {
+      "input": "Windows file dialog",
+      "action": "chose existing file",
+      "file_name": "074696b5dc8141e1915156576f922b70.json"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-preview",
+      "x": 196,
+      "y": 748
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-cancel"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-cancel"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-cancel"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-cancel",
+      "x": 196,
+      "y": 696
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-panel-close",
+      "x": 321,
+      "y": 148
+    }
+  ],
+  "session": {
+    "app": 13912,
+    "server": 32736,
+    "launcher": 2832,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.5-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\gravity-sessions",
+    "started": "2026-11-21T01:34:49Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.5",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "source_file": "output/original-flow-hotfix-product0.27.5/layer-checkpoints/exports/074696b5dc8141e1915156576f922b70.json",
+  "source_sha256": "68b42dd3a070889242eb0a8752cfe2c755d6926bc0c2288fe15adaf6169ba383",
+  "expected_scientific_sha256": "b6cc28470319df8bfb2bfe1d8a9101ed17f61e766eb81bbd4bb38b2e07838457",
+  "saved_session_sha256": "d2b11c83b6bfd3c3851a23c01b1a47407900d053c8cd427b434ef78abd766ded",
+  "script_sha256": "bc9be4a97902e3306d75aa2e4da9934e752ee33a63ca1d7e27625cfda5ad7316",
+  "input_helper_sha256": "2b91b7a18e4f636a0064f231f852e9ab220ff5b38086ee69049c4ea6aee1ef5b",
+  "scope": "Original header, Layers panel and native Windows file dialog, ordinary mouse/typing/keys only. Choose an existing exported reference, preview its origin and cancel the preview. DOM/HTTP read only. No import commit, branch restore, scientific promotion or calculation-cancellation acceptance.",
+  "step": "#layers-panel-close",
+  "preview": {
+    "id": "8c83e98f470749cfa6b6ad530e482c72",
+    "valid": true,
+    "source_format": "store-record-1/checkpoint-0.2.0",
+    "source_sha256": "68b42dd3a070889242eb0a8752cfe2c755d6926bc0c2288fe15adaf6169ba383",
+    "import_sha256": "46bed24f68a58664b440287127ffb91d06cafb76b7522b4741f36a96a0792172",
+    "body_reference_id": "sol:naif:399",
+    "epoch": {
+      "UTC_rounding_s": 1e-06,
+      "et_tdb_s": 844992069.1823514,
+      "utc": "2026-10-11T12:00:00.000000Z"
+    },
+    "visible": {
+      "magnetic": true,
+      "spatial": true
+    },
+    "scientific_sha256": "b6cc28470319df8bfb2bfe1d8a9101ed17f61e766eb81bbd4bb38b2e07838457",
+    "magnetic_model": "IGRF14",
+    "changes": [
+      "Registro de origem conservado integralmente; destino sem parentesco local implícito."
+    ]
+  }
+}

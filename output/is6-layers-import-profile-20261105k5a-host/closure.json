@@ -1,0 +1,8 @@
+{
+  "processes": {
+    "launcher_wrapper_exit": 0,
+    "engine_exit": 0,
+    "server_exit": 0,
+    "launcher_exit": 0
+  }
+}

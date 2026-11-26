@@ -1,0 +1,10 @@
+{
+  "accepted": false,
+  "completed": false,
+  "failure": "Driver initialization could not obtain Windows foreground focus; input guard refused all feature actions. No file picker or preview exercised.",
+  "source_sha256": {
+    "scripts/verify-native-import-picker.py": "15d6ac0b3e2383127ab20a96a8564fe6a7d695f5711142f37f665910d2251838",
+    "scripts/ordinary_file_dialog_input.py": "069e220f53b935b2c25471e01dde6c1961acacb9504e33864ae5e5cd7506ae5f"
+  },
+  "scope": "Refused automation attempt only; not evidence of a product import failure."
+}

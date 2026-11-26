@@ -1,0 +1,12 @@
+{
+  "accepted": true,
+  "completed": true,
+  "revision": "v33",
+  "files": 14338,
+  "verified_staged_blobs": 22,
+  "verified_raw_bytes": 4236032,
+  "commit": "09537c7e11af98fc7e7a3471ae6b4a79f07fbd02",
+  "inventory_sha256": "ddb53a6f16b35212e0e1d5279a40f273df2713163bbfe48ca84a907800d70d9f",
+  "copy_receipt_sha256": "9f31c4fc51b8be174a66d63c61912ac29f90db6dcb5ed8294c7653af2ee5c2ee",
+  "scope": "Only selected source, native scientific captures and continuity committed locally. Raw staged blobs match inventory; unrelated historical CRLF changes unstaged. No private state, runtime or push."
+}

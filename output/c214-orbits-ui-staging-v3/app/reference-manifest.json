@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "source_sha256": {
+    "app/stellar.py": "c5e4ce10987fb6935785cbf0d44967a28df6e5a7d4c3a0d138866f8a51b8f166",
+    "app/cno.py": "1ffe541ea8b182154dad3359960d2e5ad80c8a9b40477fb6061659759a4f56b7",
+    "data/science/pp1.json": "15ac0b52a6af9cd2fcc7254336e8f0f7a8d8c3ae5ebcca5dc811bf4e406b83b0",
+    "data/science/cno1.json": "9f1128b084328fd11161a9b7a5fc8ae52bd2eddb56bd6eff0c7d8da78d103f11"
+  },
+  "change": "Isolated reference copies: ROOT lookup and local import/module names only; original kinetics unchanged."
+}

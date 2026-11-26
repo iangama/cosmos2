@@ -1,0 +1,122 @@
+{
+  "completed": true,
+  "functional_accepted": true,
+  "page_errors": [],
+  "bodies": [
+    {
+      "target": "10",
+      "title": "Sol · sol:naif:10"
+    },
+    {
+      "target": "199",
+      "title": "Mercúrio · sol:naif:199"
+    },
+    {
+      "target": "299",
+      "title": "Vênus · sol:naif:299"
+    },
+    {
+      "target": "399",
+      "title": "Terra · sol:naif:399"
+    },
+    {
+      "target": "301",
+      "title": "Lua · sol:naif:301"
+    },
+    {
+      "target": "499",
+      "title": "Marte · sol:naif:499"
+    },
+    {
+      "target": "599",
+      "title": "Júpiter · sol:naif:599"
+    },
+    {
+      "target": "699",
+      "title": "Saturno · sol:naif:699"
+    },
+    {
+      "target": "799",
+      "title": "Urano · sol:naif:799"
+    },
+    {
+      "target": "899",
+      "title": "Netuno · sol:naif:899"
+    }
+  ],
+  "captures": [
+    {
+      "path": "output/is6-planet-catalog-native-20261110a/catalog-1.png",
+      "sha256": "07529a51bd78a492c319e5609aeb6d0da596ab09f4d60f7e5495b41c9d14dee5",
+      "scale": 1,
+      "bounds": {
+        "scroll": 1920,
+        "width": 1920
+      }
+    },
+    {
+      "path": "output/is6-planet-catalog-native-20261110a/catalog-1-5.png",
+      "sha256": "8a3b0d6e38f7d780e699c27fe1f298f1c7ce4bc4e07935282d231dcee96d96b3",
+      "scale": 1.5,
+      "bounds": {
+        "scroll": 1903,
+        "width": 1903
+      }
+    }
+  ],
+  "script_sha256": "77c6b449d1fc2998dc3217a026c7247d4aa1419ee5f165eec1d14c0e20527c0b",
+  "scope": "Native data page, API and export; visual review and own profiles pending",
+  "session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 42892,
+    "server": 43316,
+    "launcher": 43544,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-planet-catalog-product0.23.0\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-planet-catalog-product0.23.0\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Spatial-Import-0.23.0-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-11T01:31:10Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-planet-catalog-candidate.py",
+    "is6PlanetCatalogCandidate": true
+  },
+  "export": {
+    "path": "C:/Users/Ian/cosmos2/user/exports/cosmos2-planet-reference-20261111T013120Z-3db141fa.json",
+    "sha256": "5be3799a65d445cb990b0882d4be77901e20ee2ba4e59dce3e622f47e7bc4e43"
+  },
+  "processes": {
+    "launcher_wrapper_exit": 0,
+    "engine_exit": 0,
+    "server_exit": 0,
+    "launcher_exit": 0
+  },
+  "owner_unchanged": true
+}

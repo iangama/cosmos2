@@ -1,0 +1,112 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checks": [
+    {
+      "name": "visible-view-options-ray-probe-and-sky-canvas-picking",
+      "scale": "1"
+    },
+    {
+      "name": "restore-view-clears-probe-and-restores-framing-without-changing-physics",
+      "scale": "1"
+    },
+    {
+      "name": "all-three-grouped-position-controls-change-lensing",
+      "scale": "1",
+      "u_sequence": [
+        1.1150197131741941,
+        0.8672375546910399,
+        0.9911286339326171
+      ]
+    },
+    {
+      "name": "alignment-explicit-status-actuation-and-visibility-remain-distinct",
+      "scale": "1"
+    },
+    {
+      "name": "real-plane-and-secondary-impact-errors-preserve-confirmed-result-and-recover",
+      "scale": "1"
+    },
+    {
+      "name": "save-export-and-restore-use-confirmed-geometry-while-draft-is-edited",
+      "scale": "1"
+    },
+    {
+      "name": "readable-scale-and-no-horizontal-panel-overflow",
+      "scale": "1",
+      "layout": {
+        "article": 0,
+        "aside": 0
+      }
+    },
+    {
+      "name": "visible-view-options-ray-probe-and-sky-canvas-picking",
+      "scale": "1.5"
+    },
+    {
+      "name": "restore-view-clears-probe-and-restores-framing-without-changing-physics",
+      "scale": "1.5"
+    },
+    {
+      "name": "all-three-grouped-position-controls-change-lensing",
+      "scale": "1.5",
+      "u_sequence": [
+        1.1150197131741941,
+        0.8672375546910399,
+        0.9911286339326171
+      ]
+    },
+    {
+      "name": "alignment-explicit-status-actuation-and-visibility-remain-distinct",
+      "scale": "1.5"
+    },
+    {
+      "name": "real-plane-and-secondary-impact-errors-preserve-confirmed-result-and-recover",
+      "scale": "1.5"
+    },
+    {
+      "name": "readable-scale-and-no-horizontal-panel-overflow",
+      "scale": "1.5",
+      "layout": {
+        "article": 0,
+        "aside": 0
+      }
+    }
+  ],
+  "captures": [
+    {
+      "path": "output/c214-point-lens-ui-20261121b/1-ray-construction-and-inner-parity.png",
+      "sha256": "6678678b5242fe769ae66ac281c05d40a6a031e59928733bef35cab304d4b935"
+    },
+    {
+      "path": "output/c214-point-lens-ui-20261121b/1-aligned-ring-explicit-limit.png",
+      "sha256": "29b22e7eb9ddeb9d4b32bcc6ab7e1796df118b85bdfdaa5f4dd83d5d62cbe0ca"
+    },
+    {
+      "path": "output/c214-point-lens-ui-20261121b/1-complete-sky-view.png",
+      "sha256": "294fc004513bae430ccaaf3d1632118031426c55b20c10c28de32ce7604cc663"
+    },
+    {
+      "path": "output/c214-point-lens-ui-20261121b/1-5-ray-construction-and-inner-parity.png",
+      "sha256": "1cd6e20d11c6c8433d017d6f134cb67027435a2891cc70d97f1d9fc06fbd70c9"
+    },
+    {
+      "path": "output/c214-point-lens-ui-20261121b/1-5-aligned-ring-explicit-limit.png",
+      "sha256": "4cc4fc17cec54eeed85c8b443f62f20f1ff5ed849edeff5db67a4d08bef6515e"
+    },
+    {
+      "path": "output/c214-point-lens-ui-20261121b/1-5-complete-sky-view.png",
+      "sha256": "f7eb75b407887f474d59b301ead4e0ec42d458c01a3c3fe82d6c4408c8a96552"
+    }
+  ],
+  "javascript_errors": [],
+  "unexpected_requests": [],
+  "source_sha256": {
+    "scripts/verify-c214-point-lens-ui-v2.py": "4ffc171f11262e85d2ac057b7a76919108b73065cb313e67bcb9a5d51bc0f7d8",
+    "output/c214-point-lens-ui-staging-v2/preparation.json": "fbfc874a96eac9d839f1430c244d1b61013873524b1e56a2e1a072798ea037b1"
+  },
+  "scope": "Headless Windows browser on actual separate full HTTP server and isolated records,100%/150%. Visible custom option lists, grouped positions, sky/ray views, probes/picking, alignment, operators, real domain errors/recovery and confirmed save/export/restore. This is supplementary UI evidence, not native original-launcher or performance acceptance.",
+  "browser_executable": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "step": "1.5:#scene-title",
+  "server_exit": 0
+}

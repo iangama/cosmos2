@@ -1,0 +1,21 @@
+Extensão espacial versionada —21/11/2026
+
+Aceitar o checkpoint espacial simples schema1 e o registro espacial atual
+schema2/with_origin. Preservar os módulos executados anteriores, seu contrato
+e suas gerações. Cápsulas antigas continuam sendo verificadas pelo importador
+antigo, sem reescrever seus dados ou selos.
+
+Para schema2, conservar o texto UTF8 integral, SHA256 do arquivo, artefato,
+vista e linhagem originais. Validar novamente a origem ao abrir cápsulas e
+registros; não interpretar IDs arquivados como caminhos locais. O destino
+importado ganha identidade própria e não herda parentesco local implícito.
+Nenhuma amostra magnética é criada e nenhum modelo físico é alterado.
+
+Os limites anteriores de16MiB por fonte e64MiB por cápsula/registro continuam.
+Limitar cadeias de origem a8 referências. Recusar exportação acima do limite
+de fonte para não produzir uma nova exportação que o próprio importador não
+possa admitir. Conservar arquivos antigos se uma validação ou gravação falhar.
+Seleção por nome/metadados naUI não substitui conferência exata de conteúdo.
+
+Este desenvolvimento não é aceite científico ou nativo. Servidor/GUI e
+diálogoWindows ainda precisam de validação antes de selecionar outro produto.

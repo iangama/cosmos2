@@ -1,0 +1,257 @@
+{
+  "accepted": true,
+  "completed": true,
+  "candidate": "0.24.0",
+  "receipt": "evidence/is6-planet-navigation-native-20261111c.json",
+  "receipt_sha256": "4bc9be98b2cc8b9cc3e03dc4639039aaf36275224e29173ca41465d4d011212f",
+  "method": "Inspeção direta das 12 capturas PNG nativas, sem edição, em100/150%.",
+  "captures": [
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/mercury-100.png",
+      "sha256": "04bf6d0318e67862018c4b361b42e933588950e9a3a39637a584621ce217429a",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000012.png",
+      "target": "Mercury",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Mercúrio",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Mercury",
+        "anchor": "Mercury",
+        "limitation": "Mapa visual fixo OpenSpace: 11520 × 5760 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/mercury-150.png",
+      "sha256": "6d9bb3d124df850ab0c61fa9c69eeb6be8709b7f3cd8d293fff577472bfcdc3b",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000013.png",
+      "target": "Mercury",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Mercúrio",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Mercury",
+        "anchor": "Mercury",
+        "limitation": "Mapa visual fixo OpenSpace: 11520 × 5760 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/venus-100.png",
+      "sha256": "860f6ddd16ccf542c1bdd4a8e21041253f714ad88387cc8dd7a9431088f90893",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000014.png",
+      "target": "Venus",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Vênus",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Venus",
+        "anchor": "Venus",
+        "limitation": "Mapa visual fixo OpenSpace: 1800 × 900 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/venus-150.png",
+      "sha256": "89d1fa2b7c26569ffc4b8d48dd4ee1ff312fe38e2666541a848d0e3fa40e8d9c",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000015.png",
+      "target": "Venus",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Vênus",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Venus",
+        "anchor": "Venus",
+        "limitation": "Mapa visual fixo OpenSpace: 1800 × 900 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/mars-100.png",
+      "sha256": "d972fa596b0843567a85dec1ebec5a347d17c26de0b3df528e83aa0d93219592",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000016.png",
+      "target": "Mars",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Marte",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Mars",
+        "anchor": "Mars",
+        "limitation": "Mapa visual fixo OpenSpace: 8192 × 4096 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/mars-150.png",
+      "sha256": "522ea6a45b5aaf0e573171b59e4c64c7379546e951a00bda2badeff8158a2c7d",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000017.png",
+      "target": "Mars",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Marte",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Mars",
+        "anchor": "Mars",
+        "limitation": "Mapa visual fixo OpenSpace: 8192 × 4096 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/jupiter-100.png",
+      "sha256": "1c1f42518d0de8a17edeefbd736d0a80db655868d64eea270dcf5f827f29a448",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000018.png",
+      "target": "Jupiter",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Júpiter",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Jupiter",
+        "anchor": "Jupiter",
+        "limitation": "Mapa visual fixo OpenSpace: 4096 × 2048 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/jupiter-150.png",
+      "sha256": "39b5d5fea1f771f692cd0781bd168aa31496b1bf426c18e8beb9a42b029eb28a",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000019.png",
+      "target": "Jupiter",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Júpiter",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Jupiter",
+        "anchor": "Jupiter",
+        "limitation": "Mapa visual fixo OpenSpace: 4096 × 2048 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/uranus-100.png",
+      "sha256": "1287982671963ecca41d57643e532b411c88b5c66fe8097323e2bc471c32aaea",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000020.png",
+      "target": "Uranus",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Urano",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Uranus",
+        "anchor": "Uranus",
+        "limitation": "Mapa visual fixo OpenSpace: 2048 × 1024 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/uranus-150.png",
+      "sha256": "dcb371bca94d52f0924ce976109396f0d5c4ccf7ab1cf5f4468e1c2d499d3362",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000021.png",
+      "target": "Uranus",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Urano",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Uranus",
+        "anchor": "Uranus",
+        "limitation": "Mapa visual fixo OpenSpace: 2048 × 1024 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/neptune-100.png",
+      "sha256": "893c5a045aac0f5f40c786a638fc6a7d733f2c74de32daa3fc76cded9b9abbd8",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000022.png",
+      "target": "Neptune",
+      "scale": "1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Netuno",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Neptune",
+        "anchor": "Neptune",
+        "limitation": "Mapa visual fixo OpenSpace: 3000 × 1500 pixels. Época de aquisição desconhecida."
+      }
+    },
+    {
+      "path": "output/is6-planet-navigation-native-20261111c/neptune-150.png",
+      "sha256": "6ce3c5139b9c3399614654b8c18633b8311873a4a682d2317f472fbe4d2eac9e",
+      "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000023.png",
+      "target": "Neptune",
+      "scale": "1.5",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "ui": {
+        "title": "Netuno",
+        "notice": "Visão geral no lado iluminado.",
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920,
+        "selected": "Neptune",
+        "anchor": "Neptune",
+        "limitation": "Mapa visual fixo OpenSpace: 3000 × 1500 pixels. Época de aquisição desconhecida."
+      }
+    }
+  ],
+  "checks": [
+    "Seis globos texturizados visíveis, com contorno e iluminação coerentes com as vistas registradas.",
+    "Nomes, raios de referência e origem visual legíveis. Fichas ampliadas acessíveis por Ver ficha/Ver catálogo.",
+    "Rolagem vertical conserva controles; nenhuma rolagem horizontal na página.",
+    "Mapas fixos identificados; época de aquisição desconhecida declarada. Exposição é ajuste visual, sem fotometria."
+  ],
+  "scope": "Aceite visual da apresentação e dos recursos fixos nesta cena. Não valida origem observacional ainda não confirmada, cores calibradas, relevo, clima, novos anéis, luas adicionais ou desempenho."
+}

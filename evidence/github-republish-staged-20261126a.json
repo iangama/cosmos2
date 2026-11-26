@@ -1,0 +1,17 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checked_utc": "2026-11-26T16:56:40.155658+00:00",
+  "staged_paths": 14356,
+  "inventoried_paths": 14354,
+  "total_staged_bytes": 2688896423,
+  "unique_staged_blobs": 4185,
+  "unique_staged_bytes": 1555004943,
+  "inventory_sha256_before_receipt": "6d000a84a4393995358b2f20c06dc702cc1bfa0778a87954577f677f2403d09b",
+  "verified_candidate": "0.29.0",
+  "verified_candidate_manifest_files": 274,
+  "secret_pattern_matches": 0,
+  "excluded_path_check": true,
+  "guard_verification": "evidence/github-authorship-guard-20261126a.json",
+  "scope": "Every staged blob rehashed against the selected raw-byte inventory; no simulator execution or new scientific acceptance."
+}

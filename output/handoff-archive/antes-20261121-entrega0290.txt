@@ -1,0 +1,83 @@
+ATUALIZAÇÃO — lente pontual C2-14 em21/11
+Núcleo congelado output/c214-point-lens-staging/point_lens.py. Contrato C2-14-LENTE-PONTUAL-CONTRATO-20261121.md; SI/Decimal80, posições3D, lente fina, duas imagens/paridade/fluxos, anel singular explícito e intervenção sem desvio. CPU21a:6gruposaceitos,90comparações110dígitos (erro máximoamp~1e-16),48permutações,22recusas,3raiosSchwarzschild. Umgrupo recusado porquefixture2**20excedeu1e25m; núcleo corretamente recusou. Supplement scaling-v2/21b usa2**±10dentrodomínio, mais translação; compostoaceito. geometry21a aceito12configurações oblíquas/observador e sentido físico dosraios, erroturnmáx2.42e-7. Não alterar núcleo/contrato/verificadores jáexecutados.
+Serviço preparado emoutput/c214-point-lens-service-staging (prepare-c214-point-lens-service.py): acrescenta point_lens.py/point_lens_force_adapter.py, estendeforces/science_contracts; resto backend/UI intacto. C2-14-LENTE-PONTUAL-SERVICO-20261121.md fixa conversões IAU(au,pc,GMnominal), protocoloeestados. HTTP21a ACEITO7percursos/8recusas/2saídas0, movimentoO/L/S, visibilidade, atuação/efeito, anel/direta, salvar/exportar/retomar/reinício,6cenáriosantigoscomresultadoidêntico. Recusa nomeadaoutside-secondary-impact foi pelo limiteu, não contabilizar como provaHTTP deimpactosecundário; CPUtestouessecaso. NovaUIdeveincluir recusaespecífica(mass_solar1e4/source_z_kpc4.01/source_x_au1e4).
+UIpreparada nãoinstalada: output/c214-point-lens-ui-staging, builder prepare-c214-point-lens-ui.py, scripts/point-lens-view.js. Backend byteidêntico aoHTTPaceito. Novo palcoFonte/Lente/Observador emdetails(sódetails,nãofieldsetpara nãoincluirform.elements), vistasCéu/Raios, símbolo+paridade/medições, limitesingularexplícito, AlinharnoeixoZ(resetaXYdos3,preservaZ), quadro deEinstein/todasimagens, marcadoressemintensidadefísica. ProjeçãoXglobalparacartaevitagiro90grausporbasecanônica; física originalintacta. NoUIainda nãofoi executada. Próximo: PlaywrightWindowsheadless emservidorisolado,100/150,opçõesvisíveis/3posições/raios/probes/anel/erro/recuperação/exportar/restaurar. Depois preparar nova revisão e testar peloatalhooriginal; nada aceito nativamente ainda.
+Produto abertosegue0.28.4 app35748/server28404/launcher23608; fase4corpospausada,Atlas100%. Não tomar caminhoisolado comoentrega. IntegraçãofinalC2-16/17adiada. Semsubagentes/push. Semrepetirperfilórbitas/residênciaF aceitos.
+Backupv31concluído13061arquivoscommit351c2c48d85f2bc91a83ec11b7790b2de3a1b46d. TODO estetrabalholentepontual éposterior: precisa v32incremental (fontes/docs/provas/rawmodel JSON, estáticosstaging; excluir.cache PDFs/ZIP e estadosprivados). Lerestaatualização antesdohistórico.
+Telemetriareal2026-11-21T19:06:38.942Z:77%5h/18%semanal; novajanela reset100%/21% às18:52:32.171Z. Reconsultar ambas. Ao8%passagem e continuar, nuncainferirporcontexto/tokens/tempo.
+
+COSMOS2 — continuidade ativa21/11/2026: lente pontual C2-14
+
+Estado vigente
+O dono aceitou a experiência corrigida do ciclo20 e adiou a integração visual
+final para C2-16/17. Pediu execução contínua e reiterou Continue. Não repetir
+curadoria aceita sem mudança/defeito, não pedir confirmação rotineira. Sem
+subagentes, push ou publicação. Preservar Cosmos e Revenant.
+
+Produto entregue
+0.28.4 selecionado em config/local-working-product.json. Os três atalhos
+originais usam open-working-cosmos2-v3.py/launch-working-cosmos2-v3.py.
+Última sessão app35748/server28404/launcher23608, Atlas100%, referências
+fechadas. Fase4corpos pausada em memória e salva: system_id
+abe2511b219246869f3f8d493e78a9f5, t16.333333333333332, revision3.
+Conferir estado/processos antes de interagir; Atlas não implica ausência de
+física. Nunca editar app/data de revisão executada.
+
+Entregas deste ciclo
+Compatibilidade espacial0.27.7: fontes versionadas scripts/spatial-roundtrip-v2,
+CPU9/9,HTTP6+2saídas0,nativo6. Aceita export atual schema2/with_origin e
+legado1, preserva bytes/origem/vista/linhagem, não cria amostra magnética.
+Nativo original: exportar, importar/restaurar, exportar/reimportar origem,
+encaminhar Camadas→Malha, cancelar prévia, restaurar salva e retornar.
+Recibo spatial-roundtrip-delivery-20261121a.json.
+Perfil próprio C2-14 candidata0.28.2 aceito: quatro janelas,395amostras,
+13474polls incluindo inicial, mediana13.4ms, zero>100ms, oito saídas0.
+Fase/câmera/época/favoritos restaurados. Resultado detalhado em
+C2-14-ORBITAS-PERFIL-RESULTADO-20261121.md. Depois da atualização legítima
+dos atalhos, auditor-v4 reconferiu todos os brutos usando as quatro fontes
+operacionais pré-entrega arquivadas; audit-after-delivery-20261121b aceito.
+Não repetir esse perfil nem residênciaF; A/B14/11 e preparação21a continuam
+recusados. Fontes/gerações antigas permanecem intactas.
+Órbitas entregues no acesso original em0.28.4: seis recortes nativos100/150,
+com seleção pelo mouse, circular, relógios, animação, operador, erro1.5ciclos,
+recuperação e retorno mantendo a fase4corpos. native-working-orbits21a
+recusou um clique do driver no select original oculto;21b corrigiu o driver
+e passou6/6. Capturas reais foram inspecionadas. Delivery21a aceito e três
+atalhos confirmados. UI isolada2/2, regressão de UI legada12/12, HTTP6.
+0.28.3 teve erro de controles após cancelar primeirojob;0.28.4 corrige apenas
+forces.js, restaurando os controles do resultado confirmado no catch.
+Backend aceito0.28.2 copiado byte a byte em cinco arquivos; dois módulos
+científicos herdados estendidos (forces/science_contracts),138/140 iguais,
+três novos. Entryv3 valida manifest2 e essa contagem real. Outros módulos de
+ciência e UI curada permanecem. Não transferir desempenho0.28.2 à0.28.4.
+C2-14 incompleto; v1=7/21, IS6 incompleto e K5A recusado.
+
+Próximo trabalho autorizado
+Lente pontual em campo fraco com fonte/lente/observador editáveis, prevista
+em ESCOPO-CIENTIFICO.md§5 e ROADMAP-GERAL.md§C2-14. A bancada atual Luz e
+relógios integra geodésica nula Schwarzschild com impacto no infinito e uma
+sonda estática; não oferece essa geometria de imagens/amplificação. Sua
+implementação foi inspecionada, não precisa repetir investigação geral.
+Em desenvolvimento: pesquisa de fontes primárias para fixar o contrato
+antes dos dados; em seguida kernelCPU separado, validação independente,
+serviço/UI e entrega original em nova revisão. Não alterar produto aberto
+para pesquisar. Não iniciar a reorganização visual final.
+Fontes abertas: Bartelmann/Schneider, arxiv.org/pdf/astro-ph/9912508, seção3.1
+(Eqs3.1,3.6,3.11/14); Wambsganss, arxiv.org/abs/astro-ph/9812021. Ler trechos
+necessários, não repetir pesquisa do roadmap. Ainda não há contrato nem
+implementação de lente pontual, não alegar aceite.
+
+Backup e cota
+Backup local v31 concluído13061arquivos, commit
+351c2c48d85f2bc91a83ec11b7790b2de3a1b46d;636blobs/66907076bytes conferidos
+brutos contra inventário. Recibos sync20261121e/f e local20261121c.
+Snapshot /mnt/c/Users/Ian/cosmos2-github-snapshot-20261103. CRLF histórico
+fora do stage: não resetar/stash/commitar em massa. Excluir estados pessoais,
+runtimes, ZIPs e screenshots de diálogoWindows do snapshot de fontes.
+Este resumo, arquivo histórico e recibo local21c são posteriores ao backup;
+entrarão no próximo incremental. Sem push.
+Nova telemetria após Continue:2026-11-21T18:52:32.171Z,100%5h/21%semanal.
+Leituras5%/9% pertencem à janela anterior. Usar rate_limits reais JSONL para
+as duas cotas; não inferir por tokens/contexto/tempo. Ao8% salvar passagem
+e continuar até limite efetivo/bloqueio real/plano concluído/parada explícita.
+Histórico do ciclo anterior em output/handoff-archive/antes-20261121-lente-pontual.txt.

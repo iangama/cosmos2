@@ -1,0 +1,21 @@
+{
+  "repository": "iangama/cosmos2",
+  "public": true,
+  "checked_without_authentication": true,
+  "cookies_sent": false,
+  "checked_utc": "2026-11-04T01:05:38.575953+00:00",
+  "checks": [
+    {
+      "url": "https://api.github.com/repos/iangama/cosmos2",
+      "http_status": 200
+    },
+    {
+      "url": "https://github.com/iangama/cosmos2",
+      "http_status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/iangama/cosmos2/main/README.md",
+      "http_status": 200
+    }
+  ]
+}

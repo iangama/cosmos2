@@ -1,0 +1,362 @@
+127.0.0.1 - - [14/Nov/2026 13:30:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:30:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is4-particle.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is5-zone.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is6-layers.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /stellar-reference.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is6-spatial.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /planet-definitions.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /navigation.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /body-editor.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /body-attributes.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /gravity-harmonics.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /orbit-editor.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /material-tides.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /gravity-experiences.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /gravity-probe.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /gravity-fields.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /gravity-instruments.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /instrument-history.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /orbital-instruments.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /branches.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /test-cloud.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /solar.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /solar-tide.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /earth-field.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /jupiter-field.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /body-field-vector.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /body-field-map.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is4-particle.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is5-zone.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /stellar-reference.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is6-spatial.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is6-layers.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is4-particle.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is5-zone.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /stellar-reference.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is6-spatial.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is6-layers.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /planet-definitions.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /navigation.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /body-editor.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /gravity-harmonics.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /body-attributes.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /material-tides.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /orbit-editor.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /gravity-experiences.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /gravity-probe.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /gravity-instruments.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /gravity-fields.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /instrument-history.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /orbital-instruments.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /branches.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /test-cloud.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /solar.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /solar-tide.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /earth-field.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /jupiter-field.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /body-field-vector.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /body-field-map.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is4-particle.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is5-zone.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /stellar-reference.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is6-spatial.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /is6-layers.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /api/navigation/favorites HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:02] "GET /api/laboratory/experiments HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] code 404, message File not found
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /forces.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /forces.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /geomagnetism.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /fusion.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /decays.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /timelike-view.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /forces.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /api/forces/catalog HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:03] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/atlas/state HTTP/1.1" 503 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49689)
+Traceback (most recent call last):
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 130, in do_GET
+    try:return self.json_response(ATLAS.status())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 55, in json_response
+    self.wfile.write(body)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 43, in __init__
+    super().__init__(*args, directory=str(Path(__file__).parent / "ui"), **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 131, in do_GET
+    except Exception as error:return self.json_response({'ok':False,'error':str(error)},503)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 54, in json_response
+    self.end_headers()
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 47, in end_headers
+    super().end_headers()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+----------------------------------------
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/navigation/display HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/navigation/display HTTP/1.1" 503 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49690)
+Traceback (most recent call last):
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 106, in do_GET
+    try:return self.json_response(NAVIGATION.display_status())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 55, in json_response
+    self.wfile.write(body)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 43, in __init__
+    super().__init__(*args, directory=str(Path(__file__).parent / "ui"), **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 107, in do_GET
+    except Exception as error:return self.json_response({'ok':False,'error':str(error)},503)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 54, in json_response
+    self.end_headers()
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 47, in end_headers
+    super().end_headers()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+----------------------------------------
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:04] "GET /api/navigation/state HTTP/1.1" 503 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49692)
+Traceback (most recent call last):
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 109, in do_GET
+    try:return self.json_response(NAVIGATION.status() if self.path.endswith('/state') else {'views':NAVIGATION.favorites()})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 55, in json_response
+    self.wfile.write(body)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 43, in __init__
+    super().__init__(*args, directory=str(Path(__file__).parent / "ui"), **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 110, in do_GET
+    except Exception as error:return self.json_response({'ok':False,'error':str(error)},503)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 54, in json_response
+    self.end_headers()
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 47, in end_headers
+    super().end_headers()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+----------------------------------------
+127.0.0.1 - - [14/Nov/2026 13:31:08] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:08] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:08] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:08] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:08] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:08] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:09] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:09] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:09] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:09] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:09] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:09] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:10] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:10] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:10] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:10] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:10] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:11] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:11] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:11] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:11] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:11] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:11] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:12] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:12] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:12] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:12] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:12] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:12] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:12] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:12] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:12] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:12] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:13] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:13] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:13] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:13] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:13] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:13] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:13] "POST /api/forces/save HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:14] "POST /api/forces/load HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:14] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:14] "POST /api/timelike/command HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:14] "GET /api/timelike/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:14] "POST /api/forces/export HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /is4-particle.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /is5-zone.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /stellar-reference.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /is6-spatial.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /is6-layers.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /planet-definitions.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /navigation.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /body-editor.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /body-attributes.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /gravity-harmonics.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /material-tides.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /orbit-editor.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /gravity-experiences.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /gravity-probe.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /gravity-instruments.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /gravity-fields.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /instrument-history.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /orbital-instruments.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /branches.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /test-cloud.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /solar.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /solar-tide.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /earth-field.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /jupiter-field.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /body-field-vector.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /body-field-map.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /is4-particle.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /is5-zone.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /stellar-reference.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /is6-spatial.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /is6-layers.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /api/navigation/favorites HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /api/laboratory/experiments HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /api/navigation/display HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:15] "GET /api/navigation/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:16] "GET /api/atlas/state HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 13:31:16] "GET /api/navigation/state HTTP/1.1" 503 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49913)
+Traceback (most recent call last):
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 109, in do_GET
+    try:return self.json_response(NAVIGATION.status() if self.path.endswith('/state') else {'views':NAVIGATION.favorites()})
+                                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\moon_navigation.py", line 106, in status
+    s=self._read()
+      ^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\moon_navigation.py", line 90, in _read
+    value=self.atlas._lua('local n=openspace.navigation.getNavigationState("Root"); return {navigation=n,anchor_position=openspace.worldPosition(n.Anchor),et=openspace.time.currentTime(),utc=openspace.time.UTC(),paused=openspace.time.isPaused(),rate=openspace.time.deltaTime(),flying=openspace.navigation.isFlying(),positions={'+POSITION_QUERY+'},rotations={'+ROTATION_QUERY+'}}')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\atlas.py", line 113, in _lua
+    response=json.loads(self.connection.recv(timeout=5))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\.tooling\python\Lib\site-packages\websockets\sync\connection.py", line 336, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 43, in __init__
+    super().__init__(*args, directory=str(Path(__file__).parent / "ui"), **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 110, in do_GET
+    except Exception as error:return self.json_response({'ok':False,'error':str(error)},503)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ian\cosmos2\output\c214-orbits-product0.28.1\app\server.py", line 55, in json_response
+    self.wfile.write(body)
+  File "C:\Users\Ian\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] Uma conexão estabelecida foi anulada pelo software no computador host
+----------------------------------------
+127.0.0.1 - - [14/Nov/2026 13:31:17] "POST /api/shutdown HTTP/1.1" 200 -

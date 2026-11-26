@@ -1,0 +1,15 @@
+{
+  "ready": true,
+  "health_url": "http://127.0.0.1:4700/health",
+  "ui_url": "http://127.0.0.1:4700/",
+  "health": {
+    "application": "cosmos2",
+    "protocol": 1
+  },
+  "checked_root_page": true,
+  "attempts": 5,
+  "elapsed_s": 4.625,
+  "server_pid": 14396,
+  "ready_utc": "2026-11-14T09:35:26Z",
+  "http_ready_before_engine_start": true
+}

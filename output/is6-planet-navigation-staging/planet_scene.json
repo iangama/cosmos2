@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "bodies": {
+    "Sun": {
+      "name": "Sol",
+      "target": "10",
+      "kind": "star",
+      "radii_m": [
+        695700000.0,
+        695700000.0,
+        695700000.0
+      ],
+      "frame": null
+    },
+    "Mercury": {
+      "name": "Mercúrio",
+      "target": "199",
+      "kind": "planet",
+      "radii_m": [
+        2440530.0,
+        2440530.0,
+        2438260.0
+      ],
+      "frame": "IAU_MERCURY",
+      "texture": {
+        "path": "output/is6-planet-visuals-20261111a/Mercury_MESSENGER_MDIS_Basemap_BDR_Mosaic_Global_32ppd.jpg",
+        "sha256": "7fbdfaa9492b7be261b4c5de0116db5fbbf0ff11da35193433b50db3d437b073",
+        "bytes": 22564775,
+        "width": 11520,
+        "height": 5760,
+        "manifest_url": "https://liu-se.bigbang.openspaceproject.com/request?identifier=mercury_textures&file_version=2&application_version=1",
+        "manifest_sha256": "c9d7d01909aa6a936d40c48c78176769f89038c6c05910cdbd03c929720e1b13",
+        "original_url": "http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/mercury/textures/2/Mercury_MESSENGER_MDIS_Basemap_BDR_Mosaic_Global_32ppd.jpg",
+        "download_url": "https://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/mercury/textures/2/Mercury_MESSENGER_MDIS_Basemap_BDR_Mosaic_Global_32ppd.jpg",
+        "upstream_asset": ".upstream/openspace/data/assets/scene/solarsystem/planets/mercury/layers/colorlayers/mercury_texture.asset",
+        "upstream_asset_sha256": "cddefe64c03bbe058ee03c1e8ccda39ddf2d81c5dce77201f785e7885934bdb2",
+        "asset_license": "MIT in upstream Lua metadata",
+        "image_origin": "OpenSpace fixed visual map; observational origin and epoch unconfirmed",
+        "observational_epoch": null,
+        "planet": "mercury",
+        "resource_version": 2
+      }
+    },
+    "Venus": {
+      "name": "Vênus",
+      "target": "299",
+      "kind": "planet",
+      "radii_m": [
+        6051800.0,
+        6051800.0,
+        6051800.0
+      ],
+      "frame": "IAU_VENUS",
+      "texture": {
+        "path": "output/is6-planet-visuals-20261111a/venus_clouds.jpg",
+        "sha256": "da7f68195e552020a888db1758bb7a87506718971c6c9a455189d7b17ceda321",
+        "bytes": 66303,
+        "width": 1800,
+        "height": 900,
+        "manifest_url": "https://liu-se.bigbang.openspaceproject.com/request?identifier=venus_textures&file_version=2&application_version=1",
+        "manifest_sha256": "878cff9e4b220a8152c516a24a5492e9f97b72d3c957aeef2c0d544756bf9f69",
+        "original_url": "http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/venus/textures/2/venus_clouds.jpg",
+        "download_url": "https://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/venus/textures/2/venus_clouds.jpg",
+        "upstream_asset": ".upstream/openspace/data/assets/scene/solarsystem/planets/venus/layers/colorlayers/venus_texture.asset",
+        "upstream_asset_sha256": "504134790525d4856da90d7a01ac837f30c7bcb26fe390f1f3c52e575d5f449f",
+        "asset_license": "MIT in upstream Lua metadata",
+        "image_origin": "OpenSpace fixed visual map; observational origin and epoch unconfirmed",
+        "observational_epoch": null,
+        "planet": "venus",
+        "resource_version": 2
+      }
+    },
+    "Earth": {
+      "name": "Terra",
+      "target": "399",
+      "kind": "planet",
+      "radii_m": [
+        6378137,
+        6378137,
+        6356752.314245
+      ],
+      "frame": "IAU_EARTH"
+    },
+    "Moon": {
+      "name": "Lua",
+      "target": "301",
+      "kind": "moon",
+      "radii_m": [
+        1737400,
+        1737400,
+        1737400
+      ],
+      "frame": "IAU_MOON"
+    },
+    "Mars": {
+      "name": "Marte",
+      "target": "499",
+      "kind": "planet",
+      "radii_m": [
+        3396190.0,
+        3396190.0,
+        3376200.0
+      ],
+      "frame": "IAU_MARS",
+      "texture": {
+        "path": "output/is6-planet-visuals-20261111a/mars.png",
+        "sha256": "e557e819919cbe5711f52f3b8bc7afcf98d84ec4d9a9f29b22da16ee166e142f",
+        "bytes": 36328852,
+        "width": 8192,
+        "height": 4096,
+        "manifest_url": "https://liu-se.bigbang.openspaceproject.com/request?identifier=mars_textures&file_version=3&application_version=1",
+        "manifest_sha256": "b9b17ea49162d90c1d8aefdc0d8a4118082b3b140a3715980f62726ba178577c",
+        "original_url": "http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/mars/textures/3/mars.png",
+        "download_url": "https://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/mars/textures/3/mars.png",
+        "upstream_asset": ".upstream/openspace/data/assets/scene/solarsystem/planets/mars/layers/colorlayers/mars_texture.asset",
+        "upstream_asset_sha256": "b1055bb16cc6c2e941542ab187f1309d21161aaa8e3fac414ff93fbffc1bff67",
+        "asset_license": "MIT in upstream Lua metadata",
+        "image_origin": "OpenSpace fixed visual map; observational origin and epoch unconfirmed",
+        "observational_epoch": null,
+        "planet": "mars",
+        "resource_version": 3
+      }
+    },
+    "Jupiter": {
+      "name": "Júpiter",
+      "target": "599",
+      "kind": "planet",
+      "radii_m": [
+        71492000.0,
+        71492000.0,
+        66854000.0
+      ],
+      "frame": "IAU_JUPITER",
+      "texture": {
+        "path": "output/is6-planet-visuals-20261111a/jupiter_os.tif",
+        "sha256": "7eca9876ad0b8eb3ab38ebc00a63e7d9d56451746e1f5e9c6f7309bff8e9e115",
+        "bytes": 25182674,
+        "width": 4096,
+        "height": 2048,
+        "manifest_url": "https://liu-se.bigbang.openspaceproject.com/request?identifier=jupiter_textures&file_version=2&application_version=1",
+        "manifest_sha256": "6b0e8ade305d43427cb363cd4b530115f0b5a8135930e2788d2c24119932b372",
+        "original_url": "http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/jupiter/jupiter/textures/2/jupiter_os.tif",
+        "download_url": "https://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/jupiter/jupiter/textures/2/jupiter_os.tif",
+        "upstream_asset": ".upstream/openspace/data/assets/scene/solarsystem/planets/jupiter/layers/colorlayers/jupiter_texture.asset",
+        "upstream_asset_sha256": "6f03f5df3754d0ddd03bfe4a45d0a1e80879e76e72cc992b99b69dc1eae1a8fe",
+        "asset_license": "MIT in upstream Lua metadata",
+        "image_origin": "OpenSpace fixed visual map; observational origin and epoch unconfirmed",
+        "observational_epoch": null,
+        "planet": "jupiter",
+        "resource_version": 2
+      }
+    },
+    "Saturn": {
+      "name": "Saturno",
+      "target": "699",
+      "kind": "planet",
+      "radii_m": [
+        60268000.0,
+        60268000.0,
+        54364000.0
+      ],
+      "frame": "IAU_SATURN"
+    },
+    "Uranus": {
+      "name": "Urano",
+      "target": "799",
+      "kind": "planet",
+      "radii_m": [
+        25559000.0,
+        25559000.0,
+        24973000.0
+      ],
+      "frame": "IAU_URANUS",
+      "texture": {
+        "path": "output/is6-planet-visuals-20261111a/uranus.jpg",
+        "sha256": "28248995c174f4cb4320058a18eebd02a41cfcd9a07c5c21cf8d093d0733df27",
+        "bytes": 32558,
+        "width": 2048,
+        "height": 1024,
+        "manifest_url": "https://liu-se.bigbang.openspaceproject.com/request?identifier=uranus_textures&file_version=1&application_version=1",
+        "manifest_sha256": "1ba1f2429e6666e0d4e6cd7cc481e594afbd48d003c42e9642433f9b48f046b1",
+        "original_url": "http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/uranus/textures/1/uranus.jpg",
+        "download_url": "https://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/uranus/textures/1/uranus.jpg",
+        "upstream_asset": ".upstream/openspace/data/assets/scene/solarsystem/planets/uranus/layers/colorlayers/uranus_texture.asset",
+        "upstream_asset_sha256": "282a08553ae5a294b9b5f0b8e6644e182a1426a38d6c3298f894ca5d823db1cb",
+        "asset_license": "MIT in upstream Lua metadata",
+        "image_origin": "OpenSpace fixed visual map; observational origin and epoch unconfirmed",
+        "observational_epoch": null,
+        "planet": "uranus",
+        "resource_version": 1
+      }
+    },
+    "Neptune": {
+      "name": "Netuno",
+      "target": "899",
+      "kind": "planet",
+      "radii_m": [
+        24764000.0,
+        24764000.0,
+        24341000.0
+      ],
+      "frame": "IAU_NEPTUNE",
+      "texture": {
+        "path": "output/is6-planet-visuals-20261111a/neptune.jpg",
+        "sha256": "ee91b73ec052e588d936f2578ff4625d9edd1810a8e257d492e2f96914e132ac",
+        "bytes": 688836,
+        "width": 3000,
+        "height": 1500,
+        "manifest_url": "https://liu-se.bigbang.openspaceproject.com/request?identifier=neptune_textures&file_version=1&application_version=1",
+        "manifest_sha256": "a665cb86dfd6cd80824af94144e48ae621bc03efa76202f7fd3397e3ce30cb03",
+        "original_url": "http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/neptune/textures/1/neptune.jpg",
+        "download_url": "https://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/neptune/textures/1/neptune.jpg",
+        "upstream_asset": ".upstream/openspace/data/assets/scene/solarsystem/planets/neptune/layers/colorlayers/neptune_texture.asset",
+        "upstream_asset_sha256": "866dc2a6d615b2103d9e7ece13d398c9de265f86656ec8189cbc67701ddf33e2",
+        "asset_license": "MIT in upstream Lua metadata",
+        "image_origin": "OpenSpace fixed visual map; observational origin and epoch unconfirmed",
+        "observational_epoch": null,
+        "planet": "neptune",
+        "resource_version": 1
+      }
+    }
+  },
+  "coverage_utc": [
+    "1995-01-01T00:00:00",
+    "2049-12-30T23:59:59"
+  ],
+  "visual_acquisition_sha256": "dfa1210f60817e1b12dec927f22f16f3fb08d2a07479eaf5938fcf419a323a3a",
+  "pixel_decode_sha256": "b791ebb180d944b0f5dcadd70718028b09f530f4aeabbda8cc034cadc37b262f",
+  "scene_asset": {
+    "path": "output/is6-planet-navigation-staging/planet_scene.asset",
+    "sha256": "e3ddc8f92f26a9373f5f30a7fc0ed7344da824070461b1a3a5376ea9f7492508"
+  },
+  "profile_sha256": "37223b54423b3baeb25af131e3889b2b8a62b0e72e6b59d51416e20ee71c4c98",
+  "recipe_sha256": "07411755c3acb4b62dfd49d4668f0814858634cac379da01b3a4af62526e3e5e",
+  "position_readback_budget": "max(0.001m, 8 ULP of the maximum absolute component)"
+}

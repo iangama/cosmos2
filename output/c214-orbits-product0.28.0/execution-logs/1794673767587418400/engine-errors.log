@@ -1,0 +1,4 @@
+
+DevTools listening on ws://127.0.0.1:8088/devtools/browser/d62eb3bc-d37b-4c1e-88b1-06abbdda761d
+[2026-11-14 13:29:26] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-14 13:29:26] [error] handle_read_frame error: websocketpp.transport:7 (End of File)

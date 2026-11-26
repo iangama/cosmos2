@@ -1,0 +1,149 @@
+{
+  "accepted": true,
+  "completed": true,
+  "native_user_flow_accepted": false,
+  "installed": false,
+  "scope": "Headless Chromium, existing panel HTML/JS and frozen HTTP source adapters only. No native model execution, renderer, original launcher, owner session, performance or integrated-product acceptance.",
+  "target": "output/original-forces-hotfix-staging",
+  "source_sha256": {
+    "output/original-forces-hotfix-staging/app/ui/index.html": "d55013471ca00fa1b901bb053d24ed39838ddedbe2309baaf4deca102aa673bd",
+    "output/original-forces-hotfix-staging/app/ui/is6-spatial.js": "ef34b77461e692cf6d2fabbbd12afc9c63c488bc68039fae4a9a553f0ed2c047",
+    "output/original-forces-hotfix-staging/app/ui/is6-layers.js": "3a98a6cee7f6dcbe9a7aeb7bf43f83ee2eeb1188b390f0627dc700d1dd8b1534",
+    "output/original-forces-hotfix-staging/app/ui/is6-spatial.css": "6954227d672b81c57972e25c146e2d0f12bd2d1ee03013c42709270a92a82aef",
+    "output/original-forces-hotfix-staging/app/ui/is6-layers.css": "c61a1c9a6a06ccbeb0c10535d5a1500ff3eba1af5e87ff9635428c0865b3f24d",
+    "output/original-forces-hotfix-staging/app/ui/style.css": "d6e31cde789bcc781e241ed95d02c2a15556d5e4e23d01756445e0ce7ba0281e",
+    "scripts/verify-original-panels-ui-offline.cjs": "4a4736acbe64889ae46e89b648a028a0d66d32a14416b2307bf302f420f0d05d"
+  },
+  "checks": [
+    {
+      "name": "spatial-initial-outage-blocks-mutation",
+      "passed": false,
+      "error": "A disconnected panel must disable its source controls",
+      "page_errors": []
+    },
+    {
+      "name": "spatial-retry-clears-only-transport-error",
+      "passed": false,
+      "error": "locator.click: Timeout 1600ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#spatial-retry')\u001b[22m\n",
+      "page_errors": []
+    },
+    {
+      "name": "spatial-later-outage-blocks-stale-snapshot",
+      "passed": false,
+      "error": "false == true",
+      "page_errors": []
+    },
+    {
+      "name": "spatial-invalid-snapshot-is-recoverable",
+      "passed": false,
+      "error": "false == true",
+      "page_errors": []
+    },
+    {
+      "name": "spatial-sixteen-body-source-has-explicit-route",
+      "passed": false,
+      "error": "The input did not match the regular expression /quatro corpos/. Input:\n\n'Escolha o corpo e abra uma referência espacial.'\n",
+      "page_errors": []
+    },
+    {
+      "name": "spatial-running-source-can-be-paused",
+      "passed": false,
+      "error": "The input did not match the regular expression /Pause/i. Input:\n\n'Escolha o corpo e abra uma referência espacial.'\n",
+      "page_errors": []
+    },
+    {
+      "name": "layers-initial-outage-blocks-mutation",
+      "passed": false,
+      "error": "A disconnected panel must disable its source controls",
+      "page_errors": []
+    },
+    {
+      "name": "layers-retry-clears-only-transport-error",
+      "passed": false,
+      "error": "Expected \"actual\" to be strictly unequal to: ''",
+      "page_errors": []
+    },
+    {
+      "name": "layers-later-outage-blocks-stale-snapshot",
+      "passed": false,
+      "error": "false == true",
+      "page_errors": []
+    },
+    {
+      "name": "layers-invalid-snapshot-is-recoverable",
+      "passed": false,
+      "error": "false == true",
+      "page_errors": []
+    },
+    {
+      "name": "layers-sixteen-body-source-has-explicit-route",
+      "passed": false,
+      "error": "The input did not match the regular expression /quatro corpos/. Input:\n\n'Escolha o corpo e as coordenadas da amostra.'\n",
+      "page_errors": []
+    },
+    {
+      "name": "layers-running-source-can-be-paused",
+      "passed": false,
+      "error": "The input did not match the regular expression /Pause/i. Input:\n\n'Escolha o corpo e as coordenadas da amostra.'\n",
+      "page_errors": []
+    },
+    {
+      "name": "switching-panels-reclaims-space-and-aria-state",
+      "passed": false,
+      "error": "false == true",
+      "page_errors": []
+    },
+    {
+      "name": "mesh-recovery-hides-controls-without-an-artifact",
+      "passed": false,
+      "error": "A recovery without an artifact must not expose an operative visibility toggle",
+      "page_errors": []
+    },
+    {
+      "name": "mesh-lock-disables-keyboard-navigation-and-restores-it",
+      "passed": false,
+      "error": "Pointer-only blocking leaves keyboard navigation live",
+      "page_errors": []
+    },
+    {
+      "name": "layers-recovery-keeps-leave-available",
+      "passed": true
+    },
+    {
+      "name": "domain-error-survives-successful-state-poll",
+      "passed": true
+    },
+    {
+      "name": "new-imported-branch-remains-selected",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'old-branch'\n- 'new-branch'",
+      "page_errors": []
+    },
+    {
+      "name": "spatial-scroll-and-controls-100",
+      "passed": true
+    },
+    {
+      "name": "layers-scroll-and-controls-100",
+      "passed": true
+    },
+    {
+      "name": "spatial-scroll-and-controls-150",
+      "passed": true
+    },
+    {
+      "name": "layers-scroll-and-controls-150",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "output/original-panels-ui-offline-20261120a-before/spatial-100.png",
+    "output/original-panels-ui-offline-20261120a-before/layers-100.png",
+    "output/original-panels-ui-offline-20261120a-before/spatial-150.png",
+    "output/original-panels-ui-offline-20261120a-before/layers-150.png"
+  ],
+  "unexpected_requests": [],
+  "expected_existing_defects": true,
+  "passed": 6,
+  "failed": 16
+}

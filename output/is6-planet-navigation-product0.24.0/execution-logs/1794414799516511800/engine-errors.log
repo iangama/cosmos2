@@ -1,0 +1,15 @@
+
+DevTools listening on ws://127.0.0.1:8088/devtools/browser/db3a4a2e-c3c3-4f96-ab2a-9d3e1009dc75
+(E) Lua                  Error executing script '': [string "return {positions={Mercury=openspace.worldPos..."]:1: attempt to call a nil value (field 'properties')
+[2026-11-11 13:08:15] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:08:24] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:08:44] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:08:49] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:08:54] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:10:59] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:11:26] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:12:52] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:13:22] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:32:07] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:33:18] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-11 13:33:18] [error] handle_read_frame error: websocketpp.transport:7 (End of File)

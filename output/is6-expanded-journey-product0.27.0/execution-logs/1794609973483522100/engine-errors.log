@@ -1,0 +1,6 @@
+
+DevTools listening on ws://127.0.0.1:8088/devtools/browser/1d78d74c-86d7-4520-99bc-446498493a5b
+[34896:38140:1113/190110.595:ERROR:device_event_log_impl.cc(196)] [19:01:09.804] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Elemento não encontrado. (0x490)
+[34896:38140:1113/190110.595:ERROR:device_event_log_impl.cc(196)] [19:01:10.313] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: Não há mais dados disponíveis. (0x103)
+[2026-11-13 19:46:12] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[2026-11-13 19:46:12] [error] handle_read_frame error: websocketpp.transport:7 (End of File)

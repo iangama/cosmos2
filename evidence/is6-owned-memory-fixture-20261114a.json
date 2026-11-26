@@ -1,0 +1,25 @@
+{
+  "accepted": false,
+  "completed": false,
+  "source_sha256": {
+    "scripts/verify-owned-process-memory.py": "0c2a9f19081e442ceb069b76feee49c21f7fdc3ae1f52ba27c022d789d509141",
+    "scripts/owned_process_memory.py": "786b2f24bab86370ba8f7b0ea531d3a0c7d30c96ffc6d49f9d2d52d42d6974c4",
+    "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+    "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+    "scripts/expanded_residency_memory_audit.py": "08ce967813c85ccaa197e009863ffb01d8446913b11488204994aac44da180a6",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-G.md": "8f76de036b329307efee91ee6482f00a31346bc8dbbf6dad0e70db87a9932660"
+  },
+  "witnesses": [],
+  "scope": "Controlled own-child native memory fixture only, no application journey or performance acceptance.",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-owned-process-memory.py\", line 63, in main\n    assert measured['processes'][0]['working_set_bytes'] >= 20 * 2**20\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "child_exits": [
+    {
+      "pid": 37484,
+      "code": 0
+    },
+    {
+      "pid": 35176,
+      "code": 0
+    }
+  ]
+}

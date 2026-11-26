@@ -1,0 +1,55 @@
+{
+  "accepted": true,
+  "completed": true,
+  "version": "0.28.4",
+  "session": {
+    "app": 35748,
+    "server": 28404,
+    "launcher": 23608,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.28.4-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.28.4\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.28.4\\gravity-sessions",
+    "started": "2026-11-21T14:10:09Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v3.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.28.4",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "overall_product_accepted": false,
+  "scientific_milestones_promoted": false,
+  "scientific_python_unchanged": 138,
+  "manifest_sha256": "243275ec270bce590be32ada97d947e06dd142f2634e32ab78244d99a06004b6",
+  "evidence_sha256": {
+    "working-orbits-http-20261121a.json": "46bba7ed1c552b3840c0edfacdfc08f3eb67f85d17258ad2eb9c4e04db85bc0f",
+    "working-orbits-ui-20261121b.json": "f3fc313d80cc64bc26d9cabc0362dbf4ef8121ef5b5a9d2dc7909bb4e384e2b1",
+    "native-working-orbits-20261121b.json": "c06a5c73bebbfff0549601eb45ee7a3b749c8bbf88fe026be13f2d1cd7a00e0f",
+    "working-product-switch-20261121c.json": "80f40b43c2a3b967517c3ca590187971573420aa784faf760e693421940cd732",
+    "original-flow-entry-orbits-20261121a.json": "011ffa37067a618142191163dfd33dca1ec6dddeef17be8aa19a145dcea56c71"
+  },
+  "shortcuts": [
+    {
+      "name": "Abrir-Planetas.cmd",
+      "reused_app": 35748,
+      "sha256": "6a321726584ed00050f05402ba72f843be24401ee21ad9f091c62fa8cd32a41e"
+    },
+    {
+      "name": "Abrir-Planetas-e-Luas.cmd",
+      "reused_app": 35748,
+      "sha256": "6a321726584ed00050f05402ba72f843be24401ee21ad9f091c62fa8cd32a41e"
+    }
+  ],
+  "scope": "Functional local orbit delivery through original header and real mouse options at100/150%, clock operator, invalid conditions/recovery, owner phase preserved. Backend matches accepted0.28.2 exactly; two existing scientific modules extended,138 unchanged andthree added. Isolated performance numbers remain scoped to0.28.2. No wholeC2-14 or final integration promotion.",
+  "script_sha256": "53f3e9b2c77e834baa7b2013fe1560d0c5f8a3459467108afe7a020d47493462"
+}

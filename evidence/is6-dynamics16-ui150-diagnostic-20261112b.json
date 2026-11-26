@@ -1,0 +1,72 @@
+{
+  "completed": true,
+  "previous_scale": "1",
+  "coordinates": {
+    "x": 179.3333396911621,
+    "y": 365.9270935058594,
+    "z": 1.5,
+    "viewport": [
+      1920,
+      1080
+    ],
+    "screen": [
+      1920,
+      1080
+    ],
+    "dpr": 1,
+    "atRect": "",
+    "atTimesZoom": "solar-view-body",
+    "rect": {
+      "x": 48.66666793823242,
+      "y": 345.9270935058594,
+      "width": 261.3333435058594,
+      "height": 40
+    }
+  },
+  "camera_before": {
+    "Anchor": "LabFrame",
+    "Position": [
+      0.0,
+      -5818259840488.814,
+      3490955904293.2886
+    ],
+    "ReferenceFrame": "Root",
+    "Timestamp": "2026 OCT 11 12:00:00",
+    "Up": [
+      0.0,
+      0.5144957554275262,
+      0.8574929257125444
+    ]
+  },
+  "camera_after_v2_click": {
+    "Anchor": "LabBody_13a33dd3a2a3bcebdf3e964a",
+    "Position": [
+      0.0,
+      -4000000000.0,
+      1200000000.0
+    ],
+    "ReferenceFrame": "Root",
+    "Timestamp": "2026 OCT 11 12:00:00",
+    "Up": [
+      0.0,
+      0.2873478855663455,
+      0.9578262852211513
+    ]
+  },
+  "camera_after_rect_click": {
+    "Anchor": "LabBody_13a33dd3a2a3bcebdf3e964a",
+    "Position": [
+      0.0,
+      -4000000000.0,
+      1200000000.0
+    ],
+    "ReferenceFrame": "Root",
+    "Timestamp": "2026 OCT 11 12:00:00",
+    "Up": [
+      0.0,
+      0.2873478855663455,
+      0.9578262852211513
+    ]
+  },
+  "expected_anchor": "LabBody_13a33dd3a2a3bcebdf3e964a"
+}

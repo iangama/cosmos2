@@ -1,0 +1,36 @@
+<section id="spatial-panel" class="glass" hidden aria-labelledby="spatial-title">
+  <div class="spatial-heading"><p class="eyebrow">GRAVIDADE · REFERÊNCIA ESFÉRICA</p><button id="spatial-panel-close" aria-label="Recolher painel da malha">Recolher</button></div>
+  <h1 id="spatial-title">Malha espaço-temporal</h1>
+  <p class="spatial-intro">Corte espacial de Schwarzschild. Anéis cianos e meridianos violetas representam o exterior de um corpo isolado.</p>
+  <p id="spatial-status" role="status" aria-live="polite"></p>
+  <p id="spatial-error" role="alert"></p>
+  <div id="spatial-start"><p class="field-help">Comece com uma cópia solar pausada de Sol, Terra, Lua e Júpiter. Feche outras camadas e instrumentos antes de abrir a malha.</p><button id="spatial-copy" class="wide">Criar cena solar de referência</button></div>
+  <form id="spatial-form">
+    <fieldset id="spatial-config-fields">
+      <label class="field">Corpo de referência<select id="spatial-body" required></select></label>
+      <div class="spatial-pair"><label class="field">Raio interno / Rref<input id="spatial-inner" type="number" min="1" max="99.999" step="any" value="1" required></label><label class="field">Raio externo / Rref<input id="spatial-outer" type="number" min="1" max="100" step="any" value="8" required></label></div>
+      <div class="spatial-pair"><label class="field">Anéis radiais<select id="spatial-resolution"><option>33</option><option selected>65</option><option>129</option><option>257</option></select></label><label class="field">Plano · GALACTIC<select id="spatial-plane"><option>XY</option><option>XZ</option><option>YZ</option></select></label></div>
+      <label class="field">Ampliação da altura do desenho<input id="spatial-amplification" type="number" min="0" max="1000" step="any" value="200" required></label>
+      <button id="spatial-create" class="wide" type="submit">Abrir malha</button>
+      <button id="spatial-recompute" class="wide" type="submit" hidden>Recalcular malha</button>
+    </fieldset>
+  </form>
+  <button id="spatial-cancel" class="wide" hidden>Cancelar preparação</button>
+  <button id="spatial-load-saved" class="wide">Restaurar vista salva</button>
+  <div id="spatial-active" hidden>
+    <label class="compact-check spatial-visible"><input id="spatial-visible" type="checkbox" checked>Mostrar malha</label>
+    <details open><summary>Sondas exatas da malha</summary>
+      <fieldset id="spatial-probe-fields"><div class="spatial-pair"><label class="field">Anel emissor<input id="spatial-radial" type="number" min="0" step="1" value="0" required></label><label class="field">Setor · 0–95<input id="spatial-azimuth" type="number" min="0" max="95" step="1" value="0" required></label></div><label class="field">Anel do observador receptor<input id="spatial-reference" type="number" min="0" step="1" value="64" required></label><button id="spatial-sample" class="wide">Consultar sonda</button></fieldset>
+      <p id="spatial-reading" class="spatial-reading"></p>
+      <p class="field-help">Relógios estáticos sustentados. Distância própria medida desde o raio interno. Sondas usam a métrica original, independentemente da ampliação.</p>
+    </details>
+    <details><summary>Salvar, restaurar e ramificar</summary><fieldset id="spatial-storage-fields">
+      <div class="button-row"><button id="spatial-save">Salvar vista</button><button id="spatial-load">Carregar salva</button></div>
+      <label class="field">Nome do novo ramo<input id="spatial-branch-name" maxlength="80" value="Referência espacial" required></label><button id="spatial-branch-create" class="wide">Criar ramo</button>
+      <label class="field">Ramos salvos<select id="spatial-branches"></select></label><button id="spatial-branch-load" class="wide">Restaurar ramo</button><button id="spatial-export" class="wide">Exportar referência e vista</button>
+    </fieldset><p id="spatial-storage-status" class="spatial-reading" role="status"></p></details>
+    <details><summary>Fonte, época e limites</summary><p id="spatial-source" class="spatial-reading"></p><p class="field-help">GM usa a massa arquivada do cenário; Rref é o maior semieixo da referência PCK, uma fronteira conservadora. Modelo esférico exterior isolado: exclui rotação, J2, outras fontes e plasma. A altura é uma imersão geométrica do corte espacial, sem simulação óptica. A dinâmica orbital permanece newtoniana e pausada.</p></details>
+    <button id="spatial-leave" class="wide">Fechar vista e restaurar cena</button>
+  </div>
+</section>
+<section id="spatial-caption" class="glass" hidden aria-label="Referência da malha"><p class="eyebrow">CORTE ESPACIAL · EXTERIOR</p><p id="spatial-caption-source"></p><p id="spatial-caption-scale"></p><p>Interior excluído · anéis cianos · meridianos violetas</p></section>

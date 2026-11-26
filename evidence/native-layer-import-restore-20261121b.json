@@ -1,0 +1,173 @@
+{
+  "accepted": false,
+  "completed": false,
+  "session": {
+    "app": 13912,
+    "server": 32736,
+    "launcher": 2832,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.5-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\gravity-sessions",
+    "started": "2026-11-21T01:34:49Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.5",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "checks": [
+    {
+      "name": "original-export-origin-is-readable-before-import",
+      "body": "sol:naif:399",
+      "model": "IGRF14",
+      "scientific_sha256": "b6cc28470319df8bfb2bfe1d8a9101ed17f61e766eb81bbd4bb38b2e07838457"
+    }
+  ],
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-reference-import-20261121a\\b-layers-preview-origin-readable.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "89a2758cc922228151fa00cc0562840e88d1f7b7372125a5b9afe81be108fcf0"
+    }
+  ],
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-layers",
+      "x": 743,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-file",
+      "x": 196,
+      "y": 688
+    },
+    {
+      "input": "Windows file dialog",
+      "action": "opened",
+      "title": "Abrir"
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 78,
+      "ctrl": false,
+      "alt": true,
+      "scancode": 49,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 126
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click native dialog button",
+      "label": "&Abrir",
+      "button_id": 1,
+      "x": 791,
+      "y": 502
+    },
+    {
+      "input": "Windows file dialog",
+      "action": "chose existing file",
+      "file_name": "074696b5dc8141e1915156576f922b70.json"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-preview",
+      "x": 196,
+      "y": 748
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-reading"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-reading",
+      "x": 196,
+      "y": 672
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-name",
+      "x": 196,
+      "y": 737
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 25
+    }
+  ],
+  "protected_sha256": {
+    "output/original-flow-hotfix-product0.27.5/layer-checkpoints/exports/074696b5dc8141e1915156576f922b70.json": "68b42dd3a070889242eb0a8752cfe2c755d6926bc0c2288fe15adaf6169ba383",
+    "output/original-flow-hotfix-product0.27.5/layer-checkpoints/latest.json": "c95cb70f0610f5f57a3772ed7867e7e11bb39deb74e0a17fb931996f867c7fa5",
+    "output/original-flow-hotfix-product0.27.5/gravity-sessions/latest.json": "d2b11c83b6bfd3c3851a23c01b1a47407900d053c8cd427b434ef78abd766ded",
+    "output/original-flow-hotfix-product0.27.5/layer-checkpoints/branches/1aecd25eb473477d9eab82da8829f0aa.json": "949a22866a259920e91a564937a35b025274acfc44dbefd0af054a5795469d18",
+    "output/original-flow-hotfix-product0.27.5/layer-checkpoints/branches/3e41e18bc73f40f5b81e98baee4a294b.json": "aaeb245b5a03b46a9e959daa3bf8153f2780c911b4d1fe03a14995e703301e25"
+  },
+  "source_manifest_sha256": "2aecc376d36394e06cb8e8903ca91693ad357b1e4f6da12c2623872a8d3dcba5",
+  "source_sha256": {
+    "scripts/verify-native-layer-import-restore-v2.py": "1b481d775281718304dfdcbdb49becbeb1cd2cd664d9a174f19ebb713cfa6209",
+    "scripts/ordinary_file_dialog_input_v4.py": "dc532aec7eac033dd957cccdf7a25520525cb01ab4546f91c7de9439649eb430",
+    "scripts/ordinary_option_input_v3.py": "73751efcdd47eb4a36cc1110a39a6fb2626277086f0dd8fe0dfb74f2936e2858",
+    "scripts/ordinary_native_input_v9.py": "1875847942957a7aca1e30f95500875b29234211107e8b45fc27219da06110b1",
+    "scripts/cef_page_v2.py": "6e6899c8d557ca9b444aeebfd454a5a9ed43eb9b7abc371a871ddd1f94f41cbe"
+  },
+  "scope": "Native owner header/panels and Windows file picker: read preview, import a new branch, load the existing paused four-body save, restore the saved Layers and choose existing/imported branches by mouse. DOM/HTTP only observe. Original scientific files/checkpoints remain intact; the new branch is an intentional curation artifact. No overall workflow, calculation-cancellation, benchmark or scientific milestone acceptance.",
+  "step": "#layers-import-commit",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-native-layer-import-restore-v2.py\", line 70, in main\n    click('#layers-import-commit','!layerInstrument.readingFile&&!layerInstrument.pending')\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-native-layer-import-restore-v2.py\", line 46, in click\n    proof['step']=selector;persist();window.click(selector)\n                                     ^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\ordinary_native_input_v9.py\", line 185, in click\n    assert row and row['width'] > 0 and row['height'] > 0 and not row['disabled'], (selector, row)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('#layers-import-commit', {'x': 196, 'y': 793.265625, 'width': 306, 'height': 38, 'clip': {'left': 24, 'top': 116, 'right': 379, 'bottom': 796}, 'factor': 1, 'vw': 1440, 'vh': 900, 'disabled': True, 'display': 'inline-block', 'hitTarget': True, 'hit': 'layers-import-commit'})\n"
+}

@@ -1,0 +1,11 @@
+{
+  "accepted": true,
+  "completed": true,
+  "revision": "v32",
+  "files": 14320,
+  "verified_staged_blobs": 1266,
+  "verified_raw_bytes": 76852745,
+  "commit": "f9513f85f9bdd8491c00ef0d2cad592c155d4006",
+  "inventory_sha256": "a028d3bb99316b82c13c47b42f99a6ee62f833c1ceac04ec2287a644f52454eb",
+  "scope": "Local source/evidence backup only, copied-path stage and raw blobs verified; no owner session snapshots, cached papers, runtimes, ZIP or push."
+}

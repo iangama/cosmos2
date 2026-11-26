@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "id": "branch:58e62a6876194d34b23d612025d5bcb2",
+  "name": "Tit\u00e3 +1% como interven\u00e7\u00e3o",
+  "parent_id": "branch:242bc437bda14dca8724bfad65cf590c",
+  "parent_sha256": "0f3b87d2b0da60e58d3e0e080780b243fa87fb54e202a04cb4cf3421413ff1b8",
+  "created_utc": "2026-11-12T11:33:22.156518+00:00",
+  "checkpoint_manifest_sha256": "63a1f5870be86507626432d0071ed0a2574a21c26f5ccba619d84293a962bbf9",
+  "system_id": "95b4f0770af94491826a0e9b3a42e6d9",
+  "time": 944.2583070813621,
+  "revision": 1,
+  "fixture_sha256": "14ba0a3d755451e70af2ae5a8d5e3efe0ab32d7e16ddd7d9de71ffdfb4b4eccf",
+  "frame": "initial_subset_barycenter_inertial_axes_J2000",
+  "record_sha256": "e5b430710e7df5a242426c2e6ab3df4231e4326b477ae0a9d5a8d9121e4ede8b"
+}

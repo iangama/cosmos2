@@ -1,0 +1,29 @@
+{
+  "accepted": true,
+  "completed": true,
+  "script_sha256": "de34608f70ba9b44ed7d7efcfa8e6a4a81c6f6b4a8b99388d8a5f4afc6cb972b",
+  "profile_sha256": "c8e93f0eba634714218b6561201d7ce001c5a7c22367a88dced00606c3a45026",
+  "checkpoint_pointer_sha256": "8dd98f699e25dcacfbb98bff74d1e4dde1b82c9cfddd58343bae994d39bf291b",
+  "previous_app": 17088,
+  "new_app": 33392,
+  "maximum_position_error_m": 0.0,
+  "readings": [
+    {
+      "body": "sol:naif:399",
+      "sources": 15
+    },
+    {
+      "body": "sol:naif:599",
+      "sources": 15
+    },
+    {
+      "body": "sol:naif:606",
+      "sources": 15
+    }
+  ],
+  "exact_phase_reopened": true,
+  "checkpoint_unmodified": true,
+  "owner_view_restored": true,
+  "scene_cleaned": true,
+  "owner_app_kept_open": true
+}

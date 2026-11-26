@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "product": "output/original-flow-hotfix-product0.27.3",
+  "runtime": ".runtime-is4-stream",
+  "candidate": "0.27.3",
+  "scope": "Local manual option-selection fix; native mouse acceptance pending, no milestone promotion."
+}

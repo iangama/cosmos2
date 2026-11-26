@@ -1,0 +1,598 @@
+{
+  "completed": true,
+  "kind": "Add missing packaged dependencies only; scientific code unchanged",
+  "scientific_code_sha256": {
+    "app/binary_gravity.py": "cf5a4c3f29141fb64fc1c20ad1e53375ea465765c9f403e600adae6bbcd41936",
+    "app/cno.py": "1ffe541ea8b182154dad3359960d2e5ad80c8a9b40477fb6061659759a4f56b7",
+    "app/decays.py": "cfaad568c3f8493f6ec9a8da3fa69ab83c1188f278939fd30701c9457f550c21",
+    "app/dipole.py": "df2149713070beb150d3da755e2118efd2238b84fee097d157e124f3bac0b231",
+    "app/forces.py": "8a5696fd943c2327fee7a71788d8bcf6e8cfc5a1396cc656595dfede375a8c30",
+    "app/fusion.py": "c44fcae2f1ee24dcc2b7c762898c5832df70986df655e5abd1165eb46df5070d",
+    "app/geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+    "app/nuclear_energies.py": "5b850fedba33905c6e7ba3ba5b05d40704285eeea00f0db077c30341eeac2d5c",
+    "app/nuclei.py": "10ad5c228582bb6c59384ec05dd7533584afcdd50d9d316e8f47d322aa94ac3e",
+    "app/relativity.py": "50637a4e9c02e2c70341423eb4ec1fcb8dd6bc4cbb719baff6061bcae12373bf",
+    "app/science_contracts.py": "2b46b66b1f5f589b4e14c6a5adb24e741c39b4cee8f2c1e9f669c2fe9e9a5e91",
+    "app/stellar.py": "c5e4ce10987fb6935785cbf0d44967a28df6e5a7d4c3a0d138866f8a51b8f166"
+  },
+  "planned": [
+    {
+      "source": "data/science/ame2020-mass-original.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/ame2020-mass-original.txt",
+      "sha256": "e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307",
+      "already_present": false
+    },
+    {
+      "source": "data/science/canonical-units.json",
+      "destination": "output/is5-compression-product0.17.2/data/science/canonical-units.json",
+      "sha256": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-c12pg-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/cno1-c12pg-reaclib.txt",
+      "sha256": "1b8653d0404b230dddb913aefbe07a7745912e1d27b91891b36b430939b43cf3",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-c13pg-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/cno1-c13pg-reaclib.txt",
+      "sha256": "91f2274b622f134ab03e879b390e295f5c1d4388093d0b168c3d549e70565011",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-n13beta-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/cno1-n13beta-reaclib.txt",
+      "sha256": "297ccb6ee49a60eb66589f40371baa80b00cd9ff77e5e64bc363c5f3af03b024",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-n14pg-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/cno1-n14pg-reaclib.txt",
+      "sha256": "7517209a1f423a8aad9f8082a6754e12c162b49373f21388aa60b499eb8a7e37",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-n15pa-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/cno1-n15pa-reaclib.txt",
+      "sha256": "bc5e0dc2fe22dccb86a5bf89dd1564361bf734c532fe04d823f6309a5f51adc2",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-o15beta-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/cno1-o15beta-reaclib.txt",
+      "sha256": "422675859e49a881aac9ab576cd8509b45ec591279dd14ed962d833feb4cefa4",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1.json",
+      "destination": "output/is5-compression-product0.17.2/data/science/cno1.json",
+      "sha256": "9f1128b084328fd11161a9b7a5fc8ae52bd2eddb56bd6eff0c7d8da78d103f11",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-13n-bp.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-13n-bp.csv",
+      "sha256": "eed3d83f7f73fe1d89be5abcf6588474b93efcc0a49602324b249be4c7b26ba7",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-13n-gs.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-13n-gs.csv",
+      "sha256": "e2449f0cf8757820576173a537592b7e631841439bca367c8891823cf064fc83",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-14c-bm.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-14c-bm.csv",
+      "sha256": "42c4762c2e72d71670288977cc455d4e012d061d6207ef4c5fd8d4e6de29566c",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-14c-gs.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-14c-gs.csv",
+      "sha256": "7617f37b60752706b594cf31668ad85cdc53b317c8e345a89edd7d337267c20b",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-15o-bp.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-15o-bp.csv",
+      "sha256": "ec962bb1bfb43ba5d9f8b310e5b9c92ecc98943cb9bc0526e6b77e9908dbef4d",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-15o-gs.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-15o-gs.csv",
+      "sha256": "7afe42680c3b9d0817863f33ba4009647632c81fa9536bea50796d475b622348",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-18f-bp.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-18f-bp.csv",
+      "sha256": "2bcdf804d0b58a0102f1b3b678e95834528e84decc765d8070e92455231d6bd7",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-18f-gs.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-18f-gs.csv",
+      "sha256": "923ec92ca9d04fc5898c9d66fee0028406eb726aa9d1cdeeb46152786420544e",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-1n-bm.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-1n-bm.csv",
+      "sha256": "6071dce80497b3f908e1919085946df1577697c540329b7640beb6bc65272b9d",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-1n-gs.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-1n-gs.csv",
+      "sha256": "6e1d57b8752e70bd3cc99d1487e2dad98fcfc028fb151211a2c0740b26ae7a10",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-22na-bp.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-22na-bp.csv",
+      "sha256": "3040e179ec61a4c9cb633821ca570416b258dc73bea1e0a71406e00d1e5f067f",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-22na-gs.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-22na-gs.csv",
+      "sha256": "ef43610b52ef1a449eac38c014ae80c6b058422c1e20ef9165b99e19b324556d",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-3h-bm.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-3h-bm.csv",
+      "sha256": "aad02af2043cd2df96c1a7fbb6401e4f62f57c742306756d66b6eec4c2752e62",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-3h-gs.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-3h-gs.csv",
+      "sha256": "c76d03f95f46375331f5db8b04c8260459e1945f4b3f9ec4c66eb7ffdec8549c",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-7be-bp.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-7be-bp.csv",
+      "sha256": "e3f2a20317c7537427b0b62a3d2429aeb21e03af58564153cd2e912c87061f64",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-7be-gs.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-7be-gs.csv",
+      "sha256": "a655b45f4251ce358549ca6482e75edae6f00b848661bf3d6efbdfca8e4a5eea",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-90sr-bm.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-90sr-bm.csv",
+      "sha256": "91e265fd8d43cc4f82df5e6d2b0f2a69ff704b8846d7d996c8288bb5f93d6d09",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-90sr-gs.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-90sr-gs.csv",
+      "sha256": "9c8b75275d7ecfed0b91c34cb96425e4f33c6a33bb238ba8c6bec9fb7e605490",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-90y-bm.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-90y-bm.csv",
+      "sha256": "31afd13eaaf02329f9e541cfe22a09ddfc495ea54f4778d67d7f280c1134e017",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-90y-gs.csv",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-90y-gs.csv",
+      "sha256": "27a773eaa900107b175d8e7c352f0289e23de47a6a0050add915cb7117584fda",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-nubase-original.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays-nubase-original.txt",
+      "sha256": "1585a5eea86c5e17e90307c7e6e786d060049c4039e392a261ff6db977df9859",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays.json",
+      "destination": "output/is5-compression-product0.17.2/data/science/decays.json",
+      "sha256": "bc482a4f24effed8d97b253f3e985a93e25a8298f941b9146ff4bc2d71dcceeb",
+      "already_present": false
+    },
+    {
+      "source": "data/science/dt-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/dt-reaclib.txt",
+      "sha256": "d0dbc02a2f455b43596c797fa713d0f5165b043e1d0c89e598b359e8450afad8",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-c12alpha-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/fusion-c12alpha-reaclib.txt",
+      "sha256": "6b1b37047cd65ba4c5aff075c08d1e3a356034ab99314efd8247548e616a0715",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-ddn-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/fusion-ddn-reaclib.txt",
+      "sha256": "87c3d546358065ebfcce055fd497a9d9aa92d5b965e8f9cbc0305fa3cdfdd69f",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-ddp-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/fusion-ddp-reaclib.txt",
+      "sha256": "71142119dc6aa04d425882071aee82d5ab1015c2f0eaf567bf0c5162f79b4d39",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-dp-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/fusion-dp-reaclib.txt",
+      "sha256": "de8914f7c69bc8f497218f4ec10d3994f37e4bfa4b64eb711e57820e52d45d69",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-dt-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/fusion-dt-reaclib.txt",
+      "sha256": "d0dbc02a2f455b43596c797fa713d0f5165b043e1d0c89e598b359e8450afad8",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-he3he3-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/fusion-he3he3-reaclib.txt",
+      "sha256": "5ad0b4435fb8602aa5c97e756e788b5d63032368dbfe8d5ba1e2d5ac6d634100",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-li7p-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/fusion-li7p-reaclib.txt",
+      "sha256": "2ecb11b32cb486b0590a1b6aa974ac16f1736335bcfd9913f6b78d6348d10894",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion.json",
+      "destination": "output/is5-compression-product0.17.2/data/science/fusion.json",
+      "sha256": "ba5cc7c4b046a5c8daed014af25b1bf30dc07ba854004ec5150b582f0f7005fb",
+      "already_present": false
+    },
+    {
+      "source": "data/science/gravity-experiments.json",
+      "destination": "output/is5-compression-product0.17.2/data/science/gravity-experiments.json",
+      "sha256": "98ddf2234b0b4b7703accdf264dde60bd95b43c1240557419cd38688e7c5dafd",
+      "already_present": false
+    },
+    {
+      "source": "data/science/igrf14coeffs.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/igrf14coeffs.txt",
+      "sha256": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+      "already_present": false
+    },
+    {
+      "source": "data/science/nuclear.json",
+      "destination": "output/is5-compression-product0.17.2/data/science/nuclear.json",
+      "sha256": "521e474ba45ac50d62bfbeb1f2eec48868e1dea461e05c2d3e9972d4299864d5",
+      "already_present": false
+    },
+    {
+      "source": "data/science/pp1-dp-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/pp1-dp-reaclib.txt",
+      "sha256": "de8914f7c69bc8f497218f4ec10d3994f37e4bfa4b64eb711e57820e52d45d69",
+      "already_present": false
+    },
+    {
+      "source": "data/science/pp1-he3he3-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/pp1-he3he3-reaclib.txt",
+      "sha256": "5ad0b4435fb8602aa5c97e756e788b5d63032368dbfe8d5ba1e2d5ac6d634100",
+      "already_present": false
+    },
+    {
+      "source": "data/science/pp1-pp-reaclib.txt",
+      "destination": "output/is5-compression-product0.17.2/data/science/pp1-pp-reaclib.txt",
+      "sha256": "a2798d4cece8678eaf19ec464678e0d993f057b3c531c38c3656df133af21628",
+      "already_present": false
+    },
+    {
+      "source": "data/science/pp1.json",
+      "destination": "output/is5-compression-product0.17.2/data/science/pp1.json",
+      "sha256": "15ac0b52a6af9cd2fcc7254336e8f0f7a8d8c3ae5ebcca5dc811bf4e406b83b0",
+      "already_present": false
+    },
+    {
+      "source": "data/textures/earth.jpg",
+      "destination": "output/is5-compression-product0.17.2/data/textures/earth.jpg",
+      "sha256": "a9f0088972dee0254610af851c4d6838ca3f2cf79176987e0a5713e2c15ec042",
+      "already_present": false
+    },
+    {
+      "source": "data/science/ame2020-mass-original.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/ame2020-mass-original.txt",
+      "sha256": "e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307",
+      "already_present": false
+    },
+    {
+      "source": "data/science/canonical-units.json",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/canonical-units.json",
+      "sha256": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-c12pg-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/cno1-c12pg-reaclib.txt",
+      "sha256": "1b8653d0404b230dddb913aefbe07a7745912e1d27b91891b36b430939b43cf3",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-c13pg-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/cno1-c13pg-reaclib.txt",
+      "sha256": "91f2274b622f134ab03e879b390e295f5c1d4388093d0b168c3d549e70565011",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-n13beta-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/cno1-n13beta-reaclib.txt",
+      "sha256": "297ccb6ee49a60eb66589f40371baa80b00cd9ff77e5e64bc363c5f3af03b024",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-n14pg-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/cno1-n14pg-reaclib.txt",
+      "sha256": "7517209a1f423a8aad9f8082a6754e12c162b49373f21388aa60b499eb8a7e37",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-n15pa-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/cno1-n15pa-reaclib.txt",
+      "sha256": "bc5e0dc2fe22dccb86a5bf89dd1564361bf734c532fe04d823f6309a5f51adc2",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1-o15beta-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/cno1-o15beta-reaclib.txt",
+      "sha256": "422675859e49a881aac9ab576cd8509b45ec591279dd14ed962d833feb4cefa4",
+      "already_present": false
+    },
+    {
+      "source": "data/science/cno1.json",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/cno1.json",
+      "sha256": "9f1128b084328fd11161a9b7a5fc8ae52bd2eddb56bd6eff0c7d8da78d103f11",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-13n-bp.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-13n-bp.csv",
+      "sha256": "eed3d83f7f73fe1d89be5abcf6588474b93efcc0a49602324b249be4c7b26ba7",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-13n-gs.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-13n-gs.csv",
+      "sha256": "e2449f0cf8757820576173a537592b7e631841439bca367c8891823cf064fc83",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-14c-bm.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-14c-bm.csv",
+      "sha256": "42c4762c2e72d71670288977cc455d4e012d061d6207ef4c5fd8d4e6de29566c",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-14c-gs.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-14c-gs.csv",
+      "sha256": "7617f37b60752706b594cf31668ad85cdc53b317c8e345a89edd7d337267c20b",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-15o-bp.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-15o-bp.csv",
+      "sha256": "ec962bb1bfb43ba5d9f8b310e5b9c92ecc98943cb9bc0526e6b77e9908dbef4d",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-15o-gs.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-15o-gs.csv",
+      "sha256": "7afe42680c3b9d0817863f33ba4009647632c81fa9536bea50796d475b622348",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-18f-bp.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-18f-bp.csv",
+      "sha256": "2bcdf804d0b58a0102f1b3b678e95834528e84decc765d8070e92455231d6bd7",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-18f-gs.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-18f-gs.csv",
+      "sha256": "923ec92ca9d04fc5898c9d66fee0028406eb726aa9d1cdeeb46152786420544e",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-1n-bm.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-1n-bm.csv",
+      "sha256": "6071dce80497b3f908e1919085946df1577697c540329b7640beb6bc65272b9d",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-1n-gs.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-1n-gs.csv",
+      "sha256": "6e1d57b8752e70bd3cc99d1487e2dad98fcfc028fb151211a2c0740b26ae7a10",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-22na-bp.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-22na-bp.csv",
+      "sha256": "3040e179ec61a4c9cb633821ca570416b258dc73bea1e0a71406e00d1e5f067f",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-22na-gs.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-22na-gs.csv",
+      "sha256": "ef43610b52ef1a449eac38c014ae80c6b058422c1e20ef9165b99e19b324556d",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-3h-bm.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-3h-bm.csv",
+      "sha256": "aad02af2043cd2df96c1a7fbb6401e4f62f57c742306756d66b6eec4c2752e62",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-3h-gs.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-3h-gs.csv",
+      "sha256": "c76d03f95f46375331f5db8b04c8260459e1945f4b3f9ec4c66eb7ffdec8549c",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-7be-bp.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-7be-bp.csv",
+      "sha256": "e3f2a20317c7537427b0b62a3d2429aeb21e03af58564153cd2e912c87061f64",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-7be-gs.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-7be-gs.csv",
+      "sha256": "a655b45f4251ce358549ca6482e75edae6f00b848661bf3d6efbdfca8e4a5eea",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-90sr-bm.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-90sr-bm.csv",
+      "sha256": "91e265fd8d43cc4f82df5e6d2b0f2a69ff704b8846d7d996c8288bb5f93d6d09",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-90sr-gs.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-90sr-gs.csv",
+      "sha256": "9c8b75275d7ecfed0b91c34cb96425e4f33c6a33bb238ba8c6bec9fb7e605490",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-90y-bm.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-90y-bm.csv",
+      "sha256": "31afd13eaaf02329f9e541cfe22a09ddfc495ea54f4778d67d7f280c1134e017",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-90y-gs.csv",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-90y-gs.csv",
+      "sha256": "27a773eaa900107b175d8e7c352f0289e23de47a6a0050add915cb7117584fda",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays-nubase-original.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays-nubase-original.txt",
+      "sha256": "1585a5eea86c5e17e90307c7e6e786d060049c4039e392a261ff6db977df9859",
+      "already_present": false
+    },
+    {
+      "source": "data/science/decays.json",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/decays.json",
+      "sha256": "bc482a4f24effed8d97b253f3e985a93e25a8298f941b9146ff4bc2d71dcceeb",
+      "already_present": false
+    },
+    {
+      "source": "data/science/dt-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/dt-reaclib.txt",
+      "sha256": "d0dbc02a2f455b43596c797fa713d0f5165b043e1d0c89e598b359e8450afad8",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-c12alpha-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/fusion-c12alpha-reaclib.txt",
+      "sha256": "6b1b37047cd65ba4c5aff075c08d1e3a356034ab99314efd8247548e616a0715",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-ddn-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/fusion-ddn-reaclib.txt",
+      "sha256": "87c3d546358065ebfcce055fd497a9d9aa92d5b965e8f9cbc0305fa3cdfdd69f",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-ddp-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/fusion-ddp-reaclib.txt",
+      "sha256": "71142119dc6aa04d425882071aee82d5ab1015c2f0eaf567bf0c5162f79b4d39",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-dp-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/fusion-dp-reaclib.txt",
+      "sha256": "de8914f7c69bc8f497218f4ec10d3994f37e4bfa4b64eb711e57820e52d45d69",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-dt-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/fusion-dt-reaclib.txt",
+      "sha256": "d0dbc02a2f455b43596c797fa713d0f5165b043e1d0c89e598b359e8450afad8",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-he3he3-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/fusion-he3he3-reaclib.txt",
+      "sha256": "5ad0b4435fb8602aa5c97e756e788b5d63032368dbfe8d5ba1e2d5ac6d634100",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion-li7p-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/fusion-li7p-reaclib.txt",
+      "sha256": "2ecb11b32cb486b0590a1b6aa974ac16f1736335bcfd9913f6b78d6348d10894",
+      "already_present": false
+    },
+    {
+      "source": "data/science/fusion.json",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/fusion.json",
+      "sha256": "ba5cc7c4b046a5c8daed014af25b1bf30dc07ba854004ec5150b582f0f7005fb",
+      "already_present": false
+    },
+    {
+      "source": "data/science/gravity-experiments.json",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/gravity-experiments.json",
+      "sha256": "98ddf2234b0b4b7703accdf264dde60bd95b43c1240557419cd38688e7c5dafd",
+      "already_present": false
+    },
+    {
+      "source": "data/science/igrf14coeffs.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/igrf14coeffs.txt",
+      "sha256": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+      "already_present": false
+    },
+    {
+      "source": "data/science/nuclear.json",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/nuclear.json",
+      "sha256": "521e474ba45ac50d62bfbeb1f2eec48868e1dea461e05c2d3e9972d4299864d5",
+      "already_present": false
+    },
+    {
+      "source": "data/science/pp1-dp-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/pp1-dp-reaclib.txt",
+      "sha256": "de8914f7c69bc8f497218f4ec10d3994f37e4bfa4b64eb711e57820e52d45d69",
+      "already_present": false
+    },
+    {
+      "source": "data/science/pp1-he3he3-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/pp1-he3he3-reaclib.txt",
+      "sha256": "5ad0b4435fb8602aa5c97e756e788b5d63032368dbfe8d5ba1e2d5ac6d634100",
+      "already_present": false
+    },
+    {
+      "source": "data/science/pp1-pp-reaclib.txt",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/pp1-pp-reaclib.txt",
+      "sha256": "a2798d4cece8678eaf19ec464678e0d993f057b3c531c38c3656df133af21628",
+      "already_present": false
+    },
+    {
+      "source": "data/science/pp1.json",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/science/pp1.json",
+      "sha256": "15ac0b52a6af9cd2fcc7254336e8f0f7a8d8c3ae5ebcca5dc811bf4e406b83b0",
+      "already_present": false
+    },
+    {
+      "source": "data/textures/earth.jpg",
+      "destination": "output/is6-expanded-journey-product0.27.0/data/textures/earth.jpg",
+      "sha256": "a9f0088972dee0254610af851c4d6838ca3f2cf79176987e0a5713e2c15ec042",
+      "already_present": false
+    }
+  ],
+  "added": 96,
+  "source_code_unchanged": true
+}

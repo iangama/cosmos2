@@ -1,0 +1,339 @@
+{
+  "schema": 1,
+  "kind": "candidate_four_body_SI_fixture_not_product_session",
+  "epoch": {
+    "utc": "2026-10-11T12:00:00.000Z",
+    "et_tdb_s": 844992069.1823514,
+    "origin": "explicit model epoch",
+    "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+  },
+  "frame": "J2000/ICRF",
+  "center_naif_id": "0",
+  "aberration": "NONE",
+  "model": "reduced Newtonian point centers; no jovian moons, multipoles, tides, EM or stellar feedback",
+  "bodies": [
+    {
+      "id": "sol:naif:10",
+      "naif_id": "10",
+      "name": "Sol",
+      "GM_m3_s2": 1.327124400412533e+20,
+      "position_m": [
+        -176817149.29512244,
+        -707414380.3156806,
+        -291488051.64201283
+      ],
+      "velocity_m_s": [
+        10.431637642443171,
+        4.199911992498089,
+        1.5769685448293278
+      ],
+      "GM_source": {
+        "value": 1.327124400412533e+20,
+        "unit": "m^3/s^2",
+        "uncertainty": null,
+        "origin": "JPL DE442 published model parameter, printed SI conversion",
+        "raw_value_km3_s2": "132712440041.253311",
+        "source_line": 49,
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+        "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+        "source_resolution_m3_s2": 1000.0
+      },
+      "initial_gravitational_contributions": [
+        {
+          "source_id": "sol:naif:399",
+          "distance_m": 149353966971.33002,
+          "acceleration_m_s2": [
+            1.7011755664420103e-08,
+            5.017634283916762e-09,
+            2.174983094316955e-09
+          ],
+          "acceleration_norm_m_s2": 1.7869164391588962e-08
+        },
+        {
+          "source_id": "sol:naif:301",
+          "distance_m": 148970204167.02866,
+          "acceleration_m_s2": [
+            2.1035542076237024e-10,
+            6.19653636473801e-11,
+            2.6811527430510956e-11
+          ],
+          "acceleration_norm_m_s2": 2.2092525283276902e-10
+        },
+        {
+          "source_id": "sol:naif:599",
+          "distance_m": 794416847165.067,
+          "acceleration_m_s2": [
+            -1.3422300762809396e-07,
+            1.3598448631145282e-07,
+            6.155390964794868e-08
+          ],
+          "acceleration_norm_m_s2": 2.0073983183979431e-07
+        }
+      ],
+      "initial_acceleration_m_s2": [
+        -1.1700089654291148e-07,
+        1.4106408595901697e-07,
+        6.375570426969614e-08
+      ],
+      "subset_barycentric_position_m": [
+        506144536.88832,
+        -513351872.5509765,
+        -232368287.95868576
+      ],
+      "subset_barycentric_velocity_m_s": [
+        9.446308897158474,
+        7.134914947857261,
+        2.8285518431761743
+      ]
+    },
+    {
+      "id": "sol:naif:399",
+      "naif_id": "399",
+      "name": "Terra",
+      "GM_m3_s2": 398600435544000.0,
+      "position_m": [
+        142010760173.79904,
+        41230953228.36009,
+        17887445563.447414
+      ],
+      "velocity_m_s": [
+        -9594.70764745716,
+        25931.33796021983,
+        11241.190603882991
+      ],
+      "GM_source": {
+        "value": 398600435544000.0,
+        "unit": "m^3/s^2",
+        "uncertainty": null,
+        "origin": "JPL DE442 published model parameter, printed SI conversion",
+        "raw_value_km3_s2": "398600.435544",
+        "source_line": 42,
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+        "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+        "source_resolution_m3_s2": 1000.0
+      },
+      "initial_gravitational_contributions": [
+        {
+          "source_id": "sol:naif:10",
+          "distance_m": 149353966971.33002,
+          "acceleration_m_s2": [
+            -0.005663996830634644,
+            -0.0016706015088629616,
+            -0.0007241520273336875
+          ],
+          "acceleration_norm_m_s2": 0.005949467678502505
+        },
+        {
+          "source_id": "sol:naif:301",
+          "distance_m": 390870794.01160115,
+          "acceleration_m_s2": [
+            -2.8293848314570308e-05,
+            -1.2728579637323806e-05,
+            -8.200462006003888e-06
+          ],
+          "acceleration_norm_m_s2": 3.2090593156617105e-05
+        },
+        {
+          "source_id": "sol:naif:599",
+          "distance_m": 866293356687.4738,
+          "acceleration_m_s2": [
+            -1.3121630621838415e-07,
+            9.669486766926974e-08,
+            4.392610539859365e-08
+          ],
+          "acceleration_norm_m_s2": 1.688108977129815e-07
+        }
+      ],
+      "initial_acceleration_m_s2": [
+        -0.005692421895255433,
+        -0.0016832333936326162,
+        -0.0007323085632342928
+      ],
+      "subset_barycentric_position_m": [
+        142693721859.98248,
+        41425015736.124794,
+        17946565327.13074
+      ],
+      "subset_barycentric_velocity_m_s": [
+        -9595.692976202445,
+        25934.27296317519,
+        11242.442187181337
+      ]
+    },
+    {
+      "id": "sol:naif:301",
+      "naif_id": "301",
+      "name": "Lua",
+      "GM_m3_s2": 4902800104000.0,
+      "position_m": [
+        141666134603.85754,
+        41075916205.35465,
+        17787562053.0397
+      ],
+      "velocity_m_s": [
+        -9160.002895729092,
+        25114.764752419364,
+        10833.823908739369
+      ],
+      "GM_source": {
+        "value": 4902800104000.0,
+        "unit": "m^3/s^2",
+        "uncertainty": null,
+        "origin": "JPL DE442 published model parameter, printed SI conversion",
+        "raw_value_km3_s2": "4902.800104",
+        "source_line": 50,
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+        "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+        "source_resolution_m3_s2": 1000.0
+      },
+      "initial_gravitational_contributions": [
+        {
+          "source_id": "sol:naif:10",
+          "distance_m": 148970204167.02866,
+          "acceleration_m_s2": [
+            -0.005694048415823129,
+            -0.001677322026851166,
+            -0.0007257532738552996
+          ],
+          "acceleration_norm_m_s2": 0.005980160061236628
+        },
+        {
+          "source_id": "sol:naif:399",
+          "distance_m": 390870794.01160115,
+          "acceleration_m_s2": [
+            0.002300305952144035,
+            0.0010348407603145793,
+            0.0006667022227947586
+          ],
+          "acceleration_norm_m_s2": 0.002608983466133353
+        },
+        {
+          "source_id": "sol:naif:599",
+          "distance_m": 866140350502.2357,
+          "acceleration_m_s2": [
+            -1.3121866640418894e-07,
+            9.677634842023667e-08,
+            4.39688627211265e-08
+          ],
+          "acceleration_norm_m_s2": 1.6887054484260462e-07
+        }
+      ],
+      "initial_acceleration_m_s2": [
+        -0.0033938736823454978,
+        -0.0006423844901881665,
+        -5.9007082197819934e-05
+      ],
+      "subset_barycentric_position_m": [
+        142349096290.041,
+        41269978713.119354,
+        17846681816.723026
+      ],
+      "subset_barycentric_velocity_m_s": [
+        -9160.988224474377,
+        25117.699755374724,
+        10835.075492037715
+      ]
+    },
+    {
+      "id": "sol:naif:599",
+      "naif_id": "599",
+      "name": "Jupiter",
+      "GM_m3_s2": 1.266865319003704e+17,
+      "position_m": [
+        -531356989811.89465,
+        537443713319.7435,
+        243304724942.26086
+      ],
+      "velocity_m_s": [
+        -9864.096006139429,
+        -7559.796157931543,
+        -3000.136908784328
+      ],
+      "GM_source_receipt": "evidence/jupiter-candidate-gm-20261023.json",
+      "initial_gravitational_contributions": [
+        {
+          "source_id": "sol:naif:10",
+          "distance_m": 794416847165.067,
+          "acceleration_m_s2": [
+            0.00014060739199971758,
+            -0.00014245265629610744,
+            -6.44817520924987e-05
+          ],
+          "acceleration_norm_m_s2": 0.00021028812216503722
+        },
+        {
+          "source_id": "sol:naif:399",
+          "distance_m": 866293356687.4738,
+          "acceleration_m_s2": [
+            4.128527004769154e-10,
+            -3.0423609984170444e-10,
+            -1.382069939162956e-10
+          ],
+          "acceleration_norm_m_s2": 5.311385223323123e-10
+        },
+        {
+          "source_id": "sol:naif:301",
+          "distance_m": 866140350502.2357,
+          "acceleration_m_s2": [
+            5.078194829732472e-12,
+            -3.745268608920609e-12,
+            -1.7016058572937417e-12
+          ],
+          "acceleration_norm_m_s2": 6.535331833599889e-12
+        }
+      ],
+      "initial_acceleration_m_s2": [
+        0.00014060780993061287,
+        -0.0001424529642774759,
+        -6.448189200109847e-05
+      ],
+      "subset_barycentric_position_m": [
+        -530674028125.7112,
+        537637775827.50824,
+        243363844705.94418
+      ],
+      "subset_barycentric_velocity_m_s": [
+        -9865.081334884713,
+        -7556.8611549761845,
+        -2998.8853254859814
+      ]
+    }
+  ],
+  "subset_barycenter_SSB_position_m": [
+    -682961686.1834425,
+    -194062507.76470414,
+    -59119763.683327064
+  ],
+  "subset_barycenter_SSB_velocity_m_s": [
+    0.9853287452846979,
+    -2.9350029553591717,
+    -1.2515832983468462
+  ],
+  "provenance": {
+    "kernels_sha256": {
+      "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+      "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+      "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+      "data/spice/saturn-center-sat441.bsp": "1c581c20a49256550bab0368928f81e9c5da14f9bad127f09ff6a9edf490aa27"
+    },
+    "code_sha256": {
+      "app/atlas.py": "218fac6e9aad5aa71bf589ea86b8ef6af91fb1e8d56af0402972cada2d60f1c2",
+      "app/atlas_properties.py": "c7748a866e5be67326e776a8b0805cb8b80fc1fff8b8566f7b095bb97963a900",
+      "user/data/assets/cosmos2/atlas.asset": "8324625c46e3593b887524bcce35d851408eeede598cd7303812539ee280ef1a",
+      "user/data/assets/cosmos2/atmosphere.asset": "866886541a9690ffd315214e6968c483a3ee9735fc5420c40c8c26ce0267ebf8"
+    },
+    "spiceypy": "8.2.0",
+    "cspice": "CSPICE_N0067",
+    "sources": [
+      "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+      "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442s.mrg",
+      "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0012.tls",
+      "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+      "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat459.bsp"
+    ]
+  },
+  "jupiter_subset_sha256": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5",
+  "script_sha256": "83f928205bf8d6edcba3074b294d64a375aed1292b4dff9d1fbbacc03267cedf",
+  "integrated_in_product": false,
+  "propagation_validated": false
+}

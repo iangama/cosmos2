@@ -1,0 +1,34 @@
+K1B INICIADA:driver11 --kindpair --label20261102b;hostpair-b pronto,
+app25656/server40736,driverPIDconferiroutput/is6-pair-20261102b-driver.json.
+AcompanharreciboB,imagens eprocessos. Não alterarfontesBjáexecutadas.
+COSMOS2 — PASSAGEM 02/11/2026 22:20UTC
+TelemetriaCodex22:20:24Z:6% restantes5h,22% semanal. Este é checkpoint;
+continuar até esgotamento,sem subagentes. Não inferir cota decontexto/tempo.
+
+J0E0.18.5 aceita:3grupos,7recusas,5limpezasnativas,10PNG revisados100/150%,
+zeroJS,app/server0/0. Consolidado is6-integrated-journey-cut-20261102a.json,
+ZIPsha c8e7dfe8f3341f6907b4cf06e4f82a5f8e6cb2cb05e44ded34f3e26b1c7f4efd.
+Relatório próprio J0 atualizado;guia aponta0.18.5/F. Sem promoção/perfilnovo.
+
+K0 aceita:2corpos,8visibilidades,38+20recusas. is6_layer_contract.py congelado.
+K1A recusou preparo oculto: comparou worldPosition comcoordenadaslocais;
+LabRoot temtranslação gráfica1e14. Não houve parpublicado,0capturas/0casos.
+Hostpair-a app21772/server36712 encerrouengine0;conferirprocess-result0.18.5.
+FontesAcongeladas. Não editar is6_layer_scene.py/verificadorv1.
+
+K1B preparado:novo is6_layer_scene_v2.py,verificador
+verify-native-is6-layer-pair-v2.py,driver11,label20261102b. Contrato revisãoB.
+Conferecentrolocal1mm,ponto world−centro comlimiteulp(worldp)+ulp(worldc)+1mm,
+mesma convenção do verificadorcorporalaceito. Salvarreadbacksbrutos.
+Hostpair-b iniciado(start...v4) peloPID8396;conferirbootstrap/session/logs.
+PRÓXIMO iniciar run-is6-verification-background-v11.py --kindpair
+--label20261102b assimquehostpronto. Verificarsejáfoiiniciado antesderepetir!
+Depois observarrecibo is6-native-layer-pair-20261102b.json e logsdriver.
+FontesBcongelam aoexecutar:correção posterior exigev3/labelnovo.
+Casoaceito,rever4PNG,conferirhashes/pixels,PIDs/app-server/owner. Depois
+perfil próprio e integraçãoproduto coordenada;K1éprototiposemendpoint/UIproduto.
+
+Preservar3.13,Cosmos,Revenant eownerhash
+ ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825.
+LEIA-PRIMEIRO eAGENTSgovernam. TodaIS6/v1,persistênciacomposta,catálogo/GR
+adicional continuam pendentes. Nunca encerrar nomarco sehá cotaautorizada.

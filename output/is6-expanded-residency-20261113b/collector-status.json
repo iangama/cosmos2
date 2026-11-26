@@ -1,0 +1,7 @@
+{
+  "schema": 5,
+  "collector_pid": 364,
+  "samples": 53,
+  "valid": false,
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\owned_process_snapshot.py\", line 50, in classify\n    identity=read(pid)\n             ^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\owned_process_snapshot.py\", line 105, in read\n    raise c.WinError(c.get_last_error())\nOSError: [WinError 87] Parâmetro incorreto.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\collect_expanded_residency_v3.py\", line 125, in main\n    row['inventory_after'] = ownership.snapshot(session)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\owned_process_snapshot.py\", line 126, in snapshot\n    result=classify(entries,{session['app'],session['server']},read)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\owned_process_snapshot.py\", line 52, in classify\n    raise ValueError('Unresolved candidate in owned snapshot: pid='+str(pid)+' parent='+str(parent)) from error\nValueError: Unresolved candidate in owned snapshot: pid=11208 parent=38224\n"
+}

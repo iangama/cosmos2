@@ -1,0 +1,20 @@
+{
+  "accepted": true,
+  "completed": true,
+  "local_only": true,
+  "push": false,
+  "revision": 21,
+  "commit": "f09c26354af9d161c7c2d43a98acef5f116150bc",
+  "files": 6757,
+  "inventory_sha256": "51497594bc6e2342ccea7d2a5ab9320a5c07128538eaed71504a46ad94b68ca0",
+  "sync_receipt_sha256": "2af9cb98667931ab4cb4cadc61fe307b97d9ccce1b2cfaea105b80e9012bc441",
+  "chunked_large_sources": [
+    {
+      "source": "output/is6-expanded-residency-20261113d/memory.jsonl",
+      "bytes": 175376370,
+      "sha256": "1476fab76fc0c1a16933a44ff2b26d39d723bc2c9943b196aa943be9e59ae3d4",
+      "chunks": 5
+    }
+  ],
+  "scope": "Local partial source/evidence snapshot with byte-identical chunked D JSONL. Runtimes and binary source archives excluded. No push."
+}

@@ -1,0 +1,181 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "output/c214-point-lens-staging/point_lens.py": "66b016e0f49e69be4c9e10613677a48f2bc7517b467b7d7d9fcd73de3380639c",
+    "C2-14-LENTE-PONTUAL-CONTRATO-20261121.md": "5ccdca32b719dc38469404db9e7676ebd027c488a580319ed635979e906fcadd",
+    "scripts/verify-c214-point-lens.py": "30fa55bcaff10c1725c1bc6fb2c37ffa0c2a5deb03d63e1054af2e38382ce12b",
+    "evidence/c214-point-lens-offline-20261121a.json": "3bf86d972ff1c044f42d75cf6181cb022388b5228aae6798b7a14d5528a1ce88",
+    "scripts/verify-c214-point-lens-scaling-v2.py": "3e9bbb00e2c85aab49a69f9393719f82f6a35538b3beb6dfdd9ca641a13f93f5"
+  },
+  "prior_receipt_sha256": "3bf86d972ff1c044f42d75cf6181cb022388b5228aae6798b7a14d5528a1ce88",
+  "source_archive_sha256": "8e8d144eb49b6a1285086534c9512f322e8937339f9c63ba72d68444d8e0e879",
+  "inherited_checks": [
+    {
+      "name": "roots-parity-jacobian-and-small-excess-agree-with-independent-110digit-oracle",
+      "passed": true,
+      "cases": 90,
+      "maximum_relative_magnification_error": 1.0000000000000002e-16
+    },
+    {
+      "name": "all-signed-axis-permutations-preserve-lensing-and-transform-physical-images",
+      "passed": true,
+      "cases": 48
+    },
+    {
+      "name": "alignment-and-deflection-intervention-are-explicit-and-deterministic",
+      "passed": true,
+      "alignment": "ring-with-undefined-amplification",
+      "intervention": "direct-image-unit-amplification"
+    },
+    {
+      "name": "invalid-input-planes-caustic-angle-and-secondary-impact-are-refused",
+      "passed": true,
+      "refusals": 22
+    },
+    {
+      "name": "existing-null-geodesic-reference-approaches-first-order-deflection",
+      "passed": true,
+      "cases": [
+        {
+          "impact_rs": 1000.0,
+          "exact_deflection_rad": 0.002002950587344454,
+          "first_order_deflection_rad": 0.002,
+          "relative_difference": 0.0014752936722270751
+        },
+        {
+          "impact_rs": 3000.0,
+          "exact_deflection_rad": 0.0006669941140708957,
+          "first_order_deflection_rad": 0.0006666666666666666,
+          "relative_difference": 0.0004911711063435909
+        },
+        {
+          "impact_rs": 10000.0,
+          "exact_deflection_rad": 0.00020002945796404603,
+          "first_order_deflection_rad": 0.0002,
+          "relative_difference": 0.00014728982023010854
+        }
+      ],
+      "scope": "Asymptotic deflection term only, not the complete finite-plane lens geometry."
+    },
+    {
+      "name": "sources-owner-session-selection-and-delivered-product-are-unchanged",
+      "passed": true,
+      "protected_file_sha256": {
+        "output/session.json": "a54615da122400e7de3853701708c359100f17aca25644a601f3349e184e34e5",
+        "config/local-working-product.json": "6887dfb8070d5ba4446750d4dd70e24140bc634d127d73e718fd796754ca9500"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "joint-length-GM-scale",
+      "factor": 0.0009765625,
+      "passed": true
+    },
+    {
+      "name": "joint-length-GM-scale",
+      "factor": 1024.0,
+      "passed": true
+    },
+    {
+      "name": "translated-geometry-matches-independent-oracle",
+      "passed": true,
+      "input_resolution": {
+        "maximum_coordinate_ulp_m": 32768.0,
+        "meaning": "Binary coordinate spacing, not observational uncertainty. Decimal arithmetic does not recover information absent from input."
+      }
+    }
+  ],
+  "refusals": [
+    {
+      "name": "invalid-GM-bool",
+      "error": "GM precisa ser um número real finito."
+    },
+    {
+      "name": "invalid-GM-NoneType",
+      "error": "GM precisa ser um número real finito."
+    },
+    {
+      "name": "invalid-GM-str",
+      "error": "GM precisa ser um número real finito."
+    },
+    {
+      "name": "invalid-GM-float-nonfinite",
+      "error": "GM excede a representação numérica."
+    },
+    {
+      "name": "invalid-GM-float-nonfinite",
+      "error": "GM excede a representação numérica."
+    },
+    {
+      "name": "invalid-GM-int",
+      "error": "GM precisa ser positivo; a referência material permanece definida."
+    },
+    {
+      "name": "invalid-GM-int",
+      "error": "GM precisa ser positivo; a referência material permanece definida."
+    },
+    {
+      "name": "invalid-GM-int",
+      "error": "GM excede a representação numérica."
+    },
+    {
+      "name": "unknown-field",
+      "error": "Informe somente GM e as três posições cartesianas em metros."
+    },
+    {
+      "name": "invalid-observer-vector-9",
+      "error": "observer_m precisa ter três coordenadas."
+    },
+    {
+      "name": "invalid-observer-vector-10",
+      "error": "observer_m precisa ter três coordenadas."
+    },
+    {
+      "name": "invalid-observer-vector-11",
+      "error": "observer_m excede a representação numérica."
+    },
+    {
+      "name": "invalid-observer-vector-12",
+      "error": "Coordenada fora do orçamento de1e25m."
+    },
+    {
+      "name": "coincident-observer-lens",
+      "error": "Separe observador e lente por pelo menos1m."
+    },
+    {
+      "name": "source-in-front-of-lens",
+      "error": "A fonte deve estar atrás do plano da lente, com separação de pelo menos1m."
+    },
+    {
+      "name": "source-in-lens-plane",
+      "error": "A fonte deve estar atrás do plano da lente, com separação de pelo menos1m."
+    },
+    {
+      "name": "near-nonzero-caustic-below-resolution-domain",
+      "error": "O desalinhamento precisa estar entre1e-6 e1e4 raios de Einstein. Perto da caústica, afaste a fonte ou use alinhamento exato para consultar o limite do anel."
+    },
+    {
+      "name": "finite-u-too-large",
+      "error": "O desalinhamento precisa estar entre1e-6 e1e4 raios de Einstein. Perto da caústica, afaste a fonte ou use alinhamento exato para consultar o limite do anel."
+    },
+    {
+      "name": "source-angle-too-large",
+      "error": "A posição da fonte excede o limite paraxial de0.01rad."
+    },
+    {
+      "name": "secondary-image-outside-weak-impact-domain",
+      "error": "Uma imagem passa a menos de1000rs; a aproximação fraca não admite esse caso."
+    },
+    {
+      "name": "einstein-ring-angle-or-impact-outside-domain",
+      "error": "Uma imagem excede o limite paraxial de0.01rad."
+    },
+    {
+      "name": "nonboolean-operator",
+      "error": "O controle de deflexão precisa ser booleano."
+    }
+  ],
+  "scope": "CPU composition only: six original successful groups plus corrected in-domain scaling/translation fixture. Original refused receipt untouched. No change to kernel/contract/tolerances or service/UI/performance/C2-14 promotion."
+}

@@ -1,0 +1,10 @@
+{
+  "prepared": true,
+  "measurement_limits_changed": false,
+  "frame_data_observed": false,
+  "basis": "Already archived0.25.1 native trace counts are integer-valued doubles, e.g.4517.0. AuditorA incorrectly requires Python int. V2 preserves count>0/finite/integer value and every frame, RAM, GPU and clock threshold.",
+  "before_new_measurement_data_analysis": true,
+  "original_auditor_sha256": "1cba904f54a5c85348140df93dfae51409a719a7cb47734e9f3dc4af9ce7b7dc",
+  "new_auditor_sha256": "8cb7b325d78410eed2e5f73b68e0f9327cf25959134f411a66f4e8b66e94ea94",
+  "script_sha256": "a4f4e27de5d9b83cfbf0fd9fff2442f1656d0e0346390be249e05aecaeacedd0"
+}

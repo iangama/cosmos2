@@ -1,0 +1,63 @@
+{
+  "accepted": true,
+  "completed": true,
+  "profile": "evidence/is6-spatial-import-profile-20261105p4.json",
+  "profile_sha256": "3bde780e0b75b7d7295205e3ca19d653804b74bfa309070ce2bfc9e0a6e2c8c1",
+  "auditor_sha256": "7b2b9ffa6638dfcce755f1e3c4c94192e8a1b77423c47bd7cac4a113da2293b3",
+  "runs": [
+    {
+      "run": 1,
+      "kind": "static-visible",
+      "frames": 4515,
+      "median_ms": 13.331799767911434,
+      "p95_ms": 13.761259987950325,
+      "p99_ms": 14.027905929833649,
+      "over_100ms": 0,
+      "interval_s": 60.220494613517076,
+      "GPU_peak_GiB": 3.0103378295898438
+    },
+    {
+      "run": 2,
+      "kind": "static-hidden",
+      "frames": 4516,
+      "median_ms": 13.317250180989504,
+      "p95_ms": 13.787074713036418,
+      "p99_ms": 14.101349841803318,
+      "over_100ms": 0,
+      "interval_s": 60.233672364614904,
+      "GPU_peak_GiB": 3.0125350952148438
+    },
+    {
+      "run": 3,
+      "kind": "probes-visible",
+      "frames": 4514,
+      "median_ms": 13.321649748831987,
+      "p95_ms": 13.814934948459268,
+      "p99_ms": 14.171281671151515,
+      "over_100ms": 0,
+      "interval_s": 60.206840886268765,
+      "command_completion_ratio": 1.0,
+      "command_p95_s": 0.19807775999943258,
+      "command_max_s": 0.236810800000967,
+      "GPU_peak_GiB": 3.0170860290527344
+    },
+    {
+      "run": 4,
+      "kind": "visibility",
+      "frames": 4514,
+      "median_ms": 13.330449815839529,
+      "p95_ms": 13.794070016592741,
+      "p99_ms": 14.121193028986452,
+      "over_100ms": 0,
+      "interval_s": 60.20759390247986,
+      "command_completion_ratio": 1.0,
+      "command_p95_s": 0.2621843600023567,
+      "command_max_s": 0.3148005999973975,
+      "GPU_peak_GiB": 3.0141563415527344
+    }
+  ],
+  "commands": 240,
+  "RAM_peak_GiB": 1.1296005249023438,
+  "GPU_peak_GiB": 3.0170860290527344,
+  "scope": "Four imported solar65x96 rendering/view windows only; records remain unchanged. No import/save/startup throughput, larger derived mesh, coupled GR, promotion or full IS6/v1 acceptance."
+}

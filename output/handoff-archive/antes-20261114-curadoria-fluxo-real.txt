@@ -1,0 +1,96 @@
+PRIORIDADE DO DONO — CURADORIA DO CAMINHO REAL (14/11/2026)
+Pedido permanente registrado nos AGENTS.md do dono e do Cosmos2. O print prova uma bancada vazia/erro ame2020 em output/is5-compression-product0.17.2/data/science e relata botão do painel original que apenas amplia. Priorizar reprodução pelo atalho e botão reais, mouse/teclado, funcionalidade e clareza de ponta a ponta. URLs/APIs/JS diretos não bastam. Candidata0.28.2 funciona isoladamente; versão original0.27 restaurada ainda pode expor o caminho quebrado. Não tratar candidata testada como entrega acessível ao dono.
+PerfilB20261114b já FALHOU antes das amostras: bootstrap detectou gap nativo0,2690311s>0,25s; fontes/ZIP/brutos preservados. Host concluído/8saídas0/vista+favoritos restaurados,semfalhadecleanup. Não repetirB ou executarperfilagoraantesdetriagemdosfluxosreais. Nenhum novo código Historyv2 foi escrito: hipótese a investigar é custo de metadados psutil.cmdline no poll inicial. Critérios não relaxados.
+
+C2-14 PERFIL A RECUSADO; REVISÃO B DOS COLETORES PRONTA
+A20261114a:107amostras completas+linha107recusada,1janela registrada. NENHUMaceitededesempenho. Hostfechou8handles0/restaurouvista+favoritos; evidence/c214-orbits-profile-host-20261114a.json. Não repetirA/mudarfontes/ZIP.
+Diagnóstico:CEFgpu-process39328nasceu0,3santesdogauge,mediu5.656.576Bded+348.160Bshared,encerrou0durantealinha;Waitainda258naprovaA. Nãoéapenasliberaçãodecontexto;saídanativaprecisasersinalizada. Acontinua recusada.
+Ler C2-14-ORBITAS-PERFIL-REVISAO-B-20261114.md. ColetorB retém prova original e pode aguardar≤250mssomente peloMESMOhandle,semrepetirgauge/descoberta/linha. PermiteparremovidosócomzeroexitWait0apósleiturasbrutasválidas;bytes reaispermanecemnasoma. ParacrescentadosóparadescendentenascidoDEPOISdofimdetodaconsulta. Outrocontexto/parincompleto/raiz/adaptadorfalham. Limites/cadência/1Hz/coberturaiguais.
+Novos arquivos c214_profile_gpu_v2.py, collect_c214_orbits_residency_v2.py, profile-c214-orbits-v2.py, audit-c214-orbits-profile-v2.py, run-c214-orbits-profile-v2.py, prepare-c214-orbits-profile-plan-v2.py. Offline evidence/c214-profile-gpu-lifetimes-20261114a.json ACEITO:3grupos/12recusas,originalArecusado+fixturesSINTÉTICASseparadas. Helper/teste agoraimutáveis. UIcontract37recusaspermaneceimutável.
+Próximo:prepararplano--label20261114b e executarhostv2--label20261114b--plan-label20261114b. Conferirrecibos/processosantesderepetir. Produto0.28.2C científicointerfacenativavisualaceito, nãoalterar. Nãoexecutarbackup/download/pesquisa/trabalhopesadoduranteperfil.
+Backupv23apêndiceconcluído8573commitde76cc6853b14900e01fdeb6b6fa373e27c7a5b5, anteriorC/perfil. PróximosnapshotLOCALdeveincluirC,novoscódigos/JSONL/fixtures;sem push. V17/21,C2-14incompleto,nenhumapromoção/subagente.
+
+C2-14 — REVISÃO C0.28.2 NATIVA/VISUAL ACEITA; PERFIL PRÓPRIO EM PREPARAÇÃO
+Ler C2-14-ORBITAS-NATIVO-REVISAO-C-20261114.md. Falha de alias reproduzida em B pelo calculate() real no Node; C clona configuração e restaura formulário após cancelar. Recibo c214-ui-cancel-state-20261114a.json aceito. NativoC20261114c aceito:5grupos/4capturas/8saídas0/vista+favoritos restaurados; cancelamento exige JSON completo e configuração/formulário preservados. VisualC aceito após4PNG originais100/150%. Estágios A/B/C e todos recibos imutáveis.
+Próximo perfil: contrato C2-14-ORBITAS-PERFIL-CONTRATO-20261114.md + receita técnica + revisãoC substitui candidata0.28.1 pela0.28.2. Implementados c214_profile_contract.py, collect_c214_orbits_residency.py, profile-c214-orbits.py, audit-c214-orbits-profile.py, run-c214-orbits-profile.py, prepare-c214-orbits-profile-plan.py. Offline c214-profile-admission-20261114a aceito:37recusas/5grupos. Esse contrato/teste agora selados; corrigir em nova revisão se preciso.
+Fixar plano (prepare-c214-orbits-profile-plan.py --label20261114a), depois host (run-c214-orbits-profile.py --label20261114a --plan-label20261114a). Conferir processos/recibos ANTES de repetir: host pode continuar destacado. Perfil4janelas(~7min), não executar trabalho pesado/backup/pesquisa durante coleta. Deduplicação HTTP por SHA preserva corpos exatos; não usar last-result viaJS para recompor fingerprint (tipos10.0→10 mudam serializaçãoPython); fixture offline é export backend original.
+Backupv23apêndice8573commitde76cc6853b14900e01fdeb6b6fa373e27c7a5b5,receipt20261114e completo. C0.28.2/código deperfil posteriores: incluir próximoLOCAL sempush. Não repetir snapshotv23jáfeito. V1 7/21, C2-14 incompleto; sempromoção/subagentes.
+Cota cincohoras renovada100%/22%semanal lida2026-11-14T21:15:33.309Z; última posterior79%/18%2026-11-14T21:24:27.147Z. Lertelemetriaatual;checkpoint7%anterior é de outra janela.
+
+BACKUP v23 LOCAL CONCLUÍDO — 8.567 arquivos, commit 787d70d3a124be598183d085ebcea050fb1d57c4; sem push.
+Recibos github-source-{sync,local}-20261114d.json e output/c214-followup-20261114b.json completos. Não repetir o driver.
+C2-14 nativo B e visual B aceitos; perfil ainda SEM medição. Preparação: scripts/prepare-c214-orbits-profile.py --label20261114a → evidence/c214-orbits-profile-preparation-20261114a.json, prepared true / accepted false por faltar coletor/controlador/auditor. Ler contrato de perfil e pending do recibo.
+Reaproveitamento nativo: profile-expanded-residency-v6.py linhas100–120 usa cosmos2BeginStageTrace+cosmos2BeginFrameCapture(120000), encerra ambos em uma chamada; adaptar sem repetir coleta F. Novas janelas precisam checar job/configuração/resultados da bancada CEF, animação contínua e vista, além da árvore/RAM/PDH.
+Últimos docs/passagem/preparação posteriores à seleção v23 devem entrar no próximo snapshot. A0.28.0 e B0.28.1 seladas e imutáveis; antiga0.27 reaberta/restaurada. V1 7/21, C2-14 incompleto, nenhum perfil novo coletado.
+
+C2-14 — NATIVO B E VISUAL B ACEITOS; PERFIL PENDENTE
+Ler C2-14-ORBITAS-INTEGRACAO-RESULTADO-20261114.md e C2-14-ORBITAS-PERFIL-CONTRATO-20261114.md.
+Recibo evidence/c214-orbits-native-20261114b.json: accepted/completed/owner_restored true,5grupos,4capturas,2sessões×4saídas0,sem falha. evidence/c214-orbits-visual-20261114b.json aceito após inspeção4PNG originais100/150%.
+Candidata IMUTÁVEL output/c214-orbits-product0.28.1; estágio UIv2; backend idêntico HTTPB. Não editar fontes aceitas. Nativo/visual A recusados e preservados; ler revisãoB se precisar saber causa.
+PRÓXIMO: implementar coletor/controlador e auditor próprio do perfil C2-14, seguindo contrato4janelas. Reutilizar helpers de RAM nativa/PDH/histórico corrigidos, mas verificar job/configuração da bancada CEF, não apenas modoAtlas. Antes, conferir backupv23 e processos: output/c214-followup-20261114b.json; script finish-c214-orbits-backup.py já lançado, aguarda nativoB e faz cópia+commitLOCAL sem push. Não repetir se completo. Recibos github-source-{sync,local}-20261114d.json.
+Relatório/visualB/contratoPerfil/passagem podem ser posteriores à seleção inicial do backupv23; verificar inventário e incluir diferenças no próximo snapshot.
+Preservar0.27/atalhos/aceites/ZIPs. Não repetir CPU20casos/residênciaF/perfisaceitos. C2-14 incompleto, V1 7/21; nenhuma promoção/publicação. Sem subagentes.
+Checkpoint de cota em output/continuity-checkpoint-20261114-c214-8.txt;7%5h/23%semanal lidos. Consultar cota ATUAL e continuar até esgotamento real.
+
+C2-14 CHECKPOINT DE CONTINUIDADE
+{"timestamp": "2026-11-14T16:30:31.298Z", "five_hour_remaining": 7.0, "weekly_remaining": 23.0}
+CPU/serviço/HTTP aceitos. Nativo A20261114a:5grupos/4capturas/8saídas0/vista+favoritos restaurados, RECUSADO no selo final de output/session.json (descritor de PIDs muda legitimamente). Visual A recusado: legenda Newton no gráfico de relógios e eixo/ajuda em150%. Preservar A, todos os estágios e ZIPs.
+Revisão B: output/c214-orbits-ui-staging-v2 → candidata output/c214-orbits-product0.28.1. Scripts prepare-c214-orbits-product-v2.py, launch-c214-orbits-candidate-v2.py, verify-native-c214-orbits-v2.py. Contrato C2-14-ORBITAS-NATIVO-REVISAO-B-20261114.md. Python/dados idênticos HTTPB. Apenas legenda, espaço de eixo e marcador Newton atual mudaram. Descritor operacional excluído SOMENTE com prova A de restauração/8saídas0; demais protegidos/fontes preservados.
+Próximo: executar/conferir nativo B --label20261114b; checar recibos e processos antes de repetir, pois driver pode estar rodando em segundo plano. Depois inspecionar4PNG originais em100/150%, registrar visual independente. Perfil C2-14 ainda não executado; não repetir residência F nem CPU. Backupv23 pendente;v22anteriorC214. Sem push/promoção/subagentes.
+
+C2-14 — CPU, SERVIÇO E HTTP ACEITOS; INTERFACE EM PREPARAÇÃO (14/11/2026)
+Ler C2-14-ORBITAS-CONTRATO-20261114.md, C2-14-ORBITAS-CPU-RESULTADO-20261114.md e C2-14-ORBITAS-SERVICO-CONTRATO-20261114.md.
+Recibos aceitos: numerics-20261114a (20 casos/23 recusas), service-20261114a (5 grupos/10 recusas), http-20261114b (4 grupos/6 recusas/servidor saída 0).
+Prefixo dos recibos: evidence/c214-orbits-. HTTP A recusado e preservado: imports legados desviavam para forces.py antigo.
+Fontes ACEITAS IMUTÁVEIS: output/c214-orbits-staging (CPU+serviço), output/c214-orbits-staging-v2 (HTTP; server fixa imports próprios antes dos legados).
+UI mutável: output/c214-orbits-ui-staging. Newton/GR no mesmo estado inicial coordenado, atraso de relógio integrado, 2 operadores independentes, círculo sem precessão/apsides, cancelamento assíncrono, persistência privada com geração.
+JS passou node --check. Ainda SEM aceite nativo, visual ou desempenho de C2-14.
+Próximo: empacotar candidata isolada 0.28, testar em CEF nativo e capturar framebuffer original 100/150%; depois contrato e perfil próprio. Restaurar vista/favoritos do dono ao finalizar teste.
+Não repetir residência F, CPU de órbitas nem perfis anteriores. 0.27, atalhos e aceites antigos preservados. V1 7/21, IS6 incompleto.
+Backup v22 é anterior a C2-14; próximo snapshot LOCAL deve incluir estágios, código, recibos e dados novos. Sem push/promoção/subagentes.
+Telemetria real lida 2026-11-14T16:31:32.052Z: 25% cinco horas / 26% semanal restantes. Consultar valores atuais; continuar até limite real. Checkpoint 8% não encerra trabalho.
+
+C2-14 CPU ACEITA — 20cenários base+refinados/23recusas;nenhumaceitedeUI/serviçoainda.
+Ler C2-14-ORBITAS-CONTRATO-20261114.md e C2-14-ORBITAS-CPU-RESULTADO-20261114.md.
+Fontesaceitasimutáveis:output/c214-orbits-staging/timelike_orbits.py e
+scripts/verify-c214-orbits-numerics.py;recibo c214-orbits-numerics-20261114a.json.
+Maiorerroprecessão1,721e-12rad/ciclo;períodos≤3,727e-11relativos,matriz≤16ciclos.
+Próximo:contrato de serviço/controles e candidata isolada0.28copiada da0.27,sem alterara0.27.
+Base app/forces.py tem SCENARIOS/EFFECTS e evaluate;app/science_contracts.py congelaMODELS/SOURCE_PATHS/DATA_PATHS.
+UIforces.html/forces.js é bancadaCanvas projetada3D emCEF;catalogoautogerado,linhadotempo requer conferirlimitesvariáveis.
+A origem0.27não possui data/science no namespace do produto;forces.py e science_contracts.py
+usam ROOT=parents[1]. Próxima candidata deve fornecer dados/fonte locais antesde importar,
+sem mudarorigens/atalhos/protegidosaceitos. Serviço novo inclui modelo/proveniência e persistênciaprivada.
+Planejadoadapter:GRgeodésicavsreferênciaNewton comestadoinicialcoordenadocomum;
+atuaçãoorbital/relógiopróprio/visibilidadeindependentes. Fixarsemântica de relógio na hipótese
+retilínea antesde implementar; não reutilizarτgeodésico sobreoutratrajetória.
+Nova coleta de UI/perf somente apóscontrato e fontes próprias. Não retomarCPU30dias/jornadas/residênciaF.
+Snapshotv22/6849anterioràfaseC2-14;incluirnovosestágios/JSON/code/docs nopróximoLOCALsem push.
+
+C2-14 PREPARAÇÃO INICIADA — ler C2-14-ORBITAS-PREPARACAO-20261114.md.
+FonteCarrollseção7consultada;equaçõescomoimagemaindaprecisamtranscriçãooriginal.
+Nenhumsolver/contratoaceito/dadonovo.Próximo:equações+observador/estadoinicial+verificaçãoindependente.
+COTA RENOVADA 2026-11-14T15:50:50.243Z:98.0%5h/37.0%semanal disponíveis.
+Cabeçalhos antigos7%referem-seàjanelaanterior; consultartelemetriacorrente econtinuaratélimite real.
+ResidênciaF+backup22concluídosabaixo;NÃOrepetir.Nota/relatório/passagemfinalposteriores ao snapshot6849.
+
+COSMOS2 — RESIDÊNCIA F ACEITA; BACKUPv22 LOCAL CONCLUÍDO
+Ler AGENTS.md. Sem subagentes/push/promoção. V1segue7/21;IS6incompleto;K5Arecusado.
+F20261114b ACEITO por Auditor5+Host6:10janelas/1078amostras/45057intervalosúteis/4saídas0/vistadodono.
+Ler IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-RESULTADO-20261114.md e receipts F. NÃO repetir F.
+Coletor7/schema8 usa RAM nohandle retido com testemunhas nativas antes/depois.
+Fontes/protegidos/ZIPA/B/C/D/E/F imutáveis. A/B/C/D/E seguem recusados.
+Piorp95 14,653ms;zero>100ms;GPU3,088436GiB/RAM1,467842GiB amostrados.
+Plano2398fontes/29protegidos conservados. Produto científico0.27byteidêntico0.26.2.
+Backupv22 LOCAL 1383769a14e44a7d5cc611da9c7f4df0b8656b9c;6849arquivos;receipts20261114c;sem push.
+Driverfollowup encerrado; não repetir cópia/commit. JSONLgrandeF dividido em partes com SHA exata.
+Relatório/passagem final são posteriores ao backup; levar ao próximo snapshot.
+Checkpoint da cota em output/continuity-checkpoint-20261114-residencia-f-8.txt.
+Última leitura registrada pelo agente:7%5h/38%semanal em2026-11-14T12:02:44.930Z; consultar telemetria ATUAL.
+Continuar atélimite real;checkpoint8% não é parada;contexto não é cota.
+PRÓXIMO: preparar contrato de órbitas/precessão/tempo próprio de C2-14, que permanecem pendentes.
+Ler só seção C2-14 do ROADMAP-GERAL.md e requisitos correspondentes em CAMADAS-QUATRO-FORCAS.md.
+Base app/relativity.py integra raios NULOS Schwarzschild e relógios estáticos; não contém órbitas timelike.
+Pesquisar fontes primárias, fixar observador/coordenadas/estado inicial e verificação independente ANTES de implementação/dados.
+Construir em candidata isolada, preservar0.27/atalhos; não inventar soma de geometrias ou acoplamentoGRaos16.
+Nenhum contrato/solver novo de C2-14 foi implementado nesta rodada. Não repetirCPU30dias/jornadas/perfis aceitos.

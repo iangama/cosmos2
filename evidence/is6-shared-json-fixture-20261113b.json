@@ -1,0 +1,16 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-windows-shared-json-v2.py": "56de9b3beb5a653f17edfa614afb09e2e26728d0e631ad6ee7f32299a9619dd9",
+    "scripts/windows_shared_json_v2.py": "c535a01683192c09741b45e8dbb36315a8b0f78621859ca64eec48f447ffc106",
+    "scripts/collect_expanded_residency_v4.py": "780a2d2aed59c2adcd0d14a7e6eaedcd01bbc45f0778898f5b5afe712e784845"
+  },
+  "reads": 74561,
+  "writes": 1000,
+  "refusals": [
+    "Malformed committed JSON rejected without retry"
+  ],
+  "scope": "Windows IPC replacement/reader concurrency only; no process/GPU measurement, no retry or deletion of scientific data.",
+  "large_control_bytes": 1870040
+}

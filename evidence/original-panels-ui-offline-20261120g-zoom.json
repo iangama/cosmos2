@@ -1,0 +1,49 @@
+{
+  "accepted": true,
+  "completed": true,
+  "native_user_flow_accepted": false,
+  "installed": false,
+  "scope": "Headless Chromium, existing panel HTML/JS and frozen HTTP source adapters only. No native model execution, renderer, original launcher, owner session, performance or integrated-product acceptance.",
+  "target": "output/original-flow-hotfix-staging-v2",
+  "source_sha256": {
+    "output/original-flow-hotfix-staging-v2/app/ui/index.html": "27f16c3b30a966a3cc7e7647387eb0f062d513d75c162938d384db31fa3c8252",
+    "output/original-flow-hotfix-staging-v2/app/ui/is6-spatial.js": "e6a39c8c8233d2df50d77c83e508f49e932d74359bf4c0494ab4b7ff95453bb0",
+    "output/original-flow-hotfix-staging-v2/app/ui/is6-layers.js": "06c772dd3cb94adf8ed8b0327743e5b25370e26f3282074037d8b47fe0c4f6a8",
+    "output/original-flow-hotfix-staging-v2/app/ui/is6-spatial.css": "f0ec6785a498368a13eae58be14f86681cf85c4fa0a88762eb19c6af98600c94",
+    "output/original-flow-hotfix-staging-v2/app/ui/is6-layers.css": "2375e5e2d92f6bdbce06accded0d72f56a7f5b0764e3d99a07c4519f4d9ea1ab",
+    "output/original-flow-hotfix-staging-v2/app/ui/style.css": "d6e31cde789bcc781e241ed95d02c2a15556d5e4e23d01756445e0ce7ba0281e",
+    "output/original-flow-hotfix-staging-v2/app/ui/navigation.js": "f498e128a987c83fa5966f38dccc1467165a910cddf7336c07b3f793415accaf",
+    "output/original-flow-hotfix-staging-v2/app/ui/reference-panels.js": "4dd6c3337b0d7d37b6bcb284db59a6a33bb1cd22d6c81fa45c7b4b4d1d0d3c91",
+    "scripts/verify-original-panels-ui-offline-v4.cjs": "2d506326b6528e382b64dbceac6f9cf0978a930bb53d01b260754fc42a23219e"
+  },
+  "checks": [
+    {
+      "name": "spatial-scroll-and-controls-100",
+      "passed": true
+    },
+    {
+      "name": "layers-scroll-and-controls-100",
+      "passed": true
+    },
+    {
+      "name": "spatial-scroll-and-controls-150",
+      "passed": true
+    },
+    {
+      "name": "layers-scroll-and-controls-150",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "output/original-panels-ui-offline-20261120g-zoom/spatial-100.png",
+    "output/original-panels-ui-offline-20261120g-zoom/layers-100.png",
+    "output/original-panels-ui-offline-20261120g-zoom/spatial-150.png",
+    "output/original-panels-ui-offline-20261120g-zoom/layers-150.png"
+  ],
+  "unexpected_requests": [],
+  "real_css_zoom_tested": true,
+  "scale_handler": "Actual navigation.js scaleInterface and ui-scale handler, with inert scene-label adapter",
+  "expected_existing_defects": false,
+  "passed": 4,
+  "failed": 0
+}

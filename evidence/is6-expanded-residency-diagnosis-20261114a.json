@@ -1,0 +1,80 @@
+{
+  "accepted": false,
+  "diagnostic_completed": true,
+  "profile": "20261114a/E",
+  "source_sha256": {
+    "evidence/is6-expanded-residency-20261114a.json": "51e2a0acabf631ceab64aeae0b725a814bccf35cca1da44dcf1387905cd8e1b0",
+    "evidence/is6-expanded-residency-collector-20261114a.json": "6fde860a12a4f95e6173a63dbf043433ff628df377026e293d1d72551abd2a3e",
+    "evidence/is6-expanded-residency-audit-20261114a.json": "d2239f00fb41a6a1adb4518e674cf20b15661d4b6a0bf995134d67e15f34aef9",
+    "evidence/is6-expanded-residency-host-20261114a.json": "bc1023eb64377949f8ff3bffc521baba6848004bfcc0a59dd224f2345aef48d2",
+    "output/is6-expanded-residency-20261114a/memory.jsonl": "db546fac809daa861ebd8695b460269c695a339229355610a3b8bfe1f7fa4bb2"
+  },
+  "failed_index": 40,
+  "phase": "003-stable",
+  "late_RAM": [
+    {
+      "memory": {
+        "pid": 35824,
+        "created_filetime": 134391291276922045,
+        "working_set_bytes": 17633280,
+        "private_bytes": 6602752,
+        "read_started_filetime": 134391291350449276,
+        "read_finished_filetime": 134391291350449742
+      },
+      "native": {
+        "identity": {
+          "pid": 35824,
+          "parent": 15012,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391291276922045,
+          "started_unix": 1794655527.6922045,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391225261450390
+        },
+        "first_observed_filetime": 134391291277064946,
+        "exit": {
+          "code": 0,
+          "exited_filetime": 134391291349144009,
+          "observed_filetime": 134391291350774161
+        },
+        "last_native": {
+          "created_filetime": 134391291276922045,
+          "exited_filetime": 134391291349144009,
+          "code": 0,
+          "wait": 0,
+          "observed_filetime": 134391291350774161
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=utility",
+          "--utility-sub-type=data_decoder.mojom.DataDecoderService",
+          "--lang=en-US",
+          "--service-sandbox-type=service",
+          "--no-sandbox",
+          "--video-capture-use-gpu-memory-buffer",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--field-trial-handle=5952,i,16891820645494326725,9723946080880126899,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=6856",
+          "--mojo-platform-channel-handle=5612",
+          "/prefetch:14"
+        ],
+        "first_terminating_native": {
+          "created_filetime": 134391291276922045,
+          "exited_filetime": 134391291349144009,
+          "code": 0,
+          "wait": 258,
+          "observed_filetime": 134391291349453939
+        }
+      },
+      "delay_ms": 130.5267
+    }
+  ],
+  "four_zero_exits": true,
+  "owner_restored": true,
+  "scope": "Original E remains refused. No native state immediately before the psutil read exists; later handle observations cannot reconstruct it. Revision G must be tested with new data."
+}

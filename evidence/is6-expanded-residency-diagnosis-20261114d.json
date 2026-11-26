@@ -1,0 +1,340 @@
+{
+  "accepted": false,
+  "diagnostic_completed": true,
+  "original_admission": "refused",
+  "source_sha256": {
+    "scripts/diagnose-expanded-residency-d.py": "154abdf921e9290ae95eecb749bf7a04febc9ac84eaf0e5d8532b80cb9238c84",
+    "evidence/is6-expanded-residency-20261113d.json": "6acc739348156cd6deedc8eee5425c1273849c8f659f0a1e0d60226307c01e23",
+    "evidence/is6-expanded-residency-collector-20261113d.json": "978da954aeed3b4476f2b0c9f89e381287a1ee62d62dd1ae5f33bd581670f6d0",
+    "evidence/is6-expanded-residency-host-20261113d.json": "64508790c30980286e8b7bd7f5a4ab3a0844b78ca384324eff7836318b9fce2d",
+    "evidence/is6-expanded-residency-audit-20261113d.json": "fe336ca5aec7b6f314d8d62c294d706a97f63edaee5305deccc177b544eb9558",
+    "evidence/is6-expanded-residency-plan-20261113d.json": "91a8ac249d6a2b060855a43a2dac3e9969932e7561bab7f504bb51377b5bcacd",
+    "output/is6-expanded-residency-20261113d/memory.jsonl": "1476fab76fc0c1a16933a44ff2b26d39d723bc2c9943b196aa943be9e59ae3d4"
+  },
+  "timing_failures": [
+    {
+      "index": 0,
+      "phase": "000-prepare",
+      "duration_s": 1.3361670970916748,
+      "gauge_offset_s": 1.3106451034545898
+    }
+  ],
+  "cadence_failures": [],
+  "other_failures": [],
+  "windows": [
+    {
+      "name": "atlas_earth",
+      "frames": {
+        "frames": 4506,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.09956120222341,
+        "median_ms": 13.307849876582623,
+        "p95_ms": 14.653900172561407,
+        "p99_ms": 15.209329640492795,
+        "maximum_ms": 29.016200453042984,
+        "over_100ms": 0
+      },
+      "samples": 66
+    },
+    {
+      "name": "sixteen_system",
+      "frames": {
+        "frames": 4507,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.112968006171286,
+        "median_ms": 13.314000330865383,
+        "p95_ms": 14.226900041103363,
+        "p99_ms": 15.129437725991009,
+        "maximum_ms": 16.887899488210678,
+        "over_100ms": 0
+      },
+      "samples": 66
+    },
+    {
+      "name": "earth_mesh",
+      "frames": {
+        "frames": 4505,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.08692570682615,
+        "median_ms": 13.320200145244598,
+        "p95_ms": 14.15340043604374,
+        "p99_ms": 14.990395829081535,
+        "maximum_ms": 15.933800488710403,
+        "over_100ms": 0
+      },
+      "samples": 66
+    },
+    {
+      "name": "earth_pair",
+      "frames": {
+        "frames": 4505,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.08697652537376,
+        "median_ms": 13.31849955022335,
+        "p95_ms": 14.215500280261042,
+        "p99_ms": 15.066383816301823,
+        "maximum_ms": 17.0390997081995,
+        "over_100ms": 0
+      },
+      "samples": 66
+    },
+    {
+      "name": "earth_proton",
+      "frames": {
+        "frames": 4504,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.073226284235716,
+        "median_ms": 13.327349908649921,
+        "p95_ms": 14.249750319868324,
+        "p99_ms": 15.069129951298239,
+        "maximum_ms": 15.889700502157211,
+        "over_100ms": 0
+      },
+      "samples": 66
+    },
+    {
+      "name": "jupiter_mesh",
+      "frames": {
+        "frames": 4504,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.07405441068113,
+        "median_ms": 13.313950039446354,
+        "p95_ms": 14.169359812512992,
+        "p99_ms": 15.085646621882915,
+        "maximum_ms": 16.039300709962845,
+        "over_100ms": 0
+      },
+      "samples": 66
+    },
+    {
+      "name": "jupiter_pair",
+      "frames": {
+        "frames": 4513,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.19334422145039,
+        "median_ms": 13.319900259375572,
+        "p95_ms": 14.220239594578743,
+        "p99_ms": 15.107648223638536,
+        "maximum_ms": 16.011299565434456,
+        "over_100ms": 0
+      },
+      "samples": 66
+    },
+    {
+      "name": "jupiter_electron",
+      "frames": {
+        "frames": 4504,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.0737576931715,
+        "median_ms": 13.334049843251705,
+        "p95_ms": 14.229184901341796,
+        "p99_ms": 15.083365840837361,
+        "maximum_ms": 16.193799674510956,
+        "over_100ms": 0
+      },
+      "samples": 66
+    },
+    {
+      "name": "solar_zone",
+      "frames": {
+        "frames": 4507,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.11325779184699,
+        "median_ms": 13.333099894225597,
+        "p95_ms": 14.37128009274602,
+        "p99_ms": 15.07973968982696,
+        "maximum_ms": 16.396699473261833,
+        "over_100ms": 0
+      },
+      "samples": 66
+    },
+    {
+      "name": "sixteen_titan_restored",
+      "frames": {
+        "frames": 4505,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.08696470875293,
+        "median_ms": 13.330800458788872,
+        "p95_ms": 14.291820116341116,
+        "p99_ms": 15.115212313830853,
+        "maximum_ms": 16.6912991553545,
+        "over_100ms": 0
+      },
+      "samples": 66
+    }
+  ],
+  "transitions": [
+    {
+      "name": "atlas_earth",
+      "seconds": 0.4837396000002627,
+      "frames": {
+        "frames": 36,
+        "excluded_initial_intervals": 0,
+        "interval_s": 0.47935060132294893,
+        "median_ms": 13.237450271844864,
+        "p95_ms": 15.316349687054753,
+        "p99_ms": 15.940794721245766,
+        "maximum_ms": 16.122199594974518,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "sixteen_system",
+      "seconds": 2.0008964000007836,
+      "frames": {
+        "frames": 128,
+        "excluded_initial_intervals": 0,
+        "interval_s": 1.9989024037495255,
+        "median_ms": 13.22470000013709,
+        "p95_ms": 34.65084414929135,
+        "p99_ms": 82.47015833854678,
+        "maximum_ms": 92.81320124864578,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "earth_mesh",
+      "seconds": 2.817085299997416,
+      "frames": {
+        "frames": 205,
+        "excluded_initial_intervals": 0,
+        "interval_s": 2.8140813988866284,
+        "median_ms": 13.32740020006895,
+        "p95_ms": 14.642480015754698,
+        "p99_ms": 34.3033112585545,
+        "maximum_ms": 83.95600318908691,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "earth_pair",
+      "seconds": 6.326569800003199,
+      "frames": {
+        "frames": 473,
+        "excluded_initial_intervals": 0,
+        "interval_s": 6.321578397182748,
+        "median_ms": 13.316799886524677,
+        "p95_ms": 14.594559930264948,
+        "p99_ms": 18.889223784208284,
+        "maximum_ms": 61.337098479270935,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "earth_proton",
+      "seconds": 1.762816099995689,
+      "frames": {
+        "frames": 132,
+        "excluded_initial_intervals": 0,
+        "interval_s": 1.7609658002038486,
+        "median_ms": 13.29050026834011,
+        "p95_ms": 14.898644946515558,
+        "p99_ms": 28.58944909647103,
+        "maximum_ms": 41.93300008773804,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "jupiter_mesh",
+      "seconds": 2.7103274000037345,
+      "frames": {
+        "frames": 203,
+        "excluded_initial_intervals": 0,
+        "interval_s": 2.707684194552712,
+        "median_ms": 13.298599980771542,
+        "p95_ms": 14.39934968948364,
+        "p99_ms": 16.08849477022886,
+        "maximum_ms": 29.985299333930016,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "jupiter_pair",
+      "seconds": 6.634968499995011,
+      "frames": {
+        "frames": 494,
+        "excluded_initial_intervals": 0,
+        "interval_s": 6.628914301167242,
+        "median_ms": 13.338650111109018,
+        "p95_ms": 14.601570321246975,
+        "p99_ms": 18.70909970253706,
+        "maximum_ms": 70.96529752016068,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "jupiter_electron",
+      "seconds": 1.748900099999446,
+      "frames": {
+        "frames": 131,
+        "excluded_initial_intervals": 0,
+        "interval_s": 1.7468715001596138,
+        "median_ms": 13.257799670100212,
+        "p95_ms": 14.723499771207571,
+        "p99_ms": 32.433391083031616,
+        "maximum_ms": 44.47019845247269,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "solar_zone",
+      "seconds": 59.01943500000198,
+      "frames": {
+        "frames": 4422,
+        "excluded_initial_intervals": 0,
+        "interval_s": 58.97951081977226,
+        "median_ms": 13.328400440514088,
+        "p95_ms": 14.204960037022829,
+        "p99_ms": 15.46855429187417,
+        "maximum_ms": 27.755599468946457,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "sixteen_titan_restored",
+      "seconds": 1.188835900000413,
+      "frames": {
+        "frames": 80,
+        "excluded_initial_intervals": 0,
+        "interval_s": 1.1873073051683605,
+        "median_ms": 13.317500241100788,
+        "p95_ms": 15.638055372983215,
+        "p99_ms": 82.249686717987,
+        "maximum_ms": 88.61739933490753,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "return_atlas",
+      "seconds": 0.17685979999805568,
+      "frames": {
+        "frames": 13,
+        "excluded_initial_intervals": 0,
+        "interval_s": 0.1754749002866447,
+        "median_ms": 13.424299657344818,
+        "p95_ms": 17.890380322933183,
+        "p99_ms": 21.845916211605065,
+        "maximum_ms": 22.83480018377304,
+        "over_100ms": 0
+      }
+    }
+  ],
+  "scope": "Diagnostic only. Every original sample is retained; D remains refused regardless of subsidiary results.",
+  "lifecycle": {
+    "processes": 16,
+    "observed_births": 8,
+    "observed_exits": 6
+  },
+  "samples": 1070,
+  "duration_max_s": 1.3361670970916748,
+  "subsequent_sample_max_s": 0.16947484016418457,
+  "peaks_bytes": {
+    "GPU_bytes": 3325632512,
+    "RAM_bytes": 1599377408
+  },
+  "retained_native_processes": 18,
+  "native_polls": 36653,
+  "native_maximum_poll_gap_s": 0.12055669999972451,
+  "four_zero_exits": true,
+  "restored_owner_view": true
+}

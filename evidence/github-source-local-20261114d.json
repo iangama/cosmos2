@@ -1,0 +1,13 @@
+{
+  "accepted": true,
+  "completed": true,
+  "local_only": true,
+  "push": false,
+  "revision": 23,
+  "commit": "787d70d3a124be598183d085ebcea050fb1d57c4",
+  "files": 8567,
+  "sync_receipt_sha256": "443c47e019064b9ce7cfc9541d585c32776b6b17c5f581da2f77146df3a82692",
+  "profile_accepted": true,
+  "host_sha256": "be7fde62e546299b076c6b26451078d840395e5a053e2b16826f5db3c05730cf",
+  "scope": "Local partial source/evidence backup after the host finished. This receipt never changes profile admission."
+}

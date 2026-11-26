@@ -1,0 +1,131 @@
+{
+  "accepted": true,
+  "completed": true,
+  "candidate": "0.26.2",
+  "captures": [
+    {
+      "path": "output/is6-dynamics16-native-20261112c/terra-100.png",
+      "sha256": "3e896b5467f703378c122e0dd54d30acf12f9e1e1662d6af8978f1fa99ae864b",
+      "native_original": "user/screenshots/2026-11-12-08-43-30/Cosmos2 Â· mediÃ§Ã£o 1080p_000000.png",
+      "scale": "1",
+      "name": "terra",
+      "ui": {
+        "scale": "1",
+        "selected": "exp:678902248cb343a8ab01820b28a8c773:naif:399",
+        "model": "",
+        "reading": "Fase atual confirmada.\nt = 0.000000 h · revisão 0\ng total x/y/z: -5.69253e-3 / -1.68331e-3 / -7.32366e-4 m/s²\n|g total| = 5.981201e-3 m/s²",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-dynamics16-native-20261112c/júpiter-100.png",
+      "sha256": "58210eedbd3b78b7e63065468af726c37be143eb37f6d09914a0b724cd1d7ec1",
+      "native_original": "user/screenshots/2026-11-12-08-43-30/Cosmos2 Â· mediÃ§Ã£o 1080p_000001.png",
+      "scale": "1",
+      "name": "júpiter",
+      "ui": {
+        "scale": "1",
+        "selected": "exp:678902248cb343a8ab01820b28a8c773:naif:599",
+        "model": "",
+        "reading": "Fase atual confirmada.\nt = 0.000000 h · revisão 0\ng total x/y/z: 1.43855e-4 / -1.21533e-4 / -5.44771e-5 m/s²\n|g total| = 1.960416e-4 m/s²",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-dynamics16-native-20261112d/titã-100.png",
+      "sha256": "81395f29c44a16386eb8d4030d83b050e583b4293e3ce476f351c561ca57c135",
+      "native_original": "user/screenshots/2026-11-12-08-43-30/Cosmos2 Â· mediÃ§Ã£o 1080p_000003.png",
+      "scale": "1",
+      "name": "titã",
+      "ui": {
+        "scale": "1",
+        "selected": "exp:c2885301df564974a29d5c01bfc64260:naif:606",
+        "model": "",
+        "reading": "Fase atual confirmada.\nt = 0.000000 h · revisão 0\ng total x/y/z: 5.26412e-3 / 2.47573e-2 / -2.13637e-3 m/s²\n|g total| = 2.540078e-2 m/s²",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-dynamics16-native-20261112d/terra-150.png",
+      "sha256": "d593bdfcb45a3719df1d50808c85d23a0e4685b96d593c68d1a1673e234cbe1b",
+      "native_original": "user/screenshots/2026-11-12-08-43-30/Cosmos2 Â· mediÃ§Ã£o 1080p_000004.png",
+      "scale": "1.5",
+      "name": "terra",
+      "ui": {
+        "scale": "1.5",
+        "selected": "exp:c2885301df564974a29d5c01bfc64260:naif:399",
+        "model": "",
+        "reading": "Fase atual confirmada.\nt = 0.000000 h · revisão 0\ng total x/y/z: -5.69253e-3 / -1.68331e-3 / -7.32366e-4 m/s²\n|g total| = 5.981201e-3 m/s²",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-dynamics16-native-20261112d/júpiter-150.png",
+      "sha256": "a079aa823f00a5e205cbb4d61214f28aa6a017d558c459961f02560097aa00d7",
+      "native_original": "user/screenshots/2026-11-12-08-43-30/Cosmos2 Â· mediÃ§Ã£o 1080p_000005.png",
+      "scale": "1.5",
+      "name": "júpiter",
+      "ui": {
+        "scale": "1.5",
+        "selected": "exp:c2885301df564974a29d5c01bfc64260:naif:599",
+        "model": "",
+        "reading": "Fase atual confirmada.\nt = 0.000000 h · revisão 0\ng total x/y/z: 1.43855e-4 / -1.21533e-4 / -5.44771e-5 m/s²\n|g total| = 1.960416e-4 m/s²",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-dynamics16-native-20261112d/titã-150.png",
+      "sha256": "93f2bbc877435e681f5ad5f4b5a84f60b4d19516501fe94118c35bb12953c0d1",
+      "native_original": "user/screenshots/2026-11-12-08-43-30/Cosmos2 Â· mediÃ§Ã£o 1080p_000006.png",
+      "scale": "1.5",
+      "name": "titã",
+      "ui": {
+        "scale": "1.5",
+        "selected": "exp:c2885301df564974a29d5c01bfc64260:naif:606",
+        "model": "",
+        "reading": "Fase atual confirmada.\nt = 0.000000 h · revisão 0\ng total x/y/z: 5.26412e-3 / 2.47573e-2 / -2.13637e-3 m/s²\n|g total| = 2.540078e-2 m/s²",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited OpenSpace framebuffer"
+    }
+  ],
+  "native_sha256": {
+    "evidence/is6-dynamics16-native-20261112c.json": "0dddf2d94cad6c5770029fbb0ff6bcb1c43d245ec5fcf65b3eca9b11cb98e330",
+    "evidence/is6-dynamics16-native-20261112d.json": "d7019042d490845cdfe80200dcb4fe76511f5e8af1629fec74e8638e0912bf4b"
+  },
+  "direct_review": {
+    "all_six_originals_viewed": true,
+    "selected_labels_clear_and_outside_markers": true,
+    "total_acceleration_and_units_visible_both_scales": true,
+    "concise_model_summary_visible": true,
+    "detailed_model_available_in_collapsed_section": true,
+    "no_horizontal_overflow": true,
+    "marker_scope": "Expanded point-mass markers explicitly identified; not textured physical surfaces."
+  },
+  "compared_to_refused_presentation": "0.26.1 had a verbose default panel and occluded labels. Its original captures and functional receipts are preserved.",
+  "script_sha256": "34159348e089c499125c8497a6fcd4bcb34512191d0587038e697ecc30f95c2d",
+  "scope": "Direct review of six unedited native framebuffer images; own performance acceptance remains pending."
+}

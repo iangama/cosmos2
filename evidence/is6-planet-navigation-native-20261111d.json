@@ -1,0 +1,2597 @@
+{
+  "completed": true,
+  "functional_accepted": true,
+  "page_errors": [],
+  "epochs": [],
+  "journey": [],
+  "geometry": [
+    {
+      "target": "Mercury",
+      "expected_radii_m": [
+        2440530.0,
+        2440530.0,
+        2438260.0
+      ],
+      "axes": [
+        {
+          "axis": 0,
+          "inferred_radius_m": 2440530.0000036377,
+          "error_m": 3.637745976448059e-06,
+          "raw": {
+            "geographic": [
+              1.1199806004469798e-11,
+              2.2389199624713487e-11,
+              7321590.0
+            ],
+            "nav": {
+              "Anchor": "Mercury",
+              "Position": [
+                9509053.622810364,
+                -741697.768781662,
+                2080089.0636634827
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.22536469987954444,
+                0.40765159216727564,
+                -0.8848903499596366
+              ]
+            },
+            "radius": 2440530.0
+          }
+        },
+        {
+          "axis": 1,
+          "inferred_radius_m": 2440529.9999978337,
+          "error_m": 2.166256308555603e-06,
+          "raw": {
+            "geographic": [
+              2.2399612008939597e-11,
+              90.0,
+              7321590.0
+            ],
+            "nav": {
+              "Anchor": "Mercury",
+              "Position": [
+                2200037.243988037,
+                3979543.7609272003,
+                -8638405.783145905
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.01963000049903325,
+                0.9099712394055363,
+                0.4142064781424359
+              ]
+            },
+            "radius": 2440530.0
+          }
+        },
+        {
+          "axis": 2,
+          "inferred_radius_m": 2438259.999995094,
+          "error_m": 4.906207323074341e-06,
+          "raw": {
+            "geographic": [
+              90.0,
+              90.0,
+              7323860.000003815
+            ],
+            "nav": {
+              "Anchor": "Mercury",
+              "Position": [
+                -191630.4204711914,
+                8883248.435625076,
+                4043533.344402313
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.9740766987915157,
+                -0.07597712062347917,
+                0.2130775962253832
+              ]
+            },
+            "radius": 2440530.0
+          }
+        }
+      ],
+      "texture": {
+        "enabled": true,
+        "path": "C:\\Users\\Ian\\cosmos2/output/is6-planet-visuals-20261111a/Mercury_MESSENGER_MDIS_Basemap_BDR_Mosaic_Global_32ppd.jpg"
+      }
+    },
+    {
+      "target": "Venus",
+      "expected_radii_m": [
+        6051800.0,
+        6051800.0,
+        6051800.0
+      ],
+      "axes": [
+        {
+          "axis": 0,
+          "inferred_radius_m": 6051799.999997929,
+          "error_m": 2.0712614059448242e-06,
+          "raw": {
+            "geographic": [
+              0.0,
+              -9.028968796076111e-12,
+              18155400.000003815
+            ],
+            "nav": {
+              "Anchor": "Venus",
+              "Position": [
+                -23539324.15591812,
+                189236.14742279053,
+                -5643840.873306274
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.20662302383786696,
+                -0.4927906013878225,
+                0.8452599299646969
+              ]
+            },
+            "radius": 6051800.0
+          }
+        },
+        {
+          "axis": 1,
+          "inferred_radius_m": 6051800.000001293,
+          "error_m": 1.2926757335662842e-06,
+          "raw": {
+            "geographic": [
+              0.0,
+              89.99999999999098,
+              18155399.99999237
+            ],
+            "nav": {
+              "Anchor": "Venus",
+              "Position": [
+                -5001764.86264801,
+                -11929080.64591217,
+                20461376.176635742
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.10828505590791318,
+                0.870112815804736,
+                0.48080976949244036
+              ]
+            },
+            "radius": 6051800.0
+          }
+        },
+        {
+          "axis": 2,
+          "inferred_radius_m": 6051800.000002753,
+          "error_m": 2.7529895305633545e-06,
+          "raw": {
+            "geographic": [
+              90.0,
+              0.0,
+              18155400.0
+            ],
+            "nav": {
+              "Anchor": "Venus",
+              "Position": [
+                -2621278.0053749084,
+                21062994.95475006,
+                11639058.252059937
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.9724100332098274,
+                0.007817349690330988,
+                -0.23314719890378444
+              ]
+            },
+            "radius": 6051800.0
+          }
+        }
+      ],
+      "texture": {
+        "enabled": true,
+        "path": "C:\\Users\\Ian\\cosmos2/output/is6-planet-visuals-20261111a/venus_clouds.jpg"
+      }
+    },
+    {
+      "target": "Earth",
+      "expected_radii_m": [
+        6378137,
+        6378137,
+        6356752.314245
+      ],
+      "axes": [
+        {
+          "axis": 0,
+          "inferred_radius_m": 6378136.999998331,
+          "error_m": 1.6689300537109375e-06,
+          "raw": {
+            "geographic": [
+              -3.43254554905965e-11,
+              4.283501072499854e-12,
+              19134411.0
+            ],
+            "nav": {
+              "Anchor": "Earth",
+              "Position": [
+                8786025.157356262,
+                -8005698.614830017,
+                22574424.844833374
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.8044722965757128,
+                0.5844877519037026,
+                -0.10582245469064715
+              ]
+            },
+            "radius": 6378137.0
+          }
+        },
+        {
+          "axis": 1,
+          "inferred_radius_m": 6378136.999993723,
+          "error_m": 6.277114152908325e-06,
+          "raw": {
+            "geographic": [
+              -3.432545549058879e-11,
+              90.00000000001714,
+              19134411.000005722
+            ],
+            "nav": {
+              "Anchor": "Earth",
+              "Position": [
+                20524138.081054688,
+                14911771.82585907,
+                -2699800.454772949
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.483969384365139,
+                0.7482693672119085,
+                0.4537252352355096
+              ]
+            },
+            "radius": 6378137.0
+          }
+        },
+        {
+          "axis": 2,
+          "inferred_radius_m": 6356752.314244375,
+          "error_m": 6.249174475669861e-07,
+          "raw": {
+            "geographic": [
+              90.0,
+              147.9946167919165,
+              19155795.685755
+            ],
+            "nav": {
+              "Anchor": "Earth",
+              "Position": [
+                -12347292.149139404,
+                19090258.14792633,
+                11575686.842758179
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.34438054393306594,
+                -0.31379455375564724,
+                0.8848361537559712
+              ]
+            },
+            "radius": 6378137.0
+          }
+        }
+      ]
+    },
+    {
+      "target": "Moon",
+      "expected_radii_m": [
+        1737400,
+        1737400,
+        1737400
+      ],
+      "axes": [
+        {
+          "axis": 0,
+          "inferred_radius_m": 1737399.9999858672,
+          "error_m": 1.4132820069789886e-05,
+          "raw": {
+            "geographic": [
+              0.0,
+              -6.290032618853693e-11,
+              5212200.000015259
+            ],
+            "nav": {
+              "Anchor": "Moon",
+              "Position": [
+                -3041754.748275757,
+                2718588.3071289062,
+                -5626183.948974609
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.89111615971187,
+                -0.3086542670296093,
+                0.3326327304171734
+              ]
+            },
+            "radius": 1737400.0
+          }
+        },
+        {
+          "axis": 1,
+          "inferred_radius_m": 1737400.0000013756,
+          "error_m": 1.3755634427070618e-06,
+          "raw": {
+            "geographic": [
+              0.0,
+              89.9999999998742,
+              5212200.0
+            ],
+            "nav": {
+              "Anchor": "Moon",
+              "Position": [
+                -6192900.86353302,
+                -2145023.694152832,
+                2311664.423309326
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.1197557026974097,
+                0.8670097015107905,
+                0.48368662288471415
+              ]
+            },
+            "radius": 1737400.0
+          }
+        },
+        {
+          "axis": 2,
+          "inferred_radius_m": 1737399.9999914337,
+          "error_m": 8.566305041313171e-06,
+          "raw": {
+            "geographic": [
+              90.0,
+              0.0,
+              5212200.000007629
+            ],
+            "nav": {
+              "Anchor": "Moon",
+              "Position": [
+                -832254.2314605713,
+                6025370.621620178,
+                3361428.554397583
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.43768774437083324,
+                0.3911862995176023,
+                -0.8095694642816619
+              ]
+            },
+            "radius": 1737400.0
+          }
+        }
+      ]
+    },
+    {
+      "target": "Mars",
+      "expected_radii_m": [
+        3396190.0,
+        3396190.0,
+        3376200.0
+      ],
+      "axes": [
+        {
+          "axis": 0,
+          "inferred_radius_m": 3396190.0000570156,
+          "error_m": 5.7015568017959595e-05,
+          "raw": {
+            "geographic": [
+              -8.06820615802867e-12,
+              0.0,
+              10188569.999938965
+            ],
+            "nav": {
+              "Anchor": "Mars",
+              "Position": [
+                -12151786.653961182,
+                -324539.2987937927,
+                -6064194.886185646
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.4436311875439811,
+                -0.0755654159067396,
+                0.8930180498495857
+              ]
+            },
+            "radius": 3396190.0
+          }
+        },
+        {
+          "axis": 1,
+          "inferred_radius_m": 3396190.0000024363,
+          "error_m": 2.436339855194092e-06,
+          "raw": {
+            "geographic": [
+              -1.6136412315984628e-11,
+              90.00000000012871,
+              10188570.0
+            ],
+            "nav": {
+              "Anchor": "Mars",
+              "Position": [
+                -6026623.211303711,
+                -1026538.0393943787,
+                12131435.882875443
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.05506632877008276,
+                0.9968546222950773,
+                0.05699615289406791
+              ]
+            },
+            "radius": 3396190.0
+          }
+        },
+        {
+          "axis": 2,
+          "inferred_radius_m": 3376200.0000029188,
+          "error_m": 2.9187649488449097e-06,
+          "raw": {
+            "geographic": [
+              90.0,
+              -165.96375653207352,
+              10208559.999998093
+            ],
+            "nav": {
+              "Anchor": "Mars",
+              "Position": [
+                -748062.8604125977,
+                13542030.798770905,
+                774279.0579881668
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.8945161087841287,
+                -0.02388995453618481,
+                -0.446396909933257
+              ]
+            },
+            "radius": 3396190.0
+          }
+        }
+      ],
+      "texture": {
+        "enabled": true,
+        "path": "C:\\Users\\Ian\\cosmos2/output/is6-planet-visuals-20261111a/mars.png"
+      }
+    },
+    {
+      "target": "Jupiter",
+      "expected_radii_m": [
+        71492000.0,
+        71492000.0,
+        66854000.0
+      ],
+      "axes": [
+        {
+          "axis": 0,
+          "inferred_radius_m": 71491999.99994582,
+          "error_m": 5.418062210083008e-05,
+          "raw": {
+            "geographic": [
+              1.2625078165428413e-11,
+              -6.114419891466496e-12,
+              214476000.00006104
+            ],
+            "nav": {
+              "Anchor": "Jupiter",
+              "Position": [
+                -221285273.79260254,
+                -103642164.11022949,
+                148555802.46185303
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.6305646839170991,
+                -0.36303127760387754,
+                0.6860003432053259
+              ]
+            },
+            "radius": 71492000.0
+          }
+        },
+        {
+          "axis": 1,
+          "inferred_radius_m": 71491999.99993098,
+          "error_m": 6.902217864990234e-05,
+          "raw": {
+            "geographic": [
+              1.8937617248142615e-11,
+              89.99999999998778,
+              214476000.00006104
+            ],
+            "nav": {
+              "Anchor": "Jupiter",
+              "Position": [
+                180321321.5303955,
+                -103815328.39379883,
+                196174146.14575195
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.060035239561663706,
+                0.8584030954212708,
+                0.5094505822765879
+              ]
+            },
+            "radius": 71492000.0
+          }
+        },
+        {
+          "axis": 2,
+          "inferred_radius_m": 66853999.9999066,
+          "error_m": 9.340047836303711e-05,
+          "raw": {
+            "geographic": [
+              90.0,
+              0.0,
+              219114000.00009155
+            ],
+            "nav": {
+              "Anchor": "Jupiter",
+              "Position": [
+                -17168157.38696289,
+                245475816.39141846,
+                145686564.1124878
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.7738113138273739,
+                -0.3624257403283795,
+                0.5194840068184778
+              ]
+            },
+            "radius": 71492000.0
+          }
+        }
+      ],
+      "texture": {
+        "enabled": true,
+        "path": "C:\\Users\\Ian\\cosmos2/output/is6-planet-visuals-20261111a/jupiter_os.tif"
+      }
+    },
+    {
+      "target": "Saturn",
+      "expected_radii_m": [
+        60268000.0,
+        60268000.0,
+        54364000.0
+      ],
+      "axes": [
+        {
+          "axis": 0,
+          "inferred_radius_m": 60268000.000216484,
+          "error_m": 0.00021648406982421875,
+          "raw": {
+            "geographic": [
+              0.0,
+              3.989225771300238e-11,
+              180803999.99972534
+            ],
+            "nav": {
+              "Anchor": "Saturn",
+              "Position": [
+                -52873947.594177246,
+                70159664.79833984,
+                -224494267.82250977
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.8062487435422663,
+                -0.5915554040440201,
+                0.005016720326420726
+              ]
+            },
+            "radius": 140444992.0
+          }
+        },
+        {
+          "axis": 1,
+          "inferred_radius_m": 60267999.99991429,
+          "error_m": 8.571147918701172e-05,
+          "raw": {
+            "geographic": [
+              0.0,
+              90.00000000001451,
+              180804000.00004578
+            ],
+            "nav": {
+              "Anchor": "Saturn",
+              "Position": [
+                -194363997.10321045,
+                -142607444.36364746,
+                1209390.8024902344
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.5494160495239475,
+                0.7519059665661096,
+                0.3643891079159524
+              ]
+            },
+            "radius": 140444992.0
+          }
+        },
+        {
+          "axis": 2,
+          "inferred_radius_m": 54364000.00009048,
+          "error_m": 9.047985076904297e-05,
+          "raw": {
+            "geographic": [
+              90.0,
+              109.98310652189998,
+              186707999.99987793
+            ],
+            "nav": {
+              "Anchor": "Saturn",
+              "Position": [
+                -132448825.89086914,
+                181263475.17199707,
+                87844011.0234375
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                -0.219328447908153,
+                0.29103199375432487,
+                -0.9312332739703748
+              ]
+            },
+            "radius": 140444992.0
+          }
+        }
+      ]
+    },
+    {
+      "target": "Uranus",
+      "expected_radii_m": [
+        25559000.0,
+        25559000.0,
+        24973000.0
+      ],
+      "axes": [
+        {
+          "axis": 0,
+          "inferred_radius_m": 25559000.00004442,
+          "error_m": 4.442036151885986e-05,
+          "raw": {
+            "geographic": [
+              0.0,
+              3.420572846205376e-11,
+              76677000.0
+            ],
+            "nav": {
+              "Anchor": "Uranus",
+              "Position": [
+                21036604.85888672,
+                -93148832.78131104,
+                -36509668.630371094
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.1864318752288054,
+                0.39473385946722683,
+                -0.8996823528828264
+              ]
+            },
+            "radius": 25559000.0
+          }
+        },
+        {
+          "axis": 1,
+          "inferred_radius_m": 25559000.00003417,
+          "error_m": 3.4168362617492676e-05,
+          "raw": {
+            "geographic": [
+              0.0,
+              90.0,
+              76676999.99987793
+            ],
+            "nav": {
+              "Anchor": "Uranus",
+              "Position": [
+                19060049.19580078,
+                40356010.85638428,
+                -91979925.02929688
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.9606788553081409,
+                0.11854626716055117,
+                0.25108349110632366
+              ]
+            },
+            "radius": 25559000.0
+          }
+        },
+        {
+          "axis": 2,
+          "inferred_radius_m": 24972999.999919176,
+          "error_m": 8.082389831542969e-05,
+          "raw": {
+            "geographic": [
+              90.0,
+              -56.309932474020215,
+              77263000.0
+            ],
+            "nav": {
+              "Anchor": "Uranus",
+              "Position": [
+                98215963.45117188,
+                12119696.169372559,
+                25669771.796875
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.2057651400573891,
+                -0.9111157789947231,
+                -0.3571116693752814
+              ]
+            },
+            "radius": 25559000.0
+          }
+        }
+      ],
+      "texture": {
+        "enabled": true,
+        "path": "C:\\Users\\Ian\\cosmos2/output/is6-planet-visuals-20261111a/uranus.jpg"
+      }
+    },
+    {
+      "target": "Neptune",
+      "expected_radii_m": [
+        24764000.0,
+        24764000.0,
+        24341000.0
+      ],
+      "axes": [
+        {
+          "axis": 0,
+          "inferred_radius_m": 24764000.00003226,
+          "error_m": 3.2261013984680176e-05,
+          "raw": {
+            "geographic": [
+              1.4242132546353968e-10,
+              0.0,
+              74292000.0
+            ],
+            "nav": {
+              "Anchor": "Neptune",
+              "Position": [
+                96740060.05792236,
+                -21036923.74951172,
+                3301477.72265625
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.0587214659364238,
+                0.11440126024616237,
+                -0.9916976056703815
+              ]
+            },
+            "radius": 24764000.0
+          }
+        },
+        {
+          "axis": 1,
+          "inferred_radius_m": 24764000.000367478,
+          "error_m": 0.00036747753620147705,
+          "raw": {
+            "geographic": [
+              0.0,
+              90.0,
+              74291999.99969482
+            ],
+            "nav": {
+              "Anchor": "Neptune",
+              "Position": [
+                5816713.530029297,
+                11332131.234863281,
+                -98233598.02734375
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.20679790927184932,
+                0.9704687605341551,
+                0.12419746192291019
+              ]
+            },
+            "radius": 24764000.0
+          }
+        },
+        {
+          "axis": 2,
+          "inferred_radius_m": 24340999.99971792,
+          "error_m": 0.00028207898139953613,
+          "raw": {
+            "geographic": [
+              90.0,
+              143.13010235415598,
+              74715000.00024414
+            ],
+            "nav": {
+              "Anchor": "Neptune",
+              "Position": [
+                20484573.700805664,
+                96130753.54345703,
+                12302503.788085938
+              ],
+              "ReferenceFrame": "Root",
+              "Timestamp": "2026 OCT 11 12:00:00",
+              "Up": [
+                0.9766198923629015,
+                -0.21237404851222275,
+                0.03332940682944574
+              ]
+            },
+            "radius": 24764000.0
+          }
+        }
+      ],
+      "texture": {
+        "enabled": true,
+        "path": "C:\\Users\\Ian\\cosmos2/output/is6-planet-visuals-20261111a/neptune.jpg"
+      }
+    }
+  ],
+  "captures": [],
+  "controls": {
+    "four_transactional_epoch_refusals_from_v1": true,
+    "candidate_favorite_roundtrip": true,
+    "camera_modes_free_move_and_clock": true,
+    "legacy_copy_3": {
+      "bodies": [
+        "sol:naif:10",
+        "sol:naif:399",
+        "sol:naif:301"
+      ],
+      "lab": {
+        "anchor": "LabFrame",
+        "origin": [
+          100000000000000.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "legacy_copy_4": {
+      "bodies": [
+        "sol:naif:10",
+        "sol:naif:399",
+        "sol:naif:301",
+        "sol:naif:599"
+      ],
+      "lab": {
+        "anchor": "LabFrame",
+        "origin": [
+          100000000000000.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "source_sha256": {
+    "output/is6-planet-navigation-product0.24.0/app/artifacts.py": "d01d6048c15756cdd373a60217ed5650dc8fb38536f936f5eff7ea3695347775",
+    "output/is6-planet-navigation-product0.24.0/app/atlas.py": "218fac6e9aad5aa71bf589ea86b8ef6af91fb1e8d56af0402972cada2d60f1c2",
+    "output/is6-planet-navigation-product0.24.0/app/atlas_import.py": "5cd4e78d7976b292ceb0ed637d7a255687abb16e7d907313e11c9e42c719b6cf",
+    "output/is6-planet-navigation-product0.24.0/app/atlas_properties.py": "c7748a866e5be67326e776a8b0805cb8b80fc1fff8b8566f7b095bb97963a900",
+    "output/is6-planet-navigation-product0.24.0/app/binary_gravity.py": "cf5a4c3f29141fb64fc1c20ad1e53375ea465765c9f403e600adae6bbcd41936",
+    "output/is6-planet-navigation-product0.24.0/app/body_attributes.py": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649",
+    "output/is6-planet-navigation-product0.24.0/app/body_field_geometry.py": "17a257fe18708f640e3f79e43dac6d78c498dd2844a4633757498ebabfe1afc4",
+    "output/is6-planet-navigation-product0.24.0/app/body_field_layer.py": "a56118896a743d904312f8bfe466bdc98c19675694e3a17ef7a07ee0df8de3a2",
+    "output/is6-planet-navigation-product0.24.0/app/body_field_lines.py": "ddd0e266f6cc96a4cba64db773a3b801ed5e8ca8cd9b07b88efd92088c93f8f3",
+    "output/is6-planet-navigation-product0.24.0/app/body_field_maps.py": "8988d3c437b88c2a6c0db5210dd8710c5ccc7e35b8e2be9b693fe57216e8630f",
+    "output/is6-planet-navigation-product0.24.0/app/body_field_map_geometry.py": "cfa807924eed8c8a06e1ee25f8eb8a759ce37b900bffe7e7a3f58fc619c560bd",
+    "output/is6-planet-navigation-product0.24.0/app/body_field_map_layer.py": "17640635bf80047d537df0be650871d463b5802fb4818a3020210aadcfb7b154",
+    "output/is6-planet-navigation-product0.24.0/app/body_field_points.py": "d054c5c72ef76cabe5cacfc6b78cb67f5b51387a60e2152ee3107127fbe8f169",
+    "output/is6-planet-navigation-product0.24.0/app/body_field_scene.py": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805",
+    "output/is6-planet-navigation-product0.24.0/app/body_field_view.py": "274a3916769331b4518c0aa543acc00fe5f0531b380e76473fbfc101ebdd6933",
+    "output/is6-planet-navigation-product0.24.0/app/body_registry.py": "20732fd25f24bd024aad3de96cfd355a3af66c6e0b2a8121b45b13fa43d8be7c",
+    "output/is6-planet-navigation-product0.24.0/app/branch_store.py": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4",
+    "output/is6-planet-navigation-product0.24.0/app/cloud_bridge.py": "cfa4b8b7bda7ad44bdb8ed27b024a4a52a3c7bf8381a23f98f5a83a695a7ef9c",
+    "output/is6-planet-navigation-product0.24.0/app/cloud_driver.py": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb",
+    "output/is6-planet-navigation-product0.24.0/app/cloud_scene.py": "f372b7542e05ca19500482401f98b5cb0f566203994482400eb451acd0235b3f",
+    "output/is6-planet-navigation-product0.24.0/app/cloud_transport.py": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690",
+    "output/is6-planet-navigation-product0.24.0/app/cno.py": "1ffe541ea8b182154dad3359960d2e5ad80c8a9b40477fb6061659759a4f56b7",
+    "output/is6-planet-navigation-product0.24.0/app/constants.json": "642b0cf9f09d72408b7bfc2e0a256b681a85ba0afc4ff251555f0d31facec0da",
+    "output/is6-planet-navigation-product0.24.0/app/decays.py": "cfaad568c3f8493f6ec9a8da3fa69ab83c1188f278939fd30701c9457f550c21",
+    "output/is6-planet-navigation-product0.24.0/app/dipole.py": "df2149713070beb150d3da755e2118efd2238b84fee097d157e124f3bac0b231",
+    "output/is6-planet-navigation-product0.24.0/app/earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+    "output/is6-planet-navigation-product0.24.0/app/equilibrium_tide.py": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06",
+    "output/is6-planet-navigation-product0.24.0/app/field_geometry.py": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55",
+    "output/is6-planet-navigation-product0.24.0/app/field_layers.py": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349",
+    "output/is6-planet-navigation-product0.24.0/app/field_scene.py": "f055b600cd015733e72414692902f171dcd275343923f6b361eb0d0659afac27",
+    "output/is6-planet-navigation-product0.24.0/app/field_sections.py": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e",
+    "output/is6-planet-navigation-product0.24.0/app/forces.py": "8a5696fd943c2327fee7a71788d8bcf6e8cfc5a1396cc656595dfede375a8c30",
+    "output/is6-planet-navigation-product0.24.0/app/fusion.py": "c44fcae2f1ee24dcc2b7c762898c5832df70986df655e5abd1165eb46df5070d",
+    "output/is6-planet-navigation-product0.24.0/app/geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+    "output/is6-planet-navigation-product0.24.0/app/gravity_experiments.py": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474",
+    "output/is6-planet-navigation-product0.24.0/app/gravity_field.py": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5",
+    "output/is6-planet-navigation-product0.24.0/app/gravity_harmonics.py": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae",
+    "output/is6-planet-navigation-product0.24.0/app/gravity_instruments.py": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7",
+    "output/is6-planet-navigation-product0.24.0/app/import_dispatch.py": "f634e5377379d34bcf543c3862e1e7790ac2f7598e1c47a2d9b028ca595085d7",
+    "output/is6-planet-navigation-product0.24.0/app/instrument_history.py": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3",
+    "output/is6-planet-navigation-product0.24.0/app/instrument_scene.py": "3f5450ba5c78987c8f0d504e437e46a0c15ac36c1d8967fc988e53b4d130638b",
+    "output/is6-planet-navigation-product0.24.0/app/is4_body_snapshot.py": "43338578a784579b19cc032888ac8fb516322b5bebf0fd9c4346e2375ee1e1d0",
+    "output/is6-planet-navigation-product0.24.0/app/is4_client.py": "4dba32d86ffa0d98e1576d756c7b58b8bda7edc0e0ee6bd1f42b2b0540b0b24f",
+    "output/is6-planet-navigation-product0.24.0/app/is4_domains.py": "aee58f0313741fec29b65d55d2bead0343976e20e4aef27bc5eaf93ca46751f0",
+    "output/is6-planet-navigation-product0.24.0/app/is4_experiment.py": "5905195365284b5f83294b5c7e416870cc852f3b33585deb6dcaf13f5291ffd5",
+    "output/is6-planet-navigation-product0.24.0/app/is4_laboratory.py": "659789a013cc08b412de67f2b9afa065924567dcf51cc2a1d03bbf8f377edc2d",
+    "output/is6-planet-navigation-product0.24.0/app/is4_particles.py": "0eebc49fae538ac9211024ba554fe33ab8ccf4eaa7850eb771345b07d663e56b",
+    "output/is6-planet-navigation-product0.24.0/app/is4_particle_scene.py": "912df8d5265079c4bb997af27b36849ca54aa63fe5047f2ecbea6ae53f68dd3a",
+    "output/is6-planet-navigation-product0.24.0/app/is4_product_store.py": "82885d6e7e211ea3342a6b738ed54d9badeb5382d786a2dcc52c5b4dd07429c6",
+    "output/is6-planet-navigation-product0.24.0/app/is4_stream_scene.py": "123ed9308fe42fbef7790004976d5be86df3ebceff22bf6b5258ab3a9c5dc712",
+    "output/is6-planet-navigation-product0.24.0/app/is4_trajectory_transport.py": "913c18d2bf2c84d998803fb078853fc385f6e5da009759076788981a33d39b72",
+    "output/is6-planet-navigation-product0.24.0/app/is4_values.py": "3f0c824510506a0a4e23e3b85cbda9aa5d642b67b7f13058faef623890bd155c",
+    "output/is6-planet-navigation-product0.24.0/app/is4_wind_diagnostics.py": "a1de7ae2b0ea389f59728799e7134c6759087b3dba802ec7630fc800beae7e1f",
+    "output/is6-planet-navigation-product0.24.0/app/is4_wind_field.py": "187a5946ef60e41e2b31de28464c43c6eb5e6327e15e37019316cb367d14b2d1",
+    "output/is6-planet-navigation-product0.24.0/app/is4_wind_reading.py": "e6854954aafe280b109689b7174e6bed20ba4a2cc7ef61bd8c9ae879e9d57628",
+    "output/is6-planet-navigation-product0.24.0/app/is4_wind_snapshot.py": "5e34940f911212757cf55e91ea5200e1be2d44150dbabd7fb03a28573ffb30ae",
+    "output/is6-planet-navigation-product0.24.0/app/is4_worker.py": "966d66d2a0b52e05790f521f653d3ec65b8a48c8ed763ed723cb092da5bcf51a",
+    "output/is6-planet-navigation-product0.24.0/app/is5_artifact.py": "85713e1ed1249af3a1577987e34734409cdee4b2c637564d307b13e202b1588e",
+    "output/is6-planet-navigation-product0.24.0/app/is5_client.py": "0b0a90356a31ab298862a11e31aad127b35a2fff11802a1c553c8ceac4f070cd",
+    "output/is6-planet-navigation-product0.24.0/app/is5_cno2_artifact.py": "61f66deddf6140e27bcc94993acd002ecb8773adf0512f4b5d81b27f9e2be0c7",
+    "output/is6-planet-navigation-product0.24.0/app/is5_cno2_client.py": "10843570c3d7a368e50bf6b1e017b2270bd375f89e72b85e4dc00aff7e5856e8",
+    "output/is6-planet-navigation-product0.24.0/app/is5_cno2_worker.py": "dbbc2a94119073742af707d8c3d5a323fd2f15e3d56247a8f61e27b31b743a7c",
+    "output/is6-planet-navigation-product0.24.0/app/is5_compression_artifact.py": "3950d2dbdf2f257af30f9c31447cedd800ba9061b209c19d62226727a419b517",
+    "output/is6-planet-navigation-product0.24.0/app/is5_compression_calculate.py": "bd0744851892fcec7d8c168111c29a1a8329d64d97ea6b53d1329805e17199ad",
+    "output/is6-planet-navigation-product0.24.0/app/is5_compression_client.py": "1c3776a824a64e68891cec758eb062fb25755f1ab65178cc9dfbcdc1cdd3a2e6",
+    "output/is6-planet-navigation-product0.24.0/app/is5_compression_process.py": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8",
+    "output/is6-planet-navigation-product0.24.0/app/is5_compression_worker.py": "d55fbf0e489284d974f6c944c7d2ea7e627e3058e8f61b78b2baef9cfabc548e",
+    "output/is6-planet-navigation-product0.24.0/app/is5_core.py": "d0f2e96496f902c3b9ccbfb859fecab77f41d9a9e74897dabccfafd9aa01dd29",
+    "output/is6-planet-navigation-product0.24.0/app/is5_coulomb_artifact.py": "ca921a0b2434143b67b3eccea82a864360a457d62362f04e3a5723a9b443cc5b",
+    "output/is6-planet-navigation-product0.24.0/app/is5_coulomb_calculate.py": "5c39b3c95c7a6cdd458e778092bb361a901f4a251e21f5fcb5fd4355186b2114",
+    "output/is6-planet-navigation-product0.24.0/app/is5_coulomb_client.py": "5761b775c5eb75e71cad3f5ec59d8ba0566ee7dc967fd4fb6b2e47f696914490",
+    "output/is6-planet-navigation-product0.24.0/app/is5_coulomb_process.py": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8",
+    "output/is6-planet-navigation-product0.24.0/app/is5_coulomb_worker.py": "6ee49110f005f4602d76d85b10da2e27696786190f4755b963b3854f2cc18f3e",
+    "output/is6-planet-navigation-product0.24.0/app/is5_laboratory.py": "be542ea69943e28f899aba8edee7d5443115823e939cbffca7f42aeb7318b5a2",
+    "output/is6-planet-navigation-product0.24.0/app/is5_pp2_artifact.py": "7ff6af08f000abda872ae005571a787794c15aec74d98a536deaf6a5888f48a1",
+    "output/is6-planet-navigation-product0.24.0/app/is5_pp2_client.py": "8134a47c22aff5f31ed1298513326142fdd1d6240ff0c49ec87a91999b74485e",
+    "output/is6-planet-navigation-product0.24.0/app/is5_pp2_worker.py": "881f58ca79b6077de2a10af1a490f763e0cc69e19090026d16bfeceac5f2f2bd",
+    "output/is6-planet-navigation-product0.24.0/app/is5_pp3_artifact.py": "4ecafa39037becfa676c6ec9156b8c7ff8e1abc77e04cd14c08113e2a4c857e0",
+    "output/is6-planet-navigation-product0.24.0/app/is5_pp3_client.py": "d60f2b9c6436c3ff5f9001e1b834659d043973000ea284dae04290c7f21789d0",
+    "output/is6-planet-navigation-product0.24.0/app/is5_pp3_worker.py": "b1915a1a2739207d28644d8a91b5eeac6dc207c99cafbbbbe06b2f0a5b930691",
+    "output/is6-planet-navigation-product0.24.0/app/is5_reference_browser.py": "63b77f1713e08e460ab82db3bf755092e874c3c836046351fdb9d67da406b746",
+    "output/is6-planet-navigation-product0.24.0/app/is5_reference_cno.py": "00d409e2b649e41c1f03d66edc6c744b7c2eff9132273b82408e4ca2b83dc41c",
+    "output/is6-planet-navigation-product0.24.0/app/is5_reference_manifest.py": "b11dfef5443e2e43531489dabb61302e55d976310dfe633534494504cb14a035",
+    "output/is6-planet-navigation-product0.24.0/app/is5_reference_pp.py": "9ac515e8c40b3b8bf23b548d7cc585c4b7b2ab2b55c6f25a02a249956921fd84",
+    "output/is6-planet-navigation-product0.24.0/app/is5_solar_source.py": "44114fd4f946a6ac91c62723899be497a1587412232ee30cfc3a0e26abc4ed02",
+    "output/is6-planet-navigation-product0.24.0/app/is5_thermal_artifact.py": "57a084cf52af93d69e9bf487b66c42c9f9432667fe9fc73d637ea90c348d160c",
+    "output/is6-planet-navigation-product0.24.0/app/is5_thermal_client.py": "ef5f36afc6c54a3f57c7fff244ea5d707818fb534ad8b7d5cf98cb02b146273a",
+    "output/is6-planet-navigation-product0.24.0/app/is5_thermal_worker.py": "6b5c138f20c690ffe88012dd1eebf1cfefde5d8b5831b41e351942366e959630",
+    "output/is6-planet-navigation-product0.24.0/app/is5_worker.py": "55bd92c7c45c946f43d89f649db5042c524742189254f3d214d9fffa21fd51ee",
+    "output/is6-planet-navigation-product0.24.0/app/is6_laboratory.py": "696d75341a301fd34a7fd6a54cf5a09e106defe701a54c4de5f9a66fa3420e2d",
+    "output/is6-planet-navigation-product0.24.0/app/is6_layers_checkpoint_v2.py": "8d05595b50b47971c7f953109baf0d8dc9a7016602d9140434c0966f26db25ab",
+    "output/is6-planet-navigation-product0.24.0/app/is6_layers_import_store_v2.py": "4e13e0f4c4e12ddb40cf108797f103f50dc5589a7cf247c10e9ecf0f1e74ccea",
+    "output/is6-planet-navigation-product0.24.0/app/is6_layers_laboratory.py": "6d1ff837e0a45842c290be70bc3069029825de1a3fe25f47e6065e638d460527",
+    "output/is6-planet-navigation-product0.24.0/app/is6_layers_migration.py": "e510751b7a79ccb1e7a73c3e5ef53bfa114dd91d8e128d9f884ca1b29f396a4d",
+    "output/is6-planet-navigation-product0.24.0/app/is6_layers_saved_scene.py": "2f682d1db0349905f391de69efef3d1b9b20cd5621d13b3ed284ab793b8a195a",
+    "output/is6-planet-navigation-product0.24.0/app/is6_layers_scene.py": "dec60d7ac7bd33cd8f4435e5915d6590357f0bcb517c752cfdf39eed0165712a",
+    "output/is6-planet-navigation-product0.24.0/app/is6_layers_store.py": "44cfd158824b5d545e8f1d5ea1823d086119745946a3be69c3f0bf526a9ee631",
+    "output/is6-planet-navigation-product0.24.0/app/is6_layer_contract.py": "f721b43a55a5e4dd2bfedce262bba85ce099573cc039736a62b677cb9b5f1ce2",
+    "output/is6-planet-navigation-product0.24.0/app/is6_planet_catalog.py": "8543d08ed528bdfbe40943ba046bd70235444f74ccd455c503fab8c6505798db",
+    "output/is6-planet-navigation-product0.24.0/app/is6_planet_catalog_v2.py": "9fa3ebef663402dc076daacdbe0249a13e684fe76ad8cf3f98b2842471a38aca",
+    "output/is6-planet-navigation-product0.24.0/app/is6_product_scene.py": "9facb179adad2699c198821d3e4f936b4241deb4bcf650d86b73593e528e25e6",
+    "output/is6-planet-navigation-product0.24.0/app/is6_spatial_import.py": "632ec6a3221df0dca3f7c22acabccf0b51209852347156611d7a51ac5b886086",
+    "output/is6-planet-navigation-product0.24.0/app/is6_spatial_import_laboratory.py": "5a68f68a5da56d057cd7632dfce495de67e47b157a2df4bc16121dc54b619dea",
+    "output/is6-planet-navigation-product0.24.0/app/is6_spatial_import_scene.py": "5fd201379a07028ac03b5692e406221aa8996a151fee96fa42bf11876acb20c1",
+    "output/is6-planet-navigation-product0.24.0/app/is6_spatial_import_store.py": "91aa6b9855db546e8fe408d3bdba907d63ff5b5fb9fd0ec3755eb6907170cefe",
+    "output/is6-planet-navigation-product0.24.0/app/j2_field.py": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7",
+    "output/is6-planet-navigation-product0.24.0/app/jrm33-coefficients.json": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+    "output/is6-planet-navigation-product0.24.0/app/jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28",
+    "output/is6-planet-navigation-product0.24.0/app/jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+    "output/is6-planet-navigation-product0.24.0/app/laboratory.py": "cddf56c89580301f417d6b9bef7e93a50da75d719fe3fc63e56bd49fa7696a67",
+    "output/is6-planet-navigation-product0.24.0/app/material_driver.py": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9",
+    "output/is6-planet-navigation-product0.24.0/app/material_tides.py": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb",
+    "output/is6-planet-navigation-product0.24.0/app/navigation.py": "fefa696249d460e5b966a436eb68bc6007f48a7496d5ee3622b24e402865ae51",
+    "output/is6-planet-navigation-product0.24.0/app/nuclear_energies.py": "5b850fedba33905c6e7ba3ba5b05d40704285eeea00f0db077c30341eeac2d5c",
+    "output/is6-planet-navigation-product0.24.0/app/nuclei.py": "10ad5c228582bb6c59384ec05dd7533584afcdd50d9d316e8f47d322aa94ac3e",
+    "output/is6-planet-navigation-product0.24.0/app/orbital_diagnostics.py": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59",
+    "output/is6-planet-navigation-product0.24.0/app/orbital_instruments.py": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5",
+    "output/is6-planet-navigation-product0.24.0/app/orbit_scene.py": "f382a770e4de1a575cf882d281ae7591f10727ff7bb225bf748729ba37d3de9d",
+    "output/is6-planet-navigation-product0.24.0/app/packages.py": "289267c353687f0ba5c6df53dedae90a084264e3669e7d3314784f54ed9e87aa",
+    "output/is6-planet-navigation-product0.24.0/app/physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+    "output/is6-planet-navigation-product0.24.0/app/planet_atlas.py": "65f764fe663165c8efa84d66edc1c30fd13ce1a759dff6c6f5a1efae1dcb458a",
+    "output/is6-planet-navigation-product0.24.0/app/planet_navigation.py": "00797d36ca7cbda9874692e8d2a1ac08ba80e99922cd91f1e7e55cec7623a899",
+    "output/is6-planet-navigation-product0.24.0/app/planet_scene.json": "bb69ccbf42b24faaf4b5d8dc30e4589797719401c597708fd0e8f225d87fb3a3",
+    "output/is6-planet-navigation-product0.24.0/app/probe_comparison.py": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb",
+    "output/is6-planet-navigation-product0.24.0/app/reference-manifest.json": "5ee84d0068e4a4877cb9a897a032812d541de1c8ec16582e8197307baf39af19",
+    "output/is6-planet-navigation-product0.24.0/app/relativity.py": "50637a4e9c02e2c70341423eb4ec1fcb8dd6bc4cbb719baff6061bcae12373bf",
+    "output/is6-planet-navigation-product0.24.0/app/resonant_angles.py": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0",
+    "output/is6-planet-navigation-product0.24.0/app/science_contracts.py": "2b46b66b1f5f589b4e14c6a5adb24e741c39b4cee8f2c1e9f669c2fe9e9a5e91",
+    "output/is6-planet-navigation-product0.24.0/app/server.py": "3d59d81ecc80d812a58969d86a0b2c748af98fccbc7d78c2b7dfdcb14007eed2",
+    "output/is6-planet-navigation-product0.24.0/app/session.py": "caaeaada0ceddf0c39ce4bc0ac4bce24504b9418bd93862fe3a660358718485d",
+    "output/is6-planet-navigation-product0.24.0/app/solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+    "output/is6-planet-navigation-product0.24.0/app/solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+    "output/is6-planet-navigation-product0.24.0/app/solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+    "output/is6-planet-navigation-product0.24.0/app/solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+    "output/is6-planet-navigation-product0.24.0/app/stellar.py": "c5e4ce10987fb6935785cbf0d44967a28df6e5a7d4c3a0d138866f8a51b8f166",
+    "output/is6-planet-navigation-product0.24.0/app/test_cloud.py": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826",
+    "output/is6-planet-navigation-product0.24.0/app/worker.py": "2fbd0aa78c84e851ac9fd6d839dfbd1aaab658046197b4ad6422809f4d30b335",
+    "output/is6-planet-navigation-product0.24.0/app/references/AAG21.json": "d0df2fb698f3cd1bcded07fd0238d84fb91deee632152d50af9af361d9bf8fad",
+    "output/is6-planet-navigation-product0.24.0/app/references/AGSS09-ideal-EOS-Age1.json": "5ffa4972b0e52fbf56796f710c9d7ed99d19b162eb1db5a2501c54b97c6aa142",
+    "output/is6-planet-navigation-product0.24.0/app/references/AGSS09.json": "27249fde184ba8f5fbbeebfd944be33afbad1beedf77eb648144012c28c2deae",
+    "output/is6-planet-navigation-product0.24.0/app/references/B23-metadata-original.json": "bff47fd4295c07c1da0a255beadd61a049a88aaa6e21b9b5a6ee74212abed15f",
+    "output/is6-planet-navigation-product0.24.0/app/references/C11.json": "1fc77007ac474289021b0262b09d76f6ab2b09c038e95fb025e0fff32d4b97dc",
+    "output/is6-planet-navigation-product0.24.0/app/references/GS98-ideal-EOS-Age1.json": "d692f63e45297828e3e2e35aaab00174a468e1d3fae3792ccc3540d91a3ae0c0",
+    "output/is6-planet-navigation-product0.24.0/app/references/GS98.json": "8b4205361e0420411c81c394bec2a102848910987b5e8cbfc5f129053e9df895",
+    "output/is6-planet-navigation-product0.24.0/app/references/MB22m.json": "31f25f8b9ba3fd66cecaee032acfdb8b05c577647eb54ba815514db5dccdaf4e",
+    "output/is6-planet-navigation-product0.24.0/app/references/MB22p.json": "f827f7f96277f7ed0a50d4d74e15a554571a3d24d8f34ff87ade1f999837efca",
+    "output/is6-planet-navigation-product0.24.0/app/references/README-B23-original.txt": "6a7131a68db7e5753b77b7ddf61b833894a1603130c3734fa029e3a6133d5e4f",
+    "output/is6-planet-navigation-product0.24.0/app/ui/app.js": "877aabb166f9fa78684b3478825045396c6cae8018cd370f2136d1bbf6ec263b",
+    "output/is6-planet-navigation-product0.24.0/app/ui/body-attributes.js": "e2a6d3b2596c43386438a705ff3b177df12f296cffc47c414cfc69e9f0e2e3c0",
+    "output/is6-planet-navigation-product0.24.0/app/ui/body-editor.js": "d7ffafa7a8fad4adc763462d2b0bb85fc0dd39d2c169fe44a8264e7f535fed00",
+    "output/is6-planet-navigation-product0.24.0/app/ui/body-field-map.js": "4f3e28018da5e03409b22964f20bdfefad03672b7f7f7b315c625fc1e672c57f",
+    "output/is6-planet-navigation-product0.24.0/app/ui/body-field-vector.js": "6111db1df2e3aeda9707570e84422e91edc8c6903cfa2300eff0c34d5f07ca27",
+    "output/is6-planet-navigation-product0.24.0/app/ui/branches.js": "054286ff6a7b20cf793e14644df8254544d1b56235aadbb251990a9ca28ea997",
+    "output/is6-planet-navigation-product0.24.0/app/ui/content.css": "f9879319e0f7ae78a44591f9ab5ece5a73d624dc8d24d591b92a86c90475681b",
+    "output/is6-planet-navigation-product0.24.0/app/ui/content.html": "2eeaa6c4137904f95b48136e6bf16e3048b6eec26ba1315be1e3cbc6f2a85aef",
+    "output/is6-planet-navigation-product0.24.0/app/ui/content.js": "cfe0bc170a14d5576e281c44343802b119be52832bcef221fd6993687be3f5be",
+    "output/is6-planet-navigation-product0.24.0/app/ui/decays.js": "d9d29e3e2af599a4e636f59cae95d14924ca267c409d9cccd52d4a020209f8d8",
+    "output/is6-planet-navigation-product0.24.0/app/ui/earth-field.js": "ad7994a929eed6870c47a18ddce97350496117795b059172fae065cddd96e06c",
+    "output/is6-planet-navigation-product0.24.0/app/ui/forces.css": "461308d6e50cff1d45f832ae6d3a11883021751674f3b4aee487c1a101d0dfac",
+    "output/is6-planet-navigation-product0.24.0/app/ui/forces.html": "933bc14341f4f6b2058c020f589fca063f4ba601e50796e60c6b626d931f2bbf",
+    "output/is6-planet-navigation-product0.24.0/app/ui/forces.js": "092c456b5bfe76305f32ea4b0bd427012b9460b952e2186a0baf552290848f1c",
+    "output/is6-planet-navigation-product0.24.0/app/ui/fusion.js": "32ab742c9f90c7b29809122cd47ef01983770aff1108f16ba0d2e2fd26734b1d",
+    "output/is6-planet-navigation-product0.24.0/app/ui/geomagnetism.js": "598bae70fed268ae923b50b55086941403312e8500fd71a22787e951c12ccc9f",
+    "output/is6-planet-navigation-product0.24.0/app/ui/gravity-experiences.js": "6ac356af3e98f95dd6d2d61e5c595ba792c5e8be9fc8585076694d7f36975398",
+    "output/is6-planet-navigation-product0.24.0/app/ui/gravity-fields.js": "8b6b2d2f1a64ec782c557d58164e2f4b159e0895124a95bbd7851ec5c4dac97e",
+    "output/is6-planet-navigation-product0.24.0/app/ui/gravity-harmonics.js": "837e3b4eb2997e9b130155674c90e80cc92fa779e2bd1a426844daccaa0f45cc",
+    "output/is6-planet-navigation-product0.24.0/app/ui/gravity-instruments.js": "0ec9022849bfe78ee2570b17ecc0c105b44d8d4ef9baf5774d167fec686ae7f3",
+    "output/is6-planet-navigation-product0.24.0/app/ui/gravity-probe.js": "2a79aef0f81a0130ff7d4cb7de3d78a15339432e07788456cba3820c95ea0484",
+    "output/is6-planet-navigation-product0.24.0/app/ui/index.html": "6c35439c8d582c2370fa1eb7cb8e5ff1973d76c684e7b393333a90fbe96f4c8b",
+    "output/is6-planet-navigation-product0.24.0/app/ui/instrument-history.js": "d9368a341afe7b2738f27c2050b3ff177ecef2ca55397ed338e18089f7d9fe9c",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is4-panel.fragment.html": "5402619b772dac20adf19e06ca4422bb28fbfeddd97367a21295369769bee9f9",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is4-particle.css": "a1f832c1a2b7395863846520e08ddfb8e464428c5d1a4e7787a8aaa824b55792",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is4-particle.js": "7adcf6b0b20a28e31e2604f36ba889c4e76ee6b761446234f3027cf360cd4522",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is4-setup.fragment.html": "e05d9e71b578ffb0e3b20ac84c533e2501e995f151c106ba6275b35c89d77b5e",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is4-wind-setup.fragment.html": "99758cde5721a6513f20bba5c0448034ffbef600b21bf7e3907b0762b4bf8ce8",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is5-zone-panel.html": "160c44a738147e5a894dfc91ee066db73fb056c9523f46b7d5f9c68e39bebf95",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is5-zone.css": "97a7a8ee5c1aab3527b622f5bd678a6947baf7c23f526c328e585cb38ca7122b",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is5-zone.js": "46a1f748db43e04a8ef895c06842d66663f83bc30f9e5fbe2c64e3b995e5a1a2",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is6-layers-panel.html": "f76ff6b04ab74e56db942d1d04dbc76871975406623a8508838364d8bb4dcfdb",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is6-layers.css": "c61a1c9a6a06ccbeb0c10535d5a1500ff3eba1af5e87ff9635428c0865b3f24d",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is6-layers.js": "3a98a6cee7f6dcbe9a7aeb7bf43f83ee2eeb1188b390f0627dc700d1dd8b1534",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is6-spatial-panel.html": "e2f77c99858440882c0d7758cd6e0abd57c9cd352a04c04638606a898f068454",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is6-spatial.css": "6954227d672b81c57972e25c146e2d0f12bd2d1ee03013c42709270a92a82aef",
+    "output/is6-planet-navigation-product0.24.0/app/ui/is6-spatial.js": "ef34b77461e692cf6d2fabbbd12afc9c63c488bc68039fae4a9a553f0ed2c047",
+    "output/is6-planet-navigation-product0.24.0/app/ui/jupiter-field.js": "a60901311af45084ebdeaa0668ad25af9d419c04a7a40fcf75b87ff35e2b4aee",
+    "output/is6-planet-navigation-product0.24.0/app/ui/material-tides.js": "1b287b9bb54fe50f1764d91463b694be2f9c3a7d5baac85a792a6324abf7c701",
+    "output/is6-planet-navigation-product0.24.0/app/ui/navigation.js": "f498e128a987c83fa5966f38dccc1467165a910cddf7336c07b3f793415accaf",
+    "output/is6-planet-navigation-product0.24.0/app/ui/nuclear-energy.css": "d1ad0ec936e8111818ad56aed0f30a3c95efe0e319d21c5b2c927b71c85617c2",
+    "output/is6-planet-navigation-product0.24.0/app/ui/nuclear-energy.html": "4b655211cfab257512ad959f5f8010ed497b65dc5c20ec18dcea29daef378ae2",
+    "output/is6-planet-navigation-product0.24.0/app/ui/nuclear-energy.js": "068d86f6b70875533674026c90f9da030da7475aef6a5f2f43cb3e36bc36e27f",
+    "output/is6-planet-navigation-product0.24.0/app/ui/nuclei.css": "3b79851b22aa981e38354ec4a4ece469fc4dbbee8f338aff5ea040d6b07c2547",
+    "output/is6-planet-navigation-product0.24.0/app/ui/nuclei.html": "e0975e132f969941a0855b9e1486cca4b284628303214c889cd1d828000687a5",
+    "output/is6-planet-navigation-product0.24.0/app/ui/nuclei.js": "66f80c499117e28f1bce18612260a1cf5fc690d7598008b63e2002bd99712cdd",
+    "output/is6-planet-navigation-product0.24.0/app/ui/orbit-editor.js": "43003e3c442d3dc61cd1c5ed19ec151913bbcd6bbee16240cc1a0e98808a6776",
+    "output/is6-planet-navigation-product0.24.0/app/ui/orbital-instruments.js": "1c8cd58875423234b0b8e066b217dc90cbe45a81b463a9475344413526a813bc",
+    "output/is6-planet-navigation-product0.24.0/app/ui/planet-catalog.html": "9e1d95753d771abef263c1038424488bfdc045cd734e521f02f970b6fe3817e7",
+    "output/is6-planet-navigation-product0.24.0/app/ui/planet-catalog.js": "69d268830c16fb0a6682c8053986e2e2cfdd866c5ed49f1869116ef080e71de1",
+    "output/is6-planet-navigation-product0.24.0/app/ui/planet-definitions.js": "16db90e7e525ea0e12d62500c0a18d1a9bb4eb40ba6f18f1db3c12d305602ec0",
+    "output/is6-planet-navigation-product0.24.0/app/ui/solar-tide.js": "a47ab6a75f64a382ad711939cf3c8c70166dc9a56dec4f66e79b74fe86c98e03",
+    "output/is6-planet-navigation-product0.24.0/app/ui/solar.js": "8f6ef004006ae29ae509e5cb718c95dc157c323255b68573b96dbc483e489093",
+    "output/is6-planet-navigation-product0.24.0/app/ui/stellar-reference-panel.html": "03e5cd370255d795157314f1774257f4c253be1bc2ff2d3736a2e0c922daaac2",
+    "output/is6-planet-navigation-product0.24.0/app/ui/stellar-reference.css": "846af8965445a164fa2bbb5e6ebb898a6733634d0f3e6c51a21747dc77267563",
+    "output/is6-planet-navigation-product0.24.0/app/ui/stellar-reference.js": "899fdfcc099889bd005da0aa388210d2a516b5b70a16e9e27174430cb4a11a5e",
+    "output/is6-planet-navigation-product0.24.0/app/ui/style.css": "d7659d8b97d394e19fbf364916496c2fa12d1e18f64e043f7a97df16ec48ac43",
+    "output/is6-planet-navigation-product0.24.0/app/ui/test-cloud.js": "1f3611ac8304d49351d975316f90a627530de849ef3f2cab9aef4a0873655740",
+    "scripts/verify-native-is6-planet-navigation-v4.py": "655fa515c65b92f393a3ca7c66abf8b115584aed6b13fae1c7ab9fe6ddf40704",
+    "scripts/cef_page_v2.py": "6e6899c8d557ca9b444aeebfd454a5a9ed43eb9b7abc371a871ddd1f94f41cbe",
+    "scripts/benchmark-body-points-native.py": "0b7c2ba5f4a5ef432a6d6a0027aa90e241764a89b016fcbbb1bbbd42d8b35f20",
+    "IS-6-NAVEGACAO-OITO-PLANETAS-CONTRATO.md": "9eae904cdd903c52862c9abcd877062d511ae4f6a19fe6a572fa1950ca33ecd0",
+    "evidence/is6-planet-navigation-native-20261111a.json": "1d1f6584ff262ddcc12ff48ced40f0970e621d5c2b76c3c6d8f0e435f3e7b17b",
+    "scripts/verify-native-is6-planet-navigation.py": "89d239f4911fd5c0dfc70b90e07b422ca4209a3a80e4118bdc2bc2268fb2d0e9",
+    "scripts/verify-native-is6-planet-navigation-v3.py": "01c186bfc3858ce25f617b69399e16286b4d0df0f47df6e4de680f05cc9d4906",
+    "evidence/is6-planet-navigation-native-20261111c.json": "4bc9be98b2cc8b9cc3e03dc4639039aaf36275224e29173ca41465d4d011212f",
+    "output/is6-planet-navigation-staging/atlas.profile": "37223b54423b3baeb25af131e3889b2b8a62b0e72e6b59d51416e20ee71c4c98",
+    "output/is6-planet-navigation-staging/cosmos2.cfg": "4a570a849ddfc2631cab175ccb931bb8852564c5f9eab9b145ed46bce6554e36",
+    "output/is6-planet-navigation-staging/is6_planet_catalog_v2.py": "9fa3ebef663402dc076daacdbe0249a13e684fe76ad8cf3f98b2842471a38aca",
+    "output/is6-planet-navigation-staging/planet_atlas.py": "65f764fe663165c8efa84d66edc1c30fd13ce1a759dff6c6f5a1efae1dcb458a",
+    "output/is6-planet-navigation-staging/planet_navigation.py": "00797d36ca7cbda9874692e8d2a1ac08ba80e99922cd91f1e7e55cec7623a899",
+    "output/is6-planet-navigation-staging/planet_scene.asset": "e3ddc8f92f26a9373f5f30a7fc0ed7344da824070461b1a3a5376ea9f7492508",
+    "output/is6-planet-navigation-staging/planet_scene.json": "bb69ccbf42b24faaf4b5d8dc30e4589797719401c597708fd0e8f225d87fb3a3"
+  },
+  "source_archive": "output/is6-planet-navigation-native-20261111d/executed-sources.zip",
+  "source_archive_sha256": "72440ca21b36ae2f61004efc90e886ab14851b3fe9c24ba0adb47e2c825b1dc6",
+  "capture_checks": {
+    "path": "evidence/is6-planet-navigation-native-20261111c.json",
+    "sha256": "4bc9be98b2cc8b9cc3e03dc4639039aaf36275224e29173ca41465d4d011212f",
+    "captures": [
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/mercury-100.png",
+        "sha256": "04bf6d0318e67862018c4b361b42e933588950e9a3a39637a584621ce217429a",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000012.png",
+        "target": "Mercury",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Mercúrio",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Mercury",
+          "anchor": "Mercury",
+          "limitation": "Mapa visual fixo OpenSpace: 11520 × 5760 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/mercury-150.png",
+        "sha256": "6d9bb3d124df850ab0c61fa9c69eeb6be8709b7f3cd8d293fff577472bfcdc3b",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000013.png",
+        "target": "Mercury",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Mercúrio",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Mercury",
+          "anchor": "Mercury",
+          "limitation": "Mapa visual fixo OpenSpace: 11520 × 5760 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/venus-100.png",
+        "sha256": "860f6ddd16ccf542c1bdd4a8e21041253f714ad88387cc8dd7a9431088f90893",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000014.png",
+        "target": "Venus",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Vênus",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Venus",
+          "anchor": "Venus",
+          "limitation": "Mapa visual fixo OpenSpace: 1800 × 900 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/venus-150.png",
+        "sha256": "89d1fa2b7c26569ffc4b8d48dd4ee1ff312fe38e2666541a848d0e3fa40e8d9c",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000015.png",
+        "target": "Venus",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Vênus",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Venus",
+          "anchor": "Venus",
+          "limitation": "Mapa visual fixo OpenSpace: 1800 × 900 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/mars-100.png",
+        "sha256": "d972fa596b0843567a85dec1ebec5a347d17c26de0b3df528e83aa0d93219592",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000016.png",
+        "target": "Mars",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Marte",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Mars",
+          "anchor": "Mars",
+          "limitation": "Mapa visual fixo OpenSpace: 8192 × 4096 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/mars-150.png",
+        "sha256": "522ea6a45b5aaf0e573171b59e4c64c7379546e951a00bda2badeff8158a2c7d",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000017.png",
+        "target": "Mars",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Marte",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Mars",
+          "anchor": "Mars",
+          "limitation": "Mapa visual fixo OpenSpace: 8192 × 4096 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/jupiter-100.png",
+        "sha256": "1c1f42518d0de8a17edeefbd736d0a80db655868d64eea270dcf5f827f29a448",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000018.png",
+        "target": "Jupiter",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Júpiter",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Jupiter",
+          "anchor": "Jupiter",
+          "limitation": "Mapa visual fixo OpenSpace: 4096 × 2048 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/jupiter-150.png",
+        "sha256": "39b5d5fea1f771f692cd0781bd168aa31496b1bf426c18e8beb9a42b029eb28a",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000019.png",
+        "target": "Jupiter",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Júpiter",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Jupiter",
+          "anchor": "Jupiter",
+          "limitation": "Mapa visual fixo OpenSpace: 4096 × 2048 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/uranus-100.png",
+        "sha256": "1287982671963ecca41d57643e532b411c88b5c66fe8097323e2bc471c32aaea",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000020.png",
+        "target": "Uranus",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Urano",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Uranus",
+          "anchor": "Uranus",
+          "limitation": "Mapa visual fixo OpenSpace: 2048 × 1024 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/uranus-150.png",
+        "sha256": "dcb371bca94d52f0924ce976109396f0d5c4ccf7ab1cf5f4468e1c2d499d3362",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000021.png",
+        "target": "Uranus",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Urano",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Uranus",
+          "anchor": "Uranus",
+          "limitation": "Mapa visual fixo OpenSpace: 2048 × 1024 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/neptune-100.png",
+        "sha256": "893c5a045aac0f5f40c786a638fc6a7d733f2c74de32daa3fc76cded9b9abbd8",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000022.png",
+        "target": "Neptune",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Netuno",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Neptune",
+          "anchor": "Neptune",
+          "limitation": "Mapa visual fixo OpenSpace: 3000 × 1500 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111c/neptune-150.png",
+        "sha256": "6ce3c5139b9c3399614654b8c18633b8311873a4a682d2317f472fbe4d2eac9e",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000023.png",
+        "target": "Neptune",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Netuno",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Neptune",
+          "anchor": "Neptune",
+          "limitation": "Mapa visual fixo OpenSpace: 3000 × 1500 pixels. Época de aquisição desconhecida."
+        }
+      }
+    ]
+  },
+  "prior_checks": {
+    "path": "evidence/is6-planet-navigation-native-20261111a.json",
+    "sha256": "1d1f6584ff262ddcc12ff48ced40f0970e621d5c2b76c3c6d8f0e435f3e7b17b",
+    "epochs": [
+      {
+        "utc": "1995-01-01T00:00:00Z",
+        "et": -157809538.81607857,
+        "bodies": [
+          {
+            "node": "Sun",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001
+          },
+          {
+            "node": "Mercury",
+            "position_error_m": 7.62939453125e-06,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Venus",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Earth",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 5.551115123125783e-17
+          },
+          {
+            "node": "Moon",
+            "position_error_m": 3.0517578125e-05,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Mars",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 2.0816681711721685e-17
+          },
+          {
+            "node": "Jupiter",
+            "position_error_m": 1.52587890625e-05,
+            "position_budget_m": 0.001,
+            "orientation_error": 2.7755575615628914e-17
+          },
+          {
+            "node": "Saturn",
+            "position_error_m": 0.0001220703125,
+            "position_budget_m": 0.001953125,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Uranus",
+            "position_error_m": 0.000244140625,
+            "position_budget_m": 0.00390625,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Neptune",
+            "position_error_m": 0.00048828125,
+            "position_budget_m": 0.00390625,
+            "orientation_error": 5.551115123125783e-17
+          }
+        ]
+      },
+      {
+        "utc": "2000-01-01T12:00:00Z",
+        "et": 64.18392728473108,
+        "bodies": [
+          {
+            "node": "Sun",
+            "position_error_m": 5.960464477539063e-08,
+            "position_budget_m": 0.001
+          },
+          {
+            "node": "Mercury",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Venus",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 4.5102810375396984e-17
+          },
+          {
+            "node": "Earth",
+            "position_error_m": 3.814697265625e-06,
+            "position_budget_m": 0.001,
+            "orientation_error": 0.0
+          },
+          {
+            "node": "Moon",
+            "position_error_m": 3.814697265625e-06,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Mars",
+            "position_error_m": 1.9073486328125e-06,
+            "position_budget_m": 0.001,
+            "orientation_error": 2.7755575615628914e-17
+          },
+          {
+            "node": "Jupiter",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 2.7755575615628914e-17
+          },
+          {
+            "node": "Saturn",
+            "position_error_m": 6.103515625e-05,
+            "position_budget_m": 0.001,
+            "orientation_error": 5.551115123125783e-17
+          },
+          {
+            "node": "Uranus",
+            "position_error_m": 0.000244140625,
+            "position_budget_m": 0.001953125,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Neptune",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.00390625,
+            "orientation_error": 5.551115123125783e-17
+          }
+        ]
+      },
+      {
+        "utc": "2026-10-11T12:00:00Z",
+        "et": 844992069.1823514,
+        "bodies": [
+          {
+            "node": "Sun",
+            "position_error_m": 1.1920928955078125e-07,
+            "position_budget_m": 0.001
+          },
+          {
+            "node": "Mercury",
+            "position_error_m": 5.7220458984375e-06,
+            "position_budget_m": 0.001,
+            "orientation_error": 4.5102810375396984e-17
+          },
+          {
+            "node": "Venus",
+            "position_error_m": 1.52587890625e-05,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.3877787807814457e-17
+          },
+          {
+            "node": "Earth",
+            "position_error_m": 7.62939453125e-06,
+            "position_budget_m": 0.001,
+            "orientation_error": 5.551115123125783e-17
+          },
+          {
+            "node": "Moon",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Mars",
+            "position_error_m": 9.5367431640625e-07,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Jupiter",
+            "position_error_m": 6.103515625e-05,
+            "position_budget_m": 0.001,
+            "orientation_error": 5.551115123125783e-17
+          },
+          {
+            "node": "Saturn",
+            "position_error_m": 0.000244140625,
+            "position_budget_m": 0.001953125,
+            "orientation_error": 5.551115123125783e-17
+          },
+          {
+            "node": "Uranus",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.00390625,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Neptune",
+            "position_error_m": 0.000244140625,
+            "position_budget_m": 0.00390625,
+            "orientation_error": 2.7755575615628914e-17
+          }
+        ]
+      },
+      {
+        "utc": "2030-06-15T18:30:00Z",
+        "et": 961050669.1845411,
+        "bodies": [
+          {
+            "node": "Sun",
+            "position_error_m": 1.862645149230957e-09,
+            "position_budget_m": 0.001
+          },
+          {
+            "node": "Mercury",
+            "position_error_m": 1.9073486328125e-06,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Venus",
+            "position_error_m": 1.52587890625e-05,
+            "position_budget_m": 0.001,
+            "orientation_error": 5.551115123125783e-17
+          },
+          {
+            "node": "Earth",
+            "position_error_m": 3.814697265625e-06,
+            "position_budget_m": 0.001,
+            "orientation_error": 5.551115123125783e-17
+          },
+          {
+            "node": "Moon",
+            "position_error_m": 1.9073486328125e-06,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Mars",
+            "position_error_m": 1.9073486328125e-06,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Jupiter",
+            "position_error_m": 6.103515625e-05,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Saturn",
+            "position_error_m": 0.0001220703125,
+            "position_budget_m": 0.001953125,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Uranus",
+            "position_error_m": 6.866455078125e-05,
+            "position_budget_m": 0.00390625,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Neptune",
+            "position_error_m": 0.000244140625,
+            "position_budget_m": 0.00390625,
+            "orientation_error": 1.1102230246251565e-16
+          }
+        ]
+      },
+      {
+        "utc": "2049-12-30T23:59:59Z",
+        "et": 1577793668.1838844,
+        "bodies": [
+          {
+            "node": "Sun",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001
+          },
+          {
+            "node": "Mercury",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Venus",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 5.551115123125783e-17
+          },
+          {
+            "node": "Earth",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Moon",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 2.42861286636753e-17
+          },
+          {
+            "node": "Mars",
+            "position_error_m": 1.52587890625e-05,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Jupiter",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.001,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Saturn",
+            "position_error_m": 0.0001220703125,
+            "position_budget_m": 0.001953125,
+            "orientation_error": 1.0408340855860843e-17
+          },
+          {
+            "node": "Uranus",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.00390625,
+            "orientation_error": 1.1102230246251565e-16
+          },
+          {
+            "node": "Neptune",
+            "position_error_m": 0.0,
+            "position_budget_m": 0.00390625,
+            "orientation_error": 1.1102230246251565e-16
+          }
+        ]
+      }
+    ],
+    "journey": [
+      {
+        "target": "Mercury",
+        "title": "Mercúrio",
+        "camera": {
+          "Anchor": "Mercury",
+          "Position": [
+            -10035320.715408325,
+            3283073.611474991,
+            4586820.189479828
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.37868943653184917,
+            -0.12388894498539749,
+            0.9171945485934792
+          ]
+        }
+      },
+      {
+        "target": "Venus",
+        "title": "Vênus",
+        "camera": {
+          "Anchor": "Venus",
+          "Position": [
+            -7041001.524402618,
+            -17096160.89490509,
+            21749388.089752197
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.29014247194573545,
+            0.7044910252665536,
+            0.6476957165923659
+          ]
+        }
+      },
+      {
+        "target": "Earth",
+        "title": "Terra",
+        "camera": {
+          "Anchor": "Earth",
+          "Position": [
+            17674090.6536026,
+            -1566585.506652832,
+            18170644.716644287
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            -0.7126743196161881,
+            0.06316960130827431,
+            0.6986450569711042
+          ]
+        }
+      },
+      {
+        "target": "Moon",
+        "title": "Lua",
+        "camera": {
+          "Anchor": "Moon",
+          "Position": [
+            -4500000.0,
+            -5000000.0,
+            3000000.0
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.2724737102066444,
+            0.3027485668962717,
+            0.9132915101370859
+          ]
+        }
+      },
+      {
+        "target": "Mars",
+        "title": "Marte",
+        "camera": {
+          "Anchor": "Mars",
+          "Position": [
+            14583658.967437744,
+            -6624890.3115234375,
+            -248172.24888324738
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.014104505432838421,
+            -0.00640722617002254,
+            0.9998799979894095
+          ]
+        }
+      },
+      {
+        "target": "Jupiter",
+        "title": "Júpiter",
+        "camera": {
+          "Anchor": "Jupiter",
+          "Position": [
+            289184938.6468506,
+            -28732630.24963379,
+            -171080732.8215332
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.5048304122194074,
+            -0.050158578938939824,
+            0.8617600430846222
+          ]
+        }
+      },
+      {
+        "target": "Saturn",
+        "title": "Saturno",
+        "camera": {
+          "Anchor": "Saturn",
+          "Position": [
+            200000000.0,
+            -150000000.0,
+            160000000.0
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            -0.43124295713869454,
+            0.3234322178540193,
+            0.8422714006615114
+          ]
+        }
+      },
+      {
+        "target": "Uranus",
+        "title": "Urano",
+        "camera": {
+          "Anchor": "Uranus",
+          "Position": [
+            86639791.99511719,
+            -72778799.48956299,
+            41615898.28564453
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            -0.26430685165702233,
+            0.2220219476236508,
+            0.9385351047992578
+          ]
+        }
+      },
+      {
+        "target": "Neptune",
+        "title": "Netuno",
+        "camera": {
+          "Anchor": "Neptune",
+          "Position": [
+            -47061442.34082031,
+            -59449267.77441406,
+            88859126.9477539
+          ],
+          "ReferenceFrame": "Root",
+          "Timestamp": "2026 OCT 11 12:00:00",
+          "Up": [
+            0.472156001771173,
+            0.5964400406029255,
+            0.6490978261841898
+          ]
+        }
+      }
+    ],
+    "captures": [
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/mercury-100.png",
+        "sha256": "3bdac2e2ec864babf58663620b391a7f77ceeca3a4e781e09538aab81d8f869e",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000000.png",
+        "target": "Mercury",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Mercúrio",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Mercury",
+          "anchor": "Mercury",
+          "limitation": "Mapa visual fixo OpenSpace: 11520 × 5760 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/mercury-150.png",
+        "sha256": "641de73bbcf9819588061bb381f1c05871dfd53beddaf961d61c48939bee76eb",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000001.png",
+        "target": "Mercury",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Mercúrio",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Mercury",
+          "anchor": "Mercury",
+          "limitation": "Mapa visual fixo OpenSpace: 11520 × 5760 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/venus-100.png",
+        "sha256": "6c23a499fcb955be115d558ffd044736929b0196478552e89c054c3a68cb8205",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000002.png",
+        "target": "Venus",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Vênus",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Venus",
+          "anchor": "Venus",
+          "limitation": "Mapa visual fixo OpenSpace: 1800 × 900 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/venus-150.png",
+        "sha256": "229be8ff5beb0259745441aed86ee7c6a20f0b72a4d93ecd0e8c85bcbea23464",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000003.png",
+        "target": "Venus",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Vênus",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Venus",
+          "anchor": "Venus",
+          "limitation": "Mapa visual fixo OpenSpace: 1800 × 900 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/mars-100.png",
+        "sha256": "4caf80a7557d09f2486385aef5f398530c2493444e565b64a50f64d09c4dc0c5",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000004.png",
+        "target": "Mars",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Marte",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Mars",
+          "anchor": "Mars",
+          "limitation": "Mapa visual fixo OpenSpace: 8192 × 4096 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/mars-150.png",
+        "sha256": "68a8fd7313358cf9a6b75d878bce7c206c8e442098427430b3a4679c8fe58cc4",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000005.png",
+        "target": "Mars",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Marte",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Mars",
+          "anchor": "Mars",
+          "limitation": "Mapa visual fixo OpenSpace: 8192 × 4096 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/jupiter-100.png",
+        "sha256": "ea03063ce5ae1d8bb07257e4035ed87b1fe552f0ea0f26fd3333e3ab537ad106",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000006.png",
+        "target": "Jupiter",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Júpiter",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Jupiter",
+          "anchor": "Jupiter",
+          "limitation": "Mapa visual fixo OpenSpace: 4096 × 2048 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/jupiter-150.png",
+        "sha256": "87060fd428521492b0b4f75d6aa6da0e77c2fa14c6ac8023b69bd67b45bff71a",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000007.png",
+        "target": "Jupiter",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Júpiter",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Jupiter",
+          "anchor": "Jupiter",
+          "limitation": "Mapa visual fixo OpenSpace: 4096 × 2048 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/uranus-100.png",
+        "sha256": "1de395205daf8e644fa8c6964cd3e6ab9aa251682264bc7ae36520fcddd1d866",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000008.png",
+        "target": "Uranus",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Urano",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Uranus",
+          "anchor": "Uranus",
+          "limitation": "Mapa visual fixo OpenSpace: 2048 × 1024 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/uranus-150.png",
+        "sha256": "4e6701c82e3bccc82c91c37dd62eea1962d237de316be3b1ac564ca4638b3a4f",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000009.png",
+        "target": "Uranus",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Urano",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Uranus",
+          "anchor": "Uranus",
+          "limitation": "Mapa visual fixo OpenSpace: 2048 × 1024 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/neptune-100.png",
+        "sha256": "5d0661a1c39ce3117f761a68742bd1bf2f2e7fe5d80a482ce997939746a231b1",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000010.png",
+        "target": "Neptune",
+        "scale": "1",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Netuno",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Neptune",
+          "anchor": "Neptune",
+          "limitation": "Mapa visual fixo OpenSpace: 3000 × 1500 pixels. Época de aquisição desconhecida."
+        }
+      },
+      {
+        "path": "output/is6-planet-navigation-native-20261111a/neptune-150.png",
+        "sha256": "fb77a820a0c5d27520ff38fee93b172c88b9e4701c9e8177b7ce87c6fb388660",
+        "native_original": "user/screenshots/2026-11-11-13-08-04/Cosmos2 Â· mediÃ§Ã£o 1080p_000011.png",
+        "target": "Neptune",
+        "scale": "1.5",
+        "method": "openspace.takeScreenshot, unedited framebuffer",
+        "ui": {
+          "title": "Netuno",
+          "notice": "Visão geral no lado iluminado.",
+          "scale": "1.5",
+          "width": 1920,
+          "height": 1080,
+          "scroll": 1920,
+          "client": 1920,
+          "selected": "Neptune",
+          "anchor": "Neptune",
+          "limitation": "Mapa visual fixo OpenSpace: 3000 × 1500 pixels. Época de aquisição desconhecida."
+        }
+      }
+    ],
+    "retained_failure": "v1 expected multiple Lua return values; API returns one vector"
+  },
+  "started_utc": "2026-11-11T16:13:07.543083+00:00",
+  "session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 50148,
+    "server": 47580,
+    "launcher": 42120,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-planet-navigation-product0.24.0\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-planet-navigation-product0.24.0\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Spatial-Import-0.24.0-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-11T16:08:00Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-planet-navigation-candidate.py",
+    "is6PlanetCatalogCandidate": true,
+    "is6PlanetNavigationCandidate": true
+  },
+  "limits_before_execution": {
+    "position_m": "max(0.001,8ULP(max absolute component))",
+    "orientation_element": 1e-12,
+    "inferred_semiaxis_m": 0.02
+  },
+  "scope": "Attached native functional checks. Raw captures require visual review. Own profile and lifecycle exits remain pending while owner window stays open.",
+  "original_navigation": {
+    "anchor_position": [
+      -557984119078.4662,
+      -319875070314.36285,
+      465528567368.0093
+    ],
+    "et": 844992069.1823514,
+    "flying": false,
+    "navigation": {
+      "Anchor": "Jupiter",
+      "Position": [
+        289184938.6468506,
+        -28732630.24963379,
+        -171080732.8215332
+      ],
+      "ReferenceFrame": "Root",
+      "Timestamp": "2026 OCT 11 12:00:00",
+      "Up": [
+        0.5048304122194074,
+        -0.050158578938939824,
+        0.8617600430846222
+      ]
+    },
+    "paused": true,
+    "positions": {
+      "Earth": [
+        -52460133554.45178,
+        65189715232.14355,
+        -123228420558.91933
+      ],
+      "Jupiter": [
+        -557984119078.4662,
+        -319875070314.36285,
+        465528567368.0093
+      ],
+      "Mars": [
+        -233102478841.73984,
+        -22811202625.337154,
+        4364691699.680344
+      ],
+      "Mercury": [
+        57161611843.65614,
+        15034269262.92884,
+        -30080305673.800117
+      ],
+      "Moon": [
+        -52257479814.476135,
+        65013786326.90584,
+        -122944236710.70308
+      ],
+      "Neptune": [
+        -443930328946.8205,
+        2089488642171.6042,
+        -3925924123615.9204
+      ],
+      "Saturn": [
+        -340544572820.6532,
+        601505287801.9176,
+        -1229644203811.2605
+      ],
+      "Sun": [
+        768617023.694856,
+        9575426.481165487,
+        160626511.21933022
+      ],
+      "Uranus": [
+        -2641404139129.656,
+        363806187944.3068,
+        -1158956618305.057
+      ],
+      "Venus": [
+        -23583735990.61218,
+        45528091228.82829,
+        -95370850753.93481
+      ]
+    },
+    "rate": 1,
+    "rotations": {
+      "Earth": {
+        "1": 0.34438054393302303,
+        "2": -0.3137945537555819,
+        "3": 0.8848361537560105,
+        "4": 0.8044722965756864,
+        "5": 0.5844877519037266,
+        "6": -0.10582245469071286,
+        "7": -0.4839693843649984,
+        "8": 0.7482693672120106,
+        "9": 0.45372523523549113
+      },
+      "Jupiter": {
+        "1": -0.7738113138273751,
+        "2": -0.36242574032835617,
+        "3": 0.5194840068184912,
+        "4": 0.6305646839171478,
+        "5": -0.36303127760385423,
+        "6": 0.6860003432052935,
+        "7": -0.06003523956159901,
+        "8": 0.8584030954212339,
+        "9": 0.5094505822766575
+      },
+      "Mars": {
+        "1": -0.8945161087840934,
+        "2": -0.023889954536814167,
+        "3": -0.44639690993329295,
+        "4": -0.4436311875438332,
+        "5": -0.07556541590673582,
+        "6": 0.89301804984966,
+        "7": -0.05506632877005396,
+        "8": 0.996854622295082,
+        "9": 0.05699615289401011
+      },
+      "Mercury": {
+        "1": 0.9740766987915155,
+        "2": -0.0759771206234674,
+        "3": 0.213077596225389,
+        "4": 0.22536469987961927,
+        "5": 0.4076515921672708,
+        "6": -0.8848903499596196,
+        "7": -0.01963000049903052,
+        "8": 0.9099712394055408,
+        "9": 0.41420647814242595
+      },
+      "Moon": {
+        "1": -0.43768774437082586,
+        "2": 0.39118629951755307,
+        "3": -0.8095694642816895,
+        "4": -0.8911161597115724,
+        "5": -0.30865426702987636,
+        "6": 0.33263273041772196,
+        "7": -0.11975570269710611,
+        "8": 0.867009701510896,
+        "9": 0.4836866228846002
+      },
+      "Neptune": {
+        "1": 0.9766198923628429,
+        "2": -0.21237404851249686,
+        "3": 0.033329406829410546,
+        "4": 0.058721465938700396,
+        "5": 0.1144012602456671,
+        "6": -0.9916976056703036,
+        "7": 0.20679790927182667,
+        "8": 0.9704687605341114,
+        "9": 0.12419746192328773
+      },
+      "Saturn": {
+        "1": -0.2193284479083138,
+        "2": 0.2910319937545448,
+        "3": -0.9312332739702681,
+        "4": -0.8062487435423145,
+        "5": -0.5915554040439553,
+        "6": 0.0050167203262170695,
+        "7": -0.5494160495240096,
+        "8": 0.7519059665660641,
+        "9": 0.3643891079159528
+      },
+      "Uranus": {
+        "1": 0.20576514005720092,
+        "2": -0.9111157789947473,
+        "3": -0.3571116693753304,
+        "4": 0.18643187522901006,
+        "5": 0.39473385946632245,
+        "6": -0.8996823528831808,
+        "7": 0.9606788553079717,
+        "8": 0.11854626716019459,
+        "9": 0.25108349110713835
+      },
+      "Venus": {
+        "1": -0.9724100332098287,
+        "2": 0.007817349690340425,
+        "3": -0.23314719890377944,
+        "4": -0.2066230238378089,
+        "5": -0.4927906013878225,
+        "6": 0.8452599299647111,
+        "7": -0.1082850559079131,
+        "8": 0.8701128158047363,
+        "9": 0.48080976949243975
+      }
+    },
+    "utc": "2026-10-11T12:00:00.000",
+    "camera": {
+      "position_render_m": [
+        -557694934139.8193,
+        -319903802944.6125,
+        465357486635.18774
+      ],
+      "forward": [
+        -0.8575376878404128,
+        0.08520261610143437,
+        0.507316102782861
+      ],
+      "up": [
+        0.5048304122194072,
+        -0.050158578938939796,
+        0.8617600430846221
+      ]
+    },
+    "occluded_targets": [],
+    "effective_rate": 0.0,
+    "mode": "orbit",
+    "target": "Jupiter",
+    "boundary": null,
+    "return_available": true
+  },
+  "original_favorites": [],
+  "epochs_verified_in_v1": 5,
+  "destinations_verified_in_v1": 9,
+  "restored_owner_view": {
+    "anchor_position": [
+      -557984119078.4662,
+      -319875070314.36285,
+      465528567368.0093
+    ],
+    "et": 844992069.1823514,
+    "flying": false,
+    "navigation": {
+      "Anchor": "Jupiter",
+      "Position": [
+        289184938.6468506,
+        -28732630.24963379,
+        -171080732.8215332
+      ],
+      "ReferenceFrame": "Root",
+      "Timestamp": "2026 OCT 11 12:00:00",
+      "Up": [
+        0.5048304122194073,
+        -0.050158578938939824,
+        0.861760043084622
+      ]
+    },
+    "paused": true,
+    "positions": {
+      "Earth": [
+        -52460133554.45178,
+        65189715232.14355,
+        -123228420558.91933
+      ],
+      "Jupiter": [
+        -557984119078.4662,
+        -319875070314.36285,
+        465528567368.0093
+      ],
+      "Mars": [
+        -233102478841.73984,
+        -22811202625.337154,
+        4364691699.680344
+      ],
+      "Mercury": [
+        57161611843.65614,
+        15034269262.92884,
+        -30080305673.800117
+      ],
+      "Moon": [
+        -52257479814.476135,
+        65013786326.90584,
+        -122944236710.70308
+      ],
+      "Neptune": [
+        -443930328946.8205,
+        2089488642171.6042,
+        -3925924123615.9204
+      ],
+      "Saturn": [
+        -340544572820.6532,
+        601505287801.9176,
+        -1229644203811.2605
+      ],
+      "Sun": [
+        768617023.694856,
+        9575426.481165487,
+        160626511.21933022
+      ],
+      "Uranus": [
+        -2641404139129.656,
+        363806187944.3068,
+        -1158956618305.057
+      ],
+      "Venus": [
+        -23583735990.61218,
+        45528091228.82829,
+        -95370850753.93481
+      ]
+    },
+    "rate": 1,
+    "rotations": {
+      "Earth": {
+        "1": 0.34438054393302303,
+        "2": -0.3137945537555819,
+        "3": 0.8848361537560105,
+        "4": 0.8044722965756864,
+        "5": 0.5844877519037266,
+        "6": -0.10582245469071286,
+        "7": -0.4839693843649984,
+        "8": 0.7482693672120106,
+        "9": 0.45372523523549113
+      },
+      "Jupiter": {
+        "1": -0.7738113138273751,
+        "2": -0.36242574032835617,
+        "3": 0.5194840068184912,
+        "4": 0.6305646839171478,
+        "5": -0.36303127760385423,
+        "6": 0.6860003432052935,
+        "7": -0.06003523956159901,
+        "8": 0.8584030954212339,
+        "9": 0.5094505822766575
+      },
+      "Mars": {
+        "1": -0.8945161087840934,
+        "2": -0.023889954536814167,
+        "3": -0.44639690993329295,
+        "4": -0.4436311875438332,
+        "5": -0.07556541590673582,
+        "6": 0.89301804984966,
+        "7": -0.05506632877005396,
+        "8": 0.996854622295082,
+        "9": 0.05699615289401011
+      },
+      "Mercury": {
+        "1": 0.9740766987915155,
+        "2": -0.0759771206234674,
+        "3": 0.213077596225389,
+        "4": 0.22536469987961927,
+        "5": 0.4076515921672708,
+        "6": -0.8848903499596196,
+        "7": -0.01963000049903052,
+        "8": 0.9099712394055408,
+        "9": 0.41420647814242595
+      },
+      "Moon": {
+        "1": -0.43768774437082586,
+        "2": 0.39118629951755307,
+        "3": -0.8095694642816895,
+        "4": -0.8911161597115724,
+        "5": -0.30865426702987636,
+        "6": 0.33263273041772196,
+        "7": -0.11975570269710611,
+        "8": 0.867009701510896,
+        "9": 0.4836866228846002
+      },
+      "Neptune": {
+        "1": 0.9766198923628429,
+        "2": -0.21237404851249686,
+        "3": 0.033329406829410546,
+        "4": 0.058721465938700396,
+        "5": 0.1144012602456671,
+        "6": -0.9916976056703036,
+        "7": 0.20679790927182667,
+        "8": 0.9704687605341114,
+        "9": 0.12419746192328773
+      },
+      "Saturn": {
+        "1": -0.2193284479083138,
+        "2": 0.2910319937545448,
+        "3": -0.9312332739702681,
+        "4": -0.8062487435423145,
+        "5": -0.5915554040439553,
+        "6": 0.0050167203262170695,
+        "7": -0.5494160495240096,
+        "8": 0.7519059665660641,
+        "9": 0.3643891079159528
+      },
+      "Uranus": {
+        "1": 0.20576514005720092,
+        "2": -0.9111157789947473,
+        "3": -0.3571116693753304,
+        "4": 0.18643187522901006,
+        "5": 0.39473385946632245,
+        "6": -0.8996823528831808,
+        "7": 0.9606788553079717,
+        "8": 0.11854626716019459,
+        "9": 0.25108349110713835
+      },
+      "Venus": {
+        "1": -0.9724100332098287,
+        "2": 0.007817349690340425,
+        "3": -0.23314719890377944,
+        "4": -0.2066230238378089,
+        "5": -0.4927906013878225,
+        "6": 0.8452599299647111,
+        "7": -0.1082850559079131,
+        "8": 0.8701128158047363,
+        "9": 0.48080976949243975
+      }
+    },
+    "utc": "2026-10-11T12:00:00.000",
+    "camera": {
+      "position_render_m": [
+        -557694934139.8193,
+        -319903802944.6125,
+        465357486635.18774
+      ],
+      "forward": [
+        -0.8575376878404128,
+        0.08520261610143437,
+        0.507316102782861
+      ],
+      "up": [
+        0.5048304122194072,
+        -0.05015857893893981,
+        0.8617600430846221
+      ]
+    },
+    "occluded_targets": [],
+    "effective_rate": 0.0,
+    "mode": "orbit",
+    "target": "Jupiter",
+    "boundary": null,
+    "return_available": true
+  },
+  "protected_unchanged": {
+    "user/sessions/latest.json": true,
+    "Iniciar-Cosmos2.cmd": true
+  },
+  "owner_app_kept_open": true
+}

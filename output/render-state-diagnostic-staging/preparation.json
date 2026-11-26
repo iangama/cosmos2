@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "prepared": true,
+  "before_sha256": {
+    "src/engine/openspaceengine_lua.inl": "b6da88627f44d95aa8069510330cbc9020f0bba9441595a9db7a4d6674fd7eed",
+    "src/engine/openspaceengine.cpp": "1b1b3d6a83986d4b8906b0f01c1e30ab726cafc2e5808a23c614889cf8a795c9",
+    "src/rendering/framebufferrenderer.cpp": "7c88979ee76e5a7842ec930352363c9bebc8def10bc4ee7045222be713fee29c",
+    "modules/cefwebgui/src/guirenderhandler.cpp": "790bb8f67ffbd97033827f0e4c563008de38333cb1d176a16b3b776b073c617c"
+  },
+  "changed_sha256": {
+    "src/engine/openspaceengine_lua.inl": "2453ecfaa944ead679be0d5133fd7c0881bc0226a60ad822167bc9c8f54df1fb",
+    "src/engine/openspaceengine.cpp": "00300c33cb34b337f769ac7741d99d42d10219bd7bcb5d6a7479ee077c6a139c",
+    "src/rendering/framebufferrenderer.cpp": "50366b51e5c448c16342aaa8fee989114cf06a85b180aa4a283e810fe244ec42",
+    "modules/cefwebgui/src/guirenderhandler.cpp": "3ea688dddb29953eb69fd8971694ff1e6b1ec3261fc2d9a39c5f1f252106d9a5"
+  },
+  "new_header": "include/openspace/rendering/cosmos2gldiagnostic.h",
+  "new_header_sha256": "d2452b2897fbadd41a67131500db3c1170a69512902d3fd45816c5df34ed5050",
+  "preserved_sha256": {
+    ".runtime-cloud/bin/OpenSpace.exe": "43720759f69f0d763e2fcf17f6d3caa90715989106e93b39b2418171f8b3e4fa",
+    ".runtime-topic-cleanup/bin/OpenSpace.exe": "e37590771eac3e12e7beb9dc694eb81e9f67c4a5bf2a5558ec2ae7e7eeefe74b",
+    "evidence/built-runtime-cloud.json": "86afda4e8c834ceb5719cfeef7a13b567f013bfc270588acb4b194cd36a79e4c",
+    "evidence/built-runtime-topic-cleanup.json": "1c19d34efb88aed6be5d103b88fd3d8b48a13730ff910b19338d9989d95c973d",
+    "user/sessions/latest.json": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825"
+  },
+  "scope": "Read-only GL observations, opt-in and bounded to128 samples; no setters, force/integrator/model changes or promotion. Stalls while enabled are diagnostic overhead, not performance evidence.",
+  "preparer_sha256": "d1184e18a99b77163a650c83d62d9f1f3718159e9fe05abb13707449c8573666"
+}

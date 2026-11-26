@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "id": "005-warmup",
+  "kind": "warmup",
+  "window": "eccentric-clocks",
+  "recipe": {
+    "name": "eccentric-clocks",
+    "view": "clocks",
+    "orbit": true,
+    "orbit_kind": "eccentric"
+  },
+  "expected_scenario": {
+    "job_id": "a5050a1c5c014a9d97b4a28b30da089e",
+    "edit_token": "5f441b09a156459b86ef55adb3547b17",
+    "revision": 3,
+    "body_sha256": "bca88030b2885c1fcf480f55e0f87a72f9ac59a92519d9757f2ac72871337017",
+    "configuration": {
+      "scenario": "timelike-orbits",
+      "controls": {
+        "gravity": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "orbital_acceleration": true,
+            "ray_bending": true,
+            "static_clock_rate": true,
+            "primary_attraction": true,
+            "secondary_attraction": true,
+            "proper_clock_rate": true
+          }
+        },
+        "electromagnetic": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "electric_acceleration": true,
+            "magnetic_deflection": true,
+            "stellar_radiative_capture": true,
+            "cno_radiative_capture": true,
+            "fusion_radiative_capture": true
+          }
+        },
+        "strong": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "dt_fusion": true,
+            "dp_capture": true,
+            "he3_fusion": true,
+            "cno_c12_capture": true,
+            "cno_c13_capture": true,
+            "cno_n14_capture": true,
+            "cno_n15_alpha": true,
+            "fusion_dt": true,
+            "fusion_ddn": true,
+            "fusion_ddp": true,
+            "fusion_dp": true,
+            "fusion_he3he3": true,
+            "fusion_li7p": true,
+            "fusion_c12alpha": true
+          }
+        },
+        "weak": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "beta_decay": true,
+            "pp_fusion": true,
+            "electron_capture": true,
+            "cno_n13_beta": true,
+            "cno_o15_beta": true,
+            "decay_n_beta_minus_0": true,
+            "decay_t_beta_minus_0": true,
+            "decay_c14_beta_minus_0": true,
+            "decay_be7_electron_capture_0": true,
+            "decay_be7_electron_capture_1": true,
+            "decay_n13_beta_plus_0": true,
+            "decay_n13_electron_capture_0": true,
+            "decay_o15_beta_plus_0": true,
+            "decay_o15_electron_capture_0": true,
+            "decay_f18_beta_plus_0": true,
+            "decay_f18_electron_capture_0": true,
+            "decay_na22_beta_plus_0": true,
+            "decay_na22_electron_capture_0": true,
+            "decay_na22_beta_plus_1": true,
+            "decay_na22_electron_capture_1": true,
+            "decay_sr90_beta_minus_0": true,
+            "decay_y90_beta_minus_0": true,
+            "decay_y90_beta_minus_1": true,
+            "decay_y90_beta_minus_3": true
+          }
+        }
+      },
+      "parameters": {
+        "mass_solar": 10,
+        "semi_latus_rectum_rs": 1000,
+        "orbit_kind": "eccentric",
+        "eccentricity": 0.6,
+        "radial_cycles": 8,
+        "orientation": "positive"
+      }
+    },
+    "configuration_sha256": "4c08935ea5e71dd07d18370860d40f2036916ddd975bc779d3aef266965e6780",
+    "physics_sha256": "ed4552dc217cc24814345c1460dd4b371d147eb061637aa141cf551b15d2f701",
+    "kernel_configuration": {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000.0,
+      "eccentricity": 0.6,
+      "source_radius_rs": 1.0,
+      "radial_cycles": 8,
+      "output_samples": 1025,
+      "orientation": 1
+    },
+    "orbit_effect_applied": true,
+    "clock_effect_applied": true
+  }
+}

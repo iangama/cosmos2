@@ -1,0 +1,432 @@
+{
+  "accepted": true,
+  "completed": true,
+  "method": "Direct inspection of all34 unedited native framebuffer PNGs, including individual re-reads of150percent frames and original RGB checks.",
+  "receipts_sha256": {
+    "evidence/is6-expanded-journey-native-20261113a.json": "973ee974ad054d8c55a6ceb417023e9ad0ee5bb3109c0202afb4dd212ea9dbdf",
+    "evidence/is6-expanded-journey-reopen-20261113a.json": "92de05d00c52d938378ae013684632044fb393c31900bee90db2a48001f1df61"
+  },
+  "captures": [
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/01-atlas16-100.png",
+      "sha256": "9773912dafb20aa06146e13ca3762ec1fe579f7be00f7ab103c3aeed290a80a0",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000000.png",
+      "scale": "1",
+      "name": "atlas16",
+      "layout": {
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/02-atlas16-150.png",
+      "sha256": "e2b7839bdc886dc68d5273639b126724a53b3436cea8773703e4c117c27fe823",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000001.png",
+      "scale": "1.5",
+      "name": "atlas16",
+      "layout": {
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/03-dynamics16-100.png",
+      "sha256": "058d30e03474c6ade81bf7d3ad75b3185c3507df32f9d4e471a3097f4aaad86b",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000002.png",
+      "scale": "1",
+      "name": "dynamics16",
+      "layout": {
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/04-dynamics16-150.png",
+      "sha256": "93f2bbc877435e681f5ad5f4b5a84f60b4d19516501fe94118c35bb12953c0d1",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000003.png",
+      "scale": "1.5",
+      "name": "dynamics16",
+      "layout": {
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/05-mesh-399-100.png",
+      "sha256": "a008e4a2ba6c7d6c32b521d87b0c1b47d7149c5939bf3a301bdaf2ef0df51dde",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000004.png",
+      "scale": "1",
+      "name": "mesh-399",
+      "layout": {
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/06-mesh-399-150.png",
+      "sha256": "e9ce583a6f4a5952bf76e4d2cc92610e7477aef7966f0953e883c0090924f3ed",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000005.png",
+      "scale": "1.5",
+      "name": "mesh-399",
+      "layout": {
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/07-layers-399-100.png",
+      "sha256": "5a2f54b6512bbd527f903c2afaae9cb0987e493a271331c0acac2eea724d2eee",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000006.png",
+      "scale": "1",
+      "name": "layers-399",
+      "layout": {
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/08-layers-399-150.png",
+      "sha256": "50e24131757f0da624d5aeb13005e3130ca032c7cb6f1ce982e5b59b4c2549d5",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000007.png",
+      "scale": "1.5",
+      "name": "layers-399",
+      "layout": {
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/09-particle-399-100.png",
+      "sha256": "dce8f7c86513f19f1950e77eb1559eb94b0a2de3021922159bfc52f46eeb42d0",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000008.png",
+      "scale": "1",
+      "name": "particle-399",
+      "layout": {
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/10-particle-399-150.png",
+      "sha256": "27c3d167e78aa43f55d48dfd8c562c971faba8f342302ba38d10da27684b5421",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000009.png",
+      "scale": "1.5",
+      "name": "particle-399",
+      "layout": {
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/11-mesh-599-100.png",
+      "sha256": "3e70a6e67d527a0ddd8e70ea28a18dde7c93d3588d9f1ddcf0457b8a9f2bc67c",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000010.png",
+      "scale": "1",
+      "name": "mesh-599",
+      "layout": {
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/12-mesh-599-150.png",
+      "sha256": "2011c72f673e44a9ac2f88dfad9b937832bc4a99515ceaa1ec713cbf3c730026",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000011.png",
+      "scale": "1.5",
+      "name": "mesh-599",
+      "layout": {
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/13-layers-599-100.png",
+      "sha256": "49743fd32b965f71a510d8d94c8e41b2a3173d5c0243f0d51d2d7260a82743a9",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000012.png",
+      "scale": "1",
+      "name": "layers-599",
+      "layout": {
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/14-layers-599-150.png",
+      "sha256": "b05ed18ef9691b73983b6ed4b826d1611947aa22e411090caaeab4b6b1bb5762",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000013.png",
+      "scale": "1.5",
+      "name": "layers-599",
+      "layout": {
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/15-particle-599-100.png",
+      "sha256": "a1dc9ebec70e17d53adbd964c0f1a85f780d9e5c0dfbc042e82bae10df662882",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000014.png",
+      "scale": "1",
+      "name": "particle-599",
+      "layout": {
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/16-particle-599-150.png",
+      "sha256": "3bb0c9e262c01acb63181bbbc115d8ecaf57f95015e19bffe6085cce449eb506",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000015.png",
+      "scale": "1.5",
+      "name": "particle-599",
+      "layout": {
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/17-nuclear18-100.png",
+      "sha256": "7335cecc490bd32971cc5f28b7c650bd7fe4a5084292d60f401a444a1ec084cc",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000016.png",
+      "scale": "1",
+      "name": "nuclear18",
+      "layout": {
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/18-nuclear18-150.png",
+      "sha256": "e52925e3e4d36e02555fd47d98e3b253a993f2ffa4bdc8999894192120b59f92",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000017.png",
+      "scale": "1.5",
+      "name": "nuclear18",
+      "layout": {
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/19-restored16-100.png",
+      "sha256": "2ec5a9c210aa0ab0d260a45e60522b9d8d53f3c8ad0aad9e962a8084518d9bd4",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000018.png",
+      "scale": "1",
+      "name": "restored16",
+      "layout": {
+        "scale": "1",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-native-20261113a/20-restored16-150.png",
+      "sha256": "9b1cbae2beb999def302bc42601f50c416d518d4858503c82fc76fbf2b505929",
+      "native_original": "user/screenshots/2026-11-13-09-10-34/Cosmos2 Â· mediÃ§Ã£o 1080p_000019.png",
+      "scale": "1.5",
+      "name": "restored16",
+      "layout": {
+        "scale": "1.5",
+        "width": 1920,
+        "height": 1080,
+        "scroll": 1920,
+        "client": 1920
+      },
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/01-checkpoint16-new-process-100.png",
+      "sha256": "2774517c1dd60afb4c105d1632c328c3339dffca2eda473e5fb3b160f5c7b17e",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000000.png",
+      "name": "checkpoint16-new-process",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/02-checkpoint16-new-process-150.png",
+      "sha256": "238f4e67adc65c8aa0b8177f19fda9f8f0425d4ee8d451bc993042aff7b2b928",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000001.png",
+      "name": "checkpoint16-new-process",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/03-archived-layers-399-100.png",
+      "sha256": "c347fa8e81b7c62281d4d9704cc6183affd6bec44fea9e79a0266c08b945a0ea",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000002.png",
+      "name": "archived-layers-399",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/04-archived-layers-399-150.png",
+      "sha256": "8b0706f84c88069d71363228d567e97574171cc6b233ece6d645cbcd21f355a6",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000003.png",
+      "name": "archived-layers-399",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/05-archived-particle-399-100.png",
+      "sha256": "0939d076b6a97d9c136d52d2e5abb5c8664ad538d89c57c236977f173ac6d9a4",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000004.png",
+      "name": "archived-particle-399",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/06-archived-particle-399-150.png",
+      "sha256": "923dba3a62db84286e2974ee4f56bee43f8de9ede29392d5099f84a88248ab46",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000005.png",
+      "name": "archived-particle-399",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/07-archived-layers-599-100.png",
+      "sha256": "774e9195266b40af41663d5bf525f6bb1e90e442a0da4303854a071f84bf7101",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000006.png",
+      "name": "archived-layers-599",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/08-archived-layers-599-150.png",
+      "sha256": "7699ca137edecf4d8686958e63ff16038c1e14ea65a061739a0430f772802b07",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000007.png",
+      "name": "archived-layers-599",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/09-archived-particle-599-100.png",
+      "sha256": "ec2d87816971c2f171bd06d57c269d9ac3a9de6598007256c243974b744a4167",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000008.png",
+      "name": "archived-particle-599",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/10-archived-particle-599-150.png",
+      "sha256": "b2b670b36327d351f168c955872d8d03ddff56552e83573b78d8e4f474e65b15",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000009.png",
+      "name": "archived-particle-599",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/11-archived-nuclear18-100.png",
+      "sha256": "d0b49ea584f04a3c3dcc7bab20b2551231e5bf51d0d06ba90c03643ba714e332",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000010.png",
+      "name": "archived-nuclear18",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/12-archived-nuclear18-150.png",
+      "sha256": "61e0cb732ee4cf4eecb8b405d0a9c97cd721790d2b03c224433e9e9d164946c2",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000011.png",
+      "name": "archived-nuclear18",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/13-final16-after-reopened-instruments-100.png",
+      "sha256": "ede9a0d331229d322e8b2df86e1afb70600a78b696f2620e287a6729e5754556",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000012.png",
+      "name": "final16-after-reopened-instruments",
+      "scale": "1",
+      "method": "Unedited original OpenSpace framebuffer"
+    },
+    {
+      "path": "output/is6-expanded-journey-reopen-20261113a/14-final16-after-reopened-instruments-150.png",
+      "sha256": "8171bc827a971cae0e159db9e27be304453864e476e06a2705da126bf5bf87d8",
+      "native_original": "user/screenshots/2026-11-13-09-16-21/Cosmos2 Â· mediÃ§Ã£o 1080p_000013.png",
+      "name": "final16-after-reopened-instruments",
+      "scale": "1.5",
+      "method": "Unedited original OpenSpace framebuffer"
+    }
+  ],
+  "checks": [
+    "Atlas textured Earth and physical-center context; sixteen-body marker/label and SI source readings100/150",
+    "Terrestrial/Jovian mesh and independent magnetic point, source/units/limits and readable scrollable panels100/150",
+    "Proton/electron phase256steps, native trajectory/marker/axes, explicit magnification and independent microtime100/150",
+    "Archived solar source marker, density/volume/work/composition curves and exact120/240 sample100/150",
+    "Reopened archived references identify preserved orbital phase; restored sixteen-body view and fifteen contributions100/150"
+  ],
+  "inspection_aid": "evidence/is6-expanded-journey-native-framebuffer-regions-20261113a.json",
+  "limitations": "Visual acceptance of the recorded journey only; no performance/residency or complete IS6 acceptance. Native originals were not edited."
+}

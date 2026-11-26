@@ -1,0 +1,55 @@
+{
+  "accepted": true,
+  "completed": true,
+  "version": "0.27.7",
+  "session": {
+    "app": 35644,
+    "server": 37800,
+    "launcher": 31768,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.7-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.7\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.7\\gravity-sessions",
+    "started": "2026-11-21T13:43:48Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.7",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "overall_product_accepted": false,
+  "scientific_milestones_promoted": false,
+  "scientific_python_unchanged": 137,
+  "manifest_sha256": "a1c587da97dc8215314b2137ce37600684f8f5e355e25cc7a59364d28c913b1d",
+  "evidence_sha256": {
+    "spatial-roundtrip-v2-offline-20261121a.json": "5ba29f09ea656e29394f45c7b42c3e27dfa4c59d24e0564402807c85b6e55f2f",
+    "spatial-roundtrip-http-20261121a.json": "c1b3d09bc27b037a18d7fd9d69863b6b77ebca3d771738ce2ccc21077154712e",
+    "native-spatial-roundtrip-20261121b.json": "eca46ad680e6a626f75f539ded9ed2f4168097a24c1dccda256606a34befe1f3",
+    "working-product-switch-20261121b.json": "d1624493cc960b7f7e6b27887d4809f5f5d3a9c27fb94f7273c963670a924237",
+    "original-flow-entry-spatial-20261121a.json": "cf101c38c30beda06e7e1b0b626086a8c1c06e70bc2184c3f6691b4be8e706db"
+  },
+  "shortcuts": [
+    {
+      "name": "Abrir-Planetas.cmd",
+      "reused_app": 35644,
+      "sha256": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4"
+    },
+    {
+      "name": "Abrir-Planetas-e-Luas.cmd",
+      "reused_app": 35644,
+      "sha256": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4"
+    }
+  ],
+  "scope": "Local current-format spatial roundtrip accepted through the original launcher at100%: export, exact source preview and import, mouse branch restore, export/reimport nested origin, Layers handoff, cancel preview, saved restore and Atlas return. Three versioned import/persistence modules added; all137 pre-existing non-server scientific modules preserved. Original data and paused orbit intact. No new150% run, calculation-cancellation, performance or scientific milestone acceptance.",
+  "script_sha256": "ab3c8e1f919fd8185cc1b66adab7e9f5f840d06a93e15b16c93a0e5e5d3f357b"
+}

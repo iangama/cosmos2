@@ -1,0 +1,296 @@
+--- a/src/engine/openspaceengine.cpp
++++ b/src/engine/openspaceengine.cpp
+@@ -23,6 +23,7 @@
+  ****************************************************************************************/
+ 
+ #include <openspace/engine/openspaceengine.h>
++#include <openspace/engine/cosmos2stagetrace.h>
+ 
+ #include <openspace/openspace.h>
+ #include <openspace/camera/camera.h>
+@@ -907,7 +908,7 @@
+     _loadingScreen = nullptr;
+ 
+ 
+-    global::renderEngine->updateScene();
++    { cosmos2trace::Scope c2scope(8, "scene_update"); global::renderEngine->updateScene(); }
+ 
+     global::syncEngine->addSyncables(global::timeManager->syncables());
+     global::syncEngine->addSyncables(
+@@ -1135,6 +1136,8 @@
+ }
+ 
+ void OpenSpaceEngine::preSynchronization() {
++    cosmos2trace::frameStart();
++    cosmos2trace::Scope c2engineScope(1, "engine_preSync");
+     ZoneScoped;
+     TracyGpuZone("preSynchronization");
+ #ifdef TRACY_ENABLE
+@@ -1144,7 +1147,7 @@
+ 
+     LTRACE("OpenSpaceEngine::preSynchronization(begin)");
+ 
+-    FileSys.triggerFilesystemEvents();
++    { cosmos2trace::Scope c2scope(6, "filesystem_events"); FileSys.triggerFilesystemEvents(); }
+ 
+     // Reset the temporary, frame-based storage
+     global::memoryManager->TemporaryMemory.reset();
+@@ -1168,7 +1171,7 @@
+ 
+     const bool master = global::windowDelegate->isMaster();
+ 
+-    global::syncEngine->preSynchronization(SyncEngine::IsMaster(master));
++    { cosmos2trace::Scope c2scope(15, "sync_preSync"); global::syncEngine->preSynchronization(SyncEngine::IsMaster(master)); }
+     if (master) {
+         const double dt =
+             global::sessionRecordingHandler->isSavingFramesDuringPlayback() ?
+@@ -1190,7 +1193,7 @@
+             global::eventEngine->publishEvent<EventScheduledScriptExecuted>(script);
+         }
+ 
+-        global::renderEngine->updateScene();
++        { cosmos2trace::Scope c2scope(8, "scene_update"); global::renderEngine->updateScene(); }
+ 
+         if (_scene) {
+             Camera* camera = _scene->camera();
+@@ -1204,9 +1207,11 @@
+         global::interactionHandler->preSynchronization();
+     }
+ 
+-    global::server->preSync();
+-
++    { cosmos2trace::Scope c2scope(7, "server_preSync"); global::server->preSync(); }
++
++    int c2preIndex = 0;
+     for (const std::function<void()>& func : *global::callback::preSync) {
++        cosmos2trace::Scope c2scope(32 + c2preIndex++, "module_preSync");
+         ZoneScopedN("[Module] preSync");
+ #ifdef TRACY_ENABLE
+         TracyPlot("RAM", static_cast<int64_t>(ramInUse()));
+@@ -1235,6 +1240,7 @@
+ }
+ 
+ void OpenSpaceEngine::postSynchronizationPreDraw() {
++    cosmos2trace::Scope c2engineScope(2, "engine_postSync");
+     ZoneScoped;
+     TracyGpuZone("postSynchronizationPreDraw");
+     LTRACE("OpenSpaceEngine::postSynchronizationPreDraw(begin)");
+@@ -1244,7 +1250,7 @@
+ #endif // TRACY_ENABLE
+ 
+     const bool master = global::windowDelegate->isMaster();
+-    global::syncEngine->postSynchronization(SyncEngine::IsMaster(master));
++    { cosmos2trace::Scope c2scope(12, "sync_postSync"); global::syncEngine->postSynchronization(SyncEngine::IsMaster(master)); }
+ 
+     if (_shutdown.inShutdown) {
+         if (_shutdown.timer <= 0.f) {
+@@ -1257,20 +1263,22 @@
+         _shutdown.timer -= static_cast<float>(global::windowDelegate->averageDeltaTime());
+     }
+ 
+-    _assetManager->update();
+-
+-    global::renderEngine->updateScene();
+-    global::renderEngine->updateRenderer();
+-    global::renderEngine->updateScreenSpaceRenderables();
+-    global::renderEngine->updateShaderPrograms();
+-    global::luaConsole->update();
++    { cosmos2trace::Scope c2scope(13, "asset_update"); _assetManager->update(); }
++
++    { cosmos2trace::Scope c2scope(8, "scene_update"); global::renderEngine->updateScene(); }
++    { cosmos2trace::Scope c2scope(9, "renderer_update"); global::renderEngine->updateRenderer(); }
++    { cosmos2trace::Scope c2scope(10, "screen_space_update"); global::renderEngine->updateScreenSpaceRenderables(); }
++    { cosmos2trace::Scope c2scope(11, "shader_update"); global::renderEngine->updateShaderPrograms(); }
++    { cosmos2trace::Scope c2scope(14, "console_update"); global::luaConsole->update(); }
+ 
+     if (!master) {
+         global::navigationHandler->orbitalNavigator().updateAnchorOnSync();
+         _scene->camera()->invalidateCache();
+     }
+ 
++    int c2postIndex = 0;
+     for (const std::function<void()>& func : *global::callback::postSyncPreDraw) {
++        cosmos2trace::Scope c2scope(64 + c2postIndex++, "module_postSync");
+         ZoneScopedN("[Module] postSyncPreDraw");
+ #ifdef TRACY_ENABLE
+         TracyPlot("RAM", static_cast<int64_t>(ramInUse()));
+@@ -1307,6 +1315,7 @@
+ {
+     ZoneScoped;
+     TracyGpuZone("Render");
++    cosmos2trace::Scope c2engineScope(3, "engine_render");
+     LTRACE("OpenSpaceEngine::render(begin)");
+ 
+ #ifdef TRACY_ENABLE
+@@ -1335,6 +1344,7 @@
+ void OpenSpaceEngine::drawOverlays() {
+     ZoneScoped;
+     TracyGpuZone("Draw2D");
++    cosmos2trace::Scope c2engineScope(4, "engine_overlays");
+     LTRACE("OpenSpaceEngine::drawOverlays(begin)");
+ #ifdef TRACY_ENABLE
+     TracyPlot("RAM", static_cast<int64_t>(ramInUse()));
+@@ -1373,6 +1383,7 @@
+ }
+ 
+ void OpenSpaceEngine::postDraw() {
++    cosmos2trace::Scope c2engineScope(5, "engine_postDraw", true);
+     ZoneScoped;
+     TracyGpuZone("postDraw");
+ #ifdef TRACY_ENABLE
+@@ -1807,6 +1818,8 @@
+             codegen::lua::Cosmos2BeginFrameCapture,
+             codegen::lua::Cosmos2EndFrameCapture,
+             codegen::lua::Cosmos2MemoryMetrics,
++            codegen::lua::Cosmos2BeginStageTrace,
++            codegen::lua::Cosmos2EndStageTrace,
+             codegen::lua::WriteDocumentation,
+             codegen::lua::SetScreenshotFolder,
+             codegen::lua::AddTag,
+--- a/src/engine/openspaceengine_lua.inl
++++ b/src/engine/openspaceengine_lua.inl
+@@ -104,6 +104,37 @@
+     return result;
+ }
+ 
++/** Starts bounded opt-in CPU wall-time stage tracing; off by default. */
++[[codegen::luawrap]] void cosmos2BeginStageTrace() {
++    openspace::cosmos2trace::recorder.begin();
++}
++
++/** Returns nested stage wall times and intervals above50ms; not GPU timings. */
++[[codegen::luawrap]] ghoul::Dictionary cosmos2EndStageTrace() {
++    using namespace openspace::cosmos2trace;
++    recorder.active = false;
++    ghoul::Dictionary stats, samples, result;
++    for (size_t i = 0; i < recorder.stats.size(); ++i) {
++        const Stat& s = recorder.stats[i];
++        if (s.count == 0) { continue; }
++        ghoul::Dictionary value;
++        value.setValue("name", std::string(s.name));
++        value.setValue("count", static_cast<double>(s.count));
++        value.setValue("total_s", s.total); value.setValue("maximum_s", s.maximum);
++        stats.setValue(std::to_string(i), value);
++    }
++    for (size_t i = 0; i < recorder.samples.size(); ++i) {
++        const Sample& s = recorder.samples[i]; ghoul::Dictionary value;
++        value.setValue("slot", s.slot); value.setValue("begin_offset_s", s.begin);
++        value.setValue("duration_s", s.duration);
++        samples.setValue(std::to_string(i + 1), value);
++    }
++    result.setValue("stats", stats); result.setValue("slow_intervals", samples);
++    result.setValue("truncated", recorder.truncated);
++    result.setValue("scope", std::string("Opt-in CPU wall times; nested regions overlap; inter-frame gap includes SGCT/swap/presentation; not GPU execution timing"));
++    return result;
++}
++
+ /** Windows process memory and per-adapter DXGI budget; never substitutes nominal VRAM. */
+ [[codegen::luawrap]] ghoul::Dictionary cosmos2MemoryMetrics() {
+     ghoul::Dictionary result;
+--- a/src/scripting/scriptengine.cpp
++++ b/src/scripting/scriptengine.cpp
+@@ -26,6 +26,7 @@
+ 
+ #include <openspace/documentation/documentation.h>
+ #include <openspace/engine/configuration.h>
++#include <openspace/engine/cosmos2stagetrace.h>
+ #include <openspace/engine/globals.h>
+ #include <openspace/engine/windowdelegate.h>
+ #include <openspace/interaction/sessionrecordinghandler.h>
+@@ -173,6 +174,7 @@
+ }
+ 
+ bool ScriptEngine::runScript(const Script& script) {
++    cosmos2trace::Scope c2ScriptScope(20, "script_run");
+     ZoneScoped;
+     ZoneText(script.code.c_str(), script.code.size());
+ 
+@@ -202,11 +204,18 @@
+ 
+     try {
+         if (script.callback) {
+-            ghoul::Dictionary returnValue =
+-                ghoul::lua::loadArrayDictionaryFromString(script.code, _state);
+-            script.callback(std::move(returnValue));
++            ghoul::Dictionary returnValue;
++            {
++                cosmos2trace::Scope c2LuaScope(22, "lua_execute");
++                returnValue = ghoul::lua::loadArrayDictionaryFromString(script.code, _state);
++            }
++            {
++                cosmos2trace::Scope c2CallbackScope(23, "script_return_callback");
++                script.callback(std::move(returnValue));
++            }
+         }
+         else {
++            cosmos2trace::Scope c2LuaScope(22, "lua_execute");
+             ghoul::lua::runScript(_state, script.code);
+         }
+     }
+@@ -434,6 +443,7 @@
+ }
+ 
+ void ScriptEngine::writeLog(const std::string& script) {
++    cosmos2trace::Scope c2LogScope(21, "script_log_open_write_close");
+     ZoneScoped;
+ 
+     // Check that logging is enabled and initialize if necessary
+--- /dev/null
++++ b/include/openspace/engine/cosmos2stagetrace.h
+@@ -0,0 +1,56 @@
++// Cosmos2 bounded opt-in wall-time diagnostics. No scientific state is touched.
++#ifndef COSMOS2_STAGE_TRACE_H
++#define COSMOS2_STAGE_TRACE_H
++#include <array>
++#include <chrono>
++#include <cstdint>
++#include <vector>
++namespace openspace::cosmos2trace {
++using Clock = std::chrono::steady_clock;
++struct Stat { const char* name = ""; std::uint64_t count = 0; double total = 0.; double maximum = 0.; };
++struct Sample { int slot; double begin; double duration; };
++struct Recorder {
++    bool active = false; bool truncated = false; std::uint64_t generation = 0;
++    Clock::time_point start; Clock::time_point lastFrameEnd;
++    bool hasFrameEnd = false;
++    std::array<Stat, 128> stats{}; std::vector<Sample> samples;
++    void begin() {
++        active = false; ++generation; stats = {}; samples.clear(); samples.reserve(512);
++        truncated = false; hasFrameEnd = false; start = Clock::now(); active = true;
++    }
++    void add(int slot, const char* name, Clock::time_point began, Clock::time_point ended) {
++        const double duration = std::chrono::duration<double>(ended - began).count();
++        Stat& s = stats.at(slot); s.name = name; ++s.count; s.total += duration;
++        if (duration > s.maximum) { s.maximum = duration; }
++        if (duration >= .05) {
++            if (samples.size() < 512) {
++                samples.push_back({slot, std::chrono::duration<double>(began - start).count(), duration});
++            }
++            else { truncated = true; }
++        }
++    }
++};
++inline Recorder recorder;
++class Scope {
++public:
++    Scope(int slot, const char* name, bool closesFrame = false)
++        : _slot(slot), _name(name), _enabled(recorder.active),
++          _generation(recorder.generation), _closesFrame(closesFrame)
++    { if (_enabled) { _start = Clock::now(); } }
++    ~Scope() {
++        if (_enabled && recorder.active && _generation == recorder.generation) {
++            const auto end = Clock::now(); recorder.add(_slot, _name, _start, end);
++            if (_closesFrame) { recorder.lastFrameEnd = end; recorder.hasFrameEnd = true; }
++        }
++    }
++private:
++    int _slot; const char* _name; bool _enabled; std::uint64_t _generation;
++    bool _closesFrame; Clock::time_point _start;
++};
++inline void frameStart() {
++    if (recorder.active && recorder.hasFrameEnd) {
++        recorder.add(0, "outside_engine_between_frames", recorder.lastFrameEnd, Clock::now());
++    }
++}
++}
++#endif

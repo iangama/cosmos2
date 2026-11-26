@@ -1,0 +1,66 @@
+{
+  "accepted": true,
+  "profile": "evidence/is6-pair-profile-20261103a.json",
+  "profile_sha256": "004ec102f89111fc47df9fd153f38742cd906ab25fd3881a4213e9a8237e26e5",
+  "auditor_sha256": "ab107dc81439d098d0fc4335562baa8617aa338ace71c655904a7de0d5954290",
+  "runs": [
+    {
+      "run": 1,
+      "body": "399",
+      "kind": "static",
+      "GPU_peak_GiB": 2.991424560546875,
+      "frames": 4510,
+      "median_ms": 13.306600041687489,
+      "p95_ms": 13.978660060092809,
+      "p99_ms": 14.308999916538594,
+      "over_100ms": 0,
+      "interval_s": 60.15287939738482
+    },
+    {
+      "run": 2,
+      "body": "599",
+      "kind": "static",
+      "GPU_peak_GiB": 2.992401123046875,
+      "frames": 4509,
+      "median_ms": 13.31579964607954,
+      "p95_ms": 13.965119794011116,
+      "p99_ms": 14.254867732524872,
+      "over_100ms": 0,
+      "interval_s": 60.139910792931914
+    },
+    {
+      "run": 3,
+      "body": "399",
+      "kind": "visibility",
+      "GPU_peak_GiB": 2.992401123046875,
+      "frames": 4509,
+      "median_ms": 13.316299766302109,
+      "p95_ms": 13.965720124542711,
+      "p99_ms": 14.27198376506567,
+      "over_100ms": 0,
+      "interval_s": 60.140518898144364,
+      "command_completion_ratio": 1.0,
+      "command_p95_s": 0.10742016499953025,
+      "command_max_s": 0.19981770000049437
+    },
+    {
+      "run": 4,
+      "body": "599",
+      "kind": "visibility",
+      "GPU_peak_GiB": 2.992401123046875,
+      "frames": 4509,
+      "median_ms": 13.30769993364811,
+      "p95_ms": 14.009200036525726,
+      "p99_ms": 14.362868033349516,
+      "over_100ms": 0,
+      "interval_s": 60.140249212272465,
+      "command_completion_ratio": 1.0,
+      "command_p95_s": 0.10690321500001118,
+      "command_max_s": 0.21199799999976676
+    }
+  ],
+  "commands": 240,
+  "RAM_peak_GiB": 1.0646820068359375,
+  "GPU_peak_GiB": 2.992401123046875,
+  "scope": "K2 experimental pair rendering/visibility only; independent frozen models, no product UI, composite save, migration, solver throughput or promotion acceptance."
+}

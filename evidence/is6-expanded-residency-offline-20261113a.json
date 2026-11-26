@@ -1,0 +1,137 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-expanded-residency-contract.py": "ed60f68902edb2151cd2021289a2140cc0389e4493511fc211af6537333b50b0",
+    "scripts/expanded_residency_contract.py": "f64bd5bd2aef82b944c431b9df8e3611ab582e7f1287f85840f60daa25575fe0",
+    "scripts/gpu_pdh_audit_dynamics16_base.py": "40c3bfee12643895c4c026c6a639ad65cbc73056112e680cb95dac8231fdd9b5",
+    "scripts/expanded_residency_processes.py": "7e2ea7ab9ab17d21d2cb029fe70df5063ea39fb78c189614b628cf29a4a99611",
+    "scripts/collect_expanded_residency.py": "6a7d96ee174d77451e524031e64900d827b5c97a9c9e4fe42e2faa7984a54b5b",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-CONTRATO.md": "d336f2624c354f8c2b58817aee15363b5879e34337176c65d18c9f06356ffc2d",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-IDENTIDADE.md": "7deb1e7424bf495c9470f746f2029db9472e2d407afb9133dc004ff35f43dfea",
+    "evidence/is6-dynamics16-profile-20261112a.json": "c8e93f0eba634714218b6561201d7ce001c5a7c22367a88dced00606c3a45026",
+    "evidence/gpu-pdh-is6d16-20261112a-1.json": "e6e3c421a83013c1571493c7a723f44007461e7b7b8466b39c0175b9eb44ddb2",
+    "evidence/is6-expanded-journey-native-20261113a.json": "973ee974ad054d8c55a6ceb417023e9ad0ee5bb3109c0202afb4dd212ea9dbdf"
+  },
+  "refusals": [
+    {
+      "name": "raw-formatted-bytes",
+      "error": "Formatted GPU bytes differ from raw count"
+    },
+    {
+      "name": "invalid-status",
+      "error": "PDH counter data invalid"
+    },
+    {
+      "name": "scaled-double-type",
+      "error": "PDH counter is not a64-bit byte gauge"
+    },
+    {
+      "name": "boolean-gpu-bytes",
+      "error": "Nonnegative64-bit integer required"
+    },
+    {
+      "name": "UTC-query-outside-call",
+      "error": "PDH query time outside its call interval"
+    },
+    {
+      "name": "duplicate-GPU-path",
+      "error": "Duplicate PDH paths"
+    },
+    {
+      "name": "missing-GPU-path",
+      "error": "GPU paths changed within a sample"
+    },
+    {
+      "name": "wrong-metadata-object",
+      "error": "GPU metadata object differs"
+    },
+    {
+      "name": "RAM-sum",
+      "error": "RAM sum differs"
+    },
+    {
+      "name": "boolean-RAM",
+      "error": "Nonnegative64-bit integer required"
+    },
+    {
+      "name": "RAM-reused-PID",
+      "error": "RAM identity differs"
+    },
+    {
+      "name": "native-identity-mutation",
+      "error": "Process tree changed within a GPU sample"
+    },
+    {
+      "name": "unexposed-GPU-zero",
+      "error": "Unexposed process was silently assigned GPU zero"
+    },
+    {
+      "name": "orbital-time",
+      "error": "Stable scientific scenario changed"
+    },
+    {
+      "name": "orbital-position",
+      "error": "Stable scientific scenario changed"
+    },
+    {
+      "name": "old-token",
+      "error": "Stable scientific scenario changed"
+    },
+    {
+      "name": "sixteen-EM-coupling",
+      "error": "Sixteen-body scientific domain differs"
+    },
+    {
+      "name": "sixteen-boolean-coupling",
+      "error": "Sixteen-body scientific domain differs"
+    },
+    {
+      "name": "scene-dispute",
+      "error": "Instrument scene owner differs"
+    },
+    {
+      "name": "unconfirmed-renderer",
+      "error": "Renderer/mode differs from window"
+    },
+    {
+      "name": "orbital-phase-disguised-as-Atlas",
+      "error": "Orbital phase is exposed as the live Atlas"
+    },
+    {
+      "name": "abnormal-child-exit",
+      "error": "Owned worker exited abnormally"
+    },
+    {
+      "name": "missing-exit-proof",
+      "error": "Previously owned process disappeared without native exit proof"
+    },
+    {
+      "name": "exit-before-creation",
+      "error": "Worker exit predates creation"
+    },
+    {
+      "name": "late-exit-witness",
+      "error": "Exit witness is not the first absent process observation"
+    },
+    {
+      "name": "reused-process-record",
+      "error": "Reused PID in retained lifecycle records"
+    },
+    {
+      "name": "stable-frame-stall",
+      "error": "Stable frame limits exceeded"
+    },
+    {
+      "name": "truncated-frame-buffer",
+      "error": "Native frame data invalid or truncated"
+    }
+  ],
+  "checks": [
+    "Preserved raw native GPU/RAM fixture accepted;13 corruptions refused",
+    "True Atlas and frozen16 fixtures accepted;8 physical/domain mutations refused",
+    "Worker birth/exit fixture accepted;5 lifecycle corruptions refused",
+    "Stable limits enforced; long transition stalls retained explicitly"
+  ],
+  "scope": "Pure offline schema5 scenario, lifecycle and raw-byte refusal tests. Old native measurements are fixtures only; no new PDH/GPU, scene or performance acceptance."
+}

@@ -1,0 +1,10 @@
+{
+  "source": "https://raw.githubusercontent.com/dtamayo/reboundx/5.1.0/src/gravitational_harmonics.c",
+  "sha256": "6929ceff45c2ceb9da421fd9255fa8364c4004e5c2c2b246c9766ab468e7853c",
+  "role": "primary mathematical reference; no installed REBOUNDx dependency or source transplant",
+  "checkpoint_source": {
+    "source": "https://raw.githubusercontent.com/hannorein/rebound/5.2.2/src/binarydata.c",
+    "sha256": "9386df80430e3efb91023917b9d596396e51750be37144a00c1f2a069132be08",
+    "role": "Defines serialized field layout and special particle-pointer/timing comparisons; no runtime dependency change"
+  }
+}

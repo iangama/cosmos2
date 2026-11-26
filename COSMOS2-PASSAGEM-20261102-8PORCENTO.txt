@@ -1,0 +1,7 @@
+COSMOS2 — PASSAGEM NO CHECKPOINT DE8%,02/11/2026
+Telemetria real11:55:06Z:8%cincohoras/54%semanal. Continuar até0%,sem usar tokens/contexto como cota.
+Candidata0.18.2 isolada: serviçoD,cacheA,nativoF,visualF,persistênciaB e visualpersistênciaB aceitos. Nativo5grupos/10recusas/zeroJS;9+2PNG revistos. Hosts funcionais encerraramexit0. Instalado3.13 e dono preservados.
+EM EXECUÇÃO: perfil20261102a,driverWindows output/is6-profile-20261102a-driver.json/.log. Hostapp14376/server31604.4janelas30+60s,2Hz nasativas;auditor automático após benchmarkexit0. Não editar fontes ligadas a esses recibos. Verificar estado real antes de abrir outro app.
+Relatório parcial IS-6-MALHA-PRODUTO-RESULTADO-20261102.md;atualizar desempenho só após auditoria. Ainda não aceitar todaIS6,promoção ou camadas simultâneas.
+Próximo: concluir perfil/limpeza/consolidar primeira malha; depois roteiro IS-6-PERCURSO-INTEGRADO-CONTRATO-PREVIO.md. Sem subagentes.
+Ler LEIA-PRIMEIRO.md primeiro. Preservar cosmos/revenant/3.13/sessões dono.

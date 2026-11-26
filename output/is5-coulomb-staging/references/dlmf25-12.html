@@ -1,0 +1,1306 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>DLMF: §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions</title>
+<link rel="shortcut icon" href="./style/DLMF-16.png" type="image/png">
+<script type="text/javascript"><!--
+	var PATH="DLMF:/25.12";
+	var ROOT="./";
+      //--></script>
+<script type="text/javascript" src="./style/jquery.js"><!-- non-empty so ie6 will accept it --></script>
+<script type="text/javascript" src="./style/jquery.leaveNotice.js"><!-- non-empty so ie6 will accept it --></script>
+<script type="text/javascript" src="./style/DLMF.js"><!-- non-empty so ie6 will accept it --></script>
+<script async="" type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&amp;subagency=NIST&amp;pua=UA-37115410-44&amp;yt=true&amp;exts=ppsx,pps,f90,sch,rtf,wrl,txz,m1v,xlsm,msi,xsd,f,tif,eps,mpg,xml,pl,xlt,c"><!-- non-empty so ie6 will accept it --></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-BZB64W4M0L"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BZB64W4M0L');
+      </script>
+<link rel="stylesheet" type="text/css" href="./style/LaTeXML.css">
+<link rel="stylesheet" type="text/css" href="./style/DLMF.css">
+<link rel="stylesheet" type="text/css" href="./style/print.css" media="print">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="top" href="./" title="DLMF">
+<link rel="copyright" href="./about/notices" title="Copyright">
+<link rel="search" href="./search/search" title="Search">
+<link rel="help" class="ltx_help" href="./help/" title="Help">
+<link rel="up" href="./25#PT3" title="Related Functions ‣ Chapter 25 Zeta and Related Functions">
+<link rel="up up" href="./25" title="Chapter 25 Zeta and Related Functions">
+<link rel="start" href="./" title="">
+<link rel="prev" href="./25.11" title="§25.11 Hurwitz Zeta Function ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions">
+<link rel="next" href="./25.13" title="§25.13 Periodic Zeta Function ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.1" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.2" title="§25.2 Definition and Expansions ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.3" title="§25.3 Graphics ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.4" title="§25.4 Reflection Formulas ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.5" title="§25.5 Integral Representations ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.6" title="§25.6 Integer Arguments ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.7" title="§25.7 Integrals ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.8" title="§25.8 Sums ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.9" title="§25.9 Asymptotic Approximations ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.10" title="§25.10 Zeros ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.11" title="§25.11 Hurwitz Zeta Function ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.13" title="§25.13 Periodic Zeta Function ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.14" title="§25.14 Lerch’s Transcendent ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.15" title="§25.15 Dirichlet 𝐿-functions ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.16" title="§25.16 Mathematical Applications ‣ Applications ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.17" title="§25.17 Physical Applications ‣ Applications ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.18" title="§25.18 Methods of Computation ‣ Computation ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.19" title="§25.19 Tables ‣ Computation ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.20" title="§25.20 Approximations ‣ Computation ‣ Chapter 25 Zeta and Related Functions">
+<link rel="section" href="./25.21" title="§25.21 Software ‣ Computation ‣ Chapter 25 Zeta and Related Functions">
+<link rel="document" href="./front/foreword" title="Foreword">
+<link rel="document" href="./front/preface" title="Preface">
+<link rel="document" href="./front/introduction" title="Mathematical Introduction">
+<link rel="chapter" href="./1" title="Chapter 1 Algebraic and Analytic Methods">
+<link rel="chapter" href="./2" title="Chapter 2 Asymptotic Approximations">
+<link rel="chapter" href="./3" title="Chapter 3 Numerical Methods">
+<link rel="chapter" href="./4" title="Chapter 4 Elementary Functions">
+<link rel="chapter" href="./5" title="Chapter 5 Gamma Function">
+<link rel="chapter" href="./6" title="Chapter 6 Exponential, Logarithmic, Sine, and Cosine Integrals">
+<link rel="chapter" href="./7" title="Chapter 7 Error Functions, Dawson’s and Fresnel Integrals">
+<link rel="chapter" href="./8" title="Chapter 8 Incomplete Gamma and Related Functions">
+<link rel="chapter" href="./9" title="Chapter 9 Airy and Related Functions">
+<link rel="chapter" href="./10" title="Chapter 10 Bessel Functions">
+<link rel="chapter" href="./11" title="Chapter 11 Struve and Related Functions">
+<link rel="chapter" href="./12" title="Chapter 12 Parabolic Cylinder Functions">
+<link rel="chapter" href="./13" title="Chapter 13 Confluent Hypergeometric Functions">
+<link rel="chapter" href="./14" title="Chapter 14 Legendre and Related Functions">
+<link rel="chapter" href="./15" title="Chapter 15 Hypergeometric Function">
+<link rel="chapter" href="./16" title="Chapter 16 Generalized Hypergeometric Functions and Meijer 𝐺-Function">
+<link rel="chapter" href="./17" title="Chapter 17 𝑞-Hypergeometric and Related Functions">
+<link rel="chapter" href="./18" title="Chapter 18 Orthogonal Polynomials">
+<link rel="chapter" href="./19" title="Chapter 19 Elliptic Integrals">
+<link rel="chapter" href="./20" title="Chapter 20 Theta Functions">
+<link rel="chapter" href="./21" title="Chapter 21 Multidimensional Theta Functions">
+<link rel="chapter" href="./22" title="Chapter 22 Jacobian Elliptic Functions">
+<link rel="chapter" href="./23" title="Chapter 23 Weierstrass Elliptic and Modular Functions">
+<link rel="chapter" href="./24" title="Chapter 24 Bernoulli and Euler Polynomials">
+<link rel="chapter" href="./25" title="Chapter 25 Zeta and Related Functions">
+<link rel="chapter" href="./26" title="Chapter 26 Combinatorial Analysis">
+<link rel="chapter" href="./27" title="Chapter 27 Functions of Number Theory">
+<link rel="chapter" href="./28" title="Chapter 28 Mathieu Functions and Hill’s Equation">
+<link rel="chapter" href="./29" title="Chapter 29 Lamé Functions">
+<link rel="chapter" href="./30" title="Chapter 30 Spheroidal Wave Functions">
+<link rel="chapter" href="./31" title="Chapter 31 Heun Functions">
+<link rel="chapter" href="./32" title="Chapter 32 Painlevé Transcendents">
+<link rel="chapter" href="./33" title="Chapter 33 Coulomb Functions">
+<link rel="chapter" href="./34" title="Chapter 34 3⁢𝑗,6⁢𝑗,9⁢𝑗 Symbols">
+<link rel="chapter" href="./35" title="Chapter 35 Functions of Matrix Argument">
+<link rel="chapter" href="./36" title="Chapter 36 Integrals with Coalescing Saddles">
+<link rel="bibliography" href="./bib/" title="Bibliography">
+<link rel="index" href="./idx/" title="Index">
+<link rel="glossary" href="./not/" title="Notations">
+<link rel="document" href="./lof/" title="List of Figures">
+<link rel="document" href="./lot/" title="List of Tables">
+<link rel="document" href="./software/" title="Software Index">
+<link rel="document" href="./errata/" title="Errata">
+<link rel="document" href="./help/" title="Need Help?">
+<link rel="document" href="./search/" title="Advanced Search">
+<link rel="document" href="./about/" title="About the Project">
+<link rel="sidebar" href="./25.12.F1.mag" title="Figure 25.12.1 ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions">
+<link rel="sidebar" href="./25.12.F2.mag" title="Figure 25.12.2 ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions">
+<link rel="sidebar" href="./25.12.F2.viz" title="Figure 25.12.2 ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions">
+<meta name="keywords" lang="en" content="Bose–Einstein integrals, Clausen’s integral, Fermi–Dirac integrals, Hurwitz zeta function, Riemann zeta function, analytic properties, definition, definitions, dilogarithms, graphics, integral representations, polylogarithms, principal branch (or value), relation to polylogarithms, relations to other functions, series expansions, uniform asymptotic approximation">
+</head>
+<body>
+<div class="ltx_page_navbar">
+<div class="ltx_page_navlogo"><a href="./" title="Digital Library of Mathematical Functions" class="DLMFLogo"><span>DLMF</span></a></div>
+<div id="navmenu" class="ltx_page_navitems">
+<button class="ltx_page_navbar_menubutton" onclick="toggleMenu(); return false;">Menu</button>
+<ul>
+<li><a class="ltx_navlink ltx_navindex" href="./idx/">Index</a></li>
+<li><a class="ltx_navlink ltx_navnotations" href="./not/">Notations</a></li>
+<li><small><form method="get" action="./search/search">
+<input type="text" name="q" value="" size="6" class="ltx_navsearch"><button type="submit" class="ltx_navlink ltx_navsearch">Search</button>
+</form></small></li>
+<li><a class="ltx_navlink ltx_help" href="./help/">Help?</a></li>
+<li><a class="ltx_navlink ltx_navciting" href="./help/cite">Citing</a></li>
+<li><a class="ltx_navlink ltx_customize" href="./help/customize">Customize</a></li>
+<li>
+<a class="ltx_navlink ltx_navshowinfo" id="showinfo" href="" onclick="showInfo(); return false;" title="Show Annotations">Annotate</a><a class="ltx_navlink ltx_navhideinfo" id="hideinfo" href="" onclick="hideInfo(); return false;">UnAnnotate</a>
+</li>
+<li><a class="ltx_navlink ltx_navabout" href="./about/">About the Project</a></li>
+</ul>
+</div>
+<div class="ltx_page_navbottom">
+</div>
+</div>
+<div class="ltx_page_main">
+<div class="ltx_page_header">
+<a href="./25" title="" class="ltx_ref" rel="up up"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">25 </span>Zeta and Related Functions</span></a><a href="./25#PT3" title="In Chapter 25 Zeta and Related Functions" class="ltx_ref" rel="up"><span class="ltx_text ltx_ref_title">Related Functions</span></a><a href="./25.11" title="In Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">25.11 </span>Hurwitz Zeta Function</span></a><a href="./25.13" title="In Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">25.13 </span>Periodic Zeta Function</span></a>
+</div>
+<div class="ltx_page_content">
+<section class="ltx_section ltx_authors_multiline ltx_leqno">
+<h1 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">§25.12 </span>Polylogarithms</h1>
+<div id="info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Notes:</dt>
+<dd>See <cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>)</cite>,
+<cite class="ltx_cite ltx_citemacro_citet">Lewin (<a href="./bib/L#bib1431" title="Polylogarithms and Associated Functions" class="ltx_ref">1981</a>)</cite>,
+<cite class="ltx_cite ltx_citemacro_citet">Dingle (<a href="./bib/D#bib2883" title="The Bose-Einstein integrals = ⁢ B p ( η ) ⁢ ( ! p ) - 1 ∫ ∞ 0 ⁢ ϵ p ( - e - ϵ η 1 ) - 1 d ϵ" class="ltx_ref">1957a</a>)</cite>, and
+<cite class="ltx_cite ltx_citemacro_citet">Dingle (<a href="./bib/D#bib2884" title="The Fermi-Dirac integrals = ⁢ F p ( η ) ⁢ ( ! p ) - 1 ∫ ∞ 0 ⁢ ϵ p ( + e - ϵ η 1 ) - 1 d ϵ" class="ltx_ref">1957b</a>)</cite>.</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12" title="" class="ltx_ref">http://dlmf.nist.gov/25.12</a></dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+
+<h6>Contents</h6>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry"><a href="#i"><span class="ltx_tag ltx_tag_subsection">§25.12(i) </span>Dilogarithms</a></li>
+<li class="ltx_tocentry"><a href="#ii"><span class="ltx_tag ltx_tag_subsection">§25.12(ii) </span>Polylogarithms</a></li>
+<li class="ltx_tocentry"><a href="#iii"><span class="ltx_tag ltx_tag_subsection">§25.12(iii) </span>Fermi–Dirac and Bose–Einstein Integrals</a></li>
+</ol>
+<section id="i" class="ltx_subsection">
+<h2 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">§25.12(i) </span>Dilogarithms</h2>
+<div id="i.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=Clausen%20integral">Clausen’s integral</a>, <a class="ltx_keyword" href="./search/search?q=analytic%20properties">analytic properties</a>, <a class="ltx_keyword" href="./search/search?q=definition">definition</a>, <a class="ltx_keyword" href="./search/search?q=dilogarithms">dilogarithms</a>, <a class="ltx_keyword" href="./search/search?q=graphics">graphics</a>, <a class="ltx_keyword" href="./search/search?q=principal%20branch%20%28or%20value%29">principal branch (or value)</a>
+</dd>
+<dt>Notes:</dt>
+<dd>See <cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>, pp. 2807–2813)</cite>.
+The graphics were constructed at NIST.</dd>
+<dt>Referenced by:</dt>
+<dd>
+<a href="./25.19#I1.i2.p1" title="In §25.19 Tables ‣ Computation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">2nd item</span></a>,
+<a href="./25.20#I1.i4.p1" title="In §25.20 Approximations ‣ Computation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4th item</span></a>,
+<a href="./25.21#vi.p1" title="§25.21(vi) Clausen’s Integral ‣ §25.21 Software ‣ Computation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.21(vi)</span></a>
+</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.i" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.i</a></dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+
+<div id="i.p1" class="ltx_para">
+<p class="ltx_p">The notation <math class="ltx_Math" altimg="m42.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(z\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math> was introduced in <cite class="ltx_cite ltx_citemacro_citet">Lewin (<a href="./bib/L#bib1431" title="Polylogarithms and Associated Functions" class="ltx_ref">1981</a>)</cite> for a
+function discussed in <cite class="ltx_cite ltx_citemacro_citet">Euler (<a href="./bib/E#bib760" title="Institutiones Calculi Integralis" class="ltx_ref">1768</a>)</cite> and called the <em class="ltx_emph ltx_font_italic">dilogarithm</em>
+in <cite class="ltx_cite ltx_citemacro_citet">Hill (<a href="./bib/H#bib1078" title="Über die Integration logarithmisch-rationaler Differentiale" class="ltx_ref">1828</a>)</cite>:
+</p>
+<div class="ltx_equation_container">
+<table id="E1" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.1</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E1.png" altimg-height="73px" altimg-valign="-28px" altimg-width="224px" alttext="\operatorname{Li}_{2}\left(z\right)\equiv\sum_{n=1}^{\infty}\frac{z^{n}}{n^{2}}," display="block"><mrow><mrow><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow><mo href="./front/introduction#common.t1.r9" rspace="0.111em" title="equals by definition">≡</mo><mrow><munderover><mo movablelimits="false">∑</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>=</mo><mn>1</mn></mrow><mi mathvariant="normal">∞</mi></munderover><mfrac><msup><mi href="./25.1#t1.r6" title="complex variable">z</mi><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi></msup><msup><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mn>2</mn></msup></mfrac></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr class="ltx_eqn_row"><td class="ltx_eqn_cell ltx_align_right" colspan="4"><span class="ltx_constraint"><math class="ltx_Math" altimg="m81.png" altimg-height="25px" altimg-valign="-7px" altimg-width="64px" alttext="|z|\leq 1" display="inline"><mrow><mrow><mo stretchy="false">|</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo stretchy="false">|</mo></mrow><mo>≤</mo><mn>1</mn></mrow></math>.</span></td></tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E1.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Defines:</dt>
+<dd><span class="ltx_text ltx_font_bold"><math class="ltx_Math" altimg="m40.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: dilogarithm</span></dd>
+<dt>Symbols:</dt>
+<dd>
+<a href="./front/introduction#common.t1.r9" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m27.png" altimg-height="13px" altimg-valign="-2px" altimg-width="20px" alttext="\equiv" display="inline"><mo href="./front/introduction#common.t1.r9" title="equals by definition">≡</mo></math>: equals by definition</a>,
+<a href="./25.1#t1.r1" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m60.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="n" display="inline"><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi></math>:  nonnegative integer</a>,
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a> and
+<a href="./25.1#t1.r6" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>:  complex variable</a>
+</dd>
+<dt>Keywords:</dt>
+<dd><a class="ltx_keyword" href="./search/search?q=definition">definition</a></dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>, (3.1), p. 2808)</cite></dd>
+<dt>A&amp;S Ref:</dt>
+<dd> <span class="ltx_origref"><span class="ltx_tag">27.7.2</span> (with <math class="ltx_Math" altimg="m70.png" altimg-height="19px" altimg-valign="-4px" altimg-width="90px" alttext="z=1-x" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>=</mo><mrow><mn>1</mn><mo>−</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow></mrow></math>)</span>
+</dd>
+<dt>Referenced by:</dt>
+<dd>
+<a href="./25.12#i.p3" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#i.p4" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>
+</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E1" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E1</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E1.tex">TeX</a>, <a href="./25.12.E1.pmml">pMML</a>, <a href="./25.12.E1.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<div class="ltx_equation_container">
+<table id="E2" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.2</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E2.png" altimg-height="95px" altimg-valign="-21px" altimg-width="291px" alttext="\operatorname{Li}_{2}\left(z\right)=-\int_{0}^{z}t^{-1}\ln\left(1-t\right)\,%
+\mathrm{d}t," display="block"><mrow><mrow><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mo>−</mo><mrow><msubsup><mo href="./1.4#iv" title="integral">∫</mo><mn>0</mn><mi href="./25.1#t1.r6" title="complex variable">z</mi></msubsup><mrow><msup><mi>t</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo lspace="0.167em">⁢</mo><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>t</mi></mrow><mo>)</mo></mrow></mrow><mo lspace="0em">⁢</mo><mrow><mo href="./1.4#iv" rspace="0em" title="differential of 𝑥">d</mo><mi>t</mi></mrow></mrow></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr class="ltx_eqn_row"><td class="ltx_eqn_cell ltx_align_right" colspan="4"><span class="ltx_constraint"><math class="ltx_Math" altimg="m74.png" altimg-height="25px" altimg-valign="-7px" altimg-width="131px" alttext="z\in\mathbb{C}\setminus(1,\infty)" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo href="./front/introduction#common.t1.r10" title="element of">∈</mo><mrow><mi href="./front/introduction#common.t1.r1" title="complex plane">ℂ</mi><mo href="./front/introduction#common.t2.r19" title="set subtraction">∖</mo><mrow><mo href="./front/introduction#common.t1.r29" stretchy="false" title="open interval">(</mo><mn>1</mn><mo href="./front/introduction#common.t1.r29" title="open interval">,</mo><mi mathvariant="normal">∞</mi><mo href="./front/introduction#common.t1.r29" stretchy="false" title="open interval">)</mo></mrow></mrow></mrow></math>.</span></td></tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E2.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./front/introduction#common.t1.r1" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m34.png" altimg-height="18px" altimg-valign="-2px" altimg-width="19px" alttext="\mathbb{C}" display="inline"><mi href="./front/introduction#common.t1.r1" title="complex plane">ℂ</mi></math>: complex plane</a>,
+<a href="./1.4#iv" title="§1.4(iv) Indefinite Integrals ‣ §1.4 Calculus of One Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m37.png" altimg-height="18px" altimg-valign="-2px" altimg-width="28px" alttext="\,\mathrm{d}\NVar{x}" display="inline"><mrow><mo href="./1.4#iv" rspace="0em" title="differential of 𝑥">d</mo><mi class="ltx_nvar">x</mi></mrow></math>: differential of <math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi>x</mi></math></a>,
+<a href="./25.12#E1" title="(25.12.1) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m40.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: dilogarithm</a>,
+<a href="./front/introduction#common.t1.r10" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m28.png" altimg-height="16px" altimg-valign="-3px" altimg-width="18px" alttext="\in" display="inline"><mo href="./front/introduction#common.t1.r10" title="element of">∈</mo></math>: element of</a>,
+<a href="./1.4#iv" title="§1.4(iv) Indefinite Integrals ‣ §1.4 Calculus of One Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m30.png" altimg-height="27px" altimg-valign="-8px" altimg-width="18px" alttext="\int" display="inline"><mo href="./1.4#iv" title="integral">∫</mo></math>: integral</a>,
+<a href="./4.2#E2" title="(4.2.2) ‣ §4.2(i) The Logarithm ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m33.png" altimg-height="18px" altimg-valign="-2px" altimg-width="36px" alttext="\ln\NVar{z}" display="inline"><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: principal branch of logarithm function</a>,
+<a href="./front/introduction#common.t1.r29" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m8.png" altimg-height="25px" altimg-valign="-7px" altimg-width="50px" alttext="(\NVar{a},\NVar{b})" display="inline"><mrow><mo href="./front/introduction#common.t1.r29" stretchy="false" title="open interval">(</mo><mi class="ltx_nvar">a</mi><mo href="./front/introduction#common.t1.r29" title="open interval">,</mo><mi class="ltx_nvar">b</mi><mo href="./front/introduction#common.t1.r29" stretchy="false" title="open interval">)</mo></mrow></math>: open interval</a>,
+<a href="./front/introduction#common.t2.r19" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m49.png" altimg-height="25px" altimg-valign="-7px" altimg-width="15px" alttext="\setminus" display="inline"><mo href="./front/introduction#common.t2.r19" title="set subtraction">∖</mo></math>: set subtraction</a>,
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a> and
+<a href="./25.1#t1.r6" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>:  complex variable</a>
+</dd>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=definite%20integral">definite integral</a>, <a class="ltx_keyword" href="./search/search?q=integral%20representation">integral representation</a>
+</dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>, (2.1), p. 2807)</cite></dd>
+<dt>A&amp;S Ref:</dt>
+<dd> <span class="ltx_origref"><span class="ltx_tag">27.7.1</span> (is a modified form with <math class="ltx_Math" altimg="m70.png" altimg-height="19px" altimg-valign="-4px" altimg-width="90px" alttext="z=1-x" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>=</mo><mrow><mn>1</mn><mo>−</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow></mrow></math>)</span>
+</dd>
+<dt>Referenced by:</dt>
+<dd><a href="./25.12#i.p4" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E2" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E2</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E2.tex">TeX</a>, <a href="./25.12.E2.pmml">pMML</a>, <a href="./25.12.E2.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="i.p2" class="ltx_para">
+<p class="ltx_p">Other notations and names for <math class="ltx_Math" altimg="m42.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(z\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math> include <math class="ltx_Math" altimg="m20.png" altimg-height="25px" altimg-valign="-7px" altimg-width="53px" alttext="S_{2}(z)" display="inline"><mrow><msub><mi>S</mi><mn>2</mn></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo stretchy="false">)</mo></mrow></mrow></math>
+(<cite class="ltx_cite ltx_citemacro_citet">Kölbig<span class="ltx_text ltx_bib_etal"> et al.</span> (<a href="./bib/K#bib1317" title="On Nielsen’s generalized polylogarithms and their numerical calculation" class="ltx_ref">1970</a>)</cite>), Spence function <math class="ltx_Math" altimg="m36.png" altimg-height="25px" altimg-valign="-7px" altimg-width="54px" alttext="\mathrm{Sp}(z)" display="inline"><mrow><mi>Sp</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo stretchy="false">)</mo></mrow></mrow></math>
+(<cite class="ltx_cite ltx_citemacro_citet">’t Hooft and Veltman (<a href="./bib/T#bib2250" title="Scalar one-loop integrals" class="ltx_ref">1979</a>)</cite>), and <math class="ltx_Math" altimg="m35.png" altimg-height="25px" altimg-valign="-7px" altimg-width="53px" alttext="\mathrm{L}_{2}(z)" display="inline"><mrow><msub><mi mathvariant="normal">L</mi><mn>2</mn></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo stretchy="false">)</mo></mrow></mrow></math> (<cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>)</cite>).</p>
+</div>
+<div id="i.p3" class="ltx_para">
+<p class="ltx_p">In the complex plane <math class="ltx_Math" altimg="m42.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(z\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math> has a branch point at <math class="ltx_Math" altimg="m71.png" altimg-height="17px" altimg-valign="-2px" altimg-width="53px" alttext="z=1" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>=</mo><mn>1</mn></mrow></math>. The
+principal branch has a cut along the interval <math class="ltx_Math" altimg="m21.png" altimg-height="25px" altimg-valign="-7px" altimg-width="58px" alttext="[1,\infty)" display="inline"><mrow><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">[</mo><mn>1</mn><mo href="./front/introduction#common.t2.r1" title="half-closed interval">,</mo><mi mathvariant="normal">∞</mi><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">)</mo></mrow></math> and agrees with
+(<a href="./25.12#E1" title="(25.12.1) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.1</span></a>) when <math class="ltx_Math" altimg="m81.png" altimg-height="25px" altimg-valign="-7px" altimg-width="64px" alttext="|z|\leq 1" display="inline"><mrow><mrow><mo stretchy="false">|</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo stretchy="false">|</mo></mrow><mo>≤</mo><mn>1</mn></mrow></math>; see also §<a href="./4.2#i" title="§4.2(i) The Logarithm ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4.2(i)</span></a>.
+The remainder of the equations in this
+subsection apply to principal branches.</p>
+<div class="ltx_equation_container">
+<table id="E3" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.3</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E3.png" altimg-height="144px" altimg-valign="-22px" altimg-width="191px" alttext="\operatorname{Li}_{2}\left(z\right)+\operatorname{Li}_{2}\left(\frac{z}{z-1}%
+\right)=-\frac{1}{2}(\ln\left(1-z\right))^{2}," display="block"><mrow><mrow><mrow><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow><mo>+</mo><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mfrac><mi href="./25.1#t1.r6" title="complex variable">z</mi><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>)</mo></mrow></mrow></mrow><mo>=</mo><mrow><mo>−</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi></mrow><mo>)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr class="ltx_eqn_row"><td class="ltx_eqn_cell ltx_align_right" colspan="4"><span class="ltx_constraint"><math class="ltx_Math" altimg="m76.png" altimg-height="25px" altimg-valign="-7px" altimg-width="129px" alttext="z\in\mathbb{C}\setminus[1,\infty)" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo href="./front/introduction#common.t1.r10" title="element of">∈</mo><mrow><mi href="./front/introduction#common.t1.r1" title="complex plane">ℂ</mi><mo href="./front/introduction#common.t2.r19" title="set subtraction">∖</mo><mrow><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">[</mo><mn>1</mn><mo href="./front/introduction#common.t2.r1" title="half-closed interval">,</mo><mi mathvariant="normal">∞</mi><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">)</mo></mrow></mrow></mrow></math>.</span></td></tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E3.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./front/introduction#common.t2.r1" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m22.png" altimg-height="25px" altimg-valign="-7px" altimg-width="47px" alttext="[\NVar{a},\NVar{b})" display="inline"><mrow><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">[</mo><mi class="ltx_nvar">a</mi><mo href="./front/introduction#common.t2.r1" title="half-closed interval">,</mo><mi class="ltx_nvar">b</mi><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">)</mo></mrow></math>: half-closed interval</a>,
+<a href="./front/introduction#common.t1.r1" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m34.png" altimg-height="18px" altimg-valign="-2px" altimg-width="19px" alttext="\mathbb{C}" display="inline"><mi href="./front/introduction#common.t1.r1" title="complex plane">ℂ</mi></math>: complex plane</a>,
+<a href="./25.12#E1" title="(25.12.1) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m40.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: dilogarithm</a>,
+<a href="./front/introduction#common.t1.r10" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m28.png" altimg-height="16px" altimg-valign="-3px" altimg-width="18px" alttext="\in" display="inline"><mo href="./front/introduction#common.t1.r10" title="element of">∈</mo></math>: element of</a>,
+<a href="./4.2#E2" title="(4.2.2) ‣ §4.2(i) The Logarithm ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m33.png" altimg-height="18px" altimg-valign="-2px" altimg-width="36px" alttext="\ln\NVar{z}" display="inline"><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: principal branch of logarithm function</a>,
+<a href="./front/introduction#common.t2.r19" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m49.png" altimg-height="25px" altimg-valign="-7px" altimg-width="15px" alttext="\setminus" display="inline"><mo href="./front/introduction#common.t2.r19" title="set subtraction">∖</mo></math>: set subtraction</a>,
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a> and
+<a href="./25.1#t1.r6" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>:  complex variable</a>
+</dd>
+<dt>Keywords:</dt>
+<dd><a class="ltx_keyword" href="./search/search?q=connection%20formula">connection formula</a></dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>, (3.4), p. 2808)</cite></dd>
+<dt>A&amp;S Ref:</dt>
+<dd> <span class="ltx_origref"><span class="ltx_tag">27.7.5</span> (is a modified form with <math class="ltx_Math" altimg="m70.png" altimg-height="19px" altimg-valign="-4px" altimg-width="90px" alttext="z=1-x" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>=</mo><mrow><mn>1</mn><mo>−</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow></mrow></math>)</span>
+</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E3" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E3</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E3.tex">TeX</a>, <a href="./25.12.E3.pmml">pMML</a>, <a href="./25.12.E3.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<div class="ltx_equation_container">
+<table id="E4" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.4</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E4.png" altimg-height="144px" altimg-valign="-22px" altimg-width="234px" alttext="\operatorname{Li}_{2}\left(z\right)+\operatorname{Li}_{2}\left(\frac{1}{z}%
+\right)=-\frac{1}{6}\pi^{2}-\frac{1}{2}(\ln\left(-z\right))^{2}," display="block"><mrow><mrow><mrow><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow><mo>+</mo><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mfrac><mn>1</mn><mi href="./25.1#t1.r6" title="complex variable">z</mi></mfrac><mo>)</mo></mrow></mrow></mrow><mo>=</mo><mrow><mrow><mo>−</mo><mrow><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>⁢</mo><msup><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi><mn>2</mn></msup></mrow></mrow><mo>−</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mo>−</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi></mrow><mo>)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr class="ltx_eqn_row"><td class="ltx_eqn_cell ltx_align_right" colspan="4"><span class="ltx_constraint"><math class="ltx_Math" altimg="m75.png" altimg-height="25px" altimg-valign="-7px" altimg-width="129px" alttext="z\in\mathbb{C}\setminus[0,\infty)" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo href="./front/introduction#common.t1.r10" title="element of">∈</mo><mrow><mi href="./front/introduction#common.t1.r1" title="complex plane">ℂ</mi><mo href="./front/introduction#common.t2.r19" title="set subtraction">∖</mo><mrow><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">[</mo><mn>0</mn><mo href="./front/introduction#common.t2.r1" title="half-closed interval">,</mo><mi mathvariant="normal">∞</mi><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">)</mo></mrow></mrow></mrow></math>.</span></td></tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E4.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./3.12#E1" title="(3.12.1) ‣ §3.12 Mathematical Constants ‣ Areas ‣ Chapter 3 Numerical Methods" class="ltx_ref"><math class="ltx_Math" altimg="m48.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="\pi" display="inline"><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi></math>: the ratio of the circumference of a circle to its diameter</a>,
+<a href="./front/introduction#common.t2.r1" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m22.png" altimg-height="25px" altimg-valign="-7px" altimg-width="47px" alttext="[\NVar{a},\NVar{b})" display="inline"><mrow><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">[</mo><mi class="ltx_nvar">a</mi><mo href="./front/introduction#common.t2.r1" title="half-closed interval">,</mo><mi class="ltx_nvar">b</mi><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">)</mo></mrow></math>: half-closed interval</a>,
+<a href="./front/introduction#common.t1.r1" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m34.png" altimg-height="18px" altimg-valign="-2px" altimg-width="19px" alttext="\mathbb{C}" display="inline"><mi href="./front/introduction#common.t1.r1" title="complex plane">ℂ</mi></math>: complex plane</a>,
+<a href="./25.12#E1" title="(25.12.1) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m40.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: dilogarithm</a>,
+<a href="./front/introduction#common.t1.r10" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m28.png" altimg-height="16px" altimg-valign="-3px" altimg-width="18px" alttext="\in" display="inline"><mo href="./front/introduction#common.t1.r10" title="element of">∈</mo></math>: element of</a>,
+<a href="./4.2#E2" title="(4.2.2) ‣ §4.2(i) The Logarithm ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m33.png" altimg-height="18px" altimg-valign="-2px" altimg-width="36px" alttext="\ln\NVar{z}" display="inline"><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: principal branch of logarithm function</a>,
+<a href="./front/introduction#common.t2.r19" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m49.png" altimg-height="25px" altimg-valign="-7px" altimg-width="15px" alttext="\setminus" display="inline"><mo href="./front/introduction#common.t2.r19" title="set subtraction">∖</mo></math>: set subtraction</a> and
+<a href="./25.1#t1.r6" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>:  complex variable</a>
+</dd>
+<dt>Keywords:</dt>
+<dd><a class="ltx_keyword" href="./search/search?q=connection%20formula">connection formula</a></dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>, (3.2), p. 2808)</cite></dd>
+<dt>Referenced by:</dt>
+<dd><a href="./25.12#Px1.p3" title="Integral Representation ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E4" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E4</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E4.tex">TeX</a>, <a href="./25.12.E4.pmml">pMML</a>, <a href="./25.12.E4.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<div class="ltx_equation_container">
+<table id="E5" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.5</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E5.png" altimg-height="111px" altimg-valign="-29px" altimg-width="313px" alttext="\operatorname{Li}_{2}\left(z^{m}\right)=m\sum_{k=0}^{m-1}\operatorname{Li}_{2}%
+\left(ze^{2\pi ik/m}\right)," display="block"><mrow><mrow><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><msup><mi href="./25.1#t1.r6" title="complex variable">z</mi><mi href="./25.1#t1.r1" title="nonnegative integer">m</mi></msup><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">m</mi><mo>⁢</mo><mrow><munderover><mo movablelimits="false">∑</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">k</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">m</mi><mo>−</mo><mn>1</mn></mrow></munderover><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>⁢</mo><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mrow><mrow><mn>2</mn><mo>⁢</mo><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi><mo>⁢</mo><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi><mo>⁢</mo><mi href="./25.1#t1.r1" title="nonnegative integer">k</mi></mrow><mo>/</mo><mi href="./25.1#t1.r1" title="nonnegative integer">m</mi></mrow></msup></mrow><mo>)</mo></mrow></mrow></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr class="ltx_eqn_row"><td class="ltx_eqn_cell ltx_align_right" colspan="4"><span class="ltx_constraint"><math class="ltx_Math" altimg="m57.png" altimg-height="21px" altimg-valign="-6px" altimg-width="133px" alttext="m=1,2,3,\dots" display="inline"><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">m</mi><mo>=</mo><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi mathvariant="normal">…</mi></mrow></mrow></math>, <math class="ltx_Math" altimg="m79.png" altimg-height="25px" altimg-valign="-7px" altimg-width="64px" alttext="|z|&lt;1" display="inline"><mrow><mrow><mo stretchy="false">|</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mn>1</mn></mrow></math>.</span></td></tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E5.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./3.12#E1" title="(3.12.1) ‣ §3.12 Mathematical Constants ‣ Areas ‣ Chapter 3 Numerical Methods" class="ltx_ref"><math class="ltx_Math" altimg="m48.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="\pi" display="inline"><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi></math>: the ratio of the circumference of a circle to its diameter</a>,
+<a href="./25.12#E1" title="(25.12.1) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m40.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: dilogarithm</a>,
+<a href="./4.2#E11" title="(4.2.11) ‣ §4.2(ii) Logarithms to a General Base 𝑎 ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m38.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="\mathrm{e}" display="inline"><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi></math>: base of natural logarithm</a>,
+<a href="./1.9#E1" title="(1.9.1) ‣ §1.9(i) Complex Numbers ‣ §1.9 Calculus of a Complex Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m39.png" altimg-height="18px" altimg-valign="-2px" altimg-width="10px" alttext="\mathrm{i}" display="inline"><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi></math>: imaginary unit</a>,
+<a href="./25.1#t1.r1" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m56.png" altimg-height="18px" altimg-valign="-2px" altimg-width="16px" alttext="k" display="inline"><mi href="./25.1#t1.r1" title="nonnegative integer">k</mi></math>:  nonnegative integer</a>,
+<a href="./25.1#t1.r1" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m58.png" altimg-height="13px" altimg-valign="-2px" altimg-width="23px" alttext="m" display="inline"><mi href="./25.1#t1.r1" title="nonnegative integer">m</mi></math>:  nonnegative integer</a> and
+<a href="./25.1#t1.r6" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>:  complex variable</a>
+</dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>, (3.12), p. 2809)</cite></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E5" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E5</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E5.tex">TeX</a>, <a href="./25.12.E5.pmml">pMML</a>, <a href="./25.12.E5.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<div class="ltx_equation_container">
+<table id="E6" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.6</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E6.png" altimg-height="117px" altimg-valign="-16px" altimg-width="254px" alttext="\operatorname{Li}_{2}\left(x\right)+\operatorname{Li}_{2}\left(1-x\right)=%
+\frac{1}{6}\pi^{2}-(\ln x)\ln\left(1-x\right)," display="block"><mrow><mrow><mrow><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo>)</mo></mrow></mrow><mo>+</mo><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow><mo>)</mo></mrow></mrow></mrow><mo>=</mo><mrow><mrow><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>⁢</mo><msup><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi><mn>2</mn></msup></mrow><mo>−</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow><mo stretchy="false">)</mo></mrow><mo lspace="0.167em">⁢</mo><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow><mo>)</mo></mrow></mrow></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr class="ltx_eqn_row"><td class="ltx_eqn_cell ltx_align_right" colspan="4"><span class="ltx_constraint"><math class="ltx_Math" altimg="m12.png" altimg-height="18px" altimg-valign="-3px" altimg-width="92px" alttext="0&lt;x&lt;1" display="inline"><mrow><mn>0</mn><mo>&lt;</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo>&lt;</mo><mn>1</mn></mrow></math>.</span></td></tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E6.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./3.12#E1" title="(3.12.1) ‣ §3.12 Mathematical Constants ‣ Areas ‣ Chapter 3 Numerical Methods" class="ltx_ref"><math class="ltx_Math" altimg="m48.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="\pi" display="inline"><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi></math>: the ratio of the circumference of a circle to its diameter</a>,
+<a href="./25.12#E1" title="(25.12.1) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m40.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: dilogarithm</a>,
+<a href="./4.2#E2" title="(4.2.2) ‣ §4.2(i) The Logarithm ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m33.png" altimg-height="18px" altimg-valign="-2px" altimg-width="36px" alttext="\ln\NVar{z}" display="inline"><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: principal branch of logarithm function</a> and
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a>
+</dd>
+<dt>Keywords:</dt>
+<dd><a class="ltx_keyword" href="./search/search?q=connection%20formula">connection formula</a></dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>, (3.3), p. 2808)</cite></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E6" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E6</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E6.tex">TeX</a>, <a href="./25.12.E6.pmml">pMML</a>, <a href="./25.12.E6.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="i.p4" class="ltx_para">
+<p class="ltx_p">When <math class="ltx_Math" altimg="m72.png" altimg-height="22px" altimg-valign="-2px" altimg-width="67px" alttext="z=e^{i\theta}" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>=</mo><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mrow><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi><mo>⁢</mo><mi href="./25.12#i.p4" title="phase">θ</mi></mrow></msup></mrow></math>, <math class="ltx_Math" altimg="m13.png" altimg-height="21px" altimg-valign="-5px" altimg-width="103px" alttext="0\leq\theta\leq 2\pi" display="inline"><mrow><mn>0</mn><mo>≤</mo><mi href="./25.12#i.p4" title="phase">θ</mi><mo>≤</mo><mrow><mn>2</mn><mo>⁢</mo><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi></mrow></mrow></math>, (<a href="./25.12#E1" title="(25.12.1) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.1</span></a>)
+becomes</p>
+<div class="ltx_equation_container">
+<table id="E7" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.7</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E7.png" altimg-height="73px" altimg-valign="-28px" altimg-width="450px" alttext="\operatorname{Li}_{2}\left(e^{i\theta}\right)=\sum_{n=1}^{\infty}\frac{\cos%
+\left(n\theta\right)}{n^{2}}+i\sum_{n=1}^{\infty}\frac{\sin\left(n\theta\right%
+)}{n^{2}}." display="block"><mrow><mrow><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mrow><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi><mo>⁢</mo><mi href="./25.12#i.p4" title="phase">θ</mi></mrow></msup><mo>)</mo></mrow></mrow><mo rspace="0.111em">=</mo><mrow><mrow><munderover><mo movablelimits="false">∑</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>=</mo><mn>1</mn></mrow><mi mathvariant="normal">∞</mi></munderover><mfrac><mrow><mi href="./4.14#E2" title="cosine function">cos</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>⁢</mo><mi href="./25.12#i.p4" title="phase">θ</mi></mrow><mo>)</mo></mrow></mrow><msup><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mn>2</mn></msup></mfrac></mrow><mo>+</mo><mrow><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi><mo>⁢</mo><mrow><munderover><mo movablelimits="false">∑</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>=</mo><mn>1</mn></mrow><mi mathvariant="normal">∞</mi></munderover><mfrac><mrow><mi href="./4.14#E1" title="sine function">sin</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>⁢</mo><mi href="./25.12#i.p4" title="phase">θ</mi></mrow><mo>)</mo></mrow></mrow><msup><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mn>2</mn></msup></mfrac></mrow></mrow></mrow></mrow><mo lspace="0em">.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E7.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./4.14#E2" title="(4.14.2) ‣ §4.14 Definitions and Periodicity ‣ Trigonometric Functions ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m26.png" altimg-height="13px" altimg-valign="-2px" altimg-width="46px" alttext="\cos\NVar{z}" display="inline"><mrow><mi href="./4.14#E2" title="cosine function">cos</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: cosine function</a>,
+<a href="./25.12#E1" title="(25.12.1) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m40.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: dilogarithm</a>,
+<a href="./4.2#E11" title="(4.2.11) ‣ §4.2(ii) Logarithms to a General Base 𝑎 ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m38.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="\mathrm{e}" display="inline"><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi></math>: base of natural logarithm</a>,
+<a href="./1.9#E1" title="(1.9.1) ‣ §1.9(i) Complex Numbers ‣ §1.9 Calculus of a Complex Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m39.png" altimg-height="18px" altimg-valign="-2px" altimg-width="10px" alttext="\mathrm{i}" display="inline"><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi></math>: imaginary unit</a>,
+<a href="./4.14#E1" title="(4.14.1) ‣ §4.14 Definitions and Periodicity ‣ Trigonometric Functions ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m50.png" altimg-height="18px" altimg-valign="-2px" altimg-width="44px" alttext="\sin\NVar{z}" display="inline"><mrow><mi href="./4.14#E1" title="sine function">sin</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: sine function</a>,
+<a href="./25.1#t1.r1" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m60.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="n" display="inline"><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi></math>:  nonnegative integer</a> and
+<a href="./25.12#i.p4" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m51.png" altimg-height="18px" altimg-valign="-2px" altimg-width="15px" alttext="\theta" display="inline"><mi href="./25.12#i.p4" title="phase">θ</mi></math>:  phase</a>
+</dd>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=infinite%20series">infinite series</a>, <a class="ltx_keyword" href="./search/search?q=series%20representation">series representation</a>
+</dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>, (8.7), p. 2813)</cite></dd>
+<dt>Referenced by:</dt>
+<dd><a href="./25.12#i.p4" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E7" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E7</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E7.tex">TeX</a>, <a href="./25.12.E7.pmml">pMML</a>, <a href="./25.12.E7.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<p class="ltx_p">The cosine series in (<a href="./25.12#E7" title="(25.12.7) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.7</span></a>) has the elementary sum</p>
+<div class="ltx_equation_container">
+<table id="E8" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.8</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E8.png" altimg-height="67px" altimg-valign="-28px" altimg-width="285px" alttext="\sum_{n=1}^{\infty}\frac{\cos\left(n\theta\right)}{n^{2}}=\frac{\pi^{2}}{6}-%
+\frac{\pi\theta}{2}+\frac{\theta^{2}}{4}." display="block"><mrow><mrow><mrow><munderover><mo movablelimits="false">∑</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>=</mo><mn>1</mn></mrow><mi mathvariant="normal">∞</mi></munderover><mfrac><mrow><mi href="./4.14#E2" title="cosine function">cos</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>⁢</mo><mi href="./25.12#i.p4" title="phase">θ</mi></mrow><mo>)</mo></mrow></mrow><msup><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mn>2</mn></msup></mfrac></mrow><mo>=</mo><mrow><mrow><mfrac><msup><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi><mn>2</mn></msup><mn>6</mn></mfrac><mo>−</mo><mfrac><mrow><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi><mo>⁢</mo><mi href="./25.12#i.p4" title="phase">θ</mi></mrow><mn>2</mn></mfrac></mrow><mo>+</mo><mfrac><msup><mi href="./25.12#i.p4" title="phase">θ</mi><mn>2</mn></msup><mn>4</mn></mfrac></mrow></mrow><mo lspace="0em">.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E8.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./3.12#E1" title="(3.12.1) ‣ §3.12 Mathematical Constants ‣ Areas ‣ Chapter 3 Numerical Methods" class="ltx_ref"><math class="ltx_Math" altimg="m48.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="\pi" display="inline"><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi></math>: the ratio of the circumference of a circle to its diameter</a>,
+<a href="./4.14#E2" title="(4.14.2) ‣ §4.14 Definitions and Periodicity ‣ Trigonometric Functions ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m26.png" altimg-height="13px" altimg-valign="-2px" altimg-width="46px" alttext="\cos\NVar{z}" display="inline"><mrow><mi href="./4.14#E2" title="cosine function">cos</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: cosine function</a>,
+<a href="./25.1#t1.r1" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m60.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="n" display="inline"><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi></math>:  nonnegative integer</a> and
+<a href="./25.12#i.p4" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m51.png" altimg-height="18px" altimg-valign="-2px" altimg-width="15px" alttext="\theta" display="inline"><mi href="./25.12#i.p4" title="phase">θ</mi></math>:  phase</a>
+</dd>
+<dt>Keywords:</dt>
+<dd><a class="ltx_keyword" href="./search/search?q=infinite%20series">infinite series</a></dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>, (8.7), p. 2813)</cite></dd>
+<dt>A&amp;S Ref:</dt>
+<dd> <span class="ltx_origref"><span class="ltx_tag">27.8.6</span> (second series)</span>
+</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E8" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E8</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E8.tex">TeX</a>, <a href="./25.12.E8.pmml">pMML</a>, <a href="./25.12.E8.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<p class="ltx_p">By (<a href="./25.12#E2" title="(25.12.2) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.2</span></a>)</p>
+<div class="ltx_equation_container">
+<table id="E9" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.9</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E9.png" altimg-height="132px" altimg-valign="-28px" altimg-width="363px" alttext="\sum_{n=1}^{\infty}\frac{\sin\left(n\theta\right)}{n^{2}}=-\int_{0}^{\theta}%
+\ln\left(2\sin\left(\tfrac{1}{2}x\right)\right)\,\mathrm{d}x." display="block"><mrow><mrow><mrow><munderover><mo movablelimits="false">∑</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>=</mo><mn>1</mn></mrow><mi mathvariant="normal">∞</mi></munderover><mfrac><mrow><mi href="./4.14#E1" title="sine function">sin</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>⁢</mo><mi href="./25.12#i.p4" title="phase">θ</mi></mrow><mo>)</mo></mrow></mrow><msup><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mn>2</mn></msup></mfrac></mrow><mo>=</mo><mrow><mo>−</mo><mrow><msubsup><mo href="./1.4#iv" title="integral">∫</mo><mn>0</mn><mi href="./25.12#i.p4" title="phase">θ</mi></msubsup><mrow><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mn>2</mn><mo lspace="0.167em">⁢</mo><mrow><mi href="./4.14#E1" title="sine function">sin</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mstyle displaystyle="false"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo>⁢</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow><mo>)</mo></mrow></mrow></mrow><mo>)</mo></mrow></mrow><mo lspace="0em">⁢</mo><mrow><mo href="./1.4#iv" rspace="0em" title="differential of 𝑥">d</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow></mrow></mrow></mrow></mrow><mo lspace="0em">.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E9.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./1.4#iv" title="§1.4(iv) Indefinite Integrals ‣ §1.4 Calculus of One Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m37.png" altimg-height="18px" altimg-valign="-2px" altimg-width="28px" alttext="\,\mathrm{d}\NVar{x}" display="inline"><mrow><mo href="./1.4#iv" rspace="0em" title="differential of 𝑥">d</mo><mi class="ltx_nvar">x</mi></mrow></math>: differential of <math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi>x</mi></math></a>,
+<a href="./1.4#iv" title="§1.4(iv) Indefinite Integrals ‣ §1.4 Calculus of One Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m30.png" altimg-height="27px" altimg-valign="-8px" altimg-width="18px" alttext="\int" display="inline"><mo href="./1.4#iv" title="integral">∫</mo></math>: integral</a>,
+<a href="./4.2#E2" title="(4.2.2) ‣ §4.2(i) The Logarithm ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m33.png" altimg-height="18px" altimg-valign="-2px" altimg-width="36px" alttext="\ln\NVar{z}" display="inline"><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: principal branch of logarithm function</a>,
+<a href="./4.14#E1" title="(4.14.1) ‣ §4.14 Definitions and Periodicity ‣ Trigonometric Functions ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m50.png" altimg-height="18px" altimg-valign="-2px" altimg-width="44px" alttext="\sin\NVar{z}" display="inline"><mrow><mi href="./4.14#E1" title="sine function">sin</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: sine function</a>,
+<a href="./25.1#t1.r1" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m60.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="n" display="inline"><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi></math>:  nonnegative integer</a>,
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a> and
+<a href="./25.12#i.p4" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m51.png" altimg-height="18px" altimg-valign="-2px" altimg-width="15px" alttext="\theta" display="inline"><mi href="./25.12#i.p4" title="phase">θ</mi></math>:  phase</a>
+</dd>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=definite%20integral">definite integral</a>, <a class="ltx_keyword" href="./search/search?q=infinite%20series">infinite series</a>
+</dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>, (8.7), (8.8), p. 2813)</cite></dd>
+<dt>A&amp;S Ref:</dt>
+<dd> <span class="ltx_origref"><span class="ltx_tag">27.8.6</span> (integration of first series)</span>
+</dd>
+<dt>Referenced by:</dt>
+<dd><a href="./25.19#I1.i1.p1" title="In §25.19 Tables ‣ Computation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1st item</span></a></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E9" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E9</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E9.tex">TeX</a>, <a href="./25.12.E9.pmml">pMML</a>, <a href="./25.12.E9.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<p class="ltx_p">The right-hand side is called <em class="ltx_emph ltx_font_italic">Clausen’s integral</em>.</p>
+</div>
+<div id="i.p5" class="ltx_para">
+<p class="ltx_p">For graphics see Figures <a href="./25.12#F1" title="Figure 25.12.1 ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.1</span></a> and <a href="./25.12#F2" title="Figure 25.12.2 ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.2</span></a>, and
+for further properties see <cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>)</cite>, <cite class="ltx_cite ltx_citemacro_citet">Kirillov (<a href="./bib/K#bib1276" title="Dilogarithm identities" class="ltx_ref">1995</a>)</cite>,
+<cite class="ltx_cite ltx_citemacro_citet">Lewin (<a href="./bib/L#bib1431" title="Polylogarithms and Associated Functions" class="ltx_ref">1981</a>)</cite>, <cite class="ltx_cite ltx_citemacro_citet">Nielsen (<a href="./bib/N#bib1719" title="Der Eulersche Dilogarithmus und seine Verallgemeinerungen" class="ltx_ref">1909</a>)</cite>, and <cite class="ltx_cite ltx_citemacro_citet">Zagier (<a href="./bib/Z#bib2478" title="The Dilogarithm Function in Geometry and Number Theory" class="ltx_ref">1989</a>)</cite>.</p>
+</div>
+<figure id="i.fig1" class="ltx_figure">
+<div class="ltx_flex_figure">
+<div class="ltx_flex_cell ltx_flex_size_2">
+<figure id="F1" class="ltx_figure ltx_figure_panel"><a href="./25.12.F1.mag" title="Magnify Figure" class="ltx_magnifiable"><img src="./25/12/F1.png" id="F1.g1" class="ltx_graphics ltx_centering ltx_img_landscape" width="416" height="247" alt="See accompanying text"></a>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 25.12.1: </span>Dilogarithm function <math class="ltx_Math" altimg="m41.png" altimg-height="25px" altimg-valign="-7px" altimg-width="64px" alttext="\operatorname{Li}_{2}\left(x\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo>)</mo></mrow></mrow></math>,
+<math class="ltx_Math" altimg="m9.png" altimg-height="20px" altimg-valign="-5px" altimg-width="125px" alttext="-20\leq x&lt;1." display="inline"><mrow><mrow><mrow><mo>−</mo><mn>20</mn></mrow><mo>≤</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo>&lt;</mo><mn>1</mn></mrow><mo lspace="0em">.</mo></mrow></math>
+
+
+<a href="./25.12.F1.mag" title="Magnify Figure" class="ltx_magnifiable ltx_icon"><span>Magnify</span></a>
+
+<a href="" title="Interactive 3D Visualization" class="ltx_3dgraphic ltx_icon"><span>3D</span></a>
+<a href="./help/vrml/" class="ltx_help" style="font-size:80%">Help</a>
+</figcaption>
+<div id="F1.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./25.12#E1" title="(25.12.1) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m40.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: dilogarithm</a> and
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a>
+</dd>
+<dt>Referenced by:</dt>
+<dd><a href="./25.12#i.p5" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.F1" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.F1</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.F1.pdf">pdf</a>, <a href="./25.12.F1.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</figure>
+</div>
+<div class="ltx_flex_cell ltx_flex_size_2">
+<figure id="F2" class="ltx_figure ltx_figure_panel">
+<div class="ltx_vizimg">
+<a href="./25.12.F2.viz" title="Interactive 3D Visualization" class="ltx_3dgraphic"><img src="./25/12/F2.png" id="F2.g1" class="ltx_graphics ltx_centering ltx_img_landscape" width="415" height="311" alt="See accompanying text"></a>
+</div>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 25.12.2: </span>Absolute value of the dilogarithm function <math class="ltx_Math" altimg="m31.png" altimg-height="25px" altimg-valign="-7px" altimg-width="119px" alttext="\left|\operatorname{Li}_{2}\left(x+iy\right)\right|" display="inline"><mrow><mo>|</mo><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mrow><mi href="./25.1#t1.r3" title="real variable">x</mi><mo>+</mo><mrow><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi><mo>⁢</mo><mi>y</mi></mrow></mrow><mo>)</mo></mrow></mrow><mo>|</mo></mrow></math>,
+<math class="ltx_Math" altimg="m10.png" altimg-height="20px" altimg-valign="-5px" altimg-width="129px" alttext="-20\leq x\leq 20" display="inline"><mrow><mrow><mo>−</mo><mn>20</mn></mrow><mo>≤</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo>≤</mo><mn>20</mn></mrow></math>,
+<math class="ltx_Math" altimg="m11.png" altimg-height="21px" altimg-valign="-6px" altimg-width="128px" alttext="-20\leq y\leq 20" display="inline"><mrow><mrow><mo>−</mo><mn>20</mn></mrow><mo>≤</mo><mi>y</mi><mo>≤</mo><mn>20</mn></mrow></math>.
+Principal value. There is a cut
+along the real axis from 1 to <math class="ltx_Math" altimg="m29.png" altimg-height="13px" altimg-valign="-2px" altimg-width="25px" alttext="\infty" display="inline"><mi mathvariant="normal">∞</mi></math>.
+
+
+<a href="./25.12.F2.mag" title="Magnify Figure" class="ltx_magnifiable ltx_icon"><span>Magnify</span></a>
+
+<a href="./25.12.F2.viz" title="Interactive 3D Visualization" class="ltx_3dgraphic ltx_icon"><span>3D</span></a>
+<a href="./help/vrml/" class="ltx_help" style="font-size:80%">Help</a>
+</figcaption>
+<div id="F2.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./25.12#E1" title="(25.12.1) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m40.png" altimg-height="25px" altimg-valign="-7px" altimg-width="63px" alttext="\operatorname{Li}_{2}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E1" title="dilogarithm">Li</mi><mn href="./25.12#E1" title="dilogarithm">2</mn></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: dilogarithm</a>,
+<a href="./1.9#E1" title="(1.9.1) ‣ §1.9(i) Complex Numbers ‣ §1.9 Calculus of a Complex Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m39.png" altimg-height="18px" altimg-valign="-2px" altimg-width="10px" alttext="\mathrm{i}" display="inline"><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi></math>: imaginary unit</a> and
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a>
+</dd>
+<dt>Referenced by:</dt>
+<dd><a href="./25.12#i.p5" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.F2" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.F2</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.F2.viz">Vizualization</a>, <a href="./25.12.F2.pdf">pdf</a>, <a href="./25.12.F2.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#i.info" title="§25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(i)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</figure>
+</section>
+<section id="ii" class="ltx_subsection">
+<h2 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">§25.12(ii) </span>Polylogarithms</h2>
+<div id="ii.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Defines:</dt>
+<dd><span class="ltx_text ltx_font_bold"><math class="ltx_Math" altimg="m46.png" altimg-height="25px" altimg-valign="-7px" altimg-width="151px" alttext="\phi\left(\NVar{z},\NVar{s}\right)=\operatorname{Li}_{s}\left(z\right)" display="inline"><mrow><mrow><mi href="./25.12#ii" title="notation used by ( , )">ϕ</mi><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>,</mo><mi class="ltx_nvar" href="./25.1#t1.r5" title="complex variable">s</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></mrow></math>: notation used by <cite class="ltx_cite ltx_citemacro_citep">(Truesdell, <a href="./bib/T#bib2282" title="On a function which occurs in the theory of the structure of polymers" class="ltx_ref">1945</a>)</cite></span></dd>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=Riemann%20zeta%20function">Riemann zeta function</a>, <a class="ltx_keyword" href="./search/search?q=analytic%20properties">analytic properties</a>, <a class="ltx_keyword" href="./search/search?q=definitions">definitions</a>, <a class="ltx_keyword" href="./search/search?q=polylogarithms">polylogarithms</a>, <a class="ltx_keyword" href="./search/search?q=relations%20to%20other%20functions">relations to other functions</a>, <a class="ltx_keyword" href="./search/search?q=series%20expansions">series expansions</a>
+</dd>
+<dt>Notes:</dt>
+<dd>See <cite class="ltx_cite ltx_citemacro_citet">Lewin (<a href="./bib/L#bib1431" title="Polylogarithms and Associated Functions" class="ltx_ref">1981</a>, Section 7.12)</cite>.</dd>
+<dt>Referenced by:</dt>
+<dd><a href="./25.14#i.p2" title="§25.14(i) Definition ‣ §25.14 Lerch’s Transcendent ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.14(i)</span></a></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.ii" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.ii</a></dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+
+<div id="ii.p1" class="ltx_para">
+<p class="ltx_p">For real or complex <math class="ltx_Math" altimg="m64.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="s" display="inline"><mi href="./25.1#t1.r5" title="complex variable">s</mi></math> and <math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math> the <em class="ltx_emph ltx_font_italic">polylogarithm</em>
+<math class="ltx_Math" altimg="m45.png" altimg-height="25px" altimg-valign="-7px" altimg-width="62px" alttext="\operatorname{Li}_{s}\left(z\right)" display="inline"><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math> is defined by
+</p>
+<div class="ltx_equation_container">
+<table id="E10" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.10</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E10.png" altimg-height="73px" altimg-valign="-28px" altimg-width="223px" alttext="\operatorname{Li}_{s}\left(z\right)=\sum_{n=1}^{\infty}\frac{z^{n}}{n^{s}}." display="block"><mrow><mrow><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow><mo rspace="0.111em">=</mo><mrow><munderover><mo movablelimits="false">∑</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>=</mo><mn>1</mn></mrow><mi mathvariant="normal">∞</mi></munderover><mfrac><msup><mi href="./25.1#t1.r6" title="complex variable">z</mi><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi></msup><msup><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msup></mfrac></mrow></mrow><mo lspace="0em">.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E10.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Defines:</dt>
+<dd><span class="ltx_text ltx_font_bold"><math class="ltx_Math" altimg="m43.png" altimg-height="25px" altimg-valign="-7px" altimg-width="62px" alttext="\operatorname{Li}_{\NVar{s}}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi class="ltx_nvar" href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: polylogarithm</span></dd>
+<dt>Symbols:</dt>
+<dd>
+<a href="./25.1#t1.r1" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m60.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="n" display="inline"><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi></math>:  nonnegative integer</a>,
+<a href="./25.1#t1.r5" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m64.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="s" display="inline"><mi href="./25.1#t1.r5" title="complex variable">s</mi></math>:  complex variable</a> and
+<a href="./25.1#t1.r6" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>:  complex variable</a>
+</dd>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=definition">definition</a>, <a class="ltx_keyword" href="./search/search?q=infinite%20series">infinite series</a>, <a class="ltx_keyword" href="./search/search?q=series%20representation">series representation</a>
+</dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Lewin (<a href="./bib/L#bib1431" title="Polylogarithms and Associated Functions" class="ltx_ref">1981</a>, p. 236)</cite></dd>
+<dt>Referenced by:</dt>
+<dd><a href="./25.14#E3.info" title="In §25.14(i) Definition ‣ §25.14 Lerch’s Transcendent ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(25.14.3)</span></a></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E10" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E10</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E10.tex">TeX</a>, <a href="./25.12.E10.pmml">pMML</a>, <a href="./25.12.E10.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#ii.info" title="§25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="ii.p2" class="ltx_para">
+<p class="ltx_p">For each fixed complex <math class="ltx_Math" altimg="m64.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="s" display="inline"><mi href="./25.1#t1.r5" title="complex variable">s</mi></math> the series defines an analytic function of <math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math> for
+<math class="ltx_Math" altimg="m79.png" altimg-height="25px" altimg-valign="-7px" altimg-width="64px" alttext="|z|&lt;1" display="inline"><mrow><mrow><mo stretchy="false">|</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mn>1</mn></mrow></math>. The series also converges when <math class="ltx_Math" altimg="m80.png" altimg-height="25px" altimg-valign="-7px" altimg-width="64px" alttext="|z|=1" display="inline"><mrow><mrow><mo stretchy="false">|</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo stretchy="false">|</mo></mrow><mo>=</mo><mn>1</mn></mrow></math>, provided that
+<math class="ltx_Math" altimg="m25.png" altimg-height="19px" altimg-valign="-3px" altimg-width="67px" alttext="\Re s&gt;1" display="inline"><mrow><mrow><mi href="./1.9#E2" mathvariant="normal" title="real part">ℜ</mi><mo lspace="0.167em">⁡</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi></mrow><mo>&gt;</mo><mn>1</mn></mrow></math>. For other values of <math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>, <math class="ltx_Math" altimg="m45.png" altimg-height="25px" altimg-valign="-7px" altimg-width="62px" alttext="\operatorname{Li}_{s}\left(z\right)" display="inline"><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math> is defined
+by analytic continuation.</p>
+</div>
+<div id="ii.p3" class="ltx_para">
+<p class="ltx_p">The notation <math class="ltx_Math" altimg="m47.png" altimg-height="25px" altimg-valign="-7px" altimg-width="66px" alttext="\phi\left(z,s\right)" display="inline"><mrow><mi href="./25.12#ii" title="notation used by ( , )">ϕ</mi><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>,</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>)</mo></mrow></mrow></math> was used for <math class="ltx_Math" altimg="m45.png" altimg-height="25px" altimg-valign="-7px" altimg-width="62px" alttext="\operatorname{Li}_{s}\left(z\right)" display="inline"><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math> in
+<cite class="ltx_cite ltx_citemacro_citet">Truesdell (<a href="./bib/T#bib2282" title="On a function which occurs in the theory of the structure of polymers" class="ltx_ref">1945</a>)</cite> for a series treated in <cite class="ltx_cite ltx_citemacro_citet">Jonquière (<a href="./bib/J#bib1187" title="Note sur la série ∑ = n 1 ∞ / x n n s" class="ltx_ref">1889</a>)</cite>,
+hence the alternative name <em class="ltx_emph ltx_font_italic">Jonquière’s function</em>. The special case
+<math class="ltx_Math" altimg="m71.png" altimg-height="17px" altimg-valign="-2px" altimg-width="53px" alttext="z=1" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>=</mo><mn>1</mn></mrow></math> is the Riemann zeta function: <math class="ltx_Math" altimg="m54.png" altimg-height="25px" altimg-valign="-7px" altimg-width="130px" alttext="\zeta\left(s\right)=\operatorname{Li}_{s}\left(1\right)" display="inline"><mrow><mrow><mi href="./25.2#E1" title="Riemann zeta function">ζ</mi><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mn>1</mn><mo>)</mo></mrow></mrow></mrow></math>.</p>
+</div>
+<section id="Px1" class="ltx_paragraph">
+<h3 class="ltx_title ltx_title_paragraph">Integral Representation</h3>
+<div id="Px1.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=Hurwitz%20zeta%20function">Hurwitz zeta function</a>, <a class="ltx_keyword" href="./search/search?q=Riemann%20zeta%20function">Riemann zeta function</a>, <a class="ltx_keyword" href="./search/search?q=integral%20representations">integral representations</a>, <a class="ltx_keyword" href="./search/search?q=polylogarithms">polylogarithms</a>, <a class="ltx_keyword" href="./search/search?q=relations%20to%20other%20functions">relations to other functions</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#ii.info" title="§25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+
+<div id="Px1.p1" class="ltx_para">
+<div class="ltx_equation_container">
+<table id="E11" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.11</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E11.png" altimg-height="63px" altimg-valign="-21px" altimg-width="342px" alttext="\operatorname{Li}_{s}\left(z\right)\equiv\frac{z}{\Gamma\left(s\right)}\int_{0%
+}^{\infty}\frac{x^{s-1}}{e^{x}-z}\,\mathrm{d}x," display="block"><mrow><mrow><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow><mo href="./front/introduction#common.t1.r9" title="equals by definition">≡</mo><mrow><mfrac><mi href="./25.1#t1.r6" title="complex variable">z</mi><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>)</mo></mrow></mrow></mfrac><mo>⁢</mo><mrow><msubsup><mo href="./1.4#iv" title="integral">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup><mrow><mfrac><msup><mi href="./25.1#t1.r3" title="real variable">x</mi><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>−</mo><mn>1</mn></mrow></msup><mrow><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mi href="./25.1#t1.r3" title="real variable">x</mi></msup><mo>−</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi></mrow></mfrac><mo lspace="0em">⁢</mo><mrow><mo href="./1.4#iv" rspace="0em" title="differential of 𝑥">d</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow></mrow></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E11.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./5.2#E1" title="(5.2.1) ‣ Euler’s Integral ‣ §5.2(i) Gamma and Psi Functions ‣ §5.2 Definitions ‣ Properties ‣ Chapter 5 Gamma Function" class="ltx_ref"><math class="ltx_Math" altimg="m23.png" altimg-height="25px" altimg-valign="-7px" altimg-width="47px" alttext="\Gamma\left(\NVar{z}\right)" display="inline"><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./5.1#t1.r4" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: gamma function</a>,
+<a href="./1.4#iv" title="§1.4(iv) Indefinite Integrals ‣ §1.4 Calculus of One Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m37.png" altimg-height="18px" altimg-valign="-2px" altimg-width="28px" alttext="\,\mathrm{d}\NVar{x}" display="inline"><mrow><mo href="./1.4#iv" rspace="0em" title="differential of 𝑥">d</mo><mi class="ltx_nvar">x</mi></mrow></math>: differential of <math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi>x</mi></math></a>,
+<a href="./front/introduction#common.t1.r9" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m27.png" altimg-height="13px" altimg-valign="-2px" altimg-width="20px" alttext="\equiv" display="inline"><mo href="./front/introduction#common.t1.r9" title="equals by definition">≡</mo></math>: equals by definition</a>,
+<a href="./4.2#E11" title="(4.2.11) ‣ §4.2(ii) Logarithms to a General Base 𝑎 ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m38.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="\mathrm{e}" display="inline"><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi></math>: base of natural logarithm</a>,
+<a href="./1.4#iv" title="§1.4(iv) Indefinite Integrals ‣ §1.4 Calculus of One Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m30.png" altimg-height="27px" altimg-valign="-8px" altimg-width="18px" alttext="\int" display="inline"><mo href="./1.4#iv" title="integral">∫</mo></math>: integral</a>,
+<a href="./25.12#E10" title="(25.12.10) ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m43.png" altimg-height="25px" altimg-valign="-7px" altimg-width="62px" alttext="\operatorname{Li}_{\NVar{s}}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi class="ltx_nvar" href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: polylogarithm</a>,
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a>,
+<a href="./25.1#t1.r5" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m64.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="s" display="inline"><mi href="./25.1#t1.r5" title="complex variable">s</mi></math>:  complex variable</a> and
+<a href="./25.1#t1.r6" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>:  complex variable</a>
+</dd>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=improper%20integral">improper integral</a>, <a class="ltx_keyword" href="./search/search?q=integral%20representation">integral representation</a>
+</dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Lewin (<a href="./bib/L#bib1431" title="Polylogarithms and Associated Functions" class="ltx_ref">1981</a>, (7.188), p. 236)</cite></dd>
+<dt>Referenced by:</dt>
+<dd>
+<a href="./25.12#E16.info" title="In §25.12(iii) Fermi–Dirac and Bose–Einstein Integrals ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(25.12.16)</span></a>,
+<a href="./25.12#Px1.p1" title="Integral Representation ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a>
+</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E11" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E11</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E11.tex">TeX</a>, <a href="./25.12.E11.pmml">pMML</a>, <a href="./25.12.E11.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#Px1.info" title="Integral Representation ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a>,
+<a href="./25.12#ii.info" title="§25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<p class="ltx_p">valid when <math class="ltx_Math" altimg="m24.png" altimg-height="19px" altimg-valign="-3px" altimg-width="67px" alttext="\Re s&gt;0" display="inline"><mrow><mrow><mi href="./1.9#E2" mathvariant="normal" title="real part">ℜ</mi><mo lspace="0.167em">⁡</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi></mrow><mo>&gt;</mo><mn>0</mn></mrow></math> and <math class="ltx_Math" altimg="m32.png" altimg-height="25px" altimg-valign="-7px" altimg-width="145px" alttext="\left|\operatorname{ph}\left(1-z\right)\right|&lt;\pi" display="inline"><mrow><mrow><mo>|</mo><mrow><mi href="./1.9#E7" title="phase">ph</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi></mrow><mo>)</mo></mrow></mrow><mo>|</mo></mrow><mo>&lt;</mo><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi></mrow></math>, or
+<math class="ltx_Math" altimg="m25.png" altimg-height="19px" altimg-valign="-3px" altimg-width="67px" alttext="\Re s&gt;1" display="inline"><mrow><mrow><mi href="./1.9#E2" mathvariant="normal" title="real part">ℜ</mi><mo lspace="0.167em">⁡</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi></mrow><mo>&gt;</mo><mn>1</mn></mrow></math> and <math class="ltx_Math" altimg="m71.png" altimg-height="17px" altimg-valign="-2px" altimg-width="53px" alttext="z=1" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>=</mo><mn>1</mn></mrow></math>. (In the latter case (<a href="./25.12#E11" title="(25.12.11) ‣ Integral Representation ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.11</span></a>)
+becomes (<a href="./25.5#E1" title="(25.5.1) ‣ §25.5(i) In Terms of Elementary Functions ‣ §25.5 Integral Representations ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.5.1</span></a>)).</p>
+</div>
+<div id="Px1.p2" class="ltx_para">
+<p class="ltx_p">Further properties include
+</p>
+<div class="ltx_equation_container">
+<table id="E12" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.12</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E12.png" altimg-height="197px" altimg-valign="-28px" altimg-width="281px" alttext="\operatorname{Li}_{s}\left(z\right)=\Gamma\left(1-s\right)\left(\ln\frac{1}{z}%
+\right)^{s-1}+\sum_{n=0}^{\infty}\zeta\left(s-n\right)\frac{(\ln z)^{n}}{n!}," display="block"><mrow><mrow><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi></mrow><mo>)</mo></mrow></mrow><mo>⁢</mo><msup><mrow><mo>(</mo><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mfrac><mn>1</mn><mi href="./25.1#t1.r6" title="complex variable">z</mi></mfrac></mrow><mo>)</mo></mrow><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><mo rspace="0.055em">+</mo><mrow><munderover><mo movablelimits="false">∑</mo><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">∞</mi></munderover><mrow><mrow><mi href="./25.2#E1" title="Riemann zeta function">ζ</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>−</mo><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi></mrow><mo>)</mo></mrow></mrow><mo>⁢</mo><mfrac><msup><mrow><mo stretchy="false">(</mo><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi></mrow><mo stretchy="false">)</mo></mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi></msup><mrow><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi><mo href="./front/introduction#common.t1.r15" title="factorial (as in 𝑛!)">!</mo></mrow></mfrac></mrow></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr class="ltx_eqn_row"><td class="ltx_eqn_cell ltx_align_right" colspan="4"><span class="ltx_constraint"><math class="ltx_Math" altimg="m65.png" altimg-height="22px" altimg-valign="-6px" altimg-width="125px" alttext="s\neq 1,2,3,\dots" display="inline"><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>≠</mo><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi mathvariant="normal">…</mi></mrow></mrow></math>, <math class="ltx_Math" altimg="m78.png" altimg-height="25px" altimg-valign="-7px" altimg-width="101px" alttext="|\ln z|&lt;2\pi" display="inline"><mrow><mrow><mo stretchy="false">|</mo><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi></mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mrow><mn>2</mn><mo>⁢</mo><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi></mrow></mrow></math>,</span></td></tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E12.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./5.2#E1" title="(5.2.1) ‣ Euler’s Integral ‣ §5.2(i) Gamma and Psi Functions ‣ §5.2 Definitions ‣ Properties ‣ Chapter 5 Gamma Function" class="ltx_ref"><math class="ltx_Math" altimg="m23.png" altimg-height="25px" altimg-valign="-7px" altimg-width="47px" alttext="\Gamma\left(\NVar{z}\right)" display="inline"><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./5.1#t1.r4" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: gamma function</a>,
+<a href="./25.2#E1" title="(25.2.1) ‣ §25.2(i) Definition ‣ §25.2 Definition and Expansions ‣ Riemann Zeta Function ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m53.png" altimg-height="25px" altimg-valign="-7px" altimg-width="44px" alttext="\zeta\left(\NVar{s}\right)" display="inline"><mrow><mi href="./25.2#E1" title="Riemann zeta function">ζ</mi><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r5" title="complex variable">s</mi><mo>)</mo></mrow></mrow></math>: Riemann zeta function</a>,
+<a href="./3.12#E1" title="(3.12.1) ‣ §3.12 Mathematical Constants ‣ Areas ‣ Chapter 3 Numerical Methods" class="ltx_ref"><math class="ltx_Math" altimg="m48.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="\pi" display="inline"><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi></math>: the ratio of the circumference of a circle to its diameter</a>,
+<a href="./front/introduction#common.t1.r15" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m7.png" altimg-height="18px" altimg-valign="-2px" altimg-width="10px" alttext="!" display="inline"><mo href="./front/introduction#common.t1.r15" title="factorial (as in 𝑛!)">!</mo></math>: factorial (as in <math class="ltx_Math" altimg="m59.png" altimg-height="18px" altimg-valign="-2px" altimg-width="23px" alttext="n!" display="inline"><mrow><mi>n</mi><mo href="./front/introduction#common.t1.r15" title="factorial (as in 𝑛!)">!</mo></mrow></math>)</a>,
+<a href="./4.2#E2" title="(4.2.2) ‣ §4.2(i) The Logarithm ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m33.png" altimg-height="18px" altimg-valign="-2px" altimg-width="36px" alttext="\ln\NVar{z}" display="inline"><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: principal branch of logarithm function</a>,
+<a href="./25.12#E10" title="(25.12.10) ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m43.png" altimg-height="25px" altimg-valign="-7px" altimg-width="62px" alttext="\operatorname{Li}_{\NVar{s}}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi class="ltx_nvar" href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: polylogarithm</a>,
+<a href="./25.1#t1.r1" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m60.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="n" display="inline"><mi href="./25.1#t1.r1" title="nonnegative integer">n</mi></math>:  nonnegative integer</a>,
+<a href="./25.1#t1.r5" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m64.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="s" display="inline"><mi href="./25.1#t1.r5" title="complex variable">s</mi></math>:  complex variable</a> and
+<a href="./25.1#t1.r6" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>:  complex variable</a>
+</dd>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=infinite%20series">infinite series</a>, <a class="ltx_keyword" href="./search/search?q=series%20representation">series representation</a>
+</dd>
+<dt>Source:</dt>
+<dd>
+<cite class="ltx_cite ltx_citemacro_citet">Erdélyi<span class="ltx_text ltx_bib_etal"> et al.</span> (<a href="./bib/E#bib751" title="Higher Transcendental Functions. Vol. I" class="ltx_ref">1953a</a>, (1.11.8), p. 29)</cite>; take <math class="ltx_Math" altimg="m66.png" altimg-height="17px" altimg-valign="-2px" altimg-width="53px" alttext="v=1" display="inline"><mrow><mi>v</mi><mo>=</mo><mn>1</mn></mrow></math> and use (<a href="./25.14#E3" title="(25.14.3) ‣ §25.14(i) Definition ‣ §25.14 Lerch’s Transcendent ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.14.3</span></a>), (<a href="./25.11#E2" title="(25.11.2) ‣ §25.11(i) Definition ‣ §25.11 Hurwitz Zeta Function ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.11.2</span></a>)</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E12" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E12</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E12.tex">TeX</a>, <a href="./25.12.E12.pmml">pMML</a>, <a href="./25.12.E12.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#Px1.info" title="Integral Representation ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a>,
+<a href="./25.12#ii.info" title="§25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<p class="ltx_p">and
+</p>
+</div>
+<div id="Px1.p3" class="ltx_para">
+<div class="ltx_equation_container">
+<table id="E13" class="ltx_equation ltx_eqn_table">
+
+<tbody>
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.13</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math class="ltx_Math" altimg="E13.png" altimg-height="155px" altimg-valign="-22px" altimg-width="479px" alttext="\operatorname{Li}_{s}\left(z\right)+{\mathrm{e}}^{\pi\mathrm{i}s}\operatorname%
+{Li}_{s}\left(\frac{1}{z}\right)=\frac{(2\pi)^{s}{\mathrm{e}}^{\pi\mathrm{i}s/%
+2}}{\Gamma\left(s\right)}\zeta\left(1-s,\frac{\ln z}{2\pi\mathrm{i}}\right)," display="block"><mrow><mrow><mrow><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow><mo>+</mo><mrow><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mrow><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi><mo>⁢</mo><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi><mo>⁢</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi></mrow></msup><mo lspace="0.167em">⁢</mo><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mfrac><mn>1</mn><mi href="./25.1#t1.r6" title="complex variable">z</mi></mfrac><mo>)</mo></mrow></mrow></mrow></mrow><mo>=</mo><mrow><mfrac><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><mn>2</mn><mo>⁢</mo><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi></mrow><mo stretchy="false">)</mo></mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi></msup><mo>⁢</mo><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mrow><mrow><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi><mo>⁢</mo><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi><mo>⁢</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi></mrow><mo>/</mo><mn>2</mn></mrow></msup></mrow><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>)</mo></mrow></mrow></mfrac><mo>⁢</mo><mrow><mi href="./25.11#E1" title="Hurwitz zeta function">ζ</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi></mrow><mo>,</mo><mfrac><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi></mrow><mrow><mn>2</mn><mo>⁢</mo><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi><mo>⁢</mo><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi></mrow></mfrac><mo>)</mo></mrow></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr class="ltx_eqn_row"><td class="ltx_eqn_cell ltx_align_right" colspan="4"><span class="ltx_constraint"><math class="ltx_Math" altimg="m75.png" altimg-height="25px" altimg-valign="-7px" altimg-width="129px" alttext="z\in\mathbb{C}\setminus[0,\infty)" display="inline"><mrow><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo href="./front/introduction#common.t1.r10" title="element of">∈</mo><mrow><mi href="./front/introduction#common.t1.r1" title="complex plane">ℂ</mi><mo href="./front/introduction#common.t2.r19" title="set subtraction">∖</mo><mrow><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">[</mo><mn>0</mn><mo href="./front/introduction#common.t2.r1" title="half-closed interval">,</mo><mi mathvariant="normal">∞</mi><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">)</mo></mrow></mrow></mrow></math>.</span></td></tr>
+<tr><td class="ltx_align_right" colspan="4">
+<div id="E13.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./5.2#E1" title="(5.2.1) ‣ Euler’s Integral ‣ §5.2(i) Gamma and Psi Functions ‣ §5.2 Definitions ‣ Properties ‣ Chapter 5 Gamma Function" class="ltx_ref"><math class="ltx_Math" altimg="m23.png" altimg-height="25px" altimg-valign="-7px" altimg-width="47px" alttext="\Gamma\left(\NVar{z}\right)" display="inline"><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./5.1#t1.r4" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: gamma function</a>,
+<a href="./25.11#E1" title="(25.11.1) ‣ §25.11(i) Definition ‣ §25.11 Hurwitz Zeta Function ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m52.png" altimg-height="25px" altimg-valign="-7px" altimg-width="64px" alttext="\zeta\left(\NVar{s},\NVar{a}\right)" display="inline"><mrow><mi href="./25.11#E1" title="Hurwitz zeta function">ζ</mi><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r5" title="complex variable">s</mi><mo>,</mo><mi class="ltx_nvar" href="./25.1#t1.r4" title="real or complex parameter">a</mi><mo>)</mo></mrow></mrow></math>: Hurwitz zeta function</a>,
+<a href="./3.12#E1" title="(3.12.1) ‣ §3.12 Mathematical Constants ‣ Areas ‣ Chapter 3 Numerical Methods" class="ltx_ref"><math class="ltx_Math" altimg="m48.png" altimg-height="13px" altimg-valign="-2px" altimg-width="17px" alttext="\pi" display="inline"><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi></math>: the ratio of the circumference of a circle to its diameter</a>,
+<a href="./front/introduction#common.t2.r1" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m22.png" altimg-height="25px" altimg-valign="-7px" altimg-width="47px" alttext="[\NVar{a},\NVar{b})" display="inline"><mrow><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">[</mo><mi class="ltx_nvar">a</mi><mo href="./front/introduction#common.t2.r1" title="half-closed interval">,</mo><mi class="ltx_nvar">b</mi><mo href="./front/introduction#common.t2.r1" stretchy="false" title="half-closed interval">)</mo></mrow></math>: half-closed interval</a>,
+<a href="./front/introduction#common.t1.r1" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m34.png" altimg-height="18px" altimg-valign="-2px" altimg-width="19px" alttext="\mathbb{C}" display="inline"><mi href="./front/introduction#common.t1.r1" title="complex plane">ℂ</mi></math>: complex plane</a>,
+<a href="./front/introduction#common.t1.r10" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m28.png" altimg-height="16px" altimg-valign="-3px" altimg-width="18px" alttext="\in" display="inline"><mo href="./front/introduction#common.t1.r10" title="element of">∈</mo></math>: element of</a>,
+<a href="./4.2#E11" title="(4.2.11) ‣ §4.2(ii) Logarithms to a General Base 𝑎 ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m38.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="\mathrm{e}" display="inline"><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi></math>: base of natural logarithm</a>,
+<a href="./1.9#E1" title="(1.9.1) ‣ §1.9(i) Complex Numbers ‣ §1.9 Calculus of a Complex Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m39.png" altimg-height="18px" altimg-valign="-2px" altimg-width="10px" alttext="\mathrm{i}" display="inline"><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi></math>: imaginary unit</a>,
+<a href="./4.2#E2" title="(4.2.2) ‣ §4.2(i) The Logarithm ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m33.png" altimg-height="18px" altimg-valign="-2px" altimg-width="36px" alttext="\ln\NVar{z}" display="inline"><mrow><mi href="./4.2#E2" title="principal branch of logarithm function">ln</mi><mo lspace="0.167em">⁡</mo><mi class="ltx_nvar" href="./4.1#t1.r4" title="complex variable">z</mi></mrow></math>: principal branch of logarithm function</a>,
+<a href="./25.12#E10" title="(25.12.10) ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m43.png" altimg-height="25px" altimg-valign="-7px" altimg-width="62px" alttext="\operatorname{Li}_{\NVar{s}}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi class="ltx_nvar" href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: polylogarithm</a>,
+<a href="./front/introduction#common.t2.r19" title="Common Notations and Definitions ‣ Mathematical Introduction" class="ltx_ref"><math class="ltx_Math" altimg="m49.png" altimg-height="25px" altimg-valign="-7px" altimg-width="15px" alttext="\setminus" display="inline"><mo href="./front/introduction#common.t2.r19" title="set subtraction">∖</mo></math>: set subtraction</a>,
+<a href="./25.1#t1.r4" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m55.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="a" display="inline"><mi href="./25.1#t1.r4" title="real or complex parameter">a</mi></math>:  real or complex parameter</a>,
+<a href="./25.1#t1.r5" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m64.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="s" display="inline"><mi href="./25.1#t1.r5" title="complex variable">s</mi></math>:  complex variable</a> and
+<a href="./25.1#t1.r6" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>:  complex variable</a>
+</dd>
+<dt>Source:</dt>
+<dd>
+<cite class="ltx_cite ltx_citemacro_citet">Erdélyi<span class="ltx_text ltx_bib_etal"> et al.</span> (<a href="./bib/E#bib751" title="Higher Transcendental Functions. Vol. I" class="ltx_ref">1953a</a>, (1.11.16), p. 31)</cite>; with <math class="ltx_Math" altimg="m44.png" altimg-height="25px" altimg-valign="-7px" altimg-width="152px" alttext="\operatorname{Li}_{s}\left(z\right)=F(z,s)" display="inline"><mrow><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mi>F</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r6" title="complex variable">z</mi><mo>,</mo><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>
+</dd>
+<dt>Referenced by:</dt>
+<dd>
+<a href="./25.12#Px1.p3" title="Integral Representation ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a>,
+<a href="./errata/#V1.2.3.I1.ix1" title="In Errata ‣ Version 1.2.3 (December 15, 2024) ‣ Errata" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Erratum (V1.2.3) for  Equation (<span class="ltx_text ltx_ref_tag">25.12.13</span>)</span></a>
+</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E13" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E13</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E13.tex">TeX</a>, <a href="./25.12.E13.pmml">pMML</a>, <a href="./25.12.E13.png">png</a>
+</dd>
+<dt>Modification (effective with 1.2.3):</dt>
+<dd>
+In this update we replaced <math class="ltx_Math" altimg="m77.png" altimg-height="22px" altimg-valign="-2px" altimg-width="47px" alttext="{\mathrm{e}}^{2\pi\mathrm{i}a}" display="inline"><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mrow><mn>2</mn><mo>⁢</mo><mi href="./3.12#E1" title="the ratio of the circumference of a circle to its diameter">π</mi><mo>⁢</mo><mi href="./1.9#E1" mathvariant="normal" title="imaginary unit">i</mi><mo>⁢</mo><mi href="./25.1#t1.r4" title="real or complex parameter">a</mi></mrow></msup></math> by <math class="ltx_Math" altimg="m73.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="z" display="inline"><mi href="./25.1#t1.r6" title="complex variable">z</mi></math>.
+In this way we can remove the constraints on <math class="ltx_Math" altimg="m55.png" altimg-height="13px" altimg-valign="-2px" altimg-width="15px" alttext="a" display="inline"><mi href="./25.1#t1.r4" title="real or complex parameter">a</mi></math> and <math class="ltx_Math" altimg="m64.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="s" display="inline"><mi href="./25.1#t1.r5" title="complex variable">s</mi></math>.
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#Px1.info" title="Integral Representation ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a>,
+<a href="./25.12#ii.info" title="§25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(ii)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<p class="ltx_p">When <math class="ltx_Math" altimg="m61.png" altimg-height="17px" altimg-valign="-2px" altimg-width="52px" alttext="s=2" display="inline"><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>=</mo><mn>2</mn></mrow></math> (<a href="./25.12#E13" title="(25.12.13) ‣ Integral Representation ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.13</span></a>) becomes (<a href="./25.12#E4" title="(25.12.4) ‣ §25.12(i) Dilogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.4</span></a>).</p>
+</div>
+<div id="Px1.p4" class="ltx_para">
+<p class="ltx_p">See also <cite class="ltx_cite ltx_citemacro_citet">Lewin (<a href="./bib/L#bib1431" title="Polylogarithms and Associated Functions" class="ltx_ref">1981</a>)</cite>, <cite class="ltx_cite ltx_citemacro_citet">Kölbig (<a href="./bib/K#bib1316" title="Nielsen’s generalized polylogarithms" class="ltx_ref">1986</a>)</cite>,
+<cite class="ltx_cite ltx_citemacro_citet">Maximon (<a href="./bib/M#bib1571" title="The dilogarithm function for complex argument" class="ltx_ref">2003</a>)</cite>, <cite class="ltx_cite ltx_citemacro_citet">Prudnikov<span class="ltx_text ltx_bib_etal"> et al.</span> (<a href="./bib/P#bib1905" title="Integrals and Series: More Special Functions, Vol. 3" class="ltx_ref">1990</a>, §§1.2 and 2.5)</cite>,
+<cite class="ltx_cite ltx_citemacro_citet">Prudnikov<span class="ltx_text ltx_bib_etal"> et al.</span> (<a href="./bib/P#bib1906" title="Integrals and Series: Direct Laplace Transforms, Vol. 4" class="ltx_ref">1992a</a>, §3.3)</cite>, and <cite class="ltx_cite ltx_citemacro_citet">Prudnikov<span class="ltx_text ltx_bib_etal"> et al.</span> (<a href="./bib/P#bib1907" title="Integrals and Series: Inverse Laplace Transforms, Vol. 5" class="ltx_ref">1992b</a>, §3.3)</cite>.</p>
+</div>
+</section>
+</section>
+<section id="iii" class="ltx_subsection">
+<h2 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">§25.12(iii) </span>Fermi–Dirac and Bose–Einstein Integrals</h2>
+<div id="iii.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=Bose%E2%80%93Einstein%20integrals">Bose–Einstein integrals</a>, <a class="ltx_keyword" href="./search/search?q=Fermi%E2%80%93Dirac%20integrals">Fermi–Dirac integrals</a>, <a class="ltx_keyword" href="./search/search?q=definition">definition</a>, <a class="ltx_keyword" href="./search/search?q=polylogarithms">polylogarithms</a>, <a class="ltx_keyword" href="./search/search?q=relation%20to%20polylogarithms">relation to polylogarithms</a>, <a class="ltx_keyword" href="./search/search?q=relations%20to%20other%20functions">relations to other functions</a>, <a class="ltx_keyword" href="./search/search?q=uniform%20asymptotic%20approximation">uniform asymptotic approximation</a>
+</dd>
+<dt>Notes:</dt>
+<dd>See <cite class="ltx_cite ltx_citemacro_citet">Dingle (<a href="./bib/D#bib2883" title="The Bose-Einstein integrals = ⁢ B p ( η ) ⁢ ( ! p ) - 1 ∫ ∞ 0 ⁢ ϵ p ( - e - ϵ η 1 ) - 1 d ϵ" class="ltx_ref">1957a</a>)</cite> and <cite class="ltx_cite ltx_citemacro_citet">Dingle (<a href="./bib/D#bib2884" title="The Fermi-Dirac integrals = ⁢ F p ( η ) ⁢ ( ! p ) - 1 ∫ ∞ 0 ⁢ ϵ p ( + e - ϵ η 1 ) - 1 d ϵ" class="ltx_ref">1957b</a>)</cite>.</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.iii" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.iii</a></dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+
+<div id="iii.p1" class="ltx_para">
+<p class="ltx_p">The Fermi–Dirac and Bose–Einstein integrals are defined by
+</p>
+<div class="ltx_equationgroup_container">
+<table id="EGx1" class="ltx_equationgroup ltx_eqn_table">
+
+<tbody id="E14">
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.14</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math class="ltx_Math" altimg="m5.png" altimg-height="27px" altimg-valign="-7px" altimg-width="57px" alttext="\displaystyle F_{s}(x)" display="inline"><mrow><msub><mi href="./25.12#E14" title="Fermi–Dirac integral">F</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math class="ltx_Math" altimg="m2.png" altimg-height="55px" altimg-valign="-21px" altimg-width="265px" alttext="\displaystyle=\frac{1}{\Gamma\left(s+1\right)}\int_{0}^{\infty}\frac{t^{s}}{e^%
+{t-x}+1}\,\mathrm{d}t," display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>+</mo><mn>1</mn></mrow><mo>)</mo></mrow></mrow></mfrac></mstyle><mo>⁢</mo><mrow><mstyle displaystyle="true"><msubsup><mo href="./1.4#iv" title="integral">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup></mstyle><mrow><mstyle displaystyle="true"><mfrac><msup><mi>t</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msup><mrow><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mrow><mi>t</mi><mo>−</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow></mfrac></mstyle><mo lspace="0em">⁢</mo><mrow><mo href="./1.4#iv" rspace="0em" title="differential of 𝑥">d</mo><mi>t</mi></mrow></mrow></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr class="ltx_eqn_row"><td class="ltx_eqn_cell ltx_align_right" colspan="5"><span class="ltx_constraint"><math class="ltx_Math" altimg="m62.png" altimg-height="19px" altimg-valign="-4px" altimg-width="68px" alttext="s&gt;-1" display="inline"><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>&gt;</mo><mrow><mo>−</mo><mn>1</mn></mrow></mrow></math>,</span></td></tr>
+<tr><td class="ltx_align_right" colspan="5">
+<div id="E14.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Defines:</dt>
+<dd><span class="ltx_text"><math class="ltx_Math" altimg="m16.png" altimg-height="25px" altimg-valign="-7px" altimg-width="55px" alttext="F_{s}(x)" display="inline"><mrow><msub><mi href="./25.12#E14" title="Fermi–Dirac integral">F</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo stretchy="false">)</mo></mrow></mrow></math>:  Fermi–Dirac integral (locally)</span></dd>
+<dt>Symbols:</dt>
+<dd>
+<a href="./5.2#E1" title="(5.2.1) ‣ Euler’s Integral ‣ §5.2(i) Gamma and Psi Functions ‣ §5.2 Definitions ‣ Properties ‣ Chapter 5 Gamma Function" class="ltx_ref"><math class="ltx_Math" altimg="m23.png" altimg-height="25px" altimg-valign="-7px" altimg-width="47px" alttext="\Gamma\left(\NVar{z}\right)" display="inline"><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./5.1#t1.r4" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: gamma function</a>,
+<a href="./1.4#iv" title="§1.4(iv) Indefinite Integrals ‣ §1.4 Calculus of One Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m37.png" altimg-height="18px" altimg-valign="-2px" altimg-width="28px" alttext="\,\mathrm{d}\NVar{x}" display="inline"><mrow><mo href="./1.4#iv" rspace="0em" title="differential of 𝑥">d</mo><mi class="ltx_nvar">x</mi></mrow></math>: differential of <math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi>x</mi></math></a>,
+<a href="./4.2#E11" title="(4.2.11) ‣ §4.2(ii) Logarithms to a General Base 𝑎 ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m38.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="\mathrm{e}" display="inline"><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi></math>: base of natural logarithm</a>,
+<a href="./1.4#iv" title="§1.4(iv) Indefinite Integrals ‣ §1.4 Calculus of One Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m30.png" altimg-height="27px" altimg-valign="-8px" altimg-width="18px" alttext="\int" display="inline"><mo href="./1.4#iv" title="integral">∫</mo></math>: integral</a>,
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a> and
+<a href="./25.1#t1.r5" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m64.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="s" display="inline"><mi href="./25.1#t1.r5" title="complex variable">s</mi></math>:  complex variable</a>
+</dd>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=Fermi%E2%80%93Dirac%20integral">Fermi–Dirac integral</a>, <a class="ltx_keyword" href="./search/search?q=definition">definition</a>, <a class="ltx_keyword" href="./search/search?q=improper%20integral">improper integral</a>, <a class="ltx_keyword" href="./search/search?q=integral%20representation">integral representation</a>
+</dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Dingle (<a href="./bib/D#bib2884" title="The Fermi-Dirac integrals = ⁢ F p ( η ) ⁢ ( ! p ) - 1 ∫ ∞ 0 ⁢ ϵ p ( + e - ϵ η 1 ) - 1 d ϵ" class="ltx_ref">1957b</a>, (1), p. 226)</cite></dd>
+<dt>Referenced by:</dt>
+<dd>
+<a href="./25.12#E16.info" title="In §25.12(iii) Fermi–Dirac and Bose–Einstein Integrals ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(25.12.16)</span></a>,
+<a href="./25.19#I1.i3.p1" title="In §25.19 Tables ‣ Computation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3rd item</span></a>,
+<a href="./25.20#I1.i5.p1" title="In §25.20 Approximations ‣ Computation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">5th item</span></a>
+</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E14" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E14</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E14.tex">TeX</a>, <a href="./25.12.E14.pmml">pMML</a>, <a href="./25.12.E14.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#iii.info" title="§25.12(iii) Fermi–Dirac and Bose–Einstein Integrals ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(iii)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+<tbody id="E15">
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equation ltx_align_left">25.12.15</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math class="ltx_Math" altimg="m6.png" altimg-height="27px" altimg-valign="-7px" altimg-width="60px" alttext="\displaystyle G_{s}(x)" display="inline"><mrow><msub><mi href="./25.12#E15" title="Bose–Einstein integral">G</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math class="ltx_Math" altimg="m3.png" altimg-height="55px" altimg-valign="-21px" altimg-width="265px" alttext="\displaystyle=\frac{1}{\Gamma\left(s+1\right)}\int_{0}^{\infty}\frac{t^{s}}{e^%
+{t-x}-1}\,\mathrm{d}t," display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>+</mo><mn>1</mn></mrow><mo>)</mo></mrow></mrow></mfrac></mstyle><mo>⁢</mo><mrow><mstyle displaystyle="true"><msubsup><mo href="./1.4#iv" title="integral">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup></mstyle><mrow><mstyle displaystyle="true"><mfrac><msup><mi>t</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msup><mrow><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mrow><mi>t</mi><mo>−</mo><mi href="./25.1#t1.r3" title="real variable">x</mi></mrow></msup><mo>−</mo><mn>1</mn></mrow></mfrac></mstyle><mo lspace="0em">⁢</mo><mrow><mo href="./1.4#iv" rspace="0em" title="differential of 𝑥">d</mo><mi>t</mi></mrow></mrow></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr class="ltx_eqn_row"><td class="ltx_eqn_cell ltx_align_right" colspan="5"><span class="ltx_constraint"><math class="ltx_Math" altimg="m62.png" altimg-height="19px" altimg-valign="-4px" altimg-width="68px" alttext="s&gt;-1" display="inline"><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>&gt;</mo><mrow><mo>−</mo><mn>1</mn></mrow></mrow></math>, <math class="ltx_Math" altimg="m67.png" altimg-height="18px" altimg-valign="-3px" altimg-width="54px" alttext="x&lt;0" display="inline"><mrow><mi href="./25.1#t1.r3" title="real variable">x</mi><mo>&lt;</mo><mn>0</mn></mrow></math>; or <math class="ltx_Math" altimg="m63.png" altimg-height="18px" altimg-valign="-3px" altimg-width="52px" alttext="s&gt;0" display="inline"><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, <math class="ltx_Math" altimg="m69.png" altimg-height="20px" altimg-valign="-5px" altimg-width="54px" alttext="x\leq 0" display="inline"><mrow><mi href="./25.1#t1.r3" title="real variable">x</mi><mo>≤</mo><mn>0</mn></mrow></math>,</span></td></tr>
+<tr><td class="ltx_align_right" colspan="5">
+<div id="E15.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Defines:</dt>
+<dd><span class="ltx_text"><math class="ltx_Math" altimg="m18.png" altimg-height="25px" altimg-valign="-7px" altimg-width="57px" alttext="G_{s}(x)" display="inline"><mrow><msub><mi href="./25.12#E15" title="Bose–Einstein integral">G</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo stretchy="false">)</mo></mrow></mrow></math>:  Bose–Einstein integral (locally)</span></dd>
+<dt>Symbols:</dt>
+<dd>
+<a href="./5.2#E1" title="(5.2.1) ‣ Euler’s Integral ‣ §5.2(i) Gamma and Psi Functions ‣ §5.2 Definitions ‣ Properties ‣ Chapter 5 Gamma Function" class="ltx_ref"><math class="ltx_Math" altimg="m23.png" altimg-height="25px" altimg-valign="-7px" altimg-width="47px" alttext="\Gamma\left(\NVar{z}\right)" display="inline"><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./5.1#t1.r4" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: gamma function</a>,
+<a href="./1.4#iv" title="§1.4(iv) Indefinite Integrals ‣ §1.4 Calculus of One Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m37.png" altimg-height="18px" altimg-valign="-2px" altimg-width="28px" alttext="\,\mathrm{d}\NVar{x}" display="inline"><mrow><mo href="./1.4#iv" rspace="0em" title="differential of 𝑥">d</mo><mi class="ltx_nvar">x</mi></mrow></math>: differential of <math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi>x</mi></math></a>,
+<a href="./4.2#E11" title="(4.2.11) ‣ §4.2(ii) Logarithms to a General Base 𝑎 ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m38.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="\mathrm{e}" display="inline"><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi></math>: base of natural logarithm</a>,
+<a href="./1.4#iv" title="§1.4(iv) Indefinite Integrals ‣ §1.4 Calculus of One Variable ‣ Topics of Discussion ‣ Chapter 1 Algebraic and Analytic Methods" class="ltx_ref"><math class="ltx_Math" altimg="m30.png" altimg-height="27px" altimg-valign="-8px" altimg-width="18px" alttext="\int" display="inline"><mo href="./1.4#iv" title="integral">∫</mo></math>: integral</a>,
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a> and
+<a href="./25.1#t1.r5" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m64.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="s" display="inline"><mi href="./25.1#t1.r5" title="complex variable">s</mi></math>:  complex variable</a>
+</dd>
+<dt>Keywords:</dt>
+<dd>
+<a class="ltx_keyword" href="./search/search?q=Bose%E2%80%93Einstein%20integral">Bose–Einstein integral</a>, <a class="ltx_keyword" href="./search/search?q=definition">definition</a>, <a class="ltx_keyword" href="./search/search?q=improper%20integral">improper integral</a>, <a class="ltx_keyword" href="./search/search?q=integral%20representation">integral representation</a>
+</dd>
+<dt>Source:</dt>
+<dd><cite class="ltx_cite ltx_citemacro_citet">Dingle (<a href="./bib/D#bib2883" title="The Bose-Einstein integrals = ⁢ B p ( η ) ⁢ ( ! p ) - 1 ∫ ∞ 0 ⁢ ϵ p ( - e - ϵ η 1 ) - 1 d ϵ" class="ltx_ref">1957a</a>, p. 240)</cite></dd>
+<dt>Referenced by:</dt>
+<dd><a href="./25.12#E16.info" title="In §25.12(iii) Fermi–Dirac and Bose–Einstein Integrals ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(25.12.16)</span></a></dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E15" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E15</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E15.tex">TeX</a>, <a href="./25.12.E15.pmml">pMML</a>, <a href="./25.12.E15.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#iii.info" title="§25.12(iii) Fermi–Dirac and Bose–Einstein Integrals ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(iii)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+<p class="ltx_p">respectively. Sometimes the factor <math class="ltx_Math" altimg="m14.png" altimg-height="25px" altimg-valign="-7px" altimg-width="103px" alttext="1/\Gamma\left(s+1\right)" display="inline"><mrow><mn>1</mn><mo>/</mo><mrow><mi href="./5.2#E1" mathvariant="normal" title="gamma function">Γ</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>+</mo><mn>1</mn></mrow><mo>)</mo></mrow></mrow></mrow></math> is omitted. See
+<cite class="ltx_cite ltx_citemacro_citet">Cloutman (<a href="./bib/C#bib531" title="Numerical evaluation of the Fermi-Dirac integrals" class="ltx_ref">1989</a>)</cite> and <cite class="ltx_cite ltx_citemacro_citet">Gautschi (<a href="./bib/G#bib891" title="On the computation of generalized Fermi-Dirac and Bose-Einstein integrals" class="ltx_ref">1993</a>)</cite>.</p>
+</div>
+<div id="iii.p2" class="ltx_para">
+<p class="ltx_p">In terms of polylogarithms
+</p>
+<div class="ltx_equationgroup_container">
+<table id="E16" class="ltx_equationgroup ltx_eqn_table">
+<tbody>
+<tr id="Ex1" class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td rowspan="2" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_left"><span class="ltx_tag ltx_tag_equationgroup ltx_align_left">25.12.16</span></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math class="ltx_Math" altimg="m5.png" altimg-height="27px" altimg-valign="-7px" altimg-width="57px" alttext="\displaystyle F_{s}(x)" display="inline"><mrow><msub><mi href="./25.12#E14" title="Fermi–Dirac integral">F</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math class="ltx_Math" altimg="m1.png" altimg-height="40px" altimg-valign="-7px" altimg-width="168px" alttext="\displaystyle=-\operatorname{Li}_{s+1}\left(-e^{x}\right)," display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mo rspace="0.167em">−</mo><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>⁡</mo><mrow><mo>(</mo><mrow><mo>−</mo><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mi href="./25.1#t1.r3" title="real variable">x</mi></msup></mrow><mo>)</mo></mrow></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr id="Ex2" class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math class="ltx_Math" altimg="m6.png" altimg-height="27px" altimg-valign="-7px" altimg-width="60px" alttext="\displaystyle G_{s}(x)" display="inline"><mrow><msub><mi href="./25.12#E15" title="Bose–Einstein integral">G</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math class="ltx_Math" altimg="m4.png" altimg-height="40px" altimg-valign="-7px" altimg-width="132px" alttext="\displaystyle=\operatorname{Li}_{s+1}\left(e^{x}\right)." display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mrow><mi href="./25.1#t1.r5" title="complex variable">s</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>⁡</mo><mrow><mo>(</mo><msup><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi><mi href="./25.1#t1.r3" title="real variable">x</mi></msup><mo>)</mo></mrow></mrow></mrow><mo lspace="0em">.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+<tr><td class="ltx_align_right" colspan="5">
+<div id="E16.info" class="ltx_metadata ltx_info">
+<span href="" class="ltx_infoicon ltx_icon" title="Show Annotations"><span class="ltx_font_bold">ⓘ</span></span>
+<div class="ltx_infocontent">
+<dl>
+<dt>Symbols:</dt>
+<dd>
+<a href="./4.2#E11" title="(4.2.11) ‣ §4.2(ii) Logarithms to a General Base 𝑎 ‣ §4.2 Definitions ‣ Logarithm, Exponential, Powers ‣ Chapter 4 Elementary Functions" class="ltx_ref"><math class="ltx_Math" altimg="m38.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="\mathrm{e}" display="inline"><mi href="./4.2#E11" mathvariant="normal" title="base of natural logarithm">e</mi></math>: base of natural logarithm</a>,
+<a href="./25.12#E10" title="(25.12.10) ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m43.png" altimg-height="25px" altimg-valign="-7px" altimg-width="62px" alttext="\operatorname{Li}_{\NVar{s}}\left(\NVar{z}\right)" display="inline"><mrow><msub><mi href="./25.12#E10" title="polylogarithm">Li</mi><mi class="ltx_nvar" href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo>(</mo><mi class="ltx_nvar" href="./25.1#t1.r6" title="complex variable">z</mi><mo>)</mo></mrow></mrow></math>: polylogarithm</a>,
+<a href="./25.1#t1.r3" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m68.png" altimg-height="13px" altimg-valign="-2px" altimg-width="16px" alttext="x" display="inline"><mi href="./25.1#t1.r3" title="real variable">x</mi></math>:  real variable</a>,
+<a href="./25.1#t1.r5" title="§25.1 Special Notation ‣ Notation ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m64.png" altimg-height="13px" altimg-valign="-2px" altimg-width="14px" alttext="s" display="inline"><mi href="./25.1#t1.r5" title="complex variable">s</mi></math>:  complex variable</a>,
+<a href="./25.12#E14" title="(25.12.14) ‣ §25.12(iii) Fermi–Dirac and Bose–Einstein Integrals ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m16.png" altimg-height="25px" altimg-valign="-7px" altimg-width="55px" alttext="F_{s}(x)" display="inline"><mrow><msub><mi href="./25.12#E14" title="Fermi–Dirac integral">F</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo stretchy="false">)</mo></mrow></mrow></math>:  Fermi–Dirac integral</a> and
+<a href="./25.12#E15" title="(25.12.15) ‣ §25.12(iii) Fermi–Dirac and Bose–Einstein Integrals ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><math class="ltx_Math" altimg="m18.png" altimg-height="25px" altimg-valign="-7px" altimg-width="57px" alttext="G_{s}(x)" display="inline"><mrow><msub><mi href="./25.12#E15" title="Bose–Einstein integral">G</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo stretchy="false">)</mo></mrow></mrow></math>:  Bose–Einstein integral</a>
+</dd>
+<dt>Proof sketch:</dt>
+<dd>Derivable from (<a href="./25.12#E11" title="(25.12.11) ‣ Integral Representation ‣ §25.12(ii) Polylogarithms ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.11</span></a>), (<a href="./25.12#E14" title="(25.12.14) ‣ §25.12(iii) Fermi–Dirac and Bose–Einstein Integrals ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.14</span></a>),
+(<a href="./25.12#E15" title="(25.12.15) ‣ §25.12(iii) Fermi–Dirac and Bose–Einstein Integrals ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">25.12.15</span></a>).</dd>
+<dt>Permalink:</dt>
+<dd><a href="./25.12.E16" title="" class="ltx_ref">http://dlmf.nist.gov/25.12.E16</a></dd>
+<dt>Encodings:</dt>
+<dd>
+<a href="./25.12.E16a.tex">TeX</a>, <a href="./25.12.E16b.tex">TeX</a>, <a href="./25.12.E16a.pmml">pMML</a>, <a href="./25.12.E16b.pmml">pMML</a>, <a href="./25.12.E16a.png">png</a>, <a href="./25.12.E16b.png">png</a>
+</dd>
+<dt>See also:</dt>
+<dd>Annotations for <a href="./25.12#iii.info" title="§25.12(iii) Fermi–Dirac and Bose–Einstein Integrals ‣ §25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12(iii)</span></a>,
+<a href="./25.12#info" title="§25.12 Polylogarithms ‣ Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">§25.12</span></a> and
+<a href="./25#info" title="Chapter 25 Zeta and Related Functions" class="ltx_ref"><span class="ltx_text ltx_ref_tag">Ch.25</span></a>
+</dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="iii.p3" class="ltx_para">
+<p class="ltx_p">For a uniform asymptotic approximation for <math class="ltx_Math" altimg="m16.png" altimg-height="25px" altimg-valign="-7px" altimg-width="55px" alttext="F_{s}(x)" display="inline"><mrow><msub><mi href="./25.12#E14" title="Fermi–Dirac integral">F</mi><mi href="./25.1#t1.r5" title="complex variable">s</mi></msub><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi href="./25.1#t1.r3" title="real variable">x</mi><mo stretchy="false">)</mo></mrow></mrow></math> see
+<cite class="ltx_cite ltx_citemacro_citet">Temme and Olde Daalhuis (<a href="./bib/T#bib2220" title="Uniform asymptotic approximation of Fermi-Dirac integrals" class="ltx_ref">1990</a>)</cite>.</p>
+</div>
+</section>
+</section>
+</div>
+<div class="ltx_page_footer">
+<div class="ltx_siblings">
+<a href="./25.11" title="In Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">25.11 </span>Hurwitz Zeta Function</span></a><a href="./25.13" title="In Related Functions ‣ Chapter 25 Zeta and Related Functions" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">25.13 </span>Periodic Zeta Function</span></a>
+</div>
+<div class="ltx_footer_links ltx_centering">
+<a href="./about/notices">© 2010–2026 NIST</a> / <a href="./about/notices#S2">Disclaimer</a> / <a href="/cdn-cgi/l/email-protection#06424a4b402b606363626467656d46686f757228616970">Feedback</a>;
+ Version 1.2.8;
+Release date 2026-09-15.</div>
+<span id="pagesettings"></span>
+<div class="ltx_nist_links">
+<span class="ltx_nist_logo"><a href="http://www.nist.gov/" title="National Institute of Standards and Technology" class="NISTLogo"><span>NIST</span></a></span><p class="ltx_nist_extra ltx_align_right"><a href="https://www.nist.gov/privacy-policy">Site Privacy</a> <a href="https://www.nist.gov/oism/accessibility">Accessibility</a> <a href="https://www.nist.gov/privacy">Privacy Program</a> <a href="https://www.nist.gov/oism/copyrights">Copyrights</a> <a href="https://www.commerce.gov/vulnerability-disclosure-policy">Vulnerability Disclosure</a> <a href="https://www.nist.gov/no-fear-act-policy">No Fear Act Policy</a> <a href="https://www.nist.gov/foia">FOIA</a> <a href="https://www.nist.gov/environmental-policy-statement">Environmental Policy</a> <a href="https://www.nist.gov/summary-report-scientific-integrity">Scientific Integrity</a> <a href="https://www.nist.gov/nist-information-quality-standards">Information Quality Standards</a> <a href="https://www.commerce.gov/">Commerce.gov</a> <a href="http://www.science.gov/">Science.gov</a> <a href="http://www.usa.gov/">USA.gov</a></p>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a51cf4c85ce9bd30',t:'MTc5MzIyMjEyOQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

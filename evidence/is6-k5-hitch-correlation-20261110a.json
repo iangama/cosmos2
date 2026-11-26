@@ -1,0 +1,223 @@
+{
+  "original_accepted": false,
+  "run": 2,
+  "reference_id": "sol:naif:599",
+  "source_sha256": {
+    "evidence/is6-layers-import-profile-20261105k5a.json": "d2fd19e12dce9779655350ca795449c77ed5d814ba2d4301356b36fa813a6d3c",
+    "evidence/is6-layers-import-profile-audit-20261105k5a.json": "05e34d72581c745e2686c4e12c0c9eb338a40fb1cde2af772ddab538b2f210ca",
+    "evidence/is6-layers-import-profile-hitches-20261105k5a.json": "065ebe856159d0afba3636351e382bce42b76f90b543ba7a4470b3d9f787a719",
+    "evidence/gpu-pdh-is6-k5-20261105k5a-2.json": "447a41460af1e4771af0c9e5eff2cf24793b00e3acf94e9475b4a4e12d7cb380",
+    "output/is6-layers-product0.21.1/app/server.py": "245a96a89a0fdcaee882154d43ec616136f5eb8c70be8432b5d5185f014f7185",
+    "output/is6-layers-product0.21.1/execution-logs/1793897449417504900/session.json": "b38cf1c3cb50955e547674640be6645a572b752961e74031e187f848cd303b78",
+    "output/is6-layers-product0.21.1/execution-logs/1793897449417504900/engine.log": "474f8474da8893f68b202a8f056a47733f2718dc24e9b6cec526693021e2b2a3",
+    "output/is6-layers-product0.21.1/execution-logs/1793897449417504900/engine-errors.log": "08464b799f750f9d0e564b9696f5f1b6b7f8e212194c50b6bf33b8a93404511f",
+    "output/is6-layers-product0.21.1/execution-logs/1793897449417504900/server-errors.log": "fe70003856e97226e4e395113ca352297e3388a76d1d2a0532a9a3a9c7cff84f",
+    "output/is6-layers-product0.21.1/execution-logs/1793897449417504900/process-result.json": "0992090c6233f6d606cba90e0af041d6a797a801ee768f271f6a5d86e2ac2f2e"
+  },
+  "capture_start_utc": "2026-11-05T16:46:17.837159+00:00",
+  "capture_end_utc": "2026-11-05T16:47:18.076224+00:00",
+  "wall_interval_s": 60.23959150000155,
+  "raw_count": 4474,
+  "raw_sum_s": 60.20163390296511,
+  "first_raw_interval_s": 0.0077263000421226025,
+  "raw_sample_key": "1265",
+  "audited_frame_ordinal": 1264,
+  "duration_s": 0.5805686116218567,
+  "offset_after_first_interval_s": 16.845730987144634,
+  "estimated_start_utc": "2026-11-05T16:46:34.682890+00:00",
+  "estimated_end_utc": "2026-11-05T16:46:35.263459+00:00",
+  "same_estimate_including_first_interval_utc": "2026-11-05T16:46:34.690616+00:00",
+  "adjacent_samples_s": {
+    "1253": 0.013399000279605389,
+    "1254": 0.03917060047388077,
+    "1255": 0.0010917000472545624,
+    "1256": 0.0035268000792711973,
+    "1257": 0.00963560026139021,
+    "1258": 0.013247000053524971,
+    "1259": 0.013317699544131756,
+    "1260": 0.013346999883651733,
+    "1261": 0.013209200464189053,
+    "1262": 0.013311999849975109,
+    "1263": 0.014204599894583225,
+    "1264": 0.01256479974836111,
+    "1265": 0.5805686116218567,
+    "1266": 0.006228900048881769,
+    "1267": 0.004179299809038639,
+    "1268": 0.0024894000962376595,
+    "1269": 0.006595199927687645,
+    "1270": 0.013941200450062752,
+    "1271": 0.013264499604701996,
+    "1272": 0.013344299979507923,
+    "1273": 0.013027800247073174,
+    "1274": 0.013309299945831299,
+    "1275": 0.01306219957768917,
+    "1276": 0.013723200187087059,
+    "1277": 0.01316819991916418
+  },
+  "checkpoints": [
+    {
+      "offset_s": 0.09027449999848614,
+      "paused": true,
+      "guard_revision": 3,
+      "ram_bytes": 1150730240
+    },
+    {
+      "offset_s": 20.09547290000046,
+      "paused": true,
+      "guard_revision": 3,
+      "ram_bytes": 1157812224
+    },
+    {
+      "offset_s": 40.063694000004034,
+      "paused": true,
+      "guard_revision": 3,
+      "ram_bytes": 1164042240
+    },
+    {
+      "offset_s": 60.057956399999966,
+      "paused": true,
+      "guard_revision": 3,
+      "ram_bytes": 1172529152
+    }
+  ],
+  "pdh_near_hitch": [
+    {
+      "utc": "2026-11-05T16:46:32.778296+00:00",
+      "call_started_utc": "2026-11-05T16:46:32.778296+00:00",
+      "call_finished_utc": "2026-11-05T16:46:32.778296+00:00",
+      "product_dedicated_sum_bytes": 3172003840,
+      "product_dedicated_plus_shared_sum_bytes": 3224891392,
+      "adapters": [
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 4806377472
+        },
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000eb95_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-05T16:46:33.781990+00:00",
+      "call_started_utc": "2026-11-05T16:46:33.781990+00:00",
+      "call_finished_utc": "2026-11-05T16:46:33.781990+00:00",
+      "product_dedicated_sum_bytes": 3172003840,
+      "product_dedicated_plus_shared_sum_bytes": 3224891392,
+      "adapters": [
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 4806639616
+        },
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000eb95_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-05T16:46:34.770305+00:00",
+      "call_started_utc": "2026-11-05T16:46:34.770305+00:00",
+      "call_finished_utc": "2026-11-05T16:46:34.770305+00:00",
+      "product_dedicated_sum_bytes": 3172003840,
+      "product_dedicated_plus_shared_sum_bytes": 3224891392,
+      "adapters": [
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 4806639616
+        },
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000eb95_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-05T16:46:35.771158+00:00",
+      "call_started_utc": "2026-11-05T16:46:35.771158+00:00",
+      "call_finished_utc": "2026-11-05T16:46:35.771158+00:00",
+      "product_dedicated_sum_bytes": 3172003840,
+      "product_dedicated_plus_shared_sum_bytes": 3224891392,
+      "adapters": [
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 4790648832
+        },
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000eb95_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-05T16:46:36.774896+00:00",
+      "call_started_utc": "2026-11-05T16:46:36.774896+00:00",
+      "call_finished_utc": "2026-11-05T16:46:36.774896+00:00",
+      "product_dedicated_sum_bytes": 3172003840,
+      "product_dedicated_plus_shared_sum_bytes": 3224891392,
+      "adapters": [
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000cdb9_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 4790648832
+        },
+        {
+          "pid": null,
+          "instance": "luid_0x00000000_0x0000eb95_phys_0",
+          "counter": "dedicated usage",
+          "bytes": 0
+        }
+      ]
+    }
+  ],
+  "http_logged_during_window": [],
+  "event_log_query": {
+    "from_utc": "2026-11-05T16:45:00Z",
+    "to_utc": "2026-11-05T16:48:00Z",
+    "channels": {
+      "System": {
+        "exit": 0,
+        "events": []
+      },
+      "Application": {
+        "exit": 0,
+        "events": []
+      },
+      "Microsoft-Windows-Windows Defender/Operational": {
+        "exit": 0,
+        "events": []
+      },
+      "Microsoft-Windows-TaskScheduler/Operational": {
+        "exit": 0,
+        "events": []
+      },
+      "Microsoft-Windows-Diagnostics-Performance/Operational": {
+        "exit": 5
+      }
+    }
+  },
+  "limits": [
+    "Frame intervals have no per-frame UTC timestamps; prefix times are estimates anchored to the client.",
+    "The HTTP access log omits the layer and physics state routes.",
+    "PDH samples bytes about once per second, with no render scheduling or GPU execution timing.",
+    "Existing Windows event channels do not provide a scheduler trace."
+  ],
+  "cause": null
+}

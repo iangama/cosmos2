@@ -1,0 +1,11 @@
+{
+  "accepted": false,
+  "completed": false,
+  "script_sha256": "f35ae97cf5b222904ec7a0ac9f4f080bda6176024c7dd0d56a99fc47ed7e30ff",
+  "reason": "Broad helper-diagnostic glob included executed-sources.zip; excluded archive type correctly refused before staged copies or inventory writes.",
+  "refused_files": [
+    "output/is6-expanded-helper-handles-20261113a/executed-sources.zip",
+    "output/is6-expanded-helper-handles-20261113b/executed-sources.zip"
+  ],
+  "next_revision": "scripts/sync-github-source-snapshot-v21.py"
+}

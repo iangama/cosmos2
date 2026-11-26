@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.21)
+project(Cosmos2AsyncLogContract LANGUAGES CXX)
+add_executable(test-async-script-log ../test-async-script-log.cpp)
+target_compile_features(test-async-script-log PRIVATE cxx_std_20)
+target_include_directories(test-async-script-log PRIVATE ../../.upstream/openspace/include)

@@ -1,0 +1,11 @@
+{
+  "accepted": true,
+  "completed": true,
+  "commit": "51b37c16cd4a3ed0300f4d0decfdd55f7e34e5ed",
+  "files": 11865,
+  "verified_blobs": 323,
+  "verified_bytes": 24962391,
+  "inventory_sha256": "5918f7f240d14544f687099cbd3ff78b3d0dd7e6f306a2e32f186569c6e30f3e",
+  "published": false,
+  "scope": "Local v29 source/evidence snapshot, every staged blob checked against inventoried raw bytes. Private session archives and Windows home-directory dialog images excluded; old CRLF differences retained."
+}

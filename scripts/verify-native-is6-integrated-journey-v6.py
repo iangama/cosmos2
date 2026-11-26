@@ -1,0 +1,180 @@
+"""Sequential four-force journeys share one frozen four-body source phase."""
+from pathlib import Path
+from importlib.machinery import SourceFileLoader
+import argparse
+import copy
+import hashlib
+import json
+import subprocess
+import sys
+import time
+import traceback
+import zipfile
+from PIL import Image
+from cef_page import Page
+
+ROOT=Path(__file__).resolve().parents[1]
+APP=ROOT/'output/is6-spatial-product0.18.5/app'
+sys.path.insert(0,str(APP))
+from is6_product_scene import artifact, lua
+h=SourceFileLoader('is6_joint_helpers',str(ROOT/'scripts/verify-native-solar-integration.py')).load_module()
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+
+
+def main():
+    parser=argparse.ArgumentParser();parser.add_argument('--label',required=True);args=parser.parse_args()
+    if not args.label or any(c not in 'abcdefghijklmnopqrstuvwxyz0123456789-' for c in args.label):parser.error('Invalid label')
+    folder=ROOT/('output/is6-integrated-journey-'+args.label);receipt=ROOT/('evidence/is6-integrated-journey-'+args.label+'.json')
+    if folder.exists() or receipt.exists():raise FileExistsError('Preserve journey')
+    anchors=[ROOT/'evidence/is6-spatial-profile-audit-20261102c.json',ROOT/'evidence/is6-product-native-20261102f.json',ROOT/'evidence/is6-persistence-native-20261102b.json',ROOT/'evidence/is6-active-shutdown-20261102b.json',ROOT/'evidence/is6-product-service-20261102e.json']
+    for p in anchors:assert json.loads(p.read_text())['accepted'],p
+    manifest=json.loads((APP.parent/'build-manifest.json').read_text());hashes=dict(manifest['source_sha256'])
+    hashes.update({(APP/n).relative_to(ROOT).as_posix():v for n,v in manifest['files_sha256'].items()})
+    for p in [Path(__file__),APP.parent/'build-manifest.json',ROOT/'IS-6-PERCURSO-INTEGRADO-CONTRATO-PREVIO.md',ROOT/'IS-6-PERCURSO-INTEGRADO-REVISAO-B.md',ROOT/'IS-6-PERCURSO-INTEGRADO-REVISAO-C.md',ROOT/'IS-6-PERCURSO-INTEGRADO-REVISAO-D.md',ROOT/'IS-6-PERCURSO-INTEGRADO-REVISAO-E.md',ROOT/'evidence/is6-journey-camera-diagnostic-20261102a.json',ROOT/'scripts/cef_page.py',ROOT/'scripts/capture-window.ps1',ROOT/'scripts/verify-native-solar-integration.py',ROOT/'scripts/engine-command.py',*anchors]:hashes[p.relative_to(ROOT).as_posix()]=sha(p)
+    assert all(sha(ROOT/n)==v for n,v in hashes.items());folder.mkdir()
+    with zipfile.ZipFile(folder/'executed-sources.zip','w',zipfile.ZIP_DEFLATED) as z:
+        for n in hashes:z.write(ROOT/n,n)
+    r=dict(accepted=False,completed=False,source_sha256=hashes,owner_sha256=sha(ROOT/'user/sessions/latest.json'),groups=[],captures=[],page_errors=[],refusals=[],exports=[],
+           recipe_before_execution=dict(body_cases=[['399','proton'],['599','electron']],body_representation='vector',jovian_degree=13,particle_steps=4,particle_speeds_m_s=dict(proton=100000,electron=1000000),solar_knots=[120,121],solar_default='0.17.2 accepted prescribed-density N14 configuration',native_wait_s=30,solar_wait_s=750),
+           scope='Sequential existing instruments on one paused source only; no simultaneous layers, composite checkpoint/migration, new physics, performance or promotion acceptance. Captures require visual review.')
+    r['recipe_before_execution']['magnetic_points']={'399':dict(latitude=-23.55,longitude=-46.63,altitude=1000.),'599':dict(radius=1.5*71492000.,latitude=0.,longitude=0.)}
+    r['recipe_before_execution']['magnetic_points_units']=dict(latitude='degrees',longitude='degrees',altitude='m',radius='m')
+    r['recipe_before_execution']['solar_configuration']=dict(parameters=dict(temperature_K=15e6,density_kg_m3=150000.,hydrogen_fraction=.34,catalyst_fraction=.01,catalyst_seed='n14',duration_s=31557600000.,volume_m3=1.),
+        acting=dict(strong=True,weak=True,electromagnetic=True),channel_switches={k:True for k in ['pp','dp','he3he3','c12pg','n13beta','c13pg','n14pg','o15beta','n15pa','he3alpha','be7ec','li7pa','be7p','b8beta2a','n15pg','o16pg','f17beta','o17pa']},
+        mode='prescribed_density',density_history=dict(kind='exponential',ratio=1.05),include_coulomb=True,include_screening=True)
+    def persist():receipt.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    def passed(name):r['groups'].append(name);persist();print(name,flush=True)
+    def state(module):return h.get('/api/'+module+'/state')
+    def same_phase():assert h.phase(h.get('/api/state')['physics'])==held
+    def context():
+        names=['LabGrid','LabBarycenter','LabProbe']
+        for b in phase['bodies']:names.extend(b[k] for k in ['scene_node','label_node','shape_node','spin_node'] if b.get(k))
+        return h.native('local f={};for _,n in ipairs('+lua(names)+') do if openspace.hasSceneGraphNode(n) then local ok,v=pcall(openspace.propertyValue,"Scene."..n..".Renderable.Enabled");if ok and type(v)=="boolean" then f[n]=v end end end;return {camera=openspace.navigation.getNavigationState("Root"),flags=f}')
+    def removed(names,before):
+        names=[v for v in names if isinstance(v,str)]
+        assert names and not any(h.native('local r={};for _,n in ipairs('+lua(names)+') do r[n]=openspace.hasSceneGraphNode(n) end;return r').values())
+        after=context()
+        r.setdefault('native_cleanup',[]).append(dict(removed=names,before=before,after=after));persist()
+        assert after['flags']==before['flags'],'Native visibility flags not restored'
+        a,b=before['camera'],after['camera']
+        assert set(a)==set(b),'Native camera fields differ'
+        for key in a:
+            if key=='Up':assert len(a[key])==len(b[key])==3 and all(abs(x-y)<=1e-12 for x,y in zip(a[key],b[key])),'Native camera Up not restored'
+            else:assert a[key]==b[key],('Native camera not restored',key,a[key],b[key])
+    def click(page,selector,timeout=30000):
+        page.evaluate('(()=>{const e=document.querySelector('+json.dumps(selector)+');for(let p=e?.parentElement;p;p=p.parentElement)if(p.tagName==="DETAILS")p.open=true;})()')
+        page.wait_for_function('document.querySelector('+json.dumps(selector)+')&&!document.querySelector('+json.dumps(selector)+').disabled',timeout=timeout)
+        page.locator(selector).click()
+        page.wait_for_function('!pending&&!spatialInstrument.pending&&!particlePending&&!solarZonePending',timeout=timeout)
+    def checked(page,selector,value):
+        page.evaluate('(()=>{const e=document.querySelector('+json.dumps(selector)+');for(let p=e.parentElement;p;p=p.parentElement)if(p.tagName==="DETAILS")p.open=true;e.scrollIntoView({block:"center"});})()')
+        hit=page.evaluate('(()=>{const e=document.querySelector('+json.dumps(selector)+'),r=e.getBoundingClientRect(),z=Number(getComputedStyle(document.body).zoom)||1,p=document.elementFromPoint((r.x+r.width/2)*z,(r.y+r.height/2)*z);return {width:r.width,height:r.height,enabled:!e.disabled,hit:p===e||e.contains(p)}})()')
+        assert hit['width']>0 and hit['height']>0 and hit['enabled'] and hit['hit'],hit
+        page.locator(selector).set_checked(value)
+        page.wait_for_function('document.querySelector('+json.dumps(selector)+').checked==='+json.dumps(value),timeout=30000)
+        return hit
+    def spatial_ready(page):page.wait_for_function('!spatialInstrument.pending&&!spatialInstrument.snapshot.busy',timeout=30000)
+    def particle_ready(page):
+        page.wait_for_function('!particlePending&&particleState.active&&particleState.worker.paused&&!particleState.view.pending_sequence&&particleState.view.confirmed_phase.time_s===particleState.worker.experiment.phase.time_s',timeout=30000)
+        s=state('particles');assert not s['error'],s['error'];return s
+    def solar_ready(page):
+        page.wait_for_function('solarZoneState.active&&!solarZonePending&&!solarZoneState.busy&&!solarZoneCurvePending&&solarZoneCurveId===solarZoneState.worker.artifact_id',timeout=750000)
+        s=state('solar-zone');assert not s['error'],s['error'];return s
+    def capture(page,name,scale='1',panel=None):
+        page.locator('#ui-scale').select_option(scale)
+        if panel:page.evaluate('(()=>{const e=document.getElementById('+json.dumps(panel)+');for(let p=e.parentElement;p;p=p.parentElement)if(p.tagName==="DETAILS")p.open=true;e.scrollIntoView({block:"start"});})()')
+        notice=page.locator('#notice').inner_text()
+        assert ('Malha de' in notice if name.startswith('mesh') else 'Partícula' in notice if name.startswith('particle') else 'Zona solar' in notice),notice
+        if name.startswith('nuclear'):
+            layout=page.evaluate('(()=>{const p=document.getElementById("zone-panel"),e=document.getElementById("zone-probe");return {panel:{scroll:p.scrollWidth,client:p.clientWidth},probe:{scroll:e.scrollWidth,client:e.clientWidth}}})()')
+            r.setdefault('probe_layouts',[]).append(dict(scale=scale,layout=layout));persist()
+            assert all(v['scroll']<=v['client']+1 for v in layout.values()),layout
+        time.sleep(.25);path=ROOT/('evidence/cosmos2-is6-journey-'+args.label+'-'+name+'.png')
+        subprocess.run(['powershell.exe','-NoProfile','-ExecutionPolicy','Bypass','-File',str(ROOT/'scripts/capture-window.ps1'),'-Name',path.name],check=True,capture_output=True)
+        im=Image.open(path);assert im.size==(1920,1080);rgb=folder/path.name;im.convert('RGB').save(rgb)
+        r['captures'].append(dict(path=path.relative_to(ROOT).as_posix(),sha256=sha(path),RGB=rgb.relative_to(ROOT).as_posix(),RGB_sha256=sha(rgb)));persist()
+    persist()
+    try:
+        with Page() as page:
+            page.on('pageerror',lambda error:r['page_errors'].append(error));page.goto(h.BASE+'/')
+            page.wait_for_function('appState&&atlasState&&spatialInstrument.snapshot&&particleState&&solarZoneState&&!pending')
+            assert not any(state(name)['active'] for name in ['spatial','particles','solar-zone'])
+            if h.get('/api/state')['mode']=='experiment':h.post('/api/command',dict(command='atlas'))
+            page.wait_for_function('appState.mode==="atlas"&&!pending');page.locator('#ui-scale').select_option('1');click(page,'#copy-solar')
+            page.wait_for_function('appState.physics?.bodies.length===4&&appState.physics.paused&&!pending',timeout=70000)
+            phase=h.get('/api/state')['physics'];held=h.phase(copy.deepcopy(phase));r['common_source_phase']=phase;persist()
+            for target,species in r['recipe_before_execution']['body_cases']:
+                body=next(b for b in phase['bodies'] if b['reference_id']=='sol:naif:'+target)
+                spatial_before=context();click(page,'#open-spatial');page.locator('#spatial-body').select_option(body['id']);click(page,'#spatial-create');spatial_ready(page)
+                spatial=state('spatial');assert spatial['artifact']['source']['body_id']==body['id'];same_phase()
+                refusal=h.post('/api/spatial/command',dict(command='_close'),400)
+                assert 'interno' in refusal['error'] and state('spatial')['artifact']==spatial['artifact']
+                r['refusals'].append('Public_internal_close_'+target)
+                refusal=h.post('/api/solar-zone/command',dict(command='create',source_guard=artifact.body.guard(phase),configuration=r['recipe_before_execution']['solar_configuration']),400)
+                assert 'malha' in refusal['error'] and state('spatial')['artifact']==spatial['artifact'] and not state('solar-zone')['active']
+                r['refusals'].append('Solar_zone_while_spatial_'+target)
+                for scale in ['1','1.5']:capture(page,'mesh-'+target+'-'+str(int(float(scale)*100)),scale,'spatial-title')
+                old_spatial=state('spatial')['scene'];click(page,'#spatial-leave');spatial_ready(page);removed([old_spatial[k] for k in ['frame','wire','focus']],spatial_before);click(page,'#spatial-panel-close');page.locator('#ui-scale').select_option('1')
+                page.locator('#solar-body').select_option(body['id']);page.locator('#body-field-representation').select_option('vector')
+                prefix='earth-field-' if target=='399' else 'jupiter-field-'
+                for key,value in r['recipe_before_execution']['magnetic_points'][target].items():
+                    display_value=value/1000 if key=='altitude' else value/71492000 if key=='radius' else value
+                    page.evaluate('document.getElementById('+json.dumps(prefix+key)+').value='+json.dumps(str(display_value)))
+                assert page.evaluate('document.getElementById('+json.dumps(prefix+'form')+').checkValidity()'),'Invalid driver magnetic form values'
+                if target=='599':page.locator('#jupiter-field-degree').select_option('13')
+                click(page,'#body-field-show');page.wait_for_function('appState.body_field_preview?.reading.body_id==='+json.dumps(body['id']),timeout=30000)
+                field=h.get('/api/state')['body_field_preview'];model=field['reading']['provenance']['model']
+                assert model==('IGRF14' if target=='399' else 'JRM33 internal');same_phase()
+                page.locator('#particle-species').select_option(species);page.evaluate('document.getElementById("particle-speed").value='+json.dumps(str(r['recipe_before_execution']['particle_speeds_m_s'][species])))
+                particle_before=context();click(page,'#particle-create');particle=particle_ready(page)
+                refusal=h.post('/api/spatial/command',dict(command='create',guard=state('spatial')['guard'],source_guard=artifact.body.guard(phase),body_id=body['id'],configuration=artifact.DEFAULT_CONFIGURATION),400)
+                assert 'partícula' in refusal['error'] and not state('spatial')['active']
+                r['refusals'].append('Spatial_while_particle_'+target)
+                for _ in range(4):click(page,'#particle-step');particle=particle_ready(page)
+                checkpoint=copy.deepcopy(particle['worker']['experiment']['phase']);click(page,'#particle-save');click(page,'#particle-step');particle_ready(page);click(page,'#particle-load')
+                assert particle_ready(page)['worker']['experiment']['phase']==checkpoint
+                for scale in ['1','1.5']:capture(page,'particle-'+target+'-'+str(int(float(scale)*100)),scale,'particle-title')
+                page.locator('#ui-scale').select_option('1');old_particle=state('particles')['view']['native_nodes'];click(page,'#particle-leave');page.wait_for_function('!particleState.active');removed(list(old_particle.values()),particle_before);same_phase()
+                click(page,'#body-field-clear');page.wait_for_function('!appState.body_field_preview&&!pending');same_phase()
+                passed('Same_phase_spatial_'+target+'_magnetic_'+model+'_particle_save_load_and_close')
+            assert page.evaluate('zoneConfiguration()')==r['recipe_before_execution']['solar_configuration']
+            solar_before=context();click(page,'#zone-create',750000);solar=solar_ready(page)
+            assert solar['worker']['configuration']['acting']==dict(strong=True,weak=True,electromagnetic=True)
+            refusal=h.post('/api/spatial/command',dict(command='create',guard=state('spatial')['guard'],source_guard=artifact.body.guard(phase),body_id=phase['bodies'][0]['id'],configuration=artifact.DEFAULT_CONFIGURATION),400)
+            assert 'zona solar' in refusal['error'] and not state('spatial')['active']
+            r['refusals'].append('Spatial_while_solar_zone')
+            assert len(page.evaluate('zoneChannels'))==18;same_phase()
+            page.evaluate('document.getElementById("zone-index").value="120";document.getElementById("zone-index").dispatchEvent(new Event("change",{bubbles:true}))');solar=solar_ready(page)
+            page.wait_for_function('solarZoneState.worker.view.selected_index===120',timeout=30000);solar=state('solar-zone');saved_id=solar['worker']['artifact_id'];saved_sample=copy.deepcopy(solar['worker']['sample'])
+            click(page,'#zone-save',750000);click(page,'#zone-step');solar_ready(page);click(page,'#zone-load',750000);solar=solar_ready(page)
+            assert solar['worker']['artifact_id']==saved_id and solar['worker']['sample']==saved_sample
+            page.evaluate('document.getElementById("zone-branch-name").value='+json.dumps('Jornada quatro forças · '+args.label));click(page,'#zone-branch-create');solar=solar_ready(page)
+            click(page,'#zone-export');message=page.locator('#zone-file').inner_text();path=Path(message.removeprefix('Exportado: '));export=json.loads(path.read_text());assert export['run']['id']==saved_id and export['sample']==saved_sample
+            r['exports'].append(dict(path=str(path),sha256=sha(path)))
+            for scale in ['1','1.5']:capture(page,'nuclear-'+str(int(float(scale)*100)),scale,'zone-probe')
+            page.locator('#ui-scale').select_option('1');before=solar['worker']['artifact_sha256'];r['neutrinos_checkbox_hit']=checked(page,'#zone-show-neutrinos',False);page.wait_for_function('!solarZonePending&&!solarZoneState.worker.view.visible.neutrinos',timeout=30000);solar=solar_ready(page)
+            assert solar['worker']['artifact_sha256']==before and not solar['worker']['view']['visible']['neutrinos']
+            page.evaluate('document.getElementById("zone-config-holder").open=true');r['weak_checkbox_hit']=checked(page,'#zone-weak',False);click(page,'#zone-recompute',750000);off=solar_ready(page)
+            assert not off['worker']['configuration']['acting']['weak'] and off['worker']['artifact_id']!=saved_id;same_phase()
+            click(page,'#zone-load',750000);solar=solar_ready(page);assert solar['worker']['configuration']['acting']['weak'] and solar['worker']['sample']==saved_sample
+            old_zone=state('solar-zone')['scene'];click(page,'#zone-leave');page.wait_for_function('!solarZoneState.active');removed([old_zone[k] for k in ['node','label_node']],solar_before);same_phase()
+            passed('Same_phase_strong_weak_EM_zone_exact_checkpoint_export_independent_visual_control_and_weak_recompute_restore')
+            assert not r['page_errors'] and sha(ROOT/'user/sessions/latest.json')==r['owner_sha256'] and all(sha(ROOT/n)==v for n,v in hashes.items())
+            r.update(accepted=True,completed=True)
+    except Exception:r['failure']=traceback.format_exc()
+    finally:
+        try:
+            if state('solar-zone')['active']:
+                s=state('solar-zone')['worker'];h.post('/api/solar-zone/command',dict(command='leave',guard={k:s[k] for k in ['worker_id','artifact_id','edit_token','revision']}))
+            if state('particles')['active']:h.post('/api/particles/command',dict(command='leave'))
+            s=state('spatial')
+            if s['active']:h.post('/api/spatial/command',dict(command='leave',guard=s['guard']))
+            if h.get('/api/state')['mode']=='experiment':h.post('/api/command',dict(command='atlas'))
+            h.native('openspace.toggleShutdown();return {closing=true}')
+        except Exception:r['cleanup_failure']=traceback.format_exc();r['accepted']=False
+        persist()
+    print(json.dumps(dict(accepted=r['accepted'],groups=r['groups'],captures=len(r['captures']),failure=None if not r.get('failure') else r['failure'].splitlines()[-1]),ensure_ascii=False),flush=True)
+    return 0 if r['accepted'] else 1
+
+
+if __name__=='__main__':raise SystemExit(main())

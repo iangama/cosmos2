@@ -1,0 +1,46 @@
+{
+  "accepted": true,
+  "completed": true,
+  "version": "0.27.5",
+  "overall_product_accepted": false,
+  "scientific_milestones_promoted": false,
+  "session": {
+    "app": 13912,
+    "server": 32736,
+    "launcher": 2832,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.5-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\gravity-sessions",
+    "started": "2026-11-21T01:34:49Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.5",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "shortcuts": [
+    {
+      "shortcut": "Abrir-Planetas.cmd",
+      "reused": 13912
+    },
+    {
+      "shortcut": "Abrir-Planetas-e-Luas.cmd",
+      "reused": 13912
+    }
+  ],
+  "native_cases": 6,
+  "isolated_cases": 10,
+  "visual_review": "Windows captures at100/150%: species suggestions are opaque, readable, scrollable and selectable; original energy readings remain marked as the last calculated result while editing.",
+  "scope": "Local editable-suggestion fix delivered through original owner entry. Earlier select correction retained; no overall workflow, import/branch/cancellation or scientific milestone acceptance."
+}

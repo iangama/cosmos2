@@ -1,0 +1,44 @@
+{
+  "completed": true,
+  "accepted": true,
+  "original_entry": "Iniciar-Cosmos2.cmd",
+  "started_utc": "2026-11-21T01:34:43.851480+00:00",
+  "shortcut_sha256": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4",
+  "observer_sha256": "c2465cc1f668fe72bafac3c091274f0b8764c108fe984e081384f415704c566f",
+  "input_method": "Windows ShellExecute of the existing .cmd, then ordinary Windows input",
+  "scope": "Original-entry baseline observation only; no claim that the feature is corrected.",
+  "session": {
+    "app": 13912,
+    "server": 32736,
+    "launcher": 2832,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.5-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\gravity-sessions",
+    "started": "2026-11-21T01:34:49Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.5",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "capture": {
+    "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-native-selecao-20261120e\\original-Iniciar-Cosmos2.png",
+    "size": [
+      1440,
+      900
+    ],
+    "method": "Unedited Windows client-area capture",
+    "sha256": "b3b88804276afb21bea24454af3bd421dde64cd28da9f16272a1df22a221c083"
+  }
+}

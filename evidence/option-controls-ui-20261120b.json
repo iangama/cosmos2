@@ -1,0 +1,94 @@
+{
+  "accepted": true,
+  "completed": true,
+  "native_user_flow_accepted": false,
+  "scope": "Isolated page DOM/keyboard/layout regression checks. No native renderer or original owner-entry acceptance.",
+  "source_sha256": {
+    "scripts/verify-option-controls-ui-v2.cjs": "5934658cbf40be0a0f55e5076fbbcbe9b3bd11804e6da6c340ab293efc0a15e0",
+    "output/original-flow-hotfix-product0.27.3/app/ui/index.html": "ee25faec857370966b4e386ab5970f66035787cfc73c1c121d53b3e69f374df7",
+    "output/original-flow-hotfix-product0.27.3/app/ui/forces.html": "8bf132c61ed40d9d3f3a47164478e09a8b0c7c7898340a14e3242ca85f29ac11",
+    "output/original-flow-hotfix-product0.27.3/app/ui/forces.js": "4d9366d91d340dea97bc0feeae0816e7373cd831c0d5aa45cf7cf1e207353c94",
+    "output/original-flow-hotfix-product0.27.3/app/ui/option-controls.css": "6231cdc9ae353f23e76b222656cd11b8d217e2a194f8fd821906227cb4687e5c",
+    "output/original-flow-hotfix-product0.27.3/app/ui/option-controls.js": "038edf3c32a106c8585e4134e88e8e480fd321b9c191d52c56668ba8fcd06572"
+  },
+  "checks": [
+    {
+      "name": "mouse-opens-readable-options-and-selects-once",
+      "passed": true
+    },
+    {
+      "name": "same-option-does-not-trigger-recalculation",
+      "passed": true
+    },
+    {
+      "name": "escape-cancels-without-changing-selection",
+      "passed": true
+    },
+    {
+      "name": "keyboard-skips-disabled-and-hidden-options",
+      "passed": true
+    },
+    {
+      "name": "disabled-choice-remains-inert",
+      "passed": true
+    },
+    {
+      "name": "fieldset-disabled-closes-an-open-popup",
+      "passed": true
+    },
+    {
+      "name": "dynamic-options-and-programmatic-value-stay-readable",
+      "passed": true
+    },
+    {
+      "name": "empty-options-explain-the-state",
+      "passed": true
+    },
+    {
+      "name": "typing-finds-accented-option",
+      "passed": true
+    },
+    {
+      "name": "label-click-opens-the-correct-control",
+      "passed": true
+    },
+    {
+      "name": "form-data-retains-only-original-fields",
+      "passed": true
+    },
+    {
+      "name": "bottom-popup-fits-and-clicks-at-1",
+      "passed": true
+    },
+    {
+      "name": "bottom-popup-fits-and-clicks-at-1.25",
+      "passed": true
+    },
+    {
+      "name": "bottom-popup-fits-and-clicks-at-1.5",
+      "passed": true
+    },
+    {
+      "name": "long-list-scroll-reaches-the-last-option",
+      "passed": true
+    },
+    {
+      "name": "actual-forces-form-keeps-parameter-names-and-change-events",
+      "passed": true
+    }
+  ],
+  "captures": [
+    {
+      "path": "output/option-controls-ui-20261120b/popup-1.png",
+      "sha256": "7257e512ded13f27dc2bc62add319e4d55d146a8cb390b484bcb5eb11f7c84ef"
+    },
+    {
+      "path": "output/option-controls-ui-20261120b/popup-1.25.png",
+      "sha256": "ca5fdef269f0a8557320a4dc022e6193704ad9b646f296d1dba528156f87c1ee"
+    },
+    {
+      "path": "output/option-controls-ui-20261120b/popup-1.5.png",
+      "sha256": "59d699fe9f8084e49d493b0b483b695c83403178b18ab7475b4259f575e00032"
+    }
+  ]
+}

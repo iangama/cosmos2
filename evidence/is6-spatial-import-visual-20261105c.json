@@ -1,0 +1,50 @@
+{
+  "accepted": false,
+  "completed": true,
+  "candidate": "0.22.0",
+  "captures": [
+    {
+      "path": "output/is6-spatial-import-native-20261105c/import-100-RGB.png",
+      "sha256": "b813273eb4c91bd378ade5450747ea90935870ef98d03c4ac549174d00229aa5",
+      "reviewed": true,
+      "RGB_pixels_equal_to_native": true
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/import-150-RGB.png",
+      "sha256": "865688fb3160442ba6ea57a113d7d0c4256e2a6fc97cedbf55e75e7cd57812c5",
+      "reviewed": true,
+      "RGB_pixels_equal_to_native": true
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/probe-100-RGB.png",
+      "sha256": "7b66641504338fa5b6097ac656c1ca7ccab0cb075eec00fccc1ee7872a970f6e",
+      "reviewed": true,
+      "RGB_pixels_equal_to_native": true
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/source-100-RGB.png",
+      "sha256": "a721c1101352ae3a55be6f47516212bc8e2c6174b9600638a732a30704d6e240",
+      "reviewed": true,
+      "RGB_pixels_equal_to_native": true
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/probe-150-RGB.png",
+      "sha256": "98ecde74424b54bb4965f2fcc3dfa8d319d10c08f31a3d867adc41a75dc1954f",
+      "reviewed": true,
+      "RGB_pixels_equal_to_native": true
+    },
+    {
+      "path": "output/is6-spatial-import-native-20261105c/source-150-RGB.png",
+      "sha256": "23b3f1579822c0cbdd5f08a97cf88c686c0af51f7a2054f042f69d55d1e6dfbe",
+      "reviewed": true,
+      "RGB_pixels_equal_to_native": true
+    }
+  ],
+  "native_functional_accepted": true,
+  "findings": [
+    "All six native RGB captures reviewed; mesh1-8Rref, probes, source/original view and100/150% text readable.",
+    "Import bridge retains the chosen file separately while the native file control says No file chosen. Correct this ambiguity before visual acceptance.",
+    "Preview body label is hardcoded Sol; derive the displayed name from body_reference_id before supporting other archived bodies."
+  ],
+  "next": "New UI-only revision0.22.1; keep all0.22.0 sources and proofs frozen. No performance or product promotion."
+}

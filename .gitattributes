@@ -1,0 +1,3 @@
+# Preserve the original bytes used by the source and evidence SHA-256 inventories.
+* -text
+.githooks/* text eol=lf

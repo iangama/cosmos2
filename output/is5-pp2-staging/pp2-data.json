@@ -1,0 +1,1715 @@
+{
+  "schema": 1,
+  "kind": "is5_ppI_ppII_CNOI_added_data",
+  "pynucastro": "3.1.0",
+  "species": [
+    "p",
+    "d",
+    "he3",
+    "he4",
+    "c12",
+    "n13",
+    "c13",
+    "n14",
+    "o15",
+    "n15",
+    "be7",
+    "li7"
+  ],
+  "rates": {
+    "pp": {
+      "fname": "p_p_to_d_beta_pos_reaclib",
+      "reactants": [
+        "p",
+        "p"
+      ],
+      "products": [
+        "d"
+      ],
+      "Q_MeV": 1.442219233,
+      "source": {
+        "Label": "bet+",
+        "Author": "-",
+        "Title": "experimental beta-plus rates",
+        "Publisher": "-",
+        "Year": "-",
+        "URL": "https://reaclib.jinaweb.org/labels.php?action=viewLabel&label=bet+"
+      },
+      "sets": [
+        [
+          -34.7863,
+          0.0,
+          -3.51193,
+          3.10086,
+          -0.198314,
+          0.0126251,
+          -1.02517
+        ]
+      ],
+      "prefactor": 0.5,
+      "weak_type": "beta_pos",
+      "raw_file": "data/science/pp1-pp-reaclib.txt",
+      "sha256": "a2798d4cece8678eaf19ec464678e0d993f057b3c531c38c3656df133af21628",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 1.4213851620195897e-20,
+        "15000000.0": 8.104421070121509e-20,
+        "20000000.0": 2.3940820408449504e-19,
+        "30000000.0": 9.141221854078233e-19
+      },
+      "Q_fit_MeV": 1.44206,
+      "Q_AME2020_decimal_MeV": "1.442219233"
+    },
+    "dp": {
+      "fname": "d_p_to_He3_reaclib",
+      "reactants": [
+        "p",
+        "d"
+      ],
+      "products": [
+        "he3"
+      ],
+      "Q_MeV": 5.493475079,
+      "source": {
+        "Label": "de04",
+        "Author": "Descouvemont, P",
+        "Title": "Compilation and R-matrix analysis of Big Bang nuclear reaction rates",
+        "Publisher": "ADNDT 88, 203",
+        "Year": "2004",
+        "URL": "https://doi.org/10.1016/j.adt.2004.08.001"
+      },
+      "sets": [
+        [
+          8.93525,
+          0.0,
+          -3.7208,
+          0.198654,
+          0.0,
+          0.0,
+          0.333333
+        ],
+        [
+          7.52898,
+          0.0,
+          -3.7208,
+          0.871782,
+          0.0,
+          0.0,
+          -0.666667
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "data/science/pp1-dp-reaclib.txt",
+      "sha256": "de8914f7c69bc8f497218f4ec10d3994f37e4bfa4b64eb711e57820e52d45d69",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 0.0015823891892407062,
+        "15000000.0": 0.011189587220289322,
+        "20000000.0": 0.03807733660897715,
+        "30000000.0": 0.17510226725239625
+      },
+      "Q_fit_MeV": 5.493,
+      "Q_AME2020_decimal_MeV": "5.493475079"
+    },
+    "he3he3": {
+      "fname": "He3_He3_to_p_p_He4_reaclib",
+      "reactants": [
+        "he3",
+        "he3"
+      ],
+      "products": [
+        "p",
+        "p",
+        "he4"
+      ],
+      "Q_MeV": 12.859579762,
+      "source": {
+        "Label": "nacr",
+        "Author": "Angulo C.",
+        "Title": "A compilation of charged-particle induced thermonuclear reaction rates",
+        "Publisher": "Nuclear Physics, A656, 3-183",
+        "Year": "1999",
+        "URL": "https://doi.org/10.1016/S0375-9474(99)00030-5"
+      },
+      "sets": [
+        [
+          24.7788,
+          0.0,
+          -12.277,
+          -0.103699,
+          -0.0649967,
+          0.0168191,
+          -0.666667
+        ]
+      ],
+      "prefactor": 0.5,
+      "weak_type": "",
+      "raw_file": "data/science/pp1-he3he3-reaclib.txt",
+      "sha256": "5ad0b4435fb8602aa5c97e756e788b5d63032368dbfe8d5ba1e2d5ac6d634100",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 2.1700531459705926e-13,
+        "15000000.0": 2.219153470296946e-10,
+        "20000000.0": 1.7319003739979433e-08,
+        "30000000.0": 4.002223974788885e-06
+      },
+      "Q_fit_MeV": 12.859,
+      "Q_AME2020_decimal_MeV": "12.859579762"
+    },
+    "c12pg": {
+      "fname": "C12_p_to_N13_reaclib",
+      "reactants": [
+        "p",
+        "c12"
+      ],
+      "products": [
+        "n13"
+      ],
+      "Q_MeV": 1.943490064,
+      "source": {
+        "Label": "ls09",
+        "Author": "He)<sup>13</sup>N reaction</sup6<>",
+        "Title": "Science in China G: Physics an",
+        "Publisher": "2010",
+        "Year": "https://doi.org/10.1007/s11433-010-0128-8"
+      },
+      "sets": [
+        [
+          17.1482,
+          0.0,
+          -13.692,
+          -0.230881,
+          4.44362,
+          -3.15898,
+          -0.666667
+        ],
+        [
+          17.5428,
+          -3.77849,
+          -5.10735,
+          -2.24111,
+          0.148883,
+          0.0,
+          -1.5
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "data/science/cno1-c12pg-reaclib.txt",
+      "sha256": "1b8653d0404b230dddb913aefbe07a7745912e1d27b91891b36b430939b43cf3",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 1.5038456249085353e-19,
+        "15000000.0": 3.588946025929763e-16,
+        "20000000.0": 4.8172113637155004e-14,
+        "30000000.0": 2.229607505495764e-11
+      },
+      "verified_citation": {
+        "author": "ZhiHong Li et al.",
+        "title": "Determination of the 12C(p, gamma)13N reaction rates from the 12C(7Li,6He)13N reaction",
+        "journal": "Science China Physics, Mechanics & Astronomy53,658-663(2010)",
+        "doi": "10.1007/s11433-010-0128-8",
+        "url": "https://link.springer.com/article/10.1007/s11433-010-0128-8"
+      },
+      "Q_fit_MeV": 1.943,
+      "Q_AME2020_decimal_MeV": "1.943490064"
+    },
+    "n13beta": {
+      "fname": "N13_to_C13_beta_pos_reaclib",
+      "reactants": [
+        "n13"
+      ],
+      "products": [
+        "c13"
+      ],
+      "Q_MeV": 2.22047167,
+      "source": {
+        "Label": "wc12",
+        "Author": "J. K. Tuli",
+        "Title": "Weak rates from the Nuclear Wallet Cards",
+        "Publisher": "National Nuclear Data Center",
+        "Year": "2012",
+        "URL": "https://www.nndc.bnl.gov/"
+      },
+      "sets": [
+        [
+          -6.7601,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "beta_pos",
+      "raw_file": "data/science/cno1-n13beta-reaclib.txt",
+      "sha256": "297ccb6ee49a60eb66589f40371baa80b00cd9ff77e5e64bc363c5f3af03b024",
+      "units": "s^-1",
+      "reference_rates": {
+        "10000000.0": 0.001159113256783153,
+        "15000000.0": 0.001159113256783153,
+        "20000000.0": 0.001159113256783153,
+        "30000000.0": 0.001159113256783153
+      },
+      "nubase2020_decay_constant_s": 0.0011593028609465552,
+      "decay_source": "NUBASE2020 via pinned pynucastro; REACLIB wc12 retained as an explicit comparison basis.",
+      "Q_fit_MeV": 2.22,
+      "Q_AME2020_decimal_MeV": "2.22047167"
+    },
+    "c13pg": {
+      "fname": "C13_p_to_N14_reaclib",
+      "reactants": [
+        "p",
+        "c13"
+      ],
+      "products": [
+        "n14"
+      ],
+      "Q_MeV": 7.550563564,
+      "source": {
+        "Label": "nacr",
+        "Author": "Angulo C.",
+        "Title": "A compilation of charged-particle induced thermonuclear reaction rates",
+        "Publisher": "Nuclear Physics, A656, 3-183",
+        "Year": "1999",
+        "URL": "https://doi.org/10.1016/S0375-9474(99)00030-5"
+      },
+      "sets": [
+        [
+          18.5155,
+          0.0,
+          -13.72,
+          -0.450018,
+          3.70823,
+          -1.70545,
+          -0.666667
+        ],
+        [
+          13.9637,
+          -5.78147,
+          0.0,
+          -0.196703,
+          0.142126,
+          -0.0238912,
+          -1.5
+        ],
+        [
+          15.1825,
+          -13.5543,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.5
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "data/science/cno1-c13pg-reaclib.txt",
+      "sha256": "91f2274b622f134ab03e879b390e295f5c1d4388093d0b168c3d549e70565011",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 4.91096383672278e-19,
+        "15000000.0": 1.179735736154855e-15,
+        "20000000.0": 1.5867825890467678e-13,
+        "30000000.0": 7.338031827694034e-11
+      },
+      "Q_fit_MeV": 7.551,
+      "Q_AME2020_decimal_MeV": "7.550563564"
+    },
+    "n14pg": {
+      "fname": "N14_p_to_O15_reaclib",
+      "reactants": [
+        "p",
+        "n14"
+      ],
+      "products": [
+        "o15"
+      ],
+      "Q_MeV": 7.296765894,
+      "source": {
+        "Label": "im05",
+        "Author": "G. Imbriani et al",
+        "Title": "S-factor of <sup>14</sup>N(p,&gamma;)<sup>15</sup>O",
+        "Publisher": "European Physics Journal A 25,",
+        "Year": "2005",
+        "URL": "https://link.springer.com/article/10.1140/epja/i2005-10138-7"
+      },
+      "sets": [
+        [
+          6.73578,
+          -4.891,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0682
+        ],
+        [
+          7.65444,
+          -2.998,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.5
+        ],
+        [
+          20.1169,
+          0.0,
+          -15.193,
+          -4.63975,
+          9.73458,
+          -9.55051,
+          0.333333
+        ],
+        [
+          17.01,
+          0.0,
+          -15.193,
+          -0.161954,
+          -7.52123,
+          -0.987565,
+          -0.666667
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "data/science/cno1-n14pg-reaclib.txt",
+      "sha256": "7517209a1f423a8aad9f8082a6754e12c162b49373f21388aa60b499eb8a7e37",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 1.2248549838864085e-22,
+        "15000000.0": 6.918312793865137e-19,
+        "20000000.0": 1.5867409724927747e-16,
+        "30000000.0": 1.416655077954945e-13
+      },
+      "Q_fit_MeV": 7.2968,
+      "Q_AME2020_decimal_MeV": "7.296765894"
+    },
+    "o15beta": {
+      "fname": "O15_to_N15_beta_pos_reaclib",
+      "reactants": [
+        "o15"
+      ],
+      "products": [
+        "n15"
+      ],
+      "Q_MeV": 2.75418391,
+      "source": {
+        "Label": "wc12",
+        "Author": "J. K. Tuli",
+        "Title": "Weak rates from the Nuclear Wallet Cards",
+        "Publisher": "National Nuclear Data Center",
+        "Year": "2012",
+        "URL": "https://www.nndc.bnl.gov/"
+      },
+      "sets": [
+        [
+          -5.17053,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "beta_pos",
+      "raw_file": "data/science/cno1-o15beta-reaclib.txt",
+      "sha256": "422675859e49a881aac9ab576cd8509b45ec591279dd14ed962d833feb4cefa4",
+      "units": "s^-1",
+      "reference_rates": {
+        "10000000.0": 0.005681556796002065,
+        "15000000.0": 0.005681556796002065,
+        "20000000.0": 0.005681556796002065,
+        "30000000.0": 0.005681556796002065
+      },
+      "nubase2020_decay_constant_s": 0.0056691736096702704,
+      "decay_source": "NUBASE2020 via pinned pynucastro; REACLIB wc12 retained as an explicit comparison basis.",
+      "Q_fit_MeV": 2.7536,
+      "Q_AME2020_decimal_MeV": "2.75418391"
+    },
+    "n15pa": {
+      "fname": "N15_p_to_He4_C12_reaclib",
+      "reactants": [
+        "p",
+        "n15"
+      ],
+      "products": [
+        "he4",
+        "c12"
+      ],
+      "Q_MeV": 4.965493284,
+      "source": {
+        "Label": "nacr",
+        "Author": "Angulo C.",
+        "Title": "A compilation of charged-particle induced thermonuclear reaction rates",
+        "Publisher": "Nuclear Physics, A656, 3-183",
+        "Year": "1999",
+        "URL": "https://doi.org/10.1016/S0375-9474(99)00030-5"
+      },
+      "sets": [
+        [
+          27.4764,
+          0.0,
+          -15.253,
+          1.59318,
+          2.4479,
+          -2.19708,
+          -0.666667
+        ],
+        [
+          -6.57522,
+          -1.1638,
+          0.0,
+          22.7105,
+          -2.90707,
+          0.205754,
+          -1.5
+        ],
+        [
+          20.8972,
+          -7.406,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.5
+        ],
+        [
+          -4.87347,
+          -2.02117,
+          0.0,
+          30.8497,
+          -8.50433,
+          -1.54426,
+          -1.5
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "data/science/cno1-n15pa-reaclib.txt",
+      "sha256": "bc5e0dc2fe22dccb86a5bf89dd1564361bf734c532fe04d823f6309a5f51adc2",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10000000.0": 4.7664015059414226e-18,
+        "15000000.0": 2.9806381066854014e-14,
+        "20000000.0": 7.397049830746416e-12,
+        "30000000.0": 7.469182074996986e-09
+      },
+      "Q_fit_MeV": 4.966,
+      "Q_AME2020_decimal_MeV": "4.965493284"
+    },
+    "he3alpha": {
+      "fname": "He3_He4_to_Be7_reaclib",
+      "reactants": [
+        "he4",
+        "he3"
+      ],
+      "products": [
+        "be7"
+      ],
+      "Q_MeV": 1.58713675,
+      "source": {
+        "Label": "cd08",
+        "Author": "Cyburt, R.H.",
+        "Title": "Evaluation of modern He3(a,g)Be7 data",
+        "Publisher": "PRC 78, 064614",
+        "Year": "2008",
+        "URL": "https://doi.org/10.1103/PhysRevC.78.064614"
+      },
+      "sets": [
+        [
+          17.7075,
+          0.0,
+          -12.8271,
+          -3.8126,
+          0.0942285,
+          -0.00301018,
+          1.33333
+        ],
+        [
+          15.6099,
+          0.0,
+          -12.8271,
+          -0.0308225,
+          -0.654685,
+          0.0896331,
+          -0.666667
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "output/is5-pp2-staging/pp2-he3alpha-reaclib.txt",
+      "sha256": "478a9383f50837fda411d3a65aa99cef7b4ca7300b1833e509d903a52aa3bbf2",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10100000.0": 2.151302760058943e-18,
+        "12000000.0": 5.26212704651693e-17,
+        "15000000.0": 2.510616066014499e-15,
+        "15900000.0": 6.5633113312904994e-15
+      },
+      "Q_fit_MeV": 1.5861,
+      "Q_AME2020_decimal_MeV": "1.58713675"
+    },
+    "li7pa": {
+      "fname": "Li7_p_to_He4_He4_reaclib",
+      "reactants": [
+        "p",
+        "li7"
+      ],
+      "products": [
+        "he4",
+        "he4"
+      ],
+      "Q_MeV": 17.346243954,
+      "source": {
+        "Label": "de04",
+        "Author": "Descouvemont, P",
+        "Title": "Compilation and R-matrix analysis of Big Bang nuclear reaction rates",
+        "Publisher": "ADNDT 88, 203",
+        "Year": "2004",
+        "URL": "https://doi.org/10.1016/j.adt.2004.08.001"
+      },
+      "sets": [
+        [
+          21.8999,
+          -26.1527,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.5
+        ],
+        [
+          20.4438,
+          0.0,
+          -8.4727,
+          0.297934,
+          0.0582335,
+          -0.00413383,
+          -0.666667
+        ],
+        [
+          14.2538,
+          -4.478,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.5
+        ],
+        [
+          11.9576,
+          0.0,
+          -8.4727,
+          0.417943,
+          5.34565,
+          -4.8684,
+          -0.666667
+        ]
+      ],
+      "prefactor": 1.0,
+      "weak_type": "",
+      "raw_file": "output/is5-pp2-staging/pp2-li7pa-reaclib.txt",
+      "sha256": "2ecb11b32cb486b0590a1b6aa974ac16f1736335bcfd9913f6b78d6348d10894",
+      "units": "cm^3 mol^-1 s^-1",
+      "reference_rates": {
+        "10100000.0": 1.6388908032485875e-07,
+        "12000000.0": 1.3087638219526656e-06,
+        "15000000.0": 1.6096078522973025e-05,
+        "15900000.0": 3.002600349561197e-05
+      },
+      "Q_fit_MeV": 17.347,
+      "Q_AME2020_decimal_MeV": "17.346243954"
+    },
+    "be7ec": {
+      "fname": "Be7_electron_capture_SFII_eq40",
+      "reactants": [
+        "be7"
+      ],
+      "products": [
+        "li7"
+      ],
+      "Q_MeV": 0.86189337,
+      "prefactor": 1.0,
+      "weak_type": "electron_capture",
+      "rate_kind": "SFII_eq40_solar_plasma",
+      "units": "s^-1 per Be7 nucleus",
+      "source": {
+        "url": "https://arxiv.org/pdf/1004.2318v3",
+        "equation": 40,
+        "page_one_based": 26
+      },
+      "coefficient": 5.6e-09,
+      "slope": 0.004,
+      "T6_anchor": 16.0,
+      "temperature_domain_K": {
+        "min_exclusive": 10000000.0,
+        "max_exclusive": 16000000.0
+      },
+      "reported_fractional_uncertainty": 0.02,
+      "comparison_only": {
+        "source": {
+          "Label": "ec",
+          "Author": "-",
+          "Title": "electron capture rates",
+          "Publisher": "-",
+          "Year": "-",
+          "URL": "https://reaclib.jinaweb.org/labels.php?action=viewLabel&label=ec"
+        },
+        "raw_file": "output/is5-pp2-staging/be7ec-reaclib-comparison-only.txt",
+        "sha256": "1370b45902ce0284e7a4de325ba04d3c3df58ea977720308dbedef29937c1b75",
+        "adopted": false
+      },
+      "scope": "Solar bound+continuum EC approximation. rho_g_cm3*Ye density factor exactly once; not atomic half-life or general plasma EC.",
+      "Q_fit_MeV": 0.863,
+      "Q_AME2020_decimal_MeV": "0.86189337"
+    }
+  },
+  "nuclides": {
+    "p": {
+      "A": 1,
+      "Z": 1,
+      "AME2020": {
+        "id": "nucleus:ame2020:1:1",
+        "N": 0,
+        "Z": 1,
+        "A": 1,
+        "symbol": "H",
+        "label": "H-1",
+        "origin_flag": "",
+        "source_line": 38,
+        "atomic_mass_integer_u": 1,
+        "quantities": {
+          "mass_excess": {
+            "value": 7288.971064,
+            "uncertainty": 1.3e-05,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "7288.971064",
+            "raw_uncertainty": "0.000013",
+            "source_resolution": 1e-06,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 0.0,
+            "uncertainty": 0.0,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "0.0",
+            "raw_uncertainty": "0.0",
+            "source_resolution": 0.1,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": null,
+            "uncertainty": null,
+            "unit": "keV",
+            "status": "not_calculable",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "*",
+            "raw_uncertainty": "",
+            "source_resolution": null,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 1.007825031898,
+            "uncertainty": 1.4e-11,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "007825.031898",
+            "raw_uncertainty": "0.000014",
+            "source_resolution": 1e-12,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 7.288971064
+    },
+    "d": {
+      "A": 2,
+      "Z": 1,
+      "AME2020": {
+        "id": "nucleus:ame2020:1:2",
+        "N": 1,
+        "Z": 1,
+        "A": 2,
+        "symbol": "H",
+        "label": "H-2",
+        "origin_flag": "",
+        "source_line": 39,
+        "atomic_mass_integer_u": 2,
+        "quantities": {
+          "mass_excess": {
+            "value": 13135.722895,
+            "uncertainty": 1.5e-05,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "13135.722895",
+            "raw_uncertainty": "0.000015",
+            "source_resolution": 1e-06,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 1112.2831,
+            "uncertainty": 0.0002,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "1112.2831",
+            "raw_uncertainty": "0.0002",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": null,
+            "uncertainty": null,
+            "unit": "keV",
+            "status": "not_calculable",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "*",
+            "raw_uncertainty": "",
+            "source_resolution": null,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 2.014101777844,
+            "uncertainty": 1.5e-11,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "014101.777844",
+            "raw_uncertainty": "0.000015",
+            "source_resolution": 1e-12,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 13.135722895
+    },
+    "he3": {
+      "A": 3,
+      "Z": 2,
+      "AME2020": {
+        "id": "nucleus:ame2020:2:3",
+        "N": 1,
+        "Z": 2,
+        "A": 3,
+        "symbol": "He",
+        "label": "He-3",
+        "origin_flag": "",
+        "source_line": 41,
+        "atomic_mass_integer_u": 3,
+        "quantities": {
+          "mass_excess": {
+            "value": 14931.21888,
+            "uncertainty": 6e-05,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "14931.21888",
+            "raw_uncertainty": "0.00006",
+            "source_resolution": 1e-05,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 2572.68044,
+            "uncertainty": 0.00015,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "2572.68044",
+            "raw_uncertainty": "0.00015",
+            "source_resolution": 1e-05,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": -13736.0,
+            "uncertainty": 2000.0,
+            "unit": "keV",
+            "status": "estimated",
+            "estimated": true,
+            "uncertainty_estimated": true,
+            "raw_value": "-13736#",
+            "raw_uncertainty": "2000#",
+            "source_resolution": 1.0,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 3.01602932197,
+            "uncertainty": 6e-11,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "016029.32197",
+            "raw_uncertainty": "0.00006",
+            "source_resolution": 1e-11,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 14.93121888
+    },
+    "he4": {
+      "A": 4,
+      "Z": 2,
+      "AME2020": {
+        "id": "nucleus:ame2020:2:4",
+        "N": 2,
+        "Z": 2,
+        "A": 4,
+        "symbol": "He",
+        "label": "He-4",
+        "origin_flag": "",
+        "source_line": 44,
+        "atomic_mass_integer_u": 4,
+        "quantities": {
+          "mass_excess": {
+            "value": 2424.91587,
+            "uncertainty": 0.00015,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "2424.91587",
+            "raw_uncertainty": "0.00015",
+            "source_resolution": 1e-05,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 7073.9156,
+            "uncertainty": 0.0002,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "7073.9156",
+            "raw_uncertainty": "0.0002",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": -22898.274,
+            "uncertainty": 212.132,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "-22898.2740",
+            "raw_uncertainty": "212.1320",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 4.00260325413,
+            "uncertainty": 1.6e-10,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "002603.25413",
+            "raw_uncertainty": "0.00016",
+            "source_resolution": 1e-11,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 2.42491587
+    },
+    "c12": {
+      "A": 12,
+      "Z": 6,
+      "AME2020": {
+        "id": "nucleus:ame2020:6:12",
+        "N": 6,
+        "Z": 6,
+        "A": 12,
+        "symbol": "C",
+        "label": "C-12",
+        "origin_flag": "",
+        "source_line": 85,
+        "atomic_mass_integer_u": 12,
+        "quantities": {
+          "mass_excess": {
+            "value": 0.0,
+            "uncertainty": 0.0,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "0.0",
+            "raw_uncertainty": "0.0",
+            "source_resolution": 0.1,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 7680.1446,
+            "uncertainty": 0.0002,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "7680.1446",
+            "raw_uncertainty": "0.0002",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": -17338.0681,
+            "uncertainty": 0.9999,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "-17338.0681",
+            "raw_uncertainty": "0.9999",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 12.0,
+            "uncertainty": 0.0,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "000000.0",
+            "raw_uncertainty": "0.0",
+            "source_resolution": 1e-07,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 0.0
+    },
+    "n13": {
+      "A": 13,
+      "Z": 7,
+      "AME2020": {
+        "id": "nucleus:ame2020:7:13",
+        "N": 6,
+        "Z": 7,
+        "A": 13,
+        "symbol": "N",
+        "label": "N-13",
+        "origin_flag": "-p",
+        "source_line": 92,
+        "atomic_mass_integer_u": 13,
+        "quantities": {
+          "mass_excess": {
+            "value": 5345.481,
+            "uncertainty": 0.27,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "5345.481",
+            "raw_uncertainty": "0.270",
+            "source_resolution": 0.001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 7238.8634,
+            "uncertainty": 0.0207,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "7238.8634",
+            "raw_uncertainty": "0.0207",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": -17769.9506,
+            "uncertainty": 9.5301,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "-17769.9506",
+            "raw_uncertainty": "9.5301",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 13.005738609,
+            "uncertainty": 2.89e-07,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "005738.609",
+            "raw_uncertainty": "0.289",
+            "source_resolution": 1e-09,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 5.34548
+    },
+    "c13": {
+      "A": 13,
+      "Z": 6,
+      "AME2020": {
+        "id": "nucleus:ame2020:6:13",
+        "N": 7,
+        "Z": 6,
+        "A": 13,
+        "symbol": "C",
+        "label": "C-13",
+        "origin_flag": "",
+        "source_line": 91,
+        "atomic_mass_integer_u": 13,
+        "quantities": {
+          "mass_excess": {
+            "value": 3125.00933,
+            "uncertainty": 0.00023,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "3125.00933",
+            "raw_uncertainty": "0.00023",
+            "source_resolution": 1e-05,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 7469.8495,
+            "uncertainty": 0.0002,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "7469.8495",
+            "raw_uncertainty": "0.0002",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": -2220.4718,
+            "uncertainty": 0.2695,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "-2220.4718",
+            "raw_uncertainty": "0.2695",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 13.00335483534,
+            "uncertainty": 2.5e-10,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "003354.83534",
+            "raw_uncertainty": "0.00025",
+            "source_resolution": 1e-11,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 3.1250093
+    },
+    "n14": {
+      "A": 14,
+      "Z": 7,
+      "AME2020": {
+        "id": "nucleus:ame2020:7:14",
+        "N": 7,
+        "Z": 7,
+        "A": 14,
+        "symbol": "N",
+        "label": "N-14",
+        "origin_flag": "",
+        "source_line": 98,
+        "atomic_mass_integer_u": 14,
+        "quantities": {
+          "mass_excess": {
+            "value": 2863.41683,
+            "uncertainty": 0.00022,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "2863.41683",
+            "raw_uncertainty": "0.00022",
+            "source_resolution": 1e-05,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 7475.6148,
+            "uncertainty": 0.0002,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "7475.6148",
+            "raw_uncertainty": "0.0002",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": -5144.3643,
+            "uncertainty": 0.0252,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "-5144.3643",
+            "raw_uncertainty": "0.0252",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 14.00307400425,
+            "uncertainty": 2.4e-10,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "003074.00425",
+            "raw_uncertainty": "0.00024",
+            "source_resolution": 1e-11,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 2.8634168
+    },
+    "o15": {
+      "A": 15,
+      "Z": 8,
+      "AME2020": {
+        "id": "nucleus:ame2020:8:15",
+        "N": 7,
+        "Z": 8,
+        "A": 15,
+        "symbol": "O",
+        "label": "O-15",
+        "origin_flag": "",
+        "source_line": 105,
+        "atomic_mass_integer_u": 15,
+        "quantities": {
+          "mass_excess": {
+            "value": 2855.622,
+            "uncertainty": 0.49,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "2855.622",
+            "raw_uncertainty": "0.490",
+            "source_resolution": 0.001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 7463.6915,
+            "uncertainty": 0.0327,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "7463.6915",
+            "raw_uncertainty": "0.0327",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": -13711.13,
+            "uncertainty": 14.0086,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "-13711.1300",
+            "raw_uncertainty": "14.0086",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 15.003065636,
+            "uncertainty": 5.26e-07,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "003065.636",
+            "raw_uncertainty": "0.526",
+            "source_resolution": 1e-09,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 2.8556
+    },
+    "n15": {
+      "A": 15,
+      "Z": 7,
+      "AME2020": {
+        "id": "nucleus:ame2020:7:15",
+        "N": 8,
+        "Z": 7,
+        "A": 15,
+        "symbol": "N",
+        "label": "N-15",
+        "origin_flag": "",
+        "source_line": 104,
+        "atomic_mass_integer_u": 15,
+        "quantities": {
+          "mass_excess": {
+            "value": 101.43809,
+            "uncertainty": 0.00058,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "101.43809",
+            "raw_uncertainty": "0.00058",
+            "source_resolution": 1e-05,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 7699.4603,
+            "uncertainty": 0.0002,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "7699.4603",
+            "raw_uncertainty": "0.0002",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": -2754.1841,
+            "uncertainty": 0.4902,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "-2754.1841",
+            "raw_uncertainty": "0.4902",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 15.00010889827,
+            "uncertainty": 6.2e-10,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "000108.89827",
+            "raw_uncertainty": "0.00062",
+            "source_resolution": 1e-11,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 0.1014381
+    },
+    "be7": {
+      "A": 7,
+      "Z": 4,
+      "AME2020": {
+        "id": "nucleus:ame2020:4:7",
+        "N": 3,
+        "Z": 4,
+        "A": 7,
+        "symbol": "Be",
+        "label": "Be-7",
+        "origin_flag": "",
+        "source_line": 58,
+        "atomic_mass_integer_u": 7,
+        "quantities": {
+          "mass_excess": {
+            "value": 15768.998,
+            "uncertainty": 0.071,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "15768.998",
+            "raw_uncertainty": "0.071",
+            "source_resolution": 0.001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 5371.5487,
+            "uncertainty": 0.0101,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "5371.5487",
+            "raw_uncertainty": "0.0101",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": -11907.5551,
+            "uncertainty": 25.1504,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "-11907.5551",
+            "raw_uncertainty": "25.1504",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 7.016928714,
+            "uncertainty": 7.6e-08,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "016928.714",
+            "raw_uncertainty": "0.076",
+            "source_resolution": 1e-09,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 15.769
+    },
+    "li7": {
+      "A": 7,
+      "Z": 3,
+      "AME2020": {
+        "id": "nucleus:ame2020:3:7",
+        "N": 4,
+        "Z": 3,
+        "A": 7,
+        "symbol": "Li",
+        "label": "Li-7",
+        "origin_flag": "",
+        "source_line": 57,
+        "atomic_mass_integer_u": 7,
+        "quantities": {
+          "mass_excess": {
+            "value": 14907.10463,
+            "uncertainty": 0.00419,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "14907.10463",
+            "raw_uncertainty": "0.00419",
+            "source_resolution": 1e-05,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "binding_per_nucleon": {
+            "value": 5606.4401,
+            "uncertainty": 0.0006,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "5606.4401",
+            "raw_uncertainty": "0.0006",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "beta_minus_energy": {
+            "value": -861.893,
+            "uncertainty": 0.0707,
+            "unit": "keV",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "-861.8930",
+            "raw_uncertainty": "0.0707",
+            "source_resolution": 0.0001,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          },
+          "atomic_mass": {
+            "value": 7.01600343426,
+            "uncertainty": 4.5e-09,
+            "unit": "u",
+            "status": "evaluated",
+            "estimated": false,
+            "uncertainty_estimated": false,
+            "raw_value": "016003.43426",
+            "raw_uncertainty": "0.00450",
+            "source_resolution": 1e-11,
+            "uncertainty_kind": "tabulated AME2020 standard uncertainty; evaluated correlations not included"
+          }
+        }
+      },
+      "pynucastro_mass_excess_MeV": 14.907105
+    }
+  },
+  "ec_decimal_references": [
+    {
+      "T_K": 10100000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "9.0326340244890048154200092456961703114984604837965E-9"
+    },
+    {
+      "T_K": 10100000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "1.1527361516966920431107440370697969730864701950750E-8"
+    },
+    {
+      "T_K": 10100000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "1.5054390040815008025700015409493617185830767472994E-8"
+    },
+    {
+      "T_K": 10100000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "1.3548951036733507223130013868544255467247690725695E-7"
+    },
+    {
+      "T_K": 10100000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "1.7291042275450380646661160556046954596297052926125E-7"
+    },
+    {
+      "T_K": 10100000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "2.2581585061222512038550023114240425778746151209492E-7"
+    },
+    {
+      "T_K": 10100000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "2.7097902073467014446260027737088510934495381451389E-7"
+    },
+    {
+      "T_K": 10100000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "3.4582084550900761293322321112093909192594105852249E-7"
+    },
+    {
+      "T_K": 10100000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "4.5163170122445024077100046228480851557492302418982E-7"
+    },
+    {
+      "T_K": 12000000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "8.3512561737740987584719352802047142044514298117721E-9"
+    },
+    {
+      "T_K": 12000000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "1.0657793593197421272716565024261254318061824712166E-8"
+    },
+    {
+      "T_K": 12000000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "1.3918760289623497930786558800341190340752383019620E-8"
+    },
+    {
+      "T_K": 12000000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "1.2526884260661148137707902920307071306677144717658E-7"
+    },
+    {
+      "T_K": 12000000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "1.5986690389796131909074847536391881477092737068249E-7"
+    },
+    {
+      "T_K": 12000000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "2.0878140434435246896179838200511785511128574529430E-7"
+    },
+    {
+      "T_K": 12000000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "2.5053768521322296275415805840614142613354289435316E-7"
+    },
+    {
+      "T_K": 12000000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "3.1973380779592263818149695072783762954185474136498E-7"
+    },
+    {
+      "T_K": 12000000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "4.1756280868870493792359676401023571022257149058860E-7"
+    },
+    {
+      "T_K": 15000000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "7.5606831691322709465715547428392092242835964362020E-9"
+    },
+    {
+      "T_K": 15000000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "9.6488718539402314937198889099090860576571611662007E-9"
+    },
+    {
+      "T_K": 15000000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "1.2601138615220451577619257904732015373805994060337E-8"
+    },
+    {
+      "T_K": 15000000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "1.1341024753698406419857332114258813836425394654303E-7"
+    },
+    {
+      "T_K": 15000000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "1.4473307780910347240579833364863629086485741749301E-7"
+    },
+    {
+      "T_K": 15000000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "1.8901707922830677366428886857098023060708991090505E-7"
+    },
+    {
+      "T_K": 15000000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "2.2682049507396812839714664228517627672850789308607E-7"
+    },
+    {
+      "T_K": 15000000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "2.8946615561820694481159666729727258172971483498602E-7"
+    },
+    {
+      "T_K": 15000000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "3.7803415845661354732857773714196046121417982181011E-7"
+    },
+    {
+      "T_K": 15900000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "7.3701277490681873295553854977456065115505358585374E-9"
+    },
+    {
+      "T_K": 15900000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "9.4056868416679724015278253018848692623597314766097E-9"
+    },
+    {
+      "T_K": 15900000.0,
+      "rho_kg_m3": 10000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "1.2283546248446978882592309162909344185917559764229E-8"
+    },
+    {
+      "T_K": 15900000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "1.1055191623602280994333078246618409767325803787806E-7"
+    },
+    {
+      "T_K": 15900000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "1.4108530262501958602291737952827303893539597214915E-7"
+    },
+    {
+      "T_K": 15900000.0,
+      "rho_kg_m3": 150000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "1.8425319372670468323888463744364016278876339646344E-7"
+    },
+    {
+      "T_K": 15900000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.525,
+      "rate_s_inverse_decimal": "2.2110383247204561988666156493236819534651607575612E-7"
+    },
+    {
+      "T_K": 15900000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.67,
+      "rate_s_inverse_decimal": "2.8217060525003917204583475905654607787079194429828E-7"
+    },
+    {
+      "T_K": 15900000.0,
+      "rho_kg_m3": 300000.0,
+      "Ye": 0.875,
+      "rate_s_inverse_decimal": "3.6850638745340936647776927488728032557752679292686E-7"
+    }
+  ],
+  "primary_papers": [
+    {
+      "url": "https://arxiv.org/pdf/1004.2318v3",
+      "path": "output/is5-pp2-staging/references/SolarFusionII-v3.pdf",
+      "sha256": "a62047eeb4767d8814234aacc4a2d4250e28be5a1164b52956094079cf7239ee",
+      "bytes": 2882614
+    },
+    {
+      "url": "https://arxiv.org/pdf/hep-ph/0108148v3",
+      "path": "output/is5-pp2-staging/references/Bahcall2001-v3.pdf",
+      "sha256": "897fede689b72f3f18a65c6d21299304d38fba150d40c687fcd3726adf77a063",
+      "bytes": 143302
+    }
+  ],
+  "Q_basis": "All channels use original AME2020 atomic mass-excess differences; fitQ retained separately; beta+ annihilation included.",
+  "Q_uncertainties": "Original mass uncertainties preserved; covariance not available; no derived Q uncertainty claimed.",
+  "neutrino_mean_MeV": {
+    "pp": 0.2668,
+    "n13beta": 0.706,
+    "o15beta": 0.996,
+    "be7ec": 0.814
+  },
+  "neutrino_mean_source": {
+    "url": "https://arxiv.org/pdf/hep-ph/0108148v3",
+    "table": "I",
+    "scope": "Fixed solar-profile means, including thermal/ionization effects; not recomputed per zone."
+  },
+  "domain": "10<T_MK<16 only; density1e4..3e5kg/m3; adopted solar Be7 EC law; not ppIII/pep/hep/CNOII."
+}

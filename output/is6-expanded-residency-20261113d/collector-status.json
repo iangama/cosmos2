@@ -1,0 +1,10 @@
+{
+  "schema": 6,
+  "collector_pid": 18492,
+  "session_engine_pid": 9724,
+  "samples": 1070,
+  "acknowledged_id": "031-cleanup",
+  "phase_samples": 6,
+  "last_sample_utc": "2026-11-13T23:26:35.522519+00:00",
+  "valid": true
+}

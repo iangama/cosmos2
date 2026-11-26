@@ -1,0 +1,3 @@
+{"stage": "warmup", "window": "atlas_earth"}
+{"stage": "capture", "window": "atlas_earth"}
+{"completed": false, "windows": 0, "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\profile-expanded-residency-v2.py\", line 260, in main\n    status()\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\profile-expanded-residency-v2.py\", line 71, in status\n    raise RuntimeError('Continuous memory collector exited: ' + str(job.returncode))\nRuntimeError: Continuous memory collector exited: 1\n", "cleanup_failure": null}

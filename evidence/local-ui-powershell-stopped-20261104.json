@@ -1,0 +1,76 @@
+{
+  "accepted": false,
+  "completed": true,
+  "processes": [
+    {
+      "pid": 13464,
+      "status": "stopped",
+      "created_unix": 1793827098.4398496,
+      "threads": 1,
+      "cpu": {
+        "user": 0.0,
+        "system": 0.0,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "command": [
+        "powershell.exe",
+        "-NoProfile",
+        "-Command",
+        "$parseErrors = $null; $parseTokens = $null; [System.Management.Automation.Language.Parser]::ParseFile(\"C:\\Users\\Ian\\cosmos2\\scripts\\start-cosmos2-v2.ps1\", [ref]$parseTokens, [ref]$parseErrors) | Out-Null; if ($parseErrors.Count) { $parseErrors | Format-List; exit 1 }; Write-Output \"PowerShell syntax OK\""
+      ],
+      "own_test_process_cleanup_exit": 15
+    },
+    {
+      "pid": 25812,
+      "status": "stopped",
+      "created_unix": 1793827050.739842,
+      "threads": 1,
+      "cpu": {
+        "user": 0.0,
+        "system": 0.0,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "command": [
+        "powershell.exe",
+        "-NoProfile",
+        "-Command",
+        "$parseErrors = $null; $parseTokens = $null; [System.Management.Automation.Language.Parser]::ParseFile(\"C:\\Users\\Ian\\cosmos2\\scripts\\start-cosmos2-v2.ps1\", [ref]$parseTokens, [ref]$parseErrors) | Out-Null; if ($parseErrors.Count) { $parseErrors | Format-List; exit 1 }; \"PowerShell syntax OK\""
+      ],
+      "own_test_process_cleanup_exit": 15
+    },
+    {
+      "pid": 8296,
+      "status": "stopped",
+      "created_unix": 1793827168.0545313,
+      "threads": 1,
+      "cpu": {
+        "user": 0.0,
+        "system": 0.0,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "command": [
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\Ian\\cosmos2\\scripts\\start-cosmos2-v2.ps1",
+        "-Built",
+        "-Benchmark1080",
+        "-InspectCEF"
+      ],
+      "own_test_process_cleanup_exit": 15
+    }
+  ],
+  "readiness_unit_tests": "evidence/local-ui-readiness-check-20261104.json",
+  "findings": [
+    "Three newly created own PowerShell test processes remained stopped with one thread and zero CPU before running script code.",
+    "One resume attempt on the own read-only parser process did not clear the stopped state; it was not repeated.",
+    "Only these verified own suspended test processes were terminated for cleanup. No security or system policy was changed.",
+    "The origin of suspension is unknown; the owner was asked about external pausing or security notices."
+  ],
+  "scope": "Native launch verification blocked by unexplained process suspension; readiness tests passed, but the owner entry point remains unchanged."
+}

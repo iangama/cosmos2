@@ -1,0 +1,665 @@
+{
+  "schema": 1,
+  "kind": "pdh_provider_initialization",
+  "started_utc": "2026-11-14T11:24:53.550627+00:00",
+  "attempts": 1,
+  "gauge_samples": 0,
+  "phase_before": {
+    "schema": 1,
+    "id": "000-prepare",
+    "kind": "prepare",
+    "window": null,
+    "recipe": null,
+    "expected_scenario": null
+  },
+  "scenario_before": {
+    "mode": "atlas",
+    "renderer_confirmed": true,
+    "physics": null,
+    "modules": {
+      "spatial": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "guard": {
+          "session_id": "2af80bf33b5c4956bc5119c468a9f8ea",
+          "artifact_id": null,
+          "revision": 0
+        },
+        "artifact": null,
+        "scene": null
+      },
+      "layers": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "guard": {
+          "session_id": "fa189e86ad714675bbfe35e7e16289e7",
+          "artifact_id": null,
+          "revision": 0
+        },
+        "artifact": null,
+        "scene": null
+      },
+      "particles": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false
+      },
+      "solar-zone": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "playing": false,
+        "scene": null,
+        "worker": null
+      }
+    },
+    "atlas_epoch_et_tdb_s": 844992069.1823514,
+    "atlas_anchor": "Earth"
+  },
+  "inventory_before": {
+    "owned": [
+      {
+        "pid": 3624,
+        "parent": 15012,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391225326963143,
+        "started_unix": 1794648932.6963143,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225261450390
+      },
+      {
+        "pid": 14396,
+        "parent": 1992,
+        "name": "python.exe",
+        "created_filetime": 134391225213570531,
+        "started_unix": 1794648921.3570533,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+        "scope_root": true
+      },
+      {
+        "pid": 15012,
+        "parent": 1992,
+        "name": "OpenSpace.exe",
+        "created_filetime": 134391225261450390,
+        "started_unix": 1794648926.145039,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+        "scope_root": true
+      },
+      {
+        "pid": 16016,
+        "parent": 14396,
+        "name": "python.exe",
+        "created_filetime": 134391225214056094,
+        "started_unix": 1794648921.4056094,
+        "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225213570531
+      },
+      {
+        "pid": 20996,
+        "parent": 15012,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391225315986043,
+        "started_unix": 1794648931.5986044,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225261450390
+      },
+      {
+        "pid": 25724,
+        "parent": 15012,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391225309996838,
+        "started_unix": 1794648930.9996839,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225261450390
+      },
+      {
+        "pid": 34676,
+        "parent": 15012,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391225327971919,
+        "started_unix": 1794648932.797192,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225261450390
+      },
+      {
+        "pid": 40660,
+        "parent": 15012,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391225316877355,
+        "started_unix": 1794648931.6877356,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225261450390
+      }
+    ],
+    "excluded_completed": [],
+    "excluded_old_parent_links": [],
+    "started_filetime": 134391290935916903,
+    "finished_filetime": 134391290936063110,
+    "generation": {
+      "id": "cosmos2:retained-native-history",
+      "version": "0.1.0",
+      "source_sha256": {
+        "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+        "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+        "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77"
+      }
+    }
+  },
+  "known_processes": [
+    3624,
+    14396,
+    15012,
+    16016,
+    20996,
+    25724,
+    34676,
+    40660
+  ],
+  "discovery_started_utc": "2026-11-14T11:24:53.619766+00:00",
+  "discovered_paths": {
+    "\\gpu process memory(pid_15012_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_15012_luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "instance": "pid_15012_luid_0x00000000_0x0000d742_phys_0",
+      "pid": 15012,
+      "object": "GPU Process Memory",
+      "counter": "dedicated usage"
+    },
+    "\\gpu process memory(pid_25724_luid_0x00000000_0x0000d742_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_25724_luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "instance": "pid_25724_luid_0x00000000_0x0000d742_phys_0",
+      "pid": 25724,
+      "object": "GPU Process Memory",
+      "counter": "dedicated usage"
+    },
+    "\\gpu process memory(pid_15012_luid_0x00000000_0x0000d742_phys_0)\\shared usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_15012_luid_0x00000000_0x0000D742_phys_0)\\Shared Usage",
+      "instance": "pid_15012_luid_0x00000000_0x0000d742_phys_0",
+      "pid": 15012,
+      "object": "GPU Process Memory",
+      "counter": "shared usage"
+    },
+    "\\gpu process memory(pid_25724_luid_0x00000000_0x0000d742_phys_0)\\shared usage": {
+      "localized_path": "\\\\PC\\GPU Process Memory(pid_25724_luid_0x00000000_0x0000D742_phys_0)\\Shared Usage",
+      "instance": "pid_25724_luid_0x00000000_0x0000d742_phys_0",
+      "pid": 25724,
+      "object": "GPU Process Memory",
+      "counter": "shared usage"
+    },
+    "\\gpu adapter memory(luid_0x00000000_0x0000d742_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Adapter Memory(luid_0x00000000_0x0000D742_phys_0)\\Dedicated Usage",
+      "instance": "luid_0x00000000_0x0000d742_phys_0",
+      "pid": null,
+      "object": "GPU Adapter Memory",
+      "counter": "dedicated usage"
+    },
+    "\\gpu adapter memory(luid_0x00000000_0x0000f1f9_phys_0)\\dedicated usage": {
+      "localized_path": "\\\\PC\\GPU Adapter Memory(luid_0x00000000_0x0000F1F9_phys_0)\\Dedicated Usage",
+      "instance": "luid_0x00000000_0x0000f1f9_phys_0",
+      "pid": null,
+      "object": "GPU Adapter Memory",
+      "counter": "dedicated usage"
+    }
+  },
+  "discovery_duration_s": 1.2631531999995786,
+  "discovery_finished_utc": "2026-11-14T11:24:54.883219+00:00",
+  "inventory_after": {
+    "owned": [
+      {
+        "pid": 3624,
+        "parent": 15012,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391225326963143,
+        "started_unix": 1794648932.6963143,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225261450390
+      },
+      {
+        "pid": 14396,
+        "parent": 1992,
+        "name": "python.exe",
+        "created_filetime": 134391225213570531,
+        "started_unix": 1794648921.3570533,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+        "scope_root": true
+      },
+      {
+        "pid": 15012,
+        "parent": 1992,
+        "name": "OpenSpace.exe",
+        "created_filetime": 134391225261450390,
+        "started_unix": 1794648926.145039,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+        "scope_root": true
+      },
+      {
+        "pid": 16016,
+        "parent": 14396,
+        "name": "python.exe",
+        "created_filetime": 134391225214056094,
+        "started_unix": 1794648921.4056094,
+        "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225213570531
+      },
+      {
+        "pid": 20996,
+        "parent": 15012,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391225315986043,
+        "started_unix": 1794648931.5986044,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225261450390
+      },
+      {
+        "pid": 25724,
+        "parent": 15012,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391225309996838,
+        "started_unix": 1794648930.9996839,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225261450390
+      },
+      {
+        "pid": 34676,
+        "parent": 15012,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391225327971919,
+        "started_unix": 1794648932.797192,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225261450390
+      },
+      {
+        "pid": 40660,
+        "parent": 15012,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134391225316877355,
+        "started_unix": 1794648931.6877356,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391225261450390
+      }
+    ],
+    "excluded_completed": [],
+    "excluded_old_parent_links": [],
+    "started_filetime": 134391290948895647,
+    "finished_filetime": 134391290949015967,
+    "generation": {
+      "id": "cosmos2:retained-native-history",
+      "version": "0.1.0",
+      "source_sha256": {
+        "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+        "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+        "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77"
+      }
+    }
+  },
+  "phase_after": {
+    "schema": 1,
+    "id": "000-prepare",
+    "kind": "prepare",
+    "window": null,
+    "recipe": null,
+    "expected_scenario": null
+  },
+  "scenario_after": {
+    "mode": "atlas",
+    "renderer_confirmed": true,
+    "physics": null,
+    "modules": {
+      "spatial": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "guard": {
+          "session_id": "2af80bf33b5c4956bc5119c468a9f8ea",
+          "artifact_id": null,
+          "revision": 0
+        },
+        "artifact": null,
+        "scene": null
+      },
+      "layers": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "guard": {
+          "session_id": "fa189e86ad714675bbfe35e7e16289e7",
+          "artifact_id": null,
+          "revision": 0
+        },
+        "artifact": null,
+        "scene": null
+      },
+      "particles": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false
+      },
+      "solar-zone": {
+        "active": false,
+        "busy": false,
+        "error": null,
+        "recovery_required": false,
+        "playing": false,
+        "scene": null,
+        "worker": null
+      }
+    },
+    "atlas_epoch_et_tdb_s": 844992069.1823514,
+    "atlas_anchor": "Earth"
+  },
+  "native_history": {
+    "records": [
+      {
+        "identity": {
+          "pid": 3624,
+          "parent": 15012,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391225326963143,
+          "started_unix": 1794648932.6963143,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391225261450390
+        },
+        "first_observed_filetime": 134391290935163703,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391225326963143,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391290949517497
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=renderer",
+          "--start-stack-profiler",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--no-sandbox",
+          "--autoplay-policy=no-user-gesture-required",
+          "--remote-debugging-port=8088",
+          "--video-capture-use-gpu-memory-buffer",
+          "--lang=en-US",
+          "--device-scale-factor=1",
+          "--num-raster-threads=4",
+          "--enable-main-frame-before-activation",
+          "--renderer-client-id=6",
+          "--time-ticks-at-unix-epoch=-1794648307290857",
+          "--launch-time-ticks=625403919",
+          "--field-trial-handle=3996,i,16891820645494326725,9723946080880126899,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=4016",
+          "--mojo-platform-channel-handle=4008",
+          "/prefetch:1"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 14396,
+          "parent": 1992,
+          "name": "python.exe",
+          "created_filetime": 134391225213570531,
+          "started_unix": 1794648921.3570533,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+          "scope_root": true
+        },
+        "first_observed_filetime": 134391290934459222,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391225213570531,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391290949517153
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+          "-u",
+          "C:\\Users\\Ian\\cosmos2\\output\\is6-expanded-journey-product0.27.0\\app\\server.py"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 15012,
+          "parent": 1992,
+          "name": "OpenSpace.exe",
+          "created_filetime": 134391225261450390,
+          "started_unix": 1794648926.145039,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+          "scope_root": true
+        },
+        "first_observed_filetime": 134391290934314629,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391225261450390,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391290949517074
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+          "--file",
+          "cosmos2.cfg",
+          "--bypassLauncher"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 16016,
+          "parent": 14396,
+          "name": "python.exe",
+          "created_filetime": 134391225214056094,
+          "started_unix": 1794648921.4056094,
+          "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391225213570531
+        },
+        "first_observed_filetime": 134391290934607900,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391225214056094,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391290949517232
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "-u",
+          "C:\\Users\\Ian\\cosmos2\\output\\is6-expanded-journey-product0.27.0\\app\\server.py"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 20996,
+          "parent": 15012,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391225315986043,
+          "started_unix": 1794648931.5986044,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391225261450390
+        },
+        "first_observed_filetime": 134391290934889272,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391225315986043,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391290949517369
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=utility",
+          "--utility-sub-type=network.mojom.NetworkService",
+          "--lang=en-US",
+          "--service-sandbox-type=none",
+          "--no-sandbox",
+          "--start-stack-profiler",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--field-trial-handle=2936,i,16891820645494326725,9723946080880126899,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=3548",
+          "--mojo-platform-channel-handle=3536",
+          "/prefetch:11"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 25724,
+          "parent": 15012,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391225309996838,
+          "started_unix": 1794648930.9996839,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391225261450390
+        },
+        "first_observed_filetime": 134391290934767516,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391225309996838,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391290949517302
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=gpu-process",
+          "--no-sandbox",
+          "--start-stack-profiler",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--gpu-preferences=WAAAAAAAAADgAgAMAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA==",
+          "--field-trial-handle=2724,i,16891820645494326725,9723946080880126899,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=2856",
+          "--mojo-platform-channel-handle=2720",
+          "/prefetch:2"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 34676,
+          "parent": 15012,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391225327971919,
+          "started_unix": 1794648932.797192,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391225261450390
+        },
+        "first_observed_filetime": 134391290935300490,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391225327971919,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391290949517561
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=renderer",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--no-sandbox",
+          "--autoplay-policy=no-user-gesture-required",
+          "--remote-debugging-port=8088",
+          "--video-capture-use-gpu-memory-buffer",
+          "--lang=en-US",
+          "--device-scale-factor=1",
+          "--num-raster-threads=4",
+          "--enable-main-frame-before-activation",
+          "--renderer-client-id=5",
+          "--time-ticks-at-unix-epoch=-1794648307290857",
+          "--launch-time-ticks=625504825",
+          "--field-trial-handle=4028,i,16891820645494326725,9723946080880126899,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=4252",
+          "--mojo-platform-channel-handle=4208",
+          "/prefetch:1"
+        ]
+      },
+      {
+        "identity": {
+          "pid": 40660,
+          "parent": 15012,
+          "name": "OpenSpace_Helper.exe",
+          "created_filetime": 134391225316877355,
+          "started_unix": 1794648931.6877356,
+          "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "scope_root": false,
+          "parent_created_filetime": 134391225261450390
+        },
+        "first_observed_filetime": 134391290935004509,
+        "exit": null,
+        "last_native": {
+          "created_filetime": 134391225316877355,
+          "exited_filetime": 0,
+          "code": 259,
+          "wait": 258,
+          "observed_filetime": 134391290949517434
+        },
+        "command_line": [
+          "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+          "--type=utility",
+          "--utility-sub-type=storage.mojom.StorageService",
+          "--lang=en-US",
+          "--service-sandbox-type=service",
+          "--no-sandbox",
+          "--enable-chrome-runtime",
+          "--user-data-dir=C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\cefcache",
+          "--log-severity=fatal",
+          "--field-trial-handle=3032,i,16891820645494326725,9723946080880126899,262144",
+          "--variations-seed-version",
+          "--enable-logging=handle",
+          "--log-file=3592",
+          "--mojo-platform-channel-handle=3492",
+          "/prefetch:13"
+        ]
+      }
+    ],
+    "polls": 48,
+    "maximum_poll_gap_s": 0.14464789999965433,
+    "source_sha256": {
+      "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+      "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+      "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77"
+    }
+  },
+  "finished_utc": "2026-11-14T11:24:54.951226+00:00",
+  "duration_s": 1.4011073000001488
+}

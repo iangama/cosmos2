@@ -1,0 +1,50 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-is6-dynamics16-gpu-adapter.py": "e87ca9b7bb6970a071ffa75c989572f8fce2dde73d74650db52c8b25a0f8786f",
+    "scripts/gpu_pdh_audit_dynamics16.py": "9ae4693c2fae9a38098f3efb35d276e978851b0d03ca1848c45b89c4b92917c7",
+    "scripts/gpu_pdh_audit_dynamics16_base.py": "40c3bfee12643895c4c026c6a639ad65cbc73056112e680cb95dac8231fdd9b5",
+    "scripts/collect_gpu_pdh_dynamics16.py": "2a15936200ab528969c620b11eae80bee5fe4cefe657b31dff484d2e2fe9e66c",
+    "scripts/prepare-is6-dynamics16-gpu.py": "14b3e195bf51be5daea97bb5253eb26395b2fe3de29813f690c9b652684ace5f",
+    "IS-6-DINAMICA16-PERFIL-CONTRATO.md": "9b8713d4591dff96fe23132fdbda271f08e8eaca73fad2af6e542910a18c7dbb",
+    "evidence/gpu-pdh-is6-ml-20261112a-1.json": "01eecb9134b27d8ce004d97e3775ac56fba0cf5c9425ffd9634790f7eda3a077"
+  },
+  "source_archive_sha256": "13cff217d867479602799d7d63c5c6553dc1bfb0dcd6dc38766700f590d1de56",
+  "scope": "Offline adapter regression on archived counter bytes plus synthetic scenario clock metadata. No new GPU/performance measurement.",
+  "refusals": [
+    "sample mode atlas",
+    "sample renderer_confirmed False",
+    "sample paused True",
+    "sample paused 0",
+    "sample requested_rate 10",
+    "sample revision 1",
+    "sample fixture_count 16",
+    "sample physical_time True",
+    "sample physical_time -1.0",
+    "sample physical_time nan",
+    "sample physical_time inf",
+    "stalled clock",
+    "reversed clock",
+    "after bracket clock",
+    "final before samples",
+    "nonfinite initial",
+    "paused clock advanced",
+    "extra scenario field",
+    "changed process identity"
+  ],
+  "paused_original": {
+    "samples": 66,
+    "paths": 6,
+    "owned_processes": 10,
+    "peak_dedicated_plus_shared_bytes": 3236130816,
+    "scope": "WDDM sum per process; shared allocations can be counted more than once."
+  },
+  "moving_synthetic_clock": {
+    "samples": 66,
+    "paths": 6,
+    "owned_processes": 10,
+    "peak_dedicated_plus_shared_bytes": 3236130816,
+    "scope": "WDDM sum per process; shared allocations can be counted more than once."
+  }
+}

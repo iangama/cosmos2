@@ -1,0 +1,507 @@
+{
+  "accepted": true,
+  "completed": true,
+  "sources": {
+    "output/is6-principal-moons-acquisition-20261111a/jup365.bsp": "dbf016c01ba4d022154838000cf3f06962cf958ddc503a366f7fe8f81495c5cb",
+    "output/is6-principal-moons-acquisition-20261111a/sat441.bsp": "d7e444a9ba7a52b8f448ff0747030789524d2f0c1212e4e2bd7f5fc3c96444d5"
+  },
+  "centers": [
+    {
+      "target": 501,
+      "center": 5,
+      "source": "output/is6-principal-moons-acquisition-20261111a/jup365.bsp",
+      "file": "output/is6-principal-moons-data-20261111b/moon-501.bsp",
+      "sha256": "fcf69024e663792388318d936536e1c8c38de8b820c37d7d4a167e6c43cc8040",
+      "bytes": 7149568,
+      "segments": [
+        {
+          "target": 501,
+          "center": 5,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "JUP365.26",
+          "source_et": [
+            -12622046400.0,
+            -93355200.0
+          ],
+          "subset_et": [
+            -157809538.81607857,
+            -93355200.0
+          ]
+        },
+        {
+          "target": 501,
+          "center": 5,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "JUP365.26",
+          "source_et": [
+            -93355200.0,
+            6312168000.0
+          ],
+          "subset_et": [
+            -93355200.0,
+            1577793668.1838844
+          ]
+        }
+      ],
+      "coverage_et_s": [
+        [
+          -157809538.81607857,
+          1577793668.1838844
+        ]
+      ],
+      "comments": {
+        "path": "output/is6-principal-moons-data-20261111b/moon-501.comments.txt",
+        "sha256": "5f65111825ca5b82c83cc14c483a31537849e749fd6466405570b03937fc918e"
+      },
+      "comparison_epochs": 206,
+      "relative_states_bit_identical": true,
+      "old_ten_physical_centers_and_barycenters_bit_identical": true,
+      "chain_difference_SI": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_planet_center_comparison": {
+        "max_difference_SI": [
+          0.0,
+          1.4210854715202004e-11,
+          7.105427357601002e-12,
+          2.8297676701871666e-14,
+          3.0357660829594124e-15,
+          2.2768245622195593e-15
+        ],
+        "position_limit_m": 0.001,
+        "velocity_limit_m_s": 1e-06
+      }
+    },
+    {
+      "target": 502,
+      "center": 5,
+      "source": "output/is6-principal-moons-acquisition-20261111a/jup365.bsp",
+      "file": "output/is6-principal-moons-data-20261111b/moon-502.bsp",
+      "sha256": "6a5a5b3d9648b29c623a032a0fa65d063a7e21e68b589432dd0ad99728f1acbf",
+      "bytes": 7149568,
+      "segments": [
+        {
+          "target": 502,
+          "center": 5,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "JUP365.26",
+          "source_et": [
+            -12622046400.0,
+            -93355200.0
+          ],
+          "subset_et": [
+            -157809538.81607857,
+            -93355200.0
+          ]
+        },
+        {
+          "target": 502,
+          "center": 5,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "JUP365.26",
+          "source_et": [
+            -93355200.0,
+            6312168000.0
+          ],
+          "subset_et": [
+            -93355200.0,
+            1577793668.1838844
+          ]
+        }
+      ],
+      "coverage_et_s": [
+        [
+          -157809538.81607857,
+          1577793668.1838844
+        ]
+      ],
+      "comments": {
+        "path": "output/is6-principal-moons-data-20261111b/moon-502.comments.txt",
+        "sha256": "5f65111825ca5b82c83cc14c483a31537849e749fd6466405570b03937fc918e"
+      },
+      "comparison_epochs": 206,
+      "relative_states_bit_identical": true,
+      "old_ten_physical_centers_and_barycenters_bit_identical": true,
+      "chain_difference_SI": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_planet_center_comparison": {
+        "max_difference_SI": [
+          0.0,
+          1.4210854715202004e-11,
+          7.105427357601002e-12,
+          2.8297676701871666e-14,
+          3.0357660829594124e-15,
+          2.2768245622195593e-15
+        ],
+        "position_limit_m": 0.001,
+        "velocity_limit_m_s": 1e-06
+      }
+    },
+    {
+      "target": 503,
+      "center": 5,
+      "source": "output/is6-principal-moons-acquisition-20261111a/jup365.bsp",
+      "file": "output/is6-principal-moons-data-20261111b/moon-503.bsp",
+      "sha256": "751ff91892cd71433ab82156b7ebe447976137d5cd541a865fb3702f31c010dc",
+      "bytes": 4578304,
+      "segments": [
+        {
+          "target": 503,
+          "center": 5,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "JUP365.26",
+          "source_et": [
+            -12622046400.0,
+            -93355200.0
+          ],
+          "subset_et": [
+            -157809538.81607857,
+            -93355200.0
+          ]
+        },
+        {
+          "target": 503,
+          "center": 5,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "JUP365.26",
+          "source_et": [
+            -93355200.0,
+            6312168000.0
+          ],
+          "subset_et": [
+            -93355200.0,
+            1577793668.1838844
+          ]
+        }
+      ],
+      "coverage_et_s": [
+        [
+          -157809538.81607857,
+          1577793668.1838844
+        ]
+      ],
+      "comments": {
+        "path": "output/is6-principal-moons-data-20261111b/moon-503.comments.txt",
+        "sha256": "5f65111825ca5b82c83cc14c483a31537849e749fd6466405570b03937fc918e"
+      },
+      "comparison_epochs": 206,
+      "relative_states_bit_identical": true,
+      "old_ten_physical_centers_and_barycenters_bit_identical": true,
+      "chain_difference_SI": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_planet_center_comparison": {
+        "max_difference_SI": [
+          0.0,
+          1.4210854715202004e-11,
+          7.105427357601002e-12,
+          2.8297676701871666e-14,
+          3.0357660829594124e-15,
+          2.2768245622195593e-15
+        ],
+        "position_limit_m": 0.001,
+        "velocity_limit_m_s": 1e-06
+      }
+    },
+    {
+      "target": 504,
+      "center": 5,
+      "source": "output/is6-principal-moons-acquisition-20261111a/jup365.bsp",
+      "file": "output/is6-principal-moons-data-20261111b/moon-504.bsp",
+      "sha256": "8e01d68743f06ad14cb9cc91e014e74beffec7c1cb4d72af115f92dabb9a2270",
+      "bytes": 2506752,
+      "segments": [
+        {
+          "target": 504,
+          "center": 5,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "JUP365.26",
+          "source_et": [
+            -12622046400.0,
+            -93355200.0
+          ],
+          "subset_et": [
+            -157809538.81607857,
+            -93355200.0
+          ]
+        },
+        {
+          "target": 504,
+          "center": 5,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "JUP365.26",
+          "source_et": [
+            -93355200.0,
+            6312168000.0
+          ],
+          "subset_et": [
+            -93355200.0,
+            1577793668.1838844
+          ]
+        }
+      ],
+      "coverage_et_s": [
+        [
+          -157809538.81607857,
+          1577793668.1838844
+        ]
+      ],
+      "comments": {
+        "path": "output/is6-principal-moons-data-20261111b/moon-504.comments.txt",
+        "sha256": "5f65111825ca5b82c83cc14c483a31537849e749fd6466405570b03937fc918e"
+      },
+      "comparison_epochs": 206,
+      "relative_states_bit_identical": true,
+      "old_ten_physical_centers_and_barycenters_bit_identical": true,
+      "chain_difference_SI": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_planet_center_comparison": {
+        "max_difference_SI": [
+          0.0,
+          1.4210854715202004e-11,
+          7.105427357601002e-12,
+          2.8297676701871666e-14,
+          3.0357660829594124e-15,
+          2.2768245622195593e-15
+        ],
+        "position_limit_m": 0.001,
+        "velocity_limit_m_s": 1e-06
+      }
+    },
+    {
+      "target": 602,
+      "center": 6,
+      "source": "output/is6-principal-moons-acquisition-20261111a/sat441.bsp",
+      "file": "output/is6-principal-moons-data-20261111b/moon-602.bsp",
+      "sha256": "08f0c7421b9db62ba199ae0f03f2ec880b79fe01ac6f914b7c0aebcb2a0fd50d",
+      "bytes": 8792064,
+      "segments": [
+        {
+          "target": 602,
+          "center": 6,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "SAT441.24",
+          "source_et": [
+            -7889400000.0,
+            465134400.0
+          ],
+          "subset_et": [
+            -157809538.81607857,
+            465134400.0
+          ]
+        },
+        {
+          "target": 602,
+          "center": 6,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "SAT441.24",
+          "source_et": [
+            465134400.0,
+            7889659200.0
+          ],
+          "subset_et": [
+            465134400.0,
+            1577793668.1838844
+          ]
+        }
+      ],
+      "coverage_et_s": [
+        [
+          -157809538.81607857,
+          1577793668.1838844
+        ]
+      ],
+      "comments": {
+        "path": "output/is6-principal-moons-data-20261111b/moon-602.comments.txt",
+        "sha256": "58f2177ad19bc6a023864b855b30a82f8affa122e2013e2e20cccbe6b6cca254"
+      },
+      "comparison_epochs": 206,
+      "relative_states_bit_identical": true,
+      "old_ten_physical_centers_and_barycenters_bit_identical": true,
+      "chain_difference_SI": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_planet_center_comparison": {
+        "max_difference_SI": [
+          0.0,
+          2.8421709430404007e-11,
+          3.552713678800501e-12,
+          4.0115480381963664e-15,
+          1.734723475976807e-15,
+          2.425902360936316e-15
+        ],
+        "position_limit_m": 0.001,
+        "velocity_limit_m_s": 1e-06
+      }
+    },
+    {
+      "target": 606,
+      "center": 6,
+      "source": "output/is6-principal-moons-acquisition-20261111a/sat441.bsp",
+      "file": "output/is6-principal-moons-data-20261111b/moon-606.bsp",
+      "sha256": "0905741fd8234bdcb9a67b52e87535b7491ac3ce94bbe91e50e955be40643cde",
+      "bytes": 2203648,
+      "segments": [
+        {
+          "target": 606,
+          "center": 6,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "SAT441.24",
+          "source_et": [
+            -7889400000.0,
+            465134400.0
+          ],
+          "subset_et": [
+            -157809538.81607857,
+            465134400.0
+          ]
+        },
+        {
+          "target": 606,
+          "center": 6,
+          "frame_id": 1,
+          "type": 2,
+          "identifier": "SAT441.24",
+          "source_et": [
+            465134400.0,
+            7889659200.0
+          ],
+          "subset_et": [
+            465134400.0,
+            1577793668.1838844
+          ]
+        }
+      ],
+      "coverage_et_s": [
+        [
+          -157809538.81607857,
+          1577793668.1838844
+        ]
+      ],
+      "comments": {
+        "path": "output/is6-principal-moons-data-20261111b/moon-606.comments.txt",
+        "sha256": "58f2177ad19bc6a023864b855b30a82f8affa122e2013e2e20cccbe6b6cca254"
+      },
+      "comparison_epochs": 206,
+      "relative_states_bit_identical": true,
+      "old_ten_physical_centers_and_barycenters_bit_identical": true,
+      "chain_difference_SI": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_planet_center_comparison": {
+        "max_difference_SI": [
+          0.0,
+          2.8421709430404007e-11,
+          3.552713678800501e-12,
+          4.0115480381963664e-15,
+          1.734723475976807e-15,
+          2.425902360936316e-15
+        ],
+        "position_limit_m": 0.001,
+        "velocity_limit_m_s": 1e-06
+      }
+    }
+  ],
+  "created_utc": "2026-11-11T16:39:22.754651+00:00",
+  "script_sha256": "234303433ba10b1863267bfb2428a6d052346e88e624fcf8f715369a1175fc20",
+  "acquisition_sha256": "a061347f3841f4642ae050f9b78e534e8f745e5847d36c7fef3e751e47fe2f7a",
+  "application_utc": [
+    "1995-01-01T00:00:00",
+    "2049-12-30T23:59:59"
+  ],
+  "comparison_uniform_epochs": 201,
+  "contract_sha256": "a4942e7c97009879e7e095589833e9b79be6c870d7719c5418479f1b486fc5ff",
+  "compatibility_revision_sha256": "a8233eb4cf3ac181a2650a10f051b62875d08ecec7fd42b3d1c44bc4ce34b48a",
+  "old_model_sha256": "fd040559c9e35ccb7a5a154241a20e6a912968284bef8db44f3a0182c1fb13c2",
+  "limits_before_execution": {
+    "position_m": 0.001,
+    "velocity_m_s": 1e-06,
+    "relative_copy": "bit-identical"
+  },
+  "source_objects": {
+    "jup365.bsp": [
+      3,
+      5,
+      10,
+      399,
+      501,
+      502,
+      503,
+      504,
+      505,
+      514,
+      515,
+      516,
+      599
+    ],
+    "sat441.bsp": [
+      3,
+      6,
+      10,
+      399,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      612,
+      613,
+      614,
+      632,
+      634,
+      699
+    ]
+  },
+  "base_sha256": {
+    "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+    "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+    "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1"
+  }
+}

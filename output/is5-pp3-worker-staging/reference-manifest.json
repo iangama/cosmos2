@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "scientific_receipt": "evidence/is5-pp3-science-20261026a.json",
+  "scientific_receipt_sha256": "9bbcca4cab2f5262d0d72462fa2285fd2d66f659dd9ce007e727ada26b01924a",
+  "change": "New pp-III worker/artifact protocol; accepted thirteen-species/fourteen-channel model imported read-only. Original scientific references and source hashes remain in its generation."
+}

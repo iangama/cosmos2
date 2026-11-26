@@ -1,0 +1,49 @@
+{
+  "accepted": false,
+  "completed": true,
+  "native_user_flow_accepted": false,
+  "checks": [
+    {
+      "name": "spatial-same-bytes-new-wrapper-can-be-imported",
+      "passed": false,
+      "error": "Byte-identical native re-selection must not disable import",
+      "errors": []
+    },
+    {
+      "name": "spatial-ordinary-change-requires-new-preview",
+      "passed": false,
+      "error": "A previous source must not remain presented as ready",
+      "errors": []
+    },
+    {
+      "name": "spatial-changed-bytes-with-identical-metadata-still-rejected",
+      "passed": false,
+      "error": "false == true",
+      "errors": []
+    },
+    {
+      "name": "layers-same-bytes-new-wrapper-can-be-imported",
+      "passed": false,
+      "error": "Byte-identical native re-selection must not disable import",
+      "errors": []
+    },
+    {
+      "name": "layers-ordinary-change-requires-new-preview",
+      "passed": true
+    },
+    {
+      "name": "layers-changed-bytes-with-identical-metadata-still-rejected",
+      "passed": false,
+      "error": "false == true",
+      "errors": []
+    }
+  ],
+  "scope": "Isolated existing panel HTML/JS with an in-memory adapter. Replace a selected File by a byte-identical new wrapper without change event, as observed natively; verify real change invalidation and exact source-text rejection. No scientific model, real branch storage, renderer or native journey acceptance.",
+  "source_sha256": {
+    "scripts/verify-reference-file-binding.cjs": "2b4634e680bf6b07649eb04fdbaf21e0ca4070ebae5d526d425bc4b72b45482f",
+    "output/original-flow-hotfix-product0.27.5/app/ui/index.html": "ee25faec857370966b4e386ab5970f66035787cfc73c1c121d53b3e69f374df7",
+    "output/original-flow-hotfix-product0.27.5/app/ui/is6-spatial.js": "e6a39c8c8233d2df50d77c83e508f49e932d74359bf4c0494ab4b7ff95453bb0",
+    "output/original-flow-hotfix-product0.27.5/app/ui/is6-layers.js": "06c772dd3cb94adf8ed8b0327743e5b25370e26f3282074037d8b47fe0c4f6a8",
+    "output/original-flow-hotfix-product0.27.5/app/ui/reference-panels.js": "4dd6c3337b0d7d37b6bcb284db59a6a33bb1cd22d6c81fa45c7b4b4d1d0d3c91"
+  }
+}

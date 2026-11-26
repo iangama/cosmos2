@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "id": "branch:be496cb08b424c83b50c17858b29dcbf",
+  "name": "Origem16 ampliada",
+  "parent_id": null,
+  "parent_sha256": null,
+  "created_utc": "2026-11-13T12:11:01.929342+00:00",
+  "checkpoint_manifest_sha256": "92fd30c01b521fca87292736f88a5b92d6c71b0de4c91bcbfa809d0365e16a9c",
+  "system_id": "2ad694b6f482460eb9461fa925a26541",
+  "time": 0.0,
+  "revision": 0,
+  "fixture_sha256": "79a86048842c1c410a82ed463186026d66eb5ba24db146b92824f9367dd3a251",
+  "frame": "initial_subset_barycenter_inertial_axes_J2000",
+  "record_sha256": "b6fdef7dda17eda51246e22423885badbae90f3e31c0e975bac9c2ecbaa34eeb"
+}

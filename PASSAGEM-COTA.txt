@@ -1,0 +1,44 @@
+C2-14 CPU ACEITA — 20cenários base+refinados/23recusas;nenhumaceitedeUI/serviçoainda.
+Ler C2-14-ORBITAS-CONTRATO-20261114.md e C2-14-ORBITAS-CPU-RESULTADO-20261114.md.
+Fontesaceitasimutáveis:output/c214-orbits-staging/timelike_orbits.py e
+scripts/verify-c214-orbits-numerics.py;recibo c214-orbits-numerics-20261114a.json.
+Maiorerroprecessão1,721e-12rad/ciclo;períodos≤3,727e-11relativos,matriz≤16ciclos.
+Próximo:contrato de serviço/controles e candidata isolada0.28copiada da0.27,sem alterara0.27.
+Base app/forces.py tem SCENARIOS/EFFECTS e evaluate;app/science_contracts.py congelaMODELS/SOURCE_PATHS/DATA_PATHS.
+UIforces.html/forces.js é bancadaCanvas projetada3D emCEF;catalogoautogerado,linhadotempo requer conferirlimitesvariáveis.
+A origem0.27não possui data/science no namespace do produto;forces.py e science_contracts.py
+usam ROOT=parents[1]. Próxima candidata deve fornecer dados/fonte locais antesde importar,
+sem mudarorigens/atalhos/protegidosaceitos. Serviço novo inclui modelo/proveniência e persistênciaprivada.
+Planejadoadapter:GRgeodésicavsreferênciaNewton comestadoinicialcoordenadocomum;
+atuaçãoorbital/relógiopróprio/visibilidadeindependentes. Fixarsemântica de relógio na hipótese
+retilínea antesde implementar; não reutilizarτgeodésico sobreoutratrajetória.
+Nova coleta de UI/perf somente apóscontrato e fontes próprias. Não retomarCPU30dias/jornadas/residênciaF.
+Snapshotv22/6849anterioràfaseC2-14;incluirnovosestágios/JSON/code/docs nopróximoLOCALsem push.
+
+C2-14 PREPARAÇÃO INICIADA — ler C2-14-ORBITAS-PREPARACAO-20261114.md.
+FonteCarrollseção7consultada;equaçõescomoimagemaindaprecisamtranscriçãooriginal.
+Nenhumsolver/contratoaceito/dadonovo.Próximo:equações+observador/estadoinicial+verificaçãoindependente.
+COTA RENOVADA 2026-11-14T15:50:50.243Z:98.0%5h/37.0%semanal disponíveis.
+Cabeçalhos antigos7%referem-seàjanelaanterior; consultartelemetriacorrente econtinuaratélimite real.
+ResidênciaF+backup22concluídosabaixo;NÃOrepetir.Nota/relatório/passagemfinalposteriores ao snapshot6849.
+
+COSMOS2 — RESIDÊNCIA F ACEITA; BACKUPv22 LOCAL CONCLUÍDO
+Ler AGENTS.md. Sem subagentes/push/promoção. V1segue7/21;IS6incompleto;K5Arecusado.
+F20261114b ACEITO por Auditor5+Host6:10janelas/1078amostras/45057intervalosúteis/4saídas0/vistadodono.
+Ler IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-RESULTADO-20261114.md e receipts F. NÃO repetir F.
+Coletor7/schema8 usa RAM nohandle retido com testemunhas nativas antes/depois.
+Fontes/protegidos/ZIPA/B/C/D/E/F imutáveis. A/B/C/D/E seguem recusados.
+Piorp95 14,653ms;zero>100ms;GPU3,088436GiB/RAM1,467842GiB amostrados.
+Plano2398fontes/29protegidos conservados. Produto científico0.27byteidêntico0.26.2.
+Backupv22 LOCAL 1383769a14e44a7d5cc611da9c7f4df0b8656b9c;6849arquivos;receipts20261114c;sem push.
+Driverfollowup encerrado; não repetir cópia/commit. JSONLgrandeF dividido em partes com SHA exata.
+Relatório/passagem final são posteriores ao backup; levar ao próximo snapshot.
+Checkpoint da cota em output/continuity-checkpoint-20261114-residencia-f-8.txt.
+Última leitura registrada pelo agente:7%5h/38%semanal em2026-11-14T12:02:44.930Z; consultar telemetria ATUAL.
+Continuar atélimite real;checkpoint8% não é parada;contexto não é cota.
+PRÓXIMO: preparar contrato de órbitas/precessão/tempo próprio de C2-14, que permanecem pendentes.
+Ler só seção C2-14 do ROADMAP-GERAL.md e requisitos correspondentes em CAMADAS-QUATRO-FORCAS.md.
+Base app/relativity.py integra raios NULOS Schwarzschild e relógios estáticos; não contém órbitas timelike.
+Pesquisar fontes primárias, fixar observador/coordenadas/estado inicial e verificação independente ANTES de implementação/dados.
+Construir em candidata isolada, preservar0.27/atalhos; não inventar soma de geometrias ou acoplamentoGRaos16.
+Nenhum contrato/solver novo de C2-14 foi implementado nesta rodada. Não repetirCPU30dias/jornadas/perfis aceitos.

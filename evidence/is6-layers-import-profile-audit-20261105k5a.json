@@ -1,0 +1,21 @@
+{
+  "accepted": false,
+  "profile": "evidence/is6-layers-import-profile-20261105k5a.json",
+  "profile_sha256": "d2fd19e12dce9779655350ca795449c77ed5d814ba2d4301356b36fa813a6d3c",
+  "auditor_sha256": "3924def060a169da543b6bceccd0f474d45f8aa33837b3ca89e47d24747a45f4",
+  "runs": [
+    {
+      "run": 1,
+      "body": "399",
+      "kind": "static",
+      "GPU_peak_GiB": 3.0034141540527344,
+      "frames": 4515,
+      "median_ms": 13.331799767911434,
+      "p95_ms": 13.783229887485504,
+      "p99_ms": 14.149920344352722,
+      "over_100ms": 0,
+      "interval_s": 60.220264525618404
+    }
+  ],
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\audit-is6-layers-import-profile-v4.py\", line 100, in main\n    recipe=data['recipe'];metrics=frame_statistics(row['capture'],row['wall_interval_s'])\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\is6_pair_profile_support.py\", line 32, in frame_statistics\n    assert all(result[k] <= LIMITS[k] for k in ['median_ms', 'p95_ms', 'p99_ms', 'over_100ms']), result\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'frames': 4473, 'median_ms': 13.330399990081787, 'p95_ms': 13.821600005030632, 'p99_ms': 14.227036200463768, 'over_100ms': 1, 'interval_s': 60.19390760292299}\n"
+}

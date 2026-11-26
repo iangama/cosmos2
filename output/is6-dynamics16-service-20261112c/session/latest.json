@@ -1,0 +1,3507 @@
+{
+  "schema": 3,
+  "rebound": "5.2.2",
+  "binary": "71dbff23a208405f93ac6e408bb7229f.bin",
+  "sha256": "afab9d696f0f475685149e5d3fee82d40c4bac107108a23dda58f37577321307",
+  "initial_energy": -7.506843607287718e-07,
+  "revision": 0,
+  "interventions": [],
+  "fixture_count": null,
+  "fixture_sha256": "0cde15ffec812768fb113f5e6822be895ed72c8e2008668026a6c5371488847a",
+  "fixture_source": null,
+  "contract": {
+    "schema": 3,
+    "frame": "initial_subset_barycenter_inertial_axes_J2000",
+    "units": {
+      "system": "canonical",
+      "G": 1.0
+    },
+    "model": "newtonian_point_masses",
+    "collisions": "disabled",
+    "softening_m": 0.0,
+    "integrator": "IAS15",
+    "epsilon": 1e-09,
+    "epoch": {
+      "utc": "2026-10-11T12:00:00.000Z",
+      "et_tdb_s": 844992069.1823514,
+      "utc_conversion": "naif0012 fixed leap-second table; future leap seconds unknown"
+    },
+    "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for ephemerides",
+    "centers": "physical body centers and individual body GMs; no separate system barycenter particles",
+    "excluded_influences": [
+      "general_relativity",
+      "multipoles",
+      "tidal_dissipation",
+      "unlisted_moons",
+      "asteroids",
+      "plasma",
+      "nongravitational_forces"
+    ],
+    "electromagnetic_coupling": false,
+    "nuclear_coupling": false
+  },
+  "body_count": 16,
+  "system_id": "341492e1d50b4969b7a93b2f124813c9",
+  "registry": [
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:10",
+      "name": "Sol",
+      "reference_id": "sol:naif:10",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:199",
+      "name": "Merc\u00fario",
+      "reference_id": "sol:naif:199",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:299",
+      "name": "V\u00eanus",
+      "reference_id": "sol:naif:299",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:399",
+      "name": "Terra",
+      "reference_id": "sol:naif:399",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:301",
+      "name": "Lua",
+      "reference_id": "sol:naif:301",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:499",
+      "name": "Marte",
+      "reference_id": "sol:naif:499",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:599",
+      "name": "J\u00fapiter",
+      "reference_id": "sol:naif:599",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:699",
+      "name": "Saturno",
+      "reference_id": "sol:naif:699",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:799",
+      "name": "Urano",
+      "reference_id": "sol:naif:799",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:899",
+      "name": "Netuno",
+      "reference_id": "sol:naif:899",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:501",
+      "name": "Io",
+      "reference_id": "sol:naif:501",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:502",
+      "name": "Europa",
+      "reference_id": "sol:naif:502",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:503",
+      "name": "Ganimedes",
+      "reference_id": "sol:naif:503",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:504",
+      "name": "Calisto",
+      "reference_id": "sol:naif:504",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:602",
+      "name": "Enc\u00e9lado",
+      "reference_id": "sol:naif:602",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    },
+    {
+      "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:606",
+      "name": "Tit\u00e3",
+      "reference_id": "sol:naif:606",
+      "origin": {
+        "kind": "atlas_copy",
+        "source_branch_id": "6e44c9cd6b93456a85f5b7c47ea89283"
+      }
+    }
+  ],
+  "issued_ids": [
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:10",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:199",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:299",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:399",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:301",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:499",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:599",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:699",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:799",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:899",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:501",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:502",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:503",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:504",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:602",
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:606"
+  ],
+  "body_attributes": {
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:10": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:199": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:299": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:399": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:301": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:499": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:599": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:699": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:799": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:899": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:501": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:502": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:503": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:504": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:602": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    },
+    "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:606": {
+      "radius_m": null,
+      "radius_origin": {
+        "kind": "unknown"
+      },
+      "angular_velocity_rad_s": null,
+      "spin_origin": {
+        "kind": "unknown"
+      },
+      "orientation_reference_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation_epoch_model_time": 0.0
+    }
+  },
+  "conservation_reference": {
+    "time": 0.0,
+    "total_mass": 1.00134181292371,
+    "energy": -7.506843607287718e-07,
+    "kinetic_energy": 7.275798752795203e-07,
+    "potential_energy": -1.4782642360082922e-06,
+    "momentum": [
+      2.7706160162490074e-21,
+      4.502774123226333e-22,
+      1.0718384638128006e-21
+    ],
+    "angular_momentum": [
+      0.0011355837592184317,
+      -0.01686500263340834,
+      0.03980338707829433
+    ],
+    "barycenter": [
+      -7.406152096479621e-17,
+      6.019711708362384e-17,
+      1.0792633008553571e-17
+    ],
+    "barycenter_velocity": [
+      2.7669033495758902e-21,
+      4.496740338924995e-22,
+      1.0704021843283015e-21
+    ],
+    "momentum_scale": 7.444055068650635e-05,
+    "angular_momentum_scale": 0.043246372497439844,
+    "policy": "initial_condition",
+    "active_ids": [
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:10",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:199",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:299",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:399",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:301",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:499",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:599",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:699",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:799",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:899",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:501",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:502",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:503",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:504",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:602",
+      "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:606"
+    ],
+    "energy_reference_time": 0.0
+  },
+  "instruments": {
+    "schema": 1,
+    "revision": 0,
+    "probes": [],
+    "issued_ids": [],
+    "events": []
+  },
+  "field_layers": {
+    "schema": 1,
+    "revision": 0,
+    "settings": {
+      "center_mode": "fixed",
+      "center_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "body_id": null,
+      "shell_enabled": true,
+      "shell_radius_m": 20000000000.0,
+      "shell_count": 96,
+      "cut_enabled": true,
+      "cut_half_width_m": 30000000000.0,
+      "cut_resolution": 17,
+      "cut_orientation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cut_offset_m": 0.0,
+      "magnitude_scale": "log",
+      "potential_levels_J_kg": []
+    },
+    "events": []
+  },
+  "instrument_history": {
+    "schema": 1,
+    "revision": 0,
+    "recording": false,
+    "cadence_wall_s": 1.0,
+    "samples": [],
+    "dropped": 0,
+    "next_sequence": 0
+  },
+  "orbital_instruments": {
+    "schema": 1,
+    "revision": 0,
+    "definition": null,
+    "events": [],
+    "recording": false,
+    "cadence_wall_s": 1.0,
+    "samples": [],
+    "dropped": 0,
+    "next_sequence": 0
+  },
+  "gravity_effects": {},
+  "material_tides": null,
+  "test_particle_cloud": null,
+  "seed": {
+    "kind": "atlas_copy"
+  },
+  "topology_revision": 0,
+  "saved_generation": {
+    "schema": 1,
+    "model_id": "cosmos2:editable-newtonian-atlas_copy",
+    "model_version": "3.13.0",
+    "candidate_extension": {
+      "id": "is6-sixteen-center-dynamics",
+      "version": "0.26.1",
+      "initial_format": "solar_sixteen_physical_centers/0.1.0",
+      "numerical_generation": {
+        "schema": 1,
+        "model_id": "cosmos2:sixteen-physical-centers-newton",
+        "model_version": "0.1.0",
+        "source_sha256": {
+          "system16_import.py": "5c396785955b0d3500d5c99d99c994c8d3c2ddff1020bd870753f4afdfda4421",
+          "is6_principal_moons_catalog.py": "de3c37996011f197bd92210bc4ee3a15daf8833ece471043ed00eb6238083c93",
+          "physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+          "atlas_import.py": "5cd4e78d7976b292ceb0ed637d7a255687abb16e7d907313e11c9e42c719b6cf"
+        },
+        "canonical_units_sha256": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+        "catalog_data_sha256": "a4d07b2c9da66036740ad0f40a2427e41c813e2f7805a48950229f020cd4048d",
+        "runtime": {
+          "python": "3.12.10",
+          "rebound": "5.2.2"
+        }
+      },
+      "code_sha256": {
+        "dynamics16_runtime.py": "e3d8738bcf00424bbad29b48840145f88f890897ee2a8e76a421476fb2554d90",
+        "system16_import.py": "5c396785955b0d3500d5c99d99c994c8d3c2ddff1020bd870753f4afdfda4421",
+        "system16_frames.py": "2bd6d6e8545b5e9231c9c7e608ceacd46386ef75ef6b9185a6cd206d835f19d6"
+      },
+      "electromagnetic_coupling": false,
+      "nuclear_coupling": false
+    },
+    "code_sha256": {
+      "app/cloud_transport.py": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690",
+      "app/cloud_driver.py": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb",
+      "app/test_cloud.py": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826",
+      "app/resonant_angles.py": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0",
+      "app/orbital_instruments.py": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5",
+      "app/equilibrium_tide.py": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06",
+      "app/material_driver.py": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9",
+      "app/material_tides.py": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb",
+      "app/j2_field.py": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7",
+      "app/gravity_harmonics.py": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae",
+      "app/physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+      "app/session.py": "f842e6c55d838b4b091d38761101127a2f8b40f2c08f4476fa72af9624ea5f52",
+      "app/body_registry.py": "e763b3340338d94d5c1288e49951ed8f0b64c8fb50c95494093ca98afadb014d",
+      "app/body_attributes.py": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649",
+      "app/orbital_diagnostics.py": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59",
+      "app/gravity_experiments.py": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474",
+      "app/gravity_field.py": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5",
+      "app/gravity_instruments.py": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7",
+      "app/field_layers.py": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349",
+      "app/field_geometry.py": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55",
+      "app/field_sections.py": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e",
+      "app/instrument_history.py": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3",
+      "app/probe_comparison.py": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb",
+      "app/branch_store.py": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4",
+      "app/worker.py": "e992347907ab68eb981712db379a7a99de1eb3bb67e29af2876c457e511abe66"
+    },
+    "data_sha256": {
+      "data/science/canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+      "data/science/gravity-experiments.json": "98ddf2234b0b4b7703accdf264dde60bd95b43c1240557419cd38688e7c5dafd",
+      "data/science/igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+      "output/is3-earth-orientation-staging/earth_000101_270118_261022.bpc": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+      "evidence/is3-earth-orientation-acquisition-20261023.json": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+      "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+      "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+      "output/is3-body-points-product/app/jrm33-coefficients.json": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+      "evidence/is3-jupiter-orientation-acquisition-20261023b.json": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312"
+    },
+    "runtime": {
+      "python": "3.12.10",
+      "rebound": "5.2.2",
+      "numpy": "2.5.4"
+    }
+  },
+  "body_field_view": null,
+  "physical_scale": {
+    "schema": 1,
+    "length_unit_m": 1000000000.0,
+    "nominal_GM_unit_m3_s2": 1.3271244e+20,
+    "G_m3_kg_s2": 6.6743e-11,
+    "G_standard_uncertainty": 1.5e-15,
+    "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+    "sources": [
+      "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+      "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+    ],
+    "time_unit_s": 2745.0115932913473,
+    "mass_unit_kg": 1.988409870698051e+30,
+    "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+    "velocity_unit_m_s": 364297.1863739823
+  },
+  "atlas_initial": {
+    "schema": 3,
+    "kind": "solar_sixteen_physical_centers",
+    "version": "0.1.0",
+    "branch_id": "6e44c9cd6b93456a85f5b7c47ea89283",
+    "contract": {
+      "schema": 3,
+      "frame": "initial_subset_barycenter_inertial_axes_J2000",
+      "units": {
+        "system": "canonical",
+        "G": 1.0
+      },
+      "model": "newtonian_point_masses",
+      "collisions": "disabled",
+      "softening_m": 0.0,
+      "integrator": "IAS15",
+      "epsilon": 1e-09,
+      "epoch": {
+        "utc": "2026-10-11T12:00:00.000Z",
+        "et_tdb_s": 844992069.1823514,
+        "utc_conversion": "naif0012 fixed leap-second table; future leap seconds unknown"
+      },
+      "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for ephemerides",
+      "centers": "physical body centers and individual body GMs; no separate system barycenter particles",
+      "excluded_influences": [
+        "general_relativity",
+        "multipoles",
+        "tidal_dissipation",
+        "unlisted_moons",
+        "asteroids",
+        "plasma",
+        "nongravitational_forces"
+      ],
+      "electromagnetic_coupling": false,
+      "nuclear_coupling": false
+    },
+    "physical_scale": {
+      "schema": 1,
+      "length_unit_m": 1000000000.0,
+      "nominal_GM_unit_m3_s2": 1.3271244e+20,
+      "G_m3_kg_s2": 6.6743e-11,
+      "G_standard_uncertainty": 1.5e-15,
+      "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+      "sources": [
+        "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+        "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+      ],
+      "time_unit_s": 2745.0115932913473,
+      "mass_unit_kg": 1.988409870698051e+30,
+      "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+      "velocity_unit_m_s": 364297.1863739823
+    },
+    "reference_catalog": {
+      "schema": 1,
+      "kind": "eight_planets_and_principal_moons_geometric_reference",
+      "version": "0.3.0",
+      "epoch": {
+        "utc": "2026-10-11T12:00:00.000Z",
+        "et_tdb_s": 844992069.1823514,
+        "utc_conversion": "naif0012 fixed leap-second table; future leap seconds unknown"
+      },
+      "frame": "J2000/ICRF",
+      "center_naif_id": "0",
+      "aberration": "NONE",
+      "position_unit": "m",
+      "velocity_unit": "m/s",
+      "render_frame": "GALACTIC",
+      "j2000_to_render_frame": [
+        [
+          -0.054875539395742516,
+          -0.8734371047275961,
+          -0.4838349917700252
+        ],
+        [
+          0.49410945362774383,
+          -0.44482959429757496,
+          0.7469822486998919
+        ],
+        [
+          -0.8676661356833737,
+          -0.19807638961301985,
+          0.4559837945214199
+        ]
+      ],
+      "bodies": [
+        {
+          "id": "sol:naif:10",
+          "naif_id": "10",
+          "scene_node": "Sun",
+          "name": "Sol",
+          "entity_kind": "physical_body",
+          "body_kind": "star",
+          "position_m": [
+            -176817149.29512244,
+            -707414380.3156806,
+            -291488051.64201283
+          ],
+          "velocity_m_s": [
+            10.431637642443171,
+            4.199911992498089,
+            1.5769685448293278
+          ],
+          "position_render_m": [
+            768617023.6948559,
+            9575426.481165476,
+            160626511.21933022
+          ],
+          "GM": {
+            "value": 1.327124400412533e+20,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "132712440041.253311",
+            "source_line": 49,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "10",
+              "0"
+            ],
+            "model": "DE442s",
+            "relative_kernel": "data/spice/de442s.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              695700000.0,
+              695700000.0,
+              695700000.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": null
+          },
+          "rotation": {
+            "frame": null,
+            "body_to_j2000": null,
+            "model": null,
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "pp/CNO",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "pp/CNO and beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:199",
+          "naif_id": "199",
+          "scene_node": "Mercury",
+          "name": "Merc\u00fario",
+          "entity_kind": "physical_body",
+          "body_kind": "planet",
+          "position_m": [
+            30391462872.708267,
+            -50656562300.75249,
+            -30142587655.858067
+          ],
+          "velocity_m_s": [
+            33314.71775272376,
+            23541.060256722547,
+            9123.517389219813
+          ],
+          "position_render_m": [
+            57161611843.65614,
+            15034269262.928846,
+            -30080305673.800114
+          ],
+          "GM": {
+            "value": 22031868551000.0,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "22031.868551",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_file": "data/spice/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_rows": [
+              {
+                "line": 40,
+                "text": "   GM1     4.9125001948893182e-11        6023657.944928           22031.868551"
+              }
+            ],
+            "source_resolution_m3_s2": 1000.0,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "199",
+              "1",
+              "0"
+            ],
+            "model": "DE442s",
+            "relative_kernel": "data/spice/de442s.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              2440530.0,
+              2440530.0,
+              2438260.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_MERCURY"
+          },
+          "rotation": {
+            "frame": "IAU_MERCURY",
+            "body_to_j2000": [
+              [
+                -0.2758742123360648,
+                0.9568468864625678,
+                0.09130966452049723
+              ],
+              [
+                -0.8592035007999872,
+                -0.20290149760578285,
+                -0.4696810901903298
+              ],
+              [
+                -0.430886021101871,
+                -0.20802648421828507,
+                0.8781014854120095
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:299",
+          "naif_id": "299",
+          "scene_node": "Venus",
+          "name": "V\u00eanus",
+          "entity_kind": "physical_body",
+          "body_kind": "planet",
+          "position_m": [
+            106540088045.74445,
+            19237381523.4992,
+            1931750260.533071
+          ],
+          "velocity_m_s": [
+            -6316.565146960384,
+            31150.384570024806,
+            14416.838028936167
+          ],
+          "position_render_m": [
+            -23583735990.61218,
+            45528091228.82829,
+            -95370850753.9348
+          ],
+          "GM": {
+            "value": 324858592000000.0,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "324858.592000",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_file": "data/spice/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_rows": [
+              {
+                "line": 41,
+                "text": "   GM2     7.2434523326441187e-10         408523.718656          324858.592000"
+              }
+            ],
+            "source_resolution_m3_s2": 1000.0,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "299",
+              "2",
+              "0"
+            ],
+            "model": "DE442s",
+            "relative_kernel": "data/spice/de442s.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              6051800.0,
+              6051800.0,
+              6051800.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_VENUS"
+          },
+          "rotation": {
+            "frame": "IAU_VENUS",
+            "body_to_j2000": [
+              [
+                0.2595180805887776,
+                -0.9655573620004252,
+                0.018690814168902045
+              ],
+              [
+                0.8920425709308715,
+                0.23225402378799606,
+                -0.38770880836179883
+              ],
+              [
+                0.3700140774275457,
+                0.1172904476974348,
+                0.9215923900425705
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:399",
+          "naif_id": "399",
+          "scene_node": "Earth",
+          "name": "Terra",
+          "entity_kind": "physical_body",
+          "body_kind": "planet",
+          "position_m": [
+            142010760173.79904,
+            41230953228.36009,
+            17887445563.447414
+          ],
+          "velocity_m_s": [
+            -9594.70764745716,
+            25931.33796021983,
+            11241.190603882991
+          ],
+          "position_render_m": [
+            -52460133554.45178,
+            65189715232.143555,
+            -123228420558.91933
+          ],
+          "GM": {
+            "value": 398600435544000.0,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "398600.435544",
+            "source_line": 42,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "399",
+              "3",
+              "0"
+            ],
+            "model": "DE442s",
+            "relative_kernel": "data/spice/de442s.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              6378136.6,
+              6378136.6,
+              6356751.9
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_EARTH"
+          },
+          "rotation": {
+            "frame": "IAU_EARTH",
+            "body_to_j2000": [
+              [
+                -0.9416892898556734,
+                0.3364736328717559,
+                0.0026030276987506567
+              ],
+              [
+                -0.33647479191255186,
+                -0.9416924733407406,
+                -7.797657424713633e-06
+              ],
+              [
+                0.002448627885689379,
+                -0.0008831961737625521,
+                0.9999966120872591
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "available_bench",
+              "model": "IGRF14",
+              "reason": "Instrumento pr\u00f3prio com dom\u00ednio e \u00e9poca espec\u00edficos."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:301",
+          "naif_id": "301",
+          "scene_node": "Moon",
+          "name": "Lua",
+          "entity_kind": "physical_body",
+          "body_kind": "moon",
+          "position_m": [
+            141666134603.85754,
+            41075916205.35465,
+            17787562053.0397
+          ],
+          "velocity_m_s": [
+            -9160.002895729092,
+            25114.764752419364,
+            10833.823908739369
+          ],
+          "position_render_m": [
+            -52257479814.476135,
+            65013786326.90584,
+            -122944236710.70308
+          ],
+          "GM": {
+            "value": 4902800104000.0,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "origin": "JPL DE442 published model parameter, printed SI conversion",
+            "raw_value_km3_s2": "4902.800104",
+            "source_line": 50,
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+            "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+            "source_resolution_m3_s2": 1000.0
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "301",
+              "3",
+              "0"
+            ],
+            "model": "DE442s",
+            "relative_kernel": "data/spice/de442s.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              1737400.0,
+              1737400.0,
+              1737400.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_MOON"
+          },
+          "rotation": {
+            "frame": "IAU_MOON",
+            "body_to_j2000": [
+              [
+                0.9197432084210847,
+                -0.392222667116923,
+                0.015290845724699772
+              ],
+              [
+                0.3686380699347073,
+                0.8497457805873022,
+                -0.37687939950187027
+              ],
+              [
+                0.13482731161787284,
+                0.35226905594128455,
+                0.92613611757027
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:499",
+          "naif_id": "499",
+          "scene_node": "Mars",
+          "name": "Marte",
+          "entity_kind": "physical_body",
+          "body_kind": "planet",
+          "position_m": [
+            -2266701785.3828998,
+            212882909859.97696,
+            97733801182.47884
+          ],
+          "velocity_m_s": [
+            -23300.155387551302,
+            1451.4912303297808,
+            1294.1122778606182
+          ],
+          "position_render_m": [
+            -233102478841.73984,
+            -22811202625.337154,
+            4364691699.680343
+          ],
+          "GM": {
+            "value": 42828374857356.26,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "4.282837485735626E+04",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099s.bsp",
+            "source_file": "output/is6-planet-catalog-data-20261110a/center-499.comments.txt",
+            "source_sha256": "321e92c9f23fed65cea7b36de7cf2d9f4c9946aad37b790b8957f378367161e7",
+            "source_rows": [
+              {
+                "line": 76,
+                "text": "    Mars     499      4.282837485735626E+04     16      7    SATORBINT"
+              },
+              {
+                "line": 161,
+                "text": "    Mars     499      4.282837485735626E+04     16      7    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 0.01,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "499",
+              "4",
+              "0"
+            ],
+            "model": "MAR099",
+            "relative_kernel": "output/is6-planet-catalog-data-20261110a/center-499.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              3396190.0,
+              3396190.0,
+              3376200.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_MARS"
+          },
+          "rotation": {
+            "frame": "IAU_MARS",
+            "body_to_j2000": [
+              [
+                0.42460628340715023,
+                -0.7878346060661459,
+                0.44612345553194965
+              ],
+              [
+                0.8803512072269679,
+                0.24421188214239137,
+                -0.4066230546273672
+              ],
+              [
+                0.21140306531643985,
+                0.5654000266228074,
+                0.7972650461858601
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:599",
+          "naif_id": "599",
+          "scene_node": "Jupiter",
+          "name": "J\u00fapiter",
+          "entity_kind": "physical_body",
+          "body_kind": "planet",
+          "position_m": [
+            -531356989811.89465,
+            537443713319.7435,
+            243304724942.26086
+          ],
+          "velocity_m_s": [
+            -9864.096006139429,
+            -7559.796157931543,
+            -3000.136908784328
+          ],
+          "position_render_m": [
+            -557984119078.4662,
+            -319875070314.36285,
+            465528567368.0092
+          ],
+          "GM": {
+            "value": 1.266865319003704e+17,
+            "unit": "m^3/s^2",
+            "uncertainty": null,
+            "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+            "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+            "raw_value_km3_s2": "126686531.9003704",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+            "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+            "source_rows": [
+              {
+                "line": 83,
+                "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+              },
+              {
+                "line": 150,
+                "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 100.0
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "599",
+              "5",
+              "0"
+            ],
+            "model": "JUP365",
+            "relative_kernel": "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              71492000.0,
+              71492000.0,
+              66854000.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_JUPITER"
+          },
+          "rotation": {
+            "frame": "IAU_JUPITER",
+            "body_to_j2000": [
+              [
+                -0.5873533520429849,
+                -0.8091990302468868,
+                -0.01459346742098662
+              ],
+              [
+                0.7341956920557889,
+                -0.5251520071856098,
+                -0.43031622687931054
+              ],
+              [
+                0.3405476847823085,
+                -0.26346213920869754,
+                0.902560233775556
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "available_bench",
+              "model": "JRM33",
+              "reason": "Instrumento pr\u00f3prio com dom\u00ednio e \u00e9poca espec\u00edficos."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:699",
+          "naif_id": "699",
+          "scene_node": "Saturn",
+          "name": "Saturno",
+          "entity_kind": "physical_body",
+          "body_kind": "planet",
+          "position_m": [
+            1382817650818.2058,
+            273440396973.9052,
+            53383323110.03079
+          ],
+          "velocity_m_s": [
+            -2396.310569308397,
+            8704.182277342945,
+            3698.369758903526
+          ],
+          "position_render_m": [
+            -340544572820.6532,
+            601505287801.9176,
+            -1229644203811.2607
+          ],
+          "GM": {
+            "value": 3.793120623436167e+16,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "3.793120623436167E+07",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat459.bsp",
+            "source_file": "output/saturn-acquisition/sat459.cmt",
+            "source_sha256": "54c6880cac8bcab9a46e1fe7ccde4de8ffd6a8a062aeb48a485441242731b75b",
+            "source_rows": [
+              {
+                "line": 873,
+                "text": "    Saturn       699      3.793120623436167E+07     12     12    SATORBINT"
+              },
+              {
+                "line": 927,
+                "text": "    Saturn       699      3.793120623436167E+07     12     12    SATORBINT"
+              },
+              {
+                "line": 2101,
+                "text": "    Saturn      699      3.793120623436167E+07     12     12    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 10.0,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "699",
+              "6",
+              "0"
+            ],
+            "model": "SAT441",
+            "relative_kernel": "data/spice/saturn-center-sat441.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              60268000.0,
+              60268000.0,
+              54364000.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_SATURN"
+          },
+          "rotation": {
+            "frame": "IAU_SATURN",
+            "body_to_j2000": [
+              [
+                0.9638370025516099,
+                -0.25240262113292694,
+                0.08550525923915998
+              ],
+              [
+                0.2465652856115294,
+                0.9663552247853571,
+                0.0732334586193153
+              ],
+              [
+                -0.1011127709225336,
+                -0.04950248857653688,
+                0.9936426476259446
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:799",
+          "naif_id": "799",
+          "scene_node": "Uranus",
+          "name": "Urano",
+          "entity_kind": "physical_body",
+          "body_kind": "planet",
+          "position_m": [
+            1330295964077.86,
+            2374830567382.663,
+            1021295077778.2289
+          ],
+          "velocity_m_s": [
+            -6105.575722228358,
+            2532.1174219463337,
+            1195.3203997039616
+          ],
+          "position_render_m": [
+            -2641404139129.656,
+            363806187944.3068,
+            -1158956618305.057
+          ],
+          "GM": {
+            "value": 5793950610340896.0,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "5.793950610340896E+06",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://ssd.jpl.nasa.gov/ftp/eph/satellites/bsp/ura182.bsp",
+            "source_file": "output/is6-planet-catalog-data-20261110a/center-799.comments.txt",
+            "source_sha256": "3b15fa449378dfcf4e42cec467d57f3c6e6776e70ee7544fd1233ad447364f8b",
+            "source_rows": [
+              {
+                "line": 44,
+                "text": "    Uranus    799      5.793950610340896E+06      3     15    SATORBINT"
+              },
+              {
+                "line": 111,
+                "text": "    Uranus    799      5.793950610340896E+06      3     15    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 1.0,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "799",
+              "7",
+              "0"
+            ],
+            "model": "URA182",
+            "relative_kernel": "output/is6-planet-catalog-data-20261110a/center-799.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              25559000.0,
+              25559000.0,
+              24973000.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_URANUS"
+          },
+          "rotation": {
+            "frame": "IAU_URANUS",
+            "body_to_j2000": [
+              [
+                -0.15162869062585876,
+                0.9654350923841984,
+                -0.2119995815377986
+              ],
+              [
+                0.29630374430146644,
+                -0.16021998763323597,
+                -0.9415591572895124
+              ],
+              [
+                -0.9429808223352258,
+                -0.20558365196658956,
+                -0.2617680858165513
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:899",
+          "naif_id": "899",
+          "scene_node": "Neptune",
+          "name": "Netuno",
+          "entity_kind": "physical_body",
+          "body_kind": "planet",
+          "position_m": [
+            4463188420923.836,
+            235911712529.99533,
+            -14557827274.889011
+          ],
+          "velocity_m_s": [
+            -292.728810206866,
+            5052.538900220719,
+            2075.853971824131
+          ],
+          "position_render_m": [
+            -443930328946.8205,
+            2089488642171.604,
+            -3925924123615.9204
+          ],
+          "GM": {
+            "value": 6835099968446816.0,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "6.835099968446816E+06",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp",
+            "source_file": "output/is6-planet-catalog-data-20261110a/center-899.comments.txt",
+            "source_sha256": "837c43489c9f72786644120d71428b1f177c6e41b849003ec3c64893100f642f",
+            "source_rows": [
+              {
+                "line": 82,
+                "text": "    Neptune   899      6.835099968446816E+06      1     10    SATORBINT"
+              },
+              {
+                "line": 172,
+                "text": "    Neptune   899      6.835099968446816E+06      1     10    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 1.0,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "899",
+              "8",
+              "0"
+            ],
+            "model": "NEP097",
+            "relative_kernel": "output/is6-planet-catalog-data-20261110a/center-899.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              24764000.0,
+              24764000.0,
+              24341000.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_NEPTUNE"
+          },
+          "rotation": {
+            "frame": "IAU_NEPTUNE",
+            "body_to_j2000": [
+              [
+                -0.1874473660815385,
+                0.9137668013552236,
+                0.36040771036443836
+              ],
+              [
+                -0.765147557938344,
+                0.09425330794197995,
+                -0.6369187770218292
+              ],
+              [
+                -0.6159648525119611,
+                -0.39515382660811665,
+                0.681498902263885
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:501",
+          "naif_id": "501",
+          "scene_node": "Io",
+          "name": "Io",
+          "entity_kind": "physical_body",
+          "body_kind": "moon",
+          "position_m": [
+            -531151299024.87427,
+            537773470433.7461,
+            243465349358.45734
+          ],
+          "velocity_m_s": [
+            -25002.230472849536,
+            251.222924878852,
+            487.34772832057917
+          ],
+          "position_render_m": [
+            -558361144283.3588,
+            -319800138687.60394,
+            465358021469.8888
+          ],
+          "GM": {
+            "value": 5959915466180.539,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "5.959915466180539E+03",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+            "source_file": "output/is6-principal-moons-acquisition-20261111a/jup365.cmt",
+            "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+            "source_rows": [
+              {
+                "line": 75,
+                "text": "    Io         501     5.959915466180539E+03     16     15    SATORBINT"
+              },
+              {
+                "line": 142,
+                "text": "    Io         501     5.959915466180539E+03     16     15    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 0.001,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "501",
+              "5",
+              "0"
+            ],
+            "model": "JUP365",
+            "relative_kernel": "output/is6-principal-moons-data-20261111b/moon-501.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              1829400.0,
+              1819400.0,
+              1815700.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_IO"
+          },
+          "rotation": {
+            "frame": "IAU_IO",
+            "body_to_j2000": [
+              [
+                -0.4884299286600531,
+                0.8724846254438824,
+                -0.014379956647490814
+              ],
+              [
+                -0.7844766876483226,
+                -0.44625937672374044,
+                -0.4306377772820854
+              ],
+              [
+                -0.38214203030477,
+                -0.19905563807686272,
+                0.9024102845293605
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:502",
+          "naif_id": "502",
+          "scene_node": "Europa",
+          "name": "Europa",
+          "entity_kind": "physical_body",
+          "body_kind": "moon",
+          "position_m": [
+            -531881360818.72876,
+            537077700398.40686,
+            243121081569.53394
+          ],
+          "velocity_m_s": [
+            -1377.4448758065976,
+            -17549.009060389828,
+            -7504.225611657897
+          ],
+          "position_render_m": [
+            -557546801580.5856,
+            -320108531946.26044,
+            465972306449.24866
+          ],
+          "GM": {
+            "value": 3202712099607.295,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "3.202712099607295E+03",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+            "source_file": "output/is6-principal-moons-acquisition-20261111a/jup365.cmt",
+            "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+            "source_rows": [
+              {
+                "line": 76,
+                "text": "    Europa     502     3.202712099607295E+03     16     15    SATORBINT"
+              },
+              {
+                "line": 143,
+                "text": "    Europa     502     3.202712099607295E+03     16     15    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 0.001,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "502",
+              "5",
+              "0"
+            ],
+            "model": "JUP365",
+            "relative_kernel": "output/is6-principal-moons-data-20261111b/moon-502.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              1562600.0,
+              1560300.0,
+              1559500.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_EUROPA"
+          },
+          "rotation": {
+            "frame": "IAU_EUROPA",
+            "body_to_j2000": [
+              [
+                0.7752564334077644,
+                -0.6313221173507948,
+                -0.020244668522396835
+              ],
+              [
+                0.5648539158493059,
+                0.7072661317257796,
+                -0.42510548416052846
+              ],
+              [
+                0.28269686275156586,
+                0.31813048118242515,
+                0.9049173888997055
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:503",
+          "naif_id": "503",
+          "scene_node": "Ganymede",
+          "name": "Ganimedes",
+          "entity_kind": "physical_body",
+          "body_kind": "moon",
+          "position_m": [
+            -532320418814.3757,
+            537024840584.3661,
+            243088168144.51135
+          ],
+          "velocity_m_s": [
+            -5076.2756353530895,
+            -16375.829117086227,
+            -7151.832851226793
+          ],
+          "position_render_m": [
+            -557460613646.5912,
+            -320326546787.20184,
+            466348724496.36084
+          ],
+          "GM": {
+            "value": 9887832752719.639,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "9.887832752719638E+03",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+            "source_file": "output/is6-principal-moons-acquisition-20261111a/jup365.cmt",
+            "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+            "source_rows": [
+              {
+                "line": 77,
+                "text": "    Ganymede   503     9.887832752719638E+03     16      9    SATORBINT"
+              },
+              {
+                "line": 144,
+                "text": "    Ganymede   503     9.887832752719638E+03     16      9    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 0.001,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "503",
+              "5",
+              "0"
+            ],
+            "model": "JUP365",
+            "relative_kernel": "output/is6-principal-moons-data-20261111b/moon-503.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              2631200.0,
+              2631200.0,
+              2631200.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_GANYMEDE"
+          },
+          "rotation": {
+            "frame": "IAU_GANYMEDE",
+            "body_to_j2000": [
+              [
+                0.8771636647814234,
+                -0.47996912815718484,
+                -0.014613049074524488
+              ],
+              [
+                0.4272592223131713,
+                0.7940003945133121,
+                -0.4324499167083382
+              ],
+              [
+                0.21916537622436316,
+                0.37308579379110174,
+                0.9015395323199625
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:504",
+          "naif_id": "504",
+          "scene_node": "Callisto",
+          "name": "Calisto",
+          "entity_kind": "physical_body",
+          "body_kind": "moon",
+          "position_m": [
+            -531196123066.8456,
+            539136237234.7498,
+            244104758920.78952
+          ],
+          "velocity_m_s": [
+            -18048.52457434896,
+            -6825.356627981914,
+            -2775.727803884253
+          ],
+          "position_render_m": [
+            -559858344349.2941,
+            -319950858080.99335,
+            465418542243.8299
+          ],
+          "GM": {
+            "value": 7179283402579.837,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "7.179283402579837E+03",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+            "source_file": "output/is6-principal-moons-acquisition-20261111a/jup365.cmt",
+            "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+            "source_rows": [
+              {
+                "line": 78,
+                "text": "    Callisto   504     7.179283402579837E+03      8     10    SATORBINT"
+              },
+              {
+                "line": 145,
+                "text": "    Callisto   504     7.179283402579837E+03      8     10    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 0.001,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "504",
+              "5",
+              "0"
+            ],
+            "model": "JUP365",
+            "relative_kernel": "output/is6-principal-moons-data-20261111b/moon-504.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              2410300.0,
+              2410300.0,
+              2410300.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_CALLISTO"
+          },
+          "rotation": {
+            "frame": "IAU_CALLISTO",
+            "body_to_j2000": [
+              [
+                -0.11413051850414906,
+                0.9933731945704073,
+                -0.01356174970119349
+              ],
+              [
+                -0.8980280379610225,
+                -0.10899501898932484,
+                -0.42622262829581575
+              ],
+              [
+                -0.4248762970346199,
+                -0.03646617809012138,
+                0.9045166389147571
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:602",
+          "naif_id": "602",
+          "scene_node": "Enceladus",
+          "name": "Enc\u00e9lado",
+          "entity_kind": "physical_body",
+          "body_kind": "moon",
+          "position_m": [
+            1382609137686.736,
+            273556700021.24506,
+            53392695036.15254
+          ],
+          "velocity_m_s": [
+            -8477.467082126921,
+            -2234.3611060339263,
+            5025.832193029354
+          ],
+          "position_render_m": [
+            -340639248412.83026,
+            601357525117.5381,
+            -1229482047469.5222
+          ],
+          "GM": {
+            "value": 7210366688.598896,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "7.210366688598896E+00",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.cmt",
+            "source_file": "output/is6-principal-moons-acquisition-20261111a/sat441.cmt",
+            "source_sha256": "a45d31f6039854593395b539a3fb61df8f83ab13fb621c3ce5d710ed35629882",
+            "source_rows": [
+              {
+                "line": 64,
+                "text": "    Enceladus    602      7.210366688598896E+00     24     12    SATORBINT"
+              },
+              {
+                "line": 118,
+                "text": "    Enceladus    602      7.210366688598896E+00     24     12    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 1e-06,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "602",
+              "6",
+              "0"
+            ],
+            "model": "SAT441",
+            "relative_kernel": "output/is6-principal-moons-data-20261111b/moon-602.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              256600.00000000003,
+              251400.0,
+              248300.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_ENCELADUS"
+          },
+          "rotation": {
+            "frame": "IAU_ENCELADUS",
+            "body_to_j2000": [
+              [
+                0.9054644278750816,
+                0.4156925334084318,
+                0.08563811955741979
+              ],
+              [
+                -0.4218313825602602,
+                0.9036876760807877,
+                0.07353141360673608
+              ],
+              [
+                -0.04682365363948598,
+                -0.10270492572503653,
+                0.9936092006879084
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        },
+        {
+          "id": "sol:naif:606",
+          "naif_id": "606",
+          "scene_node": "Titan",
+          "name": "Tit\u00e3",
+          "entity_kind": "physical_body",
+          "body_kind": "moon",
+          "position_m": [
+            1382561643446.563,
+            272250549734.56485,
+            53485822298.18284
+          ],
+          "velocity_m_s": [
+            3063.701327840756,
+            7658.12896462496,
+            3284.7159185673027
+          ],
+          "position_render_m": [
+            -339540860244.10345,
+            601984636478.198,
+            -1229139656270.2925
+          ],
+          "GM": {
+            "value": 8978137095521.047,
+            "unit": "m^3/s^2",
+            "raw_value_km3_s2": "8.978137095521046E+03",
+            "uncertainty": null,
+            "uncertainty_reason": "Source standard uncertainty was not adopted.",
+            "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.cmt",
+            "source_file": "output/is6-principal-moons-acquisition-20261111a/sat441.cmt",
+            "source_sha256": "a45d31f6039854593395b539a3fb61df8f83ab13fb621c3ce5d710ed35629882",
+            "source_rows": [
+              {
+                "line": 68,
+                "text": "    Titan        606      8.978137095521046E+03      6     12    SATORBINT"
+              },
+              {
+                "line": 122,
+                "text": "    Titan        606      8.978137095521046E+03      6     12    SATORBINT"
+              }
+            ],
+            "source_resolution_m3_s2": 0.001,
+            "origin": "Printed physical-body model parameter"
+          },
+          "coverage_et_s": [
+            [
+              -157809538.81607857,
+              1577793668.1838844
+            ]
+          ],
+          "state_provider": {
+            "chain_naif_ids": [
+              "606",
+              "6",
+              "0"
+            ],
+            "model": "SAT441",
+            "relative_kernel": "output/is6-principal-moons-data-20261111b/moon-606.bsp"
+          },
+          "shape": {
+            "radii_m": [
+              2575150.0,
+              2574780.0,
+              2574470.0
+            ],
+            "model": "PCK00011 reference radii",
+            "frame": "IAU_TITAN"
+          },
+          "rotation": {
+            "frame": "IAU_TITAN",
+            "body_to_j2000": [
+              [
+                0.1882728382253061,
+                -0.9781359334602291,
+                0.08833704806293906
+              ],
+              [
+                0.9781306555367977,
+                0.19484421999581703,
+                0.07277465653217528
+              ],
+              [
+                -0.0883954698259032,
+                0.07270368359380373,
+                0.9934286161099598
+              ]
+            ],
+            "model": "PCK00011 general IAU rotation",
+            "precise_orientation": false
+          },
+          "capabilities": {
+            "gravity": {
+              "status": "available_reference",
+              "model": "Geometric state and physical-body GM"
+            },
+            "magnetism": {
+              "status": "unavailable",
+              "model": null,
+              "reason": "Modelo magn\u00e9tico ainda sem ado\u00e7\u00e3o para este corpo neste cat\u00e1logo."
+            },
+            "strong_processes": {
+              "status": "available_bench",
+              "model": "nuclear reference benches",
+              "reason": "Processos e composi\u00e7\u00e3o pertencem ao instrumento escolhido."
+            },
+            "weak_processes": {
+              "status": "available_bench",
+              "model": "beta decay",
+              "reason": "Invent\u00e1rio isot\u00f3pico do corpo ainda sem ado\u00e7\u00e3o."
+            }
+          }
+        }
+      ],
+      "application_coverage_utc": [
+        "1995-01-01T00:00:00Z",
+        "2049-12-30T23:59:59Z"
+      ],
+      "provenance": {
+        "data_sha256": "a4d07b2c9da66036740ad0f40a2427e41c813e2f7805a48950229f020cd4048d",
+        "code_sha256": "de3c37996011f197bd92210bc4ee3a15daf8833ece471043ed00eb6238083c93",
+        "kernels_sha256": {
+          "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+          "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+          "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5",
+          "data/spice/saturn-center-sat441.bsp": "1c581c20a49256550bab0368928f81e9c5da14f9bad127f09ff6a9edf490aa27",
+          "output/is6-planet-catalog-data-20261110a/center-499.bsp": "83d55340bf5eaf3a8407bfd0b1225d2cde93dbce41bab3ee1c0d72cf29b1de25",
+          "output/is6-planet-catalog-data-20261110a/center-799.bsp": "b644c5b52ab4d8e0bbe61318572c4b6beb57e51a4c93800c0436a9cf84353d8e",
+          "output/is6-planet-catalog-data-20261110a/center-899.bsp": "a324ee0222f45a4d6791aae324ca04733b1762f4181c8743e2b49aee3e09eebe",
+          "output/is6-principal-moons-data-20261111b/moon-501.bsp": "fcf69024e663792388318d936536e1c8c38de8b820c37d7d4a167e6c43cc8040",
+          "output/is6-principal-moons-data-20261111b/moon-502.bsp": "6a5a5b3d9648b29c623a032a0fa65d063a7e21e68b589432dd0ad99728f1acbf",
+          "output/is6-principal-moons-data-20261111b/moon-503.bsp": "751ff91892cd71433ab82156b7ebe447976137d5cd541a865fb3702f31c010dc",
+          "output/is6-principal-moons-data-20261111b/moon-504.bsp": "8e01d68743f06ad14cb9cc91e014e74beffec7c1cb4d72af115f92dabb9a2270",
+          "output/is6-principal-moons-data-20261111b/moon-602.bsp": "08f0c7421b9db62ba199ae0f03f2ec880b79fe01ac6f914b7c0aebcb2a0fd50d",
+          "output/is6-principal-moons-data-20261111b/moon-606.bsp": "0905741fd8234bdcb9a67b52e87535b7491ac3ce94bbe91e50e955be40643cde"
+        },
+        "toolkit": "CSPICE_N0067"
+      },
+      "physical_coupling": false,
+      "uncertainty": null,
+      "uncertainty_reason": "Source uncertainties and correlations were not propagated.",
+      "observation": {
+        "kind": "simultaneous_geometric_coordinates",
+        "light_time_applied": false
+      }
+    },
+    "source": {
+      "model": "eight_planets_and_principal_moons_geometric_reference/0.3.0",
+      "epoch": {
+        "utc": "2026-10-11T12:00:00.000Z",
+        "et_tdb_s": 844992069.1823514,
+        "utc_conversion": "naif0012 fixed leap-second table; future leap seconds unknown"
+      },
+      "frame": "J2000/ICRF",
+      "center_naif_id": "0",
+      "aberration": "NONE",
+      "provenance": {
+        "data_sha256": "a4d07b2c9da66036740ad0f40a2427e41c813e2f7805a48950229f020cd4048d",
+        "code_sha256": "de3c37996011f197bd92210bc4ee3a15daf8833ece471043ed00eb6238083c93",
+        "kernels_sha256": {
+          "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+          "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+          "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5",
+          "data/spice/saturn-center-sat441.bsp": "1c581c20a49256550bab0368928f81e9c5da14f9bad127f09ff6a9edf490aa27",
+          "output/is6-planet-catalog-data-20261110a/center-499.bsp": "83d55340bf5eaf3a8407bfd0b1225d2cde93dbce41bab3ee1c0d72cf29b1de25",
+          "output/is6-planet-catalog-data-20261110a/center-799.bsp": "b644c5b52ab4d8e0bbe61318572c4b6beb57e51a4c93800c0436a9cf84353d8e",
+          "output/is6-planet-catalog-data-20261110a/center-899.bsp": "a324ee0222f45a4d6791aae324ca04733b1762f4181c8743e2b49aee3e09eebe",
+          "output/is6-principal-moons-data-20261111b/moon-501.bsp": "fcf69024e663792388318d936536e1c8c38de8b820c37d7d4a167e6c43cc8040",
+          "output/is6-principal-moons-data-20261111b/moon-502.bsp": "6a5a5b3d9648b29c623a032a0fa65d063a7e21e68b589432dd0ad99728f1acbf",
+          "output/is6-principal-moons-data-20261111b/moon-503.bsp": "751ff91892cd71433ab82156b7ebe447976137d5cd541a865fb3702f31c010dc",
+          "output/is6-principal-moons-data-20261111b/moon-504.bsp": "8e01d68743f06ad14cb9cc91e014e74beffec7c1cb4d72af115f92dabb9a2270",
+          "output/is6-principal-moons-data-20261111b/moon-602.bsp": "08f0c7421b9db62ba199ae0f03f2ec880b79fe01ac6f914b7c0aebcb2a0fd50d",
+          "output/is6-principal-moons-data-20261111b/moon-606.bsp": "0905741fd8234bdcb9a67b52e87535b7491ac3ce94bbe91e50e955be40643cde"
+        },
+        "toolkit": "CSPICE_N0067"
+      }
+    },
+    "initial_ssb_origin_m": [
+      -185869.00537140778,
+      -32464.353997318172,
+      2233.8320469779524
+    ],
+    "inertial_origin_velocity_m_s": [
+      -1.683275925691079e-05,
+      -0.00011520819468876183,
+      -3.156075577828559e-05
+    ],
+    "render_frame": "GALACTIC",
+    "j2000_to_render_frame": [
+      [
+        -0.054875539395742516,
+        -0.8734371047275961,
+        -0.4838349917700252
+      ],
+      [
+        0.49410945362774383,
+        -0.44482959429757496,
+        0.7469822486998919
+      ],
+      [
+        -0.8676661356833737,
+        -0.19807638961301985,
+        0.4559837945214199
+      ]
+    ],
+    "generation": {
+      "schema": 1,
+      "model_id": "cosmos2:sixteen-physical-centers-newton",
+      "model_version": "0.1.0",
+      "source_sha256": {
+        "system16_import.py": "5c396785955b0d3500d5c99d99c994c8d3c2ddff1020bd870753f4afdfda4421",
+        "is6_principal_moons_catalog.py": "de3c37996011f197bd92210bc4ee3a15daf8833ece471043ed00eb6238083c93",
+        "physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+        "atlas_import.py": "5cd4e78d7976b292ceb0ed637d7a255687abb16e7d907313e11c9e42c719b6cf"
+      },
+      "canonical_units_sha256": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+      "catalog_data_sha256": "a4d07b2c9da66036740ad0f40a2427e41c813e2f7805a48950229f020cd4048d",
+      "runtime": {
+        "python": "3.12.10",
+        "rebound": "5.2.2"
+      }
+    },
+    "bodies": [
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:10",
+        "reference_id": "sol:naif:10",
+        "naif_id": "10",
+        "name": "Sol",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 1.327124400412533e+20,
+          "unit": "m^3/s^2",
+          "uncertainty": null,
+          "origin": "JPL DE442 published model parameter, printed SI conversion",
+          "raw_value_km3_s2": "132712440041.253311",
+          "source_line": 49,
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+          "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+          "source_resolution_m3_s2": 1000.0
+        },
+        "source_position_m": [
+          -176817149.29512244,
+          -707414380.3156806,
+          -291488051.64201283
+        ],
+        "source_velocity_m_s": [
+          10.431637642443171,
+          4.199911992498089,
+          1.5769685448293278
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 1.0000000003108473,
+        "position": [
+          -0.17663128028975103,
+          -0.7073819159616833,
+          -0.2914902854740598
+        ],
+        "velocity": [
+          2.8635012471640233e-05,
+          1.152912335804068e-05,
+          4.328883572452795e-06
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:199",
+        "reference_id": "sol:naif:199",
+        "naif_id": "199",
+        "name": "Merc\u00fario",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 22031868551000.0,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "22031.868551",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+          "source_file": "data/spice/de442_tech-comments.txt",
+          "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+          "source_rows": [
+            {
+              "line": 40,
+              "text": "   GM1     4.9125001948893182e-11        6023657.944928           22031.868551"
+            }
+          ],
+          "source_resolution_m3_s2": 1000.0,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          30391462872.708267,
+          -50656562300.75249,
+          -30142587655.858067
+        ],
+        "source_velocity_m_s": [
+          33314.71775272376,
+          23541.060256722547,
+          9123.517389219813
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 1.6601208259753193e-07,
+        "position": [
+          30.391648741713638,
+          -50.65652983639849,
+          -30.142589889690115
+        ],
+        "velocity": [
+          0.0914492865046619,
+          0.0646204836393214,
+          0.02504416109163823
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:299",
+        "reference_id": "sol:naif:299",
+        "naif_id": "299",
+        "name": "V\u00eanus",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 324858592000000.0,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "324858.592000",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+          "source_file": "data/spice/de442_tech-comments.txt",
+          "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+          "source_rows": [
+            {
+              "line": 41,
+              "text": "   GM2     7.2434523326441187e-10         408523.718656          324858.592000"
+            }
+          ],
+          "source_resolution_m3_s2": 1000.0,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          106540088045.74445,
+          19237381523.4992,
+          1931750260.533071
+        ],
+        "source_velocity_m_s": [
+          -6316.565146960384,
+          31150.384570024806,
+          14416.838028936167
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 2.4478382885583295e-06,
+        "position": [
+          106.54027391474982,
+          19.237413987853195,
+          1.931748026701024
+        ],
+        "velocity": [
+          -0.017339044511980196,
+          0.08550816709644982,
+          0.03957438761466799
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:399",
+        "reference_id": "sol:naif:399",
+        "naif_id": "399",
+        "name": "Terra",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 398600435544000.0,
+          "unit": "m^3/s^2",
+          "uncertainty": null,
+          "origin": "JPL DE442 published model parameter, printed SI conversion",
+          "raw_value_km3_s2": "398600.435544",
+          "source_line": 42,
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+          "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+          "source_resolution_m3_s2": 1000.0
+        },
+        "source_position_m": [
+          142010760173.79904,
+          41230953228.36009,
+          17887445563.447414
+        ],
+        "source_velocity_m_s": [
+          -9594.70764745716,
+          25931.33796021983,
+          11241.190603882991
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 3.0034896166779844e-06,
+        "position": [
+          142.01094604280442,
+          41.230985692714086,
+          17.88744332961537
+        ],
+        "velocity": [
+          -0.026337583680304935,
+          0.07118182364660726,
+          0.03085719861669121
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:301",
+        "reference_id": "sol:naif:301",
+        "naif_id": "301",
+        "name": "Lua",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 4902800104000.0,
+          "unit": "m^3/s^2",
+          "uncertainty": null,
+          "origin": "JPL DE442 published model parameter, printed SI conversion",
+          "raw_value_km3_s2": "4902.800104",
+          "source_line": 50,
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+          "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+          "source_resolution_m3_s2": 1000.0
+        },
+        "source_position_m": [
+          141666134603.85754,
+          41075916205.35465,
+          17787562053.0397
+        ],
+        "source_velocity_m_s": [
+          -9160.002895729092,
+          25114.764752419364,
+          10833.823908739369
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 3.694303340365078e-08,
+        "position": [
+          141.6663204728629,
+          41.07594866970865,
+          17.787559819207654
+        ],
+        "velocity": [
+          -0.025144314097152554,
+          0.06894032072442387,
+          0.029738972315801186
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:499",
+        "reference_id": "sol:naif:499",
+        "naif_id": "499",
+        "name": "Marte",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 42828374857356.26,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "4.282837485735626E+04",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099s.bsp",
+          "source_file": "output/is6-planet-catalog-data-20261110a/center-499.comments.txt",
+          "source_sha256": "321e92c9f23fed65cea7b36de7cf2d9f4c9946aad37b790b8957f378367161e7",
+          "source_rows": [
+            {
+              "line": 76,
+              "text": "    Mars     499      4.282837485735626E+04     16      7    SATORBINT"
+            },
+            {
+              "line": 161,
+              "text": "    Mars     499      4.282837485735626E+04     16      7    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 0.01,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          -2266701785.3828998,
+          212882909859.97696,
+          97733801182.47884
+        ],
+        "source_velocity_m_s": [
+          -23300.155387551302,
+          1451.4912303297808,
+          1294.1122778606182
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 3.227156011701409e-07,
+        "position": [
+          -2.266515916377528,
+          212.88294232433097,
+          97.7337989486468
+        ],
+        "velocity": [
+          -0.06395919661811204,
+          0.0039843605710638,
+          0.0035523532923827108
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:599",
+        "reference_id": "sol:naif:599",
+        "naif_id": "599",
+        "name": "J\u00fapiter",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 1.266865319003704e+17,
+          "unit": "m^3/s^2",
+          "uncertainty": null,
+          "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+          "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+          "raw_value_km3_s2": "126686531.9003704",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+          "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+          "source_rows": [
+            {
+              "line": 83,
+              "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+            },
+            {
+              "line": 150,
+              "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 100.0
+        },
+        "source_position_m": [
+          -531356989811.89465,
+          537443713319.7435,
+          243304724942.26086
+        ],
+        "source_velocity_m_s": [
+          -9864.096006139429,
+          -7559.796157931543,
+          -3000.136908784328
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 0.0009545942482887844,
+        "position": [
+          -531.3568039428893,
+          537.4437457840976,
+          243.3047227084288
+        ],
+        "velocity": [
+          -0.027077057847985492,
+          -0.02075172778019364,
+          -0.008235410509439605
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:699",
+        "reference_id": "sol:naif:699",
+        "naif_id": "699",
+        "name": "Saturno",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 3.793120623436167e+16,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "3.793120623436167E+07",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat459.bsp",
+          "source_file": "output/saturn-acquisition/sat459.cmt",
+          "source_sha256": "54c6880cac8bcab9a46e1fe7ccde4de8ffd6a8a062aeb48a485441242731b75b",
+          "source_rows": [
+            {
+              "line": 873,
+              "text": "    Saturn       699      3.793120623436167E+07     12     12    SATORBINT"
+            },
+            {
+              "line": 927,
+              "text": "    Saturn       699      3.793120623436167E+07     12     12    SATORBINT"
+            },
+            {
+              "line": 2101,
+              "text": "    Saturn      699      3.793120623436167E+07     12     12    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 10.0,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          1382817650818.2058,
+          273440396973.9052,
+          53383323110.03079
+        ],
+        "source_velocity_m_s": [
+          -2396.310569308397,
+          8704.182277342945,
+          3698.369758903526
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 0.00028581500147508153,
+        "position": [
+          1382.8178366872112,
+          273.44042943825923,
+          53.383320876198745
+        ],
+        "velocity": [
+          -0.006577900247672019,
+          0.023893081577675297,
+          0.010152067951102944
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:799",
+        "reference_id": "sol:naif:799",
+        "naif_id": "799",
+        "name": "Urano",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 5793950610340896.0,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "5.793950610340896E+06",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://ssd.jpl.nasa.gov/ftp/eph/satellites/bsp/ura182.bsp",
+          "source_file": "output/is6-planet-catalog-data-20261110a/center-799.comments.txt",
+          "source_sha256": "3b15fa449378dfcf4e42cec467d57f3c6e6776e70ee7544fd1233ad447364f8b",
+          "source_rows": [
+            {
+              "line": 44,
+              "text": "    Uranus    799      5.793950610340896E+06      3     15    SATORBINT"
+            },
+            {
+              "line": 111,
+              "text": "    Uranus    799      5.793950610340896E+06      3     15    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 1.0,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          1330295964077.86,
+          2374830567382.663,
+          1021295077778.2289
+        ],
+        "source_velocity_m_s": [
+          -6105.575722228358,
+          2532.1174219463337,
+          1195.3203997039616
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 4.365793146701919e-05,
+        "position": [
+          1330.2961499468654,
+          2374.8305998470173,
+          1021.2950755443968
+        ],
+        "velocity": [
+          -0.016759876095028912,
+          0.006950691995065514,
+          0.003281168441519662
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:899",
+        "reference_id": "sol:naif:899",
+        "naif_id": "899",
+        "name": "Netuno",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 6835099968446816.0,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "6.835099968446816E+06",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp",
+          "source_file": "output/is6-planet-catalog-data-20261110a/center-899.comments.txt",
+          "source_sha256": "837c43489c9f72786644120d71428b1f177c6e41b849003ec3c64893100f642f",
+          "source_rows": [
+            {
+              "line": 82,
+              "text": "    Neptune   899      6.835099968446816E+06      1     10    SATORBINT"
+            },
+            {
+              "line": 172,
+              "text": "    Neptune   899      6.835099968446816E+06      1     10    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 1.0,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          4463188420923.836,
+          235911712529.99533,
+          -14557827274.889011
+        ],
+        "source_velocity_m_s": [
+          -292.728810206866,
+          5052.538900220719,
+          2075.853971824131
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 5.150308417543085e-05,
+        "position": [
+          4463.188606792842,
+          235.91174499434933,
+          -14.557829508721058
+        ],
+        "velocity": [
+          -0.0008035439315021105,
+          0.013869278172909219,
+          0.005698243305271769
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:501",
+        "reference_id": "sol:naif:501",
+        "naif_id": "501",
+        "name": "Io",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 5959915466180.539,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "5.959915466180539E+03",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+          "source_file": "output/is6-principal-moons-acquisition-20261111a/jup365.cmt",
+          "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+          "source_rows": [
+            {
+              "line": 75,
+              "text": "    Io         501     5.959915466180539E+03     16     15    SATORBINT"
+            },
+            {
+              "line": 142,
+              "text": "    Io         501     5.959915466180539E+03     16     15    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 0.001,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          -531151299024.87427,
+          537773470433.7461,
+          243465349358.45734
+        ],
+        "source_velocity_m_s": [
+          -25002.230472849536,
+          251.222924878852,
+          487.34772832057917
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 4.490849136810791e-08,
+        "position": [
+          -531.1511131558689,
+          537.7735028981001,
+          243.46534712462528
+        ],
+        "velocity": [
+          -0.06863141245990806,
+          0.0006896101575408401,
+          0.0013377752508388322
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:502",
+        "reference_id": "sol:naif:502",
+        "naif_id": "502",
+        "name": "Europa",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 3202712099607.295,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "3.202712099607295E+03",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+          "source_file": "output/is6-principal-moons-acquisition-20261111a/jup365.cmt",
+          "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+          "source_rows": [
+            {
+              "line": 76,
+              "text": "    Europa     502     3.202712099607295E+03     16     15    SATORBINT"
+            },
+            {
+              "line": 143,
+              "text": "    Europa     502     3.202712099607295E+03     16     15    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 0.001,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          -531881360818.72876,
+          537077700398.40686,
+          243121081569.53394
+        ],
+        "source_velocity_m_s": [
+          -1377.4448758065976,
+          -17549.009060389828,
+          -7504.225611657897
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 2.4132719582333766e-08,
+        "position": [
+          -531.8811749497233,
+          537.0777328627609,
+          243.12107933570186
+        ],
+        "velocity": [
+          -0.003781102107002751,
+          -0.048172233005297146,
+          -0.02059918621604014
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:503",
+        "reference_id": "sol:naif:503",
+        "naif_id": "503",
+        "name": "Ganimedes",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 9887832752719.639,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "9.887832752719638E+03",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+          "source_file": "output/is6-principal-moons-acquisition-20261111a/jup365.cmt",
+          "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+          "source_rows": [
+            {
+              "line": 77,
+              "text": "    Ganymede   503     9.887832752719638E+03     16      9    SATORBINT"
+            },
+            {
+              "line": 144,
+              "text": "    Ganymede   503     9.887832752719638E+03     16      9    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 0.001,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          -532320418814.3757,
+          537024840584.3661,
+          243088168144.51135
+        ],
+        "source_velocity_m_s": [
+          -5076.2756353530895,
+          -16375.829117086227,
+          -7151.832851226793
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 7.450569632145742e-08,
+        "position": [
+          -532.3202329453703,
+          537.0248730487201,
+          243.0881659106793
+        ],
+        "velocity": [
+          -0.01393443542358051,
+          -0.044951840459911865,
+          -0.019631864003264818
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:504",
+        "reference_id": "sol:naif:504",
+        "naif_id": "504",
+        "name": "Calisto",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 7179283402579.837,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "7.179283402579837E+03",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+          "source_file": "output/is6-principal-moons-acquisition-20261111a/jup365.cmt",
+          "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+          "source_rows": [
+            {
+              "line": 78,
+              "text": "    Callisto   504     7.179283402579837E+03      8     10    SATORBINT"
+            },
+            {
+              "line": 145,
+              "text": "    Callisto   504     7.179283402579837E+03      8     10    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 0.001,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          -531196123066.8456,
+          539136237234.7498,
+          244104758920.78952
+        ],
+        "source_velocity_m_s": [
+          -18048.52457434896,
+          -6825.356627981914,
+          -2775.727803884253
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 5.409653686255664e-08,
+        "position": [
+          -531.1959371978402,
+          539.1362696991039,
+          244.10475668695747
+        ],
+        "velocity": [
+          -0.04954340915218555,
+          -0.01873568275591046,
+          -0.007619404914848764
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:602",
+        "reference_id": "sol:naif:602",
+        "naif_id": "602",
+        "name": "Enc\u00e9lado",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 7210366688.598896,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "7.210366688598896E+00",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.cmt",
+          "source_file": "output/is6-principal-moons-acquisition-20261111a/sat441.cmt",
+          "source_sha256": "a45d31f6039854593395b539a3fb61df8f83ab13fb621c3ce5d710ed35629882",
+          "source_rows": [
+            {
+              "line": 64,
+              "text": "    Enceladus    602      7.210366688598896E+00     24     12    SATORBINT"
+            },
+            {
+              "line": 118,
+              "text": "    Enceladus    602      7.210366688598896E+00     24     12    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 1e-06,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          1382609137686.736,
+          273556700021.24506,
+          53392695036.15254
+        ],
+        "source_velocity_m_s": [
+          -8477.467082126921,
+          -2234.3611060339263,
+          5025.832193029354
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 5.433075217815976e-11,
+        "position": [
+          1382.6093235557414,
+          273.55673248559907,
+          53.3926928023205
+        ],
+        "velocity": [
+          -0.02327074537597805,
+          -0.006133346823414575,
+          0.013795967722437094
+        ]
+      },
+      {
+        "id": "exp:6e44c9cd6b93456a85f5b7c47ea89283:naif:606",
+        "reference_id": "sol:naif:606",
+        "naif_id": "606",
+        "name": "Tit\u00e3",
+        "entity_kind": "physical_body",
+        "source_GM": {
+          "value": 8978137095521.047,
+          "unit": "m^3/s^2",
+          "raw_value_km3_s2": "8.978137095521046E+03",
+          "uncertainty": null,
+          "uncertainty_reason": "Source standard uncertainty was not adopted.",
+          "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.cmt",
+          "source_file": "output/is6-principal-moons-acquisition-20261111a/sat441.cmt",
+          "source_sha256": "a45d31f6039854593395b539a3fb61df8f83ab13fb621c3ce5d710ed35629882",
+          "source_rows": [
+            {
+              "line": 68,
+              "text": "    Titan        606      8.978137095521046E+03      6     12    SATORBINT"
+            },
+            {
+              "line": 122,
+              "text": "    Titan        606      8.978137095521046E+03      6     12    SATORBINT"
+            }
+          ],
+          "source_resolution_m3_s2": 0.001,
+          "origin": "Printed physical-body model parameter"
+        },
+        "source_position_m": [
+          1382561643446.563,
+          272250549734.56485,
+          53485822298.18284
+        ],
+        "source_velocity_m_s": [
+          3063.701327840756,
+          7658.12896462496,
+          3284.7159185673027
+        ],
+        "source_uncertainty": {
+          "position_m": null,
+          "velocity_m_s": null
+        },
+        "shape_reference": null,
+        "reference_properties": [],
+        "mass": 6.765105890239865e-08,
+        "position": [
+          1382.5618293155683,
+          272.25058219891883,
+          53.48582006435079
+        ],
+        "velocity": [
+          0.00840989570951109,
+          0.021021653107063606,
+          0.009016583363770524
+        ]
+      }
+    ],
+    "initial_state_sha256": "0cde15ffec812768fb113f5e6822be895ed72c8e2008668026a6c5371488847a"
+  },
+  "split_inertial_frame": {
+    "schema": 1,
+    "encoding": "split_inertial_origin",
+    "elapsed_s": 2592000.0,
+    "initial_origin_m": [
+      -185869.00537140778,
+      -32464.353997318172,
+      2233.8320469779524
+    ],
+    "origin_m": [
+      -185912.6358834017,
+      -32762.973637951443,
+      2152.026568000636
+    ],
+    "origin_velocity_m_s": [
+      -1.683275925691079e-05,
+      -0.00011520819468876183,
+      -3.156075577828559e-05
+    ],
+    "local_frame": "initial_subset_barycenter_inertial_axes_J2000",
+    "world_frame": "SSB/J2000",
+    "meaning": "World position = origin_m + local_position*length_unit_m; components remain separate from the solver."
+  },
+  "manifest_sha256": "4b2ed132eef0387e8ac5359a9fdbb77e3babaec2cb4effe8ee442e6eb8ba99d3"
+}

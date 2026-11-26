@@ -1,0 +1,27 @@
+{
+  "completed": false,
+  "accepted": false,
+  "version": "0.26.0",
+  "source_sha256": {
+    "server.py": "f1a2dd9e796639e1479719924eaa444d896e6bf8fb9c556b4f003eb6bcff16d8",
+    "laboratory.py": "eb3f22d045dbc52a4d974bc53c60c6be4a92c426112b59efb5c424f234516b5b",
+    "worker.py": "e992347907ab68eb981712db379a7a99de1eb3bb67e29af2876c457e511abe66",
+    "dynamics16_runtime.py": "feda0b12aa558b6066ede57f942738ad9e456b5464583c6dcdfe0e324eef0c35",
+    "ui/solar.js": "6671e22acb587c82b751329b91123236638c856384556a7a0e9faa26181d8197"
+  },
+  "script_sha256": "ae5f189c71a0a0afd0b3cd675fa65addb2f2f37f3f87f8b8d14db4f11662f467",
+  "native_creation": {
+    "bodies": 16,
+    "kind": "solar_sixteen_physical_centers",
+    "position_error_m": 0.0
+  },
+  "real_laboratory_dispatch": {
+    "status": 400,
+    "response": {
+      "ok": false,
+      "error": "Comando desconhecido"
+    }
+  },
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-native-is6-dynamics16-admission.py\", line 48, in main\n    assert status==200 and len(reading['ack']['result']['sources'])==15,reading\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'ok': False, 'error': 'Comando desconhecido'}\n",
+  "view_restored": true
+}

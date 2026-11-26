@@ -1,0 +1,18 @@
+#particle-panel{width:350px;overflow-y:auto;scrollbar-width:thin;pointer-events:auto}
+#particle-panel>*{flex-shrink:0}#particle-panel h1{font-size:23px;line-height:1.25}
+#particle-panel legend{font-size:14px;color:#a8dce1;margin:10px 0}
+#particle-panel .compact-check{font-size:13px;line-height:1.5;margin:7px 0}
+#particle-panel .field{margin-top:15px}#particle-panel details{margin-top:17px}
+#particle-panel .particle-reading{font-size:13px;line-height:1.6;white-space:pre-line;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+#particle-panel .particle-status{color:#8de0da;font-size:13px;line-height:1.5}
+#particle-panel .particle-error{color:#ffc1a3;font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+#particle-panel .particle-error:empty{display:none}.particle-active #lab-panel,.particle-active #lab-details{display:none!important}
+#particle-panel::-webkit-scrollbar{width:5px}#particle-panel::-webkit-scrollbar-thumb{background:#385565;border-radius:5px}#particle-panel::-webkit-scrollbar-track{background:#10212e}
+#particle-panel p{margin:9px 0}#particle-panel h1{margin-bottom:10px}
+#particle-panel .particle-visual{padding-top:10px;border-top:1px solid #293b4a;margin-top:13px}
+#particle-setup>summary{line-height:1.5;color:#a8e6e5}#particle-setup .primary{background:#24616c}
+.large-ui #particle-panel{width:330px;top:112px;bottom:100px;padding:16px}
+.large-ui #particle-panel h1{font-size:21px}.large-ui #particle-panel .button-row{flex-wrap:wrap}
+@media(max-width:1100px){#particle-panel{width:310px}}
+
+#wind-setup>summary{line-height:1.5;color:#a8e6e5}#wind-setup .primary{background:#24616c}

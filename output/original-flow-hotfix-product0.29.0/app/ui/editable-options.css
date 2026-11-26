@@ -1,0 +1,4 @@
+.c2-suggestions-portal{pointer-events:none;background:transparent}
+.c2-suggestion-option{justify-content:space-between;gap:18px}
+.c2-suggestion-option small{color:#99b5c4;font-size:.8em}
+input[data-c2-list]{padding-right:28px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath d='M2 4h8L6 8z' fill='%239acfd5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center}

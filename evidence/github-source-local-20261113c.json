@@ -1,0 +1,9 @@
+{
+  "accepted": true,
+  "local_only": true,
+  "push": false,
+  "commit": "8cd4df3827eff96c7d1aebf02c39a51ae28312c3",
+  "files": 6600,
+  "sync_receipt_sha256": "876d267f74cdcfa3a5fb9d813e96022d3bc8402bdd55d16d05d1a837052a1559",
+  "scope": "Partial source/evidence snapshot. Full runtimes, private data and source ZIP capsules excluded."
+}

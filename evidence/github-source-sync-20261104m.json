@@ -1,0 +1,24 @@
+{
+  "accepted": true,
+  "completed": true,
+  "destination": "/mnt/c/Users/Ian/cosmos2-github-snapshot-20261103",
+  "files": 2934,
+  "changed": [
+    "IS-6-IMPORTACAO-ESPACIAL-K5D-ARMAZENAMENTO.md",
+    "IS-6-IMPORTACAO-ESPACIAL-K5D-SERVICO.md",
+    "LEIA-PRIMEIRO.md",
+    "evidence/github-source-sync-20261104k.json",
+    "evidence/is6-spatial-import-store-20261104b.json",
+    "output/is6-spatial-import-staging/is6_spatial_import_store.py",
+    "scripts/audit-is6-layers-import-profile-v3.py",
+    "scripts/audit-is6-spatial-import-store-process.py",
+    "scripts/benchmark-is6-layers-import-native-v3.py",
+    "scripts/run-is6-layers-import-profile-background-v3.py",
+    "scripts/sync-github-source-snapshot-v5.py",
+    "scripts/verify-is6-spatial-import-store.py"
+  ],
+  "preserved_missing_sources": [],
+  "inventory_sha256": "5dac5f589cdd9338f6e367f46703587d18a147b0fc55260675af0b5815fc551e",
+  "script_sha256": "55ea9e4472a93048b0f0d2a5e697573f3b2f0e258c39e3654e36f4caca780b17",
+  "scope": "Partial source/evidence backup only; excludes runtimes, personal sessions, binary archives and most generated records. Does not install the product or constitute full reproducibility."
+}

@@ -1,0 +1,235 @@
+diff --git a/modules/base/rendering/pointcloud/renderablepointcloud.cpp b/modules/base/rendering/pointcloud/renderablepointcloud.cpp
+index 0bb74cd..2c46d8e 100644
+--- a/modules/base/rendering/pointcloud/renderablepointcloud.cpp
++++ b/modules/base/rendering/pointcloud/renderablepointcloud.cpp
+@@ -27,6 +27,7 @@
+ #include <modules/base/basemodule.h>
+ #include <openspace/documentation/documentation.h>
+ #include <openspace/engine/globals.h>
++#include <openspace/json.h>
+ #include <openspace/rendering/renderengine.h>
+ #include <openspace/util/updatestructures.h>
+ #include <ghoul/filesystem/filesystem.h>
+@@ -34,6 +35,7 @@
+ #include <ghoul/io/texture/texturereader.h>
+ #include <ghoul/logging/logmanager.h>
+ #include <ghoul/misc/assert.h>
++#include <ghoul/misc/crc32.h>
+ #include <ghoul/misc/dictionary.h>
+ #include <ghoul/misc/exception.h>
+ #include <ghoul/misc/profiling.h>
+@@ -44,6 +46,9 @@
+ #include <algorithm>
+ #include <cmath>
+ #include <cstdint>
++#include <cstring>
++#include <fstream>
++#include <stdexcept>
+ #include <utility>
+ #include <variant>
+ 
+@@ -329,6 +334,19 @@ namespace {
+         // rendered. Can be either a CSV or SPECK file.
+         std::optional<std::filesystem::path> file;
+ 
++        struct ConfirmedCloud {
++            std::filesystem::path file;
++            std::string systemId;
++            std::string editToken;
++            std::string cloudId;
++            std::string sourceId;
++            std::string frame;
++            int count;
++            double timeUnitS;
++        };
++        // Opt-in local confirmed stream; legacy file datasets retain their behavior.
++        std::optional<ConfirmedCloud> confirmedCloud;
++
+         // If true (default), the loaded dataset and color map will be cached so that they
+         // can be loaded faster at a later time. This does however mean that any updates
+         // to the values in the dataset will not lead to changes in the rendering without
+@@ -646,11 +664,38 @@ RenderablePointCloud::RenderablePointCloud(const ghoul::Dictionary& dictionary)
+     , _renderOption(OrientationRenderOptionInfo)
+     , _nDataPoints(NumShownDataPointsInfo, 0)
+     , _hasOrientationData(HasOrientationDataInfo, false)
++    , _cloudStatus({ "ConfirmedCloudStatus", "Confirmed cloud status",
++        "Accepted GPU packet or rejection; source positions are SI float64 and GPU "
++        "positions are float32.", Property::Visibility::AdvancedUser },
++        "{\"state\":\"waiting\"}")
+ {
+     ZoneScoped;
+ 
+     const Parameters p = codegen::bake<Parameters>(dictionary);
+ 
++    if (p.confirmedCloud.has_value()) {
++        const auto& c = *p.confirmedCloud;
++        const auto validId = [](const std::string& s) {
++            return s.size() == 32 && std::all_of(s.begin(), s.end(), [](char x) {
++                return (x >= '0' && x <= '9') || (x >= 'a' && x <= 'f');
++            });
++        };
++        if (p.file.has_value() || !validId(c.systemId) || !validId(c.editToken) ||
++            !validId(c.cloudId) || c.sourceId.empty() || c.sourceId.size() > 100 ||
++            c.frame.empty() || c.frame.size() > 128 || c.count < 1 || c.count > 10000 ||
++            !std::isfinite(c.timeUnitS) || c.timeUnitS <= 0.0)
++        {
++            throw std::runtime_error("Invalid confirmed-cloud population binding");
++        }
++        _confirmedCloud = true;
++        _cloudFile = absPath(c.file);
++        _cloudSystem = c.systemId; _cloudEdit = c.editToken; _cloudId = c.cloudId;
++        _cloudSource = c.sourceId; _cloudFrame = c.frame;
++        _cloudCount = c.count; _cloudTimeUnit = c.timeUnitS;
++        _cloudStatus.setReadOnly(true);
++        addProperty(_cloudStatus);
++    }
++
+     addProperty(Fadeable::_opacity);
+ 
+     if (p.file.has_value()) {
+@@ -1400,6 +1445,8 @@ void RenderablePointCloud::update(const UpdateData&) {
+ 
+     preUpdate();
+ 
++    if (_confirmedCloud) { updateConfirmedCloud(); }
++
+     if (_hasColorMapFile) {
+         _colorSettings.colorMapping->update(_dataset, _useCaching);
+     }
+@@ -1413,6 +1460,97 @@ void RenderablePointCloud::update(const UpdateData&) {
+     }
+ }
+ 
++void RenderablePointCloud::updateConfirmedCloud() {
++    try {
++        std::error_code ec;
++        const auto stamp = std::filesystem::last_write_time(_cloudFile, ec);
++        if (ec || (_cloudLastWrite && *_cloudLastWrite == stamp)) { return; }
++        const auto size = std::filesystem::file_size(_cloudFile, ec);
++        if (ec) { return; }
++        if (size < 13 || size > 12 + 32768 + 10000 * 24) {
++            _cloudLastWrite = stamp;
++            throw std::runtime_error("Packet size outside bounded cloud contract");
++        }
++        std::ifstream file(_cloudFile, std::ios::binary);
++        if (!file) { return; } // Atomic replacement can briefly deny a Windows reader.
++        std::vector<char> bytes(static_cast<size_t>(size));
++        file.read(bytes.data(), static_cast<std::streamsize>(bytes.size()));
++        if (!file) { return; }
++        _cloudLastWrite = stamp;
++        if (std::memcmp(bytes.data(), "C2CLD002", 8) != 0) {
++            throw std::runtime_error("Invalid cloud magic");
++        }
++        std::uint32_t n = 0;
++        std::memcpy(&n, bytes.data() + 8, 4);
++        if (n == 0 || n > 32768 || 12 + n > bytes.size()) {
++            throw std::runtime_error("Invalid cloud header size");
++        }
++        const auto m = nlohmann::json::parse(bytes.data() + 12, bytes.data() + 12 + n);
++        const std::vector<std::string> keys = { "schema", "model", "system_id", "edit_token",
++            "cloud_id", "source_id", "sequence", "time_model", "time_s", "time_unit_s",
++            "length_unit_m", "frame", "count", "positions", "payload_sha256", "payload_crc32" };
++        if (!m.is_object() || m.size() != keys.size() ||
++            !std::all_of(keys.begin(), keys.end(), [&m](const std::string& k) { return m.contains(k); }))
++        { throw std::runtime_error("Invalid cloud metadata keys"); }
++        if (!m.at("schema").is_number_unsigned() || m.at("schema") != 2 ||
++            m.at("model") != "massless_central_ias15_v1" || m.at("system_id") != _cloudSystem ||
++            m.at("edit_token") != _cloudEdit || m.at("cloud_id") != _cloudId ||
++            m.at("source_id") != _cloudSource || m.at("frame") != _cloudFrame ||
++            !m.at("count").is_number_unsigned() || m.at("count") != _cloudCount ||
++            m.at("positions") != "SI_m_float64_little_endian_xyz" ||
++            !m.at("sequence").is_number_unsigned() || m.at("sequence").get<std::uint64_t>() >= (1ULL << 63))
++        { throw std::runtime_error("Stale or incompatible cloud population binding"); }
++        const auto sequence = m.at("sequence").get<std::int64_t>();
++        if (sequence <= _cloudSequence) { throw std::runtime_error("Cloud sequence did not advance"); }
++        for (const auto* k : { "time_model", "time_s", "time_unit_s", "length_unit_m" }) {
++            if (!m.at(k).is_number() || !std::isfinite(m.at(k).get<double>()) || m.at(k).get<double>() < 0.0) {
++                throw std::runtime_error("Nonfinite or negative cloud time/scale");
++            }
++        }
++        const double time = m.at("time_model").get<double>();
++        if (time < _cloudTime || m.at("time_unit_s").get<double>() != _cloudTimeUnit ||
++            m.at("length_unit_m").get<double>() != 1e9 ||
++            m.at("time_s").get<double>() != time * _cloudTimeUnit)
++        { throw std::runtime_error("Cloud clock or SI scale mismatch"); }
++        const char* payload = bytes.data() + 12 + n;
++        const size_t payloadSize = bytes.size() - 12 - n;
++        if (payloadSize != static_cast<size_t>(_cloudCount) * 24 ||
++            !m.at("payload_crc32").is_number_unsigned() ||
++            m.at("payload_crc32").get<std::uint64_t>() != ghoul::hashCRC32(payload, static_cast<unsigned int>(payloadSize)))
++        { throw std::runtime_error("Invalid cloud payload size or CRC32"); }
++        const std::string sha = m.at("payload_sha256").get<std::string>();
++        if (sha.size() != 64 || !std::all_of(sha.begin(), sha.end(), [](char x) {
++            return (x >= '0' && x <= '9') || (x >= 'a' && x <= 'f'); }))
++        { throw std::runtime_error("Invalid cloud source SHA256 declaration"); }
++        std::vector<dataloader::Dataset::Entry> entries(_cloudCount);
++        double maximumError = 0.0;
++        for (unsigned int i = 0; i < _cloudCount; ++i) {
++            glm::dvec3 position;
++            std::memcpy(&position[0], payload + static_cast<size_t>(i) * 24, 24);
++            if (!std::isfinite(position.x) || !std::isfinite(position.y) ||
++                !std::isfinite(position.z) || glm::length(position) > 1e17)
++            { throw std::runtime_error("Cloud point outside finite SI domain"); }
++            entries[i].position = glm::vec3(position);
++            maximumError = std::max(maximumError, glm::length(glm::dvec3(entries[i].position) - position));
++        }
++        // Validate the whole packet before touching the aggregate GPU buffer.
++        _dataset.entries = std::move(entries);
++        _hasDataFile = true; _unit = DistanceUnit::Meter;
++        _nDataPoints = _cloudCount; _dataIsDirty = true;
++        updateBufferData();
++        _cloudSequence = sequence; _cloudTime = time;
++        _cloudStatus = nlohmann::json({ { "state", "accepted" }, { "metadata", m },
++            { "maximum_gpu_position_quantization_m", maximumError },
++            { "native_integrity_check", "CRC32; SHA256 independently verified by Python" },
++            { "gpu_buffer_uploaded", true } }).dump();
++    }
++    catch (const std::exception& e) {
++        _cloudStatus = nlohmann::json({ { "state", "rejected" }, { "error", e.what() },
++            { "last_accepted_sequence", _cloudSequence }, { "last_accepted_time_model", _cloudTime },
++            { "previous_buffer_preserved", true } }).dump();
++    }
++}
++
+ glm::dvec3 RenderablePointCloud::transformedPosition(
+                                                 const dataloader::Dataset::Entry& e) const
+ {
+diff --git a/modules/base/rendering/pointcloud/renderablepointcloud.h b/modules/base/rendering/pointcloud/renderablepointcloud.h
+index 5886fda..6d3b751 100644
+--- a/modules/base/rendering/pointcloud/renderablepointcloud.h
++++ b/modules/base/rendering/pointcloud/renderablepointcloud.h
+@@ -45,7 +45,9 @@
+ #include <ghoul/opengl/texture.h>
+ #include <ghoul/opengl/uniformcache.h>
+ #include <filesystem>
++#include <cstdint>
+ #include <memory>
++#include <optional>
+ #include <unordered_map>
+ 
+ namespace openspace {
+@@ -107,6 +109,7 @@ protected:
+         int nAttributesPerPoint, int offset) const;
+ 
+     virtual void updateBufferData();
++    void updateConfirmedCloud();
+     void updateSpriteTexture();
+ 
+     /**
+@@ -238,6 +241,16 @@ protected:
+ 
+     std::filesystem::path _dataFile;
+ 
++    bool _confirmedCloud = false;
++    std::filesystem::path _cloudFile;
++    std::string _cloudSystem, _cloudEdit, _cloudId, _cloudSource, _cloudFrame;
++    unsigned int _cloudCount = 0;
++    double _cloudTimeUnit = 0.0;
++    std::int64_t _cloudSequence = -1;
++    double _cloudTime = -1.0;
++    std::optional<std::filesystem::file_time_type> _cloudLastWrite;
++    StringProperty _cloudStatus;
++
+     DistanceUnit _unit = DistanceUnit::Parsec;
+ 
+     bool _useCaching = true;

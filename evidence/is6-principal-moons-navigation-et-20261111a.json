@@ -1,0 +1,14 @@
+{
+  "accepted": true,
+  "bodies": 16,
+  "navigable": 15,
+  "destinations": 17,
+  "precise_et": 844992069.1824744,
+  "prior_ten_bodies_identical": true,
+  "sources": {
+    "output/is6-principal-moons-navigation-staging/is6_principal_moons_catalog.py": "de3c37996011f197bd92210bc4ee3a15daf8833ece471043ed00eb6238083c93",
+    "output/is6-principal-moons-navigation-staging/moon_atlas.py": "1d4a93597d2925977656a27d63f43885966cabd81d1678fe02c78d37502884e7",
+    "output/is6-principal-moons-navigation-staging/moon_navigation.py": "02733f2327298fb4bd5b82b2c9f7729482730b3b45cf86139fa3dfa5f5e5f332"
+  },
+  "scope": "CPU scene/adapter mapping; native verification and profiles pending"
+}

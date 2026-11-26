@@ -1,0 +1,12 @@
+{
+  "accepted": true,
+  "completed": true,
+  "files": 12432,
+  "changed": [
+    "evidence/github-source-sync-20261121c.json",
+    "scripts/append-source-backup-receipt-v4.py"
+  ],
+  "inventory_sha256": "d19b3f921cb219ee23c93b0f67e7b6ae93c8a017e827339fddf935b65b0f51b0",
+  "script_sha256": "78a1efdf660c3f2621abacb8b5d8e074ad5c4758d4823c48f0851ef638c7b85b",
+  "scope": "Incremental append only. Existing inventoried helper source is verified and retained; completed diagnostic evidence added if available. No private session or Windows home-directory image, no scientific rerun or publication."
+}

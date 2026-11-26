@@ -1,0 +1,21 @@
+VIGENTE 13/11 — RESIDÊNCIA A/B RECUSADAS; DIAGNÓSTICO DE PROCESSOS ATIVO
+B20261113b recusado:53amostrascompletas,linha54 eminventory_after:WinError87 aoabrirPID11208,
+PPID38224(motorB). Identidadeincerta corretamente recusa tudo. Nome/ctime desconhecidos;
+não atribuir aCEF/crash/PPIDreuso sem prova. Originalreader perdeentries ao falhar.
+DriverB confirmou4handles/4saídaszero e retorno do dono;cleanup_failure ausente.
+A20261113a preservado:102amostrascompletas,erro de projeção naentrada16;hostA recusouUpescalar.
+RevisãoC corrige projeção transitória eUp1e-12;offline13/preflightC ACEITOS, masBfalhouporidentidade.
+Não repetirA/B nem declarar desempenhogeral. Produto0.27.0 científico continua byteidêntico0.26.2.
+ATIVOdiagnóstico leve120s/2Hz,Windowsdestacado33592:
+scripts/diagnose-expanded-process-candidates.py --label20261113a.
+Consultar evidence/is6-expanded-process-diagnosis-20261113a.json,completed eJSONL ANTESderepetir.
+Novo leitor owned_process_snapshot_diagnostic.py conservaToolhelpentries apenasnafalha;
+mesmas recusas,sem fallback,nãoéperfilGPU.Não alterar fontes executadas/seladas.
+Próximo:concluir diagnóstico/nome/ctime dos candidatos e desenho anterior aqualquernovoperfil;
+se evidência insuficiente,preparar coleta nativa decriação/saída comfonte oficial,sem relaxarrecusas.
+Ler revisãoC e recibosA/B/diagnóstico; sem repetir roadmap/jornadasaceitas/perfis0.26/CPU30dias.
+Backupmaisrecente416fb28/6492arquivos; avançosresidência ainda fora;prepararbackupv19depoisdiagnóstico,
+fontes/evidence/brutospequenos,excluirZIP500MB/runtime,commitLOCALsem push.
+Telemetria17:37:47.509Z:9%5h/70%semanal;consulta atualemseguida. Salvar8% econtinuaratélimite real.
+Sem subagentes/promoção;V1segue7/21,IS6incompleto,K5Arecusado.
+

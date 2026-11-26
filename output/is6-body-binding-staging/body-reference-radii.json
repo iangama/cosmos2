@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "kind": "is6_adopted_spherical_reference_boundaries",
+  "bodies": [
+    {
+      "reference_id": "sol:naif:10",
+      "naif_id": 10,
+      "name": "Sol",
+      "raw_radii_km": [
+        695700.0,
+        695700.0,
+        695700.0
+      ],
+      "reference_semiaxes_m": [
+        695700000.0,
+        695700000.0,
+        695700000.0
+      ],
+      "exterior_boundary_m": 695700000.0,
+      "boundary_rule": "maximum adopted PCK semiaxis; isolated spherical exterior reference",
+      "uncertainty": null,
+      "uncertainty_status": "not_provided"
+    },
+    {
+      "reference_id": "sol:naif:399",
+      "naif_id": 399,
+      "name": "Terra",
+      "raw_radii_km": [
+        6378.1366,
+        6378.1366,
+        6356.7519
+      ],
+      "reference_semiaxes_m": [
+        6378136.6,
+        6378136.6,
+        6356751.9
+      ],
+      "exterior_boundary_m": 6378136.6,
+      "boundary_rule": "maximum adopted PCK semiaxis; isolated spherical exterior reference",
+      "uncertainty": null,
+      "uncertainty_status": "not_provided"
+    },
+    {
+      "reference_id": "sol:naif:301",
+      "naif_id": 301,
+      "name": "Lua",
+      "raw_radii_km": [
+        1737.4,
+        1737.4,
+        1737.4
+      ],
+      "reference_semiaxes_m": [
+        1737400.0,
+        1737400.0,
+        1737400.0
+      ],
+      "exterior_boundary_m": 1737400.0,
+      "boundary_rule": "maximum adopted PCK semiaxis; isolated spherical exterior reference",
+      "uncertainty": null,
+      "uncertainty_status": "not_provided"
+    },
+    {
+      "reference_id": "sol:naif:599",
+      "naif_id": 599,
+      "name": "Júpiter",
+      "raw_radii_km": [
+        71492.0,
+        71492.0,
+        66854.0
+      ],
+      "reference_semiaxes_m": [
+        71492000.0,
+        71492000.0,
+        66854000.0
+      ],
+      "exterior_boundary_m": 71492000.0,
+      "boundary_rule": "maximum adopted PCK semiaxis; isolated spherical exterior reference",
+      "uncertainty": null,
+      "uncertainty_status": "not_provided"
+    }
+  ],
+  "provenance": {
+    "file": "data/spice/pck00011.tpc",
+    "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+    "source_url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+    "version": "PCK00011,2022-12-27",
+    "spiceypy": "8.2.0",
+    "extractor": "bodvcd RADII active kernelpool",
+    "original_unit": "km",
+    "SI_conversion": 1000
+  },
+  "recipe_sha256": "07be875bf9729c3a37eccfed01bd3b42c75ed73676c41fd3e95c3f24d787a3c8",
+  "contract_sha256": "f702f7ec5ef377a457b4c1e20ccaf9625724110264c9caa5fdfe440b6e97e9e5"
+}

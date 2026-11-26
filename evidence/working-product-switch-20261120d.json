@@ -1,0 +1,7 @@
+{
+  "accepted": false,
+  "completed": false,
+  "files": [],
+  "scope": "Preserve idle Atlas context and all mutable product files; normal Windows shutdown, then local revision selection. No scientific promotion. Native mouse acceptance remains pending.",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\switch-working-product-0275.py\", line 39, in main\n    assert before['mode']=='atlas' and not before.get('physics'), 'A live experiment requires saving before a switch'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: A live experiment requires saving before a switch\n"
+}

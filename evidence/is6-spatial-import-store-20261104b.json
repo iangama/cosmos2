@@ -1,0 +1,436 @@
+{
+  "accepted": false,
+  "completed": false,
+  "source_sha256": {
+    "evidence/is6-spatial-import-20261104a.json": "e0fb4bed9ff95bed07b392d6e7bfb361991fa079e77dadbbb9b37c57ce4f29ce",
+    "scripts/verify-is6-spatial-import-store.py": "3cbf29860d9f8a5812c3589afe19e513721fd636f102903da5ede8db4631fa32",
+    "output/is6-spatial-import-staging/is6_spatial_import_store.py": "91aa6b9855db546e8fe408d3bdba907d63ff5b5fb9fd0ec3755eb6907170cefe",
+    "IS-6-IMPORTACAO-ESPACIAL-K5D-ARMAZENAMENTO.md": "3544a128c9c7722d8251f17d5c158a15fdba87586a94b288e2f43103d2a16d07",
+    "output/is6-spatial-import-staging/is6_spatial_import.py": "632ec6a3221df0dca3f7c22acabccf0b51209852347156611d7a51ac5b886086",
+    "scripts/verify-is6-spatial-import.py": "22a574c21e152d68870d9b87f5621e2d4ec5b3f720320dabc9ede4f7b50ed415",
+    "IS-6-IMPORTACAO-ESPACIAL-K5D-CONTRATO.md": "d96a23b89d60d108fb2b31d657f5cc7ab09ef09e07554bc3c792d5e3d7220bf3",
+    "output/is6-spatial-product0.18.2/spatial-checkpoints/saved.json": "ed9e80a0d36ad3e6e9cbdf883cf16cad6dfafea20ad6b1de5aeb3a820489d963",
+    "output/is6-spatial-product0.18.2/spatial-checkpoints/branches/20750cc48a35412381b586ff186065bd.json": "c00fb0fe122c127ae3d2390d35fdc025e9b636c12e1f979ad49eb84dbe9f3d93",
+    "output/is6-spatial-product0.18.2/spatial-checkpoints/exports/be72b945ebb14158b4d44a36e784934d.json": "e5f180213a5497a90b2ddba83d58c875b90022b95909dbdfc36a1887241fd2b8",
+    "output/is6-spatial-import-20261104a/saved-0-source.json": "e479cf78a71ed2eede5607bfd6fd262ee673df8d2adcdb6995083fd5a9ead690",
+    "output/is6-spatial-import-20261104a/saved-0-package.json": "74b5615a48bd9fabf6f556d64359f2c0f19e964e00fa382eeb4046ac773cbd22",
+    "output/is6-spatial-import-20261104a/saved-1-source.json": "ed9e80a0d36ad3e6e9cbdf883cf16cad6dfafea20ad6b1de5aeb3a820489d963",
+    "output/is6-spatial-import-20261104a/saved-1-package.json": "ac6b92ebd0b46fa245e45c8068a979536a647933532f521885d01522a1cdc7ca",
+    "output/is6-spatial-import-20261104a/branch-0-source.json": "b0d519246b03fffd1ab63fbc5ea501cdb06af9801be406b8d46198165153143b",
+    "output/is6-spatial-import-20261104a/branch-0-package.json": "420e42f7cae8efad4417d6d0e109af3050c619f5758491772219d162d9568279",
+    "output/is6-spatial-import-20261104a/branch-1-source.json": "c00fb0fe122c127ae3d2390d35fdc025e9b636c12e1f979ad49eb84dbe9f3d93",
+    "output/is6-spatial-import-20261104a/branch-1-package.json": "ff81ca0b55ae00416d57148feb4d285eebfaad159e525e8a706471a4d556ba65",
+    "output/is6-spatial-import-20261104a/export-0-source.json": "945d396f8cb6f674781d4f288de3679510a3c25d6bb5fcd20c3c284a4af2d62f",
+    "output/is6-spatial-import-20261104a/export-0-package.json": "f683102a446fc9452472921c0dd8861a2342e37a968095531af180f78e288bd2",
+    "output/is6-spatial-import-20261104a/export-1-source.json": "e5f180213a5497a90b2ddba83d58c875b90022b95909dbdfc36a1887241fd2b8",
+    "output/is6-spatial-import-20261104a/export-1-package.json": "4a77d5d9055411ce5c2600e7cab24dc53aea85aba03ba6fee31be046d909728d"
+  },
+  "owner_sha256": "ee9c4cc86e0696afde128ec319f98f6ad5b3932f27f8b5bd6a25d57a4025b825",
+  "roundtrips": [
+    {
+      "case": "saved-0",
+      "imported_branch": "287971c7517c4a3c83b3054d89db922a",
+      "child": "3ae93033d135471492dca05061f3b3f7",
+      "source_sha256": "e479cf78a71ed2eede5607bfd6fd262ee673df8d2adcdb6995083fd5a9ead690",
+      "artifact_sha256": "294559e95d57366df1fececf6e6d6440b5f04d6305f4893067283677ca47a8a3",
+      "original_view": {
+        "reference_radial_index": 0,
+        "selected_azimuth_index": 95,
+        "selected_radial_index": 16,
+        "visible": false
+      },
+      "current_view": {
+        "reference_radial_index": 64,
+        "selected_azimuth_index": 7,
+        "selected_radial_index": 3,
+        "visible": true
+      },
+      "original_bytes_preserved": true
+    },
+    {
+      "case": "saved-1",
+      "imported_branch": "c738f90a8bcc4fffa74422f1519b54a2",
+      "child": "28423a670cdf45808d76c3b3e5da3ac9",
+      "source_sha256": "ed9e80a0d36ad3e6e9cbdf883cf16cad6dfafea20ad6b1de5aeb3a820489d963",
+      "artifact_sha256": "294559e95d57366df1fececf6e6d6440b5f04d6305f4893067283677ca47a8a3",
+      "original_view": {
+        "reference_radial_index": 0,
+        "selected_azimuth_index": 95,
+        "selected_radial_index": 16,
+        "visible": true
+      },
+      "current_view": {
+        "reference_radial_index": 64,
+        "selected_azimuth_index": 7,
+        "selected_radial_index": 3,
+        "visible": false
+      },
+      "original_bytes_preserved": true
+    },
+    {
+      "case": "branch-0",
+      "imported_branch": "9b5c38b20516475992eeaee7d8217663",
+      "child": "e494f1476937438fb2b661afe24443e5",
+      "source_sha256": "b0d519246b03fffd1ab63fbc5ea501cdb06af9801be406b8d46198165153143b",
+      "artifact_sha256": "294559e95d57366df1fececf6e6d6440b5f04d6305f4893067283677ca47a8a3",
+      "original_view": {
+        "reference_radial_index": 0,
+        "selected_azimuth_index": 95,
+        "selected_radial_index": 16,
+        "visible": false
+      },
+      "current_view": {
+        "reference_radial_index": 64,
+        "selected_azimuth_index": 7,
+        "selected_radial_index": 3,
+        "visible": true
+      },
+      "original_bytes_preserved": true
+    },
+    {
+      "case": "branch-1",
+      "imported_branch": "a0eaf97e2d53498585d9a7f4e65cfdaf",
+      "child": "425cae9fda144bfa8bd30e0719417d2c",
+      "source_sha256": "c00fb0fe122c127ae3d2390d35fdc025e9b636c12e1f979ad49eb84dbe9f3d93",
+      "artifact_sha256": "294559e95d57366df1fececf6e6d6440b5f04d6305f4893067283677ca47a8a3",
+      "original_view": {
+        "reference_radial_index": 0,
+        "selected_azimuth_index": 95,
+        "selected_radial_index": 16,
+        "visible": true
+      },
+      "current_view": {
+        "reference_radial_index": 64,
+        "selected_azimuth_index": 7,
+        "selected_radial_index": 3,
+        "visible": false
+      },
+      "original_bytes_preserved": true
+    },
+    {
+      "case": "export-0",
+      "imported_branch": "a685da35bb08438bba1443ee15867a26",
+      "child": "3f01cc9f85324d0b8234b94702a9e6e1",
+      "source_sha256": "945d396f8cb6f674781d4f288de3679510a3c25d6bb5fcd20c3c284a4af2d62f",
+      "artifact_sha256": "294559e95d57366df1fececf6e6d6440b5f04d6305f4893067283677ca47a8a3",
+      "original_view": {
+        "reference_radial_index": 0,
+        "selected_azimuth_index": 95,
+        "selected_radial_index": 16,
+        "visible": false
+      },
+      "current_view": {
+        "reference_radial_index": 64,
+        "selected_azimuth_index": 7,
+        "selected_radial_index": 3,
+        "visible": true
+      },
+      "original_bytes_preserved": true
+    },
+    {
+      "case": "export-1",
+      "imported_branch": "494bfa34dd824964aa5579424a886431",
+      "child": "1b04bd96286d43a8854534b9dead7f25",
+      "source_sha256": "e5f180213a5497a90b2ddba83d58c875b90022b95909dbdfc36a1887241fd2b8",
+      "artifact_sha256": "294559e95d57366df1fececf6e6d6440b5f04d6305f4893067283677ca47a8a3",
+      "original_view": {
+        "reference_radial_index": 0,
+        "selected_azimuth_index": 95,
+        "selected_radial_index": 16,
+        "visible": true
+      },
+      "current_view": {
+        "reference_radial_index": 64,
+        "selected_azimuth_index": 7,
+        "selected_radial_index": 3,
+        "visible": false
+      },
+      "original_bytes_preserved": true
+    }
+  ],
+  "refusals": [
+    {
+      "case": "Extra record field with recalculated seals",
+      "error": "Complete spatial checkpoint with origin required"
+    },
+    {
+      "case": "Boolean schema with recalculated seals",
+      "error": "Complete spatial checkpoint with origin required"
+    },
+    {
+      "case": "Legacy schema with recalculated seals",
+      "error": "Complete spatial checkpoint with origin required"
+    },
+    {
+      "case": "Wrong kind with recalculated seals",
+      "error": "Complete spatial checkpoint with origin required"
+    },
+    {
+      "case": "Different valid destination identity with recalculated seals",
+      "error": "Spatial destination artifact differs from its source capsule"
+    },
+    {
+      "case": "Changed destination phase with recalculated seals",
+      "error": "The selected body phase changed"
+    },
+    {
+      "case": "Unknown generation with recalculated seals",
+      "error": "Spatial artifact generation differs"
+    },
+    {
+      "case": "Changed mesh with recalculated seals",
+      "error": "Recomputed spatial artifact differs:mesh"
+    },
+    {
+      "case": "Numeric visibility with recalculated seals",
+      "error": "Complete explicit spatial view required"
+    },
+    {
+      "case": "Radial index outside mesh with recalculated seals",
+      "error": "Spatial probe index outside mesh"
+    },
+    {
+      "case": "Azimuth outside mesh with recalculated seals",
+      "error": "Spatial probe index outside mesh"
+    },
+    {
+      "case": "Missing origin capsule fields with recalculated seals",
+      "error": "Spatial import package schema differs"
+    },
+    {
+      "case": "Origin view changed with recalculated seals",
+      "error": "Reconstructed spatial import package differs"
+    },
+    {
+      "case": "Origin old lineage changed with recalculated seals",
+      "error": "Reconstructed spatial import package differs"
+    },
+    {
+      "case": "Origin source checksum changed with recalculated seals",
+      "error": "Reconstructed spatial import package differs"
+    },
+    {
+      "case": "Origin phase changed with recalculated seals",
+      "error": "Reconstructed spatial import package differs"
+    },
+    {
+      "case": "Invented magnetic sampling with recalculated seals",
+      "error": "Reconstructed spatial import package differs"
+    },
+    {
+      "case": "Implicit scientific resampling with recalculated seals",
+      "error": "Reconstructed spatial import package differs"
+    },
+    {
+      "case": "Source IDs as destination parent with recalculated seals",
+      "error": "Reconstructed spatial import package differs"
+    },
+    {
+      "case": "Invalid local lineage with recalculated seals",
+      "error": "Spatial artifact identity differs"
+    },
+    {
+      "case": "Empty",
+      "error": "Spatial import byte budget differs"
+    },
+    {
+      "case": "Array",
+      "error": "Spatial import object required"
+    },
+    {
+      "case": "Duplicate key",
+      "error": "Duplicate spatial import JSON key"
+    },
+    {
+      "case": "NaN",
+      "error": "Nonfinite spatial import JSON"
+    },
+    {
+      "case": "Overflow",
+      "error": "Out of range float values are not JSON compliant: inf"
+    },
+    {
+      "case": "Invalid UTF8",
+      "error": "Invalid spatial import JSON encoding/depth"
+    },
+    {
+      "case": "Record checksum",
+      "error": "Spatial import record seal differs"
+    },
+    {
+      "case": "Invalid branch name",
+      "error": "Spatial branch name must have 1..80 trimmed characters"
+    },
+    {
+      "case": "Path escaping before write",
+      "error": "Spatial import record escaped its store"
+    },
+    {
+      "case": "Outside output namespace",
+      "error": "Spatial import records must remain under output"
+    },
+    {
+      "case": "Catalog origin tampering also blocks load",
+      "error": "Reconstructed spatial import package differs"
+    },
+    {
+      "case": "Missing local parent with recalculated seal",
+      "error": "[WinError 2] O sistema não pode encontrar o arquivo especificado: 'C:\\\\Users\\\\Ian\\\\cosmos2\\\\output\\\\is6-spatial-import-store-20261104b\\\\graph-records\\\\branches\\\\eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.json'"
+    },
+    {
+      "case": "Self parent with recalculated seal",
+      "error": "Spatial import branch is its own parent"
+    },
+    {
+      "case": "Local cycle with recalculated seal",
+      "error": "Local spatial branch cycle"
+    },
+    {
+      "case": "Branch filename identity with recalculated seal",
+      "error": "Local spatial branch identity differs from its filename"
+    },
+    {
+      "case": "Branch lineage mismatch with recalculated seal",
+      "error": "Spatial import branch lineage differs"
+    },
+    {
+      "case": "Extra branch metadata with recalculated seal",
+      "error": "Spatial import branch fields differ"
+    },
+    {
+      "case": "Path parent with recalculated seal",
+      "error": "Spatial artifact identity differs"
+    },
+    {
+      "case": "Latest masquerading as branch",
+      "error": "Latest/export spatial record cannot masquerade as a branch"
+    },
+    {
+      "case": "Read 64MiB pre-open budget",
+      "error": "Spatial import record byte budget exceeded"
+    },
+    {
+      "case": "Write 64MiB pre-open budget",
+      "error": "Spatial import record byte budget exceeded"
+    },
+    {
+      "case": "Serialized record write limit",
+      "error": "Spatial import record byte budget exceeded"
+    }
+  ],
+  "write_failures": [
+    {
+      "case": "saved-0",
+      "method": "save",
+      "operation": "fsync",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "saved-0",
+      "method": "save",
+      "operation": "replace",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "saved-1",
+      "method": "save",
+      "operation": "fsync",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "saved-1",
+      "method": "save",
+      "operation": "replace",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "branch-0",
+      "method": "save",
+      "operation": "fsync",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "branch-0",
+      "method": "save",
+      "operation": "replace",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "branch-1",
+      "method": "save",
+      "operation": "fsync",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "branch-1",
+      "method": "save",
+      "operation": "replace",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "export-0",
+      "method": "save",
+      "operation": "fsync",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "export-0",
+      "method": "save",
+      "operation": "replace",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "export-1",
+      "method": "save",
+      "operation": "fsync",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "export-1",
+      "method": "save",
+      "operation": "replace",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "all-confirmed-records",
+      "method": "branch",
+      "operation": "fsync",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "all-confirmed-records",
+      "method": "branch",
+      "operation": "replace",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "all-confirmed-records",
+      "method": "export",
+      "operation": "fsync",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "all-confirmed-records",
+      "method": "export",
+      "operation": "replace",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "all-confirmed-records",
+      "method": "import_branch",
+      "operation": "fsync",
+      "confirmed_bytes_preserved": true
+    },
+    {
+      "case": "all-confirmed-records",
+      "method": "import_branch",
+      "operation": "replace",
+      "confirmed_bytes_preserved": true
+    }
+  ],
+  "records": [],
+  "concurrency": {},
+  "interruption": {},
+  "scope": "K5D CPU spatial schema2 atomic store only; six archived solar inputs. No service/UI/native integration, magnetic sampling, profile or IS6/v1 acceptance.",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-is6-spatial-import-store.py\", line 342, in main\n    alias.symlink_to(graph.path)\n  File \"C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pathlib.py\", line 1386, in symlink_to\n    os.symlink(target, self, target_is_directory)\nOSError: [WinError 1314] O cliente não tem o privilégio necessário: 'C:\\\\Users\\\\Ian\\\\cosmos2\\\\output\\\\is6-spatial-import-store-20261104b\\\\graph-records\\\\saved.json' -> 'C:\\\\Users\\\\Ian\\\\cosmos2\\\\output\\\\is6-spatial-import-store-20261104b\\\\graph-records\\\\alias.json'\n"
+}

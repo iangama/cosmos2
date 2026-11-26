@@ -1,0 +1,14 @@
+{
+  "accepted": true,
+  "completed": true,
+  "repository": "https://github.com/iangama/cosmos2",
+  "visibility": "public",
+  "visibility_verified_with": "GitHub connector get_repo",
+  "branch": "main",
+  "commit": "ce6f5a2648c0b5f2c12c5235d8228a256ade3cb9",
+  "remote_head": "ce6f5a2648c0b5f2c12c5235d8228a256ade3cb9",
+  "staging_proof": "evidence/github-source-staged-20261104c.json",
+  "inventory_files": 2897,
+  "changed_files": 631,
+  "scope": "Partial source/evidence backup; no installer, runtimes, personal sessions or full reproducibility."
+}

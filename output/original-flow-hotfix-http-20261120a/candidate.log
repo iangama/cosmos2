@@ -1,0 +1,16 @@
+Cosmos2 UI http://127.0.0.1:61086
+127.0.0.1 - - [20/Nov/2026 12:10:59] "GET /api/forces/catalog HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:10:59] "GET /api/geomagnetism/texture HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:10:59] "POST /api/forces/load HTTP/1.1" 400 -
+127.0.0.1 - - [20/Nov/2026 12:10:59] "POST /api/forces/evaluate HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:10:59] "POST /api/forces/evaluate HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:10:59] "POST /api/forces/evaluate HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:10:59] "POST /api/forces/evaluate HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:11:00] "POST /api/forces/evaluate HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:11:00] "POST /api/forces/save HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:11:00] "POST /api/forces/load HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:11:00] "POST /api/forces/evaluate HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:11:00] "POST /api/forces/export HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:11:00] "POST /api/forces/evaluate HTTP/1.1" 400 -
+127.0.0.1 - - [20/Nov/2026 12:11:00] "POST /api/forces/load HTTP/1.1" 200 -
+127.0.0.1 - - [20/Nov/2026 12:11:00] "POST /api/shutdown HTTP/1.1" 200 -

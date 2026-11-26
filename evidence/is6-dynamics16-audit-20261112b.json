@@ -1,0 +1,33 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source": "evidence/is6-dynamics16-verification-20261112b.json",
+  "source_sha256": "fc2afaa90c923c0df5b74cebd6dbfdff91ba8f0b54fb91a2e22fd7ecb2aadd3c",
+  "auditor_sha256": "28e99be90b9f6ac768a116f0c1dfa66330faff6791b08bb35beefc8132e37418",
+  "conservation": {
+    "canonical_IAS15": {
+      "relative_energy_drift": 5.641738336149647e-16,
+      "normalized_linear_momentum_drift": 7.769910865281071e-17,
+      "normalized_angular_momentum_drift": 1.8189406499234032e-16
+    },
+    "canonical_IAS15_refined": {
+      "relative_energy_drift": 4.2313037521122354e-16,
+      "normalized_linear_momentum_drift": 7.821160574428014e-17,
+      "normalized_angular_momentum_drift": 1.8189406499234032e-16
+    },
+    "canonical_DOP853": {
+      "relative_energy_drift": 7.052172920187058e-16,
+      "normalized_linear_momentum_drift": 9.527750844259774e-17,
+      "normalized_angular_momentum_drift": 1.8921065047328144e-16
+    }
+  },
+  "positions": 1936,
+  "reciprocal_pairs": 120,
+  "pair_acceleration_peak_m_s2": 6.7210977460506545e-12,
+  "position_component_max_m": 0.13642420526593924,
+  "velocity_component_max_m_s": 6.4115898830590894e-06,
+  "refinement_position_component_max_m": 0.029103830456733704,
+  "translation_position_component_max_m": 0.0,
+  "translation_velocity_component_max_m_s": 0.0,
+  "scope": "Isolated CPU foundation only. Sixteen physical point masses, no new UI, field coupling, performance or promotion acceptance."
+}

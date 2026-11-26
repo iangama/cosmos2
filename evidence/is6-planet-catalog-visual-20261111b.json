@@ -1,0 +1,34 @@
+{
+  "accepted": true,
+  "reviewed": true,
+  "candidate": "0.23.1",
+  "native": "evidence/is6-planet-catalog-native-20261111a.json",
+  "native_sha256": "2613ff112e7091d7a1e1058b67b292341d28e99c6e74065e8b1c108a84582432",
+  "captures": [
+    {
+      "path": "output/is6-planet-catalog-native-20261111a/catalog-1.png",
+      "sha256": "46e2abcdce994cc1428de5480b839c0648f109f7d69d0d9bf5b83066ed19b6e0",
+      "scale": 1,
+      "bounds": {
+        "scroll": 1920,
+        "width": 1920
+      }
+    },
+    {
+      "path": "output/is6-planet-catalog-native-20261111a/catalog-1-5.png",
+      "sha256": "9da1ba64c5be0f72478aaf5c9a5c01b2e537ba47740c97c77def488b757e0c2d",
+      "scale": 1.5,
+      "bounds": {
+        "scroll": 1903,
+        "width": 1903
+      }
+    }
+  ],
+  "checks": [
+    "Explicit ISO UTC date is visible at 100% and 150%.",
+    "Position, velocity, physical GM, reference radii and IAU rotation labels remain readable.",
+    "Portuguese origin labels and the printed-source disclosure are present.",
+    "Export path wraps within the sidebar, and the page retains vertical access."
+  ],
+  "scope": "Visual acceptance of the scientific data page in the native CEF host"
+}

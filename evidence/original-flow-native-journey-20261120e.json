@@ -1,0 +1,2897 @@
+{
+  "accepted": false,
+  "completed": false,
+  "original_entry": true,
+  "session": {
+    "app": 16224,
+    "server": 32812,
+    "launcher": 22996,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.1-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.1\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.1\\gravity-sessions",
+    "started": "2026-11-20T19:47:13Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.1",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "whole_user_workflow_accepted": false,
+  "final_visual_integration_accepted": false,
+  "checks": [
+    {
+      "name": "original-shortcut-reuses-selected-session",
+      "shortcut": "Abrir-Planetas.cmd",
+      "app_pid": 16224
+    },
+    {
+      "name": "original-shortcut-reuses-selected-session",
+      "shortcut": "Abrir-Planetas-e-Luas.cmd",
+      "app_pid": 16224
+    },
+    {
+      "name": "forces-real-entry-and-strong-result",
+      "scale": "1",
+      "scenarios": 12,
+      "physics_sha256": "8b84d10024fec266834e6cd20a67140d0c6347c739160f1ac9564bd284941632",
+      "actual_page_zoom": 1
+    },
+    {
+      "name": "forces-return-preserves-physical-phase",
+      "scale": "1"
+    },
+    {
+      "name": "mesh-earth-visibility-probe-save-export-leave",
+      "scale": "1",
+      "sha256": "0eec6cae17b44d0d6f6cc1427adf950d28fa5808f7b1a62dfdb72e62584db440"
+    },
+    {
+      "name": "layers-earth-visibility-save-export-leave",
+      "scale": "1",
+      "sha256": "7d9a515b66b248d38487e0bd5434d5143318e14034969d307ff8a7ac2e00f252"
+    },
+    {
+      "name": "forces-real-entry-and-strong-result",
+      "scale": "1.5",
+      "scenarios": 12,
+      "physics_sha256": "8b84d10024fec266834e6cd20a67140d0c6347c739160f1ac9564bd284941632",
+      "actual_page_zoom": 1
+    },
+    {
+      "name": "forces-return-preserves-physical-phase",
+      "scale": "1.5"
+    },
+    {
+      "name": "mesh-earth-visibility-probe-save-export-leave",
+      "scale": "1.5",
+      "sha256": "fac5054284521a1c71a8ddc6e6df76cdd54b49c6d1290b86e34064a41db3b26f"
+    },
+    {
+      "name": "layers-earth-visibility-save-export-leave",
+      "scale": "1.5",
+      "sha256": "9f8db3249767ca2360d854ce4acb4f0783b5501269ff533e2e30780e68b35203"
+    }
+  ],
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-native-20261120e\\forces-strong-1.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "280129f19b2bc8c3918f64a49007f6ff57bb426f7be3155333ba93a80c56b2a7"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-native-20261120e\\mesh-earth-1.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "10513bac9e1be062af26ee78262cfaade909f104576179fb0cac18bd0d77546c"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-native-20261120e\\layers-earth-1.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "a474b6aa38c9f958cdf250e59e4c5c5065e9cfdb48a1856b788b387865c12e52"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-native-20261120e\\forces-strong-1-5.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "280129f19b2bc8c3918f64a49007f6ff57bb426f7be3155333ba93a80c56b2a7"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-native-20261120e\\mesh-earth-1-5.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "7f6dfca1b3852732babacdaab1057ddfc6c6b0b1bd7e74cec68ea56e21a4d833"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-native-20261120e\\layers-earth-1-5.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "4590d9de05ab068f63a6a8121ec174cebdef6585810dadca4addd649f6bb47a0"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-native-20261120e\\journey-failure.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "dfbabafac71b8160b7a32bde09709ed407cb7a064764f471c05475b40d2eb1ed"
+    }
+  ],
+  "findings": [
+    {
+      "kind": "forces-scale-not-inherited",
+      "requested": "1.5",
+      "actual": 1
+    }
+  ],
+  "step": "#layers-panel-close",
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 36,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 71,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 13,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 28,
+      "extended": false
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#forces",
+      "x": 435,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[data-scenario=\"strong\"]",
+      "x": 164,
+      "y": 398
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.back",
+      "x": 1346,
+      "y": 40
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-spatial",
+      "x": 656,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-body",
+      "x": 196,
+      "y": 415
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 36,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 71,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 40,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 80,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 13,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 28,
+      "extended": false
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-create",
+      "x": 196,
+      "y": 700
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-visible"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-visible"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-visible"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-visible",
+      "x": 54,
+      "y": 780
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-visible",
+      "x": 54,
+      "y": 780
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-radial"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -120,
+      "target": "#spatial-radial"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-radial",
+      "x": 116,
+      "y": 719
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 1
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-sample"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-sample",
+      "x": 196,
+      "y": 726
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-active details:nth-of-type(2)>summary",
+      "x": 196,
+      "y": 708
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-save",
+      "x": 118,
+      "y": 153
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-export",
+      "x": 196,
+      "y": 470
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-leave",
+      "x": 196,
+      "y": 758
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-layers",
+      "x": 743,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-create",
+      "x": 196,
+      "y": 656
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-spatial-visible",
+      "x": 54,
+      "y": 391
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-magnetic-visible",
+      "x": 54,
+      "y": 422
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-storage>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-storage>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -120,
+      "target": "#layers-storage>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-storage>summary",
+      "x": 196,
+      "y": 727
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -120,
+      "target": "#layers-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-save",
+      "x": 116,
+      "y": 728
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-export",
+      "x": 196,
+      "y": 783
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-leave",
+      "x": 196,
+      "y": 758
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-panel-close",
+      "x": 321,
+      "y": 140
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 36,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 71,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 40,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 80,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 40,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 80,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 13,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 28,
+      "extended": false
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#forces",
+      "x": 552,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[data-scenario=\"strong\"]",
+      "x": 164,
+      "y": 398
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.back",
+      "x": 1346,
+      "y": 40
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-spatial",
+      "x": 823,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-body",
+      "x": 278,
+      "y": 620
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 36,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 71,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 40,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 80,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 13,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 28,
+      "extended": false
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-create"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-create"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-create"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-create",
+      "x": 278,
+      "y": 667
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-visible"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-visible"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-visible"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-visible"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-visible"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-visible"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-visible",
+      "x": 80,
+      "y": 620
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-visible",
+      "x": 80,
+      "y": 620
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-radial"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-radial",
+      "x": 167,
+      "y": 651
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 1
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-sample"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-sample",
+      "x": 278,
+      "y": 722
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -120,
+      "target": "#spatial-active details:nth-of-type(2)>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-active details:nth-of-type(2)>summary",
+      "x": 278,
+      "y": 639
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#spatial-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-save",
+      "x": 168,
+      "y": 287
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#spatial-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-export",
+      "x": 278,
+      "y": 630
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#spatial-leave",
+      "x": 278,
+      "y": 688
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-layers",
+      "x": 929,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-create"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-create"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-create",
+      "x": 278,
+      "y": 728
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-spatial-visible",
+      "x": 80,
+      "y": 336
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-magnetic-visible",
+      "x": 80,
+      "y": 382
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-storage>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-storage>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-storage>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-storage>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-storage>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-storage>summary",
+      "x": 278,
+      "y": 649
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -120,
+      "target": "#layers-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -120,
+      "target": "#layers-save"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-save",
+      "x": 167,
+      "y": 629
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -120,
+      "target": "#layers-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -120,
+      "target": "#layers-export"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-export",
+      "x": 278,
+      "y": 624
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-leave",
+      "x": 278,
+      "y": 688
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-panel-close",
+      "x": 450,
+      "y": 224
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale",
+      "x": 1141,
+      "y": 824
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 36,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 71,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 13,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 28,
+      "extended": false
+    }
+  ],
+  "source_sha256": {
+    "output/original-flow-hotfix-product0.27.1/app/artifacts.py": "6e2afbc58f7102b6c23af44503e5db6a53c655fca81eb8f9bcc8d4dabc525328",
+    "output/original-flow-hotfix-product0.27.1/app/atlas.py": "218fac6e9aad5aa71bf589ea86b8ef6af91fb1e8d56af0402972cada2d60f1c2",
+    "output/original-flow-hotfix-product0.27.1/app/atlas_import.py": "5cd4e78d7976b292ceb0ed637d7a255687abb16e7d907313e11c9e42c719b6cf",
+    "output/original-flow-hotfix-product0.27.1/app/atlas_properties.py": "c7748a866e5be67326e776a8b0805cb8b80fc1fff8b8566f7b095bb97963a900",
+    "output/original-flow-hotfix-product0.27.1/app/binary_gravity.py": "cf5a4c3f29141fb64fc1c20ad1e53375ea465765c9f403e600adae6bbcd41936",
+    "output/original-flow-hotfix-product0.27.1/app/body_attributes.py": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649",
+    "output/original-flow-hotfix-product0.27.1/app/body_field_geometry.py": "17a257fe18708f640e3f79e43dac6d78c498dd2844a4633757498ebabfe1afc4",
+    "output/original-flow-hotfix-product0.27.1/app/body_field_layer.py": "a56118896a743d904312f8bfe466bdc98c19675694e3a17ef7a07ee0df8de3a2",
+    "output/original-flow-hotfix-product0.27.1/app/body_field_lines.py": "ddd0e266f6cc96a4cba64db773a3b801ed5e8ca8cd9b07b88efd92088c93f8f3",
+    "output/original-flow-hotfix-product0.27.1/app/body_field_map_geometry.py": "cfa807924eed8c8a06e1ee25f8eb8a759ce37b900bffe7e7a3f58fc619c560bd",
+    "output/original-flow-hotfix-product0.27.1/app/body_field_map_layer.py": "17640635bf80047d537df0be650871d463b5802fb4818a3020210aadcfb7b154",
+    "output/original-flow-hotfix-product0.27.1/app/body_field_maps.py": "8988d3c437b88c2a6c0db5210dd8710c5ccc7e35b8e2be9b693fe57216e8630f",
+    "output/original-flow-hotfix-product0.27.1/app/body_field_points.py": "d054c5c72ef76cabe5cacfc6b78cb67f5b51387a60e2152ee3107127fbe8f169",
+    "output/original-flow-hotfix-product0.27.1/app/body_field_scene.py": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805",
+    "output/original-flow-hotfix-product0.27.1/app/body_field_view.py": "274a3916769331b4518c0aa543acc00fe5f0531b380e76473fbfc101ebdd6933",
+    "output/original-flow-hotfix-product0.27.1/app/body_registry.py": "e763b3340338d94d5c1288e49951ed8f0b64c8fb50c95494093ca98afadb014d",
+    "output/original-flow-hotfix-product0.27.1/app/branch_store.py": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4",
+    "output/original-flow-hotfix-product0.27.1/app/cloud_bridge.py": "cfa4b8b7bda7ad44bdb8ed27b024a4a52a3c7bf8381a23f98f5a83a695a7ef9c",
+    "output/original-flow-hotfix-product0.27.1/app/cloud_driver.py": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb",
+    "output/original-flow-hotfix-product0.27.1/app/cloud_scene.py": "f372b7542e05ca19500482401f98b5cb0f566203994482400eb451acd0235b3f",
+    "output/original-flow-hotfix-product0.27.1/app/cloud_transport.py": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690",
+    "output/original-flow-hotfix-product0.27.1/app/cno.py": "1ffe541ea8b182154dad3359960d2e5ad80c8a9b40477fb6061659759a4f56b7",
+    "output/original-flow-hotfix-product0.27.1/app/constants.json": "642b0cf9f09d72408b7bfc2e0a256b681a85ba0afc4ff251555f0d31facec0da",
+    "output/original-flow-hotfix-product0.27.1/app/decays.py": "cfaad568c3f8493f6ec9a8da3fa69ab83c1188f278939fd30701c9457f550c21",
+    "output/original-flow-hotfix-product0.27.1/app/dipole.py": "df2149713070beb150d3da755e2118efd2238b84fee097d157e124f3bac0b231",
+    "output/original-flow-hotfix-product0.27.1/app/dynamics16_runtime.py": "e3d8738bcf00424bbad29b48840145f88f890897ee2a8e76a421476fb2554d90",
+    "output/original-flow-hotfix-product0.27.1/app/earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+    "output/original-flow-hotfix-product0.27.1/app/equilibrium_tide.py": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06",
+    "output/original-flow-hotfix-product0.27.1/app/field_geometry.py": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55",
+    "output/original-flow-hotfix-product0.27.1/app/field_layers.py": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349",
+    "output/original-flow-hotfix-product0.27.1/app/field_scene.py": "f055b600cd015733e72414692902f171dcd275343923f6b361eb0d0659afac27",
+    "output/original-flow-hotfix-product0.27.1/app/field_sections.py": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e",
+    "output/original-flow-hotfix-product0.27.1/app/forces.py": "8a5696fd943c2327fee7a71788d8bcf6e8cfc5a1396cc656595dfede375a8c30",
+    "output/original-flow-hotfix-product0.27.1/app/fusion.py": "c44fcae2f1ee24dcc2b7c762898c5832df70986df655e5abd1165eb46df5070d",
+    "output/original-flow-hotfix-product0.27.1/app/geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+    "output/original-flow-hotfix-product0.27.1/app/gravity_experiments.py": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474",
+    "output/original-flow-hotfix-product0.27.1/app/gravity_field.py": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5",
+    "output/original-flow-hotfix-product0.27.1/app/gravity_harmonics.py": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae",
+    "output/original-flow-hotfix-product0.27.1/app/gravity_instruments.py": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7",
+    "output/original-flow-hotfix-product0.27.1/app/import_dispatch.py": "16a9e09ab1ee63faec8033064be6bbea9af7859fc8e145b32f505d1b43c6cdd3",
+    "output/original-flow-hotfix-product0.27.1/app/instrument_history.py": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3",
+    "output/original-flow-hotfix-product0.27.1/app/instrument_scene.py": "3f5450ba5c78987c8f0d504e437e46a0c15ac36c1d8967fc988e53b4d130638b",
+    "output/original-flow-hotfix-product0.27.1/app/is4_body_snapshot.py": "43338578a784579b19cc032888ac8fb516322b5bebf0fd9c4346e2375ee1e1d0",
+    "output/original-flow-hotfix-product0.27.1/app/is4_client.py": "4dba32d86ffa0d98e1576d756c7b58b8bda7edc0e0ee6bd1f42b2b0540b0b24f",
+    "output/original-flow-hotfix-product0.27.1/app/is4_domains.py": "aee58f0313741fec29b65d55d2bead0343976e20e4aef27bc5eaf93ca46751f0",
+    "output/original-flow-hotfix-product0.27.1/app/is4_experiment.py": "5905195365284b5f83294b5c7e416870cc852f3b33585deb6dcaf13f5291ffd5",
+    "output/original-flow-hotfix-product0.27.1/app/is4_laboratory.py": "659789a013cc08b412de67f2b9afa065924567dcf51cc2a1d03bbf8f377edc2d",
+    "output/original-flow-hotfix-product0.27.1/app/is4_particle_scene.py": "912df8d5265079c4bb997af27b36849ca54aa63fe5047f2ecbea6ae53f68dd3a",
+    "output/original-flow-hotfix-product0.27.1/app/is4_particles.py": "0eebc49fae538ac9211024ba554fe33ab8ccf4eaa7850eb771345b07d663e56b",
+    "output/original-flow-hotfix-product0.27.1/app/is4_product_store.py": "82885d6e7e211ea3342a6b738ed54d9badeb5382d786a2dcc52c5b4dd07429c6",
+    "output/original-flow-hotfix-product0.27.1/app/is4_stream_scene.py": "123ed9308fe42fbef7790004976d5be86df3ebceff22bf6b5258ab3a9c5dc712",
+    "output/original-flow-hotfix-product0.27.1/app/is4_trajectory_transport.py": "913c18d2bf2c84d998803fb078853fc385f6e5da009759076788981a33d39b72",
+    "output/original-flow-hotfix-product0.27.1/app/is4_values.py": "3f0c824510506a0a4e23e3b85cbda9aa5d642b67b7f13058faef623890bd155c",
+    "output/original-flow-hotfix-product0.27.1/app/is4_wind_diagnostics.py": "a1de7ae2b0ea389f59728799e7134c6759087b3dba802ec7630fc800beae7e1f",
+    "output/original-flow-hotfix-product0.27.1/app/is4_wind_field.py": "187a5946ef60e41e2b31de28464c43c6eb5e6327e15e37019316cb367d14b2d1",
+    "output/original-flow-hotfix-product0.27.1/app/is4_wind_reading.py": "e6854954aafe280b109689b7174e6bed20ba4a2cc7ef61bd8c9ae879e9d57628",
+    "output/original-flow-hotfix-product0.27.1/app/is4_wind_snapshot.py": "5e34940f911212757cf55e91ea5200e1be2d44150dbabd7fb03a28573ffb30ae",
+    "output/original-flow-hotfix-product0.27.1/app/is4_worker.py": "966d66d2a0b52e05790f521f653d3ec65b8a48c8ed763ed723cb092da5bcf51a",
+    "output/original-flow-hotfix-product0.27.1/app/is5_artifact.py": "85713e1ed1249af3a1577987e34734409cdee4b2c637564d307b13e202b1588e",
+    "output/original-flow-hotfix-product0.27.1/app/is5_client.py": "0b0a90356a31ab298862a11e31aad127b35a2fff11802a1c553c8ceac4f070cd",
+    "output/original-flow-hotfix-product0.27.1/app/is5_cno2_artifact.py": "61f66deddf6140e27bcc94993acd002ecb8773adf0512f4b5d81b27f9e2be0c7",
+    "output/original-flow-hotfix-product0.27.1/app/is5_cno2_client.py": "10843570c3d7a368e50bf6b1e017b2270bd375f89e72b85e4dc00aff7e5856e8",
+    "output/original-flow-hotfix-product0.27.1/app/is5_cno2_worker.py": "dbbc2a94119073742af707d8c3d5a323fd2f15e3d56247a8f61e27b31b743a7c",
+    "output/original-flow-hotfix-product0.27.1/app/is5_compression_artifact.py": "3950d2dbdf2f257af30f9c31447cedd800ba9061b209c19d62226727a419b517",
+    "output/original-flow-hotfix-product0.27.1/app/is5_compression_calculate.py": "bd0744851892fcec7d8c168111c29a1a8329d64d97ea6b53d1329805e17199ad",
+    "output/original-flow-hotfix-product0.27.1/app/is5_compression_client.py": "1c3776a824a64e68891cec758eb062fb25755f1ab65178cc9dfbcdc1cdd3a2e6",
+    "output/original-flow-hotfix-product0.27.1/app/is5_compression_process.py": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8",
+    "output/original-flow-hotfix-product0.27.1/app/is5_compression_worker.py": "d55fbf0e489284d974f6c944c7d2ea7e627e3058e8f61b78b2baef9cfabc548e",
+    "output/original-flow-hotfix-product0.27.1/app/is5_core.py": "d0f2e96496f902c3b9ccbfb859fecab77f41d9a9e74897dabccfafd9aa01dd29",
+    "output/original-flow-hotfix-product0.27.1/app/is5_coulomb_artifact.py": "ca921a0b2434143b67b3eccea82a864360a457d62362f04e3a5723a9b443cc5b",
+    "output/original-flow-hotfix-product0.27.1/app/is5_coulomb_calculate.py": "5c39b3c95c7a6cdd458e778092bb361a901f4a251e21f5fcb5fd4355186b2114",
+    "output/original-flow-hotfix-product0.27.1/app/is5_coulomb_client.py": "5761b775c5eb75e71cad3f5ec59d8ba0566ee7dc967fd4fb6b2e47f696914490",
+    "output/original-flow-hotfix-product0.27.1/app/is5_coulomb_process.py": "7cf90c82a75459e5383c45163932aea4d83213a572c8a79be3830eb4e8bbabb8",
+    "output/original-flow-hotfix-product0.27.1/app/is5_coulomb_worker.py": "6ee49110f005f4602d76d85b10da2e27696786190f4755b963b3854f2cc18f3e",
+    "output/original-flow-hotfix-product0.27.1/app/is5_laboratory.py": "be542ea69943e28f899aba8edee7d5443115823e939cbffca7f42aeb7318b5a2",
+    "output/original-flow-hotfix-product0.27.1/app/is5_pp2_artifact.py": "7ff6af08f000abda872ae005571a787794c15aec74d98a536deaf6a5888f48a1",
+    "output/original-flow-hotfix-product0.27.1/app/is5_pp2_client.py": "8134a47c22aff5f31ed1298513326142fdd1d6240ff0c49ec87a91999b74485e",
+    "output/original-flow-hotfix-product0.27.1/app/is5_pp2_worker.py": "881f58ca79b6077de2a10af1a490f763e0cc69e19090026d16bfeceac5f2f2bd",
+    "output/original-flow-hotfix-product0.27.1/app/is5_pp3_artifact.py": "4ecafa39037becfa676c6ec9156b8c7ff8e1abc77e04cd14c08113e2a4c857e0",
+    "output/original-flow-hotfix-product0.27.1/app/is5_pp3_client.py": "d60f2b9c6436c3ff5f9001e1b834659d043973000ea284dae04290c7f21789d0",
+    "output/original-flow-hotfix-product0.27.1/app/is5_pp3_worker.py": "b1915a1a2739207d28644d8a91b5eeac6dc207c99cafbbbbe06b2f0a5b930691",
+    "output/original-flow-hotfix-product0.27.1/app/is5_reference_browser.py": "63b77f1713e08e460ab82db3bf755092e874c3c836046351fdb9d67da406b746",
+    "output/original-flow-hotfix-product0.27.1/app/is5_reference_cno.py": "00d409e2b649e41c1f03d66edc6c744b7c2eff9132273b82408e4ca2b83dc41c",
+    "output/original-flow-hotfix-product0.27.1/app/is5_reference_manifest.py": "b11dfef5443e2e43531489dabb61302e55d976310dfe633534494504cb14a035",
+    "output/original-flow-hotfix-product0.27.1/app/is5_reference_pp.py": "9ac515e8c40b3b8bf23b548d7cc585c4b7b2ab2b55c6f25a02a249956921fd84",
+    "output/original-flow-hotfix-product0.27.1/app/is5_solar_source.py": "44114fd4f946a6ac91c62723899be497a1587412232ee30cfc3a0e26abc4ed02",
+    "output/original-flow-hotfix-product0.27.1/app/is5_thermal_artifact.py": "57a084cf52af93d69e9bf487b66c42c9f9432667fe9fc73d637ea90c348d160c",
+    "output/original-flow-hotfix-product0.27.1/app/is5_thermal_client.py": "ef5f36afc6c54a3f57c7fff244ea5d707818fb534ad8b7d5cf98cb02b146273a",
+    "output/original-flow-hotfix-product0.27.1/app/is5_thermal_worker.py": "6b5c138f20c690ffe88012dd1eebf1cfefde5d8b5831b41e351942366e959630",
+    "output/original-flow-hotfix-product0.27.1/app/is5_worker.py": "55bd92c7c45c946f43d89f649db5042c524742189254f3d214d9fffa21fd51ee",
+    "output/original-flow-hotfix-product0.27.1/app/is6_laboratory.py": "696d75341a301fd34a7fd6a54cf5a09e106defe701a54c4de5f9a66fa3420e2d",
+    "output/original-flow-hotfix-product0.27.1/app/is6_layer_contract.py": "f721b43a55a5e4dd2bfedce262bba85ce099573cc039736a62b677cb9b5f1ce2",
+    "output/original-flow-hotfix-product0.27.1/app/is6_layers_checkpoint_v2.py": "8d05595b50b47971c7f953109baf0d8dc9a7016602d9140434c0966f26db25ab",
+    "output/original-flow-hotfix-product0.27.1/app/is6_layers_import_store_v2.py": "4e13e0f4c4e12ddb40cf108797f103f50dc5589a7cf247c10e9ecf0f1e74ccea",
+    "output/original-flow-hotfix-product0.27.1/app/is6_layers_laboratory.py": "6d1ff837e0a45842c290be70bc3069029825de1a3fe25f47e6065e638d460527",
+    "output/original-flow-hotfix-product0.27.1/app/is6_layers_migration.py": "e510751b7a79ccb1e7a73c3e5ef53bfa114dd91d8e128d9f884ca1b29f396a4d",
+    "output/original-flow-hotfix-product0.27.1/app/is6_layers_saved_scene.py": "2f682d1db0349905f391de69efef3d1b9b20cd5621d13b3ed284ab793b8a195a",
+    "output/original-flow-hotfix-product0.27.1/app/is6_layers_scene.py": "dec60d7ac7bd33cd8f4435e5915d6590357f0bcb517c752cfdf39eed0165712a",
+    "output/original-flow-hotfix-product0.27.1/app/is6_layers_store.py": "44cfd158824b5d545e8f1d5ea1823d086119745946a3be69c3f0bf526a9ee631",
+    "output/original-flow-hotfix-product0.27.1/app/is6_planet_catalog.py": "8543d08ed528bdfbe40943ba046bd70235444f74ccd455c503fab8c6505798db",
+    "output/original-flow-hotfix-product0.27.1/app/is6_planet_catalog_v2.py": "9fa3ebef663402dc076daacdbe0249a13e684fe76ad8cf3f98b2842471a38aca",
+    "output/original-flow-hotfix-product0.27.1/app/is6_principal_moons_catalog.py": "de3c37996011f197bd92210bc4ee3a15daf8833ece471043ed00eb6238083c93",
+    "output/original-flow-hotfix-product0.27.1/app/is6_product_scene.py": "9facb179adad2699c198821d3e4f936b4241deb4bcf650d86b73593e528e25e6",
+    "output/original-flow-hotfix-product0.27.1/app/is6_spatial_import.py": "632ec6a3221df0dca3f7c22acabccf0b51209852347156611d7a51ac5b886086",
+    "output/original-flow-hotfix-product0.27.1/app/is6_spatial_import_laboratory.py": "5a68f68a5da56d057cd7632dfce495de67e47b157a2df4bc16121dc54b619dea",
+    "output/original-flow-hotfix-product0.27.1/app/is6_spatial_import_scene.py": "5fd201379a07028ac03b5692e406221aa8996a151fee96fa42bf11876acb20c1",
+    "output/original-flow-hotfix-product0.27.1/app/is6_spatial_import_store.py": "91aa6b9855db546e8fe408d3bdba907d63ff5b5fb9fd0ec3755eb6907170cefe",
+    "output/original-flow-hotfix-product0.27.1/app/j2_field.py": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7",
+    "output/original-flow-hotfix-product0.27.1/app/jrm33-coefficients.json": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+    "output/original-flow-hotfix-product0.27.1/app/jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28",
+    "output/original-flow-hotfix-product0.27.1/app/jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+    "output/original-flow-hotfix-product0.27.1/app/laboratory.py": "886fd556413bd24689e785a768c8ab5efbe621a9f84d80fd155fa59c85fcc711",
+    "output/original-flow-hotfix-product0.27.1/app/material_driver.py": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9",
+    "output/original-flow-hotfix-product0.27.1/app/material_tides.py": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb",
+    "output/original-flow-hotfix-product0.27.1/app/moon_atlas.py": "1d4a93597d2925977656a27d63f43885966cabd81d1678fe02c78d37502884e7",
+    "output/original-flow-hotfix-product0.27.1/app/moon_navigation.py": "810cfd68d5c4c621873e4316d1824a3c2b0213d8270da1f002e4cd8c6e065ae2",
+    "output/original-flow-hotfix-product0.27.1/app/navigation.py": "fefa696249d460e5b966a436eb68bc6007f48a7496d5ee3622b24e402865ae51",
+    "output/original-flow-hotfix-product0.27.1/app/nuclear_energies.py": "5b850fedba33905c6e7ba3ba5b05d40704285eeea00f0db077c30341eeac2d5c",
+    "output/original-flow-hotfix-product0.27.1/app/nuclei.py": "10ad5c228582bb6c59384ec05dd7533584afcdd50d9d316e8f47d322aa94ac3e",
+    "output/original-flow-hotfix-product0.27.1/app/orbit_scene.py": "f382a770e4de1a575cf882d281ae7591f10727ff7bb225bf748729ba37d3de9d",
+    "output/original-flow-hotfix-product0.27.1/app/orbital_diagnostics.py": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59",
+    "output/original-flow-hotfix-product0.27.1/app/orbital_instruments.py": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5",
+    "output/original-flow-hotfix-product0.27.1/app/packages.py": "289267c353687f0ba5c6df53dedae90a084264e3669e7d3314784f54ed9e87aa",
+    "output/original-flow-hotfix-product0.27.1/app/physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+    "output/original-flow-hotfix-product0.27.1/app/planet_atlas.py": "65f764fe663165c8efa84d66edc1c30fd13ce1a759dff6c6f5a1efae1dcb458a",
+    "output/original-flow-hotfix-product0.27.1/app/planet_navigation.py": "00797d36ca7cbda9874692e8d2a1ac08ba80e99922cd91f1e7e55cec7623a899",
+    "output/original-flow-hotfix-product0.27.1/app/planet_scene.json": "988dabae2a6053750eea096a20bd5c4bd99401f1229545e32bad38b5d0c00d1c",
+    "output/original-flow-hotfix-product0.27.1/app/probe_comparison.py": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb",
+    "output/original-flow-hotfix-product0.27.1/app/reference-manifest.json": "5ee84d0068e4a4877cb9a897a032812d541de1c8ec16582e8197307baf39af19",
+    "output/original-flow-hotfix-product0.27.1/app/references/AAG21.json": "d0df2fb698f3cd1bcded07fd0238d84fb91deee632152d50af9af361d9bf8fad",
+    "output/original-flow-hotfix-product0.27.1/app/references/AGSS09-ideal-EOS-Age1.json": "5ffa4972b0e52fbf56796f710c9d7ed99d19b162eb1db5a2501c54b97c6aa142",
+    "output/original-flow-hotfix-product0.27.1/app/references/AGSS09.json": "27249fde184ba8f5fbbeebfd944be33afbad1beedf77eb648144012c28c2deae",
+    "output/original-flow-hotfix-product0.27.1/app/references/B23-metadata-original.json": "bff47fd4295c07c1da0a255beadd61a049a88aaa6e21b9b5a6ee74212abed15f",
+    "output/original-flow-hotfix-product0.27.1/app/references/C11.json": "1fc77007ac474289021b0262b09d76f6ab2b09c038e95fb025e0fff32d4b97dc",
+    "output/original-flow-hotfix-product0.27.1/app/references/GS98-ideal-EOS-Age1.json": "d692f63e45297828e3e2e35aaab00174a468e1d3fae3792ccc3540d91a3ae0c0",
+    "output/original-flow-hotfix-product0.27.1/app/references/GS98.json": "8b4205361e0420411c81c394bec2a102848910987b5e8cbfc5f129053e9df895",
+    "output/original-flow-hotfix-product0.27.1/app/references/MB22m.json": "31f25f8b9ba3fd66cecaee032acfdb8b05c577647eb54ba815514db5dccdaf4e",
+    "output/original-flow-hotfix-product0.27.1/app/references/MB22p.json": "f827f7f96277f7ed0a50d4d74e15a554571a3d24d8f34ff87ade1f999837efca",
+    "output/original-flow-hotfix-product0.27.1/app/references/README-B23-original.txt": "6a7131a68db7e5753b77b7ddf61b833894a1603130c3734fa029e3a6133d5e4f",
+    "output/original-flow-hotfix-product0.27.1/app/relativity.py": "50637a4e9c02e2c70341423eb4ec1fcb8dd6bc4cbb719baff6061bcae12373bf",
+    "output/original-flow-hotfix-product0.27.1/app/resonant_angles.py": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0",
+    "output/original-flow-hotfix-product0.27.1/app/science_contracts.py": "2b46b66b1f5f589b4e14c6a5adb24e741c39b4cee8f2c1e9f669c2fe9e9a5e91",
+    "output/original-flow-hotfix-product0.27.1/app/server.py": "d15de54ff9441b961db44c0c9ae7530b902be9261b46c0287a6f7bb7ccd3ff90",
+    "output/original-flow-hotfix-product0.27.1/app/session.py": "f842e6c55d838b4b091d38761101127a2f8b40f2c08f4476fa72af9624ea5f52",
+    "output/original-flow-hotfix-product0.27.1/app/solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+    "output/original-flow-hotfix-product0.27.1/app/solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+    "output/original-flow-hotfix-product0.27.1/app/solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+    "output/original-flow-hotfix-product0.27.1/app/solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+    "output/original-flow-hotfix-product0.27.1/app/stellar.py": "c5e4ce10987fb6935785cbf0d44967a28df6e5a7d4c3a0d138866f8a51b8f166",
+    "output/original-flow-hotfix-product0.27.1/app/system16_frames.py": "2bd6d6e8545b5e9231c9c7e608ceacd46386ef75ef6b9185a6cd206d835f19d6",
+    "output/original-flow-hotfix-product0.27.1/app/system16_import.py": "5c396785955b0d3500d5c99d99c994c8d3c2ddff1020bd870753f4afdfda4421",
+    "output/original-flow-hotfix-product0.27.1/app/test_cloud.py": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826",
+    "output/original-flow-hotfix-product0.27.1/app/ui/app.js": "4ab22e3e6b831032e9aa6fc136f93df49c5c31dcd6a87cb67375ce27446d5fae",
+    "output/original-flow-hotfix-product0.27.1/app/ui/body-attributes.js": "e2a6d3b2596c43386438a705ff3b177df12f296cffc47c414cfc69e9f0e2e3c0",
+    "output/original-flow-hotfix-product0.27.1/app/ui/body-editor.js": "047a8b8a6593ab70723b66383d2edc09e95f439afec6f1693635789b59933364",
+    "output/original-flow-hotfix-product0.27.1/app/ui/body-field-map.js": "4f3e28018da5e03409b22964f20bdfefad03672b7f7f7b315c625fc1e672c57f",
+    "output/original-flow-hotfix-product0.27.1/app/ui/body-field-vector.js": "6111db1df2e3aeda9707570e84422e91edc8c6903cfa2300eff0c34d5f07ca27",
+    "output/original-flow-hotfix-product0.27.1/app/ui/branches.js": "054286ff6a7b20cf793e14644df8254544d1b56235aadbb251990a9ca28ea997",
+    "output/original-flow-hotfix-product0.27.1/app/ui/content.css": "f9879319e0f7ae78a44591f9ab5ece5a73d624dc8d24d591b92a86c90475681b",
+    "output/original-flow-hotfix-product0.27.1/app/ui/content.html": "a97283124623540d7ce7b85eb0d152083623c724287fe711e2ac14fc7f3cfb11",
+    "output/original-flow-hotfix-product0.27.1/app/ui/content.js": "e23ce95d39e66b6a32a65b25b1fd2bcf80d302392f42fd0668f842588ef41643",
+    "output/original-flow-hotfix-product0.27.1/app/ui/decays.js": "d9d29e3e2af599a4e636f59cae95d14924ca267c409d9cccd52d4a020209f8d8",
+    "output/original-flow-hotfix-product0.27.1/app/ui/earth-field.js": "ad7994a929eed6870c47a18ddce97350496117795b059172fae065cddd96e06c",
+    "output/original-flow-hotfix-product0.27.1/app/ui/forces.css": "005e507534ab5ceba539e9294c97f37e8b6ebcd57fa761c7f54d58fd0b6640ad",
+    "output/original-flow-hotfix-product0.27.1/app/ui/forces.html": "1151fade8479fdf343bb27f8536b7aefcedfb0a4c6506c5650af684c33a28103",
+    "output/original-flow-hotfix-product0.27.1/app/ui/forces.js": "d5826b526bddb0ec6a91d63ec57078cf52aa2a0cf33437b88589356dee3ee872",
+    "output/original-flow-hotfix-product0.27.1/app/ui/fusion.js": "32ab742c9f90c7b29809122cd47ef01983770aff1108f16ba0d2e2fd26734b1d",
+    "output/original-flow-hotfix-product0.27.1/app/ui/geomagnetism.js": "598bae70fed268ae923b50b55086941403312e8500fd71a22787e951c12ccc9f",
+    "output/original-flow-hotfix-product0.27.1/app/ui/gravity-experiences.js": "6ac356af3e98f95dd6d2d61e5c595ba792c5e8be9fc8585076694d7f36975398",
+    "output/original-flow-hotfix-product0.27.1/app/ui/gravity-fields.js": "8b6b2d2f1a64ec782c557d58164e2f4b159e0895124a95bbd7851ec5c4dac97e",
+    "output/original-flow-hotfix-product0.27.1/app/ui/gravity-harmonics.js": "837e3b4eb2997e9b130155674c90e80cc92fa779e2bd1a426844daccaa0f45cc",
+    "output/original-flow-hotfix-product0.27.1/app/ui/gravity-instruments.js": "0ec9022849bfe78ee2570b17ecc0c105b44d8d4ef9baf5774d167fec686ae7f3",
+    "output/original-flow-hotfix-product0.27.1/app/ui/gravity-probe.js": "2a79aef0f81a0130ff7d4cb7de3d78a15339432e07788456cba3820c95ea0484",
+    "output/original-flow-hotfix-product0.27.1/app/ui/index.html": "27f16c3b30a966a3cc7e7647387eb0f062d513d75c162938d384db31fa3c8252",
+    "output/original-flow-hotfix-product0.27.1/app/ui/instrument-history.js": "d9368a341afe7b2738f27c2050b3ff177ecef2ca55397ed338e18089f7d9fe9c",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is4-panel.fragment.html": "5402619b772dac20adf19e06ca4422bb28fbfeddd97367a21295369769bee9f9",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is4-particle.css": "a1f832c1a2b7395863846520e08ddfb8e464428c5d1a4e7787a8aaa824b55792",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is4-particle.js": "7adcf6b0b20a28e31e2604f36ba889c4e76ee6b761446234f3027cf360cd4522",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is4-setup.fragment.html": "e05d9e71b578ffb0e3b20ac84c533e2501e995f151c106ba6275b35c89d77b5e",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is4-wind-setup.fragment.html": "99758cde5721a6513f20bba5c0448034ffbef600b21bf7e3907b0762b4bf8ce8",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is5-zone-panel.html": "160c44a738147e5a894dfc91ee066db73fb056c9523f46b7d5f9c68e39bebf95",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is5-zone.css": "97a7a8ee5c1aab3527b622f5bd678a6947baf7c23f526c328e585cb38ca7122b",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is5-zone.js": "46a1f748db43e04a8ef895c06842d66663f83bc30f9e5fbe2c64e3b995e5a1a2",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is6-layers-panel.html": "2088161edcd39d9bcd43e8cf40b1238e7f78e3dca03c252d03f96818a34db602",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is6-layers.css": "2375e5e2d92f6bdbce06accded0d72f56a7f5b0764e3d99a07c4519f4d9ea1ab",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is6-layers.js": "06c772dd3cb94adf8ed8b0327743e5b25370e26f3282074037d8b47fe0c4f6a8",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is6-spatial-panel.html": "aacfaa5485504a3556512707342a58f77e85f66baf1d1f4ce84f3c41be2d0ce5",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is6-spatial.css": "f0ec6785a498368a13eae58be14f86681cf85c4fa0a88762eb19c6af98600c94",
+    "output/original-flow-hotfix-product0.27.1/app/ui/is6-spatial.js": "e6a39c8c8233d2df50d77c83e508f49e932d74359bf4c0494ab4b7ff95453bb0",
+    "output/original-flow-hotfix-product0.27.1/app/ui/jupiter-field.js": "a60901311af45084ebdeaa0668ad25af9d419c04a7a40fcf75b87ff35e2b4aee",
+    "output/original-flow-hotfix-product0.27.1/app/ui/material-tides.js": "1b287b9bb54fe50f1764d91463b694be2f9c3a7d5baac85a792a6324abf7c701",
+    "output/original-flow-hotfix-product0.27.1/app/ui/navigation.js": "f498e128a987c83fa5966f38dccc1467165a910cddf7336c07b3f793415accaf",
+    "output/original-flow-hotfix-product0.27.1/app/ui/nuclear-energy.css": "d1ad0ec936e8111818ad56aed0f30a3c95efe0e319d21c5b2c927b71c85617c2",
+    "output/original-flow-hotfix-product0.27.1/app/ui/nuclear-energy.html": "4b655211cfab257512ad959f5f8010ed497b65dc5c20ec18dcea29daef378ae2",
+    "output/original-flow-hotfix-product0.27.1/app/ui/nuclear-energy.js": "068d86f6b70875533674026c90f9da030da7475aef6a5f2f43cb3e36bc36e27f",
+    "output/original-flow-hotfix-product0.27.1/app/ui/nuclei.css": "3b79851b22aa981e38354ec4a4ece469fc4dbbee8f338aff5ea040d6b07c2547",
+    "output/original-flow-hotfix-product0.27.1/app/ui/nuclei.html": "e0975e132f969941a0855b9e1486cca4b284628303214c889cd1d828000687a5",
+    "output/original-flow-hotfix-product0.27.1/app/ui/nuclei.js": "66f80c499117e28f1bce18612260a1cf5fc690d7598008b63e2002bd99712cdd",
+    "output/original-flow-hotfix-product0.27.1/app/ui/orbit-editor.js": "43003e3c442d3dc61cd1c5ed19ec151913bbcd6bbee16240cc1a0e98808a6776",
+    "output/original-flow-hotfix-product0.27.1/app/ui/orbital-instruments.js": "1c8cd58875423234b0b8e066b217dc90cbe45a81b463a9475344413526a813bc",
+    "output/original-flow-hotfix-product0.27.1/app/ui/planet-catalog.html": "9e1d95753d771abef263c1038424488bfdc045cd734e521f02f970b6fe3817e7",
+    "output/original-flow-hotfix-product0.27.1/app/ui/planet-catalog.js": "70aabedd3729a98f4b705780e4a4d5da2d684afed52cd62303c47c05c83772e3",
+    "output/original-flow-hotfix-product0.27.1/app/ui/planet-definitions.js": "e366e8b380bd29692dacf621377bee8d88218348e00c1368315530114ccc5c35",
+    "output/original-flow-hotfix-product0.27.1/app/ui/reference-panels.js": "4dd6c3337b0d7d37b6bcb284db59a6a33bb1cd22d6c81fa45c7b4b4d1d0d3c91",
+    "output/original-flow-hotfix-product0.27.1/app/ui/solar-tide.js": "a47ab6a75f64a382ad711939cf3c8c70166dc9a56dec4f66e79b74fe86c98e03",
+    "output/original-flow-hotfix-product0.27.1/app/ui/solar.js": "0990ee5dc0d4f3624576702fbae34e7d60d7d6b15b90c1ff17548b57bc527831",
+    "output/original-flow-hotfix-product0.27.1/app/ui/stellar-reference-panel.html": "03e5cd370255d795157314f1774257f4c253be1bc2ff2d3736a2e0c922daaac2",
+    "output/original-flow-hotfix-product0.27.1/app/ui/stellar-reference.css": "846af8965445a164fa2bbb5e6ebb898a6733634d0f3e6c51a21747dc77267563",
+    "output/original-flow-hotfix-product0.27.1/app/ui/stellar-reference.js": "899fdfcc099889bd005da0aa388210d2a516b5b70a16e9e27174430cb4a11a5e",
+    "output/original-flow-hotfix-product0.27.1/app/ui/style.css": "d6e31cde789bcc781e241ed95d02c2a15556d5e4e23d01756445e0ce7ba0281e",
+    "output/original-flow-hotfix-product0.27.1/app/ui/test-cloud.js": "1f3611ac8304d49351d975316f90a627530de849ef3f2cab9aef4a0873655740",
+    "output/original-flow-hotfix-product0.27.1/app/worker.py": "e992347907ab68eb981712db379a7a99de1eb3bb67e29af2876c457e511abe66",
+    "output/original-flow-hotfix-product0.27.1/data/science/ame2020-mass-original.txt": "e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307",
+    "output/original-flow-hotfix-product0.27.1/data/science/canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+    "output/original-flow-hotfix-product0.27.1/data/science/cno1-c12pg-reaclib.txt": "1b8653d0404b230dddb913aefbe07a7745912e1d27b91891b36b430939b43cf3",
+    "output/original-flow-hotfix-product0.27.1/data/science/cno1-c13pg-reaclib.txt": "91f2274b622f134ab03e879b390e295f5c1d4388093d0b168c3d549e70565011",
+    "output/original-flow-hotfix-product0.27.1/data/science/cno1-n13beta-reaclib.txt": "297ccb6ee49a60eb66589f40371baa80b00cd9ff77e5e64bc363c5f3af03b024",
+    "output/original-flow-hotfix-product0.27.1/data/science/cno1-n14pg-reaclib.txt": "7517209a1f423a8aad9f8082a6754e12c162b49373f21388aa60b499eb8a7e37",
+    "output/original-flow-hotfix-product0.27.1/data/science/cno1-n15pa-reaclib.txt": "bc5e0dc2fe22dccb86a5bf89dd1564361bf734c532fe04d823f6309a5f51adc2",
+    "output/original-flow-hotfix-product0.27.1/data/science/cno1-o15beta-reaclib.txt": "422675859e49a881aac9ab576cd8509b45ec591279dd14ed962d833feb4cefa4",
+    "output/original-flow-hotfix-product0.27.1/data/science/cno1.json": "9f1128b084328fd11161a9b7a5fc8ae52bd2eddb56bd6eff0c7d8da78d103f11",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-13n-bp.csv": "eed3d83f7f73fe1d89be5abcf6588474b93efcc0a49602324b249be4c7b26ba7",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-13n-gs.csv": "e2449f0cf8757820576173a537592b7e631841439bca367c8891823cf064fc83",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-14c-bm.csv": "42c4762c2e72d71670288977cc455d4e012d061d6207ef4c5fd8d4e6de29566c",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-14c-gs.csv": "7617f37b60752706b594cf31668ad85cdc53b317c8e345a89edd7d337267c20b",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-15o-bp.csv": "ec962bb1bfb43ba5d9f8b310e5b9c92ecc98943cb9bc0526e6b77e9908dbef4d",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-15o-gs.csv": "7afe42680c3b9d0817863f33ba4009647632c81fa9536bea50796d475b622348",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-18f-bp.csv": "2bcdf804d0b58a0102f1b3b678e95834528e84decc765d8070e92455231d6bd7",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-18f-gs.csv": "923ec92ca9d04fc5898c9d66fee0028406eb726aa9d1cdeeb46152786420544e",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-1n-bm.csv": "6071dce80497b3f908e1919085946df1577697c540329b7640beb6bc65272b9d",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-1n-gs.csv": "6e1d57b8752e70bd3cc99d1487e2dad98fcfc028fb151211a2c0740b26ae7a10",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-22na-bp.csv": "3040e179ec61a4c9cb633821ca570416b258dc73bea1e0a71406e00d1e5f067f",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-22na-gs.csv": "ef43610b52ef1a449eac38c014ae80c6b058422c1e20ef9165b99e19b324556d",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-3h-bm.csv": "aad02af2043cd2df96c1a7fbb6401e4f62f57c742306756d66b6eec4c2752e62",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-3h-gs.csv": "c76d03f95f46375331f5db8b04c8260459e1945f4b3f9ec4c66eb7ffdec8549c",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-7be-bp.csv": "e3f2a20317c7537427b0b62a3d2429aeb21e03af58564153cd2e912c87061f64",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-7be-gs.csv": "a655b45f4251ce358549ca6482e75edae6f00b848661bf3d6efbdfca8e4a5eea",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-90sr-bm.csv": "91e265fd8d43cc4f82df5e6d2b0f2a69ff704b8846d7d996c8288bb5f93d6d09",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-90sr-gs.csv": "9c8b75275d7ecfed0b91c34cb96425e4f33c6a33bb238ba8c6bec9fb7e605490",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-90y-bm.csv": "31afd13eaaf02329f9e541cfe22a09ddfc495ea54f4778d67d7f280c1134e017",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-90y-gs.csv": "27a773eaa900107b175d8e7c352f0289e23de47a6a0050add915cb7117584fda",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays-nubase-original.txt": "1585a5eea86c5e17e90307c7e6e786d060049c4039e392a261ff6db977df9859",
+    "output/original-flow-hotfix-product0.27.1/data/science/decays.json": "bc482a4f24effed8d97b253f3e985a93e25a8298f941b9146ff4bc2d71dcceeb",
+    "output/original-flow-hotfix-product0.27.1/data/science/dt-reaclib.txt": "d0dbc02a2f455b43596c797fa713d0f5165b043e1d0c89e598b359e8450afad8",
+    "output/original-flow-hotfix-product0.27.1/data/science/fusion-c12alpha-reaclib.txt": "6b1b37047cd65ba4c5aff075c08d1e3a356034ab99314efd8247548e616a0715",
+    "output/original-flow-hotfix-product0.27.1/data/science/fusion-ddn-reaclib.txt": "87c3d546358065ebfcce055fd497a9d9aa92d5b965e8f9cbc0305fa3cdfdd69f",
+    "output/original-flow-hotfix-product0.27.1/data/science/fusion-ddp-reaclib.txt": "71142119dc6aa04d425882071aee82d5ab1015c2f0eaf567bf0c5162f79b4d39",
+    "output/original-flow-hotfix-product0.27.1/data/science/fusion-dp-reaclib.txt": "de8914f7c69bc8f497218f4ec10d3994f37e4bfa4b64eb711e57820e52d45d69",
+    "output/original-flow-hotfix-product0.27.1/data/science/fusion-dt-reaclib.txt": "d0dbc02a2f455b43596c797fa713d0f5165b043e1d0c89e598b359e8450afad8",
+    "output/original-flow-hotfix-product0.27.1/data/science/fusion-he3he3-reaclib.txt": "5ad0b4435fb8602aa5c97e756e788b5d63032368dbfe8d5ba1e2d5ac6d634100",
+    "output/original-flow-hotfix-product0.27.1/data/science/fusion-li7p-reaclib.txt": "2ecb11b32cb486b0590a1b6aa974ac16f1736335bcfd9913f6b78d6348d10894",
+    "output/original-flow-hotfix-product0.27.1/data/science/fusion.json": "ba5cc7c4b046a5c8daed014af25b1bf30dc07ba854004ec5150b582f0f7005fb",
+    "output/original-flow-hotfix-product0.27.1/data/science/gravity-experiments.json": "98ddf2234b0b4b7703accdf264dde60bd95b43c1240557419cd38688e7c5dafd",
+    "output/original-flow-hotfix-product0.27.1/data/science/igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+    "output/original-flow-hotfix-product0.27.1/data/science/nuclear.json": "521e474ba45ac50d62bfbeb1f2eec48868e1dea461e05c2d3e9972d4299864d5",
+    "output/original-flow-hotfix-product0.27.1/data/science/pp1-dp-reaclib.txt": "de8914f7c69bc8f497218f4ec10d3994f37e4bfa4b64eb711e57820e52d45d69",
+    "output/original-flow-hotfix-product0.27.1/data/science/pp1-he3he3-reaclib.txt": "5ad0b4435fb8602aa5c97e756e788b5d63032368dbfe8d5ba1e2d5ac6d634100",
+    "output/original-flow-hotfix-product0.27.1/data/science/pp1-pp-reaclib.txt": "a2798d4cece8678eaf19ec464678e0d993f057b3c531c38c3656df133af21628",
+    "output/original-flow-hotfix-product0.27.1/data/science/pp1.json": "15ac0b52a6af9cd2fcc7254336e8f0f7a8d8c3ae5ebcca5dc811bf4e406b83b0",
+    "output/original-flow-hotfix-product0.27.1/data/textures/earth.jpg": "a9f0088972dee0254610af851c4d6838ca3f2cf79176987e0a5713e2c15ec042",
+    "scripts/verify-ordinary-native-journey-v4.py": "a8df3a0d4907fca9cb745e109d11b5246833273a11973b35f9cab032eb9beadd",
+    "scripts/ordinary_native_input_v4.py": "ea5c1bb2d6ad860fef801945394bcbd866cf30ab1e0a4273a3a469ef824bc69b",
+    "scripts/cef_page_v2.py": "6e6899c8d557ca9b444aeebfd454a5a9ed43eb9b7abc371a871ddd1f94f41cbe",
+    "scripts/open-working-cosmos2.py": "aa18ab39df045b02f70547f833fc1751464c251e0d88b9394a237feb9d4cbb56",
+    "scripts/launch-working-cosmos2.py": "2d4dc1c6202af9effdb3a2929706c4a4122ae397f7e69e3fb31cbd794595ef25",
+    "Iniciar-Cosmos2.cmd": "fa852688437bfa8d5b44002eb58143ab7cef13fe5256b12c2fdad7ad047d73bb",
+    "Abrir-Planetas.cmd": "fa852688437bfa8d5b44002eb58143ab7cef13fe5256b12c2fdad7ad047d73bb",
+    "Abrir-Planetas-e-Luas.cmd": "fa852688437bfa8d5b44002eb58143ab7cef13fe5256b12c2fdad7ad047d73bb",
+    "config/local-working-product.json": "0585bd10404a5a582fd4f02cce2d9d26415f2dc7c0b3b6883db6474ab88bc886"
+  },
+  "scope": "Bounded native Forces/Mesh/Layers journeys through original .cmd and header buttons. Ordinary Windows mouse/keyboard only; DOM/HTTP readback is supplementary. Explicit Network blocking is transport fault injection only. Import, cancellation races and overall milestone acceptance are outside this receipt.",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-ordinary-native-journey-v4.py\", line 150, in main\n    window.select('#ui-scale', '1')\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\ordinary_native_input_v4.py\", line 194, in select\n    self.page.wait_for_function('document.querySelector('+json.dumps(selector)+').value==='+json.dumps(value))\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\cef_page_v2.py\", line 40, in wait_for_function\n    raise TimeoutError(expression)\nTimeoutError: (() => {try {return Boolean(document.querySelector(\"#ui-scale\").value===\"1\");}catch {return false;}})()\n",
+  "final_spatial": {
+    "active": false,
+    "error": null,
+    "guard": {
+      "session_id": "7cfebcf147f8459fb24dce1039c24c1f",
+      "artifact_id": null,
+      "revision": 14
+    },
+    "checkpoint_available": true,
+    "branches": [],
+    "branch_parent": null,
+    "artifact": null,
+    "scene": null,
+    "recovery_required": false,
+    "import_preview": null,
+    "busy": false,
+    "transaction": null
+  },
+  "final_layers": {
+    "active": false,
+    "error": null,
+    "recovery_required": false,
+    "guard": {
+      "session_id": "d5e8da89db2c4c9484bdcf6c6b34c6e5",
+      "artifact_id": null,
+      "revision": 8
+    },
+    "artifact": null,
+    "scene": null,
+    "checkpoint_available": true,
+    "branches": [
+      {
+        "valid": true,
+        "id": "1aecd25eb473477d9eab82da8829f0aa",
+        "name": "Camadas ampliadas 399",
+        "parent": null,
+        "created_utc": "2026-11-13T12:11:16.418954+00:00",
+        "scientific_sha256": "b6cc28470319df8bfb2bfe1d8a9101ed17f61e766eb81bbd4bb38b2e07838457",
+        "visible": {
+          "magnetic": true,
+          "spatial": true
+        },
+        "origin": null
+      },
+      {
+        "valid": true,
+        "id": "3e41e18bc73f40f5b81e98baee4a294b",
+        "name": "Camadas ampliadas 599",
+        "parent": null,
+        "created_utc": "2026-11-13T12:11:44.886940+00:00",
+        "scientific_sha256": "2f02175e4c4d44b46db617e9e7304119f2aae61e5027902202c6818bbfcd593c",
+        "visible": {
+          "magnetic": true,
+          "spatial": true
+        },
+        "origin": null
+      }
+    ],
+    "branch_parent": null,
+    "loaded_record": null,
+    "import_preview": null,
+    "busy": false,
+    "transaction": null
+  },
+  "final_laboratory": {
+    "mode": "experiment",
+    "physics": {
+      "type": "snapshot",
+      "sequence": 0,
+      "paused": true,
+      "requested_rate": 1.0,
+      "effective_rate": 0.0,
+      "integration_yielded": false,
+      "integration_budget_ms": 40,
+      "integration_notice": null,
+      "experiment_horizon_reached": false,
+      "compute_ms": 0,
+      "time": 0.0,
+      "units": "canonical",
+      "G": 1.0,
+      "physical_scale": {
+        "schema": 1,
+        "length_unit_m": 1000000000.0,
+        "nominal_GM_unit_m3_s2": 1.3271244e+20,
+        "G_m3_kg_s2": 6.6743e-11,
+        "G_standard_uncertainty": 1.5e-15,
+        "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+        "sources": [
+          "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+          "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+        ],
+        "time_unit_s": 2745.0115932913473,
+        "mass_unit_kg": 1.988409870698051e+30,
+        "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+        "velocity_unit_m_s": 364297.1863739823
+      },
+      "integrator": "IAS15",
+      "epsilon": 1e-09,
+      "energy_error": 0.0,
+      "energy_error_absolute": 0.0,
+      "bodies": [
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+          "mass": 1.0000000003108473,
+          "position": [
+            0.5061445368883201,
+            -0.5133518725509765,
+            -0.23236828795868575
+          ],
+          "velocity": [
+            2.593022743651121e-05,
+            1.9585424249015912e-05,
+            7.764407601744207e-06
+          ],
+          "name": "Sol",
+          "reference_id": "sol:naif:10",
+          "origin": {
+            "kind": "atlas_copy",
+            "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+          },
+          "scene_node": "LabBody_5d7de2e0524344761156612d",
+          "label_node": "LabLabel_5d7de2e0524344761156612d",
+          "spin_node": "LabSpin_5d7de2e0524344761156612d",
+          "shape_node": "LabShape_5d7de2e0524344761156612d",
+          "applied_GM_m3_s2": 1.327124400412533e+20,
+          "attributes": {
+            "radius_m": null,
+            "radius_origin": {
+              "kind": "unknown"
+            },
+            "angular_velocity_rad_s": null,
+            "spin_origin": {
+              "kind": "unknown"
+            },
+            "orientation_reference_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation_epoch_model_time": 0.0,
+            "orientation_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:399",
+          "mass": 3.0034896166779844e-06,
+          "position": [
+            142.69372185998247,
+            41.42501573612479,
+            17.94656532713074
+          ],
+          "velocity": [
+            -0.02634028846534006,
+            0.07118987994749824,
+            0.030860634140720503
+          ],
+          "name": "Terra",
+          "reference_id": "sol:naif:399",
+          "origin": {
+            "kind": "atlas_copy",
+            "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+          },
+          "scene_node": "LabBody_156b23bc97e8c1c0051654f3",
+          "label_node": "LabLabel_156b23bc97e8c1c0051654f3",
+          "spin_node": "LabSpin_156b23bc97e8c1c0051654f3",
+          "shape_node": "LabShape_156b23bc97e8c1c0051654f3",
+          "applied_GM_m3_s2": 398600435544000.0,
+          "attributes": {
+            "radius_m": null,
+            "radius_origin": {
+              "kind": "unknown"
+            },
+            "angular_velocity_rad_s": null,
+            "spin_origin": {
+              "kind": "unknown"
+            },
+            "orientation_reference_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation_epoch_model_time": 0.0,
+            "orientation_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:301",
+          "mass": 3.694303340365078e-08,
+          "position": [
+            142.349096290041,
+            41.26997871311936,
+            17.846681816723027
+          ],
+          "velocity": [
+            -0.02514701888218768,
+            0.06894837702531485,
+            0.029742407839830474
+          ],
+          "name": "Lua",
+          "reference_id": "sol:naif:301",
+          "origin": {
+            "kind": "atlas_copy",
+            "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+          },
+          "scene_node": "LabBody_c96957fe70a068fb3b2405f5",
+          "label_node": "LabLabel_c96957fe70a068fb3b2405f5",
+          "spin_node": "LabSpin_c96957fe70a068fb3b2405f5",
+          "shape_node": "LabShape_c96957fe70a068fb3b2405f5",
+          "applied_GM_m3_s2": 4902800104000.0,
+          "attributes": {
+            "radius_m": null,
+            "radius_origin": {
+              "kind": "unknown"
+            },
+            "angular_velocity_rad_s": null,
+            "spin_origin": {
+              "kind": "unknown"
+            },
+            "orientation_reference_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation_epoch_model_time": 0.0,
+            "orientation_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:599",
+          "mass": 0.0009545942482887844,
+          "position": [
+            -530.6740281257112,
+            537.6377758275082,
+            243.3638447059442
+          ],
+          "velocity": [
+            -0.02707976263302062,
+            -0.020743671479302665,
+            -0.008231974985410314
+          ],
+          "name": "Júpiter",
+          "reference_id": "sol:naif:599",
+          "origin": {
+            "kind": "atlas_copy",
+            "source_branch_id": "19bc450c015f4bcaac761ab6eaf5153b"
+          },
+          "scene_node": "LabBody_d6925d1923ae74cf51345837",
+          "label_node": "LabLabel_d6925d1923ae74cf51345837",
+          "spin_node": "LabSpin_d6925d1923ae74cf51345837",
+          "shape_node": "LabShape_d6925d1923ae74cf51345837",
+          "applied_GM_m3_s2": 1.266865319003704e+17,
+          "attributes": {
+            "radius_m": null,
+            "radius_origin": {
+              "kind": "unknown"
+            },
+            "angular_velocity_rad_s": null,
+            "spin_origin": {
+              "kind": "unknown"
+            },
+            "orientation_reference_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation_epoch_model_time": 0.0,
+            "orientation_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "contract": {
+        "schema": 2,
+        "frame": "initial_subset_barycenter_inertial_axes_J2000",
+        "units": {
+          "system": "canonical",
+          "G": 1.0
+        },
+        "model": "newtonian_point_masses",
+        "collisions": "disabled",
+        "integrator": "IAS15",
+        "epsilon": 1e-09,
+        "epoch": {
+          "utc": "2026-10-11T12:00:00.000Z",
+          "et_tdb_s": 844992069.1823514,
+          "origin": "explicit geometric coordinate epoch",
+          "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+        },
+        "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for JPL ephemerides",
+        "jupiter_representation": "physical center599 and planet GM; no independent barycenter5 particle",
+        "excluded_influences": [
+          "demais planetas e luas, incluindo luas jovianas",
+          "asteroides e outros corpos menores",
+          "relatividade",
+          "multipolos e deformações de maré",
+          "campos EM e processos estelares",
+          "colisões"
+        ]
+      },
+      "revision": 0,
+      "fixture_count": null,
+      "fixture_sha256": "43829d07408e24bc46db9e50940c43e8aece86acb1fc2ec9adbfa5b7703ede85",
+      "interventions": [],
+      "system_id": "95fa8b74bdd24843853a8076f0a9614d",
+      "edit_token": "edce1598fb8d410db04c8685102c30d9",
+      "origin_kind": "atlas_copy",
+      "scientific_generation": {
+        "schema": 1,
+        "model_id": "cosmos2:editable-newtonian-atlas_copy",
+        "model_version": "3.13.0",
+        "candidate_extension": {
+          "id": "is3-body-fields",
+          "version": "0.7.1",
+          "initial_format": "solar_four_physical_centers/1.0.0",
+          "code_sha256": {
+            "solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+            "solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+            "solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+            "import_dispatch.py": "16a9e09ab1ee63faec8033064be6bbea9af7859fc8e145b32f505d1b43c6cdd3",
+            "solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+            "earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+            "geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+            "jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+            "jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28",
+            "body_field_geometry.py": "17a257fe18708f640e3f79e43dac6d78c498dd2844a4633757498ebabfe1afc4",
+            "body_field_scene.py": "2beab5db013726069fb5228baa7d3be6d28d151f30211736972f2b8118a2f805",
+            "body_field_layer.py": "a56118896a743d904312f8bfe466bdc98c19675694e3a17ef7a07ee0df8de3a2",
+            "body_field_lines.py": "ddd0e266f6cc96a4cba64db773a3b801ed5e8ca8cd9b07b88efd92088c93f8f3",
+            "body_field_view.py": "274a3916769331b4518c0aa543acc00fe5f0531b380e76473fbfc101ebdd6933",
+            "body_field_maps.py": "8988d3c437b88c2a6c0db5210dd8710c5ccc7e35b8e2be9b693fe57216e8630f",
+            "body_field_map_geometry.py": "cfa807924eed8c8a06e1ee25f8eb8a759ce37b900bffe7e7a3f58fc619c560bd",
+            "body_field_map_layer.py": "17640635bf80047d537df0be650871d463b5802fb4818a3020210aadcfb7b154",
+            "body_field_points.py": "d054c5c72ef76cabe5cacfc6b78cb67f5b51387a60e2152ee3107127fbe8f169"
+          }
+        },
+        "code_sha256": {
+          "app/cloud_transport.py": "ba7220a28fbcc818e717c69ca819e78767bec143a8047f56fee0b5a91008e690",
+          "app/cloud_driver.py": "7037243e6bd7aec4bbedce9db83875b7848177d328e4553720d6f370ca03caeb",
+          "app/test_cloud.py": "de148003a3cb645faf82524f59dc13ff841f3c9d7099341f3d7a9cd9a1df1826",
+          "app/resonant_angles.py": "6179428f32c2b977c7e791706371724616e13df3c575f59e484eca463a2bc0a0",
+          "app/orbital_instruments.py": "0f2748dc0fcd482100ac4f71ed84ab8b863ef26f36927d654f212e381472d2c5",
+          "app/equilibrium_tide.py": "7da769b50190de5e15540b46fa1fde79d9a74bfc6295f32e598635c826940c06",
+          "app/material_driver.py": "669cb6d0cf077039163658671763e9d1bb63107eb9e04ab7b48542ce4bf4fdc9",
+          "app/material_tides.py": "b13380a2a3f6b6d27e990f1e483c5876d3d9334f2f05ccfccd70e3a3039e00bb",
+          "app/j2_field.py": "3ff1695ff46d0bea49822b4ff88c7ac90e516913b90631273b31ff30f23be9a7",
+          "app/gravity_harmonics.py": "40b2633b62662b8631d954c0913c8baf47c98a569df90c12b52790ecf37a61ae",
+          "app/physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+          "app/session.py": "f842e6c55d838b4b091d38761101127a2f8b40f2c08f4476fa72af9624ea5f52",
+          "app/body_registry.py": "e763b3340338d94d5c1288e49951ed8f0b64c8fb50c95494093ca98afadb014d",
+          "app/body_attributes.py": "134a810a50c6e780d71c7129b33284971edc38dd29e9b857c2256030bc5d5649",
+          "app/orbital_diagnostics.py": "bd6c9eb744f5bf4f9b537562536169a603a972b67bd24f8f941c902a5e6f5b59",
+          "app/gravity_experiments.py": "2e5278662bfc06d7ddfeb2a90e17ca8b5d1018ef21420283b6dd5bafa3754474",
+          "app/gravity_field.py": "308e4222043753fe06876e8bef5118dd3e0621bd081c2ce28800e4f02112f9a5",
+          "app/gravity_instruments.py": "49bff9506c4e049baf91687ebb7c0ec81f2f8abea58afb17575e0ecf6eb169b7",
+          "app/field_layers.py": "379934e9829aeb7c07e55142fc4643a8c976f7b108b01e932ad58dce5c147349",
+          "app/field_geometry.py": "b737be0e9adaa6548c7fca45dd81305450cc6132d6a7ae89ddd5131075f97b55",
+          "app/field_sections.py": "c6bef4db13430b7fb1493c6ea81817a15f80dde843b946625d6a084e44f4bc7e",
+          "app/instrument_history.py": "a4f6cf14311de61215449cea918419ff85b20e687efa051bf6cc125a796660a3",
+          "app/probe_comparison.py": "b499531b9d6414e8115b6081273d49d2911999505c70baf42399bba05e03d6bb",
+          "app/branch_store.py": "e631e29d9e52ca8188d0f313f2e80819c8aa45f1afe84e42a62557edcbf663e4",
+          "app/worker.py": "e992347907ab68eb981712db379a7a99de1eb3bb67e29af2876c457e511abe66"
+        },
+        "data_sha256": {
+          "data/science/canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+          "data/science/gravity-experiments.json": "98ddf2234b0b4b7703accdf264dde60bd95b43c1240557419cd38688e7c5dafd",
+          "data/science/igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+          "output/is3-earth-orientation-staging/earth_000101_270118_261022.bpc": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+          "evidence/is3-earth-orientation-acquisition-20261023.json": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+          "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+          "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+          "output/is3-body-points-product/app/jrm33-coefficients.json": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+          "evidence/is3-jupiter-orientation-acquisition-20261023b.json": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312"
+        },
+        "runtime": {
+          "python": "3.12.10",
+          "rebound": "5.2.2",
+          "numpy": "2.5.4"
+        }
+      },
+      "topology_revision": 0,
+      "instruments": {
+        "schema": 1,
+        "revision": 0,
+        "probes": [],
+        "maximum_probes": 16
+      },
+      "field_layers": {
+        "schema": 1,
+        "revision": 0,
+        "settings": {
+          "center_mode": "fixed",
+          "center_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "body_id": null,
+          "shell_enabled": true,
+          "shell_radius_m": 20000000000.0,
+          "shell_count": 96,
+          "cut_enabled": true,
+          "cut_half_width_m": 30000000000.0,
+          "cut_resolution": 17,
+          "cut_orientation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "cut_offset_m": 0.0,
+          "magnitude_scale": "log",
+          "potential_levels_J_kg": []
+        }
+      },
+      "instrument_history": {
+        "schema": 1,
+        "revision": 0,
+        "recording": false,
+        "cadence_wall_s": 1.0,
+        "dropped": 0,
+        "next_sequence": 0,
+        "sample_count": 0,
+        "maximum_samples": 128,
+        "first_time": null,
+        "last_time": null,
+        "cadence_policy": "wall cadence at confirmed worker snapshots; actual physical timestamps retained; no integrator substep or interpolation"
+      },
+      "orbital_instruments": {
+        "schema": 1,
+        "revision": 0,
+        "definition": null,
+        "recording": false,
+        "cadence_wall_s": 1.0,
+        "dropped": 0,
+        "next_sequence": 0,
+        "sample_count": 0,
+        "maximum_samples": 128,
+        "latest": null,
+        "policy": "Ângulos críticos osculantes em plano inercial fixo, com primário explícito. Razão de períodos e arco amostrado não provam ressonância ou captura permanente. Leituras passivas, sem força adicional ou reinício do integrador."
+      },
+      "branches": {
+        "maximum_branches": 32,
+        "active_id": null,
+        "branches": [
+          {
+            "id": "branch:66b6e6c958bc4b54ae4984a40e79ebbd",
+            "name": "Fase4 comum aos instrumentos",
+            "parent_id": null,
+            "created_utc": "2026-11-13T12:11:05.306806+00:00",
+            "system_id": "fe941811a69742f4997c8944f826ac75",
+            "time": 0.0,
+            "revision": 0,
+            "frame": "initial_subset_barycenter_inertial_axes_J2000",
+            "record_sha256": "1d8b85b338a1f44484fd53c4eecc40c26687b922ce8b80e1517aa9374d4863d8"
+          },
+          {
+            "id": "branch:71b55f4e5f3c47adbe59ad17e3079746",
+            "name": "Filho16 ampliado",
+            "parent_id": "branch:be496cb08b424c83b50c17858b29dcbf",
+            "created_utc": "2026-11-13T12:11:02.973634+00:00",
+            "system_id": "2ad694b6f482460eb9461fa925a26541",
+            "time": 0.5333333333333333,
+            "revision": 0,
+            "frame": "initial_subset_barycenter_inertial_axes_J2000",
+            "record_sha256": "39c9e5398c97cb68f5e6417937d8dd0f3158f8e832f85c8024032d630eed0f2e"
+          },
+          {
+            "id": "branch:be496cb08b424c83b50c17858b29dcbf",
+            "name": "Origem16 ampliada",
+            "parent_id": null,
+            "created_utc": "2026-11-13T12:11:01.929342+00:00",
+            "system_id": "2ad694b6f482460eb9461fa925a26541",
+            "time": 0.0,
+            "revision": 0,
+            "frame": "initial_subset_barycenter_inertial_axes_J2000",
+            "record_sha256": "b6fdef7dda17eda51246e22423885badbae90f3e31c0e975bac9c2ecbaa34eeb"
+          }
+        ]
+      },
+      "body_field_view": null,
+      "numerical_policy": {
+        "ias15_adaptive_mode": "PRS23",
+        "single_body_policy": "INDIVIDUAL error criterion for exactly one active mass with zero force; PRS23 for multiple masses",
+        "probe_backreaction": false
+      },
+      "integration_boundary": {
+        "minimum_separation_m": 0.001,
+        "policy": "pause near point-mass singularity; no collision response or merger"
+      },
+      "population_contract": {
+        "active_ids": [
+          "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+          "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:399",
+          "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:301",
+          "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:599"
+        ],
+        "active_mass_count": 4,
+        "all_active_masses_gravitate": true,
+        "source_initial_population_preserved": true
+      },
+      "gravity_effects": {},
+      "material_tides": null,
+      "test_particle_cloud": null,
+      "dynamics16": null,
+      "atlas_initial": {
+        "schema": 2,
+        "kind": "solar_four_physical_centers",
+        "version": "1.0.0",
+        "branch_id": "19bc450c015f4bcaac761ab6eaf5153b",
+        "contract": {
+          "schema": 2,
+          "frame": "initial_subset_barycenter_inertial_axes_J2000",
+          "units": {
+            "system": "canonical",
+            "G": 1.0
+          },
+          "model": "newtonian_point_masses",
+          "collisions": "disabled",
+          "integrator": "IAS15",
+          "epsilon": 1e-09,
+          "epoch": {
+            "utc": "2026-10-11T12:00:00.000Z",
+            "et_tdb_s": 844992069.1823514,
+            "origin": "explicit geometric coordinate epoch",
+            "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+          },
+          "time": "elapsed model time; epoch_et_tdb_s + t*time_unit_s; not a replacement for JPL ephemerides",
+          "jupiter_representation": "physical center599 and planet GM; no independent barycenter5 particle",
+          "excluded_influences": [
+            "demais planetas e luas, incluindo luas jovianas",
+            "asteroides e outros corpos menores",
+            "relatividade",
+            "multipolos e deformações de maré",
+            "campos EM e processos estelares",
+            "colisões"
+          ]
+        },
+        "physical_scale": {
+          "schema": 1,
+          "length_unit_m": 1000000000.0,
+          "nominal_GM_unit_m3_s2": 1.3271244e+20,
+          "G_m3_kg_s2": 6.6743e-11,
+          "G_standard_uncertainty": 1.5e-15,
+          "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+          "sources": [
+            "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+            "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+          ],
+          "time_unit_s": 2745.0115932913473,
+          "mass_unit_kg": 1.988409870698051e+30,
+          "mass_unit_relative_standard_uncertainty": 2.2474266964325848e-05,
+          "velocity_unit_m_s": 364297.1863739823
+        },
+        "source": {
+          "model": "DE442s + original JUP365 planet599 subset",
+          "epoch": {
+            "utc": "2026-10-11T12:00:00.000Z",
+            "et_tdb_s": 844992069.1823514,
+            "origin": "explicit geometric coordinate epoch",
+            "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+          },
+          "frame": "J2000/ICRF",
+          "center_naif_id": "0",
+          "aberration": "NONE",
+          "provenance": {
+            "origin": "pinned geometric reference, not observations or an evolved experiment",
+            "kernel_sha256": {
+              "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+              "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+              "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+              "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+            },
+            "catalog_code_sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+          }
+        },
+        "reference_catalog": {
+          "schema": 1,
+          "kind": "solar_four_center_reference",
+          "version": "1.0.0",
+          "model": "DE442s + original JUP365 planet599 subset",
+          "epoch": {
+            "utc": "2026-10-11T12:00:00.000Z",
+            "et_tdb_s": 844992069.1823514,
+            "origin": "explicit geometric coordinate epoch",
+            "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+          },
+          "frame": "J2000/ICRF",
+          "center_naif_id": "0",
+          "aberration": "NONE",
+          "position_unit": "m",
+          "velocity_unit": "m/s",
+          "render_frame": "GALACTIC",
+          "j2000_to_render_frame": [
+            [
+              -0.054875539395742516,
+              -0.8734371047275961,
+              -0.4838349917700252
+            ],
+            [
+              0.49410945362774383,
+              -0.44482959429757496,
+              0.7469822486998919
+            ],
+            [
+              -0.8676661356833737,
+              -0.19807638961301985,
+              0.4559837945214199
+            ]
+          ],
+          "bodies": [
+            {
+              "id": "sol:naif:10",
+              "naif_id": "10",
+              "name": "Sol",
+              "entity_kind": "physical_body",
+              "position_m": [
+                -176817149.29512244,
+                -707414380.3156806,
+                -291488051.64201283
+              ],
+              "velocity_m_s": [
+                10.431637642443171,
+                4.199911992498089,
+                1.5769685448293278
+              ],
+              "GM": {
+                "value": 1.327124400412533e+20,
+                "unit": "m^3/s^2",
+                "uncertainty": null,
+                "origin": "JPL DE442 published model parameter, printed SI conversion",
+                "raw_value_km3_s2": "132712440041.253311",
+                "source_line": 49,
+                "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+                "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+                "source_resolution_m3_s2": 1000.0
+              },
+              "state_provider": {
+                "kind": "geometric_spice_chain",
+                "target_naif_id": "10",
+                "center_naif_id": "0",
+                "frame": "J2000/ICRF",
+                "aberration": "NONE",
+                "chain_naif_ids": [
+                  "10",
+                  "0"
+                ],
+                "kernels_sha256": {
+                  "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                  "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                  "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+                },
+                "application_coverage_utc": [
+                  "1950-01-01T00:00:00Z",
+                  "2050-12-31T23:59:59Z"
+                ],
+                "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+                "source_uncertainty": null,
+                "uncertainty_reason": "Observational uncertainty not propagated locally."
+              },
+              "coverage_et_s": [
+                [
+                  -1577879958.8160586,
+                  1609416068.1839058
+                ]
+              ],
+              "shape": {
+                "value": null,
+                "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+              },
+              "rotation": {
+                "frame": null,
+                "model": null,
+                "body_to_j2000": null,
+                "precise_orientation": false,
+                "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+              },
+              "capabilities": {
+                "gravity": {
+                  "status": "available_reference",
+                  "model": "Newtonian point centers",
+                  "version": null,
+                  "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                  "epoch": {
+                    "utc": "2026-10-11T12:00:00.000Z",
+                    "et_tdb_s": 844992069.1823514,
+                    "origin": "explicit geometric coordinate epoch",
+                    "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                  },
+                  "frame": "J2000/ICRF",
+                  "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": [
+                    "state",
+                    "GM"
+                  ]
+                },
+                "magnetism": {
+                  "status": "unavailable",
+                  "model": null,
+                  "version": null,
+                  "reason": "Campo solar e plasma não adotados nesta candidata.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                },
+                "strong_processes": {
+                  "status": "available_bench",
+                  "model": "pp-I/CNO-I",
+                  "version": null,
+                  "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                },
+                "weak_processes": {
+                  "status": "available_bench",
+                  "model": "pp-I/CNO-I and beta decay benches",
+                  "version": null,
+                  "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                }
+              }
+            },
+            {
+              "id": "sol:naif:399",
+              "naif_id": "399",
+              "name": "Terra",
+              "entity_kind": "physical_body",
+              "position_m": [
+                142010760173.79904,
+                41230953228.36009,
+                17887445563.447414
+              ],
+              "velocity_m_s": [
+                -9594.70764745716,
+                25931.33796021983,
+                11241.190603882991
+              ],
+              "GM": {
+                "value": 398600435544000.0,
+                "unit": "m^3/s^2",
+                "uncertainty": null,
+                "origin": "JPL DE442 published model parameter, printed SI conversion",
+                "raw_value_km3_s2": "398600.435544",
+                "source_line": 42,
+                "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+                "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+                "source_resolution_m3_s2": 1000.0
+              },
+              "state_provider": {
+                "kind": "geometric_spice_chain",
+                "target_naif_id": "399",
+                "center_naif_id": "0",
+                "frame": "J2000/ICRF",
+                "aberration": "NONE",
+                "chain_naif_ids": [
+                  "399",
+                  "3",
+                  "0"
+                ],
+                "kernels_sha256": {
+                  "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                  "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                  "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+                },
+                "application_coverage_utc": [
+                  "1950-01-01T00:00:00Z",
+                  "2050-12-31T23:59:59Z"
+                ],
+                "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+                "source_uncertainty": null,
+                "uncertainty_reason": "Observational uncertainty not propagated locally."
+              },
+              "coverage_et_s": [
+                [
+                  -1577879958.8160586,
+                  1609416068.1839058
+                ]
+              ],
+              "shape": {
+                "value": null,
+                "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+              },
+              "rotation": {
+                "frame": "IAU_EARTH",
+                "model": "general PCK00011",
+                "body_to_j2000": [
+                  [
+                    -0.9416892898556734,
+                    0.3364736328717559,
+                    0.0026030276987506567
+                  ],
+                  [
+                    -0.33647479191255186,
+                    -0.9416924733407406,
+                    -7.797657424713633e-06
+                  ],
+                  [
+                    0.002448627885689379,
+                    -0.0008831961737625521,
+                    0.9999966120872591
+                  ]
+                ],
+                "precise_orientation": false,
+                "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+              },
+              "capabilities": {
+                "gravity": {
+                  "status": "available_reference",
+                  "model": "Newtonian point centers",
+                  "version": null,
+                  "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                  "epoch": {
+                    "utc": "2026-10-11T12:00:00.000Z",
+                    "et_tdb_s": 844992069.1823514,
+                    "origin": "explicit geometric coordinate epoch",
+                    "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                  },
+                  "frame": "J2000/ICRF",
+                  "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": [
+                    "state",
+                    "GM"
+                  ]
+                },
+                "magnetism": {
+                  "status": "available_bench",
+                  "model": "IGRF14",
+                  "version": null,
+                  "reason": "Instrumento validado separado; associação à cena pendente.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": "Ver domínio e conversão de eixos da bancada IGRF14.",
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                },
+                "strong_processes": {
+                  "status": "available_bench",
+                  "model": "AME2020 effective nuclear benches",
+                  "version": null,
+                  "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                },
+                "weak_processes": {
+                  "status": "available_bench",
+                  "model": "beta decay benches",
+                  "version": null,
+                  "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                }
+              }
+            },
+            {
+              "id": "sol:naif:301",
+              "naif_id": "301",
+              "name": "Lua",
+              "entity_kind": "physical_body",
+              "position_m": [
+                141666134603.85754,
+                41075916205.35465,
+                17787562053.0397
+              ],
+              "velocity_m_s": [
+                -9160.002895729092,
+                25114.764752419364,
+                10833.823908739369
+              ],
+              "GM": {
+                "value": 4902800104000.0,
+                "unit": "m^3/s^2",
+                "uncertainty": null,
+                "origin": "JPL DE442 published model parameter, printed SI conversion",
+                "raw_value_km3_s2": "4902.800104",
+                "source_line": 50,
+                "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+                "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+                "source_resolution_m3_s2": 1000.0
+              },
+              "state_provider": {
+                "kind": "geometric_spice_chain",
+                "target_naif_id": "301",
+                "center_naif_id": "0",
+                "frame": "J2000/ICRF",
+                "aberration": "NONE",
+                "chain_naif_ids": [
+                  "301",
+                  "3",
+                  "0"
+                ],
+                "kernels_sha256": {
+                  "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                  "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                  "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c"
+                },
+                "application_coverage_utc": [
+                  "1950-01-01T00:00:00Z",
+                  "2050-12-31T23:59:59Z"
+                ],
+                "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+                "source_uncertainty": null,
+                "uncertainty_reason": "Observational uncertainty not propagated locally."
+              },
+              "coverage_et_s": [
+                [
+                  -1577879958.8160586,
+                  1609416068.1839058
+                ]
+              ],
+              "shape": {
+                "value": null,
+                "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+              },
+              "rotation": {
+                "frame": "IAU_MOON",
+                "model": "general PCK00011",
+                "body_to_j2000": [
+                  [
+                    0.9197432084210847,
+                    -0.392222667116923,
+                    0.015290845724699772
+                  ],
+                  [
+                    0.3686380699347073,
+                    0.8497457805873022,
+                    -0.37687939950187027
+                  ],
+                  [
+                    0.13482731161787284,
+                    0.35226905594128455,
+                    0.92613611757027
+                  ]
+                ],
+                "precise_orientation": false,
+                "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+              },
+              "capabilities": {
+                "gravity": {
+                  "status": "available_reference",
+                  "model": "Newtonian point centers",
+                  "version": null,
+                  "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                  "epoch": {
+                    "utc": "2026-10-11T12:00:00.000Z",
+                    "et_tdb_s": 844992069.1823514,
+                    "origin": "explicit geometric coordinate epoch",
+                    "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                  },
+                  "frame": "J2000/ICRF",
+                  "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": [
+                    "state",
+                    "GM"
+                  ]
+                },
+                "magnetism": {
+                  "status": "unavailable",
+                  "model": null,
+                  "version": null,
+                  "reason": "Modelo de campo não adotado nesta candidata. Lua: campo crostal/externo não adotado.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                },
+                "strong_processes": {
+                  "status": "available_bench",
+                  "model": "AME2020 effective nuclear benches",
+                  "version": null,
+                  "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                },
+                "weak_processes": {
+                  "status": "available_bench",
+                  "model": "beta decay benches",
+                  "version": null,
+                  "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                }
+              }
+            },
+            {
+              "id": "sol:naif:599",
+              "naif_id": "599",
+              "name": "Júpiter",
+              "entity_kind": "physical_body",
+              "position_m": [
+                -531356989811.89465,
+                537443713319.7435,
+                243304724942.26086
+              ],
+              "velocity_m_s": [
+                -9864.096006139429,
+                -7559.796157931543,
+                -3000.136908784328
+              ],
+              "GM": {
+                "value": 1.266865319003704e+17,
+                "unit": "m^3/s^2",
+                "uncertainty": null,
+                "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+                "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+                "raw_value_km3_s2": "126686531.9003704",
+                "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+                "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+                "source_rows": [
+                  {
+                    "line": 83,
+                    "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+                  },
+                  {
+                    "line": 150,
+                    "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+                  }
+                ],
+                "source_resolution_m3_s2": 100.0
+              },
+              "state_provider": {
+                "kind": "geometric_spice_chain",
+                "target_naif_id": "599",
+                "center_naif_id": "0",
+                "frame": "J2000/ICRF",
+                "aberration": "NONE",
+                "chain_naif_ids": [
+                  "599",
+                  "5",
+                  "0"
+                ],
+                "kernels_sha256": {
+                  "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+                  "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+                  "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+                  "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+                },
+                "application_coverage_utc": [
+                  "1950-01-01T00:00:00Z",
+                  "2050-12-31T23:59:59Z"
+                ],
+                "coverage_policy": "intersection of every SPK link, restricted to the application interval",
+                "source_uncertainty": null,
+                "uncertainty_reason": "Observational uncertainty not propagated locally."
+              },
+              "coverage_et_s": [
+                [
+                  -1577879958.8160586,
+                  1609416068.1839058
+                ]
+              ],
+              "shape": {
+                "value": null,
+                "reason": "Geometria científica ainda não adotada para este cadastro; marcador gráfico separado."
+              },
+              "rotation": {
+                "frame": "IAU_JUPITER",
+                "model": "general PCK00011",
+                "body_to_j2000": [
+                  [
+                    -0.5873533520429849,
+                    -0.8091990302468868,
+                    -0.01459346742098662
+                  ],
+                  [
+                    0.7341956920557889,
+                    -0.5251520071856098,
+                    -0.43031622687931054
+                  ],
+                  [
+                    0.3405476847823085,
+                    -0.26346213920869754,
+                    0.902560233775556
+                  ]
+                ],
+                "precise_orientation": false,
+                "reason": "PCK geral; sem EOP/ITRF preciso e sem adoção das convenções magnéticas JRM33."
+              },
+              "capabilities": {
+                "gravity": {
+                  "status": "available_reference",
+                  "model": "Newtonian point centers",
+                  "version": null,
+                  "reason": "Estado e GM disponíveis para uma cópia dinâmica reduzida.",
+                  "epoch": {
+                    "utc": "2026-10-11T12:00:00.000Z",
+                    "et_tdb_s": 844992069.1823514,
+                    "origin": "explicit geometric coordinate epoch",
+                    "utc_conversion": "naif0012 fixed leap-second table; future leaps unknown; pre-1972 UTC follows SPICE convention"
+                  },
+                  "frame": "J2000/ICRF",
+                  "domain": "Quatro centros pontuais, sem relatividade/multipolos.",
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": [
+                    "state",
+                    "GM"
+                  ]
+                },
+                "magnetism": {
+                  "status": "unavailable",
+                  "model": null,
+                  "version": null,
+                  "reason": "Modelo de campo não adotado nesta candidata; JRM33 é apenas proposta de estudo.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                },
+                "strong_processes": {
+                  "status": "available_bench",
+                  "model": "AME2020 effective nuclear benches",
+                  "version": null,
+                  "reason": "Bancada separada; sem inventário isotópico ou resposta estrutural do corpo.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                },
+                "weak_processes": {
+                  "status": "available_bench",
+                  "model": "beta decay benches",
+                  "version": null,
+                  "reason": "Bancada separada; sem inventário isotópico ou transporte de neutrinos.",
+                  "epoch": null,
+                  "frame": null,
+                  "domain": null,
+                  "provenance": "registered project bench/reference; no automatic coupling",
+                  "dependencies": []
+                }
+              }
+            }
+          ],
+          "provenance": {
+            "origin": "pinned geometric reference, not observations or an evolved experiment",
+            "kernel_sha256": {
+              "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+              "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+              "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+              "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5"
+            },
+            "catalog_code_sha256": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22"
+          },
+          "uncertainty": null,
+          "uncertainty_reason": "Numerical agreement is not observational accuracy."
+        },
+        "initial_ssb_origin_m": [
+          -682961686.1834425,
+          -194062507.76470414,
+          -59119763.683327064
+        ],
+        "inertial_origin_velocity_m_s": [
+          0.9853287452846979,
+          -2.9350029553591717,
+          -1.2515832983468462
+        ],
+        "render_frame": "GALACTIC",
+        "j2000_to_render_frame": [
+          [
+            -0.054875539395742516,
+            -0.8734371047275961,
+            -0.4838349917700252
+          ],
+          [
+            0.49410945362774383,
+            -0.44482959429757496,
+            0.7469822486998919
+          ],
+          [
+            -0.8676661356833737,
+            -0.19807638961301985,
+            0.4559837945214199
+          ]
+        ],
+        "generation": {
+          "schema": 1,
+          "model_id": "cosmos2:reduced-sun-earth-moon-jupiter599-newton",
+          "model_version": "1.0.0-candidate",
+          "code_sha256": {
+            "solar_contract.py": "775b0d6c1c952d022a2938909926be8c9b3ae7e189ebc1e8816d2b0816146d62",
+            "solar_catalog.py": "a60dd2b73dbe9432039d3a618ea92e4bb878ba4c6ed998ca188c4b6e70057f22",
+            "solar_import.py": "bf2d50ea9958dcf157f17911c18792602041219b4f6a3cc6451b1ee2879e1348",
+            "import_dispatch.py": "f634e5377379d34bcf543c3862e1e7790ac2f7598e1c47a2d9b028ca595085d7",
+            "session.py": "caaeaada0ceddf0c39ce4bc0ac4bce24504b9418bd93862fe3a660358718485d",
+            "body_registry.py": "20732fd25f24bd024aad3de96cfd355a3af66c6e0b2a8121b45b13fa43d8be7c",
+            "physics.py": "486ec751e0691a09ca1f966f4280fd7563c46ec9eafd1ef9037608755180a49c",
+            "solar_tides.py": "a45f143132114f884dbfdeaef4728d6c4201b85ee3f10fa641c45cd5167e925b",
+            "earth_magnetism.py": "589de1989dcced277cb00c6b5e55c2e4e15640d95afa5892b17aee158b7b8e00",
+            "geomagnetism.py": "e4434255ffa4977a72ed48ff806907108b590316f67e23a19931d1e383a049e2",
+            "jupiter_magnetism.py": "19e3928b1ccc2320759ce90ad388e6ba0befe3c2e3a2aaaaacd805d790729f17",
+            "jrm33.py": "5690abf7f7beee6c969805899f4efccd4d596e719371fc9dd7f30293f7548f28"
+          },
+          "runtime": {
+            "python": "3.12.10",
+            "rebound": "5.2.2"
+          },
+          "data_sha256": {
+            "canonical-units.json": "27ab7a2bd37a7394e07a1249d5aec4ef6b501f40f985238d4d2cb3f118a5f648",
+            "igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+            "earth_EOP_PCK": "0d7b251eacf1f3136aa9d9dd7d5f7c9b060a97bc1ab07de5635f9445d0fa923b",
+            "earth_EOP_receipt": "5b1b663eb37c5c7ed64e78f92c6a1f117d90f54a4b06c119988bb49489d77792",
+            "JRM33_coefficients": "71ce7abeaa4d35f261a14de4816699496a8f7ed86ee8c83f043ceb8f46e024b8",
+            "Jupiter_orientation_receipt": "28f5d074258b3c0b2d749afb2d0f950976765745508b022bbe5580e3ab133312",
+            "PCK00011": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+            "LSK": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+          }
+        },
+        "bodies": [
+          {
+            "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+            "reference_id": "sol:naif:10",
+            "naif_id": "10",
+            "name": "Sol",
+            "entity_kind": "physical_body",
+            "source_GM": {
+              "value": 1.327124400412533e+20,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "132712440041.253311",
+              "source_line": 49,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "source_position_m": [
+              -176817149.29512244,
+              -707414380.3156806,
+              -291488051.64201283
+            ],
+            "source_velocity_m_s": [
+              10.431637642443171,
+              4.199911992498089,
+              1.5769685448293278
+            ],
+            "source_uncertainty": {
+              "position_m": null,
+              "velocity_m_s": null
+            },
+            "shape_reference": null,
+            "reference_properties": [],
+            "mass": 1.0000000003108473,
+            "position": [
+              0.5061445368883201,
+              -0.5133518725509765,
+              -0.23236828795868575
+            ],
+            "velocity": [
+              2.593022743651121e-05,
+              1.9585424249015912e-05,
+              7.764407601744207e-06
+            ]
+          },
+          {
+            "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:399",
+            "reference_id": "sol:naif:399",
+            "naif_id": "399",
+            "name": "Terra",
+            "entity_kind": "physical_body",
+            "source_GM": {
+              "value": 398600435544000.0,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "398600.435544",
+              "source_line": 42,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "source_position_m": [
+              142010760173.79904,
+              41230953228.36009,
+              17887445563.447414
+            ],
+            "source_velocity_m_s": [
+              -9594.70764745716,
+              25931.33796021983,
+              11241.190603882991
+            ],
+            "source_uncertainty": {
+              "position_m": null,
+              "velocity_m_s": null
+            },
+            "shape_reference": null,
+            "reference_properties": [],
+            "mass": 3.0034896166779844e-06,
+            "position": [
+              142.69372185998247,
+              41.42501573612479,
+              17.94656532713074
+            ],
+            "velocity": [
+              -0.02634028846534006,
+              0.07118987994749824,
+              0.030860634140720503
+            ]
+          },
+          {
+            "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:301",
+            "reference_id": "sol:naif:301",
+            "naif_id": "301",
+            "name": "Lua",
+            "entity_kind": "physical_body",
+            "source_GM": {
+              "value": 4902800104000.0,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "origin": "JPL DE442 published model parameter, printed SI conversion",
+              "raw_value_km3_s2": "4902.800104",
+              "source_line": 50,
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+              "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+              "source_resolution_m3_s2": 1000.0
+            },
+            "source_position_m": [
+              141666134603.85754,
+              41075916205.35465,
+              17787562053.0397
+            ],
+            "source_velocity_m_s": [
+              -9160.002895729092,
+              25114.764752419364,
+              10833.823908739369
+            ],
+            "source_uncertainty": {
+              "position_m": null,
+              "velocity_m_s": null
+            },
+            "shape_reference": null,
+            "reference_properties": [],
+            "mass": 3.694303340365078e-08,
+            "position": [
+              142.349096290041,
+              41.26997871311936,
+              17.846681816723027
+            ],
+            "velocity": [
+              -0.02514701888218768,
+              0.06894837702531485,
+              0.029742407839830474
+            ]
+          },
+          {
+            "id": "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:599",
+            "reference_id": "sol:naif:599",
+            "naif_id": "599",
+            "name": "Júpiter",
+            "entity_kind": "physical_body",
+            "source_GM": {
+              "value": 1.266865319003704e+17,
+              "unit": "m^3/s^2",
+              "uncertainty": null,
+              "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+              "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+              "raw_value_km3_s2": "126686531.9003704",
+              "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+              "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+              "source_rows": [
+                {
+                  "line": 83,
+                  "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+                },
+                {
+                  "line": 150,
+                  "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+                }
+              ],
+              "source_resolution_m3_s2": 100.0
+            },
+            "source_position_m": [
+              -531356989811.89465,
+              537443713319.7435,
+              243304724942.26086
+            ],
+            "source_velocity_m_s": [
+              -9864.096006139429,
+              -7559.796157931543,
+              -3000.136908784328
+            ],
+            "source_uncertainty": {
+              "position_m": null,
+              "velocity_m_s": null
+            },
+            "shape_reference": null,
+            "reference_properties": [],
+            "mass": 0.0009545942482887844,
+            "position": [
+              -530.6740281257112,
+              537.6377758275082,
+              243.3638447059442
+            ],
+            "velocity": [
+              -0.02707976263302062,
+              -0.020743671479302665,
+              -0.008231974985410314
+            ]
+          }
+        ],
+        "initial_state_sha256": "43829d07408e24bc46db9e50940c43e8aece86acb1fc2ec9adbfa5b7703ede85"
+      },
+      "conservation": {
+        "scope": "translational Newtonian centers; kinematic spin/internal energy excluded",
+        "reference": {
+          "time": 0.0,
+          "total_mass": 1.0009576349917861,
+          "energy": -6.234998608693125e-07,
+          "kinetic_energy": 5.984905458784205e-07,
+          "potential_energy": -1.221990406747733e-06,
+          "momentum": [
+            2.6544225856826658e-21,
+            2.401718908547716e-21,
+            1.0348029463038376e-21
+          ],
+          "angular_momentum": [
+            0.0005947440298780276,
+            -0.010485915368345743,
+            0.024463744765263282
+          ],
+          "barycenter": [
+            3.792177224925054e-17,
+            4.4042711689187415e-17,
+            2.3124935860092644e-17
+          ],
+          "barycenter_velocity": [
+            2.6518830496801675e-21,
+            2.399421138905069e-21,
+            1.0338129308662791e-21
+          ],
+          "momentum_scale": 6.71570577017535e-05,
+          "angular_momentum_scale": 0.026622987418513756,
+          "policy": "initial_condition",
+          "active_ids": [
+            "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:10",
+            "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:399",
+            "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:301",
+            "exp:19bc450c015f4bcaac761ab6eaf5153b:naif:599"
+          ],
+          "energy_reference_time": 0.0
+        },
+        "current": {
+          "time": 0.0,
+          "total_mass": 1.0009576349917861,
+          "energy": -6.234998608693125e-07,
+          "kinetic_energy": 5.984905458784205e-07,
+          "potential_energy": -1.221990406747733e-06,
+          "momentum": [
+            2.6544225856826658e-21,
+            2.401718908547716e-21,
+            1.0348029463038376e-21
+          ],
+          "angular_momentum": [
+            0.0005947440298780276,
+            -0.010485915368345743,
+            0.024463744765263282
+          ],
+          "barycenter": [
+            3.792177224925054e-17,
+            4.4042711689187415e-17,
+            2.3124935860092644e-17
+          ],
+          "barycenter_velocity": [
+            2.6518830496801675e-21,
+            2.399421138905069e-21,
+            1.0338129308662791e-21
+          ],
+          "momentum_scale": 6.71570577017535e-05,
+          "angular_momentum_scale": 0.026622987418513756
+        },
+        "SI": {
+          "total_mass_kg": 1.9903140415682445e+30,
+          "energy_J": -1.6453333673453207e+35,
+          "kinetic_energy_J": 1.5793371049057545e+35,
+          "potential_energy_J": -3.224670472251075e+35,
+          "momentum_kg_m_s": [
+            1922789719094296.0,
+            1739738220439479.0,
+            749582405293538.2
+          ],
+          "angular_momentum_kg_m2_s": [
+            4.308159945256339e+41,
+            -7.595704758653846e+42,
+            1.7720854689419287e+43
+          ],
+          "barycenter_m": [
+            3.7921772249250536e-08,
+            4.4042711689187414e-08,
+            2.3124935860092643e-08
+          ],
+          "barycenter_velocity_m_s": [
+            9.660735335913404e-16,
+            8.7410236982937275e-16,
+            3.7661514195162574e-16
+          ],
+          "expected_barycenter_m": [
+            3.7921772249250536e-08,
+            4.4042711689187414e-08,
+            2.3124935860092643e-08
+          ],
+          "barycenter_drift_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "energy_error_absolute_J": 0.0,
+          "momentum_error_norm_kg_m_s": 0.0,
+          "angular_momentum_error_norm_kg_m2_s": 0.0,
+          "barycenter_drift_norm_m": 0.0
+        },
+        "momentum_error_normalized": 0.0,
+        "angular_momentum_error_normalized": 0.0
+      },
+      "history_evaluation_ms": 0.000200001522898674
+    },
+    "error": null,
+    "display": {
+      "physical_radii": false,
+      "axes_body": null
+    },
+    "orbit_preview": null,
+    "probe_preview": null,
+    "instruments_preview": null,
+    "fields_preview": null,
+    "field_reading": null,
+    "fields_visible": true,
+    "body_field_preview": null,
+    "body_field_restore_status": null,
+    "instrument_comparison": null,
+    "engine_connected": true,
+    "command_latency_ms": 3.2140999974217266,
+    "cloud_view": null,
+    "cloud_supported": false,
+    "checkpoint_available": true
+  }
+}

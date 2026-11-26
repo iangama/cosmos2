@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cosmos2 · Catálogo planetário</title>
+<link rel="stylesheet" href="forces.css">
+<link rel="stylesheet" href="content.css">
+<style>#catalog-export-path,#catalog-generation{display:block;overflow-wrap:anywhere}#catalog-query,#catalog-export{display:block;width:100%;margin-top:12px}</style>
+<body>
+<header><a href="/" class="brand">COSMOS<span>2</span></a><div><b>Catálogo planetário</b><small>Centros físicos · dados JPL</small></div><a class="back" href="/content.html">Dados e fontes ↗</a></header>
+<main>
+  <aside>
+    <h1>Sistema Solar</h1>
+    <form id="catalog-form">
+      <label>Época UTC<input id="catalog-utc" type="datetime-local" step="1" min="1995-01-01T00:00:00" max="2049-12-30T23:59:59" value="2026-10-11T12:00:00" required></label>
+      <button id="catalog-query" type="submit">Consultar época</button>
+    </form>
+    <label>Corpo<select id="catalog-body" disabled></select></label>
+    <button id="catalog-export" disabled>Exportar estado e fontes</button>
+    <p id="catalog-status" class="status" role="status">Consultando referência…</p>
+    <p id="catalog-export-path" class="muted"></p>
+  </aside>
+  <article>
+    <h2 id="catalog-title">Referência planetária</h2>
+    <p id="catalog-epoch" class="muted"></p>
+    <div class="coordinate-note"><b>Coordenadas geométricas simultâneas</b><p>Origem no baricentro do Sistema Solar, eixos J2000/ICRF. A consulta usa a época UTC escolhida. As rotações IAU gerais e as formas de referência vêm do PCK00011.</p></div>
+    <div id="catalog-properties" class="property-cards"></div>
+    <details><summary>Identidade dos dados</summary><code id="catalog-generation"></code></details>
+  </article>
+</main>
+<script src="planet-catalog.js"></script>
+</body>
+</html>

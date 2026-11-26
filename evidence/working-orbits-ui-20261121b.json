@@ -1,0 +1,25 @@
+{
+  "accepted": true,
+  "completed": true,
+  "native_user_flow_accepted": false,
+  "checks": [
+    {
+      "name": "first-job-cancellation-restores-previous-result-controls",
+      "passed": true
+    },
+    {
+      "name": "complete-circular-error-save-and-export-use-confirmed-result",
+      "passed": true
+    }
+  ],
+  "product": "output/original-flow-hotfix-product0.28.4",
+  "source_sha256": {
+    "output/original-flow-hotfix-product0.28.4/app/ui/forces.js": "64129c18a0675fa94c894cec0c1d84bae30cdb557d4a100f2df3c7ef5744a9a4",
+    "output/original-flow-hotfix-product0.28.4/app/ui/forces.html": "599bc000cb6f1f037304b17f8015b4dc6061ef2395fee775a06cee4d32b4ccaf",
+    "output/original-flow-hotfix-product0.28.4/app/ui/forces.css": "3b8f5d50b4b7aee802cee7265a88b79a54a9b2b57a7edb1cc1c1e72cf8b00be8",
+    "output/original-flow-hotfix-product0.28.4/app/ui/timelike-view.js": "274e2ec16728287279c8f61a771619442c08ec0687d2e48877b1f3823d0d3e23",
+    "output/original-flow-hotfix-product0.28.4/app/ui/option-controls.js": "5da97aa96e18f08c01fde7e5754adcf0832aa1dde2b71d5a4eb5bdd0e7e19050"
+  },
+  "scope": "Isolated browser UI with real frozen physics outputs and an explicit controlled HTTP worker. Tests complete/circular/error/confirmed save+export and first-job cancellation. No live owner session, native acceptance, new science or performance measurement.",
+  "script_sha256": "24f1b98b49bf045fa847da8044a2e83153cdfadfa7e2c2c9b07689448883697e"
+}

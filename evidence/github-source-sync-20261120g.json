@@ -1,0 +1,10 @@
+{
+  "accepted": true,
+  "completed": true,
+  "files": 11545,
+  "changed": [
+    "evidence/github-source-sync-20261120f.json"
+  ],
+  "inventory_sha256": "2e99d38bba68e9bedd22058aa0f0fcb0163f30ac71b4ed835b9bc2d061dc38d8",
+  "scope": "Append completed F receipt only; helper source already preserved by F. Guarded initial append copied this receipt before refusing a duplicate helper; no existing captured file overwritten."
+}

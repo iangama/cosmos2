@@ -1,0 +1,56 @@
+{
+  "accepted": true,
+  "completed": true,
+  "version": "0.27.6",
+  "session": {
+    "app": 39904,
+    "server": 32628,
+    "launcher": 37000,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.6-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.6\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.6\\gravity-sessions",
+    "started": "2026-11-21T08:59:44Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.6",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "overall_product_accepted": false,
+  "scientific_milestones_promoted": false,
+  "scientific_python_unchanged": 137,
+  "manifest_sha256": "484fabda4caf14735d230a720a952dcc44efde6820a3aa97544336836eece036",
+  "evidence_sha256": {
+    "reference-file-binding-20261121b-after.json": "11df0ba8cd6d3d324ac47ea81e7b63130f0e7b55eb0881abd854a47e3853ff1c",
+    "native-layer-import-restore-20261121c.json": "e4923a1f00fe81ea8aac0038d091b1983a904f6eea35d2fe7b1738dc11a1f575",
+    "native-layer-import-large-20261121a.json": "9b65331bdc22025a54582ff4c82350d02607b736691f43b16ebb8b1801814a3e",
+    "native-import-action-visible-20261121a.json": "a33ec872a8a8d20bdad92d8e74153b26de17036f2a359a28ff80cbb952966dce",
+    "working-product-switch-20261121a.json": "3f10429a908b2c93b597ef62ddb171576a527707404d82c7e6047fbae5232408",
+    "original-flow-entry-import-20261121a.json": "ac5e8b00a843c2d7ed74efac225944a6d185d6b683f538b2b2ca96a8ce046239"
+  },
+  "shortcuts": [
+    {
+      "name": "Abrir-Planetas.cmd",
+      "reused_app": 39904,
+      "sha256": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4"
+    },
+    {
+      "name": "Abrir-Planetas-e-Luas.cmd",
+      "reused_app": 39904,
+      "sha256": "f0c0f85b7d27a6ffc8502867c4b8b9c28329089732a65af4225f7b32390002e4"
+    }
+  ],
+  "scope": "Local file-selection binding correction: native import commit at100%, preview/action/branch restoration at150%, original saved data and orbit preserved. Content seals remain enforced. Spatial current-format roundtrip and calculation cancellation are not accepted by this receipt.",
+  "script_sha256": "35924b1166b2d8fd700bd8bdcd6c05522a23902bbf3d7cdd050a215d45069b5b"
+}

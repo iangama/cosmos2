@@ -1,0 +1,31 @@
+{
+  "completed": true,
+  "accepted": false,
+  "native_selection_accepted": false,
+  "source_receipt": "evidence/option-popup-before-20261120a.json",
+  "observation": "Revisão visual das capturas Windows types.png e scale.png: o campo recebe foco após clique, mas a lista nativa de opções não é desenhada. Não houve chamada de foco/restauração entre o clique e a captura. Isso reproduz o defeito relatado pelo dono.",
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\option-popup-before-20261120a\\types.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "f970718e00d14e7ca6eb720a63df308ae9726366b6f2f26c607d8c6ad996af16",
+      "selector": "#type-filter"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\option-popup-before-20261120a\\scale.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "e78c7eae76538192f647f1ba9ea67115ea3cf27ca7efbf007db942a48a0a9bb1",
+      "selector": "#ui-scale"
+    }
+  ],
+  "source_inspection": "No código local OpenSpace, WebRenderHandler ignora PaintElementType em OnPaint/OnAcceleratedPaint, não trata OnPopupSize/OnPopupShow; o caminho acelerado descarta texturas cujo tamanho difere da janela. Evidência complementar consistente com a falha visual; não é execução instrumentada do motor.",
+  "resolution_scope": "Substituir popup nativo por opções desenhadas no documento, mantendo valores/eventos/formulários dos selects. Nenhum aceite de marco científico."
+}

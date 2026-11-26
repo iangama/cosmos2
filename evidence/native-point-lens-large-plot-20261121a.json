@@ -1,0 +1,188 @@
+{
+  "accepted": true,
+  "completed": true,
+  "session": {
+    "app": 41500,
+    "server": 40832,
+    "launcher": 40356,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.29.0-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.29.0\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.29.0\\gravity-sessions",
+    "started": "2026-11-21T19:22:58Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v4.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.29.0",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1.5\"][aria-disabled=\"false\"]",
+      "x": 1321,
+      "y": 806
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#forces",
+      "x": 552,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"point-lens\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"point-lens\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"point-lens\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"point-lens\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"point-lens\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"point-lens\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "[data-scenario=\"point-lens\"]"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[data-scenario=\"point-lens\"]",
+      "x": 219,
+      "y": 769
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#point-lens-align",
+      "x": 946,
+      "y": 342
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#point-lens-restore-view",
+      "x": 1170,
+      "y": 342
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#point-lens-geometry"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#point-lens-geometry"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#point-lens-geometry"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#point-lens-geometry",
+      "x": 940,
+      "y": 797
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#point-lens-limit",
+      "x": 940,
+      "y": 150
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.back",
+      "x": 1298,
+      "y": 61
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1141,
+      "y": 824
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1\"][aria-disabled=\"false\"]",
+      "x": 1264,
+      "y": 674
+    }
+  ],
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-point-lens-large-plot-20261121a\\full-ring-and-geometry-at150.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "4b0f4aa911374ff931357c0dd8e29379a7b87b180e0cddfca978e794fcec6f83"
+    }
+  ],
+  "script_sha256": "cec479692bc213193cfea74f615950bf384da40f8d94140b251103c1b28b6c91",
+  "scope": "Focused genuine Windows input after native delivery:150% ring can be fully read by ordinary article scrolling; legend and singular status remain available; return to Atlas100%. No new scientific/performance acceptance.",
+  "step": "a.back",
+  "visible_canvas": {
+    "top": 220.62501525878906,
+    "bottom": 728.6250457763672,
+    "height": 900,
+    "scale": 1.5
+  }
+}

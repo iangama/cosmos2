@@ -1,0 +1,3 @@
+http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/jupiter/europa/textures/2/europa_os.tif
+http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/jupiter/europa/textures/2/evg_os.tif
+http://liu-se.cdn.openspaceproject.com/files/solarsystem/planets/jupiter/europa/textures/2/evgos.vrt

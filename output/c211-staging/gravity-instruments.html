@@ -1,0 +1,28 @@
+    <details id="gravity-instruments">
+      <summary>Sondas salvas · campo e maré</summary>
+      <p class="field-help">Até 16 sondas sem massa. Posição fixa ou deslocamento em eixos inerciais de um corpo. Definições ficam salvas com a sessão; leituras e marcas são congeladas no instante medido.</p>
+      <label class="field">Sonda<select id="instrument-selection"><option value="">Criar nova sonda</option></select></label>
+      <button id="prepare-instrument" class="wide">Pausar e preparar sonda</button>
+      <form id="instrument-form"><fieldset id="instrument-fields" disabled>
+        <label class="field">Nome<input id="instrument-name" type="text" maxlength="80" required value="Minha sonda"></label>
+        <label class="field">Posição<select id="instrument-mode"><option value="fixed">Fixa no referencial do experimento</option><option value="follow">Seguir um corpo · eixos inerciais</option></select></label>
+        <label class="field" id="instrument-body-field" hidden>Corpo seguido<select id="instrument-body"></select></label>
+        <p id="instrument-coordinates-note" class="field-help">Coordenadas fixas em metros.</p>
+        <div class="vector-fields">
+          <label>X (m)<input id="instrument-coordinate-0" type="number" step="any" required value="17000000000"></label>
+          <label>Y (m)<input id="instrument-coordinate-1" type="number" step="any" required value="-9000000000"></label>
+          <label>Z (m)<input id="instrument-coordinate-2" type="number" step="any" required value="3000000000"></label>
+        </div>
+        <label class="compact-check" id="instrument-exclusion-field" hidden><input id="instrument-exclude" type="checkbox"> Medir apenas o campo das outras massas</label>
+        <p class="field-help">O deslocamento segue a posição do corpo, sem girar com ele. No centro de uma massa pontual, sua contribuição é singular: exclua essa fonte explicitamente para medir o campo externo.</p>
+        <button id="apply-instrument" class="wide">Salvar definição da sonda</button>
+      </fieldset></form>
+      <button id="remove-instrument" class="wide" disabled>Remover sonda selecionada</button>
+      <button id="measure-instruments" class="wide" disabled>Pausar e medir todas as sondas</button>
+      <p id="instruments-status" class="field-help" role="status"></p>
+      <div id="instruments-readings" class="field-help"></div>
+      <button id="view-instrument" class="wide" disabled>Ver ponto medido ↗</button>
+      <button id="clear-instruments" class="wide" disabled>Limpar leituras e marcas</button>
+      <button id="export-instruments" class="wide" disabled>Exportar definições e leituras JSON</button>
+      <p class="field-help">g em m/s², potencial em J/kg com zero no infinito e tensor de maré em s⁻². O tensor mede aceleração diferencial, sem representar deformação material. Uma fonte seguida removida torna a sonda indisponível, preservando seu ID.</p>
+    </details>

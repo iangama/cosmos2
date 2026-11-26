@@ -1,0 +1,162 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checks": [
+    {
+      "name": "native-identity-ram-zero-exit-and-initial-inclusive-cadence",
+      "polls": 129,
+      "maximum_gap_s": 0.03204219999315683,
+      "first_poll_s": 0.014234799993573688,
+      "RAM": {
+        "model": "retained-native-process-memory/1",
+        "processes": [
+          {
+            "pid": 14568,
+            "created_filetime": 134397425353261772,
+            "observation_started_filetime": 134397425353726820,
+            "api_called": true,
+            "native_before": {
+              "created_filetime": 134397425353261772,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134397425353726948
+            },
+            "read_started_filetime": 134397425353727036,
+            "read_finished_filetime": 134397425353727104,
+            "api_return": 1,
+            "api_error": 0,
+            "raw": {
+              "cb": 80,
+              "PageFaultCount": 1219,
+              "PeakWorkingSetSize": 4829184,
+              "WorkingSetSize": 4829184,
+              "QuotaPeakPagedPoolUsage": 29160,
+              "QuotaPagedPoolUsage": 28984,
+              "QuotaPeakNonPagedPoolUsage": 13544,
+              "QuotaNonPagedPoolUsage": 5448,
+              "PagefileUsage": 815104,
+              "PeakPagefileUsage": 815104,
+              "PrivateUsage": 815104
+            },
+            "native_after": {
+              "created_filetime": 134397425353261772,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134397425353727279
+            },
+            "observation_finished_filetime": 134397425353727300,
+            "status": "measured",
+            "working_set_bytes": 4829184,
+            "private_bytes": 815104
+          },
+          {
+            "pid": 38668,
+            "created_filetime": 134397425351724889,
+            "observation_started_filetime": 134397425353727350,
+            "api_called": true,
+            "native_before": {
+              "created_filetime": 134397425351724889,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134397425353727426
+            },
+            "read_started_filetime": 134397425353727454,
+            "read_finished_filetime": 134397425353727491,
+            "api_return": 1,
+            "api_error": 0,
+            "raw": {
+              "cb": 80,
+              "PageFaultCount": 8869,
+              "PeakWorkingSetSize": 24633344,
+              "WorkingSetSize": 23633920,
+              "QuotaPeakPagedPoolUsage": 171256,
+              "QuotaPagedPoolUsage": 170816,
+              "QuotaPeakNonPagedPoolUsage": 21504,
+              "QuotaNonPagedPoolUsage": 13864,
+              "PagefileUsage": 12996608,
+              "PeakPagefileUsage": 13807616,
+              "PrivateUsage": 12996608
+            },
+            "native_after": {
+              "created_filetime": 134397425351724889,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134397425353727577
+            },
+            "observation_finished_filetime": 134397425353727594,
+            "status": "measured",
+            "working_set_bytes": 23633920,
+            "private_bytes": 12996608
+          },
+          {
+            "pid": 41912,
+            "created_filetime": 134397425353447887,
+            "observation_started_filetime": 134397425353727623,
+            "api_called": true,
+            "native_before": {
+              "created_filetime": 134397425353447887,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134397425353727690
+            },
+            "read_started_filetime": 134397425353727709,
+            "read_finished_filetime": 134397425353727747,
+            "api_return": 1,
+            "api_error": 0,
+            "raw": {
+              "cb": 80,
+              "PageFaultCount": 2490,
+              "PeakWorkingSetSize": 9940992,
+              "WorkingSetSize": 9940992,
+              "QuotaPeakPagedPoolUsage": 54960,
+              "QuotaPagedPoolUsage": 54840,
+              "QuotaPeakNonPagedPoolUsage": 7488,
+              "QuotaNonPagedPoolUsage": 7344,
+              "PagefileUsage": 4382720,
+              "PeakPagefileUsage": 4390912,
+              "PrivateUsage": 4382720
+            },
+            "native_after": {
+              "created_filetime": 134397425353447887,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134397425353727827
+            },
+            "observation_finished_filetime": 134397425353727841,
+            "status": "measured",
+            "working_set_bytes": 9940992,
+            "private_bytes": 4382720
+          }
+        ],
+        "completed_before_read": [],
+        "sum_working_set_bytes": 38404096
+      }
+    },
+    {
+      "name": "deliberate-nonzero-exit-is-refused",
+      "exit_code": 7
+    }
+  ],
+  "sources": {
+    "scripts/verify-c214-history-v2.py": "f48d1a5336db65ad785d376a5b3b7e81659fe72d07d1a3f76ff4e66450a92751",
+    "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+    "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77",
+    "scripts/owned_process_history_v2.py": "7db05900e8a11f2019041eae890bd29962bec5af0d02f58f5a19373f986a9b72",
+    "C2-14-ORBITAS-PERFIL-REVISAO-C-20261121.md": "1effb1d0fef1da0de3ee4bafdd1062738c0199462dc34df56b91e1c5a1a6b8f8"
+  },
+  "scope": "Real Windows fixture processes only, separate from Cosmos2: retain native identity and signal/time proof, read RAM on retained handle, refuse deliberate exit7, rederive observer cadence from every raw poll. No GPU gauges, product frames or performance acceptance.",
+  "exit7_refusal": "Owned process exited nonzero: 37456/7",
+  "raw_sha256": {
+    "output/c214-history-v2-fixtures-20261121a/exit7/process-history.jsonl": "a0f2865faf7523b689d4d448fc453982e7be9a131cc567d4431651bc51d75fa9",
+    "output/c214-history-v2-fixtures-20261121a/exit7/process-polls.jsonl": "d7d6d8f4ae92969cc0156cfabc7cfbc751113bd5c3ef2322bab65ce1561bc8b8",
+    "output/c214-history-v2-fixtures-20261121a/normal/process-history.jsonl": "f7ba9feab2def8a2288bd148417240a76e0865d2b6c15cd77106965aaaac00d2",
+    "output/c214-history-v2-fixtures-20261121a/normal/process-polls.jsonl": "7825e5e43ea0ebd6e7531a99ce3c5c9f571f10556cca8d1388766280e29901a4"
+  }
+}

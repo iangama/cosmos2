@@ -1,0 +1,23 @@
+{
+  "accepted": false,
+  "completed": true,
+  "candidate": "0.21.0",
+  "source_sha256": {
+    "evidence/cosmos2-is6-import-20261104q-399-import-150.png": "b345661ecef92d1176e5af9d6a6c19ddcd220480280d5c2f0a9f593ab9625762",
+    "evidence/cosmos2-is6-import-20261104r-399-import-150.png": "afe127d336cc745c180d83409f9dd863a0961949e3ae66fc6ad2739b93c1473a",
+    "evidence/is6-layers-import-native-20261104q.json": "43c642d14d0de87e73224456905dec54faaa7f9732e70737bf814174bd139c26",
+    "evidence/is6-layers-import-native-20261104r.json": "1ea4b54e42179d817c226199f4a6317301fe709acd9e7a66b8a9b357cb7387b4"
+  },
+  "observations": [
+    {
+      "path": "evidence/cosmos2-is6-import-20261104q-399-import-150.png",
+      "finding": "Aviso inferior parcialmente rasterizado, com caracteres ausentes em importar."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104r-399-import-150.png",
+      "finding": "Aviso inferior completo, mas palavra Malha ausente no começo da legenda de visibilidade."
+    }
+  ],
+  "hypothesis": "Poll writes unchanged textContent repeatedly; avoid redundant text mutations and retest. Render cause not yet proven.",
+  "scope": "Visual refusal only; Q/R functional and process receipts remain intact. No K5 cut/profile acceptance."
+}

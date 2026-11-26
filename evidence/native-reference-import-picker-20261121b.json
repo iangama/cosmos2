@@ -1,0 +1,110 @@
+{
+  "accepted": false,
+  "completed": false,
+  "checks": [],
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-reference-import-20261121a\\windows-file-dialog.png",
+      "method": "Unedited Windows file-dialog capture without focus changes",
+      "size": [
+        664,
+        510
+      ],
+      "sha256": "fec07c529245ac321392d5e1455582dfd27a9d7d55176f4a33827ced4b1d2c33"
+    }
+  ],
+  "actions": [
+    {
+      "input": "Windows window management",
+      "action": "Activate existing Cosmos2 after foreground-lock refusal"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-layers",
+      "x": 743,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import>summary"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import>summary",
+      "x": 196,
+      "y": 759
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-file",
+      "x": 196,
+      "y": 698
+    },
+    {
+      "input": "Windows file dialog",
+      "action": "opened",
+      "title": "Abrir"
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 27,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 1,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 27,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 1,
+      "extended": false
+    }
+  ],
+  "session": {
+    "app": 13912,
+    "server": 32736,
+    "launcher": 2832,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.5-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.5\\gravity-sessions",
+    "started": "2026-11-21T01:34:49Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.5",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "source_file": "output/original-flow-hotfix-product0.27.5/layer-checkpoints/exports/074696b5dc8141e1915156576f922b70.json",
+  "source_sha256": "68b42dd3a070889242eb0a8752cfe2c755d6926bc0c2288fe15adaf6169ba383",
+  "expected_scientific_sha256": "b6cc28470319df8bfb2bfe1d8a9101ed17f61e766eb81bbd4bb38b2e07838457",
+  "saved_session_sha256": "d2b11c83b6bfd3c3851a23c01b1a47407900d053c8cd427b434ef78abd766ded",
+  "script_sha256": "5831b392b6566a9d2f08dc189c452f67609a4d9875c5cb754e21307dd337347c",
+  "input_helper_sha256": "cced040291fac93473af1e118048541a2130cffed71c3beeebcccccca07e63b1",
+  "scope": "Original header, Layers panel and native Windows file dialog, ordinary mouse/typing/keys only. Choose an existing exported reference, preview its origin and cancel the preview. DOM/HTTP read only. No import commit, branch restore, scientific promotion or calculation-cancellation acceptance.",
+  "step": "open-and-cancel-Windows-dialog",
+  "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-native-import-picker-v2.py\", line 56, in main\n    window.cancel_file_dialog()\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\ordinary_file_dialog_input_v2.py\", line 53, in cancel_file_dialog\n    raise TimeoutError('The Windows file dialog did not cancel')\nTimeoutError: The Windows file dialog did not cancel\n"
+}

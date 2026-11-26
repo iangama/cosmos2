@@ -1,0 +1,5 @@
+CHECKPOINT DE COTA REAL — 2026-11-04T11:32:12.221Z
+{"observed": "2026-11-04T11:32:12.221Z", "rate_limits": {"limit_id": "codex", "limit_name": null, "primary": {"used_percent": 94.0, "window_minutes": 300, "resets_at": 1793807220}, "secondary": {"used_percent": 30.0, "window_minutes": 10080, "resets_at": 1794358406}, "credits": {"has_credits": false, "unlimited": false, "balance": "0"}, "individual_limit": null, "spend_control_reached": null, "plan_type": "plus", "rate_limit_reached_type": null}}
+Fluxo persistente {"pid": 18196, "stage": "waiting-cpu", "completed": false, "failure": null}
+8% é checkpoint; continuar até limite real. Ler LEIA-PRIMEIRO.md; não duplicar fluxo/hosts.
+GitHub público atualizado e422f2834c336cc6ceb4b5df63f53f5a0169b08a.

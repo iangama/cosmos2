@@ -1,0 +1,388 @@
+{
+  "completed": true,
+  "reproduced": true,
+  "feature_working": false,
+  "session": {
+    "app": 16224,
+    "server": 32812,
+    "launcher": 22996,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.1-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.1\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.1\\gravity-sessions",
+    "started": "2026-11-20T19:47:13Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.1",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#forces",
+      "x": 435,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[data-scenario=\"strong\"]",
+      "x": 164,
+      "y": 398
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#export-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#export-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#export-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#export-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#export-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#export-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#export-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#export-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#export-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#export-forces",
+      "x": 258,
+      "y": 894
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.back",
+      "x": 1346,
+      "y": 40
+    }
+  ],
+  "scope": "Native error-state reproduction only. Original header and Windows mouse controls; CDP blocks the evaluate request only as a declared transport fault. DOM/HTTP readback observes results.",
+  "source_sha256": {
+    "output/original-flow-hotfix-product0.27.1/app/ui/forces.js": "d5826b526bddb0ec6a91d63ec57078cf52aa2a0cf33437b88589356dee3ee872",
+    "output/original-flow-hotfix-product0.27.1/app/ui/forces.html": "1151fade8479fdf343bb27f8536b7aefcedfb0a4c6506c5650af684c33a28103",
+    "output/original-flow-hotfix-product0.27.1/app/ui/forces.css": "005e507534ab5ceba539e9294c97f37e8b6ebcd57fa761c7f54d58fd0b6640ad"
+  },
+  "confirmed_before": {
+    "configuration": {
+      "scenario": "gravity",
+      "controls": {
+        "gravity": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "orbital_acceleration": true,
+            "ray_bending": true,
+            "static_clock_rate": true,
+            "primary_attraction": true,
+            "secondary_attraction": true
+          }
+        },
+        "electromagnetic": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "electric_acceleration": true,
+            "magnetic_deflection": true,
+            "stellar_radiative_capture": true,
+            "cno_radiative_capture": true,
+            "fusion_radiative_capture": true
+          }
+        },
+        "strong": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "dt_fusion": true,
+            "dp_capture": true,
+            "he3_fusion": true,
+            "cno_c12_capture": true,
+            "cno_c13_capture": true,
+            "cno_n14_capture": true,
+            "cno_n15_alpha": true,
+            "fusion_dt": true,
+            "fusion_ddn": true,
+            "fusion_ddp": true,
+            "fusion_dp": true,
+            "fusion_he3he3": true,
+            "fusion_li7p": true,
+            "fusion_c12alpha": true
+          }
+        },
+        "weak": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "beta_decay": true,
+            "pp_fusion": true,
+            "electron_capture": true,
+            "cno_n13_beta": true,
+            "cno_o15_beta": true,
+            "decay_n_beta_minus_0": true,
+            "decay_t_beta_minus_0": true,
+            "decay_c14_beta_minus_0": true,
+            "decay_be7_electron_capture_0": true,
+            "decay_be7_electron_capture_1": true,
+            "decay_n13_beta_plus_0": true,
+            "decay_n13_electron_capture_0": true,
+            "decay_o15_beta_plus_0": true,
+            "decay_o15_electron_capture_0": true,
+            "decay_f18_beta_plus_0": true,
+            "decay_f18_electron_capture_0": true,
+            "decay_na22_beta_plus_0": true,
+            "decay_na22_electron_capture_0": true,
+            "decay_na22_beta_plus_1": true,
+            "decay_na22_electron_capture_1": true,
+            "decay_sr90_beta_minus_0": true,
+            "decay_y90_beta_minus_0": true,
+            "decay_y90_beta_minus_1": true,
+            "decay_y90_beta_minus_3": true
+          }
+        }
+      },
+      "parameters": {
+        "mass_solar": 1,
+        "radius_au": 1
+      }
+    },
+    "physics_sha256": "0be260aec0b8d16803dae6f0be91b9cab2214c25069f9b3aa8db36106e4885e2",
+    "title": "Gravidade em todas as direções"
+  },
+  "after_rejected_recalculation": {
+    "editing_configuration": {
+      "scenario": "strong",
+      "controls": {
+        "gravity": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "orbital_acceleration": true,
+            "ray_bending": true,
+            "static_clock_rate": true,
+            "primary_attraction": true,
+            "secondary_attraction": true
+          }
+        },
+        "electromagnetic": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "electric_acceleration": true,
+            "magnetic_deflection": true,
+            "stellar_radiative_capture": true,
+            "cno_radiative_capture": true,
+            "fusion_radiative_capture": true
+          }
+        },
+        "strong": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "dt_fusion": true,
+            "dp_capture": true,
+            "he3_fusion": true,
+            "cno_c12_capture": true,
+            "cno_c13_capture": true,
+            "cno_n14_capture": true,
+            "cno_n15_alpha": true,
+            "fusion_dt": true,
+            "fusion_ddn": true,
+            "fusion_ddp": true,
+            "fusion_dp": true,
+            "fusion_he3he3": true,
+            "fusion_li7p": true,
+            "fusion_c12alpha": true
+          }
+        },
+        "weak": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "beta_decay": true,
+            "pp_fusion": true,
+            "electron_capture": true,
+            "cno_n13_beta": true,
+            "cno_o15_beta": true,
+            "decay_n_beta_minus_0": true,
+            "decay_t_beta_minus_0": true,
+            "decay_c14_beta_minus_0": true,
+            "decay_be7_electron_capture_0": true,
+            "decay_be7_electron_capture_1": true,
+            "decay_n13_beta_plus_0": true,
+            "decay_n13_electron_capture_0": true,
+            "decay_o15_beta_plus_0": true,
+            "decay_o15_electron_capture_0": true,
+            "decay_f18_beta_plus_0": true,
+            "decay_f18_electron_capture_0": true,
+            "decay_na22_beta_plus_0": true,
+            "decay_na22_electron_capture_0": true,
+            "decay_na22_beta_plus_1": true,
+            "decay_na22_electron_capture_1": true,
+            "decay_sr90_beta_minus_0": true,
+            "decay_y90_beta_minus_0": true,
+            "decay_y90_beta_minus_1": true,
+            "decay_y90_beta_minus_3": true
+          }
+        }
+      },
+      "parameters": {
+        "temperature_K": 100000000,
+        "density_m3": 1e+20
+      }
+    },
+    "shown_configuration": {
+      "scenario": "gravity",
+      "controls": {
+        "gravity": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "orbital_acceleration": true,
+            "ray_bending": true,
+            "static_clock_rate": true,
+            "primary_attraction": true,
+            "secondary_attraction": true
+          }
+        },
+        "electromagnetic": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "electric_acceleration": true,
+            "magnetic_deflection": true,
+            "stellar_radiative_capture": true,
+            "cno_radiative_capture": true,
+            "fusion_radiative_capture": true
+          }
+        },
+        "strong": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "dt_fusion": true,
+            "dp_capture": true,
+            "he3_fusion": true,
+            "cno_c12_capture": true,
+            "cno_c13_capture": true,
+            "cno_n14_capture": true,
+            "cno_n15_alpha": true,
+            "fusion_dt": true,
+            "fusion_ddn": true,
+            "fusion_ddp": true,
+            "fusion_dp": true,
+            "fusion_he3he3": true,
+            "fusion_li7p": true,
+            "fusion_c12alpha": true
+          }
+        },
+        "weak": {
+          "acting": true,
+          "visible": true,
+          "effects": {
+            "beta_decay": true,
+            "pp_fusion": true,
+            "electron_capture": true,
+            "cno_n13_beta": true,
+            "cno_o15_beta": true,
+            "decay_n_beta_minus_0": true,
+            "decay_t_beta_minus_0": true,
+            "decay_c14_beta_minus_0": true,
+            "decay_be7_electron_capture_0": true,
+            "decay_be7_electron_capture_1": true,
+            "decay_n13_beta_plus_0": true,
+            "decay_n13_electron_capture_0": true,
+            "decay_o15_beta_plus_0": true,
+            "decay_o15_electron_capture_0": true,
+            "decay_f18_beta_plus_0": true,
+            "decay_f18_electron_capture_0": true,
+            "decay_na22_beta_plus_0": true,
+            "decay_na22_electron_capture_0": true,
+            "decay_na22_beta_plus_1": true,
+            "decay_na22_electron_capture_1": true,
+            "decay_sr90_beta_minus_0": true,
+            "decay_y90_beta_minus_0": true,
+            "decay_y90_beta_minus_1": true,
+            "decay_y90_beta_minus_3": true
+          }
+        }
+      },
+      "parameters": {
+        "mass_solar": 1,
+        "radius_au": 1
+      }
+    },
+    "shown_physics_sha256": "0be260aec0b8d16803dae6f0be91b9cab2214c25069f9b3aa8db36106e4885e2",
+    "title": "Gravidade em todas as direções",
+    "error": "Failed to fetch"
+  },
+  "capture": {
+    "path": "C:\\Users\\Ian\\cosmos2\\output\\forces-confirmed-result-before-20261120a\\rejected-recalculation.png",
+    "size": [
+      1440,
+      900
+    ],
+    "method": "Unedited Windows client-area capture",
+    "sha256": "bc4da6f3d0d6891aa244de48b907deeefadfdf53146a015adaa7c713baff8edc"
+  },
+  "export": {
+    "scenario": "strong",
+    "physics_sha256": "8b84d10024fec266834e6cd20a67140d0c6347c739160f1ac9564bd284941632",
+    "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.1\\user\\exports\\cosmos2-forces-strong-20261120T195919Z-f9d093b6.json",
+    "sha256": "b8ebc4329a2562e5d5709ab3541d5f4d495a613bffaf2fb3f790c0e442189831"
+  },
+  "physical_phase_preserved": true
+}

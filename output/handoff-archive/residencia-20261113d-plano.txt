@@ -1,0 +1,17 @@
+VIGENTE13/11 — C RECUSADO POR IPC; PREFLIGHTE30AMOSTRAS ACEITO
+C20261113c:coletor4VÁLIDO187amostras,10processos/6386polls/gapmáx.1132s.
+Executor3falhouPermissionErrorleituracollector-status duranteReplaceatômico;perfil/hostC recusados.
+4handles0/vistadodono restaurada,semcleanup_failure.Não repetirC/fontesinalteradas.
+RevisãoE ISOarquivo compartilhado Win32READ|WRITE|DELETE,aberturatransitóriaaté1s SOMENTEIPC.
+JSONmalformado/tamanho/leituraincompleta recusam,nãoháretry deobservaçõesprocesso/PDH/RAM.
+FixtureE ACEITO1000writes/74561reads/controle1.87MB/1recusaJSONmalformado.
+Coletor5/Executor4/Host4PREPARADOS;auditor3/contrato3/Historynão mudaram.
+PreflightE ACEITO30amostras/9processos/1nascimento+1saída real;GPU3.00436GiB/RAM.9972GiB.
+ATIVO prepare-expanded-residency-v4.py --label20261113d --preflight20261113e.
+PróximoapósplanDaceito:start run-expanded-residency-v4.py --label20261113d --plan-label20261113d
+Windowsdestacado,depoisconferirhost/profile/collector/auditDantesderepetir.
+Fontes/protegidos selados imutáveis;duranteperfilsembackup/download/navegaçãotestepesado.
+Backupv19local8cd4df38/6600arquivos;observador+IPCaindafora,backupv20depois.
+Telemetria23:12:15.105Z:34%5h/58%semanal disponíveis;checkpoint8%econtinuaratélimite real.
+A/B/Ctodosrecusadossemaceitegeral;V1segue7/21;IS6incompleto;K5Arecusado.Semsubagentes/promoção.
+

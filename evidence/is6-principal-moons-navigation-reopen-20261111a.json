@@ -1,0 +1,420 @@
+{
+  "completed": true,
+  "accepted": true,
+  "script_sha256": "2589ea7d519d888879a984a295211787553554709424fb116e0a3e514afdbae7",
+  "shortcut_sha256": "f8ff5fbd6c313d3b61fb80b425f622abf889c2675a0a7f3b4a9704574fd74d6c",
+  "opener_sha256": "4dce0c65ec4dfec0a76acf636c059a32837f6a4239b6ac8cfa0d29c7107db9ea",
+  "original_navigation": {
+    "anchor_position": [
+      -557984119078.4662,
+      -319875070314.36285,
+      465528567368.0093
+    ],
+    "et": 844992069.1823514,
+    "flying": false,
+    "navigation": {
+      "Anchor": "Jupiter",
+      "Position": [
+        289184938.6468506,
+        -28732630.24963379,
+        -171080732.8215332
+      ],
+      "ReferenceFrame": "Root",
+      "Timestamp": "2026 OCT 11 12:00:00",
+      "Up": [
+        0.5048304122194075,
+        -0.05015857893893849,
+        0.8617600430846221
+      ]
+    },
+    "paused": true,
+    "positions": {
+      "Callisto": [
+        -559858344349.2941,
+        -319950858080.99335,
+        465418542243.82996
+      ],
+      "Earth": [
+        -52460133554.45178,
+        65189715232.14355,
+        -123228420558.91933
+      ],
+      "Enceladus": [
+        -340639248412.83026,
+        601357525117.5382,
+        -1229482047469.5222
+      ],
+      "Europa": [
+        -557546801580.5856,
+        -320108531946.26044,
+        465972306449.2487
+      ],
+      "Ganymede": [
+        -557460613646.5912,
+        -320326546787.20184,
+        466348724496.3609
+      ],
+      "Io": [
+        -558361144283.3588,
+        -319800138687.60394,
+        465358021469.8888
+      ],
+      "Jupiter": [
+        -557984119078.4662,
+        -319875070314.36285,
+        465528567368.0093
+      ],
+      "Mars": [
+        -233102478841.73984,
+        -22811202625.337154,
+        4364691699.680344
+      ],
+      "Mercury": [
+        57161611843.65614,
+        15034269262.92884,
+        -30080305673.800117
+      ],
+      "Moon": [
+        -52257479814.476135,
+        65013786326.90584,
+        -122944236710.70308
+      ],
+      "Neptune": [
+        -443930328946.8205,
+        2089488642171.6042,
+        -3925924123615.9204
+      ],
+      "Saturn": [
+        -340544572820.6532,
+        601505287801.9176,
+        -1229644203811.2605
+      ],
+      "Sun": [
+        768617023.694856,
+        9575426.481165487,
+        160626511.21933022
+      ],
+      "Titan": [
+        -339540860244.10345,
+        601984636478.198,
+        -1229139656270.2922
+      ],
+      "Uranus": [
+        -2641404139129.656,
+        363806187944.3068,
+        -1158956618305.057
+      ],
+      "Venus": [
+        -23583735990.61218,
+        45528091228.82829,
+        -95370850753.93481
+      ]
+    },
+    "rate": 1,
+    "rotations": {
+      "Callisto": {
+        "1": 0.9962040028843343,
+        "2": 0.02570142787550911,
+        "3": 0.08316863136056216,
+        "4": 0.05833201691856041,
+        "5": 0.5120797087838587,
+        "6": -0.8569549274343727,
+        "7": -0.06461393378708563,
+        "8": 0.8585533230131943,
+        "9": 0.508636639560659
+      },
+      "Earth": {
+        "1": 0.34438054393302303,
+        "2": -0.3137945537555819,
+        "3": 0.8848361537560105,
+        "4": 0.8044722965756864,
+        "5": 0.5844877519037266,
+        "6": -0.10582245469071286,
+        "7": -0.4839693843649984,
+        "8": 0.7482693672120106,
+        "9": 0.45372523523549113
+      },
+      "Enceladus": {
+        "1": 0.34141025465667335,
+        "2": 0.6000651784150118,
+        "3": -0.7234368111100135,
+        "4": -0.7624334624746691,
+        "5": -0.27330816813380543,
+        "6": -0.5865133080589311,
+        "7": -0.5496674024482009,
+        "8": 0.7518140906401685,
+        "9": 0.3641995604071263
+      },
+      "Europa": {
+        "1": -0.6726856180695493,
+        "2": 0.34296733274642993,
+        "3": -0.6556427898720367,
+        "4": -0.7370309993890573,
+        "5": -0.3889173106896786,
+        "6": 0.552746444027888,
+        "7": -0.06541685701679228,
+        "8": 0.8550536439982623,
+        "9": 0.5143966375311343
+      },
+      "Ganymede": {
+        "1": -0.5273587653503968,
+        "2": 0.4070699581950258,
+        "3": -0.7457793116889238,
+        "4": -0.8476828029037775,
+        "5": -0.31166369183134085,
+        "6": 0.42930130311385484,
+        "7": -0.05767667006077942,
+        "8": 0.858580102453556,
+        "9": 0.5094247828694057
+      },
+      "Io": {
+        "1": 0.896887588665579,
+        "2": -0.17783271160294736,
+        "3": 0.40492984575304614,
+        "4": 0.43821151653809604,
+        "5": 0.48092125092914684,
+        "6": -0.7593980624008245,
+        "7": -0.05969355133533871,
+        "8": 0.8585396188229681,
+        "9": 0.509260643325486
+      },
+      "Jupiter": {
+        "1": -0.7738113138273751,
+        "2": -0.36242574032835617,
+        "3": 0.5194840068184912,
+        "4": 0.6305646839171478,
+        "5": -0.36303127760385423,
+        "6": 0.6860003432052935,
+        "7": -0.06003523956159901,
+        "8": 0.8584030954212339,
+        "9": 0.5094505822766575
+      },
+      "Mars": {
+        "1": -0.8945161087840934,
+        "2": -0.023889954536814167,
+        "3": -0.44639690993329295,
+        "4": -0.4436311875438332,
+        "5": -0.07556541590673582,
+        "6": 0.89301804984966,
+        "7": -0.05506632877005396,
+        "8": 0.996854622295082,
+        "9": 0.05699615289401011
+      },
+      "Mercury": {
+        "1": 0.9740766987915155,
+        "2": -0.0759771206234674,
+        "3": 0.213077596225389,
+        "4": 0.22536469987961927,
+        "5": 0.4076515921672708,
+        "6": -0.8848903499596196,
+        "7": -0.01963000049903052,
+        "8": 0.9099712394055408,
+        "9": 0.41420647814242595
+      },
+      "Moon": {
+        "1": -0.43768774437082586,
+        "2": 0.39118629951755307,
+        "3": -0.8095694642816895,
+        "4": -0.8911161597115724,
+        "5": -0.30865426702987636,
+        "6": 0.33263273041772196,
+        "7": -0.11975570269710611,
+        "8": 0.867009701510896,
+        "9": 0.4836866228846002
+      },
+      "Neptune": {
+        "1": 0.9766198923628429,
+        "2": -0.21237404851249686,
+        "3": 0.033329406829410546,
+        "4": 0.058721465938700396,
+        "5": 0.1144012602456671,
+        "6": -0.9916976056703036,
+        "7": 0.20679790927182667,
+        "8": 0.9704687605341114,
+        "9": 0.12419746192328773
+      },
+      "Saturn": {
+        "1": -0.2193284479083138,
+        "2": 0.2910319937545448,
+        "3": -0.9312332739702681,
+        "4": -0.8062487435423145,
+        "5": -0.5915554040439553,
+        "6": 0.0050167203262170695,
+        "7": -0.5494160495240096,
+        "8": 0.7519059665660641,
+        "9": 0.3643891079159528
+      },
+      "Titan": {
+        "1": -0.8218983599528239,
+        "2": -0.40810392026944076,
+        "3": -0.3974094565653566,
+        "4": -0.1516850205883236,
+        "5": -0.5156703259279988,
+        "6": 0.8432530874455374,
+        "7": -0.5490671547597598,
+        "8": 0.7533493911977531,
+        "9": 0.36192534360831485
+      },
+      "Uranus": {
+        "1": 0.20576514005720092,
+        "2": -0.9111157789947473,
+        "3": -0.3571116693753304,
+        "4": 0.18643187522901006,
+        "5": 0.39473385946632245,
+        "6": -0.8996823528831808,
+        "7": 0.9606788553079717,
+        "8": 0.11854626716019459,
+        "9": 0.25108349110713835
+      },
+      "Venus": {
+        "1": -0.9724100332098287,
+        "2": 0.007817349690340425,
+        "3": -0.23314719890377944,
+        "4": -0.2066230238378089,
+        "5": -0.4927906013878225,
+        "6": 0.8452599299647111,
+        "7": -0.1082850559079131,
+        "8": 0.8701128158047363,
+        "9": 0.48080976949243975
+      }
+    },
+    "utc": "2026-10-11T12:00:00.000",
+    "camera": {
+      "position_render_m": [
+        -557694934139.8193,
+        -319903802944.6125,
+        465357486635.18774
+      ],
+      "forward": [
+        -0.8575376878404128,
+        0.08520261610143437,
+        0.507316102782861
+      ],
+      "up": [
+        0.5048304122194073,
+        -0.05015857893893846,
+        0.8617600430846221
+      ]
+    },
+    "occluded_targets": [],
+    "effective_rate": 0.0,
+    "mode": "orbit",
+    "target": "Jupiter",
+    "boundary": null,
+    "return_available": true
+  },
+  "previous_session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 31952,
+    "server": 14404,
+    "launcher": 35184,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-principal-moons-navigation-product0.25.1\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-principal-moons-navigation-product0.25.1\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Principal-Moons-0.25.1-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-11T21:25:30Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-principal-moons-candidate-v2.py",
+    "is6PlanetCatalogCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true
+  },
+  "wrapper_pid": 45324,
+  "processes": {
+    "launcher_wrapper_exit": 0,
+    "engine_exit": 0,
+    "server_exit": 0,
+    "launcher_exit": 0
+  },
+  "shortcut": {
+    "exit": 0,
+    "log": "output/is6-principal-moons-navigation-reopen-20261111a/shortcut-0.log",
+    "sha256": "1a57d99c2b8cecda689e9057dcb43ccc05b96b1e028fe13ef606aac3e7c342f7"
+  },
+  "new_session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 24944,
+    "server": 47696,
+    "launcher": 38884,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-principal-moons-navigation-product0.25.1\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-principal-moons-navigation-product0.25.1\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-Principal-Moons-0.25.1-unpromoted",
+    "solarInitialFormat": "solar_four_physical_centers/1.0.0",
+    "started": "2026-11-11T21:55:49Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-principal-moons-candidate-v2.py",
+    "is6PlanetCatalogCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true
+  },
+  "visible_ui": {
+    "title": "Júpiter",
+    "url": "http://127.0.0.1:4700/"
+  },
+  "shortcut_reuses_existing_window": {
+    "exit": 0,
+    "log": "output/is6-principal-moons-navigation-reopen-20261111a/shortcut-1.log",
+    "sha256": "0dfe8bb0d33b1b014ad13511e38670317dfba11ffdb52063d1065f6776d4c669"
+  },
+  "protected_unchanged": {
+    "user/sessions/latest.json": true,
+    "Iniciar-Cosmos2.cmd": true
+  },
+  "owner_app_kept_open": true
+}

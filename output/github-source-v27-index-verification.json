@@ -1,0 +1,8 @@
+{
+  "accepted": true,
+  "completed": true,
+  "paths": 1027,
+  "bytes": 101355442,
+  "inventory_sha256": "8419089517f80e86acb13a7093b684b166d5fc5550bd4f8505179ef7de49b081",
+  "scope": "Every staged Git blob compared byte for byte by SHA256 with the captured snapshot inventory. Staged path set equals the copied/appended list. No unrelated historical CRLF differences staged."
+}

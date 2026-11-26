@@ -1,0 +1,332 @@
+{
+  "accepted": true,
+  "completed": true,
+  "source_sha256": {
+    "scripts/verify-owned-process-memory-v3.py": "a997575607a613f9da49a161eac8aca99438c808fdd93c56fc1a206467fa656d",
+    "scripts/owned_process_memory.py": "786b2f24bab86370ba8f7b0ea531d3a0c7d30c96ffc6d49f9d2d52d42d6974c4",
+    "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+    "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+    "scripts/expanded_residency_memory_audit.py": "08ce967813c85ccaa197e009863ffb01d8446913b11488204994aac44da180a6",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-G.md": "8f76de036b329307efee91ee6482f00a31346bc8dbbf6dad0e70db87a9932660"
+  },
+  "witnesses": [
+    {
+      "name": "live-child-20MiB",
+      "ram": {
+        "model": "retained-native-process-memory/1",
+        "processes": [
+          {
+            "pid": 21128,
+            "created_filetime": 134391297477383669,
+            "observation_started_filetime": 134391297478260150,
+            "api_called": true,
+            "native_before": {
+              "created_filetime": 134391297477383669,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134391297478260239
+            },
+            "read_started_filetime": 134391297478260314,
+            "read_finished_filetime": 134391297478260400,
+            "api_return": 1,
+            "api_error": 0,
+            "raw": {
+              "cb": 80,
+              "PageFaultCount": 7726,
+              "PeakWorkingSetSize": 31305728,
+              "WorkingSetSize": 31305728,
+              "QuotaPeakPagedPoolUsage": 54784,
+              "QuotaPagedPoolUsage": 54688,
+              "QuotaPeakNonPagedPoolUsage": 7704,
+              "QuotaNonPagedPoolUsage": 7624,
+              "PagefileUsage": 26738688,
+              "PeakPagefileUsage": 26759168,
+              "PrivateUsage": 26738688
+            },
+            "native_after": {
+              "created_filetime": 134391297477383669,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134391297478260550
+            },
+            "observation_finished_filetime": 134391297478260568,
+            "status": "measured",
+            "working_set_bytes": 31305728,
+            "private_bytes": 26738688
+          }
+        ],
+        "completed_before_read": [],
+        "sum_working_set_bytes": 31305728
+      },
+      "summary": {
+        "measured": 1,
+        "completed_before_read": 0,
+        "exits_during_read": 0
+      },
+      "interval": [
+        134391297478260084,
+        134391297478260623
+      ],
+      "identity": {
+        "pid": 21128,
+        "parent": 35408,
+        "name": "python.exe",
+        "created_filetime": 134391297477383669,
+        "started_unix": 1794656147.7383668,
+        "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391297475452589
+      },
+      "native_history": {
+        "records": [
+          {
+            "identity": {
+              "pid": 21128,
+              "parent": 35408,
+              "name": "python.exe",
+              "created_filetime": 134391297477383669,
+              "started_unix": 1794656147.7383668,
+              "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "scope_root": false,
+              "parent_created_filetime": 134391297475452589
+            },
+            "first_observed_filetime": 134391297478059029,
+            "exit": null,
+            "last_native": {
+              "created_filetime": 134391297477383669,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134391297478260550
+            },
+            "command_line": [
+              "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "-u",
+              "-c",
+              "import sys; block=bytearray(20*1024*1024);print(\"ready\",flush=True);sys.stdin.buffer.read(1)"
+            ]
+          },
+          {
+            "identity": {
+              "pid": 24428,
+              "parent": 35408,
+              "name": "python.exe",
+              "created_filetime": 134391297477047800,
+              "started_unix": 1794656147.70478,
+              "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "scope_root": true
+            },
+            "first_observed_filetime": 134391297477952656,
+            "exit": null,
+            "last_native": {
+              "created_filetime": 134391297477047800,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134391297478259445
+            },
+            "command_line": [
+              "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "-u",
+              "-c",
+              "import sys; block=bytearray(1*1024*1024);print(\"ready\",flush=True);sys.stdin.buffer.read(1)"
+            ]
+          },
+          {
+            "identity": {
+              "pid": 35408,
+              "parent": 4900,
+              "name": "python.exe",
+              "created_filetime": 134391297475452589,
+              "started_unix": 1794656147.5452588,
+              "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "scope_root": true
+            },
+            "first_observed_filetime": 134391297477849111,
+            "exit": null,
+            "last_native": {
+              "created_filetime": 134391297475452589,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134391297478259371
+            },
+            "command_line": [
+              "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "-Xutf8",
+              "scripts/verify-owned-process-memory-v3.py",
+              "--label",
+              "20261114c"
+            ]
+          }
+        ],
+        "polls": 2,
+        "maximum_poll_gap_s": 0.04355839999971067,
+        "source_sha256": {
+          "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+          "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+          "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77"
+        }
+      }
+    },
+    {
+      "name": "signaled-zero-child-excluded-without-reading",
+      "ram": {
+        "model": "retained-native-process-memory/1",
+        "processes": [],
+        "completed_before_read": [
+          {
+            "pid": 21128,
+            "created_filetime": 134391297477383669,
+            "observation_started_filetime": 134391297478343916,
+            "api_called": false,
+            "native_before": {
+              "created_filetime": 134391297477383669,
+              "exited_filetime": 134391297478303797,
+              "code": 0,
+              "wait": 0,
+              "observed_filetime": 134391297478344103
+            },
+            "status": "completed_before_read",
+            "native_after": {
+              "created_filetime": 134391297477383669,
+              "exited_filetime": 134391297478303797,
+              "code": 0,
+              "wait": 0,
+              "observed_filetime": 134391297478344103
+            },
+            "observation_finished_filetime": 134391297478344837
+          }
+        ],
+        "sum_working_set_bytes": 0
+      },
+      "summary": {
+        "measured": 0,
+        "completed_before_read": 1,
+        "exits_during_read": 0
+      },
+      "interval": [
+        134391297478343716,
+        134391297478344911
+      ],
+      "identity": {
+        "pid": 21128,
+        "parent": 35408,
+        "name": "python.exe",
+        "created_filetime": 134391297477383669,
+        "started_unix": 1794656147.7383668,
+        "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134391297475452589
+      },
+      "native_history": {
+        "records": [
+          {
+            "identity": {
+              "pid": 21128,
+              "parent": 35408,
+              "name": "python.exe",
+              "created_filetime": 134391297477383669,
+              "started_unix": 1794656147.7383668,
+              "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "scope_root": false,
+              "parent_created_filetime": 134391297475452589
+            },
+            "first_observed_filetime": 134391297478059029,
+            "exit": {
+              "code": 0,
+              "exited_filetime": 134391297478303797,
+              "observed_filetime": 134391297478344103
+            },
+            "last_native": {
+              "created_filetime": 134391297477383669,
+              "exited_filetime": 134391297478303797,
+              "code": 0,
+              "wait": 0,
+              "observed_filetime": 134391297478344103
+            },
+            "command_line": [
+              "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "-u",
+              "-c",
+              "import sys; block=bytearray(20*1024*1024);print(\"ready\",flush=True);sys.stdin.buffer.read(1)"
+            ]
+          },
+          {
+            "identity": {
+              "pid": 24428,
+              "parent": 35408,
+              "name": "python.exe",
+              "created_filetime": 134391297477047800,
+              "started_unix": 1794656147.70478,
+              "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "scope_root": true
+            },
+            "first_observed_filetime": 134391297477952656,
+            "exit": null,
+            "last_native": {
+              "created_filetime": 134391297477047800,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134391297478259445
+            },
+            "command_line": [
+              "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "-u",
+              "-c",
+              "import sys; block=bytearray(1*1024*1024);print(\"ready\",flush=True);sys.stdin.buffer.read(1)"
+            ]
+          },
+          {
+            "identity": {
+              "pid": 35408,
+              "parent": 4900,
+              "name": "python.exe",
+              "created_filetime": 134391297475452589,
+              "started_unix": 1794656147.5452588,
+              "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "scope_root": true
+            },
+            "first_observed_filetime": 134391297477849111,
+            "exit": null,
+            "last_native": {
+              "created_filetime": 134391297475452589,
+              "exited_filetime": 0,
+              "code": 259,
+              "wait": 258,
+              "observed_filetime": 134391297478259371
+            },
+            "command_line": [
+              "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+              "-Xutf8",
+              "scripts/verify-owned-process-memory-v3.py",
+              "--label",
+              "20261114c"
+            ]
+          }
+        ],
+        "polls": 2,
+        "maximum_poll_gap_s": 0.04355839999971067,
+        "source_sha256": {
+          "scripts/owned_process_history.py": "f8cf2556cc1e1d305684e005f50c80f41cf535cafe36cd0d1c6c721dcfd2fddc",
+          "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+          "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-REVISAO-D.md": "70ea7e0a87d6fd6a6900e0af123e1ca3394bb1a6347b7ff9861956edcbff6a77"
+        }
+      }
+    }
+  ],
+  "scope": "Controlled own-child native memory fixture only, no application journey or performance acceptance.",
+  "child_exits": [
+    {
+      "pid": 24428,
+      "code": 0
+    },
+    {
+      "pid": 21128,
+      "code": 0
+    }
+  ]
+}

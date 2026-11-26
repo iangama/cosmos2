@@ -1,0 +1,338 @@
+{
+  "accepted": true,
+  "completed": true,
+  "input_sha256": "bf6a8495efe3218efcfe7bb7ab4247a533bd1dc0a1ae397dcda3f7edcd3cd9be",
+  "windows": [
+    {
+      "name": "atlas_earth",
+      "first_sample": 35,
+      "last_sample": 100,
+      "frames": {
+        "frames": 4513,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.19377539586276,
+        "median_ms": 13.340700417757034,
+        "p95_ms": 14.653300307691095,
+        "p99_ms": 15.242588333785536,
+        "maximum_ms": 16.19729958474636,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "sixteen_system",
+      "first_sample": 135,
+      "last_sample": 200,
+      "frames": {
+        "frames": 4500,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.08660310180858,
+        "median_ms": 13.366399798542261,
+        "p95_ms": 14.197909971699119,
+        "p99_ms": 15.078513910993935,
+        "maximum_ms": 53.62970009446144,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "earth_mesh",
+      "first_sample": 236,
+      "last_sample": 301,
+      "frames": {
+        "frames": 4504,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.073622721247375,
+        "median_ms": 13.378300238400698,
+        "p95_ms": 14.210039982572196,
+        "p99_ms": 15.166849130764604,
+        "maximum_ms": 15.912599861621857,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "earth_pair",
+      "first_sample": 341,
+      "last_sample": 406,
+      "frames": {
+        "frames": 4506,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.09882740629837,
+        "median_ms": 13.382399920374155,
+        "p95_ms": 14.343000249937177,
+        "p99_ms": 15.34883975982666,
+        "maximum_ms": 19.319400191307068,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "earth_proton",
+      "first_sample": 440,
+      "last_sample": 505,
+      "frames": {
+        "frames": 4506,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.10009209346026,
+        "median_ms": 13.369000051170588,
+        "p95_ms": 14.138850383460522,
+        "p99_ms": 15.283385198563337,
+        "maximum_ms": 16.234800219535828,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "jupiter_mesh",
+      "first_sample": 541,
+      "last_sample": 606,
+      "frames": {
+        "frames": 4505,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.08758559729904,
+        "median_ms": 13.382700271904469,
+        "p95_ms": 14.085619896650318,
+        "p99_ms": 15.202467814087868,
+        "maximum_ms": 16.351599246263504,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "jupiter_pair",
+      "first_sample": 645,
+      "last_sample": 710,
+      "frames": {
+        "frames": 4505,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.08697867766023,
+        "median_ms": 13.372399844229221,
+        "p95_ms": 14.302820153534414,
+        "p99_ms": 15.295164063572884,
+        "maximum_ms": 16.353800892829895,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "jupiter_electron",
+      "first_sample": 745,
+      "last_sample": 810,
+      "frames": {
+        "frames": 4507,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.11362169403583,
+        "median_ms": 13.380300253629684,
+        "p95_ms": 14.17481005191803,
+        "p99_ms": 15.240906123071907,
+        "maximum_ms": 16.13450050354004,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "solar_zone",
+      "first_sample": 907,
+      "last_sample": 972,
+      "frames": {
+        "frames": 4505,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.08698189863935,
+        "median_ms": 13.36789969354868,
+        "p95_ms": 14.384060353040697,
+        "p99_ms": 15.454044416546822,
+        "maximum_ms": 19.75340023636818,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "sixteen_titan_restored",
+      "first_sample": 1006,
+      "last_sample": 1071,
+      "frames": {
+        "frames": 4506,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.10044543724507,
+        "median_ms": 13.3736003190279,
+        "p95_ms": 14.319349778816104,
+        "p99_ms": 15.273394901305434,
+        "maximum_ms": 16.60509966313839,
+        "over_100ms": 0
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "name": "atlas_earth",
+      "seconds": 0.5217510000002221,
+      "frames": {
+        "frames": 39,
+        "excluded_initial_intervals": 0,
+        "interval_s": 0.5201147990301251,
+        "median_ms": 13.3736003190279,
+        "p95_ms": 14.482579659670591,
+        "p99_ms": 14.698643796145916,
+        "maximum_ms": 14.769399538636208,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "sixteen_system",
+      "seconds": 2.0533222999993086,
+      "frames": {
+        "frames": 130,
+        "excluded_initial_intervals": 0,
+        "interval_s": 2.052090296987444,
+        "median_ms": 13.352349866181612,
+        "p95_ms": 33.87355096638198,
+        "p99_ms": 94.87227059900756,
+        "maximum_ms": 98.61429780721664,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "earth_mesh",
+      "seconds": 2.8969426000003295,
+      "frames": {
+        "frames": 209,
+        "excluded_initial_intervals": 0,
+        "interval_s": 2.894471998035442,
+        "median_ms": 13.3712999522686,
+        "p95_ms": 15.46251978725195,
+        "p99_ms": 39.47965860366811,
+        "maximum_ms": 102.03920304775238,
+        "over_100ms": 1
+      }
+    },
+    {
+      "name": "earth_pair",
+      "seconds": 6.8098153000009916,
+      "frames": {
+        "frames": 508,
+        "excluded_initial_intervals": 0,
+        "interval_s": 6.8023005880531855,
+        "median_ms": 13.362049590796232,
+        "p95_ms": 14.55164994113147,
+        "p99_ms": 18.672086540609616,
+        "maximum_ms": 67.83530116081238,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "earth_proton",
+      "seconds": 1.7234729000010702,
+      "frames": {
+        "frames": 129,
+        "excluded_initial_intervals": 0,
+        "interval_s": 1.720745099009946,
+        "median_ms": 13.375399634242058,
+        "p95_ms": 14.673659950494764,
+        "p99_ms": 32.40545518696305,
+        "maximum_ms": 39.94650021195412,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "jupiter_mesh",
+      "seconds": 2.8855691000007937,
+      "frames": {
+        "frames": 216,
+        "excluded_initial_intervals": 0,
+        "interval_s": 2.88065849756822,
+        "median_ms": 13.379799667745829,
+        "p95_ms": 14.217449584975839,
+        "p99_ms": 15.32649490982294,
+        "maximum_ms": 29.423700645565987,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "jupiter_pair",
+      "seconds": 6.727670099999159,
+      "frames": {
+        "frames": 502,
+        "excluded_initial_intervals": 0,
+        "interval_s": 6.722453793860041,
+        "median_ms": 13.353799935430288,
+        "p95_ms": 14.458125084638596,
+        "p99_ms": 18.407001290470387,
+        "maximum_ms": 69.20059770345688,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "jupiter_electron",
+      "seconds": 1.8556523999995989,
+      "frames": {
+        "frames": 139,
+        "excluded_initial_intervals": 0,
+        "interval_s": 1.8538364988053218,
+        "median_ms": 13.355799950659275,
+        "p95_ms": 14.506509993225336,
+        "p99_ms": 30.748952608555665,
+        "maximum_ms": 46.88969999551773,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "solar_zone",
+      "seconds": 64.40486310000051,
+      "frames": {
+        "frames": 4825,
+        "excluded_initial_intervals": 0,
+        "interval_s": 64.35432052740362,
+        "median_ms": 13.384100049734116,
+        "p95_ms": 14.192119985818866,
+        "p99_ms": 15.433392263948917,
+        "maximum_ms": 27.681700885295868,
+        "over_100ms": 0
+      }
+    },
+    {
+      "name": "sixteen_titan_restored",
+      "seconds": 1.4972997999993822,
+      "frames": {
+        "frames": 95,
+        "excluded_initial_intervals": 0,
+        "interval_s": 1.4939170009456575,
+        "median_ms": 13.324299827218056,
+        "p95_ms": 16.761609725654125,
+        "p99_ms": 105.85991337895399,
+        "maximum_ms": 127.94069945812225,
+        "over_100ms": 2
+      }
+    },
+    {
+      "name": "return_atlas",
+      "seconds": 0.39015399999880174,
+      "frames": {
+        "frames": 29,
+        "excluded_initial_intervals": 0,
+        "interval_s": 0.3882817984558642,
+        "median_ms": 13.42019997537136,
+        "p95_ms": 14.793739840388296,
+        "p99_ms": 21.882267594337453,
+        "maximum_ms": 24.484699591994286,
+        "over_100ms": 0
+      }
+    }
+  ],
+  "peaks_bytes": {
+    "GPU_bytes": 3316183040,
+    "RAM_bytes": 1576083456
+  },
+  "lifecycle": {
+    "processes": 16,
+    "observed_births": 8,
+    "observed_exits": 6
+  },
+  "initialization": {
+    "duration_s": 1.3502834000000803,
+    "discovery_s": 1.221755999999914,
+    "gauge_samples": 0,
+    "attempts": 1
+  },
+  "timing": {
+    "samples": 1078,
+    "maximum_duration_s": 0.154433012008667,
+    "minimum_cadence_s": 0.9690000000000509,
+    "maximum_cadence_s": 1.0160000000005311
+  },
+  "scope": "Paused residence and stable native frames only; all transition stalls are reported. Does not close IS6, K5A or V1.",
+  "data_sha256": "780be9e119d67ef8f659801ef8cb43029966cccf12a9ac91ac333cbb3bac0af7",
+  "collector_sha256": "3a8015e50de4f46ed6e7ac5377c8db4267ba767aa8e3da84d4d0974ed6d2aa8b",
+  "protected_files": 29
+}

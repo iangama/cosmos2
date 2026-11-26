@@ -1,0 +1,558 @@
+{
+  "accepted": true,
+  "completed": true,
+  "checks": [
+    {
+      "name": "preview-and-import-action-remain-readable-and-enabled-at150"
+    },
+    {
+      "name": "saved-and-imported-branch-restore-at150-preserve-orbit",
+      "sha256": "b6cc28470319df8bfb2bfe1d8a9101ed17f61e766eb81bbd4bb38b2e07838457"
+    }
+  ],
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1.5\"][aria-disabled=\"false\"]",
+      "x": 1321,
+      "y": 806
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-layers",
+      "x": 929,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-file"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-file",
+      "x": 278,
+      "y": 626
+    },
+    {
+      "input": "Windows file dialog",
+      "action": "opened",
+      "title": "Abrir"
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 78,
+      "ctrl": false,
+      "alt": true,
+      "scancode": 49,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 126
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click native dialog button",
+      "label": "&Abrir",
+      "button_id": 1,
+      "x": 791,
+      "y": 502
+    },
+    {
+      "input": "Windows file dialog",
+      "action": "chose existing file",
+      "file_name": "074696b5dc8141e1915156576f922b70.json"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-preview",
+      "x": 278,
+      "y": 715
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-reading"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-reading"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-reading",
+      "x": 278,
+      "y": 615
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-name"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-name",
+      "x": 278,
+      "y": 663
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 32
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-name",
+      "x": 278,
+      "y": 663
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-import-cancel"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-import-cancel",
+      "x": 278,
+      "y": 698
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-panel-close",
+      "x": 450,
+      "y": 224
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#experiment",
+      "x": 412,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#open-layers",
+      "x": 929,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-load-saved"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-load-saved"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-load-saved"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-load-saved",
+      "x": 278,
+      "y": 678
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -120,
+      "target": "#layers-branches-choice"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-branches-choice",
+      "x": 278,
+      "y": 633
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"a571d0aa834b4c87a6b00e72840b66d5\"][aria-disabled=\"false\"]",
+      "x": 278,
+      "y": 800
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-branch-load",
+      "x": 278,
+      "y": 718
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-leave",
+      "x": 278,
+      "y": 688
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": 360,
+      "target": "#layers-panel-close"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#layers-panel-close",
+      "x": 450,
+      "y": 192
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#atlas",
+      "x": 314,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale-choice",
+      "x": 1141,
+      "y": 824
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[role=option][data-choice-value=\"1\"][aria-disabled=\"false\"]",
+      "x": 1264,
+      "y": 674
+    }
+  ],
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-reference-import-20261121a\\layers-preview-origin-150.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "e9bdfa72c4b54695177c70c2a9dff6491bb41afecdb1ae5d68015e9469f72a64"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-reference-import-20261121a\\layers-import-action-150.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "8ba93fb6d678707178db25f4ca38632edc4214f8b2bfbedd924187523f68ed6c"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-reference-import-20261121a\\layers-branch-options-150.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "47169116f6e4176ca17a3bf0bf46e1bd7af7f4d52e4b88fd85f5712ace3a4dc8"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\native-reference-import-20261121a\\layers-imported-branch-150.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "1fb137a1e0ee620070d0436054927fac5551a5440c0d8b47ae9b08a30ef7a822"
+    }
+  ],
+  "scale": 1.5,
+  "session": {
+    "app": 39904,
+    "server": 32628,
+    "launcher": 37000,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.27.6-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.6\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.6\\gravity-sessions",
+    "started": "2026-11-21T08:59:44Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v2.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.27.6",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "script_sha256": "317c900f42ebd4b213427705d767d3fbf387fd9e9e3fd251271435a1e12f624d",
+  "manifest_sha256": "484fabda4caf14735d230a720a952dcc44efde6820a3aa97544336836eece036",
+  "scope": "Genuine Windows file picker, mouse, wheel and typing at150%: readable preview and enabled import action after name editing, cancel preview, restore saved/imported references through real controls. No second branch created, no new scientific acceptance.",
+  "step": "#atlas"
+}

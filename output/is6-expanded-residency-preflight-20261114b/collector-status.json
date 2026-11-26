@@ -1,0 +1,10 @@
+{
+  "schema": 8,
+  "collector_pid": 35676,
+  "session_engine_pid": 36324,
+  "samples": 30,
+  "acknowledged_id": "preflight",
+  "phase_samples": 30,
+  "last_sample_utc": "2026-11-14T11:37:34.743135+00:00",
+  "valid": true
+}

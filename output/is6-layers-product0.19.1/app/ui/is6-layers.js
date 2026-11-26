@@ -1,0 +1,84 @@
+'use strict';
+(()=>{
+  const el=id=>document.getElementById('layers-'+id),opener=document.getElementById('open-layers');
+  const state={snapshot:null,pending:false,polling:false,cancelling:false,error:'',body:null};
+  window.layerInstrument=state;
+  const fmt=v=>Number(v).toLocaleString('pt-BR',{maximumSignificantDigits:8,notation:v!==0&&(Math.abs(v)<1e-4||Math.abs(v)>=1e8)?'scientific':'standard'});
+  const sourceGuard=()=>{const p=appState?.physics;return p?{system_id:p.system_id,edit_token:p.edit_token,revision:p.revision,time:p.time,frame:p.contract.frame}:null;};
+  function accept(snapshot){
+    const old=state.snapshot;
+    if(old&&old.guard.session_id===snapshot.guard.session_id&&snapshot.guard.revision<old.guard.revision)return;
+    state.snapshot=snapshot;
+  }
+  function render(){
+    const s=state.snapshot,a=s?.artifact,active=Boolean(s?.active),busy=state.pending||Boolean(s?.busy),locked=active||busy||Boolean(s?.recovery_required),p=appState?.physics;
+    const ready=appState?.mode==='experiment'&&p?.paused&&p.bodies.length===4;
+    document.body.classList.toggle('layers-active',locked);window.cosmosLayersActive=locked;
+    for(const button of document.querySelectorAll('header nav button:not(#open-layers):not(#open-stellar-reference),#home')){
+      if(locked){if(!button.dataset.layersLocked){button.dataset.layersDisabled=String(button.disabled);button.dataset.layersLocked='1';}button.disabled=true;}
+      else if(button.dataset.layersLocked){button.disabled=button.dataset.layersDisabled==='true';delete button.dataset.layersLocked;delete button.dataset.layersDisabled;}
+    }
+    el('start').hidden=ready||active;el('copy').disabled=busy||pending||appState?.mode!=='atlas'||!atlasState;
+    el('form').hidden=active||Boolean(s?.recovery_required);el('fields').disabled=busy||!ready;
+    el('active').hidden=!active;el('leave').hidden=!active&&!s?.recovery_required;el('leave').disabled=busy;
+    el('caption').hidden=!active;el('visibility').disabled=busy||Boolean(s?.recovery_required);
+    const tx=s?.transaction;el('cancel').hidden=!tx?.cancellable;el('cancel').disabled=state.cancelling;
+    el('status').textContent=tx?`Preparando camadas · ${fmt(tx.elapsed_s)} s · ${tx.cancellable?'cancelamento disponível':'confirmando vista'}`:s?.recovery_required?'Restauração pendente; feche as camadas para recuperar.':active?'Referências congeladas na mesma fase · órbita preservada':'Escolha o corpo e as coordenadas da amostra.';
+    el('error').textContent=state.error||s?.error||'';
+    const bodies=(p?.bodies||[]).filter(b=>['sol:naif:399','sol:naif:599'].includes(b.reference_id));
+    if(!active&&el('body').dataset.identities!==bodies.map(b=>b.id).join(',')){
+      el('body').replaceChildren(...bodies.map(b=>new Option(b.name+' · '+(b.reference_id==='sol:naif:399'?'IGRF14':'JRM33 grau 13'),b.id)));
+      el('body').dataset.identities=bodies.map(b=>b.id).join(',');state.body=null;
+    }
+    const body=bodies.find(b=>b.id===el('body').value),jovian=body?.reference_id==='sol:naif:599';
+    el('longitude').min=jovian?'0':'-180';el('longitude').max=jovian?'360':'180';
+    el('altitude-label').hidden=jovian;el('altitude').disabled=jovian;
+    el('radius-label').hidden=!jovian;el('radius').disabled=!jovian;
+    if(body&&body.id!==state.body){el('latitude').value=jovian?'0':'-23.55';el('longitude').value=jovian?'0':'-46.63';state.body=body.id;}
+    if(!a)return;
+    el('spatial-visible').checked=a.visible.spatial;el('magnetic-visible').checked=a.visible.magnetic;
+    const x=a.spatial_sample,m=x.metric,b=a.magnetic,terrestrial=b.body_reference_id==='sol:naif:399',field=terrestrial?b.field_ITRF93_T:b.field_SystemIII_T;
+    el('spatial-reading').textContent=`Raio da sonda: ${fmt(x.radius_m)} m\nCurvatura K: ${fmt(m.Kretschmann_m_inverse4)} m⁻⁴\ndτ/dt∞: ${fmt(m.static_clock_ratio)}\nDéficit do relógio: ${fmt(m.static_clock_deficit)}\nDistância própria: ${fmt(x.radial_distance.proper_length_m)} m\nAltura do desenho ×200 · exterior 1–3 Rref`;
+    el('magnetic-reading').textContent=`${b.provenance.model}\nB: ${field.map(fmt).join('; ')} T\n|B|: ${fmt(Math.hypot(...field))} T\nComponentes em ${terrestrial?'ITRF93':'System III'}\n${terrestrial?'Latitude geodética':'Latitude planetocêntrica'}: ${fmt(b.coordinates.latitude_deg??b.coordinates.latitude_planetocentric_deg)}°\nLongitude leste: ${fmt(b.coordinates.longitude_deg??b.coordinates.longitude_east_deg)}°\n${terrestrial?'Altitude: '+fmt(b.coordinates.altitude_m)+' m':'Raio: '+fmt(b.coordinates.radius_m)+' m'}\nPosição exibida: metros · GALACTIC`;
+    el('source').textContent=`${a.source.name} · ${a.source.body_reference_id}\nÉpoca: ${a.source.epoch.utc}\nGM: ${fmt(a.source.source_configuration.GM_m3_s2)} m³/s²\nRref: ${fmt(a.source.source_configuration.material_radius_m)} m\n${b.uncertainty_reason}\nArtefato: ${a.id}\nSHA256: ${a.sha256}`;
+    el('caption-source').textContent=a.source.name+' · '+a.source.epoch.utc;
+    el('caption-visible').textContent=`Malha ${a.visible.spatial?'visível':'oculta'} · referência magnética ${a.visible.magnetic?'visível':'oculta'}`;
+  }
+  async function poll(){
+    if(state.polling)return;state.polling=true;
+    try{const response=await fetch('/api/layers/state');if(!response.ok)throw Error('Servidor de camadas indisponível.');accept(await response.json());render();}
+    catch(error){if(!el('panel').hidden){state.error=error.message;render();}}finally{state.polling=false;}
+  }
+  async function send(command,extra={}){
+    if(state.pending||state.snapshot?.busy||!state.snapshot)return;
+    state.pending=true;state.error='';render();
+    try{
+      const response=await fetch('/api/layers/command',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({command,guard:state.snapshot.guard,...extra})});
+      const value=await response.json();if(!response.ok||!value.ok)throw Error(value.error||'As camadas não foram confirmadas.');
+      accept(value.layers);document.getElementById('notice').textContent=value.layers.active?'Camadas confirmadas · órbita preservada.':'Camadas encerradas · cena restaurada.';
+      return value;
+    }catch(error){state.error=error.message;document.getElementById('notice').textContent=error.message;}
+    finally{state.pending=false;await poll();render();}
+  }
+  el('body').onchange=render;
+  el('form').onsubmit=event=>{
+    event.preventDefault();if(!el('form').reportValidity())return;
+    const body=appState.physics.bodies.find(b=>b.id===el('body').value),jovian=body?.reference_id==='sol:naif:599';
+    const latitude=Number(el('latitude').value),longitude=Number(el('longitude').value);
+    const magnetic=jovian?{model:'JRM33',radius_m:Number(el('radius').value)*71492000,latitude_deg:latitude,longitude_east_deg:longitude,degree:13}:{model:'IGRF14',latitude_deg:latitude,longitude_deg:longitude,altitude_m:Number(el('altitude').value)};
+    send('create',{source_guard:sourceGuard(),body_id:body.id,magnetic,configuration:{inner_radius_boundary_units:1,outer_radius_boundary_units:3,radial_count:65,azimuth_sectors:96,orientation:[[1,0,0],[0,1,0],[0,0,1]],vertical_amplification:200}});
+  };
+  for(const id of ['spatial-visible','magnetic-visible'])el(id).onchange=()=>send('set_visibility',{visible:{spatial:el('spatial-visible').checked,magnetic:el('magnetic-visible').checked}});
+  el('leave').onclick=()=>send('leave');
+  el('copy').onclick=async()=>{await command({utc:atlasState.epoch.utc},'Cena solar pausada pronta.','/api/solar/experiment');await poll();};
+  el('cancel').onclick=async()=>{
+    const id=state.snapshot?.transaction?.id;if(!id||state.cancelling)return;state.cancelling=true;render();
+    try{const response=await fetch('/api/layers/cancel',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({transaction_id:id})});const value=await response.json();if(!response.ok||!value.ok)throw Error(value.error||'Cancelamento não confirmado.');accept(value.layers);state.error='Preparação cancelada; cena preservada.';}
+    catch(error){state.error=error.message;}finally{state.cancelling=false;render();}
+  };
+  function open(){el('panel').hidden=false;opener.setAttribute('aria-expanded','true');el('panel-close').focus();poll();}
+  function close(){el('panel').hidden=true;opener.setAttribute('aria-expanded','false');opener.focus();}
+  opener.onclick=open;el('panel-close').onclick=close;
+  el('panel').addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();event.stopPropagation();close();}});
+  setInterval(poll,500);poll();
+})();

@@ -1,0 +1,122 @@
+{
+  "accepted": true,
+  "completed": true,
+  "label": "20261121b",
+  "operational_source_transition": "output/c214-profile-entry-transition-20261121b/transition.json",
+  "scope": "Independent raw re-audit after authorized local launcher/selection delivery. Four operational source bytes verified against exact archived pre-delivery copies and current transition. Every scientific source and raw datum still checked against original seal; no performance transfer to the delivered UI.",
+  "raw_poll_admission": {
+    "polls": 13474,
+    "maximum_gap_s": 0.06172119999246206,
+    "maximum_duration_s": 0.03076199999486562,
+    "first_poll_s": 0.016956100007519126
+  },
+  "windows": [
+    {
+      "name": "eccentric-orbit",
+      "first_sample": 33,
+      "last_sample": 98,
+      "frames": {
+        "frames": 4503,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.05991488462314,
+        "median_ms": 13.364899903535843,
+        "p95_ms": 14.44057999178767,
+        "p99_ms": 15.343358181416978,
+        "maximum_ms": 18.710000440478325,
+        "over_100ms": 0
+      },
+      "playback": {
+        "advances": 1205,
+        "loops": 5,
+        "ticks": 3600
+      }
+    },
+    {
+      "name": "eccentric-clocks",
+      "first_sample": 131,
+      "last_sample": 196,
+      "frames": {
+        "frames": 4503,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.06084077619016,
+        "median_ms": 13.372999615967274,
+        "p95_ms": 14.41286038607359,
+        "p99_ms": 15.149241983890532,
+        "maximum_ms": 16.878899186849594,
+        "over_100ms": 0
+      },
+      "playback": {
+        "advances": 1204,
+        "loops": 5,
+        "ticks": 3598
+      }
+    },
+    {
+      "name": "straight-clocks",
+      "first_sample": 229,
+      "last_sample": 294,
+      "frames": {
+        "frames": 4503,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.059550303034484,
+        "median_ms": 13.372300192713737,
+        "p95_ms": 14.453080017119646,
+        "p99_ms": 15.235871952027082,
+        "maximum_ms": 17.167799174785614,
+        "over_100ms": 0
+      },
+      "playback": {
+        "advances": 1204,
+        "loops": 5,
+        "ticks": 3598
+      }
+    },
+    {
+      "name": "circular-orbit",
+      "first_sample": 327,
+      "last_sample": 392,
+      "frames": {
+        "frames": 4503,
+        "excluded_initial_intervals": 1,
+        "interval_s": 60.06019417475909,
+        "median_ms": 13.37520033121109,
+        "p95_ms": 14.440940227359533,
+        "p99_ms": 15.28680210933089,
+        "maximum_ms": 16.29509963095188,
+        "over_100ms": 0
+      },
+      "playback": {
+        "advances": 1204,
+        "loops": 5,
+        "ticks": 3597
+      }
+    }
+  ],
+  "samples": 395,
+  "http_objects": 4,
+  "peaks": {
+    "GPU_bytes": 3251924992,
+    "RAM_bytes": 1152180224,
+    "GPU_dedicated_plus_shared_bytes": 3313344512
+  },
+  "initialization": {
+    "duration_s": 1.4144555000093533,
+    "discovery_s": 1.316712900006678,
+    "gauge_samples": 0,
+    "attempts": 1
+  },
+  "lifecycle": {
+    "processes": 14,
+    "observed_births": 6,
+    "observed_exits": 6
+  },
+  "counter_transitions": [],
+  "timing": {
+    "maximum_raw_duration_s": 0.21329092979431152,
+    "minimum_cadence_s": 0.9839999999967404,
+    "maximum_cadence_s": 1.0160000000032596
+  },
+  "native_poll_gap_s": 0.06172119999246206,
+  "executor_sha256": "a8957211e159ae36aad0024bb60d699029ac5f2ce3535be20ad353da926cbda5",
+  "collector_sha256": "15735f927e613eeb0979e08de7d0679955f27cd274fe3e2ad56c2af7f8e64b2e"
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "length_unit_m": 1000000000.0,
+  "nominal_GM_unit_m3_s2": 1.3271244e20,
+  "G_m3_kg_s2": 6.67430e-11,
+  "G_standard_uncertainty": 1.5e-15,
+  "definition": "Fixed SI binding for the canonical point-mass experiment, not observed solar ephemerides; GM uses IAU2015 nominal solar mass parameter.",
+  "sources": [
+    "https://iauarchive.eso.org/static/resolutions/IAU2015_English.pdf",
+    "https://physics.nist.gov/cuu/pdf/wall_2022.pdf"
+  ]
+}

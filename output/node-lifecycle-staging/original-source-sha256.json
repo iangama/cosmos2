@@ -1,0 +1,9 @@
+{
+  "include/openspace/scene/sceneinitializer.h": "53af6dc07a747924b510f4b5defc448b091dfa2b069e8a1dfc924eddd78dae65",
+  "src/scene/sceneinitializer.cpp": "41dcefa852c8d50357a2b149d5f6cf1cfc25d1a4ca0f7121948f18036320779e",
+  "src/scene/scene.cpp": "5bd4940913bf6cd0abcad027eb98571b536daea8ba96bea13483596d91fa76d2",
+  "src/scene/scene_lua.inl": "931fb65aee34fd0cc09ca502797be4cfb4ce1d685f367e19867d7161d46583f8",
+  "src/scene/scenegraphnode.cpp": "184942462c7aea230e2694a27c79930d0fef2036cff7f112d39ded76f5d6d5a8",
+  "src/engine/openspaceengine_lua.inl": "b6da88627f44d95aa8069510330cbc9020f0bba9441595a9db7a4d6674fd7eed",
+  "src/engine/openspaceengine.cpp": "1b1b3d6a83986d4b8906b0f01c1e30ab726cafc2e5808a23c614889cf8a795c9"
+}

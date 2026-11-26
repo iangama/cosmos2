@@ -1,0 +1,16 @@
+{
+  "accepted": false,
+  "completed": true,
+  "product": "0.27.5",
+  "defect_reproduced": true,
+  "observation": {
+    "sameObject": false,
+    "sameMetadata": true,
+    "current_sha256": "68b42dd3a070889242eb0a8752cfe2c755d6926bc0c2288fe15adaf6169ba383",
+    "preview_sha256": "68b42dd3a070889242eb0a8752cfe2c755d6926bc0c2288fe15adaf6169ba383",
+    "validPreview": true,
+    "commitDisabled": true,
+    "reading": "Prévia cancelada."
+  },
+  "scope": "Read-only diagnosis after a real Windows file selection/preview/name-edit journey: import is disabled although preview is valid and both File objects contain byte-identical data. No injected values or API import."
+}

@@ -1,0 +1,18 @@
+{
+  "files": 14341,
+  "bytes": 2686052791,
+  "invalid_inventory": [],
+  "source_equal": 14338,
+  "source_different": [
+    "PASSAGEM-CURADORIA-20261120.txt",
+    "output/continuity-checkpoint-20261120-selecao-final.txt",
+    "output/original-flow-hotfix-review-20261120a/backup-paths.txt"
+  ],
+  "source_missing": [],
+  "tracked_outside_inventory": [
+    ".gitignore",
+    "SNAPSHOT-GITHUB.md",
+    "snapshot-inventory.json"
+  ],
+  "inventory_not_tracked": []
+}

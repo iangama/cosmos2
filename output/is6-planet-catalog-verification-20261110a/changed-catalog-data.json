@@ -1,0 +1,369 @@
+{
+  "schema": 1,
+  "kind": "eight_planet_reference_data",
+  "version": "0.1.0",
+  "bodies": [
+    {
+      "id": "sol:naif:10",
+      "naif_id": "10",
+      "name": "Sol",
+      "node": "Sun",
+      "entity_kind": "physical_body",
+      "body_kind": "star",
+      "chain_naif_ids": [
+        "10",
+        "0"
+      ],
+      "relative_kernel": "data/spice/de442s.bsp",
+      "rotation_frame": null,
+      "GM": {
+        "value": 1.327124400412533e+20,
+        "unit": "m^3/s^2",
+        "uncertainty": null,
+        "origin": "JPL DE442 published model parameter, printed SI conversion",
+        "raw_value_km3_s2": "132712440041.253311",
+        "source_line": 49,
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+        "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+        "source_resolution_m3_s2": 1000.0
+      }
+    },
+    {
+      "id": "sol:naif:199",
+      "naif_id": "199",
+      "name": "Mercúrio",
+      "node": "Mercury",
+      "entity_kind": "physical_body",
+      "body_kind": "planet",
+      "chain_naif_ids": [
+        "199",
+        "1",
+        "0"
+      ],
+      "relative_kernel": "data/spice/de442s.bsp",
+      "rotation_frame": "IAU_MERCURY",
+      "GM": {
+        "value": 22031868551000.0,
+        "unit": "m^3/s^2",
+        "raw_value_km3_s2": "22031.868551",
+        "uncertainty": null,
+        "uncertainty_reason": "Source standard uncertainty was not adopted.",
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+        "source_file": "data/spice/de442_tech-comments.txt",
+        "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+        "source_rows": [
+          {
+            "line": 40,
+            "text": "   GM1     4.9125001948893182e-11        6023657.944928           22031.868551"
+          }
+        ],
+        "source_resolution_m3_s2": 1000.0,
+        "origin": "Printed physical-body model parameter"
+      }
+    },
+    {
+      "id": "sol:naif:299",
+      "naif_id": "299",
+      "name": "Vênus",
+      "node": "Venus",
+      "entity_kind": "physical_body",
+      "body_kind": "planet",
+      "chain_naif_ids": [
+        "299",
+        "2",
+        "0"
+      ],
+      "relative_kernel": "data/spice/de442s.bsp",
+      "rotation_frame": "IAU_VENUS",
+      "GM": {
+        "value": 324858592000000.0,
+        "unit": "m^3/s^2",
+        "raw_value_km3_s2": "324858.592000",
+        "uncertainty": null,
+        "uncertainty_reason": "Source standard uncertainty was not adopted.",
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+        "source_file": "data/spice/de442_tech-comments.txt",
+        "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+        "source_rows": [
+          {
+            "line": 41,
+            "text": "   GM2     7.2434523326441187e-10         408523.718656          324858.592000"
+          }
+        ],
+        "source_resolution_m3_s2": 1000.0,
+        "origin": "Printed physical-body model parameter"
+      }
+    },
+    {
+      "id": "sol:naif:399",
+      "naif_id": "399",
+      "name": "Terra",
+      "node": "Earth",
+      "entity_kind": "physical_body",
+      "body_kind": "planet",
+      "chain_naif_ids": [
+        "399",
+        "3",
+        "0"
+      ],
+      "relative_kernel": "data/spice/de442s.bsp",
+      "rotation_frame": "IAU_EARTH",
+      "GM": {
+        "value": 398600435544000.0,
+        "unit": "m^3/s^2",
+        "uncertainty": null,
+        "origin": "JPL DE442 published model parameter, printed SI conversion",
+        "raw_value_km3_s2": "398600.435544",
+        "source_line": 42,
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+        "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+        "source_resolution_m3_s2": 1000.0
+      }
+    },
+    {
+      "id": "sol:naif:301",
+      "naif_id": "301",
+      "name": "Lua",
+      "node": "Moon",
+      "entity_kind": "physical_body",
+      "body_kind": "moon",
+      "chain_naif_ids": [
+        "301",
+        "3",
+        "0"
+      ],
+      "relative_kernel": "data/spice/de442s.bsp",
+      "rotation_frame": "IAU_MOON",
+      "GM": {
+        "value": 4902800104000.0,
+        "unit": "m^3/s^2",
+        "uncertainty": null,
+        "origin": "JPL DE442 published model parameter, printed SI conversion",
+        "raw_value_km3_s2": "4902.800104",
+        "source_line": 50,
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442_tech-comments.txt",
+        "source_sha256": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+        "source_resolution_m3_s2": 1000.0
+      }
+    },
+    {
+      "id": "sol:naif:499",
+      "naif_id": "499",
+      "name": "Marte",
+      "node": "Mars",
+      "entity_kind": "physical_body",
+      "body_kind": "planet",
+      "chain_naif_ids": [
+        "499",
+        "4",
+        "0"
+      ],
+      "relative_kernel": "output/is6-planet-catalog-data-20261110a/center-499.bsp",
+      "rotation_frame": "IAU_MARS",
+      "GM": {
+        "value": 42828374857356.26,
+        "unit": "m^3/s^2",
+        "raw_value_km3_s2": "4.282837485735626E+04",
+        "uncertainty": null,
+        "uncertainty_reason": "Source standard uncertainty was not adopted.",
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099s.bsp",
+        "source_file": "output/is6-planet-catalog-data-20261110a/center-499.comments.txt",
+        "source_sha256": "321e92c9f23fed65cea7b36de7cf2d9f4c9946aad37b790b8957f378367161e7",
+        "source_rows": [
+          {
+            "line": 76,
+            "text": "    Mars     499      4.282837485735626E+04     16      7    SATORBINT"
+          },
+          {
+            "line": 161,
+            "text": "    Mars     499      4.282837485735626E+04     16      7    SATORBINT"
+          }
+        ],
+        "source_resolution_m3_s2": 0.01,
+        "origin": "Printed physical-body model parameter"
+      }
+    },
+    {
+      "id": "sol:naif:599",
+      "naif_id": "599",
+      "name": "Júpiter",
+      "node": "Jupiter",
+      "entity_kind": "physical_body",
+      "body_kind": "planet",
+      "chain_naif_ids": [
+        "599",
+        "5",
+        "0"
+      ],
+      "relative_kernel": "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp",
+      "rotation_frame": "IAU_JUPITER",
+      "GM": {
+        "value": 1.266865319003704e+17,
+        "unit": "m^3/s^2",
+        "uncertainty": null,
+        "uncertainty_reason": "No standard uncertainty adopted from this printed table.",
+        "origin": "JUP365 physical planet599 printed GM; jovian moons omitted",
+        "raw_value_km3_s2": "126686531.9003704",
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.cmt",
+        "source_sha256": "3c851a4b5d1223e155320e7f63558ebcc81908c8f68fb1c7b43985a69663e08a",
+        "source_rows": [
+          {
+            "line": 83,
+            "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+          },
+          {
+            "line": 150,
+            "raw": "    Jupiter    599     1.266865319003704E+08      8     15    SATORBINT"
+          }
+        ],
+        "source_resolution_m3_s2": 100.0
+      }
+    },
+    {
+      "id": "sol:naif:699",
+      "naif_id": "699",
+      "name": "Saturno",
+      "node": "Saturn",
+      "entity_kind": "physical_body",
+      "body_kind": "planet",
+      "chain_naif_ids": [
+        "699",
+        "6",
+        "0"
+      ],
+      "relative_kernel": "data/spice/saturn-center-sat441.bsp",
+      "rotation_frame": "IAU_SATURN",
+      "GM": {
+        "value": 3.793120623436167e+16,
+        "unit": "m^3/s^2",
+        "raw_value_km3_s2": "3.793120623436167E+07",
+        "uncertainty": null,
+        "uncertainty_reason": "Source standard uncertainty was not adopted.",
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat459.bsp",
+        "source_file": "output/saturn-acquisition/sat459.cmt",
+        "source_sha256": "54c6880cac8bcab9a46e1fe7ccde4de8ffd6a8a062aeb48a485441242731b75b",
+        "source_rows": [
+          {
+            "line": 873,
+            "text": "    Saturn       699      3.793120623436167E+07     12     12    SATORBINT"
+          },
+          {
+            "line": 927,
+            "text": "    Saturn       699      3.793120623436167E+07     12     12    SATORBINT"
+          },
+          {
+            "line": 2101,
+            "text": "    Saturn      699      3.793120623436167E+07     12     12    SATORBINT"
+          }
+        ],
+        "source_resolution_m3_s2": 10.0,
+        "origin": "Printed physical-body model parameter"
+      }
+    },
+    {
+      "id": "sol:naif:799",
+      "naif_id": "799",
+      "name": "Urano",
+      "node": "Uranus",
+      "entity_kind": "physical_body",
+      "body_kind": "planet",
+      "chain_naif_ids": [
+        "799",
+        "7",
+        "0"
+      ],
+      "relative_kernel": "output/is6-planet-catalog-data-20261110a/center-799.bsp",
+      "rotation_frame": "IAU_URANUS",
+      "GM": {
+        "value": 5793950610340896.0,
+        "unit": "m^3/s^2",
+        "raw_value_km3_s2": "5.793950610340896E+06",
+        "uncertainty": null,
+        "uncertainty_reason": "Source standard uncertainty was not adopted.",
+        "source": "https://ssd.jpl.nasa.gov/ftp/eph/satellites/bsp/ura182.bsp",
+        "source_file": "output/is6-planet-catalog-data-20261110a/center-799.comments.txt",
+        "source_sha256": "3b15fa449378dfcf4e42cec467d57f3c6e6776e70ee7544fd1233ad447364f8b",
+        "source_rows": [
+          {
+            "line": 44,
+            "text": "    Uranus    799      5.793950610340896E+06      3     15    SATORBINT"
+          },
+          {
+            "line": 111,
+            "text": "    Uranus    799      5.793950610340896E+06      3     15    SATORBINT"
+          }
+        ],
+        "source_resolution_m3_s2": 1.0,
+        "origin": "Printed physical-body model parameter"
+      }
+    },
+    {
+      "id": "sol:naif:899",
+      "naif_id": "899",
+      "name": "Netuno",
+      "node": "Neptune",
+      "entity_kind": "physical_body",
+      "body_kind": "planet",
+      "chain_naif_ids": [
+        "899",
+        "8",
+        "0"
+      ],
+      "relative_kernel": "output/is6-planet-catalog-data-20261110a/center-899.bsp",
+      "rotation_frame": "IAU_NEPTUNE",
+      "GM": {
+        "value": 6835099968446816.0,
+        "unit": "m^3/s^2",
+        "raw_value_km3_s2": "6.835099968446816E+06",
+        "uncertainty": null,
+        "uncertainty_reason": "Source standard uncertainty was not adopted.",
+        "source": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp",
+        "source_file": "output/is6-planet-catalog-data-20261110a/center-899.comments.txt",
+        "source_sha256": "837c43489c9f72786644120d71428b1f177c6e41b849003ec3c64893100f642f",
+        "source_rows": [
+          {
+            "line": 82,
+            "text": "    Neptune   899      6.835099968446816E+06      1     10    SATORBINT"
+          },
+          {
+            "line": 172,
+            "text": "    Neptune   899      6.835099968446816E+06      1     10    SATORBINT"
+          }
+        ],
+        "source_resolution_m3_s2": 1.0,
+        "origin": "Printed physical-body model parameter"
+      }
+    }
+  ],
+  "application_utc": [
+    "1995-01-01T00:00:00",
+    "2049-12-30T23:59:59"
+  ],
+  "runtime_sha256": {
+    "data/spice/de442s.bsp": "54d97562a5b094d298b1b8eafa5a2e17e3e010ce85e1a366d07f003ad159323c",
+    "data/spice/naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+    "data/spice/pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+    "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp": "15603bf73505af983a1a76bc45ed522d0962aa237ac48e8f96f98379637a5ea5",
+    "data/spice/saturn-center-sat441.bsp": "1c581c20a49256550bab0368928f81e9c5da14f9bad127f09ff6a9edf490aa27",
+    "output/is6-planet-catalog-data-20261110a/center-499.bsp": "83d55340bf5eaf3a8407bfd0b1225d2cde93dbce41bab3ee1c0d72cf29b1de25",
+    "output/is6-planet-catalog-data-20261110a/center-799.bsp": "b644c5b52ab4d8e0bbe61318572c4b6beb57e51a4c93800c0436a9cf84353d8e",
+    "output/is6-planet-catalog-data-20261110a/center-899.bsp": "a324ee0222f45a4d6791aae324ca04733b1762f4181c8743e2b49aee3e09eebe",
+    "data/spice/de442_tech-comments.txt": "1722f24a198fe54f8c25ae089ccfd06efd4bf22092e71da5d9d410040af5f666",
+    "output/is6-planet-catalog-data-20261110a/center-499.comments.txt": "321e92c9f23fed65cea7b36de7cf2d9f4c9946aad37b790b8957f378367161e7",
+    "output/saturn-acquisition/sat459.cmt": "54c6880cac8bcab9a46e1fe7ccde4de8ffd6a8a062aeb48a485441242731b75b",
+    "output/is6-planet-catalog-data-20261110a/center-799.comments.txt": "3b15fa449378dfcf4e42cec467d57f3c6e6776e70ee7544fd1233ad447364f8b",
+    "output/is6-planet-catalog-data-20261110a/center-899.comments.txt": "837c43489c9f72786644120d71428b1f177c6e41b849003ec3c64893100f642f"
+  },
+  "extra_spk": [
+    "output/solar-integration-staging/jupiter-center-jup365-from-jup348.bsp",
+    "data/spice/saturn-center-sat441.bsp",
+    "output/is6-planet-catalog-data-20261110a/center-499.bsp",
+    "output/is6-planet-catalog-data-20261110a/center-799.bsp",
+    "output/is6-planet-catalog-data-20261110a/center-899.bsp"
+  ],
+  "source_data_receipt": "evidence/is6-planet-catalog-data-20261110a.json",
+  "source_data_sha256": "dad3f4789d62a6e5e73622b7dd4e0bf4cf90baaa1fc62b2b39fba3f56d7a06e0",
+  "recipe_sha256": "fe87fb56dab06e4b52b4a770eb8ee564891c0909d54fc74c5fa4ab39ee014385",
+  "scope": "Geometric physical centers and model parameters for an isolated catalogue candidate"
+}
+ 

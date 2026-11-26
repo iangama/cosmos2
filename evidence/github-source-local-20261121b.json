@@ -1,0 +1,11 @@
+{
+  "accepted": true,
+  "completed": true,
+  "revision": "v30",
+  "commit": "e80153e12607c9772e581d6f8781f876068d53c9",
+  "files": 12432,
+  "verified_staged_blobs": 573,
+  "verified_raw_bytes": 40609344,
+  "inventory_sha256": "d19b3f921cb219ee23c93b0f67e7b6ae93c8a017e827339fddf935b65b0f51b0",
+  "scope": "Local source backup only. Exact copied-path stage and raw Git blobs checked; historical CRLF noise left unstaged. No push."
+}

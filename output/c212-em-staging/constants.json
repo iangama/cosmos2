@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "adjustment": "CODATA 2022",
+  "source": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+  "paper": "https://physics.nist.gov/cuu/pdf/RevModPhys.97.025002.pdf",
+  "acquisition": "Values transcribed from the NIST 2022 table verified on 2026-10-18; direct original download returned HTTP403, so no original-file hash is claimed.",
+  "vacuum_electric_permittivity_F_m": {"value": 8.8541878188e-12, "standard_uncertainty": 1.4e-21},
+  "vacuum_magnetic_permeability_N_A2": {"value": 1.25663706127e-6, "standard_uncertainty": 2e-16},
+  "speed_of_light_m_s": {"value": 299792458.0, "standard_uncertainty": 0.0, "exact": true}
+}

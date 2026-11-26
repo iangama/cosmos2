@@ -1,0 +1,60 @@
+{
+  "accepted": true,
+  "completed": true,
+  "version": "0.29.0",
+  "session": {
+    "app": 41500,
+    "server": 40832,
+    "launcher": 40356,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "runtimeSelectionReason": "Local-working-product-0.29.0-functional-review",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.29.0\\app\\server.py",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.29.0\\gravity-sessions",
+    "started": "2026-11-21T19:22:58Z",
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-working-cosmos2-v4.py",
+    "localWorkingProduct": true,
+    "localProductVersion": "0.29.0",
+    "is6ExpandedJourneyCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayerImportCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "promoted": false,
+    "offline": false,
+    "coldCache": false,
+    "cache": null
+  },
+  "overall_product_accepted": false,
+  "scientific_milestones_promoted": false,
+  "scientific_python_unchanged": 141,
+  "scientific_python_extended": 2,
+  "scientific_python_added": 2,
+  "manifest_sha256": "d3aa7aa71f7f9a09fc0f4e6ad9b5650f7e3889e7640615bf873e9f4e39c23874",
+  "evidence_sha256": {
+    "c214-point-lens-offline-20261121b.json": "8500e26006f031dc1e21e736433376634f7e8d028090f09302c97837088b38e2",
+    "c214-point-lens-geometry-20261121a.json": "3fcf9d8a80ad79411b9dc8b13c0d75db4c200cb6d639e89e24e32cd752734b63",
+    "c214-point-lens-http-20261121a.json": "00bd1c9f37493a4b4a7c84ca05503e4edf2b1aef43fbfcd4b66b49592599e982",
+    "c214-point-lens-ui-20261121b.json": "50e5012e268c9a88972251012030c1f2c608bdfd6d4e6ac7255f3d69dfb43d6d",
+    "native-point-lens-20261121a.json": "a0a75e03da1b1105d75247c5809d98ab3a1457a6ee913717c31165f2548d046c",
+    "native-point-lens-large-plot-20261121a.json": "e408c521eea7e93e5483859e868b2e6a6c2917e20ee0a22cb298c0a54ec63958",
+    "working-product-switch-20261121d.json": "6e781983b59d9fcec1e2af09d3eae2f54d81d5cc3b33f6486ee394a80aa01f67",
+    "original-flow-entry-point-lens-20261121a.json": "196032b582cbf4f5409aaca0f2b2c3a512c809498a75c79e148e97d61d1c48d2"
+  },
+  "shortcuts": [
+    {
+      "name": "Abrir-Planetas.cmd",
+      "reused_app": 41500,
+      "sha256": "35ff65e1f3ab5038ed599a9a507b4d521b9f0c88ae43e407cd5504d1836ef602"
+    },
+    {
+      "name": "Abrir-Planetas-e-Luas.cmd",
+      "reused_app": 41500,
+      "sha256": "35ff65e1f3ab5038ed599a9a507b4d521b9f0c88ae43e407cd5504d1836ef602"
+    }
+  ],
+  "script_sha256": "0a01e5566bd5ad5cf555dd7de560a5fa9a34fafce2ec4c5a06daad34087aab3f",
+  "scope": "Local point-lens delivery through original launcher and Forces panel, with actual Windows mouse/keyboard at100/150%, image picking, editable source/lens/observer, ray construction, parity/flux, singular ring, error/recovery and confirmed-state persistence. Original owner phase, camera, epoch and favorites preserved by native proof. Full ring readable by ordinary150% scrolling. CPU composition retains original refused out-of-domain scaling fixture. Prior orbit performance is not transferred. No whole C2-14 or final integration acceptance."
+}

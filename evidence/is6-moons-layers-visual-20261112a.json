@@ -1,0 +1,417 @@
+{
+  "accepted": true,
+  "completed": true,
+  "candidate": "0.25.1",
+  "reviewed_count": 23,
+  "reviewed_utc": "2026-11-12T02:27:11.044442+00:00",
+  "native_receipts": [
+    {
+      "path": "evidence/is6-moons-layers-native-20261112a.json",
+      "sha256": "31f944ffed2aaa650da1959f0c7d7a6c57a9e9efefd47be4f60c05e5a898d36f"
+    },
+    {
+      "path": "evidence/is6-moons-layers-native-20261112b.json",
+      "sha256": "c99e847814657d72ddb07c20271ae58f287c584da5dbd0d86475cb08b3741b36"
+    }
+  ],
+  "captures": [
+    {
+      "path": "output/is6-moons-layers-native-20261112a/01-cosmos2-is6-import-20261112a-399-import-100.png",
+      "sha256": "87ed4e4c1b264ad8e2fe68a66e32a4eeaf9950b6355d6bb8520db003fe65276c",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000000.png",
+      "native_original_sha256": "87ed4e4c1b264ad8e2fe68a66e32a4eeaf9950b6355d6bb8520db003fe65276c",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1",
+      "section": "import",
+      "visible": {
+        "magnetic": true,
+        "spatial": false
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/02-cosmos2-is6-import-20261112a-399-import-150.png",
+      "sha256": "8b7fd79b2c57d1f094edc11bd670384c464fcfa6785533ccce2b70aa508fb998",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000001.png",
+      "native_original_sha256": "8b7fd79b2c57d1f094edc11bd670384c464fcfa6785533ccce2b70aa508fb998",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1.5",
+      "section": "import",
+      "visible": {
+        "magnetic": true,
+        "spatial": false
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/03-cosmos2-is6-import-20261112a-399-overview-100.png",
+      "sha256": "8813d3f718d38d2a5508b5ca52693a1e4fbc4b938a53048745ecf043c3d915ba",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000002.png",
+      "native_original_sha256": "8813d3f718d38d2a5508b5ca52693a1e4fbc4b938a53048745ecf043c3d915ba",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1",
+      "section": "overview",
+      "visible": {
+        "spatial": false,
+        "magnetic": false
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/04-cosmos2-is6-import-20261112a-399-overview-100.png",
+      "sha256": "2c493559d3d994042369212feab3608f07368cf65762ef05983496fc731a0f11",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000003.png",
+      "native_original_sha256": "2c493559d3d994042369212feab3608f07368cf65762ef05983496fc731a0f11",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1",
+      "section": "overview",
+      "visible": {
+        "spatial": false,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/05-cosmos2-is6-import-20261112a-399-overview-100.png",
+      "sha256": "db00f73bc04db56b6412e93c913854b25f6cc23b46d779315e82777d94947b29",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000004.png",
+      "native_original_sha256": "db00f73bc04db56b6412e93c913854b25f6cc23b46d779315e82777d94947b29",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1",
+      "section": "overview",
+      "visible": {
+        "spatial": true,
+        "magnetic": false
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/06-cosmos2-is6-import-20261112a-399-overview-100.png",
+      "sha256": "940557fccda9dc28f0d433a47538929015837ee8edcb7a368a1509f6d3ac51ea",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000005.png",
+      "native_original_sha256": "940557fccda9dc28f0d433a47538929015837ee8edcb7a368a1509f6d3ac51ea",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1",
+      "section": "overview",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/07-cosmos2-is6-import-20261112a-399-overview-150.png",
+      "sha256": "a539be4a25c8fd83e5c3ce121c0b35def7545b94e53b0786d3e5d3651def90f3",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000006.png",
+      "native_original_sha256": "a539be4a25c8fd83e5c3ce121c0b35def7545b94e53b0786d3e5d3651def90f3",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1.5",
+      "section": "overview",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/08-cosmos2-is6-import-20261112a-399-storage-150.png",
+      "sha256": "0edc03dc61b90dd42f7289a04d89ba5f08dbea7d182b2f67824772e6328446cb",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000007.png",
+      "native_original_sha256": "0edc03dc61b90dd42f7289a04d89ba5f08dbea7d182b2f67824772e6328446cb",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1.5",
+      "section": "storage",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/09-cosmos2-is6-import-20261112a-599-import-100.png",
+      "sha256": "bee7ab1118d5266a93b7833b371b4eb41df1bc54ebabef09efdc625361b54475",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000008.png",
+      "native_original_sha256": "bee7ab1118d5266a93b7833b371b4eb41df1bc54ebabef09efdc625361b54475",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1",
+      "section": "import",
+      "visible": {
+        "magnetic": false,
+        "spatial": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/10-cosmos2-is6-import-20261112a-599-import-150.png",
+      "sha256": "0eb2d74eb7774ab592928fd16bea801d769c76a517f672e48e4a1314493b3fc0",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000009.png",
+      "native_original_sha256": "0eb2d74eb7774ab592928fd16bea801d769c76a517f672e48e4a1314493b3fc0",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1.5",
+      "section": "import",
+      "visible": {
+        "magnetic": false,
+        "spatial": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/11-cosmos2-is6-import-20261112a-599-overview-100.png",
+      "sha256": "dcee9d45dcc39e2593e45c68366da2d6ae26647c7eec7a215d6e075014e67057",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000010.png",
+      "native_original_sha256": "dcee9d45dcc39e2593e45c68366da2d6ae26647c7eec7a215d6e075014e67057",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1",
+      "section": "overview",
+      "visible": {
+        "spatial": false,
+        "magnetic": false
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/12-cosmos2-is6-import-20261112a-599-overview-100.png",
+      "sha256": "95f741bb91ac95d2b65085943ed25e9c3f1b4bcb35dd1d2b0d06207398831c38",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000011.png",
+      "native_original_sha256": "95f741bb91ac95d2b65085943ed25e9c3f1b4bcb35dd1d2b0d06207398831c38",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1",
+      "section": "overview",
+      "visible": {
+        "spatial": false,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/13-cosmos2-is6-import-20261112a-599-overview-100.png",
+      "sha256": "ca032d4f617a5b239196baad37a5780e1bb1146940fd4e1d2826d448fef0f8a0",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000012.png",
+      "native_original_sha256": "ca032d4f617a5b239196baad37a5780e1bb1146940fd4e1d2826d448fef0f8a0",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1",
+      "section": "overview",
+      "visible": {
+        "spatial": true,
+        "magnetic": false
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/14-cosmos2-is6-import-20261112a-599-overview-100.png",
+      "sha256": "476a8afc58ce800451f79c01f761c4590c8f7b549ed7d626b1733ceff68e8783",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000013.png",
+      "native_original_sha256": "476a8afc58ce800451f79c01f761c4590c8f7b549ed7d626b1733ceff68e8783",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1",
+      "section": "overview",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/15-cosmos2-is6-import-20261112a-599-overview-150.png",
+      "sha256": "d49a94550f8062edd50da84e7b1aefb2f57cc065c8353219f4da5ce15a9cdc36",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000014.png",
+      "native_original_sha256": "d49a94550f8062edd50da84e7b1aefb2f57cc065c8353219f4da5ce15a9cdc36",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1.5",
+      "section": "overview",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112a/16-cosmos2-is6-import-20261112a-599-storage-150.png",
+      "sha256": "eb676c09ddf92eac25dea5282da789df88835908b68c47e26db5bef6c62c7bfe",
+      "native_original": "user/screenshots/2026-11-11-18-55-52/Cosmos2 Â· mediÃ§Ã£o 1080p_000015.png",
+      "native_original_sha256": "eb676c09ddf92eac25dea5282da789df88835908b68c47e26db5bef6c62c7bfe",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1.5",
+      "section": "storage",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112b/01-cosmos2-is6-import-20261112b-599-overview-100.png",
+      "sha256": "90441681bff707f85fe0488982d6265577d439cb413698ed7d92c425934374e8",
+      "native_original": "user/screenshots/2026-11-11-23-22-47/Cosmos2 Â· mediÃ§Ã£o 1080p_000000.png",
+      "native_original_sha256": "90441681bff707f85fe0488982d6265577d439cb413698ed7d92c425934374e8",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1",
+      "section": "overview",
+      "visible": {
+        "magnetic": true,
+        "spatial": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112b/02-cosmos2-is6-import-20261112b-599-overview-150.png",
+      "sha256": "6d4a2f6581b26499fb4b3abad1a2d0a5671c82fafba01c837723f3fb556df23d",
+      "native_original": "user/screenshots/2026-11-11-23-22-47/Cosmos2 Â· mediÃ§Ã£o 1080p_000001.png",
+      "native_original_sha256": "6d4a2f6581b26499fb4b3abad1a2d0a5671c82fafba01c837723f3fb556df23d",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1.5",
+      "section": "overview",
+      "visible": {
+        "magnetic": true,
+        "spatial": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112b/03-cosmos2-is6-import-20261112b-599-storage-150.png",
+      "sha256": "d2425dccdb1cc49e3d6c5b0595609aa81227b4316282082eb79518759e9d2d35",
+      "native_original": "user/screenshots/2026-11-11-23-22-47/Cosmos2 Â· mediÃ§Ã£o 1080p_000002.png",
+      "native_original_sha256": "d2425dccdb1cc49e3d6c5b0595609aa81227b4316282082eb79518759e9d2d35",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "599",
+      "scale": "1.5",
+      "section": "storage",
+      "visible": {
+        "magnetic": true,
+        "spatial": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112b/04-cosmos2-is6-import-20261112b-399-import-150.png",
+      "sha256": "f6c950f26b7530408ccd26c244181c999d5068ac62e9d875b1934ddaffd8c7a1",
+      "native_original": "user/screenshots/2026-11-11-23-22-47/Cosmos2 Â· mediÃ§Ã£o 1080p_000003.png",
+      "native_original_sha256": "f6c950f26b7530408ccd26c244181c999d5068ac62e9d875b1934ddaffd8c7a1",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1.5",
+      "section": "import",
+      "visible": {
+        "spatial": false,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112b/05-cosmos2-is6-import-20261112b-399-overview-100.png",
+      "sha256": "c062e0a912cac0b5c27668b5ffbe1d393980d95de9a116497e862e4d2ca603c9",
+      "native_original": "user/screenshots/2026-11-11-23-22-47/Cosmos2 Â· mediÃ§Ã£o 1080p_000004.png",
+      "native_original_sha256": "c062e0a912cac0b5c27668b5ffbe1d393980d95de9a116497e862e4d2ca603c9",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1",
+      "section": "overview",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112b/06-cosmos2-is6-import-20261112b-399-overview-150.png",
+      "sha256": "a539be4a25c8fd83e5c3ce121c0b35def7545b94e53b0786d3e5d3651def90f3",
+      "native_original": "user/screenshots/2026-11-11-23-22-47/Cosmos2 Â· mediÃ§Ã£o 1080p_000005.png",
+      "native_original_sha256": "a539be4a25c8fd83e5c3ce121c0b35def7545b94e53b0786d3e5d3651def90f3",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1.5",
+      "section": "overview",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      }
+    },
+    {
+      "path": "output/is6-moons-layers-native-20261112b/07-cosmos2-is6-import-20261112b-399-storage-150.png",
+      "sha256": "0c80793f0fbfbb8dc66c186ba2de31e9c15eb3c531d77b25e0cedc32188ca5c9",
+      "native_original": "user/screenshots/2026-11-11-23-22-47/Cosmos2 Â· mediÃ§Ã£o 1080p_000006.png",
+      "native_original_sha256": "0c80793f0fbfbb8dc66c186ba2de31e9c15eb3c531d77b25e0cedc32188ca5c9",
+      "method": "openspace.takeScreenshot, unedited framebuffer",
+      "target": "399",
+      "scale": "1.5",
+      "section": "storage",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      }
+    }
+  ],
+  "RGB_comparisons": [
+    {
+      "first": "output/is6-moons-layers-native-20261112a/01-cosmos2-is6-import-20261112a-399-import-100.png",
+      "second": "output/is6-moons-layers-native-20261112a/02-cosmos2-is6-import-20261112a-399-import-150.png",
+      "rectangle_xyxy": [
+        600,
+        400,
+        1250,
+        750
+      ],
+      "RGB_bytes_equal": true
+    },
+    {
+      "first": "output/is6-moons-layers-native-20261112a/06-cosmos2-is6-import-20261112a-399-overview-100.png",
+      "second": "output/is6-moons-layers-native-20261112a/07-cosmos2-is6-import-20261112a-399-overview-150.png",
+      "rectangle_xyxy": [
+        600,
+        400,
+        1250,
+        750
+      ],
+      "RGB_bytes_equal": true
+    },
+    {
+      "first": "output/is6-moons-layers-native-20261112a/09-cosmos2-is6-import-20261112a-599-import-100.png",
+      "second": "output/is6-moons-layers-native-20261112a/10-cosmos2-is6-import-20261112a-599-import-150.png",
+      "rectangle_xyxy": [
+        600,
+        400,
+        1250,
+        750
+      ],
+      "RGB_bytes_equal": true
+    },
+    {
+      "first": "output/is6-moons-layers-native-20261112a/14-cosmos2-is6-import-20261112a-599-overview-100.png",
+      "second": "output/is6-moons-layers-native-20261112a/15-cosmos2-is6-import-20261112a-599-overview-150.png",
+      "rectangle_xyxy": [
+        600,
+        400,
+        1250,
+        750
+      ],
+      "RGB_bytes_equal": true
+    },
+    {
+      "first": "output/is6-moons-layers-native-20261112b/01-cosmos2-is6-import-20261112b-599-overview-100.png",
+      "second": "output/is6-moons-layers-native-20261112b/02-cosmos2-is6-import-20261112b-599-overview-150.png",
+      "rectangle_xyxy": [
+        600,
+        400,
+        1250,
+        750
+      ],
+      "RGB_bytes_equal": true
+    },
+    {
+      "first": "output/is6-moons-layers-native-20261112b/05-cosmos2-is6-import-20261112b-399-overview-100.png",
+      "second": "output/is6-moons-layers-native-20261112b/06-cosmos2-is6-import-20261112b-399-overview-150.png",
+      "rectangle_xyxy": [
+        600,
+        400,
+        1250,
+        750
+      ],
+      "RGB_bytes_equal": true
+    }
+  ],
+  "method": "Inspeção direta dos23PNG nativos originais em100/150%; nenhum pixel editado. Comparação de bytes de região central apenas em memória, sem produzir imagem derivada.",
+  "checks": [
+    "Quatro visibilidades confirmadas visualmente para Terra e Júpiter; malha, grade magnética e seta presentes conforme legenda.",
+    "Modelos IGRF14/JRM33 e épocas/frames/unidades legíveis; estado arquivado distinguido da cópia orbital atual.",
+    "Prévia, origem, parentesco, exportação e controles legíveis em100/150%, com rolagem e botão de fechamento acessível.",
+    "Capturas do reinício preservam ciência, procedência e aparência do primeiro ciclo."
+  ],
+  "scope": "Own compound scene presentation only, with established isolated spherical and internal magnetic models. No performance, K5A replacement, new planetary fields, sixteen-body dynamics or promotion acceptance."
+}

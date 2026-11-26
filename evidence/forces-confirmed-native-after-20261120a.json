@@ -1,0 +1,650 @@
+{
+  "accepted": true,
+  "completed": true,
+  "cases": [
+    {
+      "scale": "1",
+      "probe_reading": "Campo de referência: 0,00148252 m/s²\nPosição: 5.01315e+10, 1.23147e+11, -2.68030e+11 m",
+      "expected_magnitude_6_significant_digits": 0.00148252,
+      "rejected": {
+        "shown": "gravity",
+        "confirmed": "gravity",
+        "draft": "strong",
+        "physics": "0be260aec0b8d16803dae6f0be91b9cab2214c25069f9b3aa8db36106e4885e2",
+        "note": true
+      },
+      "export": {
+        "configuration": {
+          "scenario": "gravity",
+          "controls": {
+            "gravity": {
+              "acting": true,
+              "visible": true,
+              "effects": {
+                "orbital_acceleration": true,
+                "ray_bending": true,
+                "static_clock_rate": true,
+                "primary_attraction": true,
+                "secondary_attraction": true
+              }
+            },
+            "electromagnetic": {
+              "acting": true,
+              "visible": true,
+              "effects": {
+                "electric_acceleration": true,
+                "magnetic_deflection": true,
+                "stellar_radiative_capture": true,
+                "cno_radiative_capture": true,
+                "fusion_radiative_capture": true
+              }
+            },
+            "strong": {
+              "acting": true,
+              "visible": true,
+              "effects": {
+                "dt_fusion": true,
+                "dp_capture": true,
+                "he3_fusion": true,
+                "cno_c12_capture": true,
+                "cno_c13_capture": true,
+                "cno_n14_capture": true,
+                "cno_n15_alpha": true,
+                "fusion_dt": true,
+                "fusion_ddn": true,
+                "fusion_ddp": true,
+                "fusion_dp": true,
+                "fusion_he3he3": true,
+                "fusion_li7p": true,
+                "fusion_c12alpha": true
+              }
+            },
+            "weak": {
+              "acting": true,
+              "visible": true,
+              "effects": {
+                "beta_decay": true,
+                "pp_fusion": true,
+                "electron_capture": true,
+                "cno_n13_beta": true,
+                "cno_o15_beta": true,
+                "decay_n_beta_minus_0": true,
+                "decay_t_beta_minus_0": true,
+                "decay_c14_beta_minus_0": true,
+                "decay_be7_electron_capture_0": true,
+                "decay_be7_electron_capture_1": true,
+                "decay_n13_beta_plus_0": true,
+                "decay_n13_electron_capture_0": true,
+                "decay_o15_beta_plus_0": true,
+                "decay_o15_electron_capture_0": true,
+                "decay_f18_beta_plus_0": true,
+                "decay_f18_electron_capture_0": true,
+                "decay_na22_beta_plus_0": true,
+                "decay_na22_electron_capture_0": true,
+                "decay_na22_beta_plus_1": true,
+                "decay_na22_electron_capture_1": true,
+                "decay_sr90_beta_minus_0": true,
+                "decay_y90_beta_minus_0": true,
+                "decay_y90_beta_minus_1": true,
+                "decay_y90_beta_minus_3": true
+              }
+            }
+          },
+          "parameters": {
+            "mass_solar": 1,
+            "radius_au": 1
+          }
+        },
+        "physics_sha256": "0be260aec0b8d16803dae6f0be91b9cab2214c25069f9b3aa8db36106e4885e2",
+        "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.2\\user\\exports\\cosmos2-forces-gravity-20261120T202934Z-6fa3f66c.json"
+      },
+      "export_sha256": "cdd3f071a59578e4fd5d1f12e6cdff012ba0483d148077a9fc09883d22b87dc0",
+      "changed_parameter": "mass_solar",
+      "changed_value": 1.1,
+      "restored_physics_sha256": "0be260aec0b8d16803dae6f0be91b9cab2214c25069f9b3aa8db36106e4885e2"
+    },
+    {
+      "scale": "1.5",
+      "probe_reading": "Campo de referência: 0,00148252 m/s²\nPosição: -2.20379e+11, 9.09693e+10, 1.80764e+11 m",
+      "expected_magnitude_6_significant_digits": 0.00148252,
+      "rejected": {
+        "shown": "gravity",
+        "confirmed": "gravity",
+        "draft": "strong",
+        "physics": "0be260aec0b8d16803dae6f0be91b9cab2214c25069f9b3aa8db36106e4885e2",
+        "note": true
+      },
+      "export": {
+        "configuration": {
+          "scenario": "gravity",
+          "controls": {
+            "gravity": {
+              "acting": true,
+              "visible": true,
+              "effects": {
+                "orbital_acceleration": true,
+                "ray_bending": true,
+                "static_clock_rate": true,
+                "primary_attraction": true,
+                "secondary_attraction": true
+              }
+            },
+            "electromagnetic": {
+              "acting": true,
+              "visible": true,
+              "effects": {
+                "electric_acceleration": true,
+                "magnetic_deflection": true,
+                "stellar_radiative_capture": true,
+                "cno_radiative_capture": true,
+                "fusion_radiative_capture": true
+              }
+            },
+            "strong": {
+              "acting": true,
+              "visible": true,
+              "effects": {
+                "dt_fusion": true,
+                "dp_capture": true,
+                "he3_fusion": true,
+                "cno_c12_capture": true,
+                "cno_c13_capture": true,
+                "cno_n14_capture": true,
+                "cno_n15_alpha": true,
+                "fusion_dt": true,
+                "fusion_ddn": true,
+                "fusion_ddp": true,
+                "fusion_dp": true,
+                "fusion_he3he3": true,
+                "fusion_li7p": true,
+                "fusion_c12alpha": true
+              }
+            },
+            "weak": {
+              "acting": true,
+              "visible": true,
+              "effects": {
+                "beta_decay": true,
+                "pp_fusion": true,
+                "electron_capture": true,
+                "cno_n13_beta": true,
+                "cno_o15_beta": true,
+                "decay_n_beta_minus_0": true,
+                "decay_t_beta_minus_0": true,
+                "decay_c14_beta_minus_0": true,
+                "decay_be7_electron_capture_0": true,
+                "decay_be7_electron_capture_1": true,
+                "decay_n13_beta_plus_0": true,
+                "decay_n13_electron_capture_0": true,
+                "decay_o15_beta_plus_0": true,
+                "decay_o15_electron_capture_0": true,
+                "decay_f18_beta_plus_0": true,
+                "decay_f18_electron_capture_0": true,
+                "decay_na22_beta_plus_0": true,
+                "decay_na22_electron_capture_0": true,
+                "decay_na22_beta_plus_1": true,
+                "decay_na22_electron_capture_1": true,
+                "decay_sr90_beta_minus_0": true,
+                "decay_y90_beta_minus_0": true,
+                "decay_y90_beta_minus_1": true,
+                "decay_y90_beta_minus_3": true
+              }
+            }
+          },
+          "parameters": {
+            "mass_solar": 1,
+            "radius_au": 1
+          }
+        },
+        "physics_sha256": "0be260aec0b8d16803dae6f0be91b9cab2214c25069f9b3aa8db36106e4885e2",
+        "path": "C:\\Users\\Ian\\cosmos2\\output\\original-flow-hotfix-product0.27.2\\user\\exports\\cosmos2-forces-gravity-20261120T202948Z-a2e2ecb1.json"
+      },
+      "export_sha256": "40f4412a038a2fcfa5e20b763f565d57535d54702a18a30d202b249fea8a1dd0",
+      "changed_parameter": "mass_solar",
+      "changed_value": 1.1,
+      "restored_physics_sha256": "0be260aec0b8d16803dae6f0be91b9cab2214c25069f9b3aa8db36106e4885e2"
+    }
+  ],
+  "captures": [
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\forces-confirmed-native-after-20261120a\\rejected-draft-1.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "6b75f8aa8a7d15012408214aeef3ab3567bc11bf33862d9ae249ca8430b13c49"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\forces-confirmed-native-after-20261120a\\restored-result-1.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "2a19d5893f6948837da5b9460f321f0c2bd8a0beb8594954a12b954f9d7002f4"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\forces-confirmed-native-after-20261120a\\rejected-draft-1-5.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "3bd2808775cf26e56c8927201a36c05a02466735fa836743ccf03981eb542fbc"
+    },
+    {
+      "path": "C:\\Users\\Ian\\cosmos2\\output\\forces-confirmed-native-after-20261120a\\restored-result-1-5.png",
+      "size": [
+        1440,
+        900
+      ],
+      "method": "Unedited Windows client-area capture",
+      "sha256": "dfd4704c34724cfc4223e56c0f66503cd1631604780ddc0770ecd2cba3e14f49"
+    }
+  ],
+  "actions": [
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 13,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 28,
+      "extended": false
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#forces",
+      "x": 435,
+      "y": 62
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "gravity reference vector",
+      "x": 876,
+      "y": 562
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[data-scenario=\"strong\"]",
+      "x": 164,
+      "y": 398
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#save-forces",
+      "x": 70,
+      "y": 894
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#export-forces",
+      "x": 258,
+      "y": 894
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#restore-result-conditions",
+      "x": 478,
+      "y": 170
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#parameters [name=\"mass_solar\"]",
+      "x": 164,
+      "y": 694
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 3
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#calculate",
+      "x": 164,
+      "y": 825
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#load-forces",
+      "x": 164,
+      "y": 894
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.back",
+      "x": 1346,
+      "y": 40
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale",
+      "x": 1240,
+      "y": 849
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 40,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 80,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 40,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 80,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 13,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 28,
+      "extended": false
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#forces",
+      "x": 552,
+      "y": 93
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "gravity reference vector",
+      "x": 779,
+      "y": 383
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "[data-scenario=\"strong\"]",
+      "x": 219,
+      "y": 589
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "wheel",
+      "delta": -360,
+      "target": "#save-forces"
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#save-forces",
+      "x": 92,
+      "y": 876
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#export-forces",
+      "x": 346,
+      "y": 876
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#restore-result-conditions",
+      "x": 647,
+      "y": 275
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#parameters [name=\"mass_solar\"]",
+      "x": 219,
+      "y": 580
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 65,
+      "ctrl": true,
+      "alt": false,
+      "scancode": 30,
+      "extended": false
+    },
+    {
+      "input": "Windows keyboard",
+      "action": "type",
+      "characters": 3
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#calculate",
+      "x": 219,
+      "y": 773
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#load-forces",
+      "x": 219,
+      "y": 876
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "a.back",
+      "x": 1298,
+      "y": 61
+    },
+    {
+      "input": "Windows mouse",
+      "action": "click",
+      "target": "#ui-scale",
+      "x": 1141,
+      "y": 824
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 38,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 72,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 38,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 72,
+      "extended": true
+    },
+    {
+      "input": "Windows keyboard",
+      "key": 13,
+      "ctrl": false,
+      "alt": false,
+      "scancode": 28,
+      "extended": false
+    }
+  ],
+  "scope": "Native original-header Forces journeys using Windows mouse/keyboard at100/150%. Network blocking injects only the declared recalc fault; DOM/HTTP observe. Save/load/export use the real private backend; the prior saved file is restored after the test. No whole-project or performance acceptance.",
+  "step": "a.back",
+  "physical_phase_preserved": true
+}

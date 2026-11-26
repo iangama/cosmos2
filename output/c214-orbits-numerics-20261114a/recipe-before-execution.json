@@ -1,0 +1,190 @@
+{
+  "recipes": [
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000.0,
+      "eccentricity": 0.05,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 10000.0,
+      "eccentricity": 0.05,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000000.0,
+      "eccentricity": 0.05,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 100000000.0,
+      "eccentricity": 0.05,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000.0,
+      "eccentricity": 0.2,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 10000.0,
+      "eccentricity": 0.2,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000000.0,
+      "eccentricity": 0.2,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 100000000.0,
+      "eccentricity": 0.2,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000.0,
+      "eccentricity": 0.6,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 10000.0,
+      "eccentricity": 0.6,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000000.0,
+      "eccentricity": 0.6,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 100000000.0,
+      "eccentricity": 0.6,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000.0,
+      "eccentricity": 0.8,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 10000.0,
+      "eccentricity": 0.8,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000000.0,
+      "eccentricity": 0.8,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 100000000.0,
+      "eccentricity": 0.8,
+      "radial_cycles": 1,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 10000.0,
+      "eccentricity": 0.2,
+      "radial_cycles": 8,
+      "output_samples": 1025,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 10000.0,
+      "eccentricity": 0.8,
+      "radial_cycles": 16,
+      "output_samples": 4097,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 100000000.0,
+      "eccentricity": 0.05,
+      "radial_cycles": 16,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": 1
+    },
+    {
+      "mu_m3_s2": 1.3271244e+21,
+      "semi_latus_rectum_rs": 1000.0,
+      "eccentricity": 0.6,
+      "radial_cycles": 2,
+      "output_samples": 257,
+      "source_radius_rs": 1.0,
+      "orientation": -1
+    }
+  ],
+  "sources": {
+    "scripts/verify-c214-orbits-numerics.py": "2faeccb3b2c96672c91a3b4e174567f697cf4f00278b672c7ab4fe754da23dee",
+    "output/c214-orbits-staging/timelike_orbits.py": "fb742a77da5ea3c111987a8ebecad3c8a047aa7309a7b1c0e2707856405a8270",
+    "C2-14-ORBITAS-CONTRATO-20261114.md": "c604bfb87240ce8634d96535be14d15d8d3d40d08f049ea40011bd4385253804",
+    "C2-14-ORBITAS-PREPARACAO-20261114.md": "fc1b99b1dc3bf22ca7e0d53d20907040fe7fbce4ea6577ae96e6c3f08efea7c9"
+  }
+}

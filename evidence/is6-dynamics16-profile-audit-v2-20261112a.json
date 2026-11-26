@@ -1,0 +1,87 @@
+{
+  "accepted": true,
+  "profile": "evidence/is6-dynamics16-profile-20261112a.json",
+  "profile_sha256": "c8e93f0eba634714218b6561201d7ce001c5a7c22367a88dced00606c3a45026",
+  "auditor_sha256": "8cb7b325d78410eed2e5f73b68e0f9327cf25959134f411a66f4e8b66e94ea94",
+  "runs": [
+    {
+      "run": 1,
+      "recipe": {
+        "name": "system_paused",
+        "paused": true,
+        "rate": 1.0,
+        "reference_id": null
+      },
+      "GPU_peak_GiB": 3.011463165283203,
+      "measured_rate_ratio": 0.0,
+      "final_model_days": 0.0,
+      "frames": 4512,
+      "median_ms": 13.30725010484457,
+      "p95_ms": 14.071925217285752,
+      "p99_ms": 14.76785088889301,
+      "over_100ms": 0,
+      "interval_s": 60.18031130358577,
+      "maximum_ms": 15.303299762308598
+    },
+    {
+      "run": 2,
+      "recipe": {
+        "name": "system_rate0.1",
+        "paused": false,
+        "rate": 0.1,
+        "reference_id": null
+      },
+      "GPU_peak_GiB": 3.0174789428710938,
+      "measured_rate_ratio": 0.9996991674079795,
+      "final_model_days": 0.2154071597513272,
+      "frames": 4516,
+      "median_ms": 13.350100256502628,
+      "p95_ms": 14.182575047016144,
+      "p99_ms": 14.908375032246116,
+      "over_100ms": 0,
+      "interval_s": 60.23384982533753,
+      "maximum_ms": 19.715700298547745
+    },
+    {
+      "run": 3,
+      "recipe": {
+        "name": "earth_rate1",
+        "paused": false,
+        "rate": 1.0,
+        "reference_id": "sol:naif:399"
+      },
+      "GPU_peak_GiB": 3.0174789428710938,
+      "measured_rate_ratio": 1.0000132060404585,
+      "final_model_days": 2.1540715975133082,
+      "frames": 4512,
+      "median_ms": 13.354799710214138,
+      "p95_ms": 14.193049911409615,
+      "p99_ms": 14.93721717037261,
+      "over_100ms": 0,
+      "interval_s": 60.18104058969766,
+      "maximum_ms": 20.271800458431244
+    },
+    {
+      "run": 4,
+      "recipe": {
+        "name": "titan_rate10",
+        "paused": false,
+        "rate": 10.0,
+        "reference_id": "sol:naif:606"
+      },
+      "GPU_peak_GiB": 3.0174789428710938,
+      "measured_rate_ratio": 1.0003398831804464,
+      "final_model_days": 21.519535330123748,
+      "frames": 4513,
+      "median_ms": 13.35390005260706,
+      "p95_ms": 14.21228013932705,
+      "p99_ms": 14.94865592569113,
+      "over_100ms": 0,
+      "interval_s": 60.194158209022135,
+      "maximum_ms": 21.183600649237633
+    }
+  ],
+  "frames": 18053,
+  "RAM_peak_GiB": 1.2528190612792969,
+  "GPU_peak_GiB": 3.0174789428710938
+}

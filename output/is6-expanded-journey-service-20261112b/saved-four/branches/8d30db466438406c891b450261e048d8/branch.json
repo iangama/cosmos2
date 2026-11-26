@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "id": "branch:8d30db466438406c891b450261e048d8",
+  "name": "Origem16 do percurso ampliado",
+  "parent_id": null,
+  "parent_sha256": null,
+  "created_utc": "2026-11-12T16:50:28.525229+00:00",
+  "checkpoint_manifest_sha256": "2948cefe20756ed58d2450914567b79a0c56f6064110402fc42ae41a39a61e42",
+  "system_id": "d543bf1c349c48b2a9e622c8c5306fe3",
+  "time": 0.0,
+  "revision": 0,
+  "fixture_sha256": "535129920ea017646ef2b0501ced9cee82b45d51e62d75a5ba94b5fce59f4d28",
+  "frame": "initial_subset_barycenter_inertial_axes_J2000",
+  "record_sha256": "4f65091e08057e0242b5275c4ea5f19231b0f20bbbc7fe35a1cfc5607b5f9987"
+}

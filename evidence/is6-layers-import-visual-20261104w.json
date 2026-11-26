@@ -1,0 +1,505 @@
+{
+  "accepted": true,
+  "completed": true,
+  "candidate": "0.21.1",
+  "source_sha256": {
+    "scripts/record-is6-import-visual-review-v2.py": "6a2a7a496e53df9a67f69b87382bea87ee4819f259d13e10112f553a6b4a828f",
+    "evidence/is6-import-native-captures-20261104w.json": "313477b36df2d694661e330c2a6bf503b74048a733e4ed4afee7166f8c98ad6c",
+    "evidence/is6-layers-import-capture-process-20261104w.json": "dff6357311f6dd739d002b50e156778b7114159580979fba5135a7a8f87cdcf3",
+    "evidence/is6-import-capture-pixel-comparison-20261104v2.json": "3a454284de82ddfa1eb49e7944a8c0d0f585ac9360a669d466559b3be8000930",
+    "IS-6-CAPTURAS-CORRECAO-DIAGNOSTICO-20261104.md": "3c5a1a4583a3eb85fc8358eca185cba095967af95af8e7553de20ce6a6e02a41",
+    "scripts/compare-is6-capture-pixels.py": "001cfccd440697efce33e6863648de55b398facae92a3ad6f4d63bc4f0a08892",
+    "evidence/is6-import-caption-diagnostic-20261104v.json": "b2cc062e912c2e5617ec2474b3251a77915ef27938eadb45cac71166d3a5672d",
+    "evidence/is6-import-caption-review-20261104v.json": "626198fc9bf896ae229024ffed6303ac4aa67b180a99023fb222326549d5c197",
+    "evidence/cosmos2-is6-caption-v-engine-before.png": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d",
+    "evidence/cosmos2-is6-caption-v-printwindow.png": "aaa46215b9a3099ac64d3b3ec4d5a8054b3da41f968dedfdeb7e53250aaca51e",
+    "evidence/cosmos2-is6-caption-v-engine-after.png": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d",
+    "evidence/cosmos2-is6-import-20261104w-399-overview-00-100.png": "a807ce56bd7c3a99fdeaf873a7fa50b73bd03c575558a715e5212288868a3b88",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-00-100.png": "d52464373f3a13fa0424c05845a802f9fb4af3a5b34760e96cd8044c83e7d11b",
+    "evidence/cosmos2-is6-import-20261104w-399-overview-01-100.png": "7592b6a18e4d033007e1f3711313fad23668240ebaa72eba1a5ce05a7e4865fe",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-01-100.png": "0f9555e0f58c725818a255cb33cf641a01c8a636d08ec24f21c97a29f41d3a2f",
+    "evidence/cosmos2-is6-import-20261104w-399-overview-10-100.png": "a983864172ce9f707c32602cf36b8eb50aef10efc291c18a028040e510ca31ce",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-10-100.png": "bac0b554d683f14577615e90dfea1a825275fbf2221b04411aec092f0391a149",
+    "evidence/cosmos2-is6-import-20261104w-399-overview-11-100.png": "3682aebb883e4386af287167828b703e45f86cccbc27772f5e7e8c9c6d9eb59f",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-11-100.png": "f725c54da214f0860bc58d5edae6b7af7c40970433c8df4a47a3f881fa7ce7ed",
+    "evidence/cosmos2-is6-import-20261104w-399-overview-11-150.png": "a28de059e21c114a0b0fdcfcb24233f6f52fe2a1da728e14194947e8f87f5375",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-11-150.png": "83aadad598338b8b5209cdd0b524f7453de348c39897fa6f7865a1937a171713",
+    "evidence/cosmos2-is6-import-20261104w-399-storage-11-150.png": "b7a3d4fc0fca9d50513334919a93306a66e59fdd1ce248fad4c8eb6133285cb7",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-storage-11-150.png": "c8bcae7fc27cbf9712b293479f2fe5a4b11f76caad0d76af32a2c3343e0f4044",
+    "evidence/cosmos2-is6-import-20261104w-399-import-01-100.png": "e6f7222b59827289d60740be9f66320dbc7a7227c6439c6f1f782b79c286184a",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-import-01-100.png": "bbba89afb0215e5e2d1e1e11c0f7d1167b077a9d6d9e62ed9727fd40e1304425",
+    "evidence/cosmos2-is6-import-20261104w-399-import-01-150.png": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-import-01-150.png": "4b8af46c4bc3ef778133bdf6fae338ba01737c56b2ba13da949a1451af029013",
+    "evidence/cosmos2-is6-import-20261104w-599-overview-00-100.png": "fdb95258c37f8d9de45177b3f8443f2c24879ec234d82cc496e23bc3e44f7a7f",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-00-100.png": "8b599978b572e29b10a91bc1c8b1d33c8ebbe61e4ce1c9ac1ff67418c6a01f75",
+    "evidence/cosmos2-is6-import-20261104w-599-overview-01-100.png": "6dbd79f9b37a681cd8c2b6b11a28ad505e32e0d36713eaae7aba233c3a083fff",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-01-100.png": "2b44aaf75029de8bf80892118a878a660d03e0c8b31249fc080d7be7608eee76",
+    "evidence/cosmos2-is6-import-20261104w-599-overview-10-100.png": "52962aa0cb45a0ded524ed1aef1e1adfeca787b5286a6d8ffa38b6677a5d5008",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-10-100.png": "bb29cd6aa2d25d72b91116a9cf9b7dd97b56af79be529e8ef08a1b17a96016ea",
+    "evidence/cosmos2-is6-import-20261104w-599-overview-11-100.png": "dd5df090edc7c0f9132049df8f7c074424e67a21b50a94cc189be6b9b27c491c",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-11-100.png": "873cbfd0266e4465c80a55fca79d975f514825d3799edeebc8f5db94be4e0aaa",
+    "evidence/cosmos2-is6-import-20261104w-599-overview-11-150.png": "fc3f88db214119af24ed9e27524407513109f59486883c01b09dbeb73da3457e",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-11-150.png": "c5bdce92709bd0ec8ce562b787d3e781af7f81b820b0d06256c9a1bbde48efd2",
+    "evidence/cosmos2-is6-import-20261104w-599-storage-11-150.png": "264fe0cb0edf6ef2e4f487bec1e49668fbea608849f7611fdf3a819044ccb167",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-storage-11-150.png": "7db38617c2a4f879008db42e363f687737cec88d33bc6600c40b0215751a4501",
+    "evidence/cosmos2-is6-import-20261104w-599-import-10-100.png": "5d006461e79a005728f2e5513b251d109d444c023c77ee93adb35a282bc206e7",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-import-10-100.png": "c45562a2c0bc90f84e65e62cf02c8510a337c6fb51aa57bea5ce5b94e106bb33",
+    "evidence/cosmos2-is6-import-20261104w-599-import-10-150.png": "9922945dae0ae4cfc1fba8e586f7d01d60f657d53182b909093d391e3d45cbfd",
+    "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-import-10-150.png": "20c47aa17d4b4e5ea21f9b321e5013a736ef92442327c0c469050c5bc75f2422",
+    "evidence/cosmos2-is6-import-20261104s-399-import-150.png": "b345661ecef92d1176e5af9d6a6c19ddcd220480280d5c2f0a9f593ab9625762",
+    "evidence/cosmos2-is6-import-20261104s-399-overview-100.png": "2cc854f0df49d41c6b92477aa00c6114465af22bd7d3d4eba918ad8d15b3584b",
+    "evidence/cosmos2-is6-import-20261104s-399-overview-150.png": "1c386e9c4650f5b91952f94060fbab85acf5250a48be1e741e6d0116dfe5f858",
+    "evidence/cosmos2-is6-import-20261104s-399-storage-150.png": "5c9b300e9fca1bb0c465c84911027d729b63f7cd28fadadc6487c1396c8d34a9",
+    "evidence/cosmos2-is6-import-20261104s-599-import-150.png": "45920861ee2148ee1419daae016478705b2e874fefd74910d911df0d0222dd44",
+    "evidence/cosmos2-is6-import-20261104s-599-overview-100.png": "fb4191fd2309573ac3a5a710b74c0c0160af17e498a41c32fe2634486a094805",
+    "evidence/cosmos2-is6-import-20261104s-599-overview-150.png": "aa5e324a76c99fdb2c571caedad4e0a5374e6fe89dcc1c63a901fdecb6c9be43",
+    "evidence/cosmos2-is6-import-20261104s-599-storage-150.png": "16970fb3b5cdb0a662e242d5edfba646469d282cdef310435f585c496b4f6366",
+    "evidence/cosmos2-is6-import-20261104t-599-overview-100.png": "a7196b7ec1306f262317dd4437f4e2a72369a0fdb4df2b927e8a0d34f6d5839e",
+    "evidence/cosmos2-is6-import-20261104t-599-overview-150.png": "77b813451b6734659a3c3b71fce8cf663bf987cb363888717417cc5ef8e3c80c",
+    "evidence/cosmos2-is6-import-20261104t-599-storage-150.png": "c818bcb551f6cb9ed9e7d0fbded9de206304a55c71e02ff7b09d2ab43dd3f160",
+    "evidence/cosmos2-is6-import-20261104t-399-import-150.png": "afe127d336cc745c180d83409f9dd863a0961949e3ae66fc6ad2739b93c1473a",
+    "evidence/cosmos2-is6-import-20261104t-399-overview-100.png": "2cc854f0df49d41c6b92477aa00c6114465af22bd7d3d4eba918ad8d15b3584b",
+    "evidence/cosmos2-is6-import-20261104t-399-overview-150.png": "1c386e9c4650f5b91952f94060fbab85acf5250a48be1e741e6d0116dfe5f858",
+    "evidence/cosmos2-is6-import-20261104t-399-storage-150.png": "e7620642d6773420d909d328d17aa2cc2975d7de6d39fb3713186efff7f09c95",
+    "output/is6-layers-import-native-20261104s/cosmos2-is6-import-20261104s-399-import-150.png": "7ecf79ebd89f7f910c350f63a3de7115b2c579301bb4a82b1b5fc5a2062380c8",
+    "evidence/is6-layers-import-native-20261104s.json": "75cf47308e91c6a8a05f47befadededacba8b6170a8f08997c7b46b9f54eff42",
+    "output/is6-layers-import-native-20261104t/cosmos2-is6-import-20261104t-399-import-150.png": "9062ffc4fe592594c4dd867a2d238cf991cac679e81e0d2d070103503ff52e0c",
+    "evidence/is6-layers-import-native-20261104t.json": "f9cd3d94bd8d977031d2cfca40313d2f0571c9a0407e688a8111a76756cdf615"
+  },
+  "review_method": "Direct assistant inspection of sixteen pixel-identical RGB inspection copies, with three caption detail crops; not automatic approval from DOM text or hashes alone.",
+  "captures": [
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-399-overview-00-100.png",
+      "sha256": "a807ce56bd7c3a99fdeaf873a7fa50b73bd03c575558a715e5212288868a3b88",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-00-100.png",
+      "inspection_sha256": "d52464373f3a13fa0424c05845a802f9fb4af3a5b34760e96cd8044c83e7d11b",
+      "target": "399",
+      "section": "overview",
+      "scale": "1",
+      "visible": {
+        "spatial": false,
+        "magnetic": false
+      },
+      "manually_reviewed": true,
+      "observations": "Scene and caption follow both flags. With spatial hidden, the magnetic reference sphere, green vector and gold sample follow magnetic visibility; the independent spatial wire follows only spatial visibility. Scientific readings and units are legible at100%; panel scrolling and the fixed leave control remain available at150%."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-399-overview-01-100.png",
+      "sha256": "7592b6a18e4d033007e1f3711313fad23668240ebaa72eba1a5ce05a7e4865fe",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-01-100.png",
+      "inspection_sha256": "0f9555e0f58c725818a255cb33cf641a01c8a636d08ec24f21c97a29f41d3a2f",
+      "target": "399",
+      "section": "overview",
+      "scale": "1",
+      "visible": {
+        "spatial": false,
+        "magnetic": true
+      },
+      "manually_reviewed": true,
+      "observations": "Scene and caption follow both flags. With spatial hidden, the magnetic reference sphere, green vector and gold sample follow magnetic visibility; the independent spatial wire follows only spatial visibility. Scientific readings and units are legible at100%; panel scrolling and the fixed leave control remain available at150%."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-399-overview-10-100.png",
+      "sha256": "a983864172ce9f707c32602cf36b8eb50aef10efc291c18a028040e510ca31ce",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-10-100.png",
+      "inspection_sha256": "bac0b554d683f14577615e90dfea1a825275fbf2221b04411aec092f0391a149",
+      "target": "399",
+      "section": "overview",
+      "scale": "1",
+      "visible": {
+        "spatial": true,
+        "magnetic": false
+      },
+      "manually_reviewed": true,
+      "observations": "Scene and caption follow both flags. With spatial hidden, the magnetic reference sphere, green vector and gold sample follow magnetic visibility; the independent spatial wire follows only spatial visibility. Scientific readings and units are legible at100%; panel scrolling and the fixed leave control remain available at150%."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-399-overview-11-100.png",
+      "sha256": "3682aebb883e4386af287167828b703e45f86cccbc27772f5e7e8c9c6d9eb59f",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-11-100.png",
+      "inspection_sha256": "f725c54da214f0860bc58d5edae6b7af7c40970433c8df4a47a3f881fa7ce7ed",
+      "target": "399",
+      "section": "overview",
+      "scale": "1",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      },
+      "manually_reviewed": true,
+      "observations": "Scene and caption follow both flags. With spatial hidden, the magnetic reference sphere, green vector and gold sample follow magnetic visibility; the independent spatial wire follows only spatial visibility. Scientific readings and units are legible at100%; panel scrolling and the fixed leave control remain available at150%."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-399-overview-11-150.png",
+      "sha256": "a28de059e21c114a0b0fdcfcb24233f6f52fe2a1da728e14194947e8f87f5375",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-overview-11-150.png",
+      "inspection_sha256": "83aadad598338b8b5209cdd0b524f7453de348c39897fa6f7865a1937a171713",
+      "target": "399",
+      "section": "overview",
+      "scale": "1.5",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      },
+      "manually_reviewed": true,
+      "observations": "Scene and caption follow both flags. With spatial hidden, the magnetic reference sphere, green vector and gold sample follow magnetic visibility; the independent spatial wire follows only spatial visibility. Scientific readings and units are legible at100%; panel scrolling and the fixed leave control remain available at150%."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-399-storage-11-150.png",
+      "sha256": "b7a3d4fc0fca9d50513334919a93306a66e59fdd1ce248fad4c8eb6133285cb7",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-storage-11-150.png",
+      "inspection_sha256": "c8bcae7fc27cbf9712b293479f2fe5a4b11f76caad0d76af32a2c3343e0f4044",
+      "target": "399",
+      "section": "storage",
+      "scale": "1.5",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      },
+      "manually_reviewed": true,
+      "observations": "Save/restore, branch-name/selection and export controls are legible at150%, with the archived-reference message and fixed leave control visible."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-399-import-01-100.png",
+      "sha256": "e6f7222b59827289d60740be9f66320dbc7a7227c6439c6f1f782b79c286184a",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-import-01-100.png",
+      "inspection_sha256": "bbba89afb0215e5e2d1e1e11c0f7d1167b077a9d6d9e62ed9727fd40e1304425",
+      "target": "399",
+      "section": "import",
+      "scale": "1",
+      "visible": {
+        "spatial": false,
+        "magnetic": true
+      },
+      "manually_reviewed": true,
+      "observations": "Body, archived epoch, model, original flags and conversion/provenance policy are legible at100%/150%; confirm/cancel and the full lower notice are visible. Earth retains IGRF14; Jupiter retains JRM33 internal."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-399-import-01-150.png",
+      "sha256": "415421dd46b2de7fce176593d3525c2cc7f91aadc9ce47ca9670dc7fed33ea1d",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-399-import-01-150.png",
+      "inspection_sha256": "4b8af46c4bc3ef778133bdf6fae338ba01737c56b2ba13da949a1451af029013",
+      "target": "399",
+      "section": "import",
+      "scale": "1.5",
+      "visible": {
+        "spatial": false,
+        "magnetic": true
+      },
+      "manually_reviewed": true,
+      "observations": "Body, archived epoch, model, original flags and conversion/provenance policy are legible at100%/150%; confirm/cancel and the full lower notice are visible. Earth retains IGRF14; Jupiter retains JRM33 internal."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-599-overview-00-100.png",
+      "sha256": "fdb95258c37f8d9de45177b3f8443f2c24879ec234d82cc496e23bc3e44f7a7f",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-00-100.png",
+      "inspection_sha256": "8b599978b572e29b10a91bc1c8b1d33c8ebbe61e4ce1c9ac1ff67418c6a01f75",
+      "target": "599",
+      "section": "overview",
+      "scale": "1",
+      "visible": {
+        "spatial": false,
+        "magnetic": false
+      },
+      "manually_reviewed": true,
+      "observations": "Scene and caption follow both flags. With spatial hidden, the magnetic reference sphere, green vector and gold sample follow magnetic visibility; the independent spatial wire follows only spatial visibility. Scientific readings and units are legible at100%; panel scrolling and the fixed leave control remain available at150%."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-599-overview-01-100.png",
+      "sha256": "6dbd79f9b37a681cd8c2b6b11a28ad505e32e0d36713eaae7aba233c3a083fff",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-01-100.png",
+      "inspection_sha256": "2b44aaf75029de8bf80892118a878a660d03e0c8b31249fc080d7be7608eee76",
+      "target": "599",
+      "section": "overview",
+      "scale": "1",
+      "visible": {
+        "spatial": false,
+        "magnetic": true
+      },
+      "manually_reviewed": true,
+      "observations": "Scene and caption follow both flags. With spatial hidden, the magnetic reference sphere, green vector and gold sample follow magnetic visibility; the independent spatial wire follows only spatial visibility. Scientific readings and units are legible at100%; panel scrolling and the fixed leave control remain available at150%."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-599-overview-10-100.png",
+      "sha256": "52962aa0cb45a0ded524ed1aef1e1adfeca787b5286a6d8ffa38b6677a5d5008",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-10-100.png",
+      "inspection_sha256": "bb29cd6aa2d25d72b91116a9cf9b7dd97b56af79be529e8ef08a1b17a96016ea",
+      "target": "599",
+      "section": "overview",
+      "scale": "1",
+      "visible": {
+        "spatial": true,
+        "magnetic": false
+      },
+      "manually_reviewed": true,
+      "observations": "Scene and caption follow both flags. With spatial hidden, the magnetic reference sphere, green vector and gold sample follow magnetic visibility; the independent spatial wire follows only spatial visibility. Scientific readings and units are legible at100%; panel scrolling and the fixed leave control remain available at150%."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-599-overview-11-100.png",
+      "sha256": "dd5df090edc7c0f9132049df8f7c074424e67a21b50a94cc189be6b9b27c491c",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-11-100.png",
+      "inspection_sha256": "873cbfd0266e4465c80a55fca79d975f514825d3799edeebc8f5db94be4e0aaa",
+      "target": "599",
+      "section": "overview",
+      "scale": "1",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      },
+      "manually_reviewed": true,
+      "observations": "Scene and caption follow both flags. With spatial hidden, the magnetic reference sphere, green vector and gold sample follow magnetic visibility; the independent spatial wire follows only spatial visibility. Scientific readings and units are legible at100%; panel scrolling and the fixed leave control remain available at150%."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-599-overview-11-150.png",
+      "sha256": "fc3f88db214119af24ed9e27524407513109f59486883c01b09dbeb73da3457e",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-overview-11-150.png",
+      "inspection_sha256": "c5bdce92709bd0ec8ce562b787d3e781af7f81b820b0d06256c9a1bbde48efd2",
+      "target": "599",
+      "section": "overview",
+      "scale": "1.5",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      },
+      "manually_reviewed": true,
+      "observations": "Scene and caption follow both flags. With spatial hidden, the magnetic reference sphere, green vector and gold sample follow magnetic visibility; the independent spatial wire follows only spatial visibility. Scientific readings and units are legible at100%; panel scrolling and the fixed leave control remain available at150%."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-599-storage-11-150.png",
+      "sha256": "264fe0cb0edf6ef2e4f487bec1e49668fbea608849f7611fdf3a819044ccb167",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-storage-11-150.png",
+      "inspection_sha256": "7db38617c2a4f879008db42e363f687737cec88d33bc6600c40b0215751a4501",
+      "target": "599",
+      "section": "storage",
+      "scale": "1.5",
+      "visible": {
+        "spatial": true,
+        "magnetic": true
+      },
+      "manually_reviewed": true,
+      "observations": "Save/restore, branch-name/selection and export controls are legible at150%, with the archived-reference message and fixed leave control visible."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-599-import-10-100.png",
+      "sha256": "5d006461e79a005728f2e5513b251d109d444c023c77ee93adb35a282bc206e7",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-import-10-100.png",
+      "inspection_sha256": "c45562a2c0bc90f84e65e62cf02c8510a337c6fb51aa57bea5ce5b94e106bb33",
+      "target": "599",
+      "section": "import",
+      "scale": "1",
+      "visible": {
+        "spatial": true,
+        "magnetic": false
+      },
+      "manually_reviewed": true,
+      "observations": "Body, archived epoch, model, original flags and conversion/provenance policy are legible at100%/150%; confirm/cancel and the full lower notice are visible. Earth retains IGRF14; Jupiter retains JRM33 internal."
+    },
+    {
+      "path": "evidence/cosmos2-is6-import-20261104w-599-import-10-150.png",
+      "sha256": "9922945dae0ae4cfc1fba8e586f7d01d60f657d53182b909093d391e3d45cbfd",
+      "inspection_copy": "output/is6-native-framebuffer-RGB-20261104w/cosmos2-is6-import-20261104w-599-import-10-150.png",
+      "inspection_sha256": "20c47aa17d4b4e5ea21f9b321e5013a736ef92442327c0c469050c5bc75f2422",
+      "target": "599",
+      "section": "import",
+      "scale": "1.5",
+      "visible": {
+        "spatial": true,
+        "magnetic": false
+      },
+      "manually_reviewed": true,
+      "observations": "Body, archived epoch, model, original flags and conversion/provenance policy are legible at100%/150%; confirm/cancel and the full lower notice are visible. Earth retains IGRF14; Jupiter retains JRM33 internal."
+    }
+  ],
+  "original_caption_equivalences": [
+    {
+      "original": "evidence/cosmos2-is6-import-20261104s-399-import-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-399-import-01-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104s-399-overview-100.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-399-overview-11-100.png",
+      "caption_region_l_t_r_b": [
+        1650,
+        119,
+        1896,
+        339
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104s-399-overview-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-399-overview-11-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104s-399-storage-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-399-storage-11-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104s-599-import-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-599-import-10-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104s-599-overview-100.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-599-overview-11-100.png",
+      "caption_region_l_t_r_b": [
+        1650,
+        119,
+        1896,
+        339
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104s-599-overview-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-599-overview-11-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104s-599-storage-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-599-storage-11-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104t-599-overview-100.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-599-overview-11-100.png",
+      "caption_region_l_t_r_b": [
+        1650,
+        119,
+        1896,
+        339
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104t-599-overview-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-599-overview-11-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104t-599-storage-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-599-storage-11-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104t-399-import-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-399-import-01-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104t-399-overview-100.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-399-overview-11-100.png",
+      "caption_region_l_t_r_b": [
+        1650,
+        119,
+        1896,
+        339
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104t-399-overview-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-399-overview-11-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    },
+    {
+      "original": "evidence/cosmos2-is6-import-20261104t-399-storage-150.png",
+      "replacement": "evidence/cosmos2-is6-import-20261104w-399-storage-11-150.png",
+      "caption_region_l_t_r_b": [
+        1568,
+        179,
+        1885,
+        488
+      ],
+      "changed_RGB_pixels": 0
+    }
+  ],
+  "additional_original_reinspection": [
+    {
+      "path": "output/is6-layers-import-native-20261104s/cosmos2-is6-import-20261104s-399-import-150.png",
+      "sha256": "7ecf79ebd89f7f910c350f63a3de7115b2c579301bb4a82b1b5fc5a2062380c8",
+      "manually_reinspected": true,
+      "note": "Original RGB inspection copy retained; its caption matches W exactly. Final full-image visual acceptance uses the sixteen W images."
+    },
+    {
+      "path": "output/is6-layers-import-native-20261104t/cosmos2-is6-import-20261104t-399-import-150.png",
+      "sha256": "9062ffc4fe592594c4dd867a2d238cf991cac679e81e0d2d070103503ff52e0c",
+      "manually_reinspected": true,
+      "note": "Original RGB inspection copy retained; its caption matches W exactly. Final full-image visual acceptance uses the sixteen W images."
+    }
+  ],
+  "diagnostic_correction": {
+    "file": "IS-6-CAPTURAS-CORRECAO-DIAGNOSTICO-20261104.md",
+    "receipt": "evidence/is6-import-capture-pixel-comparison-20261104v2.json",
+    "previous_PrintWindow_loss_interpretation_revoked": true,
+    "native_preview_geometry_loss_not_confirmed": true
+  },
+  "retained_limits": [
+    "Scientific content below the150% viewport is reached by panel scrolling; it is not required to fit on a single image.",
+    "Some100% audit images catch controls muted around the independent artifact read; the exercised UI journeys and import/storage views provide the interaction checks.",
+    "No internal Windows/CEF cause is inferred from differences in presented image previews."
+  ],
+  "scope": "K5 compound-import functional visual slice0.21.1 only; no own performance, spatial-only import, promotion or full IS6/v1 acceptance."
+}

@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "product": "output/original-flow-hotfix-product0.27.7",
+  "runtime": ".runtime-is4-stream",
+  "candidate": "0.27.7",
+  "scope": "Spatial format compatibility with retained provenance; native owner-path acceptance pending, no milestone promotion."
+}

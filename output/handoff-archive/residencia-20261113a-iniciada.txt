@@ -1,0 +1,21 @@
+VIGENTE 13/11 — RESIDÊNCIA 0.27.0 INICIADA, SEM RESULTADO AINDA
+Contrato + identidade + revisão B selados antes das dez janelas.
+Offline A:28 recusas; auditoria offline A:11 recusas adicionais ACEITAS.
+Preflight B:coletor2,3amostras,8processos,3.00436GiB GPU/~1GiB RAM ACEITO.
+Revisão2 corrige nomes publicados da malha simples/reference_id e par/body_reference_id;
+fontes/provas antigas preservadas. Produto científico não mudou.
+Plano evidence/is6-expanded-residency-plan-20261113a.json ACEITO:2339fontes/29protegidos,
+inclui binários dos checkpoints. Não editar fontes seladas ou arquivos protegidos.
+ATIVO:run-expanded-residency.py --label20261113a --plan-label20261113a, Windows destacado25488.
+Consultar host/profile/audit/collector receipts ANTES de repetir qualquer etapa.
+Logs output/is6-expanded-residency-host-20261113a/{profile,audit,reopen}.log.
+10janelas:AtlasTerra,16sistema,malhaTerra,parTerra,próton256,malhaJúpiter,parJúpiter,
+elétron256,solar120,16Titã;30saquecimento+60squadros+66PDH1Hz cada.
+Durante coleta:NÃO backup/download/navegação/teste pesado. Pode ler progresso e manter passagem.
+Driver retém4handles,fecha4x0,audita e reabre vista do dono. Conferir resultado real;
+se houver falha,preservar fontes/ZIP/brutos e elaborar revisão nova antes de qualquer nova coleta.
+Última telemetria17:30:12.799Z:23%5h/72%semanal disponíveis;consultar atual.
+Salvarcheckpoint8%econtinuar atélimite real.Sem subagentes/push/promoção.V1segue7/21,IS6incompleto.
+Backupmaisrecente416fb28670dfd707111e6744571f2dcae524a2f6/6492arquivos;
+protocoloeavançosde residência ainda FORA dobackup. Não repetir jornadas/perfis anteriores aceitos.
+

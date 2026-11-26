@@ -1,0 +1,66 @@
+{
+  "accepted": true,
+  "profile": "evidence/is6-moons-layers-profile-20261112a.json",
+  "profile_sha256": "5341a92dfc447930b5cf47cb6bcbba7cef21be79e281d0c3ea17e50e42447491",
+  "auditor_sha256": "c90f0f5965f82a2b09b8d848fc1677578dd9220c94bf01f42c52f86b49ba756c",
+  "runs": [
+    {
+      "run": 1,
+      "body": "399",
+      "kind": "static",
+      "GPU_peak_GiB": 3.0138816833496094,
+      "frames": 4516,
+      "median_ms": 13.343200087547302,
+      "p95_ms": 14.117249986156821,
+      "p99_ms": 14.85398001968861,
+      "over_100ms": 0,
+      "interval_s": 60.23464159667492
+    },
+    {
+      "run": 2,
+      "body": "599",
+      "kind": "static",
+      "GPU_peak_GiB": 3.0138816833496094,
+      "frames": 4519,
+      "median_ms": 13.350400142371655,
+      "p95_ms": 14.122920017689465,
+      "p99_ms": 14.89693021401763,
+      "over_100ms": 0,
+      "interval_s": 60.27408108860254
+    },
+    {
+      "run": 3,
+      "body": "399",
+      "kind": "visibility",
+      "GPU_peak_GiB": 3.0177879333496094,
+      "frames": 4518,
+      "median_ms": 13.342250138521194,
+      "p95_ms": 14.177585253491996,
+      "p99_ms": 14.864659877493978,
+      "over_100ms": 0,
+      "interval_s": 60.26032209536061,
+      "command_completion_ratio": 1.0,
+      "command_p95_s": 0.22784810498851585,
+      "command_max_s": 0.24625210001249798
+    },
+    {
+      "run": 4,
+      "body": "599",
+      "kind": "visibility",
+      "GPU_peak_GiB": 3.024120330810547,
+      "frames": 4517,
+      "median_ms": 13.349399901926517,
+      "p95_ms": 14.17503971606493,
+      "p99_ms": 14.91462402045727,
+      "over_100ms": 0,
+      "interval_s": 60.246988877188414,
+      "command_completion_ratio": 1.0,
+      "command_p95_s": 0.23153308001492404,
+      "command_max_s": 0.25814670001273043
+    }
+  ],
+  "commands": 240,
+  "RAM_peak_GiB": 1.2516899108886719,
+  "GPU_peak_GiB": 3.024120330810547,
+  "scope": "Own 0.25.1 compound render/API visibility in the expanded sixteen-body reference scene; paused four-body copy and established Earth/Jupiter fields. Existing compound records remain byte-identical. No K5A replacement, save throughput, sixteen-body dynamics, promotion or full IS6 acceptance."
+}

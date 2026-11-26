@@ -1,0 +1,26 @@
+{
+  "accepted": true,
+  "bodies": 10,
+  "navigable_bodies": 9,
+  "targets": [
+    "Earth",
+    "Galaxy",
+    "Jupiter",
+    "Mars",
+    "Mercury",
+    "Moon",
+    "Neptune",
+    "Saturn",
+    "System",
+    "Uranus",
+    "Venus"
+  ],
+  "exact_et": 844992069.1824744,
+  "independent_position_difference_m": 0,
+  "refusals": 4,
+  "source_sha256": {
+    "output\\is6-planet-navigation-staging\\planet_atlas.py": "65f764fe663165c8efa84d66edc1c30fd13ce1a759dff6c6f5a1efae1dcb458a",
+    "output\\is6-planet-navigation-staging\\planet_navigation.py": "00797d36ca7cbda9874692e8d2a1ac08ba80e99922cd91f1e7e55cec7623a899",
+    "output\\is6-planet-navigation-staging\\is6_planet_catalog_v2.py": "9fa3ebef663402dc076daacdbe0249a13e684fe76ad8cf3f98b2842471a38aca"
+  }
+}

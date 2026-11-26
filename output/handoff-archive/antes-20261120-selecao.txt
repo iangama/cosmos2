@@ -1,0 +1,39 @@
+COSMOS2 — CONTINUIDADE ATIVA EM20/11/2026
+
+Autorização vigente
+O dono respondeu “Continue o que precisar” depois do relatório de pendência nativa e voltou a dizer “Continue”. A validação funcional necessária pelos atalhos/controles reais está autorizada. Preservar qualquer sessão antes de trocar processo/versão. Não pedir liberação rotineira novamente. A integração visual final continua adiada: não reorganizar Explorar/Forças/Malha/Camadas agora. O painel único retrátil é requisito de C2-16/17, ainda não entregue. A diretriz histórica está em CAMADAS-QUATRO-FORCAS.md; o bloqueio temporário dos testes manuais foi superado pela autorização posterior.
+
+Estado acessível
+Os três atalhos originais — Iniciar-Cosmos2.cmd, Abrir-Planetas.cmd e Abrir-Planetas-e-Luas.cmd — agora chamam scripts/open-working-cosmos2.py. config/local-working-product.json seleciona output/original-flow-hotfix-product0.27.1 e runtime .runtime-is4-stream. Inicialização é controlada por scripts/launch-working-cosmos2.py, com HTTP pronto antes do motor e bootstrap-v2. Instalação local de trabalho, sem promoção de marco/publicação. App/data do produto estão selados; correções novas exigem revisão nova.
+A última sessão ABERTA pelo próprio Iniciar-Cosmos2.cmd é app16224/server32812/launcher22996, janela1440x900, em modo experiment com cópia solar de quatro corpos pausada. O teste f terminou na página principal, sem Malha/Camadas ativas. Conferir processos/estado antes de interagir; não reabrir ou fechar por suposição. A sessão anterior30080/11216 encerrou normalmente com app0 e servidor0.
+
+Avanço nativo confirmado
+- O atalho principal anterior abria app/server.py, sem Malha/Camadas. Foram preservados142 arquivos antes de abrir qualquer janela (preflight20261120a); depois159 arquivos antes da nova abertura d. O .cmd original e as gerações anteriores seguem preservados.
+- Produto0.27.1 deriva do staging offline v2;137 módulos científicos byte idênticos. Builder prepare-working-product.py copiou23 arquivos de estado do produto0.27 e forças do usuário, sem copiar saves fictícios do staging.
+- evidence/original-flow-native-journey-20261120f.json ACEITO em12 recortes delimitados: ambos os outros atalhos reutilizaram a mesma sessão; Forças abriu12 cenários e calculou forte pelo botão real; retorno conservou a fase; Malha Terra fez visibilidade/sonda/salvar/exportar/fechar; Camadas Terra fez visibilidade/salvar/exportar/fechar, em100% e150%; erro de transporte da Malha e erro/retry do catálogo de Forças foram exercitados. Toda ação foi mouse/teclado Windows. HTTP/DOM somente observaram; bloqueio de rede foi injeção de falha declarada.
+- Esse recibo NÃO aceita toda a experiência, importação, retomada persistida, cancelamento ou marco científico. Não converter os12 recortes em aceite integral.
+- DEFEITO REAL CONFIRMADO: Forças não herda escala150% do Atlas; abriu em100%. Corrigir em revisão0.27.2 e validar novamente pelo botão real. A prova registra requested1.5/actual1, não alegar captura150% da bancada.
+
+Próximo trabalho
+1. Corrigir a herança de escala de Forças em revisão separada, preservando o experimento antes da troca.
+2. Conferir rejeição de um recálculo: o código atual mistura configuração em edição com último resultado no desenho/salvar/exportar após falha. Reproduzir isoladamente antes de corrigir; manter resultado confirmado coerente e indicar alterações não aplicadas. Não alterar módulos científicos.
+3. Completar Forças editar/salvar/retomar/exportar/erro/retry, e Malha/Camadas retomar/importar/ramificar/recuperar pelos controles reais. Incluir Júpiter e100/150%.
+4. Só depois da curadoria funcional retomar perfis e pendências físicas do plano. Não repetir benchmarks aceitos ou recusados só para “confirmar”.
+
+Ferramentas nativas e tentativas
+Driver atual scripts/ordinary_native_input_v5.py; ação avulsa native-curation-action-v5.py; jornada aceita verify-ordinary-native-journey-v5.py (f). CDP cef_page_v2.py só lê DOM/estado; não usar Input.dispatchMouseEvent, clicks JS, valores JS ou APIs como ação primária.
+Tentativas b/c/d/e estão preservadas recusadas. Driver v1 precisava aguardar hover; v2 não emitia scancode/flag estendida para setas; v3 podia acertar botão fixo sobre um campo; v4 resolveu hit test/rolagem/foco mas dependia de Home. O GLFW/CEF local não traduz Home para VK_HOME (eventhandler.cpp); v5 usa setas relativas. A tentativa e passou10 recortes, mas falhou ao resetar escala. Não promover tentativas anteriores retroativamente.
+Capturas e ações: output/original-flow-native-20261120{a,b,c,d,e,f}. O teste f é a referência atual. A escolha de corpo e digitação passaram com entrada Windows real. Estado físico foi comparado antes/depois.
+
+Offline e fontes preservadas
+Ler CURADORIA-MALHA-CAMADAS-REVISAO-20261120.md para a revisão anterior. Staging output/original-flow-hotfix-staging-v2 aceitou22 recortes de UI isolada,4 de zoom real e14 HTTP; não repetir sem mudança. scripts/original-flow-hotfix-ui contém suas fontes.96 dependências reparadas em0.17.2/0.27 foram reconferidas. Recibos/ZIPs/cohortes antigos permanecem imutáveis.
+
+C2-14 e residência — não repetir
+C2-14 numerics20 casos/23 recusas, serviçoA e HTTPB aceitos. Candidata0.28.2, UI staging-v3, nativoC/visualC aceitos5grupos/4PNG/8saídas0; não entregue nos atalhos. Ainda é Canvas no CEF, não órbitas SceneGraph/GR dos16. C2-14 incompleto; v1 permanece7/21, IS6 incompleto, K5A recusado.
+PerfilA20261114a recusado após107 amostras por perda de par GPU semWait0. PerfilB20261114b recusado no bootstrap, zero amostras, gap0.2690311>0.25. Preservar tentativas e limites. Futuro: C2-14-ORBITAS-PERFIL-CONTRATO-20261114.md e helpers v2; correção eventual emv3 somente após os fluxos reais.
+ResidênciaF20261114b aceita10janelas/1078amostras/4saídas0; NÃO repetir. Backbone RAM/PDH/bootstrap válido. Nada disso aceita a revisão atual nem o painel integrado final.
+
+Backup e cota
+v25 local9936 arquivos, commit aea2e07dcea6302af22d4370f4b474730dc55323. v26 local10228 arquivos, commit881f835db64c9c35505f62c9fd3eff13280134f7, recibos github-source-sync-20261120c.json e github-source-local-20261120b.json. Drivers v3/v4/v5 e provas d/e/f são posteriores e precisam do próximo backup incremental. Não repetir drivers completos. Sem push/publicação/subagentes.
+Última telemetria lida2026-11-20T19:50:06.799Z:100%5h/84%semanal. A janela anterior atingira checkpoint7%, mas essa leitura é histórica. Consultar a sessão atual, nunca contexto/tokens/tempo como cota. Ao chegar8%, salvar passagem e continuar até limite/bloqueio real/fim do plano/parada explícita.
+Histórico completo anterior a esta síntese: output/handoff-archive/antes-20261120-native-f.txt. Não reler o roadmap inteiro.

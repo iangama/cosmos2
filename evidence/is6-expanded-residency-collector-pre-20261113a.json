@@ -1,0 +1,210 @@
+{
+  "schema": 5,
+  "valid": true,
+  "completed": true,
+  "failure": null,
+  "label": "pre-20261113a",
+  "session": {
+    "solarIntegrationCandidate": true,
+    "solarTidesCandidate": true,
+    "earthFieldCandidate": true,
+    "jupiterFieldCandidate": true,
+    "bodyVectorCandidate": true,
+    "bodyLinesCandidate": true,
+    "bodyViewCandidate": true,
+    "bodyViewTopologyCandidate": true,
+    "bodyMapsCandidate": true,
+    "nodeLifecycleCandidate": true,
+    "nodeLifecycleV2Candidate": true,
+    "bodyPointsCandidate": true,
+    "is4ParticleProductCandidate": true,
+    "is4WindProductCandidate": true,
+    "is5SolarZoneCandidate": true,
+    "is5ThermalZoneCandidate": true,
+    "is5Cno2ZoneCandidate": true,
+    "is5CoulombZoneCandidate": true,
+    "is5ReferenceCandidate": true,
+    "is5CompressionZoneCandidate": true,
+    "is6SpatialImportCandidate": true,
+    "is6LayersCandidate": true,
+    "is6SpatialCandidate": true,
+    "is6LayerImportCandidate": true,
+    "app": 34836,
+    "server": 19780,
+    "launcher": 13184,
+    "runtime": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream",
+    "runtimeVariant": "is4-stream",
+    "storage": "C:\\Users\\Ian\\cosmos2\\output\\is6-expanded-journey-product0.27.0\\gravity-sessions",
+    "serverScript": "C:\\Users\\Ian\\cosmos2\\output\\is6-expanded-journey-product0.27.0\\app\\server.py",
+    "cloudCandidate": false,
+    "runtimeSelectionReason": "IS6-ExpandedJourney-0.27.0-unpromoted",
+    "solarInitialFormat": "solar_sixteen_physical_centers/0.1.0",
+    "started": "2026-11-13T12:20:15Z",
+    "offline": false,
+    "coldCache": false,
+    "cache": null,
+    "launcher_script": "C:\\Users\\Ian\\cosmos2\\scripts\\launch-is6-expanded-journey-candidate.py",
+    "is6PlanetCatalogCandidate": true,
+    "is6PlanetNavigationCandidate": true,
+    "is6PrincipalMoonsCandidate": true,
+    "is6Dynamics16Candidate": true,
+    "is6ExpandedJourneyCandidate": true
+  },
+  "source_sha256": {
+    "scripts/collect_expanded_residency.py": "6a7d96ee174d77451e524031e64900d827b5c97a9c9e4fe42e2faa7984a54b5b",
+    "scripts/windows_gpu_pdh_v2.py": "9a35ebdcc93ca30c748bf64b7e849b567150d2711f615d8c22af38d284564924",
+    "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+    "scripts/expanded_residency_processes.py": "7e2ea7ab9ab17d21d2cb029fe70df5063ea39fb78c189614b628cf29a4a99611",
+    "scripts/expanded_residency_contract.py": "f64bd5bd2aef82b944c431b9df8e3611ab582e7f1287f85840f60daa25575fe0",
+    "scripts/gpu_pdh_audit_dynamics16_base.py": "40c3bfee12643895c4c026c6a639ad65cbc73056112e680cb95dac8231fdd9b5",
+    "IS-6-GPU-IDENTIDADE-PROCESSOS.md": "ecf5f20e1574e1f6f51a126a99f9a95265e0070c3a978e8a704cf2a8939f0cae",
+    "IS-6-GPU-PDH-PYTHON-CONTRATO.md": "b32b9e2bbdb3ba8981ba0041eb5b6ba809e339bf8837357b971f0cb35b6784a1",
+    "IS-6-GPU-PDH-PYTHON-TEMPO.md": "83490234ad9b949dd031812fe356594e9e8a0654625f8b300016827292791e1e",
+    "IS-6-PERCURSO-AMPLIADO16-RESIDENCIA-IDENTIDADE.md": "7deb1e7424bf495c9470f746f2029db9472e2d407afb9133dc004ff35f43dfea"
+  },
+  "engine_sha256": "9fdd461956028f8197e48149cc342096bc8b1181bd67f06bfbd9dde48c63f96d",
+  "engine_started_unix": 1794572415.1460028,
+  "pdh_generation": {
+    "schema": 1,
+    "id": "cosmos2:windows-pdh-owned-gpu-bytes",
+    "version": "0.2.0",
+    "source_sha256": {
+      "scripts/windows_gpu_pdh_v2.py": "9a35ebdcc93ca30c748bf64b7e849b567150d2711f615d8c22af38d284564924",
+      "IS-6-GPU-PDH-PYTHON-CONTRATO.md": "b32b9e2bbdb3ba8981ba0041eb5b6ba809e339bf8837357b971f0cb35b6784a1",
+      "IS-6-GPU-PDH-PYTHON-TEMPO.md": "83490234ad9b949dd031812fe356594e9e8a0654625f8b300016827292791e1e"
+    }
+  },
+  "ownership_generation": {
+    "id": "cosmos2:toolhelp-creation-time-ownership",
+    "version": "0.1.0",
+    "source_sha256": {
+      "scripts/owned_process_snapshot.py": "0d30c69abc52fcaff693493a75fb88bb3a315cb5b973c787c6b6f4854804dfb8",
+      "IS-6-GPU-IDENTIDADE-PROCESSOS.md": "ecf5f20e1574e1f6f51a126a99f9a95265e0070c3a978e8a704cf2a8939f0cae"
+    }
+  },
+  "max_samples": 3,
+  "samples": 3,
+  "data_file": "output/is6-expanded-residency-preflight-20261113a/memory.jsonl",
+  "scope": "Continuous1Hz own raw WDDM gauges and temporally proven RAM/lifetimes; unknown identities or invalid selected values refuse the whole collection. Unexposed processes are never assigned GPU zero.",
+  "process_records": [
+    {
+      "identity": {
+        "pid": 7304,
+        "parent": 34836,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134390460182360183,
+        "started_unix": 1794572418.2360182,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134390460151460028
+      },
+      "first_sample": 0,
+      "last_sample": 2,
+      "exit": null
+    },
+    {
+      "identity": {
+        "pid": 7368,
+        "parent": 34836,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134390460181284141,
+        "started_unix": 1794572418.1284142,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134390460151460028
+      },
+      "first_sample": 0,
+      "last_sample": 2,
+      "exit": null
+    },
+    {
+      "identity": {
+        "pid": 7384,
+        "parent": 19780,
+        "name": "python.exe",
+        "created_filetime": 134390460116383944,
+        "started_unix": 1794572411.6383944,
+        "executable": "C:\\Users\\Ian\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134390460115849137
+      },
+      "first_sample": 0,
+      "last_sample": 2,
+      "exit": null
+    },
+    {
+      "identity": {
+        "pid": 19780,
+        "parent": 13184,
+        "name": "python.exe",
+        "created_filetime": 134390460115849137,
+        "started_unix": 1794572411.5849137,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.tooling\\python\\Scripts\\python.exe",
+        "scope_root": true
+      },
+      "first_sample": 0,
+      "last_sample": 2,
+      "exit": null
+    },
+    {
+      "identity": {
+        "pid": 21400,
+        "parent": 34836,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134390460175056899,
+        "started_unix": 1794572417.5056899,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134390460151460028
+      },
+      "first_sample": 0,
+      "last_sample": 2,
+      "exit": null
+    },
+    {
+      "identity": {
+        "pid": 23248,
+        "parent": 34836,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134390460176106280,
+        "started_unix": 1794572417.610628,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134390460151460028
+      },
+      "first_sample": 0,
+      "last_sample": 2,
+      "exit": null
+    },
+    {
+      "identity": {
+        "pid": 34836,
+        "parent": 13184,
+        "name": "OpenSpace.exe",
+        "created_filetime": 134390460151460028,
+        "started_unix": 1794572415.1460028,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace.exe",
+        "scope_root": true
+      },
+      "first_sample": 0,
+      "last_sample": 2,
+      "exit": null
+    },
+    {
+      "identity": {
+        "pid": 36640,
+        "parent": 34836,
+        "name": "OpenSpace_Helper.exe",
+        "created_filetime": 134390460173862977,
+        "started_unix": 1794572417.3862977,
+        "executable": "C:\\Users\\Ian\\cosmos2\\.runtime-is4-stream\\bin\\OpenSpace_Helper.exe",
+        "scope_root": false,
+        "parent_created_filetime": 134390460151460028
+      },
+      "first_sample": 0,
+      "last_sample": 2,
+      "exit": null
+    }
+  ],
+  "data_sha256": "34cc993c7b9e3d7438154bc8e5e613f43d6d866775bc4f989dd0967fc88b9947"
+}

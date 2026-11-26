@@ -1,0 +1,153 @@
+--- a/src/engine/openspaceengine.cpp
++++ b/src/engine/openspaceengine.cpp
+@@ -1804,6 +1804,9 @@
+         "",
+         {
+             codegen::lua::ToggleShutdown,
++            codegen::lua::Cosmos2BeginFrameCapture,
++            codegen::lua::Cosmos2EndFrameCapture,
++            codegen::lua::Cosmos2MemoryMetrics,
+             codegen::lua::WriteDocumentation,
+             codegen::lua::SetScreenshotFolder,
+             codegen::lua::AddTag,
+--- a/src/engine/openspaceengine_lua.inl
++++ b/src/engine/openspaceengine_lua.inl
+@@ -35,11 +35,138 @@
+ #include <ghoul/misc/dictionary.h>
+ #include <ghoul/opengl/texture.h>
+ #include <array>
++#include <cmath>
+ #include <iterator>
++#include <vector>
++#ifdef WIN32
++#include <dxgi1_4.h>
++#pragma comment(lib, "dxgi.lib")
++#endif
+ 
+ using namespace openspace;
+ 
+ namespace {
++
++struct Cosmos2FrameCapture {
++    std::vector<double> samples;
++    int maximum = 0;
++    int invalid = 0;
++    bool active = false;
++    bool hookInstalled = false;
++};
++Cosmos2FrameCapture cosmos2FrameCapture;
++
++/** Starts a bounded capture of actual SGCT frame intervals, including VSync. */
++[[codegen::luawrap]] void cosmos2BeginFrameCapture(int maximum = 12000) {
++    if (maximum < 1 || maximum > 120000) {
++        throw ghoul::lua::LuaError("Frame capture capacity must be 1..120000");
++    }
++    if (!cosmos2FrameCapture.hookInstalled) {
++        global::callback::postDraw->push_back([]() {
++            if (!cosmos2FrameCapture.active) {
++                return;
++            }
++            const double dt = global::windowDelegate->deltaTime();
++            if (dt > 0.0 && std::isfinite(dt)) {
++                cosmos2FrameCapture.samples.push_back(dt);
++            }
++            else {
++                ++cosmos2FrameCapture.invalid;
++            }
++            if (cosmos2FrameCapture.samples.size() >= cosmos2FrameCapture.maximum) {
++                cosmos2FrameCapture.active = false;
++            }
++        });
++        cosmos2FrameCapture.hookInstalled = true;
++    }
++    cosmos2FrameCapture.samples.clear();
++    cosmos2FrameCapture.samples.reserve(maximum);
++    cosmos2FrameCapture.maximum = maximum;
++    cosmos2FrameCapture.invalid = 0;
++    cosmos2FrameCapture.active = true;
++}
++
++/** Stops capture and returns raw frame intervals and the current draw resolution. */
++[[codegen::luawrap]] ghoul::Dictionary cosmos2EndFrameCapture() {
++    cosmos2FrameCapture.active = false;
++    ghoul::Dictionary samples;
++    for (size_t i = 0; i < cosmos2FrameCapture.samples.size(); ++i) {
++        samples.setValue(std::to_string(i + 1), cosmos2FrameCapture.samples[i]);
++    }
++    const glm::ivec2 size = global::windowDelegate->currentDrawBufferResolution();
++    ghoul::Dictionary result;
++    result.setValue("samples_s", samples);
++    result.setValue("invalid_samples", cosmos2FrameCapture.invalid);
++    result.setValue("capacity_reached", cosmos2FrameCapture.samples.size() >= cosmos2FrameCapture.maximum);
++    result.setValue("width", size.x);
++    result.setValue("height", size.y);
++    result.setValue("source", std::string("SGCT WindowDelegate::deltaTime; frame intervals including VSync"));
++    return result;
++}
++
++/** Windows process memory and per-adapter DXGI budget; never substitutes nominal VRAM. */
++[[codegen::luawrap]] ghoul::Dictionary cosmos2MemoryMetrics() {
++    ghoul::Dictionary result;
++    result.setValue("process_private_commit_bytes", static_cast<double>(global::openSpaceEngine->ramInUse()));
++    result.setValue("capture_samples", static_cast<double>(cosmos2FrameCapture.samples.size()));
++#ifdef WIN32
++    IDXGIFactory1* factory = nullptr;
++    HRESULT status = CreateDXGIFactory1(__uuidof(IDXGIFactory1), reinterpret_cast<void**>(&factory));
++    if (FAILED(status)) {
++        result.setValue("dxgi_status", std::string("factory_error"));
++        result.setValue("hresult", static_cast<double>(status));
++        return result;
++    }
++    ghoul::Dictionary adapters;
++    for (UINT i = 0; ; ++i) {
++        IDXGIAdapter1* adapter = nullptr;
++        if (FAILED(factory->EnumAdapters1(i, &adapter))) {
++            break;
++        }
++        DXGI_ADAPTER_DESC1 description = {};
++        adapter->GetDesc1(&description);
++        if (description.Flags & DXGI_ADAPTER_FLAG_SOFTWARE) {
++            adapter->Release();
++            continue;
++        }
++        ghoul::Dictionary info;
++        char name[512] = {};
++        WideCharToMultiByte(CP_UTF8, 0, description.Description, -1, name, sizeof(name), nullptr, nullptr);
++        info.setValue("name", std::string(name));
++        info.setValue("vendor_id", static_cast<double>(description.VendorId));
++        info.setValue("nominal_dedicated_bytes", static_cast<double>(description.DedicatedVideoMemory));
++        IDXGIAdapter3* adapter3 = nullptr;
++        status = adapter->QueryInterface(__uuidof(IDXGIAdapter3), reinterpret_cast<void**>(&adapter3));
++        if (SUCCEEDED(status)) {
++            DXGI_QUERY_VIDEO_MEMORY_INFO local = {};
++            status = adapter3->QueryVideoMemoryInfo(0, DXGI_MEMORY_SEGMENT_GROUP_LOCAL, &local);
++            if (SUCCEEDED(status)) {
++                info.setValue("budget_bytes", static_cast<double>(local.Budget));
++                info.setValue("process_local_usage_bytes", static_cast<double>(local.CurrentUsage));
++                info.setValue("available_for_reservation_bytes", static_cast<double>(local.AvailableForReservation));
++                info.setValue("status", std::string("ok"));
++            }
++            else {
++                info.setValue("status", std::string("query_error"));
++                info.setValue("hresult", static_cast<double>(status));
++            }
++            adapter3->Release();
++        }
++        else {
++            info.setValue("status", std::string("adapter3_unavailable"));
++        }
++        adapters.setValue(std::to_string(i + 1), info);
++        adapter->Release();
++    }
++    factory->Release();
++    result.setValue("dxgi_status", std::string("ok"));
++    result.setValue("adapters", adapters);
++    result.setValue("scope", std::string("Current engine process; CEF and worker are separate processes"));
++#else
++    result.setValue("dxgi_status", std::string("unsupported_platform"));
++#endif
++    return result;
++}
+ 
+ /**
+  * Toggles the shutdown mode that will close the application after the countdown timer is

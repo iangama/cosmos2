@@ -1,0 +1,259 @@
+{
+  "accepted": false,
+  "completed": true,
+  "checks": [
+    {
+      "name": "roots-parity-jacobian-and-small-excess-agree-with-independent-110digit-oracle",
+      "passed": true,
+      "cases": 90,
+      "maximum_relative_magnification_error": 1.0000000000000002e-16
+    },
+    {
+      "name": "all-signed-axis-permutations-preserve-lensing-and-transform-physical-images",
+      "passed": true,
+      "cases": 48
+    },
+    {
+      "name": "joint-length-GM-scaling-and-translated-input-resolution",
+      "passed": false,
+      "failure": "Traceback (most recent call last):\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-c214-point-lens.py\", line 80, in check\n    try:values=action();proof['checks'].append(dict(name=name,passed=True,**(values or {})))\n               ^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\scripts\\verify-c214-point-lens.py\", line 124, in transforms\n    result=core.experiment(cfg);relative(result['reference']['magnification_total'],base['reference']['magnification_total'])\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\output\\c214-point-lens-staging\\point_lens.py\", line 167, in experiment\n    cfg=configuration(value)\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ian\\cosmos2\\output\\c214-point-lens-staging\\point_lens.py\", line 45, in configuration\n    require(all(abs(x)<=MAX_COORDINATE_M for x in result[name]),'Coordenada fora do orçamento de1e25m.')\n  File \"C:\\Users\\Ian\\cosmos2\\output\\c214-point-lens-staging\\point_lens.py\", line 25, in require\n    if not condition:raise ValueError(message)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Coordenada fora do orçamento de1e25m.\n"
+    },
+    {
+      "name": "alignment-and-deflection-intervention-are-explicit-and-deterministic",
+      "passed": true,
+      "alignment": "ring-with-undefined-amplification",
+      "intervention": "direct-image-unit-amplification"
+    },
+    {
+      "name": "invalid-input-planes-caustic-angle-and-secondary-impact-are-refused",
+      "passed": true,
+      "refusals": 22
+    },
+    {
+      "name": "existing-null-geodesic-reference-approaches-first-order-deflection",
+      "passed": true,
+      "cases": [
+        {
+          "impact_rs": 1000.0,
+          "exact_deflection_rad": 0.002002950587344454,
+          "first_order_deflection_rad": 0.002,
+          "relative_difference": 0.0014752936722270751
+        },
+        {
+          "impact_rs": 3000.0,
+          "exact_deflection_rad": 0.0006669941140708957,
+          "first_order_deflection_rad": 0.0006666666666666666,
+          "relative_difference": 0.0004911711063435909
+        },
+        {
+          "impact_rs": 10000.0,
+          "exact_deflection_rad": 0.00020002945796404603,
+          "first_order_deflection_rad": 0.0002,
+          "relative_difference": 0.00014728982023010854
+        }
+      ],
+      "scope": "Asymptotic deflection term only, not the complete finite-plane lens geometry."
+    },
+    {
+      "name": "sources-owner-session-selection-and-delivered-product-are-unchanged",
+      "passed": true,
+      "protected_file_sha256": {
+        "output/session.json": "a54615da122400e7de3853701708c359100f17aca25644a601f3349e184e34e5",
+        "config/local-working-product.json": "6887dfb8070d5ba4446750d4dd70e24140bc634d127d73e718fd796754ca9500"
+      }
+    }
+  ],
+  "refusals": [
+    {
+      "name": "invalid-GM-bool",
+      "error": "GM precisa ser um número real finito."
+    },
+    {
+      "name": "invalid-GM-NoneType",
+      "error": "GM precisa ser um número real finito."
+    },
+    {
+      "name": "invalid-GM-str",
+      "error": "GM precisa ser um número real finito."
+    },
+    {
+      "name": "invalid-GM-float-nonfinite",
+      "error": "GM excede a representação numérica."
+    },
+    {
+      "name": "invalid-GM-float-nonfinite",
+      "error": "GM excede a representação numérica."
+    },
+    {
+      "name": "invalid-GM-int",
+      "error": "GM precisa ser positivo; a referência material permanece definida."
+    },
+    {
+      "name": "invalid-GM-int",
+      "error": "GM precisa ser positivo; a referência material permanece definida."
+    },
+    {
+      "name": "invalid-GM-int",
+      "error": "GM excede a representação numérica."
+    },
+    {
+      "name": "unknown-field",
+      "error": "Informe somente GM e as três posições cartesianas em metros."
+    },
+    {
+      "name": "invalid-observer-vector-9",
+      "error": "observer_m precisa ter três coordenadas."
+    },
+    {
+      "name": "invalid-observer-vector-10",
+      "error": "observer_m precisa ter três coordenadas."
+    },
+    {
+      "name": "invalid-observer-vector-11",
+      "error": "observer_m excede a representação numérica."
+    },
+    {
+      "name": "invalid-observer-vector-12",
+      "error": "Coordenada fora do orçamento de1e25m."
+    },
+    {
+      "name": "coincident-observer-lens",
+      "error": "Separe observador e lente por pelo menos1m."
+    },
+    {
+      "name": "source-in-front-of-lens",
+      "error": "A fonte deve estar atrás do plano da lente, com separação de pelo menos1m."
+    },
+    {
+      "name": "source-in-lens-plane",
+      "error": "A fonte deve estar atrás do plano da lente, com separação de pelo menos1m."
+    },
+    {
+      "name": "near-nonzero-caustic-below-resolution-domain",
+      "error": "O desalinhamento precisa estar entre1e-6 e1e4 raios de Einstein. Perto da caústica, afaste a fonte ou use alinhamento exato para consultar o limite do anel."
+    },
+    {
+      "name": "finite-u-too-large",
+      "error": "O desalinhamento precisa estar entre1e-6 e1e4 raios de Einstein. Perto da caústica, afaste a fonte ou use alinhamento exato para consultar o limite do anel."
+    },
+    {
+      "name": "source-angle-too-large",
+      "error": "A posição da fonte excede o limite paraxial de0.01rad."
+    },
+    {
+      "name": "secondary-image-outside-weak-impact-domain",
+      "error": "Uma imagem passa a menos de1000rs; a aproximação fraca não admite esse caso."
+    },
+    {
+      "name": "einstein-ring-angle-or-impact-outside-domain",
+      "error": "Uma imagem excede o limite paraxial de0.01rad."
+    },
+    {
+      "name": "nonboolean-operator",
+      "error": "O controle de deflexão precisa ser booleano."
+    }
+  ],
+  "source_sha256": {
+    "output/c214-point-lens-staging/point_lens.py": "66b016e0f49e69be4c9e10613677a48f2bc7517b467b7d7d9fcd73de3380639c",
+    "C2-14-LENTE-PONTUAL-CONTRATO-20261121.md": "5ccdca32b719dc38469404db9e7676ebd027c488a580319ed635979e906fcadd",
+    "scripts/verify-c214-point-lens.py": "30fa55bcaff10c1725c1bc6fb2c37ffa0c2a5deb03d63e1054af2e38382ce12b"
+  },
+  "source_archive_sha256": "c34a293f9c6435b358d44183597e21139f946be2e68b40c5bb9ccf9905b944bf",
+  "runtime": {
+    "python": "3.12.10",
+    "mpmath": "1.3.0"
+  },
+  "scope": "CPU only, separate point-lens staging; no service, UI, native, performance or C2-14 promotion. Numerical roots/Jacobian independently recomputed at110digits. Approximation limits remain in force.",
+  "raw_model_sha256": {
+    "output/c214-point-lens-offline-20261121a/model-results/000.json": "58efef442a3c8e200fd00624a759493bbdeadccfef8623a1418ff1af8c329009",
+    "output/c214-point-lens-offline-20261121a/model-results/001.json": "d8118c3c5b87ba5f0924ad3f0968a7112d41a0a6a14dda4459588de6ca703c73",
+    "output/c214-point-lens-offline-20261121a/model-results/002.json": "59a768383718a56e4511f60e719bea58ae9fe2ee960ce7c87faeceb937e55e16",
+    "output/c214-point-lens-offline-20261121a/model-results/003.json": "b6ff5b6b1ae53d470428fd9b245b9649d9405601d575eee259d377b7cfe34e8a",
+    "output/c214-point-lens-offline-20261121a/model-results/004.json": "ab0debf0aebfada728bd7dde6f3f23ab7ac4be78a7298446a10ca04cc5e9c488",
+    "output/c214-point-lens-offline-20261121a/model-results/005.json": "d9a7953aecb65a99a4df2af59332b7aa9d242b6b815cb4f96eee3107c4ebefdf",
+    "output/c214-point-lens-offline-20261121a/model-results/006.json": "7398d103607bab7330bf2a09ff97618f176eb0d73079ad36e0037840448c08da",
+    "output/c214-point-lens-offline-20261121a/model-results/007.json": "ddf43bbebb959cbf4b7e0c151f44666eeff98c70080afd924347ccb3e05aef63",
+    "output/c214-point-lens-offline-20261121a/model-results/008.json": "72775630797c0c48fc3b6a77330143ba9f510b68721cfe5488c72d3d352da5c2",
+    "output/c214-point-lens-offline-20261121a/model-results/009.json": "22a9351b473776a3b0242b7984c95a2651838ae972cbdf3fcddf9d54abf5599a",
+    "output/c214-point-lens-offline-20261121a/model-results/010.json": "fdd01870141d12722ad5a87337d74bc674833c389b8281ec33fef8bd9bb62de9",
+    "output/c214-point-lens-offline-20261121a/model-results/011.json": "914952e5105f5651a6be396ac85c8cefea66710f76305fbe0ee3e46914cc5d32",
+    "output/c214-point-lens-offline-20261121a/model-results/012.json": "3ea0e672d6685cb9fe22410e0f237eb33075ace311f79800199a53f64ffd9d24",
+    "output/c214-point-lens-offline-20261121a/model-results/013.json": "9065860701db899effba3aff1c0fbc4fbfd435e7300eacd420fee071368d311a",
+    "output/c214-point-lens-offline-20261121a/model-results/014.json": "caafe5ce5787c752108f8d76b98e7dced65b4a2412649fb04550f45d8301b91d",
+    "output/c214-point-lens-offline-20261121a/model-results/015.json": "552942a44af327509ca0233bcd1014f7ca5186a1c2b00cfb919339587584c529",
+    "output/c214-point-lens-offline-20261121a/model-results/016.json": "d73597b6d76fb313fa157c2bfeb5885e01c3d70ed9291dc0546a478c7bf04dfe",
+    "output/c214-point-lens-offline-20261121a/model-results/017.json": "7a96a971c9a3c68a697eeeb7e6dd09fea569a64461384c404f23463bc5d1ff12",
+    "output/c214-point-lens-offline-20261121a/model-results/018.json": "b4702967ddda48f29584c4ab90fd78be8eb3addd1eb5f796adbd4b0e8c00e72a",
+    "output/c214-point-lens-offline-20261121a/model-results/019.json": "ef4d89063d6fa4818557af9569e5aadd5eb6acd69a711f411b4377ef030b1e00",
+    "output/c214-point-lens-offline-20261121a/model-results/020.json": "ec481c521ff7c2d6a4761bc0cfba500c2de6de192ea788faedd06c5fd7f3f280",
+    "output/c214-point-lens-offline-20261121a/model-results/021.json": "7bc68553179d714a2fae02ba73894bce9f4bf6834b4751a5838064e6f475f8cf",
+    "output/c214-point-lens-offline-20261121a/model-results/022.json": "e0629fce6eb26a13eb593117e0c34a76ca5678f77d0a76994fc50c80997a4ae0",
+    "output/c214-point-lens-offline-20261121a/model-results/023.json": "0950bc4371f7a7343b845947632fe4453b6f581b39055c657e334bc91a0906b3",
+    "output/c214-point-lens-offline-20261121a/model-results/024.json": "78edd064633663b9064d8958e69fbbb3d3a6048a789204c7c104ba00df549f37",
+    "output/c214-point-lens-offline-20261121a/model-results/025.json": "7179572e9e06014dd85ec1fc49e8360bf2d851b633292698cc511eb4d271ff23",
+    "output/c214-point-lens-offline-20261121a/model-results/026.json": "6e0c8aa5723328bf5288059c55d7dcc368f4b366bd9dbe15cc125625c476c571",
+    "output/c214-point-lens-offline-20261121a/model-results/027.json": "3f38b6cbec557726a7e4e112e66908df30afe2c478f7bf75870054436eba6da3",
+    "output/c214-point-lens-offline-20261121a/model-results/028.json": "103a27c3db0cc6cc15be307be083040262a00e06d084d8833860cb553946ac8a",
+    "output/c214-point-lens-offline-20261121a/model-results/029.json": "169ae7c7f41df52841d4a5e2051ab40a615a481f8c79cc0846ebbe6c84d12113",
+    "output/c214-point-lens-offline-20261121a/model-results/030.json": "d0b48ceb06da4743f11a443ecdd4bdf25e8d141a798dc6abf0397850f1210658",
+    "output/c214-point-lens-offline-20261121a/model-results/031.json": "7f4a567f465a2f46d0a210b7888d6f352c4a5d2ff90a81ccb0cb92468484551f",
+    "output/c214-point-lens-offline-20261121a/model-results/032.json": "afdaaea8f79ece46aead95af5f234fe88fececbe384da415064871ed852d24d3",
+    "output/c214-point-lens-offline-20261121a/model-results/033.json": "5fa7b0672f2a9db68c292c434275d72f02a2a76f509af3129bd5bf1127d538c8",
+    "output/c214-point-lens-offline-20261121a/model-results/034.json": "91d226884aaee75b0675d458e5de7702178b6f93a9875e83e82f0c86b1c0c44e",
+    "output/c214-point-lens-offline-20261121a/model-results/035.json": "770430b1a6c8bc835b172532f81a393660e0d9ae4c72f850d09e372ec0c8e487",
+    "output/c214-point-lens-offline-20261121a/model-results/036.json": "c06d766f04b2e5eaeda18289fc3ff1ef50358e19a575a4b26e6d3b0ca96b3a3e",
+    "output/c214-point-lens-offline-20261121a/model-results/037.json": "8f66e5bd9130c742d6f15c2cc76c106762eecfdd4ab081c7ba0ca733d32e2358",
+    "output/c214-point-lens-offline-20261121a/model-results/038.json": "b9b639e1b5bbc10042beca7b54195bb8e4306f90fb94a3be68ccc3e2fd8a0720",
+    "output/c214-point-lens-offline-20261121a/model-results/039.json": "9365506b22d7d886a752cd4c8b7e8e8f2d479329c4a528306aaee44de6c47e1c",
+    "output/c214-point-lens-offline-20261121a/model-results/040.json": "53a294f7689636ff131a7b0dd068f72c855d6382ae639dcc5b5d8c8817aad064",
+    "output/c214-point-lens-offline-20261121a/model-results/041.json": "3623292bece3e164c5b8b4093ef6380ab18548f43bbc0b8b985ba4b3344bfb93",
+    "output/c214-point-lens-offline-20261121a/model-results/042.json": "4c7ff841dc676a6e2cdc4114deb65bfc78d95a75b383058822f58372f6baf491",
+    "output/c214-point-lens-offline-20261121a/model-results/043.json": "ca1200c2f00e7506d69a4f4aa93db0e8d5a35b1c5731d880124eb8499d2ba3bc",
+    "output/c214-point-lens-offline-20261121a/model-results/044.json": "c61f4e0fa1ffc4d247d1aeaa3aa9a54ab8535fcf59eb7d6e118c562e3db9c16f",
+    "output/c214-point-lens-offline-20261121a/model-results/045.json": "de5344c4c1c09242a04ca15553566a2a14742e112de0ad66492e51e10ceaacb0",
+    "output/c214-point-lens-offline-20261121a/model-results/046.json": "4f2bb45d9a9993448c3f396501733566f95e491618265eb075937c9775bdea48",
+    "output/c214-point-lens-offline-20261121a/model-results/047.json": "e092cdab0676d99b0b58ae0da4e1385a36b4c4b21eaac63220c5a11d5df33b5e",
+    "output/c214-point-lens-offline-20261121a/model-results/048.json": "05847b8762d5ce78a779560b08fbb706c0200f772a67803aa29d7702faeed5a3",
+    "output/c214-point-lens-offline-20261121a/model-results/049.json": "270080d293157cff20e53ffcec5d53407ec288e34b5cdb4947258c78d8ff19ca",
+    "output/c214-point-lens-offline-20261121a/model-results/050.json": "539957a407da4c449632245a7edeef1178e92b1266178d0c55fb142ada90901d",
+    "output/c214-point-lens-offline-20261121a/model-results/051.json": "db0adadca7e9a46d77dc579936a1d0f229270d29db218ac7ae243fb207331c36",
+    "output/c214-point-lens-offline-20261121a/model-results/052.json": "441d228138782a87f0ee6c6e30c222d4ee8b9887c609af68ef2d13c907c6bfb5",
+    "output/c214-point-lens-offline-20261121a/model-results/053.json": "a891e24b361a0f8061238c4169c79bf9a45f30f64aefdd252262cb1f85c1611d",
+    "output/c214-point-lens-offline-20261121a/model-results/054.json": "7ad8bd690494d9bd737ca2639b1f7d6bee32cb4dab69c95559e28e64c2bd7978",
+    "output/c214-point-lens-offline-20261121a/model-results/055.json": "132e7b57b26e9c16ddef6a7026566d7ae3494d9f5af71bf772250b743108d647",
+    "output/c214-point-lens-offline-20261121a/model-results/056.json": "d3ca1c98ae1f220215c8b81e622cabc39762367f49b0b2ca5c4864e4fe8f84da",
+    "output/c214-point-lens-offline-20261121a/model-results/057.json": "527da84cc99e56399009679491448e772633bc90da875f1b1d724ea89cad9596",
+    "output/c214-point-lens-offline-20261121a/model-results/058.json": "1a4e5a63d608b31e8c28dbb74431b5d1ae5ca14be6b75edf44788751246ae5dd",
+    "output/c214-point-lens-offline-20261121a/model-results/059.json": "9c30e1a6dca591a1876763924d97ae6f4ae061e489fba62f27327582fa61a693",
+    "output/c214-point-lens-offline-20261121a/model-results/060.json": "9a90c34254d2b33e5be3e468cf1691db5a9d6184eebdfe8f0b274cabb8b20132",
+    "output/c214-point-lens-offline-20261121a/model-results/061.json": "8d5495507e4257d921fc8b53ec2ea81c3ee8505088ea7576b7f25d384a15f26a",
+    "output/c214-point-lens-offline-20261121a/model-results/062.json": "367e90399921ec8f5330465178b6a0382bf143f95bb4a3eca86e2c9ecd8765f0",
+    "output/c214-point-lens-offline-20261121a/model-results/063.json": "a7cd5b44562980ad8425ddeae453f72b936cad16119bb65a7cb9e7614a72d1ff",
+    "output/c214-point-lens-offline-20261121a/model-results/064.json": "2c5fdbc469f8b964da6fa3056c221ee0600509305644cbce3b8024465d72e3b0",
+    "output/c214-point-lens-offline-20261121a/model-results/065.json": "08fa5f0eecdda748dfa5ce0686a9e0e76fe062212805310f381c97e316d119c2",
+    "output/c214-point-lens-offline-20261121a/model-results/066.json": "92c3959d8e27f4758cbf0eeb737ac0d231de868ad5a1c226286f70337b37c17a",
+    "output/c214-point-lens-offline-20261121a/model-results/067.json": "bfb922a524aa4e8d4450dd27452ff0c1d3a169f42ab46781bf56ad0674285749",
+    "output/c214-point-lens-offline-20261121a/model-results/068.json": "ef6d3a880a195552a2eefa9e2400accafa4f7b01a2fd0163cab85f60690356d4",
+    "output/c214-point-lens-offline-20261121a/model-results/069.json": "3926e7f4b8feb55ffed7aaf31271092f6de5dd0d7698e34bd4afa2b8f8c82fef",
+    "output/c214-point-lens-offline-20261121a/model-results/070.json": "e1927577bb2c90242d4145ac1f1609ebe57cb9e680bbe51c1866206ae1925ccc",
+    "output/c214-point-lens-offline-20261121a/model-results/071.json": "1f8743a7d140c2b4aedcd17a4495375b6a92ba7635d9c17cff7efa1fb0f57fc6",
+    "output/c214-point-lens-offline-20261121a/model-results/072.json": "b63a38fc9248c7ee5afe60ea4bf2e26ad06d989c575ef0eec004817c7413b929",
+    "output/c214-point-lens-offline-20261121a/model-results/073.json": "cdcb7fe6f96132af702f5345da50dadb5e7a0a7a5d0a3b46adff9ac94e653844",
+    "output/c214-point-lens-offline-20261121a/model-results/074.json": "c6b6330a7d8d6bfbb7a523ee7c33d2216aab98940352e5ec2accd2b17d7d67d5",
+    "output/c214-point-lens-offline-20261121a/model-results/075.json": "05be8e890ebb3d2a5d506af3071f81bb0cdaed3af6d35885602fc9f37fb4f1b0",
+    "output/c214-point-lens-offline-20261121a/model-results/076.json": "ebcc3714c81d92a439f8278347257814750960085cce187fa4180abd8a5a6d5c",
+    "output/c214-point-lens-offline-20261121a/model-results/077.json": "c6293096d9c02defe8d1a0bd779615edf23002ced855d8d8bf0a53b1d279a2f9",
+    "output/c214-point-lens-offline-20261121a/model-results/078.json": "3c3c34f979b2cbe30add48e0f1964d0b00af68e2dc271b18ace65912a00da5f4",
+    "output/c214-point-lens-offline-20261121a/model-results/079.json": "f501a64fc3977e7f4ed1f3469611c9cccb6447a13ee675b215a66a58271e7c0e",
+    "output/c214-point-lens-offline-20261121a/model-results/080.json": "a40affe40b02ee292a6253b1369d1962a810f59c6735b524d90365f73464a1d6",
+    "output/c214-point-lens-offline-20261121a/model-results/081.json": "054c7263226965263024c154af7892adee95bf6cdd317842446bdff8e818a47d",
+    "output/c214-point-lens-offline-20261121a/model-results/082.json": "3f7c49ea0b04d6ed868837aecc77240a3539b3192e64375666c008e767061302",
+    "output/c214-point-lens-offline-20261121a/model-results/083.json": "e601175a3ab74076227d59a2cf4ef9de1da7551835cc94c18b7a850e86e9dccc",
+    "output/c214-point-lens-offline-20261121a/model-results/084.json": "d3d368cab73dc80b27a387d7d1381cbe8f684f98fcb30d00ab8551cf1e5327c1",
+    "output/c214-point-lens-offline-20261121a/model-results/085.json": "12dc7febf67786d22f82c0c3cc6132f01ea9172ff004024f385b915de406ccb7",
+    "output/c214-point-lens-offline-20261121a/model-results/086.json": "8225474c79b2c8c45799fc24aa140fc5c7cb88b7dd3a1fcc27009b1577fb95fa",
+    "output/c214-point-lens-offline-20261121a/model-results/087.json": "61db4eb19e0a7c0217676b32ef403c67d810d570f78dfd25a65ce81cdd952255",
+    "output/c214-point-lens-offline-20261121a/model-results/088.json": "d1a477a042712af16cc383511b4d8366a904b276c88d8f2d159892e2be7f2d64",
+    "output/c214-point-lens-offline-20261121a/model-results/089.json": "b7042cb9b1ec07ea7e9d02e6846b108169bab5199437b043d039053e8cbb269e"
+  }
+}
